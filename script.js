@@ -4,6 +4,8 @@ async function loadGraph() {
   const gexfText = await response.text();
   const parser = new DOMParser();
   const xml = parser.parseFromString(gexfText, "application/xml");
+
+  // Usar la librería correctamente cargada como 'gexf' (no graphologyGEXF)
   const graph = window.gexf.parse(xml);
 
   const container = document.getElementById("sigma-container");
