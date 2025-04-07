@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Red Goya</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/graphology@0.25.1/dist/graphology.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/graphology-gexf@0.8.0/browser.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sigma@2.3.0/build/sigma.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Red Goya</h1>
+    <p>Visualización interactiva de relaciones entre personas vinculadas a Goya</p>
+  </header>
+  <main style="display: flex; height: 70vh;">
+    <div id="sigma-container" style="flex: 2;"></div>
+    <div id="info-panel" style="flex: 1; padding: 1rem; background-color: #f5f5f5; overflow-y: auto;">
+      <p>Haz clic en un nodo o conexión para ver detalles.</p>
+    </div>
+  </main>
+  <section id="form-section" style="padding: 1rem; background-color: #eee;">
+    <h2>Sugerencias</h2>
+    <form action="https://formspree.io/f/moqozbny" method="POST">
+      <label>Tu nombre:<br><input type="text" name="name" required></label><br>
+      <label>Tu correo:<br><input type="email" name="email" required></label><br>
+      <label>Mensaje o sugerencia:<br><textarea name="message" rows="5" required></textarea></label><br>
+      <button type="submit">Enviar sugerencia</button>
+    </form>
+  </section>
+  <footer style="padding: 1rem; text-align: center; background-color: #222; color: white;">
+    <p>&copy; 2025 Red Goya. Todos los derechos reservados. Prohibida la reproducción sin citar la fuente. Proyecto protegido por copyright (España).</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

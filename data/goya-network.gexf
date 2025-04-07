@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="image" title="image" type="string"/>
+      <attribute id="profession" title="Profession" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1" label="Francisco de Goya">
+        <attvalues>
+          <attvalue for="image" value="https://raw.githubusercontent.com/PFayosP/GoyaNetwork/main/img/goya.jpg"/>
+          <attvalue for="profession" value="Painter"/>
+        </attvalues>
+      </node>
+      <node id="2" label="Leandro Fernández">
+        <attvalues>
+          <attvalue for="profession" value="Poet"/>
+        </attvalues>
+      </node>
+      <node id="3" label="Isabel de Borbón">
+        <attvalues>
+          <attvalue for="profession" value="Queen"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1" source="1" target="2" />
+      <edge id="2" source="1" target="3" />
+    </edges>
+  </graph>
+</gexf>
