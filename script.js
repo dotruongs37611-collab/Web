@@ -4,7 +4,7 @@ async function loadGraph() {
   const gexfText = await response.text();
   const parser = new DOMParser();
   const xml = parser.parseFromString(gexfText, "application/xml");
-  const graph = window.graphologyGEXF.parse(xml);
+  const graph = window.gexf.parse(xml);
 
   const container = document.getElementById("sigma-container");
   const renderer = new sigma.Sigma(graph, container);
