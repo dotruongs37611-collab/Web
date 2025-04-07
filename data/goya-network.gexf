@@ -11,16 +11,22 @@
           <attvalue for="image" value="https://raw.githubusercontent.com/PFayosP/GoyaNetwork/main/img/goya.jpg"/>
           <attvalue for="profession" value="Painter"/>
         </attvalues>
+        <viz:position x="0" y="0" z="0" xmlns:viz="http://www.gexf.net/1.2draft/viz"/>
+        <viz:size value="10" xmlns:viz="http://www.gexf.net/1.2draft/viz"/>
       </node>
       <node id="2" label="Leandro Fernández">
         <attvalues>
           <attvalue for="profession" value="Poet"/>
         </attvalues>
+        <viz:position x="100" y="100" z="0" xmlns:viz="http://www.gexf.net/1.2draft/viz"/>
+        <viz:size value="5" xmlns:viz="http://www.gexf.net/1.2draft/viz"/>
       </node>
       <node id="3" label="Isabel de Borbón">
         <attvalues>
           <attvalue for="profession" value="Queen"/>
         </attvalues>
+        <viz:position x="-100" y="-50" z="0" xmlns:viz="http://www.gexf.net/1.2draft/viz"/>
+        <viz:size value="5" xmlns:viz="http://www.gexf.net/1.2draft/viz"/>
       </node>
     </nodes>
     <edges>
