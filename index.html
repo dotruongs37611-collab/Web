@@ -31,6 +31,40 @@
             text-align: center;
             margin-bottom: 20px;
         }
+        #form-section {
+            padding: 1rem;
+            background-color: #eee;
+            margin-top: 20px;
+        }
+        #form-section form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #form-section label {
+            display: block;
+            margin-top: 10px;
+        }
+        #form-section input,
+        #form-section textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        #form-section textarea {
+            min-height: 100px;
+        }
+        #form-section button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #form-section button:hover {
+            background-color: #45a049;
+        }
         footer {
             padding: 1rem;
             text-align: center;
@@ -42,12 +76,22 @@
 </head>
 <body>
     <div class="header">
-        <h1>The Goya Network</h1>
+        <h1>Goya Network</h1>
         <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
     </div>
     
     <div id="network"></div>
     <div id="nodeInfo">Click on a node to see details</div>
+
+    <section id="form-section">
+        <h2>Contributions</h2>
+        <form action="https://formspree.io/f/moqozbny" method="POST">
+            <label>Name:<br><input type="text" name="name" required></label><br>
+            <label>Email:<br><input type="email" name="email" required></label><br>
+            <label>Message or suggestion:<br><textarea name="message" rows="5" required></textarea></label><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
     <footer>
         <p>&copy; 2025 Red Goya - Paula Fayos Pérez. Todos los derechos reservados. Proyecto protegido por copyright (España).</p>
