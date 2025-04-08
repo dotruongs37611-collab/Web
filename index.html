@@ -1,85 +1,59 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goya Network</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-color: #4a6fa5;
-            --secondary-color: #166088;
-            --text-color: #333;
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        const nodeInfo = document.getElementById('nodeInfo');
+        
+        // 1. Cargar datos
+        nodeInfo.innerHTML = "<p>Cargando datos de la red...</p>";
+        const response = await fetch('goya_network.json');
+        
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status}`);
         }
         
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: var(--text-color);
-        }
-        
-        .header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 1.5rem;
-            text-align: center;
-        }
-        
-        .main-container {
-            padding: 1rem;
-        }
-        
-        #network {
-            width: 100%;
-            height: 70vh;
-            min-height: 500px;
-            border: 1px solid #ddd;
-        }
-        
-        #nodeInfo {
-            padding: 1rem;
-            border: 1px solid #ddd;
-            margin-top: 1rem;
-        }
-        
-        footer {
-            padding: 1rem;
-            text-align: center;
-            background-color: #222;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <div class="header">
-        <h1>Goya Network</h1>
-        <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
-    </div>
-    
-    <div class="main-container">
-        <!-- Aquí irían tus controles de búsqueda y filtros si los tienes -->
-        
-        <!-- Contenedor de la red -->
-        <div id="network"></div>
-        
-        <!-- Panel de información -->
-        <div id="nodeInfo">
-            <p>Click on a node to see details</p>
-        </div>
-        
-        <!-- Aquí iría tu sección de contribuciones -->
-        <section id="form-section">
-            <!-- Tu formulario aquí -->
-        </section>
-    </div>
+        const data = await response.json();
+        nodeInfo.innerHTML = `<p>Datos cargados: ${data.nodes.length} nodos, ${data.edges.length} conexiones</p>`;
 
-    <footer>
-        <p>&copy; 2025 Red Goya - Paula Fayos Pérez. Todos los derechos reservados.</p>
-    </footer>
+        // 2. Preparar datos
+        const nodes = new vis.DataSet(data.nodes.map(node => ({
+            ...node,
+            font: { size: 12, strokeWidth: 3, strokeColor: '#ffffff' },
+            size: 16,
+            shape: 'dot'
+        })));
+        
+        const edges = new vis.DataSet(data.edges);
 
-    <!-- Scripts al final -->
-    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <script src="network.js"></script>
-</body>
-</html>
+        // 3. Crear red
+        const container = document.getElementById('network');
+        const network = new vis.Network(container, { nodes, edges }, {
+            nodes: {
+                borderWidth: 2,
+                color: {
+                    border: '#2B7CE9',
+                    background: '#97C2FC',
+                    highlight: { border: '#2B7CE9', background: '#D2E5FF' }
+                }
+            },
+            edges: {
+                width: 1,
+                color: { color: '#848484', highlight: '#FF0000' }
+            },
+            physics: {
+                stabilization: { iterations: 1000 }
+            }
+        });
+
+        // 4. Mostrar cuando esté listo
+        network.once('stabilizationIterationsDone', () => {
+            network.fit({ animation: { duration: 1000 } });
+            nodeInfo.innerHTML = '<p>Haz clic en un nodo para ver detalles</p>';
+        });
+
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('nodeInfo').innerHTML = `
+            <p class="error">Error cargando la red: ${error.message}</p>
+            <p>Verifica que el archivo JSON esté en la ubicación correcta</p>
+        `;
+    }
+});
