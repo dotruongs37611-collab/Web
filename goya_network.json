@@ -3,10 +3,10 @@
     {
       "id": "Goya",
       "label": "GOYA",
-      "profession": "painter, draughtsman, engraver",
+      "group": "painter, draughtsman, engraver",
       "life dates": "1746-1828",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetwork/refs/heads/main/Goya%20Met%20-%20no%20copyright.jpg",
-      "title": ""
+      "title": "Francisco de Goya y Lucientes (1746-1828)"
     },
     {
       "id": "Javier Goya",
