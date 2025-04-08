@@ -1,30 +1,34 @@
 {
   "nodes": [
     {
-      "id": "Goya",
+      "id": "Francisco de Goya y Lucientes",
       "label": "GOYA",
-      "group": "painter, draughtsman, engraver",
-      "life dates": "1746-1828",
+      "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
-      "title": "Francisco de Goya y Lucientes (1746-1828)"
+      "title": "Francisco de Goya y Lucientes"
+      "life dates": "1746-1828",
+      "Author of": "The Naked Maja, The Third of May 1808",
+      "Portrayed by": ["Vicente López", "Francisco de Goya y Lucientes"]
     },
     {
       "id": "Javier Goya",
       "label": "Javier Goya",
-      "group": "person",
-      "title": ""
+      "profession": "unknown",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Javier_Goya.jpg",
+      "Life dates": "1784-1854"
+      "Portrayed by": "Francisco de Goya y Lucientes"
     },
     {
       "id": "Mariano Goya",
       "label": "Mariano Goya",
-      "group": "person",
-      "title": ""
     },
     {
       "id": "Martín Zapater",
       "label": "Zapater",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martin_Zapater.jpg",
+      "Life dates": "1746-1803",
+      "Relationship to Goya": "Best friend",
+      "Correspondence": "Extensive letters with Goya"
     },
     {
       "id": "Federico Madrazo",
@@ -487,17 +491,20 @@
     {
       "from": "Goya",
       "to": "Mariano Goya",
-      "label": ""
+      "Relationship type": "family members"
     },
     {
       "from": "Goya",
       "to": "Javier Goya",
-      "label": ""
+      "Relationship type": "family members"
     },
     {
       "from": "Goya",
       "to": "Martín Zapater",
-      "label": ""
+      "Relationship type": "Friendship",
+      "Know each other since": "1765",
+      "Correspondence": "1765-1803",
+      "Portraits": "Goya painted Zapater"
     },
     {
       "from": "Goya",
