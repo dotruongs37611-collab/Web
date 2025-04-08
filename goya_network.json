@@ -34,11 +34,11 @@
     {
       "id": "Federico Madrazo",
       "label": "F. Madrazo",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg"
     },
     {
       "id": "Valentín Carderera",
-      "label": "Carderera",
+      "label": "Carderera"
     },
     {
       "id": "José Madrazo",
@@ -50,7 +50,7 @@
     },
     {
       "id": "Adrien Dauzats",
-      "label": "Dauzats",
+      "label": "Dauzats"
     },
     {
       "id": "Pharamond Blanchard",
@@ -66,8 +66,7 @@
     },
     {
       "id": "Prosper Mérimée",
-      "label": "Mérimée",
-      
+      "label": "Mérimée"
     },
     {
       "id": "Ferdinand Guillemardet",
