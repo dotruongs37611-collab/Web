@@ -43,7 +43,9 @@
             left: 10px;
             height: 60px;
             max-width: 120px;
-            filter: brightness(0) invert(1); /* Makes logo white */
+            /* Remove filter and use drop-shadow instead */
+            filter: drop-shadow(0 0 2px rgba(255,255,255,0.7));
+            background-color: transparent;
         }
         
         .main-container {
