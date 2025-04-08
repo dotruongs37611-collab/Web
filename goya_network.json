@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "Francisco de Goya y Lucientes",
-      "label": "GOYA",
+      "label": "Goya",  // Use this consistently
       "group": "person",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
@@ -490,7 +490,7 @@
   ],
   "edges": [
     {
-      "from": "Goya",
+      "from": "Goya", // Use this consistently
       "to": "Mariano Goya",
       "Relationship type": "family members"
     },
