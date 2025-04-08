@@ -5,10 +5,10 @@
 const nodes = new vis.DataSet([
     // Salamanca group
     { id: 1, label: "Salamanca", group: "location", title: "Location" },
-    { id: 2, label: "Madraza", group: "person" },
-    { id: 3, label: "Madrata", group: "person" },
-    { id: 4, label: "R. Madrata", group: "person" },
-    { id: 5, label: "Garetta", group: "person" },
+    { id: 2, label: "Madrazo", group: "person" },
+    { id: 3, label: "Carderera", group: "person" },
+    { id: 4, label: "Taylor", group: "person" },
+    { id: 5, label: "Dauzats", group: "person" },
     
     // Yrinte group
     { id: 6, label: "Yrinte", group: "location", title: "Location" },
@@ -19,7 +19,7 @@ const nodes = new vis.DataSet([
     // Montgolfier group (largest)
     { id: 20, label: "Montgolfier", group: "location", title: "Location" },
     { id: 21, label: "Burty", group: "person" },
-    { id: 22, label: "Mattharpa", group: "person" },
+    { id: 22, label: "Taylor", group: "person" },
     // Add all Montgolfier members...
     
     // V. López group
@@ -31,12 +31,12 @@ const nodes = new vis.DataSet([
 
 // Create edges array
 const edges = new vis.DataSet([
-    { from: 1, to: 2 }, // Salamanca to Madraza
+    { from: 1, to: 2 }, // Salamanca to Madrazo
     { from: 1, to: 3 },
     { from: 1, to: 4 },
     { from: 1, to: 5 },
     
-    { from: 6, to: 7 }, // Yrinte to Brunet
+    { from: 6, to: 7 }, // Carderera to Brunet
     { from: 6, to: 8 },
     // Add more connections...
     
@@ -49,7 +49,7 @@ const edges = new vis.DataSet([
     // Add all V. López connections...
     
     // Add some cross-group connections to show relationships
-    { from: 2, to: 7 }, // Madraza to Brunet
+    { from: 2, to: 7 }, // Madrazo to Brunet
     { from: 21, to: 41 }, // Burty to Moratin
 ]);
 
