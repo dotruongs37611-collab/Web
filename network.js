@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         const nodeInfo = document.getElementById('nodeInfo');
         
         // 1. Cargar datos
-        nodeInfo.innerHTML = "<p>Cargando datos de la red...</p>";
+        nodeInfo.innerHTML = '<p>Cargando datos de la red...</p>';
         const response = await fetch('goya_network.json');
         
         if (!response.ok) {
@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     } catch (error) {
         console.error('Error:', error);
         document.getElementById('nodeInfo').innerHTML = `
-            <p class="error">Error cargando la red: ${error.message}</p>
-            <p>Verifica que el archivo JSON esté en la ubicación correcta</p>
+            <p style="color:red;font-weight:bold">Error cargando la red: ${error.message}</p>
+            <p>Verifica la consola para más detalles (F12 > Console)</p>
         `;
     }
 });
