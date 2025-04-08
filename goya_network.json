@@ -37,431 +37,378 @@
     },
     {
       "id": "Valentín Carderera",
-      "label": "Carderera"
+      "label": "Carderera",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg"
     },
     {
       "id": "José Madrazo",
-      "label": "J. Madrazo"
+      "label": "J. Madrazo",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
     },
     {
       "id": "Baron Taylor",
-      "label": "Taylor"
+      "label": "Taylor",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg"
     },
     {
       "id": "Adrien Dauzats",
-      "label": "Dauzats"
+      "label": "Dauzats",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg"
     },
     {
       "id": "Pharamond Blanchard",
       "label": "Blanchard",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg"
     },
     {
       "id": "Eugenio Ochoa",
       "label": "Ochoa",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
     },
     {
       "id": "Prosper Mérimée",
-      "label": "Mérimée"
+      "label": "Mérimée",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg"
     },
     {
       "id": "Ferdinand Guillemardet",
-      "label": "Ferdinand Guillemardet"
+      "label": "Ferdinand Guillemardet",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg"
     },
     {
       "id": "Eugène Delacroix",
-      "label": "Delacroix"
+      "label": "Delacroix",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg"
     },
     {
       "id": "Félix Guillemardet",
-      "label": "Félix Guillemardet"
+      "label": "Félix Guillemardet",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Felix_Guillemardet.jpg"
     },
     {
       "id": "Antonio de Brugada",
       "label": "Brugada",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brugada_AI.jpg"
     },
     {
       "id": "Juan Agustín Ceán Bermúdez",
       "label": "Ceán Bermúdez",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cean_Bermudez.jpg"
     },
     {
       "id": "Joaquín María Ferrer",
       "label": "Ferrer",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferrer.jpg"
     },
     {
       "id": "Agustín Esteve",
       "label": "Esteve",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Esteve.jpg"
     },
     {
       "id": "Leandro Fernández de Moratín",
       "label": "Moratín",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg"
     },
     {
       "id": "Manuel Godoy",
       "label": "Godoy",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg"
     },
     {
       "id": "Cyprien Gaulon",
       "label": "Gaulon",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg"
     },
     {
       "id": "Laurent Matheron",
       "label": "Matheron",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg"
     },
     {
       "id": "Frédéric Villot",
       "label": "Villot",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
     },
     {
       "id": "Achille Devéria",
       "label": "Devéria",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg"
     },
     {
       "id": "Louis Boulanger",
       "label": "Boulanger",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Boulanger.jpg"
     },
     {
       "id": "Antoine Fontaney",
       "label": "Fontaney",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
     },
     {
       "id": "Victor Hugo",
       "label": "Hugo",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
     {
       "id": "Théophile Gautier",
       "label": "Gautier",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
     },
     {
       "id": "Honoré de Balzac",
       "label": "Balzac",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg"
     },
     {
       "id": "Alexandre Dumas père",
       "label": "Dumas",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
     },
     {
       "id": "Charles Nodier",
       "label": "Nodier",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg"
     },
     {
       "id": "Astolphe-Louis-Léonor, Marquis de Custine",
       "label": "Custine",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
     },
     {
       "id": "Adélaïde de Montgolfier",
       "label": "Montgolfier",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
     },
     {
       "id": "Pierre Lacour",
       "label": "P. Lacour père",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour.jpg"
     },
     {
       "id": "George Sand",
       "label": "George Sand",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg"
     },
     {
       "id": "Alfred de Musset",
       "label": "Musset",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Musset.jpg"
     },
     {
       "id": "Philippe Burty",
       "label": "Burty",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg"
     },
     {
       "id": "Charles Blanc",
       "label": "Blanc",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanc.jpg"
     },
     {
       "id": "Nicolas Philippe Guye",
       "label": "N. Guye",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nicolas_Guye.jpg"
     },
     {
       "id": "Victor Guye",
       "label": "V. Guye",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Victor_Guye.jpg"
     },
     {
       "id": "Dominique Vivant Denon",
       "label": "Vivant Denon",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg"
     },
     {
       "id": "Eugène Piot",
       "label": "Piot",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Piot.jpg"
     },
     {
       "id": "Vicente López",
       "label": "V. López",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lopez.jpg"
     },
     {
       "id": "Paul Lefort",
       "label": "Lefort",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg"
     },
     {
       "id": "Gustave Brunet",
       "label": "Brunet",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg"
     },
     {
       "id": "Román Garreta y Huerta",
       "label": "Garreta",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg"
     },
     {
       "id": "Leocadia Zorrilla y Galarza",
       "label": "Leocadia",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Leocadia_AI.jpg"
     },
     {
       "id": "Rosario Weiss Zorrilla",
       "label": "Rosario Weiss",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg"
     },
     {
       "id": "Josefa Bayeu y Subías",
       "label": "Josefa Bayeu",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Josefa_Bayeu.jpg"
     },
     {
       "id": "Sebastián Martínez y Pérez",
       "label": "S. Martínez",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg"
     },
     {
       "id": "[J./L.] Carresse",
       "label": "Carresse",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg"
     },
     {
       "id": "Charles Yriarte",
       "label": "Yriarte",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Yriarte.jpg"
     },
     {
       "id": "Pierre Lacour fils",
       "label": "P. Lacour fils",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour_fils.jpg"
     },
     {
       "id": "José de Salamanca y Mayol (I Marqués de Salamanca)",
       "label": "Salamanca",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
     },
     {
       "id": "Sophie Gay",
       "label": "Sophie Gay",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sophie_Gay.jpg"
     },
     {
       "id": "Charles Baudelaire",
       "label": "Baudelaire",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Baudelaire.jpg"
     },
     {
       "id": "Alphonse de Lamartine",
       "label": "Lamartine",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lamartine.jpg"
     },
     {
       "id": "Juliette Récamier",
       "label": "Récamier",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Recamier.jpg"
     },
     {
       "id": "Théophile Thoré",
       "label": "Thoré",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg"
     },
     {
       "id": "Stendhal (Henri Beyle)",
       "label": "Stendhal",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
     },
     {
       "id": "Charles-Augustin Sainte-Beuve",
       "label": "Sainte-Beuve",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sainte_Beuve.jpg"
     },
     {
       "id": "Gustave Flaubert",
       "label": "Flaubert",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Flaubert.jpg"
     },
     {
       "id": "Madame Ewelina Hanska",
       "label": "Hanska",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hanska.jpg"
     },
     {
       "id": "Fortunée Hamelin",
       "label": "Hamelin",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg"
     },
     {
       "id": "Louise Swanton Belloc",
       "label": "Swanton-Belloc",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Swanton_Belloc.jpg"
     },
     {
       "id": "Anne-Louise Germaine Necker (Madame de Staël)",
       "label": "Staël",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg"
     },
     {
       "id": "Pedro de Madrazo y Kuntz",
-      "label": "P. Madrazo"
+      "label": "P. Madrazo",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
     },
     {
       "id": "Luis Madrazo",
-      "label": "L. Madrazo"
+      "label": "L. Madrazo",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Madrazo.jpg"
     },
     {
       "id": "Raimundo Madrazo",
       "label": "R. Madrazo",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
     },
     {
       "id": "Louis Viardot",
       "label": "Viardot",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
     },
     {
       "id": "Jacques Galos",
       "label": "Galos",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
     },
     {
       "id": "Jean-Auguste-Dominique Ingres",
       "label": "Ingres",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ingres.jpg"
     },
     {
       "id": "Achille Ricourt",
       "label": "Ricourt",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ricourt.jpg"
     },
     {
       "id": "Honoré Daumier",
       "label": "Daumier",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg"
     },
     {
       "id": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "label": "Grandville",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Grandville.jpg"
     },
     {
       "id": "Juan Antonio Melón",
       "label": "Melón",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Melon.jpg"
     },
     {
       "id": "Antoine-Jean Gros",
       "label": "Gros",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gros.jpg"
     },
     {
       "id": "Paul Delaroche",
       "label": "Delaroche",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delaroche.jpg"
     },
     {
       "id": "Jacques-Louis David",
       "label": "David",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/David.jpg"
     }
   ],
   "edges": [
