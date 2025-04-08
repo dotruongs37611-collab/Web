@@ -1,5 +1,5 @@
 // Obtener los datos del archivo GEXF desde GitHub
-const gexfUrl = 'https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/data/goya-network.gexf';
+const gexfUrl = 'https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/data/goya-network-7-4-25-force-directed-80-nodes-200-edges.gexf';
 
 // Cargar el archivo GEXF
 fetch(gexfUrl)
