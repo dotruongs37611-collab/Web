@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "Francisco de Goya y Lucientes",
-      "label": "Goya",  // Use this consistently
+      "label": "Goya",
       "group": "person",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
@@ -13,7 +13,7 @@
     },
     {
       "id": "Javier Goya",
-      "label": "Javier Goya",
+      "label": "J. Goya",
       "profession": "unknown",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Javier_Goya.jpg",
       "Life dates": "1784-1854",
@@ -21,7 +21,7 @@
     },
     {
       "id": "Mariano Goya",
-      "label": "Mariano Goya"
+      "label": "M. Goya"
     },
     {
       "id": "Martín Zapater",
@@ -34,32 +34,23 @@
     {
       "id": "Federico Madrazo",
       "label": "F. Madrazo",
-      "group": "person",
-      "title": ""
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
     },
     {
       "id": "Valentín Carderera",
       "label": "Carderera",
-      "group": "person",
-      "title": ""
     },
     {
       "id": "José Madrazo",
       "label": "J. Madrazo",
-      "group": "person",
-      "title": ""
     },
     {
       "id": "Baron Taylor",
       "label": "Taylor",
-      "group": "person",
-      "title": ""
     },
     {
       "id": "Adrien Dauzats",
       "label": "Dauzats",
-      "group": "person",
-      "title": ""
     },
     {
       "id": "Pharamond Blanchard",
@@ -76,8 +67,7 @@
     {
       "id": "Prosper Mérimée",
       "label": "Mérimée",
-      "group": "person",
-      "title": ""
+      
     },
     {
       "id": "Ferdinand Guillemardet",
@@ -490,18 +480,18 @@
   ],
   "edges": [
     {
-      "from": "Goya", // Use this consistently
-      "to": "Mariano Goya",
+      "from": "Goya",
+      "to": "M. Goya",
       "Relationship type": "family members"
     },
     {
       "from": "Goya",
-      "to": "Javier Goya",
+      "to": "J. Goya",
       "Relationship type": "family members"
     },
     {
       "from": "Goya",
-      "to": "Martín Zapater",
+      "to": "Zapater",
       "Relationship type": "Friendship",
       "Know each other since": "1765",
       "Correspondence": "1765-1803",
@@ -509,32 +499,32 @@
     },
     {
       "from": "Goya",
-      "to": "José Madrazo",
+      "to": "J. Madrazo",
       "label": ""
     },
     {
       "from": "Goya",
-      "to": "Ferdinand Guillemardet",
+      "to": "F. Guillemardet",
       "label": ""
     },
     {
       "from": "Goya",
-      "to": "Antonio de Brugada",
+      "to": "Brugada",
       "label": ""
     },
     {
       "from": "Goya",
-      "to": "Juan Agustín Ceán Bermúdez",
+      "to": "Ceán Bermúdez",
       "label": ""
     },
     {
       "from": "Goya",
-      "to": "Joaquín María Ferrer",
+      "to": "Ferrer",
       "label": ""
     },
     {
       "from": "Goya",
-      "to": "Agustín Esteve",
+      "to": "Esteve",
       "label": ""
     },
     {
