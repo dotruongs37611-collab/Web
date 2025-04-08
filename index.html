@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --primary-color: #4a6fa5;
-            --secondary-color: #166088;
+            --primary-color: #000000;  /* Changed to black */
+            --secondary-color: #333333;
             --accent-color: #4fc3f7;
-            --text-color: #333;
-            --light-bg: #f5f5f5;
-            --dark-bg: #222;
+            --text-color: #ffffff;     /* Changed to white */
+            --light-bg: #1a1a1a;      /* Dark gray */
+            --dark-bg: #000000;       /* Black */
+            --card-bg: #222222;       /* Dark card background */
         }
         
         body {
@@ -24,6 +25,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            background-color: var(--dark-bg);
         }
         
         .header {
@@ -32,7 +34,7 @@
             color: white;
             padding: 1.5rem;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
         }
         
         .logo {
@@ -41,6 +43,7 @@
             left: 10px;
             height: 60px;
             max-width: 120px;
+            filter: brightness(0) invert(1); /* Makes logo white */
         }
         
         .main-container {
@@ -48,6 +51,7 @@
             flex-direction: column;
             flex-grow: 1;
             padding: 1rem;
+            background-color: var(--dark-bg);
         }
         
         .controls {
@@ -60,12 +64,22 @@
             border-radius: 5px;
         }
         
+        .control-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .control-group h3 {
+            margin-top: 0;
+            color: var(--accent-color);
+        }
+        
         #network-container {
             flex-grow: 1;
-            border: 1px solid #ddd;
+            border: 1px solid #444;
             border-radius: 5px;
             overflow: hidden;
-            background-color: white;
+            background-color: var(--card-bg);
             position: relative;
         }
         
@@ -73,16 +87,18 @@
             width: 100%;
             height: 70vh;
             min-height: 500px;
+            background-color: var(--card-bg);
         }
         
         #nodeInfo {
             padding: 1rem;
-            background-color: white;
-            border: 1px solid #ddd;
+            background-color: var(--card-bg);
+            border: 1px solid #444;
             border-radius: 5px;
             margin-top: 1rem;
             max-height: 300px;
             overflow-y: auto;
+            color: var(--text-color);
         }
         
         #nodeInfo img {
@@ -90,6 +106,7 @@
             max-height: 200px;
             margin-right: 1rem;
             float: left;
+            border: 1px solid #444;
         }
         
         #legend {
@@ -102,8 +119,8 @@
         footer {
             padding: 1rem;
             text-align: center;
-            background-color: var(--dark-bg);
-            color: white;
+            background-color: var(--primary-color);
+            color: var(--text-color);
             margin-top: 2rem;
         }
         
@@ -123,16 +140,20 @@
         #form-section label {
             display: block;
             margin-top: 10px;
+            color: var(--text-color);
         }
         
         #form-section input,
-        #form-section textarea {
+        #form-section textarea,
+        #form-section select {
             width: 100%;
             padding: 8px;
             margin-top: 5px;
             box-sizing: border-box;
-            border: 1px solid #ddd;
+            border: 1px solid #444;
             border-radius: 4px;
+            background-color: #333;
+            color: white;
         }
         
         #form-section textarea {
@@ -150,7 +171,14 @@
         }
         
         #form-section button:hover {
-            background-color: var(--primary-color);
+            background-color: var(--accent-color);
+        }
+        
+        /* Vis.js network styling */
+        .vis-tooltip {
+            background-color: var(--light-bg) !important;
+            color: var(--text-color) !important;
+            border: 1px solid #444 !important;
         }
         
         @media (max-width: 768px) {
@@ -197,18 +225,26 @@
             
             <div class="control-group">
                 <h3>Filters</h3>
-                <select id="locationFilter">
-                    <option value="">All Locations</option>
-                    <option value="Salamanca">Salamanca</option>
-                    <option value="Yriarte">Yriarte</option>
-                    <option value="Montgolfier">Montgolfier</option>
-                    <option value="V. López">V. López</option>
+                <select id="countryFilter">
+                    <option value="">All Countries</option>
+                    <option value="Spain">Spain</option>
+                    <option value="France">France</option>
                 </select>
-                <select id="timeFilter">
-                    <option value="">All Periods</option>
-                    <option value="18th">18th Century</option>
-                    <option value="19th">19th Century</option>
-                    <option value="20th">20th Century</option>
+                <select id="professionFilter">
+                    <option value="">All Professions</option>
+                    <option value="writer">Writers</option>
+                    <option value="artist">Artists</option>
+                    <option value="politician">Politicians</option>
+                    <option value="socialite">Socialité</option>
+                    <option value="collector">Collectors</option>
+                </select>
+                <select id="relationshipFilter">
+                    <option value="">All Relationships</option>
+                    <option value="friend">Friends</option>
+                    <option value="colleague">Colleagues</option>
+                    <option value="family">Family Members</option>
+                    <option value="patron">Patrons</option>
+                    <option value="student">Students</option>
                 </select>
             </div>
         </div>
