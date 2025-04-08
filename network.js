@@ -1,26 +1,33 @@
+// network.js - Versión mejorada
 document.addEventListener('DOMContentLoaded', async function() {
     try {
         const nodeInfo = document.getElementById('nodeInfo');
         
         // 1. Cargar datos
-        nodeInfo.innerHTML = '<p>Cargando datos de la red...</p>';
         const response = await fetch('goya_network.json');
-        
-        if (!response.ok) {
-            throw new Error(`Error HTTP: ${response.status}`);
-        }
-        
+        if (!response.ok) throw new Error('Error cargando datos');
         const data = await response.json();
-        nodeInfo.innerHTML = `<p>Datos cargados: ${data.nodes.length} nodos, ${data.edges.length} conexiones</p>`;
-
-        // 2. Preparar datos
-        const nodes = new vis.DataSet(data.nodes.map(node => ({
-            ...node,
-            font: { size: 12, strokeWidth: 3, strokeColor: '#ffffff' },
-            size: 16,
-            shape: 'dot'
-        })));
         
+        // 2. Configurar imágenes si existen
+        const nodesWithImages = data.nodes.map(node => {
+            const nodeConfig = {
+                ...node,
+                font: { size: 14, strokeWidth: 3, strokeColor: '#ffffff' },
+                size: 20,
+                shape: 'dot'
+            };
+            
+            // Si tiene imagen, usar forma circular con imagen
+            if (node.image) {
+                nodeConfig.shape = 'circularImage';
+                nodeConfig.image = node.image;
+                nodeConfig.size = 25;
+            }
+            
+            return nodeConfig;
+        });
+
+        const nodes = new vis.DataSet(nodesWithImages);
         const edges = new vis.DataSet(data.edges);
 
         // 3. Crear red
@@ -31,29 +38,57 @@ document.addEventListener('DOMContentLoaded', async function() {
                 color: {
                     border: '#2B7CE9',
                     background: '#97C2FC',
+                    hover: { border: '#2B7CE9', background: '#D2E5FF' },
                     highlight: { border: '#2B7CE9', background: '#D2E5FF' }
                 }
             },
             edges: {
                 width: 1,
-                color: { color: '#848484', highlight: '#FF0000' }
+                smooth: { type: 'continuous' }
             },
             physics: {
                 stabilization: { iterations: 1000 }
             }
         });
 
-        // 4. Mostrar cuando esté listo
+        // 4. Manejar clics en nodos
+        network.on('click', function(params) {
+            if (params.nodes.length > 0) {
+                const nodeId = params.nodes[0];
+                const node = nodes.get(nodeId);
+                const connections = network.getConnectedNodes(nodeId);
+                
+                let infoHTML = `
+                    <h2>${node.label}</h2>
+                    ${node.image ? `<img src="${node.image}" alt="${node.label}" style="max-width:200px; float:left; margin-right:15px; margin-bottom:15px;">` : ''}
+                    <p><strong>Tipo:</strong> ${node.group === 'location' ? 'Ubicación' : 'Persona'}</p>
+                `;
+                
+                // Mostrar propiedades adicionales
+                if (node.title) infoHTML += `<p><strong>Descripción:</strong> ${node.title}</p>`;
+                if (node.period) infoHTML += `<p><strong>Periodo:</strong> ${node.period}</p>`;
+                
+                infoHTML += `
+                    <div style="clear:both;"></div>
+                    <h3>Conexiones (${connections.length}):</h3>
+                    <ul>
+                        ${connections.map(id => `<li>${nodes.get(id).label}</li>`).join('')}
+                    </ul>
+                `;
+                
+                nodeInfo.innerHTML = infoHTML;
+            }
+        });
+
         network.once('stabilizationIterationsDone', () => {
             network.fit({ animation: { duration: 1000 } });
-            nodeInfo.innerHTML = '<p>Haz clic en un nodo para ver detalles</p>';
         });
 
     } catch (error) {
         console.error('Error:', error);
         document.getElementById('nodeInfo').innerHTML = `
-            <p style="color:red;font-weight:bold">Error cargando la red: ${error.message}</p>
-            <p>Verifica la consola para más detalles (F12 > Console)</p>
+            <p style="color:red;font-weight:bold">Error: ${error.message}</p>
+            <p>Por favor recarga la página</p>
         `;
     }
 });
