@@ -3,6 +3,7 @@
     {
       "id": "Francisco de Goya y Lucientes",
       "label": "GOYA",
+      "group": "person",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "title": "Francisco de Goya y Lucientes",
