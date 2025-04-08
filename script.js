@@ -1,5 +1,5 @@
 // Obtener los datos del archivo GEXF desde GitHub
-const gexfUrl = 'https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/data/goya-network.gexf';
+const gexfUrl = 'https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/data/red-goya.gexf';
 
 // Cargar el archivo GEXF
 fetch(gexfUrl)
@@ -40,4 +40,3 @@ fetch(gexfUrl)
       `;
     });
   })
-  .catch(error => console.error('Error al cargar el archivo GEXF:', error));
