@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "id": "Francisco de Goya y Lucientes",  // Restore full name
-      "label": "GOYA",  // Short name for display
+      "id": "Francisco de Goya y Lucientes",
+      "label": "GOYA",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "title": "Goya",
