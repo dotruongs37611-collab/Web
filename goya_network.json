@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "Francisco de Goya y Lucientes",
+      "id": "Goya",
       "label": "Goya",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
-      "title": "Francisco de Goya y Lucientes",
+      "title": "Goya",
       "life dates": "1746-1828",
       "Author of": "The Naked Maja, The Third of May 1808",
-      "Portrayed by": ["Vicente López", "Francisco de Goya y Lucientes"]
+      "Portrayed by": ["Vicente López", "Goya"]
     },
     {
       "id": "Javier Goya",
@@ -16,7 +16,7 @@
       "profession": "unknown",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Javier_Goya.jpg",
       "Life dates": "1784-1854",
-      "Portrayed by": "Francisco de Goya y Lucientes"
+      "Portrayed by": "Goya"
     },
     {
       "id": "Mariano Goya",
