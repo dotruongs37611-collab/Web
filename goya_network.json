@@ -3,7 +3,8 @@
     {
       "id": "Goya",
       "label": "GOYA",
-      "group": "person",
+      "profession": "painter, draughtsman, engraver",
+      "life dates": "1746-1828",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetwork/refs/heads/main/Goya%20Met%20-%20no%20copyright.jpg",
       "title": ""
     },
