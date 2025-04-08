@@ -1,8 +1,8 @@
 {
   "nodes": [
     {
-      "id": "Goya",
-      "label": "Goya",
+      "id": "Francisco de Goya y Lucientes",  // Restore full name
+      "label": "GOYA",  // Short name for display
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "title": "Goya",
@@ -466,130 +466,130 @@
   ],
   "edges": [
     {
-      "from": "Goya",
-      "to": "M. Goya",
+      "from": "Francisco de Goya y Lucientes",  // Match Goya's id
+      "to": "Mariano Goya",
       "Relationship type": "family members"
     },
     {
       "from": "Goya",
-      "to": "J. Goya",
+      "to": "Javier Goya",
       "Relationship type": "family members"
     },
     {
-      "from": "Goya",
-      "to": "Zapater",
+      "from": "Francisco de Goya y Lucientes",  // Match Goya's id
+      "to": "Martín Zapater",  // Match Zapater's id
       "Relationship type": "Friendship",
       "Know each other since": "1765",
       "Correspondence": "1765-1803",
       "Portraits": "Goya painted Zapater"
     },
     {
-      "from": "Goya",
-      "to": "J. Madrazo",
+      "from": "Francisco de Goya y Lucientes",
+      "to": "José Madrazo",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Ferdinand Guillemardet",
       "label": ""
     },
     {
-      "from": "Goya",
-      "to": "Brugada",
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Antonio de Brugada",
       "label": ""
     },
     {
-      "from": "Goya",
-      "to": "Ceán Bermúdez",
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Juan Agustín Ceán Bermúdez",
       "label": ""
     },
     {
-      "from": "Goya",
-      "to": "Ferrer",
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Joaquín María Ferrer",
       "label": ""
     },
     {
-      "from": "Goya",
-      "to": "Esteve",
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Agustín Esteve",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Leandro Fernández de Moratín",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Manuel Godoy",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Cyprien Gaulon",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Pierre Lacour",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Nicolas Philippe Guye",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Victor Guye",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Dominique Vivant Denon",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Adrien Dauzats",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Vicente López",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Leocadia Zorrilla y Galarza",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Rosario Weiss Zorrilla",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Josefa Bayeu y Subías",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Sebastián Martínez y Pérez",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Pierre Lacour fils",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Jacques Galos",
       "label": ""
     },
     {
-      "from": "Goya",
+      "from": "Francisco de Goya y Lucientes",
       "to": "Juan Antonio Melón",
       "label": ""
     },
