@@ -40,3 +40,4 @@ fetch(gexfUrl)
       `;
     });
   })
+  .catch(error => console.error('Error al cargar el archivo GEXF:', error));
