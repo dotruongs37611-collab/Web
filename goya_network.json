@@ -466,7 +466,7 @@
   ],
   "edges": [
     {
-      "from": "Francisco de Goya y Lucientes",  // Match Goya's id
+      "from": "Francisco de Goya y Lucientes",
       "to": "Mariano Goya",
       "Relationship type": "family members"
     },
@@ -476,8 +476,8 @@
       "Relationship type": "family members"
     },
     {
-      "from": "Francisco de Goya y Lucientes",  // Match Goya's id
-      "to": "Martín Zapater",  // Match Zapater's id
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Martín Zapater",
       "Relationship type": "Friendship",
       "Know each other since": "1765",
       "Correspondence": "1765-1803",
