@@ -1,40 +1,43 @@
+// Obtener los datos del archivo GEXF desde GitHub
+const gexfUrl = 'https://raw.githubusercontent.com/PFayosP/GoyaNetwork/main/Goya%20network%207-4-25%20force%20directed%20(layout%20algorithm)%2080%20nodes%2C%20200%20edges.gexf';
 
-async function loadGraph() {
-  const response = await fetch("data/goya-network.gexf");
-  const gexfText = await response.text();
-  const parser = new DOMParser();
-  const xml = parser.parseFromString(gexfText, "application/xml");
+// Cargar el archivo GEXF
+fetch(gexfUrl)
+  .then(response => response.text())
+  .then(data => {
+    // Crear el grafo a partir del archivo GEXF
+    const graph = graphologyGexf.parse(data);
 
-  // Usar la librería correctamente cargada como 'gexf' (no graphologyGEXF)
-  const graph = window.gexf.parse(xml);
+    // Crear un objeto Sigma y cargar el grafo
+    const sigmaInstance = new sigma('sigma-container');
 
-  const container = document.getElementById("sigma-container");
-  const renderer = new sigma.Sigma(graph, container);
+    // Cargar el grafo en Sigma.js
+    sigmaInstance.graph.fromGraphology(graph);
 
-  renderer.on("clickNode", ({ node }) => {
-    const data = graph.getNodeAttributes(node);
-    showInfo("Nodo", node, data);
-  });
+    // Refrescar el renderizado de la red
+    sigmaInstance.refresh();
 
-  renderer.on("clickEdge", ({ edge }) => {
-    const data = graph.getEdgeAttributes(edge);
-    showInfo("Conexión", edge, data);
-  });
-}
+    // Mostrar información al hacer clic en un nodo
+    sigmaInstance.bind('clickNode', function(event) {
+      const node = event.data.node;
+      const infoPanel = document.getElementById('info-panel');
+      infoPanel.innerHTML = `
+        <h3>${node.label}</h3>
+        <p>Fecha de nacimiento: ${node.attributes['date of birth']}</p>
+        <p>Fecha de muerte: ${node.attributes['date of death']}</p>
+        <p>Profesión: ${node.attributes.profession}</p>
+        <p>Obras destacadas: ${node.attributes['notableWorks']}</p>
+      `;
+    });
 
-function showInfo(type, id, data) {
-  const panel = document.getElementById("info-panel");
-  panel.innerHTML = `<h3>${type}: ${id}</h3>`;
-
-  if (data.image) {
-    panel.innerHTML += `<img src="${data.image}" alt="${id}" style="width: 100%; max-height: 200px; object-fit: cover;"><br>`;
-  }
-
-  for (const key in data) {
-    if (key !== "image") {
-      panel.innerHTML += `<strong>${key}:</strong> ${data[key]}<br>`;
-    }
-  }
-}
-
-loadGraph();
+    // Mostrar información al hacer clic en una relación
+    sigmaInstance.bind('clickEdge', function(event) {
+      const edge = event.data.edge;
+      const infoPanel = document.getElementById('info-panel');
+      infoPanel.innerHTML = `
+        <h3>Relación: ${edge.attributes.type}</h3>
+        <p>Descripción: ${edge.attributes.description}</p>
+      `;
+    });
+  })
+  .catch(error => console.error('Error al cargar el archivo GEXF:', error));
