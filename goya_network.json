@@ -3,7 +3,6 @@
     {
       "id": "Francisco de Goya y Lucientes",
       "label": "Goya",
-      "group": "person",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "title": "Francisco de Goya y Lucientes",
@@ -55,13 +54,11 @@
     {
       "id": "Pharamond Blanchard",
       "label": "Blanchard",
-      "group": "person",
       "title": ""
     },
     {
       "id": "Eugenio Ochoa",
       "label": "Ochoa",
-      "group": "person",
       "title": ""
     },
     {
@@ -70,21 +67,15 @@
     },
     {
       "id": "Ferdinand Guillemardet",
-      "label": "Guillemardet",
-      "group": "person",
-      "title": ""
+      "label": "Ferdinand Guillemardet"
     },
     {
       "id": "Eugène Delacroix",
-      "label": "Delacroix",
-      "group": "person",
-      "title": ""
+      "label": "Delacroix"
     },
     {
       "id": "Félix Guillemardet",
-      "label": "F. Guillemardet",
-      "group": "person",
-      "title": ""
+      "label": "Félix Guillemardet"
     },
     {
       "id": "Antonio de Brugada",
@@ -400,15 +391,11 @@
     },
     {
       "id": "Pedro de Madrazo y Kuntz",
-      "label": "P. Madrazo",
-      "group": "person",
-      "title": ""
+      "label": "P. Madrazo"
     },
     {
       "id": "Luis Madrazo",
-      "label": "L. Madrazo",
-      "group": "person",
-      "title": ""
+      "label": "L. Madrazo"
     },
     {
       "id": "Raimundo Madrazo",
@@ -503,7 +490,7 @@
     },
     {
       "from": "Goya",
-      "to": "F. Guillemardet",
+      "to": "Ferdinand Guillemardet",
       "label": ""
     },
     {
