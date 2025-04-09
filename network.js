@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', async function() {
             const degree = edgeCount[node.id] || 1;
             node.size = Math.min(10 + degree * 2, 60); // tamaño escalado
         });
-  } catch (error) {
+    } catch (error) {
     console.error("Error cargando o renderizando la red:", error);
-  }
-                });
+    }
+    });
     
 // 2. Configurar imágenes si existen
         const nodesWithImages = data.nodes.map(node => {
