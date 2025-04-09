@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goya Network</title>
+  <style>
+    body {
+      font-family: "EB Garamond", serif;
+      font-size: 18px;
+      background-color: #111;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      text-align: center;
+      padding: 1.5rem;
+    }
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding-bottom: 1rem;
+    }
+    #network {
+      height: 70vh;
+      background: black;
+    }
+    #nodeInfo {
+      background-color: #222;
+      padding: 1rem;
+      min-height: 400px;
+      max-height: 600px;
+      overflow-y: auto;
+      font-size: 16px;
+    }
+    .contributions-section {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      padding: 1rem;
+    }
+    a {
+      color: #66ccff;
+    }
+  </style>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <img src="images/GoyaNetwork_logo.jpg" alt="Goya Network Logo" style="max-height: 100px;">
+    <h1>Goya Network</h1>
+    <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search...">
+    <button id="searchButton">Search</button>
+    <select id="professionFilter">
+      <option value="">All Professions</option>
+      <option value="Artist">Artist</option>
+      <option value="Writer">Writer</option>
+      <option value="Collector">Collector</option>
+      <option value="Socialité">Socialité</option>
+      <option value="Politician">Politician</option>
+      <option value="Engraver">Engraver</option>
+      <option value="Diplomat">Diplomat</option>
+      <option value="Scholar">Scholar</option>
+    </select>
+    <select id="relationshipFilter">
+      <option value="">Type of relationship</option>
+      <option value="Family member">Family member</option>
+      <option value="Friend">Friend</option>
+      <option value="Acquaintance">Acquaintance</option>
+      <option value="Lover">Lover</option>
+      <option value="Student/Master">Student/Master</option>
+      <option value="Patron">Patron</option>
+    </select>
+  </div>
+
+  <div id="network"></div>
+  <div id="nodeInfo">Click a node or edge to see more information here.</div>
+
+  <div class="contributions-section">
+    <h2>Contributions</h2>
+    <p>The Goya Network is conceived as a collaborative, crowd-sourced database. Contributions and suggestions are welcome and encouraged, and contributors will be credited if requested.</p>
+    <p><a href="https://docs.google.com/forms/d/1Gxl6_Usf45QV_qKfp-ez3BQt-0Mxirm6Ok6xg-VUnN0/edit" target="_blank">Access form</a></p>
+  </div>
+
+  <footer>
+    <p>La Red Goya se encuentra protegida mediante acta notarial (Madrid, 2025). Proyecto desarrollado con una Beca Leonardo (Fundación BBVA).<br>
+    The Goya Network is protected by notarial deed (Madrid, 2025). Project developed with a Leonardo Grant (BBVA Foundation).</p>
+  </footer>
+
+  <script src="network.js"></script>
+</body>
+</html>
