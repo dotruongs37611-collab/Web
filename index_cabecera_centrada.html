@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Goya Network</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" />
+  <style>
+    body {
+      font-family: "EB Garamond", "Garamond", serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+    }
+    .header {
+      text-align: center;
+      padding: 1.5rem 1rem 1rem 1rem;
+    }
+    .header img {
+      max-height: 100px;
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      margin: 0.2rem 0;
+      font-size: 2rem;
+    }
+    .subheader {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      background-color: #222;
+      padding: 1rem;
+    }
+    .controls input, .controls select, .controls button {
+      padding: 0.5rem;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    #network {
+      width: 100%;
+      height: 75vh;
+      min-height: 500px;
+      background-color: #000;
+    }
+    #nodeInfo {
+      padding: 1rem;
+      background-color: #1a1a1a;
+      max-height: 30vh;
+      overflow-y: auto;
+      border-top: 1px solid #444;
+    }
+    a {
+      color: #66ccff;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #99e0ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="logo.png" alt="Goya Network Logo">
+    <h1>Goya Network</h1>
+    <div class="subheader">Mapping Goya's Impact in 19th-Century France and Spain</div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search..." />
+    <button onclick="document.getElementById('search').value = '';">Reset</button>
+    <select>
+      <option>All Countries</option>
+    </select>
+    <select>
+      <option>All Professions</option>
+    </select>
+    <select>
+      <option>Family Members</option>
+    </select>
+  </div>
+
+  <div id="network"></div>
+  <div id="nodeInfo"></div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <script src="network.js"></script>
+</body>
+</html>
