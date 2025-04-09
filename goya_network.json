@@ -1,0 +1,1422 @@
+{
+  "nodes": [
+    {
+      "Id": "Francisco de Goya y Lucientes",
+      "Label": "GOYA",
+      "Profession": "painter, draughtsman, engraver",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
+      "Life dates": "1746-1828",
+      "Author of": "The Naked Maja, The Third of May 1808",
+      "Portrayed by": [
+        "Vicente López",
+        "Goya"
+      ]
+    },
+    {
+      "Id": "Javier Goya",
+      "Label": "J. Goya",
+      "Profession": "unknown",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Javier_Goya.jpg",
+      "Life dates": "1784-1854",
+      "Portrayed by": "Goya"
+    },
+    {
+      "Id": "Mariano Goya",
+      "Label": "M. Goya",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Goya.jpg"
+    },
+    {
+      "Id": "Martín Zapater",
+      "Label": "Zapater",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martin_Zapater.jpg",
+      "Life dates": "1746-1803",
+      "Relationship to goya": "Best friend",
+      "Correspondence": "Extensive letters with Goya"
+    },
+    {
+      "Id": "Federico Madrazo",
+      "Label": "F. Madrazo",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg"
+    },
+    {
+      "Id": "Valentín Carderera",
+      "Label": "Carderera",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg"
+    },
+    {
+      "Id": "José Madrazo",
+      "Label": "J. Madrazo",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
+    },
+    {
+      "Id": "Baron Taylor",
+      "Label": "Taylor",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg"
+    },
+    {
+      "Id": "Adrien Dauzats",
+      "Label": "Dauzats",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg"
+    },
+    {
+      "Id": "Pharamond Blanchard",
+      "Label": "Blanchard",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg"
+    },
+    {
+      "Id": "Eugenio Ochoa",
+      "Label": "Ochoa",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
+    },
+    {
+      "Id": "Prosper Mérimée",
+      "Label": "Mérimée",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg"
+    },
+    {
+      "Id": "Ferdinand Guillemardet",
+      "Label": "Ferdinand Guillemardet",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg"
+    },
+    {
+      "Id": "Eugène Delacroix",
+      "Label": "Delacroix",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg"
+    },
+    {
+      "Id": "Félix Guillemardet",
+      "Label": "Félix Guillemardet",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Felix_Guillemardet.jpg"
+    },
+    {
+      "Id": "Antonio de Brugada",
+      "Label": "Brugada",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brugada_AI.jpg"
+    },
+    {
+      "Id": "Juan Agustín Ceán Bermúdez",
+      "Label": "Ceán Bermúdez",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cean_Bermudez.jpg"
+    },
+    {
+      "Id": "Joaquín María Ferrer",
+      "Label": "Ferrer",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferrer.jpg"
+    },
+    {
+      "Id": "Agustín Esteve",
+      "Label": "Esteve",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Esteve.jpg"
+    },
+    {
+      "Id": "Leandro Fernández de Moratín",
+      "Label": "Moratín",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg"
+    },
+    {
+      "Id": "Manuel Godoy",
+      "Label": "Godoy",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg"
+    },
+    {
+      "Id": "Cyprien Gaulon",
+      "Label": "Gaulon",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg"
+    },
+    {
+      "Id": "Laurent Matheron",
+      "Label": "Matheron",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg"
+    },
+    {
+      "Id": "Frédéric Villot",
+      "Label": "Villot",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
+    },
+    {
+      "Id": "Achille Devéria",
+      "Label": "Devéria",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg"
+    },
+    {
+      "Id": "Louis Boulanger",
+      "Label": "Boulanger",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Boulanger.jpg"
+    },
+    {
+      "Id": "Antoine Fontaney",
+      "Label": "Fontaney",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
+    },
+    {
+      "Id": "Victor Hugo",
+      "Label": "Hugo",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
+    },
+    {
+      "Id": "Théophile Gautier",
+      "Label": "Gautier",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
+    },
+    {
+      "Id": "Honoré de Balzac",
+      "Label": "Balzac",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg"
+    },
+    {
+      "Id": "Alexandre Dumas père",
+      "Label": "Dumas",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
+    },
+    {
+      "Id": "Charles Nodier",
+      "Label": "Nodier",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg"
+    },
+    {
+      "Id": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "Label": "Custine",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
+    },
+    {
+      "Id": "Adélaïde de Montgolfier",
+      "Label": "Montgolfier",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
+    },
+    {
+      "Id": "Pierre Lacour",
+      "Label": "P. Lacour père",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour.jpg"
+    },
+    {
+      "Id": "George Sand",
+      "Label": "George Sand",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg"
+    },
+    {
+      "Id": "Alfred de Musset",
+      "Label": "Musset",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Musset.jpg"
+    },
+    {
+      "Id": "Philippe Burty",
+      "Label": "Burty",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg"
+    },
+    {
+      "Id": "Charles Blanc",
+      "Label": "Blanc",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanc.jpg"
+    },
+    {
+      "Id": "Nicolas Philippe Guye",
+      "Label": "N. Guye",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nicolas_Guye.jpg"
+    },
+    {
+      "Id": "Victor Guye",
+      "Label": "V. Guye",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Victor_Guye.jpg"
+    },
+    {
+      "Id": "Dominique Vivant Denon",
+      "Label": "Vivant Denon",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg"
+    },
+    {
+      "Id": "Eugène Piot",
+      "Label": "Piot",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Piot.jpg"
+    },
+    {
+      "Id": "Vicente López",
+      "Label": "V. López",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lopez.jpg"
+    },
+    {
+      "Id": "Paul Lefort",
+      "Label": "Lefort",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg"
+    },
+    {
+      "Id": "Gustave Brunet",
+      "Label": "Brunet",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg"
+    },
+    {
+      "Id": "Román Garreta y Huerta",
+      "Label": "Garreta",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg"
+    },
+    {
+      "Id": "Leocadia Zorrilla y Galarza",
+      "Label": "Leocadia",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Leocadia_AI.jpg"
+    },
+    {
+      "Id": "Rosario Weiss Zorrilla",
+      "Label": "Rosario Weiss",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg"
+    },
+    {
+      "Id": "Josefa Bayeu y Subías",
+      "Label": "Josefa Bayeu",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Josefa_Bayeu.jpg"
+    },
+    {
+      "Id": "Sebastián Martínez y Pérez",
+      "Label": "S. Martínez",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg"
+    },
+    {
+      "Id": "[J./L.] Carresse",
+      "Label": "Carresse",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg"
+    },
+    {
+      "Id": "Charles Yriarte",
+      "Label": "Yriarte",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Yriarte.jpg"
+    },
+    {
+      "Id": "Pierre Lacour fils",
+      "Label": "P. Lacour fils",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour_fils.jpg"
+    },
+    {
+      "Id": "José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "Label": "Salamanca",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
+    },
+    {
+      "Id": "Sophie Gay",
+      "Label": "Sophie Gay",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sophie_Gay.jpg"
+    },
+    {
+      "Id": "Charles Baudelaire",
+      "Label": "Baudelaire",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Baudelaire.jpg"
+    },
+    {
+      "Id": "Alphonse de Lamartine",
+      "Label": "Lamartine",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lamartine.jpg"
+    },
+    {
+      "Id": "Juliette Récamier",
+      "Label": "Récamier",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Recamier.jpg"
+    },
+    {
+      "Id": "Théophile Thoré",
+      "Label": "Thoré",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg"
+    },
+    {
+      "Id": "Stendhal (Henri Beyle)",
+      "Label": "Stendhal",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
+    },
+    {
+      "Id": "Charles-Augustin Sainte-Beuve",
+      "Label": "Sainte-Beuve",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sainte_Beuve.jpg"
+    },
+    {
+      "Id": "Gustave Flaubert",
+      "Label": "Flaubert",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Flaubert.jpg"
+    },
+    {
+      "Id": "Madame Ewelina Hanska",
+      "Label": "Hanska",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hanska.jpg"
+    },
+    {
+      "Id": "Fortunée Hamelin",
+      "Label": "Hamelin",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg"
+    },
+    {
+      "Id": "Louise Swanton Belloc",
+      "Label": "Swanton-Belloc",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Swanton_Belloc.jpg"
+    },
+    {
+      "Id": "Anne-Louise Germaine Necker (Madame de Staël)",
+      "Label": "Staël",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg"
+    },
+    {
+      "Id": "Pedro de Madrazo y Kuntz",
+      "Label": "P. Madrazo",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
+    },
+    {
+      "Id": "Luis Madrazo",
+      "Label": "L. Madrazo",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Madrazo.jpg"
+    },
+    {
+      "Id": "Raimundo Madrazo",
+      "Label": "R. Madrazo",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
+    },
+    {
+      "Id": "Louis Viardot",
+      "Label": "Viardot",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
+    },
+    {
+      "Id": "Jacques Galos",
+      "Label": "Galos",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
+    },
+    {
+      "Id": "Jean-Auguste-Dominique Ingres",
+      "Label": "Ingres",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ingres.jpg"
+    },
+    {
+      "Id": "Achille Ricourt",
+      "Label": "Ricourt",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ricourt.jpg"
+    },
+    {
+      "Id": "Honoré Daumier",
+      "Label": "Daumier",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg"
+    },
+    {
+      "Id": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "Label": "Grandville",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Grandville.jpg"
+    },
+    {
+      "Id": "Juan Antonio Melón",
+      "Label": "Melón",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Melon.jpg"
+    },
+    {
+      "Id": "Antoine-Jean Gros",
+      "Label": "Gros",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gros.jpg"
+    },
+    {
+      "Id": "Paul Delaroche",
+      "Label": "Delaroche",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delaroche.jpg"
+    },
+    {
+      "Id": "Jacques-Louis David",
+      "Label": "David",
+      "Image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/David.jpg"
+    }
+  ],
+  "edges": [
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Mariano Goya",
+      "Relationship type": "family members"
+    },
+    {
+      "From": "Goya",
+      "To": "Javier Goya",
+      "Relationship type": "family members"
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Martín Zapater",
+      "Relationship type": "Friendship",
+      "Know each other since": "1765",
+      "Correspondence": "1765-1803",
+      "Portraits": "Goya painted Zapater"
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "José Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Ferdinand Guillemardet",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Antonio de Brugada",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Juan Agustín Ceán Bermúdez",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Joaquín María Ferrer",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Agustín Esteve",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Leandro Fernández de Moratín",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Manuel Godoy",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Cyprien Gaulon",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Pierre Lacour",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Nicolas Philippe Guye",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Victor Guye",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Dominique Vivant Denon",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Adrien Dauzats",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Vicente López",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Leocadia Zorrilla y Galarza",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Rosario Weiss Zorrilla",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Josefa Bayeu y Subías",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Sebastián Martínez y Pérez",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Pierre Lacour fils",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Jacques Galos",
+      "Label": ""
+    },
+    {
+      "From": "Francisco de Goya y Lucientes",
+      "To": "Juan Antonio Melón",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Mariano Goya",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Federico Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Federico Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Baron Taylor",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Valentín Carderera",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Leocadia Zorrilla y Galarza",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Jacques Galos",
+      "Label": ""
+    },
+    {
+      "From": "Javier Goya",
+      "To": "Josefa Bayeu y Subías",
+      "Label": ""
+    },
+    {
+      "From": "Mariano Goya",
+      "To": "Federico Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Mariano Goya",
+      "To": "Valentín Carderera",
+      "Label": ""
+    },
+    {
+      "From": "Mariano Goya",
+      "To": "Román Garreta y Huerta",
+      "Label": ""
+    },
+    {
+      "From": "Mariano Goya",
+      "To": "Josefa Bayeu y Subías",
+      "Label": ""
+    },
+    {
+      "From": "Martín Zapater",
+      "To": "Juan Agustín Ceán Bermúdez",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Valentín Carderera",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "José Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Eugenio Ochoa",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Prosper Mérimée",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Adrien Dauzats",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Baron Taylor",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Román Garreta y Huerta",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Pedro de Madrazo y Kuntz",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Luis Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Victor Hugo",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Raimundo Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Eugène Delacroix",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Pharamond Blanchard",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Jean-Auguste-Dominique Ingres",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Achille Devéria",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Achille Ricourt",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Juan Antonio Melón",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Antoine-Jean Gros",
+      "Label": ""
+    },
+    {
+      "From": "Federico Madrazo",
+      "To": "Paul Delaroche",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Adrien Dauzats",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Prosper Mérimée",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Pharamond Blanchard",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Laurent Matheron",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Achille Devéria",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Philippe Burty",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Charles Blanc",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Gustave Brunet",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Paul Lefort",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Eugène Piot",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "[J./L.] Carresse",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Charles Yriarte",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Baron Taylor",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Eugenio Ochoa",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Pedro de Madrazo y Kuntz",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Luis Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Valentín Carderera",
+      "To": "Frédéric Villot",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Pharamond Blanchard",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Baron Taylor",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Adrien Dauzats",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Pedro de Madrazo y Kuntz",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Luis Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Raimundo Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Román Garreta y Huerta",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Eugenio Ochoa",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Jean-Auguste-Dominique Ingres",
+      "Label": ""
+    },
+    {
+      "From": "José Madrazo",
+      "To": "Jacques-Louis David",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Adrien Dauzats",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Eugenio Ochoa",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Pharamond Blanchard",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Charles Nodier",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Louis Viardot",
+      "Label": ""
+    },
+    {
+      "From": "Baron Taylor",
+      "To": "Jean-Auguste-Dominique Ingres",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Pharamond Blanchard",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Eugène Delacroix",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Antonio de Brugada",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Frédéric Villot",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Pierre Lacour",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Eugenio Ochoa",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Charles Nodier",
+      "Label": ""
+    },
+    {
+      "From": "Adrien Dauzats",
+      "To": "Jean-Auguste-Dominique Ingres",
+      "Label": ""
+    },
+    {
+      "From": "Pharamond Blanchard",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Pharamond Blanchard",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Prosper Mérimée",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Leandro Fernández de Moratín",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Manuel Godoy",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Pedro de Madrazo y Kuntz",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Luis Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Victor Hugo",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Achille Ricourt",
+      "Label": ""
+    },
+    {
+      "From": "Eugenio Ochoa",
+      "To": "Paul Delaroche",
+      "Label": ""
+    },
+    {
+      "From": "Ferdinand Guillemardet",
+      "To": "Eugène Delacroix",
+      "Label": ""
+    },
+    {
+      "From": "Ferdinand Guillemardet",
+      "To": "Félix Guillemardet",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Félix Guillemardet",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Laurent Matheron",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Frédéric Villot",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Victor Hugo",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "George Sand",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Alfred de Musset",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Honoré de Balzac",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Charles Baudelaire",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Théophile Thoré",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Achille Ricourt",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Jean-Auguste-Dominique Ingres",
+      "Label": ""
+    },
+    {
+      "From": "Eugène Delacroix",
+      "To": "Antoine-Jean Gros",
+      "Label": ""
+    },
+    {
+      "From": "Juan Agustín Ceán Bermúdez",
+      "To": "Leandro Fernández de Moratín",
+      "Label": ""
+    },
+    {
+      "From": "Juan Agustín Ceán Bermúdez",
+      "To": "Sebastián Martínez y Pérez",
+      "Label": ""
+    },
+    {
+      "From": "Agustín Esteve",
+      "To": "Eugène Piot",
+      "Label": ""
+    },
+    {
+      "From": "Frédéric Villot",
+      "To": "Eugène Piot",
+      "Label": ""
+    },
+    {
+      "From": "Achille Devéria",
+      "To": "Louis Boulanger",
+      "Label": ""
+    },
+    {
+      "From": "Achille Devéria",
+      "To": "Antoine Fontaney",
+      "Label": ""
+    },
+    {
+      "From": "Achille Devéria",
+      "To": "Victor Hugo",
+      "Label": ""
+    },
+    {
+      "From": "Achille Devéria",
+      "To": "Achille Ricourt",
+      "Label": ""
+    },
+    {
+      "From": "Louis Boulanger",
+      "To": "Antoine Fontaney",
+      "Label": ""
+    },
+    {
+      "From": "Louis Boulanger",
+      "To": "Victor Hugo",
+      "Label": ""
+    },
+    {
+      "From": "Antoine Fontaney",
+      "To": "Victor Hugo",
+      "Label": ""
+    },
+    {
+      "From": "Antoine Fontaney",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Antoine Fontaney",
+      "To": "Charles Nodier",
+      "Label": ""
+    },
+    {
+      "From": "Antoine Fontaney",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Antoine Fontaney",
+      "To": "Adélaïde de Montgolfier",
+      "Label": ""
+    },
+    {
+      "From": "Antoine Fontaney",
+      "To": "Louise Swanton Belloc",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Théophile Gautier",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Honoré de Balzac",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Nicolas Philippe Guye",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Victor Guye",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Charles Nodier",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Fortunée Hamelin",
+      "Label": ""
+    },
+    {
+      "From": "Victor Hugo",
+      "To": "Pedro de Madrazo y Kuntz",
+      "Label": ""
+    },
+    {
+      "From": "Théophile Gautier",
+      "To": "Honoré de Balzac",
+      "Label": ""
+    },
+    {
+      "From": "Théophile Gautier",
+      "To": "Eugène Piot",
+      "Label": ""
+    },
+    {
+      "From": "Théophile Gautier",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Théophile Gautier",
+      "To": "Philippe Burty",
+      "Label": ""
+    },
+    {
+      "From": "Théophile Gautier",
+      "To": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Alphonse de Lamartine",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Stendhal (Henri Beyle)",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Juliette Récamier",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "George Sand",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Alexandre Dumas père",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Charles Baudelaire",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Gustave Flaubert",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Madame Ewelina Hanska",
+      "Label": ""
+    },
+    {
+      "From": "Honoré de Balzac",
+      "To": "Achille Ricourt",
+      "Label": ""
+    },
+    {
+      "From": "Alexandre Dumas père",
+      "To": "Pedro de Madrazo y Kuntz",
+      "Label": ""
+    },
+    {
+      "From": "Charles Nodier",
+      "To": "Adélaïde de Montgolfier",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "George Sand",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Sophie Gay",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Charles Baudelaire",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Alphonse de Lamartine",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Juliette Récamier",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Stendhal (Henri Beyle)",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Charles-Augustin Sainte-Beuve",
+      "Label": ""
+    },
+    {
+      "From": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "To": "Madame Ewelina Hanska",
+      "Label": ""
+    },
+    {
+      "From": "Adélaïde de Montgolfier",
+      "To": "Louise Swanton Belloc",
+      "Label": ""
+    },
+    {
+      "From": "Pierre Lacour",
+      "To": "Pierre Lacour fils",
+      "Label": ""
+    },
+    {
+      "From": "George Sand",
+      "To": "Alfred de Musset",
+      "Label": ""
+    },
+    {
+      "From": "Philippe Burty",
+      "To": "Charles Blanc",
+      "Label": ""
+    },
+    {
+      "From": "Nicolas Philippe Guye",
+      "To": "Victor Guye",
+      "Label": ""
+    },
+    {
+      "From": "Román Garreta y Huerta",
+      "To": "Raimundo Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Leocadia Zorrilla y Galarza",
+      "To": "Rosario Weiss Zorrilla",
+      "Label": ""
+    },
+    {
+      "From": "Rosario Weiss Zorrilla",
+      "To": "Pierre Lacour fils",
+      "Label": ""
+    },
+    {
+      "From": "Juliette Récamier",
+      "To": "Anne-Louise Germaine Necker (Madame de Staël)",
+      "Label": ""
+    },
+    {
+      "From": "Juliette Récamier",
+      "To": "Jacques-Louis David",
+      "Label": ""
+    },
+    {
+      "From": "Théophile Thoré",
+      "To": "Achille Ricourt",
+      "Label": ""
+    },
+    {
+      "From": "Pedro de Madrazo y Kuntz",
+      "To": "Luis Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Pedro de Madrazo y Kuntz",
+      "To": "Raimundo Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Luis Madrazo",
+      "To": "Raimundo Madrazo",
+      "Label": ""
+    },
+    {
+      "From": "Jean-Auguste-Dominique Ingres",
+      "To": "Jacques-Louis David",
+      "Label": ""
+    },
+    {
+      "From": "Achille Ricourt",
+      "To": "Honoré Daumier",
+      "Label": ""
+    },
+    {
+      "From": "Honoré Daumier",
+      "To": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "Label": ""
+    },
+    {
+      "From": "Antoine-Jean Gros",
+      "To": "Paul Delaroche",
+      "Label": ""
+    },
+    {
+      "From": "Antoine-Jean Gros",
+      "To": "Jacques-Louis David",
+      "Label": ""
+    }
+  ]
+}
