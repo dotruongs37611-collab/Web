@@ -5,12 +5,11 @@
       "label": "GOYA",
       "profession": "painter, draughtsman, engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
-      "title": "Goya",
       "life dates": "1746-1828",
-      "author of": "The Naked Maja, The Third of May 1808",
+      "author of": "Piedad (1774), Aníbal vencedor (1771), Crucifixion (1780), San Bernardino de Siena (1781-83), The Duchess of Osuna (1785), The Dukes of Osuna (1787-88), Yard of lunatics (1794), Witches Flight (1797-98), Album A (c.1794-95), Album B (c.1795-97), Caprichos (1799), Allegory of Truth, Time and History (1800), The Family of Charles IV (1800), Clothed Maja (1802-05), Bandit stripping a woman (1808-12), The Burial of the Sardine (1808-12), Portrait of Antonia de Zárate (1810-11), Disasters of War (1810-15), The Second of May 1808 (1814), The Third of May 1808 (1814), Ferdinand VII (1814-15), Self-Portrait (1815), Tauromaquia (1816), Disparates (c.1816-19), Black Paintings (c.1819-23), Bulls of Bordeaux (1825), Portrait of Mariano Goya (1827)",
       "portrayed by": [
-        "Vicente López",
-        "Goya"
+        "Vicente López", 
+        "Francisco de Goya y Lucientes"
       ],
       "Image source": "New York, Metropolitan Museum, Self-portrait, drawing, 35.103.1"
     },
