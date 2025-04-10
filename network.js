@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         const degree = edgeCount[node.id] || 0;
         let html = `<div class="node-info">`;
         if (node.image) {
-          html += `<img src="${node.image}" alt="${node.label}" style="max-width: 150px;"><br>`;
+          html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
         }
 
-        html += `<h2>${node.label}</h2>`;
+        html += `<h2>${node.id}</h2>`;
         for (let key in node) {
           if (!['id', 'label', 'image', 'shape', 'font', 'size', 'title'].includes(key)) {
             const label = key.charAt(0).toUpperCase() + key.slice(1);
@@ -58,7 +58,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         edges.get().forEach(edge => {
           if (edge.from === node.id || edge.to === node.id) {
             const otherId = edge.from === node.id ? edge.to : edge.from;
-            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${otherId}')">${otherId}</a></li>`;
+            const otherNode = nodes.get(otherId);
+            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${otherId}')">${otherNode.id}</a></li>`;
           }
         });
         html += `</ul>`;
