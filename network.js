@@ -101,15 +101,18 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
         html += `</div>`;
         
-        if (edge.since) {
-          html += `<p><strong>Known each other since:</strong> ${edge.since}</p>`;
-        }
-        if (edge.correspondence) {
-          html += `<p><strong>Correspondence:</strong> ${edge.correspondence}</p>`;
-        }
-        if (edge.relationship) {
-          html += `<p><strong>Type of relationship:</strong> ${edge.relationship}</p>`;
-        }
+        const edgeFields = [
+          { key: "relationship type", label: "Type of relationship" },
+          { key: "correspondence", label: "Correspondence" },
+          { key: "know each other since", label: "Known each other since" },
+          { key: "portraits", label: "Portraits" }
+        ];
+        
+        edgeFields.forEach(field => {
+          if (edge[field.key]) {
+            html += `<p><strong>${field.label}:</strong> ${edge[field.key]}</p>`;
+          }
+        });
 
         html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${edge.from}')">${edge.from}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${edge.to}')">${edge.to}</a></p>`;
 
