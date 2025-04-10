@@ -38,27 +38,27 @@
   display: flex;
   align-items: flex-start;
   width: 100%;
-  align-self: stretch; 
   margin-bottom: 3rem;
 }
 
   /* Versión responsive para móviles */
   @media (max-width: 768px) {
-      #nodeInfo {
-        width: 100%;
-      }
-
-      #network {
-        height: 50vh;
-      }
-
     .layout-container {
       flex-direction: column;
+    }
+    
+    #nodeInfo {
+      width: 100%;
+    }
+
+    #network {
+      height: 50vh;
+    }
   }
     
   #network {
     flex: 1;
-    height: 50vh;
+    height: 100vh;
     background: black;
   }
 
@@ -74,16 +74,17 @@
     align-self: flex-start;
     overflow: visible !important;
   }
-      .node-info {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-      }
       
-      .node-info img {
-        max-width: 200px;
-        margin-bottom: 1rem;
-      }
+  .node-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+      
+  .node-info img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
 
   .contributions-section {
     width: 100%;
