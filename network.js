@@ -68,16 +68,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         
         const connections = [];
         
-        if (edge.since) {
-          html += `<p><strong>Known each other since:</strong> ${edge.since}</p>`;
-        }
-        if (edge.correspondence) {
-          html += `<p><strong>Correspondence:</strong> ${edge.correspondence}</p>`;
-        }
-        if (edge.relationship) {
-          html += `<p><strong>Type of relationship:</strong> ${edge.relationship}</p>`;
-        }
-        
         connections
           .sort((a, b) => a.name.localeCompare(b.name))
           .forEach(conn => {
