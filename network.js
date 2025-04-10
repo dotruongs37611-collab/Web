@@ -61,7 +61,14 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       fieldsToShow.forEach(field => {
         if (node[field.key]) {
-          html += `<p><strong>${field.label}:</strong> ${node[field.key]}</p>`;
+          const names = node[field.key].split(',').map(name => name.trim());
+          const linkedNames = names.map(name => {
+            const linkedNode = nodes.get(name.trim()); || Object.values(nodes.get()).find(n => n.label === name.trim());
+            return linkedNode
+              ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
+              : name;
+          });
+          html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
         }
       });
 
