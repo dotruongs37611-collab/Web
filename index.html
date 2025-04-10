@@ -30,19 +30,28 @@
     padding-bottom: 1rem;
   }
 
+.layout-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+    
   #network {
-    height: 70vh;
+    flex: 1;
+    height: auto;
     background: black;
   }
 
   #nodeInfo {
+    width: 30%;
     background-color: #222;
     padding: 1rem;
-    height: auto;
-    max-height: none;
-    overflow: visible; /* <- elimina scroll vertical */
     font-size: 16px;
     text-align: left;
+    color: white;
+    height: auto;
+    max-height: none;
+    overflow: visible;
   }
       .node-info {
         display: flex;
@@ -171,8 +180,10 @@
     </select>
   </div>
 
-  <div id="network"></div>
-  <div id="nodeInfo">Click a node or edge to see more information here.</div>
+  <div class="layout-container">
+    <div id="network"></div>
+    <div id="nodeInfo">Click a node or edge to see more information here.</div>
+  </div>
 
   <div class="contributions-section">
     <h2>Contributions</h2>
