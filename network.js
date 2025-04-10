@@ -62,9 +62,6 @@ document.addEventListener('DOMContentLoaded', async function () {
             html += `<p><strong>${field.label}:</strong> ${node[field.key]}</p>`;
           }
         });
-
-        
-        html += `<p><strong>Connections:</strong> ${degree}</p><ul>`;
         
         const connections = [];
 
@@ -77,6 +74,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
 
         const degree = connections.length;
+
+        html += `<p><strong>Connections:</strong> ${degree}</p><ul>`;
         
         connections
           .sort((a, b) => a.name.localeCompare(b.name))
