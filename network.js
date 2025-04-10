@@ -48,24 +48,35 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
 
         html += `<h2>${node.id}</h2>`;
-        for (let key in node) {
-          if (!['id', 'label', 'image', 'shape', 'font', 'size', 'title'].includes(key)) {
-            const label = key.charAt(0).toUpperCase() + key.slice(1);
-            html += `<p><strong>${label}:</strong> ${node[key]}</p>`;
+        
+        const fieldsToShow = [
+          { key: "life dates", label: "Life dates" },
+          { key: "profession", label: "Profession" },
+          { key: "author of", label: "Author of" },
+          { key: "portrayed by", label: "Portrayed by" },
+          { key: "Image source", label: "Image source" }
+        ];
+        
+        fieldsToShow.forEach(field => {
+          if (node[field.key]) {
+            html += `<p><strong>${field.label}:</strong> ${node[field.key]}</p>`;
           }
-        }
+        });
+
         
         html += `<p><strong>Connections:</strong> ${degree}</p><ul>`;
         
         const connections = [];
         
-        edges.get().forEach(edge => {
-          if (edge.from === node.id || edge.to === node.id) {
-            const otherId = edge.from === node.id ? edge.to : edge.from;
-            const otherNode = nodes.get(otherId);
-            connections.push({ id: otherId, name: otherNode.id });
-          }
-        });
+        if (edge.since) {
+          html += `<p><strong>Known each other since:</strong> ${edge.since}</p>`;
+        }
+        if (edge.correspondence) {
+          html += `<p><strong>Correspondence:</strong> ${edge.correspondence}</p>`;
+        }
+        if (edge.relationship) {
+          html += `<p><strong>Type of relationship:</strong> ${edge.relationship}</p>`;
+        }
         
         connections
           .sort((a, b) => a.name.localeCompare(b.name))
