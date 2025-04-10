@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `</div>`; // <- cierre del div.node-info
         document.getElementById("nodeInfo").innerHTML = html;
         nodeInfo.innerHTML = html;
+        
       } else if (params.edges.length > 0) {
         const edge = edges.get(params.edges[0]);
         const fromNode = nodesMap[edge.from];
@@ -91,6 +92,17 @@ document.addEventListener('DOMContentLoaded', async function () {
           html += `<img src="${toNode.image}" style="max-height:80px;">`;
         }
         html += `</div>`;
+        
+        if (edge.since) {
+          html += `<p><strong>Known each other since:</strong> ${edge.since}</p>`;
+        }
+        if (edge.correspondence) {
+          html += `<p><strong>Correspondence:</strong> ${edge.correspondence}</p>`;
+        }
+        if (edge.relationship) {
+          html += `<p><strong>Type of relationship:</strong> ${edge.relationship}</p>`;
+        }
+
         html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${edge.from}')">${edge.from}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${edge.to}')">${edge.to}</a></p>`;
         for (let key in edge) {
           if (!['from', 'to', 'id'].includes(key)) {
