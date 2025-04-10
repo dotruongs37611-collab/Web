@@ -83,7 +83,11 @@
     {
       "id": "Eugène Delacroix",
       "label": "Delacroix",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg"
+      "life dates": "1798-1863",
+      "profession": "painter, draughtsman, engraver",
+      "author of": "Scenes from the Massacre at Chios (1824, Louvre), The Death of Sardanapalus (1827, Louvre), Liberty guiding the People (1830, Louvre)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg",
+      "image source": "Self-portrait with Green Vest (1837, Louvre)"
     },
     {
       "id": "Félix Guillemardet",
