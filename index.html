@@ -17,7 +17,9 @@
     margin: 0;
     padding: 0;
     height: auto; 
-    overflow: visible;
+    max-height: none;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .header {
@@ -76,15 +78,16 @@
       }
 
   .contributions-section {
-    margin-top: 2rem;
+    width: 100%;
     text-align: center;
+    margin-top: 2rem;
   }
 
   footer {
     margin-top: 2rem;
     text-align: center;
     font-size: 0.9rem;
-    color: #aaa;
+    color: #333;
     padding: 1rem;
     background-color: #f9f9f9;
   }
