@@ -24,6 +24,7 @@
     {
       "id": "Mariano Goya",
       "label": "M. Goya",
+      "life dates": "1806-1874",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Goya.jpg"
     },
     {
@@ -32,7 +33,9 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martin_Zapater.jpg",
       "life dates": "1746-1803",
       "relationship to goya": "Best friend",
-      "correspondence": "Extensive letters with Goya"
+      "correspondence": "Extensive letters with Goya",
+      "portrayed by": "Francisco de Goya y Lucientes (1780, 1790, 1797)",
+      "image source": "Portrait by Goya, 1790, Museo de Arte de Ponce, Puerto Rico"
     },
     {
       "id": "Federico Madrazo",
@@ -435,10 +438,10 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Martín Zapater",
-      "relationship type": "Friendship",
+      "relationship type": "Friendship; best friend",
       "know each other since": "1765",
       "correspondence": "1765-1803",
-      "portraits": "Goya painted Zapater"
+      "portraits": "Goya portrayed Zapater in 1780 (private collection), 1790 (Museo de Arte de Ponce, Puerto Rico) and 1797 (Museo de Bellas Artes de Bilbao)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
