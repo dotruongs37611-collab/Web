@@ -54,15 +54,27 @@ document.addEventListener('DOMContentLoaded', async function () {
             html += `<p><strong>${label}:</strong> ${node[key]}</p>`;
           }
         }
+        
         html += `<p><strong>Connections:</strong> ${degree}</p><ul>`;
+        
+        const connections = [];
+        
         edges.get().forEach(edge => {
           if (edge.from === node.id || edge.to === node.id) {
             const otherId = edge.from === node.id ? edge.to : edge.from;
             const otherNode = nodes.get(otherId);
-            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${otherId}')">${otherNode.id}</a></li>`;
+            connections.push({ id: otherId, name: otherNode.id });
           }
         });
+        
+        connections
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach(conn => {
+            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
+          });
+        
         html += `</ul>`;
+
         html += `</div>`; // <- cierre del div.node-info
         document.getElementById("nodeInfo").innerHTML = html;
         nodeInfo.innerHTML = html;
