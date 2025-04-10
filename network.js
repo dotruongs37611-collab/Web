@@ -67,16 +67,18 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `<p><strong>Connections:</strong> ${degree}</p><ul>`;
         
         const connections = [];
+
+        edges.get().forEach(edge => {
+          if (edge.from === node.id || edge.to === node.id) {
+            const otherId = edge.from === node.id ? edge.to : edge.from;
+            const otherNode = nodes.get(otherId);
+            connections.push({ id: otherId, name: otherNode.id });
+          }
+        });
+
         const degree = connections.length;
         
         connections
-          edges.get().forEach(edge => {
-            if (edge.from === node.id || edge.to === node.id) {
-              const otherId = edge.from === node.id ? edge.to : edge.from;
-              const otherNode = nodes.get(otherId);
-              connections.push({ id: otherId, name: otherNode.id });
-            }
-          });
           .sort((a, b) => a.name.localeCompare(b.name))
           .forEach(conn => {
             html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
