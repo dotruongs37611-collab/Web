@@ -253,7 +253,8 @@
     {
       "id": "Leocadia Zorrilla y Galarza",
       "label": "Leocadia",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Leocadia_AI.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Leocadia_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Rosario Weiss Zorrilla",
@@ -430,8 +431,8 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Martín Zapater",
-      "relationship type": "Friendship",
-      "know each other since": "1765",
+      "relationship": "Friendship",
+      "since": "1765",
       "correspondence": "1765-1803",
       "portraits": "Goya painted Zapater"
     },
