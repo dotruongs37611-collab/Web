@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
         const node = nodes.get(params.nodes[0]);
-        const degree = edgeCount[node.id] || 0;
+        degree = edgeCount[node.id] || 0;
         let html = `<div class="node-info">`;
         if (node.image) {
           html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
