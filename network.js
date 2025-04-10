@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     searchButton.addEventListener('click', () => {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
-      const found = data.nodes.find(n => 
+      const found = data.nodes.find(n =>) 
       n.id.toLowerCase().includes(query) || n.label.toLowerCase().includes(query)
       if (found) {
         focusNode(found.id);
