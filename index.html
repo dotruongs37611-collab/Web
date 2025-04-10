@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goya Network</title>
+
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+  body {
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: auto; 
+    max-height: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .header {
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+.layout-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+  /* Versión responsive para móviles */
+  @media (max-width: 768px) {
+    .layout-container {
+      flex-direction: column;
+    }
+    
+    #nodeInfo {
+      width: 100%;
+    }
+
+    #network {
+      height: 50vh;
+    }
+  }
+    
+  #network {
+    flex: 1;
+    height: 80vh;
+    background: black;
+  }
+
+  #nodeInfo {
+    width: 30%;
+    background-color: #222;
+    padding: 1rem;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    max-height: 80vh;
+    overflowy: auto;
+  }
+
+    #nodeInfo::after {
+      content: "";
+      display: block;
+      height: 3rem;
+    }
+      
+  .node-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+      
+  .node-info img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .contributions-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+
+  a {
+    color: #66ccff;
+  }
+
+  .social-icons {
+    margin-top: 1rem;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #444;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #1da1f2;
+  }
+
+  .social-icons i {
+    vertical-align: middle;
+  }
+  
+  html, body {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  .layout-container {
+    align-items: flex-start;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+</style>
+
+  
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Estilos del footer y redes sociales -->
+  <style>
+    .footer {
+      font-size: 1.1rem;
+      padding: 1.5rem;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+  
+    .social-icons {
+      margin-top: 1rem;
+    }
+  
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #444;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+  
+    .social-icons a:hover {
+      color: #1da1f2;
+    }
+    
+    .social-icons i {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="images/GoyaNetwork_logo.jpg" alt="Goya Network Logo" style="max-height: 100px;">
+    <h1>Goya Network</h1>
+    <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search...">
+    <button id="searchButton">Search</button>
+    <select id="professionFilter">
+      <option value="">All Professions</option>
+      <option value="Artist">Artist</option>
+      <option value="Writer">Writer</option>
+      <option value="Collector">Collector</option>
+      <option value="Socialité">Socialité</option>
+      <option value="Politician">Politician</option>
+      <option value="Engraver">Engraver</option>
+      <option value="Diplomat">Diplomat</option>
+      <option value="Scholar">Scholar</option>
+    </select>
+    <select id="relationshipFilter">
+      <option value="">Type of relationship</option>
+      <option value="Family member">Family member</option>
+      <option value="Friend">Friend</option>
+      <option value="Acquaintance">Acquaintance</option>
+      <option value="Lover">Lover</option>
+      <option value="Student/Master">Student/Master</option>
+      <option value="Patron">Patron</option>
+    </select>
+  </div>
+
+  <div class="layout-container">
+    <div id="network"></div>
+    <div id="nodeInfo">Click a node or edge to see more information here.</div>
+  </div>
+
+  <div class="contributions-section">
+    <h2>Contributions</h2>
+    <p>The Goya Network is conceived as a collaborative, crowd-sourced database. <br>Contributions and suggestions are welcome and encouraged, and contributors will be credited if requested.</p>
+    <p><a href="https://docs.google.com/forms/d/1Gxl6_Usf45QV_qKfp-ez3BQt-0Mxirm6Ok6xg-VUnN0/edit" target="_blank">Access form</a></p>
+  </div>
+
+ <footer class="footer">
+  <p>
+    2025 Paula Fayos Pérez. Proyecto financiado con una Beca Leonardo 2024 (Fundación BBVA). El código original fue desarrollado con ayuda de Anita L Verő 
+    <a href="https://www.consonantai.com" target="_blank">(ConsonantAI)</a>.
+    <br>La Red Goya se encuentra protegida mediante acta notarial (Madrid, 2025)
+  </p>
+
+  <p>
+    <br>2025 Paula Fayos-Pérez. The project was funded with a Leonardo Grant 2024 (BBVA Foundation). The original code was developed with the help of Anita L Verő 
+    <a href="https://www.consonantai.com" target="_blank">(ConsonantAI)</a>.
+    <br>The Goya Network is protected by notarial deed (Madrid, 2025).
+  </p>
+   
+  <div class="social-icons">
+    <a href="https://x.com/PaulaFayosPerez" target="_blank" aria-label="X">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="https://ucm.academia.edu/PaulaFayosPerez" target="_blank" aria-label="Academia.edu">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
+    <a href="https://www.researchgate.net/profile/Paula-Fayos-Perez="_blank" aria-label="ResearchGate">
+      <i class="fab fa-researchgate"></i>
+    </a>
+    <a href="https://github.com/PFayosP/GoyaNetworkWeb" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</footer>
+
+  <script src="network.js"></script>
+</body>
+</html>
