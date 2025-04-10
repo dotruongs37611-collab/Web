@@ -44,6 +44,14 @@
 
   /* Versión responsive para móviles */
   @media (max-width: 768px) {
+      #nodeInfo {
+        width: 100%;
+      }
+
+      #network {
+        height: 50vh;
+      }
+
     .layout-container {
       flex-direction: column;
   }
@@ -55,7 +63,7 @@
   }
 
   #nodeInfo {
-    width: 100%;
+    width: 35%;
     background-color: #222;
     padding: 1rem;
     font-size: 16px;
@@ -64,7 +72,7 @@
     height: auto;
     max-height: none;
     align-self: flex-start;
-    overflow-y: visible !important;
+    overflow: visible !important;
   }
       .node-info {
         display: flex;
