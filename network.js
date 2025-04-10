@@ -38,58 +38,57 @@ document.addEventListener('DOMContentLoaded', async function () {
       physics: { solver: 'forceAtlas2Based', stabilization: true }
     });
 
-    network.on("click", function (params) {
-      if (params.nodes.length > 0) {
-        const node = nodes.get(params.nodes[0]);
-        const degree = edgeCount[node.id] || 0;
-        let html = `<div class="node-info">`;
-        if (node.image) {
-          html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
-        }
+  network.on("click", function (params) {
+    if (params.nodes.length > 0) {
+      const node = nodes.get(params.nodes[0]);
+      const degree = edgeCount[node.id] || 0;
+      let html = `<div class="node-info">`;
 
-        html += `<h2>${node.id}</h2>`;
-        
-        const fieldsToShow = [
-          { key: "life dates", label: "Life dates" },
-          { key: "profession", label: "Profession" },
-          { key: "author of", label: "Author of" },
-          { key: "portrayed by", label: "Portrayed by" },
-          { key: "Image source", label: "Image source" }
-        ];
-        
-        fieldsToShow.forEach(field => {
-          if (node[field.key]) {
-            html += `<p><strong>${field.label}:</strong> ${node[field.key]}</p>`;
-          }
-        });
+      if (node.image) {
+        html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
+      }
 
-        
-        html += `<p><strong>Connections:</strong> ${degree}</p><ul>`;
-        
-        const connections = [];
-        
-        if (edge.since) {
-          html += `<p><strong>Known each other since:</strong> ${edge.since}</p>`;
-        }
-        if (edge.correspondence) {
-          html += `<p><strong>Correspondence:</strong> ${edge.correspondence}</p>`;
-        }
-        if (edge.relationship) {
-          html += `<p><strong>Type of relationship:</strong> ${edge.relationship}</p>`;
-        }
-        
-        connections
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .forEach(conn => {
-            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
-          });
-        
-        html += `</ul>`;
+      html += `<h2>${node.id}</h2>`;
 
-        html += `</div>`; // <- cierre del div.node-info
-        document.getElementById("nodeInfo").innerHTML = html;
-        nodeInfo.innerHTML = html;
-        
+      const fieldsToShow = [
+        { key: "life dates", label: "Life dates" },
+        { key: "profession", label: "Profession" },
+        { key: "author of", label: "Author of" },
+        { key: "portrayed by", label: "Portrayed by" },
+        { key: "Image source", label: "Image source" }
+      ];
+
+      fieldsToShow.forEach(field => {
+        if (node[field.key]) {
+          html += `<p><strong>${field.label}:</strong> ${node[field.key]}</p>`;
+        }
+      });
+
+      const connections = [];
+      edges.get().forEach(edge => {
+        if (edge.from === node.id || edge.to === node.id) {
+          const otherId = edge.from === node.id ? edge.to : edge.from;
+          const otherNode = nodes.get(otherId);
+          connections.push({ id: otherId, name: otherNode.id });
+        }
+      });
+
+    const degreeCount = connections.length;
+    html += `<p><strong>Connections:</strong> ${degreeCount}</p><ul>`;
+
+    connections
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .forEach(conn => {
+        html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
+      });
+
+    html += `</ul></div>`;
+    document.getElementById("nodeInfo").innerHTML = html;
+  }
+
+  // ← aquí continúa el bloque con: else if (params.edges.length > 0) { ...
+});
+
       } else if (params.edges.length > 0) {
         const edge = edges.get(params.edges[0]);
         const fromNode = nodesMap[edge.from];
