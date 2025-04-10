@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(20 + degree * 2, 60),
-        font: { size: 14, strokeWidth: 3, strokeColor: '#ffffff' },
+        size: Math.min(28 + degree * 2.5, 70),
+        font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
         shape: node.image ? 'circularImage' : 'dot'
       };
       if (node.image) config.image = node.image;
@@ -135,7 +135,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     searchButton.addEventListener('click', () => {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
-      const found = data.nodes.find(n => n.id.toLowerCase() === query);
+      const found = data.nodes.find(n => 
+      n.id.toLowerCase().includes(query) || n.label.toLowerCase().includes(query)
       if (found) {
         focusNode(found.id);
       } else {
