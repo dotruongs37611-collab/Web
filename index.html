@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goya Network</title>
+    <style>
+        body {
+            font-family: "EB Garamond", serif;
+            background-color: #111;
+            color: white;
+            font-size: 18px;
+            margin: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        .network-container {
+            height: 80vh;
+        }
+        #nodeInfo {
+            background: #222;
+            padding: 1rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .contributions {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Goya Network</h1>
+        <p>Mapping Goya's Impact in 19th–Century France and Spain</p>
+    </div>
+    <div id="network" class="network-container"></div>
+    <div id="nodeInfo"></div>
+
+    <div class="contributions" style="margin-top: 2rem;">
+        <h2 style="text-align:center;">Contributions</h2>
+        <p style="text-align:center;">
+            The Goya Network is conceived as a collaborative, crowd-sourced database.<br>
+            Contributions and suggestions are welcome and encouraged, and contributors will be credited if requested.
+        </p>
+        <p style="text-align:center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdDknxFpr2Z--cw1ENnWa8Dny9SuhGyJjXzZ2AB4pG2IeqgwA/viewform" target="_blank" style="color:#66ccff;">Access form</a></p>
+    </div>
+
+    <div class="footer">
+        <p>2025 Paula Fayos Pérez. Proyecto financiado con una Beca Leonardo 2024 (Fundación BBVA).
+        El código original fue desarrollado con ayuda de Anita L Veró (<a href="https://www.consonant.ai" style="color:#66ccff;" target="_blank">ConsonantAI</a>).</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <script src="network_updated.js"></script>
+</body>
+</html>
