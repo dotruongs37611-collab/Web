@@ -42,11 +42,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       if (params.nodes.length > 0) {
         const node = nodes.get(params.nodes[0]);
         const degree = edgeCount[node.id] || 0;
-        let html = "";
+        let html = `<div class="node-info">`;
         if (node.image) {
-          html += `<img src="${node.image}" alt="${node.id}" style="max-height:120px; float:left; margin:0 1rem 1rem 0;">`;
+          html += `<img src="${node.image}" alt="${node.label}" style="max-width: 150px;"><br>`;
         }
-        html += `<h3>${node.id}</h3>`;
+
+        html += `<h2>${node.label}</h2>`;
         for (let key in node) {
           if (!['id', 'label', 'image', 'shape', 'font', 'size', 'title'].includes(key)) {
             const label = key.charAt(0).toUpperCase() + key.slice(1);
@@ -61,6 +62,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         });
         html += `</ul>`;
+        html += `</div>`; // <- cierre del div.node-info
+        document.getElementById("nodeInfo").innerHTML = html;
         nodeInfo.innerHTML = html;
       } else if (params.edges.length > 0) {
         const edge = edges.get(params.edges[0]);
