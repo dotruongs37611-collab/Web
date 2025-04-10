@@ -39,6 +39,7 @@
     background-color: #222;
     padding: 1rem;
     height: auto;
+    max-height: none;
     overflow: visible; /* <- elimina scroll vertical */
     font-size: 16px;
     text-align: left;
@@ -89,6 +90,12 @@
 
   .social-icons i {
     vertical-align: middle;
+  }
+  
+  html, body {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
   }
 </style>
 
