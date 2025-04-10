@@ -73,27 +73,24 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       });
 
-    const degreeCount = connections.length;
-    html += `<p><strong>Connections:</strong> ${degreeCount}</p><ul>`;
+      const degreeCalc = connections.length;
+      html += `<p><strong>Connections:</strong> ${degreeCalc}</p><ul>`;
 
-    connections
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .forEach(conn => {
-        html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
-      });
+      connections
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .forEach(conn => {
+          html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
+        });
 
-    html += `</ul></div>`;
-    document.getElementById("nodeInfo").innerHTML = html;
-  }
-
-  // ← aquí continúa el bloque con: else if (params.edges.length > 0) { ...
-});
+      html += `</ul></div>`;
+      document.getElementById("nodeInfo").innerHTML = html;
 
       } else if (params.edges.length > 0) {
         const edge = edges.get(params.edges[0]);
         const fromNode = nodesMap[edge.from];
         const toNode = nodesMap[edge.to];
         let html = `<h3>Connection</h3>`;
+      
         html += `<div style="display:flex; align-items:center; gap:1rem;">`;
         if (fromNode?.image) {
           html += `<img src="${fromNode.image}" style="max-height:80px;">`;
@@ -114,15 +111,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
 
         html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${edge.from}')">${edge.from}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${edge.to}')">${edge.to}</a></p>`;
-        for (let key in edge) {
-          if (!['from', 'to', 'id'].includes(key)) {
-            const label = key.charAt(0).toUpperCase() + key.slice(1);
-            html += `<p><strong>${label}:</strong> ${edge[key]}</p>`;
-          }
-        }
-        nodeInfo.innerHTML = html;
-      } else {
-        nodeInfo.innerHTML = "<p>Click a node or edge to see more information here.</p>";
+
+        document.getElementById("nodeInfo").innerHTML = html;
       }
     });
 
