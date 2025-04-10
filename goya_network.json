@@ -63,7 +63,8 @@
     {
       "id": "Pharamond Blanchard",
       "label": "Blanchard",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Eugenio Ochoa",
@@ -238,17 +239,20 @@
     {
       "id": "Paul Lefort",
       "label": "Lefort",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Gustave Brunet",
       "label": "Brunet",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Román Garreta y Huerta",
       "label": "Garreta",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Leocadia Zorrilla y Galarza",
@@ -274,7 +278,8 @@
     {
       "id": "[J./L.] Carresse",
       "label": "Carresse",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Charles Yriarte",
