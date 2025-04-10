@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         { key: "profession", label: "Profession" },
         { key: "author of", label: "Author of" },
         { key: "portrayed by", label: "Portrayed by" },
-        { key: "Image source", label: "Image source" }
+        { key: "Image source", label: "Image source" },
+        { key: "image source", label: "Image source" }
       ];
 
       fieldsToShow.forEach(field => {
