@@ -112,6 +112,9 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "relationship type", label: "Type of relationship" },
           { key: "correspondence", label: "Correspondence" },
           { key: "know each other since", label: "Known each other since" },
+          { key: "they met", label: "They met" },
+          { key: "mentions", label: "Mentions" },
+          { key: "collaborations", label: "Collaborations" },
           { key: "portraits", label: "Portraits" }
         ];
         
