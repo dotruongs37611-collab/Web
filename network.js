@@ -43,7 +43,17 @@ document.addEventListener('DOMContentLoaded', async function () {
     const network = new vis.Network(container, { nodes, edges }, {
       nodes: { borderWidth: 2 },
       edges: { color: 'lightgray' },
-      physics: { solver: 'forceAtlas2Based', stabilization: true }
+      physics: {
+        solver: 'forceAtlas2Based',
+        stabilization: true,
+        forceAtlas2Based: {
+          gravitationalConstant: -50,
+          centralGravity: 0.01,
+          springLength: 150,
+          springConstant: 0.08,
+          avoidOverlap: 1 // 👈 clave para que no se solapen
+        }
+      }
     });
 
     network.on("click", function (params) {
