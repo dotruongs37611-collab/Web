@@ -429,12 +429,14 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Mariano Goya",
-      "relationship type": "family members"
+      "relationship type": "relatives; grandfather-grandson",
+      "portraits": "1812-14, private collection, Duke of Alburquerque, Madrid; 1827 Meadows Museum, Texas"
     },
     {
       "from": "Goya",
       "to": "Javier Goya",
-      "relationship type": "family members"
+      "relationship type": "relatives; father-son",
+      "portraits": "1805 private collection, Casa Torres, drawing (GW.843); 1805, Museo de Zaragoza, miniature (GW.844); 1805-06, private collection, Paris, full portrait (GW.852); 1810-15 Boston MFA (GW.837); 1824 private collection, drawing (GW.1636)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -452,7 +454,7 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Ferdinand Guillemardet",
-      "label": ""
+      "portraits": "1798 Louvre"
     },
     {
       "from": "Francisco de Goya y Lucientes",
