@@ -30,23 +30,32 @@
       .header-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    position: relative;
+    text-align: center;
   }
   
   .logo {
-    height: 48px; /* o ajústalo a tu gusto */
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80px; /* aumenta el tamaño del logo */
     width: auto;
   }
   
   .title-group h1 {
     margin: 0;
+    font-size: 2.4rem; /* más grande */
+    color: white;
     font-size: 1.8rem;
   }
   
   .title-group p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ccc;
   }
 
