@@ -75,6 +75,11 @@
     background: black;
   }
 
+    /* Evita que #network deje espacio cuando está oculto */
+  #network[style*="display: none"] {
+    height: 0 !important;
+  }
+
   #nodeInfo {
     width: 30%;
     background-color: #222;
