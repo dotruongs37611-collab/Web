@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       html += `</ul></div>`;
       document.getElementById("nodeInfo").innerHTML = html;
 
-      else if (params.edges.length > 0) {
+      if (params.edges.length > 0) {
         const edge = edges.get(params.edges[0]);
         const fromNode = nodesMap[edge.from];
         const toNode = nodesMap[edge.to];
