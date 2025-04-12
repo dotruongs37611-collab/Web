@@ -111,8 +111,13 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "influence of Goya's work", label: "Influence of Goya's work" },
           { key: "collector of Goya's work", label: "Collector of Goya's work" },
           { key: "knows Goya's work since", label: "knows Goya's work since" },
+          { key: "mentions the Prado commentaries", label: "Mentions the Prado commentaries" },
           { key: "shows Goya", label: "Shows Goya" },
           { key: "mentioned in the French press", label: "Mentioned in the French press" },
+          { key: "pseudonym", label: "Pseudonym" },
+          { key: "archives", label: "Archives" },
+          { key: "bibliography", label: "Bibliography" },
+          { key: "nationality", label: "Nationality" },
           { key: "image source", label: "Image source" }
         ];
 
