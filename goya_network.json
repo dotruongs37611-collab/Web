@@ -39,11 +39,11 @@
       "label": "F. Madrazo",
       "life dates": "1815-1894",
       "profession": "painter, collector, art dealer",
-      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Taylor and Dauzats; 1837-1839 (portrays Dauzats 1837): he benefits from contacts with Baron Taylor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
-      "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Dauzat's)",
+      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Baron Taylor and Adrien Dauzats; 1837-1839 (portrays Adrien Dauzats 1837): he benefits from contacts with Baron Taylor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
+      "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Adrien Dauzat's)",
       "author of": "illustrations in El Artista; Godofredo de Bouillon proclamado rey de Jerusalén (1838, Galerie Batailles, Palais Versailles)",
       "editor of": "El Artista",
-      "works as": "Member of the RABASF at 16 years old; Director of RABASF in 1866; Pintor de Cámara of Isabel II; Director of the Prado 1860-68 and 1881-1894",
+      "works as": "member of the RABASF at 16 years old; Director of RABASF in 1866; Pintor de Cámara of Isabel II; Director of the Prado 1860-68 and 1881-1894",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg"
     },
     {
@@ -954,7 +954,8 @@
     {
       "from": "Federico Madrazo",
       "to": "Adrien Dauzats",
-      "relationship type": "friend"
+      "relationship type": "close friend",
+      "portraits": "Madrazo portrays Adrien Dauzats in 1837"
     },
     {
       "from": "Federico Madrazo",
