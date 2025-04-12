@@ -55,6 +55,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       }
     });
+    network.once("stabilizationIterationsDone", function () {
+      network.setOptions({ physics: false });         // ❄️ Detiene el movimiento
+      network.fit({ animation: true });               // 🎯 Centra y ajusta zoom
+    });
 
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
