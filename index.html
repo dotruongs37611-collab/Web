@@ -69,12 +69,19 @@
   }
     
   #network {
-    flex: 1;
-    height: 80vh;
     width: 100%;
     background: black;
   }
 
+  #network.visible {
+    height: 80vh;
+  }
+    
+  #network.hidden {
+    display: none;
+    height: 0;
+  }
+    
     /* Evita que #network deje espacio cuando está oculto */
   #network[style*="display: none"] {
     height: 0 !important;
@@ -237,7 +244,7 @@
   </div>
 
   <div class="layout-container">
-    <div id="network" style="width: 100%; height: 80vh;"></div>
+    <div id="network" class="visible"></div>
     <div id="nodeInfo">Click a node or edge to see more information here.</div>
   </div>
 
@@ -290,27 +297,26 @@
 
 <script>
 function showSection(section) {
-  document.getElementById('network').style.display = (section === 'network') ? 'block' : 'none';
-  document.getElementById('nodeInfo').style.display = (section === 'network') ? 'block' : 'none';
-  document.getElementById('about').style.display = (section === 'about') ? 'block' : 'none';
-  document.querySelector('.contributions-section').style.display = (section === 'network') ? 'block' : 'none';
+  const networkDiv = document.getElementById('network');
+  const infoDiv = document.getElementById('nodeInfo');
+  const aboutDiv = document.getElementById('about');
+  const contributions = document.querySelector('.contributions-section');
 
   if (section === 'network') {
-    networkDiv.style.display = 'block';
-    networkDiv.style.height = '80vh';
+    networkDiv.classList.remove('hidden');
+    networkDiv.classList.add('visible');
     infoDiv.style.display = 'block';
     contributions.style.display = 'block';
     aboutDiv.style.display = 'none';
   } else {
-    networkDiv.style.display = 'none';
-    networkDiv.style.height = '0';
+    networkDiv.classList.remove('visible');
+    networkDiv.classList.add('hidden');
     infoDiv.style.display = 'none';
     contributions.style.display = 'none';
     aboutDiv.style.display = 'block';
   }
 }
 </script>
-
   
 </body>
 </html>
