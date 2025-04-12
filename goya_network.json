@@ -21,7 +21,8 @@
       "id": "Mariano Goya",
       "label": "M. Goya",
       "life dates": "1806-1874",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Goya.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Goya.jpg",
+      "image source": "Portrait by Goya, 1827, Meadows Museum, Texas (67.03)"
     },
     {
       "id": "Martín Zapater",
@@ -448,47 +449,49 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "José Madrazo",
-      "label": ""
+      "relationship type": "colleagues"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Ferdinand Guillemardet",
+      "relationship type": "patronage",
+      "know each other since": "at least 1798",
       "portraits": "1798 Louvre"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Antonio de Brugada",
-      "label": ""
+      "relationship type": "friend" 
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Juan Agustín Ceán Bermúdez",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Joaquín María Ferrer",
-      "label": ""
+      "relationship type": "patronage"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Agustín Esteve",
-      "label": ""
+      "relationship type": "colleague"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Leandro Fernández de Moratín",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Manuel Godoy",
-      "label": ""
+      "relationship type": "patronage"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Cyprien Gaulon",
-      "label": ""
+      "relationship type": "patronage"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -498,12 +501,12 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Nicolas Philippe Guye",
-      "label": ""
+      "relationship type": "patronage"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Victor Guye",
-      "label": ""
+      "relationship type": "patronage"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -523,23 +526,23 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Leocadia Zorrilla y Galarza",
-      "relationship type": "employer/employee (housekeeper)",
+      "relationship type": "employer/employee; housekeeper",
       "portraits": "Not known"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Rosario Weiss Zorrilla",
-      "label": ""
+      "relationship type": "protegée; master-student"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Josefa Bayeu y Subías",
-      "label": ""
+      "relationship type": "spouses; husband-wife"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Sebastián Martínez y Pérez",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -549,42 +552,38 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Jacques Galos",
-      "label": ""
+      "relationship type": "friend",
+      "portraits": "1826, Barnes Foundation"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Juan Antonio Melón",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Javier Goya",
       "to": "Mariano Goya",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "Javier Goya",
       "to": "Federico Madrazo",
-      "label": ""
-    },
-    {
-      "from": "Javier Goya",
-      "to": "Federico Madrazo",
-      "label": ""
+      "relationship type": "friend; business partners?"
     },
     {
       "from": "Javier Goya",
       "to": "Baron Taylor",
-      "label": ""
+      "relationship type": "business partners (sold a group of paintings attributed to Francisco de Goya y Lucientes in 1837 for the Galerie espagnole)"
     },
     {
       "from": "Javier Goya",
       "to": "Valentín Carderera",
-      "label": ""
+      "relationship type": "acknowledgement; business partners?"
     },
     {
       "from": "Javier Goya",
       "to": "Leocadia Zorrilla y Galarza",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Javier Goya",
@@ -594,17 +593,17 @@
     {
       "from": "Javier Goya",
       "to": "Josefa Bayeu y Subías",
-      "label": ""
+      "relationship type": "relatives; mother-son"
     },
     {
       "from": "Mariano Goya",
       "to": "Federico Madrazo",
-      "label": ""
+      "relationship type": "acknowledgement; business partners?"
     },
     {
       "from": "Mariano Goya",
       "to": "Valentín Carderera",
-      "label": ""
+      "relationship type": "acknowledgement; business partners?"
     },
     {
       "from": "Mariano Goya",
@@ -614,33 +613,35 @@
     {
       "from": "Mariano Goya",
       "to": "Josefa Bayeu y Subías",
-      "label": ""
+      "relationship type": "relatives; grandmother-grandson"
     },
     {
       "from": "Martín Zapater",
       "to": "Juan Agustín Ceán Bermúdez",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Federico Madrazo",
       "to": "Valentín Carderera",
+      "relationship type": "friend"
       "know each other since": "at least 1837", 
       "they met": "19 Aug 1861 (Paris): with Baron Taylor and Eugenio Ochoa",
       "correspondence": "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París' (Bib: Lanzarote Guiral 2016 p.XXIII; Díez 1994, no.528, pp.988-89)"
     },
     {
       "from": "Federico Madrazo",
-      "to": "José Madrazo"
+      "to": "José Madrazo",
+      "relationship type": "relatives; father-son"
     },
       {
       "from": "Federico Madrazo",
       "to": "Eugenio Ochoa",
-      "label": ""
+      "relationship type": "close friends"
     },
     {
       "from": "Federico Madrazo",
       "to": "Prosper Mérimée",
-      "label": ""
+      "relationship type": "friend/acknowledgement"
     },
     {
       "from": "Federico Madrazo",
@@ -650,97 +651,99 @@
     {
       "from": "Federico Madrazo",
       "to": "Adrien Dauzats",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Federico Madrazo",
       "to": "Baron Taylor",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Federico Madrazo",
       "to": "Théophile Gautier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Román Garreta y Huerta",
-      "label": ""
+      "relationship type": "relatives; brothers-in-law"
     },
     {
       "from": "Federico Madrazo",
       "to": "Pedro de Madrazo y Kuntz",
-      "label": ""
+      "relationship type": "relatives; brothers"
     },
     {
       "from": "Federico Madrazo",
       "to": "Luis Madrazo",
-      "label": ""
+      "relationship type": "relatives; brothers"
     },
     {
       "from": "Federico Madrazo",
       "to": "Victor Hugo",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Raimundo Madrazo",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "Federico Madrazo",
       "to": "Eugène Delacroix",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Pharamond Blanchard",
-      "label": ""
+      "relationship type": "acknowledgement; friend"
     },
     {
       "from": "Federico Madrazo",
       "to": "Jean-Auguste-Dominique Ingres",
-      "label": ""
+      "relationship type": "acknowledgement; friend"
     },
     {
       "from": "Federico Madrazo",
       "to": "Achille Devéria",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Achille Ricourt",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Juan Antonio Melón",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Antoine-Jean Gros",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Federico Madrazo",
       "to": "Paul Delaroche",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Valentín Carderera",
       "to": "Adrien Dauzats",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Valentín Carderera",
       "to": "Prosper Mérimée",
-      "label": ""
+      "know each other since": "at least 1841",
+      "correspondence": "8 July 1856 (Carderera archive): Mérimée answers he doesn't own a set of Goya's 'Toros' and he could buy a set if not too expensive; that he doesn't know the 'Proverbios' nor the 'suppressed Caprichos'(Fayos-Pérez 2020; Fayos-Pérez 2024 p.65)",
+      "relationship type": "acknowledgement; correspondent; art dealing?"
     },
     {
       "from": "Valentín Carderera",
       "to": "Pharamond Blanchard",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Valentín Carderera",
@@ -780,97 +783,113 @@
     {
       "from": "Valentín Carderera",
       "to": "Eugène Piot",
-      "label": ""
+      "correspondence": "Not located. This correspondence exists according to Bonnaffé 1890, p.35",
+      "know each other since": "at least 1842",
+      "they met": "22 Nov 1842 (diary): Carderera reviews with Piot his notes on Goya (Lanzarote Guiral 2016, p.167); 24 Sept 1855: Carderera visits Piot's house (Lanzarote Guiral 2016, p.565); 13 July 1861 C shows P his drawings and Goyas'; 2 Aug 1861 C gives Piot the copies explanation of Goya (Prado commentaries) (ibid. p.454, 462; they also meet other times 1861: pp.453, 459, 464)",
+      "collaborations": "Carderera helped Piot with his Goya catalogue raisonné (1842), as well as Gautier",
+      "mentions": "Piot mentions Carderera and Agustín Ceán Bermúdez in his catalogue raisonné 1842 (p.346)",
+      "relationship type": "colleagues"
     },
     {
       "from": "Valentín Carderera",
       "to": "[J./L.] Carresse",
+      "correspondence": "21 June 1857 (Carderera archive) (Fayos-Pérez 2020)"m
       "label": ""
     },
     {
       "from": "Valentín Carderera",
       "to": "Charles Yriarte",
-      "label": ""
+      "mentions": "Yriarte acknowledges Carderera, Zarco del Valle, Fco Zapater and Lefort ('nous ont aidé de leurs lumières et de leurs documents), 1867, Avant-propos",
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Valentín Carderera",
       "to": "Baron Taylor",
-      "label": ""
+      "relationship type": "friends",
+      "know each other since": "at least 1837",
+      "they met": "1837-X-2 Carderera offers Taylor to sell 2 Morales paintings, via Federico Madrazo (letter Federico Madrazo to Baron Taylor, Bordeaux, 2 Oct 1837: Lanzarote Guiral 2016 p. XXIII; Porée 1907, p.296); 1841-V-5, Paris: Taylor invites him to the Comédie Française (Lanzarote Guiral 2016, p.XLIX, p.11); 1841 V 7, 9, 21; 1841 XI 21 (he introduces Ferdinand Denis); 1841 XII 19; 1842 I 2, 5-7, 13, 17; 1842 IV 10; 1842 VIII 28; 1842 IX 11, 24, 28, 30 (Baron Taylor sees a portrait); 1842-XI-27; 1843-I-8; 1845-V-6; 1845 X 12 (sees a Velázquez portrait 'in Vienna'); 1845 XI 12, 14, 15; 1855 X-9, XI 3, 25, 26; 1859-X-1; 1861 VII 19, 29, 31, VIII 7, 19, 20, 21, IX 21; in Antwerp",
+      "artworks bought/sold": "1839: Taylor offers Carderera a deal to buy his drawings and texts (Adrien Dauzats as middleman)"
     },
     {
       "from": "Valentín Carderera",
       "to": "Eugenio Ochoa",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Valentín Carderera",
       "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Valentín Carderera",
       "to": "Pedro de Madrazo y Kuntz",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Valentín Carderera",
       "to": "Luis Madrazo",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Valentín Carderera",
       "to": "Frédéric Villot",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "José Madrazo",
       "to": "Pharamond Blanchard",
-      "label": ""
+      "know each other since": "at least 1825",
+      "relationship type": "colleagues; employer-employee",
+      "collaborations": "Madrazo hired Blanchard to make lithographic reproductions at the Real Museo in Madrid"
     },
     {
       "from": "José Madrazo",
       "to": "Baron Taylor",
-      "label": ""
+      "know each other since": "at least 1833 (via Blanchard, in Madrid)",
+      "correspondence": "2 Oct 1837: Carderera offers Taylor to sell 2 Morales paintings, via Madrazo (Lanzarote Guiral 2016, p.XXIII; Porée 1907, p.296)",
+      "relationship type": "acknowledgement; patronage",
+      "portraits": "1833 (Madrazo portrays Taylor)"
     },
     {
       "from": "José Madrazo",
       "to": "Adrien Dauzats",
-      "label": ""
+      "know each other since": "1833", 
+      "relationship type": "colleague"
     },
     {
       "from": "José Madrazo",
       "to": "Pedro de Madrazo y Kuntz",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "José Madrazo",
       "to": "Luis Madrazo",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "José Madrazo",
       "to": "Raimundo Madrazo",
-      "label": ""
+      "relationship type": "relatives; grandfather-grandson"
     },
     {
       "from": "José Madrazo",
       "to": "Román Garreta y Huerta",
-      "label": ""
+      "relationship type": "relatives; father-in-law, son-in-law"
     },
     {
       "from": "José Madrazo",
       "to": "Eugenio Ochoa",
-      "label": ""
+      "relationship type": "acknowledgement? friend?"
     },
     {
       "from": "José Madrazo",
       "to": "Jean-Auguste-Dominique Ingres",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "José Madrazo",
       "to": "Jacques-Louis David",
-      "label": ""
+      "relationship type": "master-student"
     },
     {
       "from": "Baron Taylor",
