@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       // 🔚 Solo al final del if
       document.getElementById("nodeInfo").innerHTML = html;
+  
     }
     };
 
