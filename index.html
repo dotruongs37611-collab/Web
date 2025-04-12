@@ -294,6 +294,20 @@ function showSection(section) {
   document.getElementById('nodeInfo').style.display = (section === 'network') ? 'block' : 'none';
   document.getElementById('about').style.display = (section === 'about') ? 'block' : 'none';
   document.querySelector('.contributions-section').style.display = (section === 'network') ? 'block' : 'none';
+
+  if (section === 'network') {
+    networkDiv.style.display = 'block';
+    networkDiv.style.height = '80vh';
+    infoDiv.style.display = 'block';
+    contributions.style.display = 'block';
+    aboutDiv.style.display = 'none';
+  } else {
+    networkDiv.style.display = 'none';
+    networkDiv.style.height = '0';
+    infoDiv.style.display = 'none';
+    contributions.style.display = 'none';
+    aboutDiv.style.display = 'block';
+  }
 }
 </script>
 
