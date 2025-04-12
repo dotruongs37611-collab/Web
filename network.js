@@ -130,7 +130,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       document.getElementById("nodeInfo").innerHTML = html;
     }
-  });
 
     const nodesMap = {};
     const nodes = new vis.DataSet(data.nodes.map(node => {
