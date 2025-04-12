@@ -8,8 +8,6 @@ function autoLinkNames(text, nodesMap) {
   return text;
 }
 
-
-
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
@@ -87,6 +85,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       edges.get().forEach(edge => {
         if (edge.from === node.id || edge.to === node.id) {
           const otherId = edge.from === node.id ? edge.to : edge.from;
+          const otherNode = nodes.get(otherId);
           if (otherNode) {
             connections.push({ id: otherId, name: otherNode.id });
           }
