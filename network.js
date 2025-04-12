@@ -47,14 +47,16 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: {
           enabled: true,
-          iterations: 200, // puede ajustar este número
-          updateInterval: 25
+          iterations: 50,
+          updateInterval: 0,
+          onlyDynamicEdges: false,
+          fit: true
         },
         forceAtlas2Based: {
-          gravitationalConstant: -50,
-          centralGravity: 0.01,
-          springLength: 150,
-          springConstant: 0.08,
+          gravitationalConstant: -30,
+          centralGravity: 0.005,
+          springLength: 120,
+          springConstant: 0.05,
           avoidOverlap: 1
         }
       }
