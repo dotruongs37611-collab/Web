@@ -1,8 +1,7 @@
-
 function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
   Object.keys(nodesMap).forEach(name => {
-    const regex = new RegExp(`\\b${name}\\b`, "g");
+    const regex = new RegExp(`\b${name}\b`, "g");
     text = text.replace(regex, `<a href="#" style="color:#66ccff" onclick="focusNode('${name}')">${name}</a>`);
   });
   return text;
@@ -47,106 +46,110 @@ document.addEventListener('DOMContentLoaded', async function () {
       physics: { solver: 'forceAtlas2Based', stabilization: true }
     });
 
-  network.on("click", function (params) {
-    if (params.nodes.length > 0) {
-      const node = nodes.get(params.nodes[0]);
-      const degree = edgeCount[node.id] || 0;
-      let html = `<div class="node-info">`;
+    network.on("click", function (params) {
+      if (params.nodes.length > 0) {
+        const node = nodes.get(params.nodes[0]);
+        const degree = edgeCount[node.id] || 0;
+        let html = `<div class="node-info">`;
 
-      if (node.image) {
-        html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
-      }
-
-      html += `<h2>${node.id}</h2>`;
-
-      const fieldsToShow = [
-        { key: "life dates", label: "Life dates" },
-        { key: "profession", label: "Profession" },
-        { key: "author of", label: "Author of" },
-        { key: "portrayed by", label: "Portrayed by" },
-        { key: "Image source", label: "Image source" },
-        { key: "image source", label: "Image source" }
-      ];
-
-      fieldsToShow.forEach(field => {
-        if (node[field.key]) {
-          const names = node[field.key].split(',').map(name => name.trim());
-          const linkedNames = names.map(name => {
-            const linkedNode = nodes.get(name.trim()) || Object.values(nodes.get()).find(n => n.label === name.trim());
-            return linkedNode
-              ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
-              : name;
-          });
-          html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
+        if (node.image) {
+          html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
         }
-      });
 
-      const connections = [];
-      edges.get().forEach(edge => {
-        if (edge.from === node.id || edge.to === node.id) {
-          const otherId = edge.from === node.id ? edge.to : edge.from;
-          const otherNode = nodes.get(otherId);
-          if (otherNode) {
-            connections.push({ id: otherId, name: otherNode.id });
+        html += `<h2>${node.id}</h2>`;
+
+        const fieldsToShow = [
+          { key: "life dates", label: "Life dates" },
+          { key: "profession", label: "Profession" },
+          { key: "author of", label: "Author of" },
+          { key: "portrayed by", label: "Portrayed by" },
+          { key: "Image source", label: "Image source" },
+          { key: "image source", label: "Image source" }
+        ];
+
+        fieldsToShow.forEach(field => {
+          if (node[field.key]) {
+            const names = node[field.key].split(',').map(name => name.trim());
+            const linkedNames = names.map(name => {
+              const linkedNode = nodes.get(name.trim()) || Object.values(nodes.get()).find(n => n.label === name.trim());
+              return linkedNode
+                ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
+                : name;
+            });
+            html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
           }
-        }
-      });
-
-      const degreeCalc = connections.length;
-      html += `<p><strong>Connections:</strong> ${degreeCalc}</p><ul>`;
-
-      connections
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .forEach(conn => {
-          html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
         });
 
-      html += `</ul></div>`;
-      document.getElementById("nodeInfo").innerHTML = html;
+        const connections = [];
+        edges.get().forEach(edge => {
+          if (edge.from === node.id || edge.to === node.id) {
+            const otherId = edge.from === node.id ? edge.to : edge.from;
+            const otherNode = nodes.get(otherId);
+            if (otherNode) {
+              connections.push({ id: otherId, name: otherNode.id });
+            }
+          }
+        });
 
-      } 
-else if (params.edges.length > 0) {
-  const edge = edges.get(params.edges[0]);
-  if (!edge) return;
+        const degreeCalc = connections.length;
+        html += `<p><strong>Connections:</strong> ${degreeCalc}</p><ul>`;
 
-  const fromNode = nodesMap[edge.from];
-  const toNode = nodesMap[edge.to];
+        connections
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach(conn => {
+            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
+          });
 
-  let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
+        html += `</ul></div>`;
+        document.getElementById("nodeInfo").innerHTML = html;
 
-  if (fromNode?.image) {
-    html += `<img src="${fromNode.image}" style="max-height:80px;">`;
-  }
-  if (toNode?.image) {
-    html += `<img src="${toNode.image}" style="max-height:80px;">`;
-  }
+      } else if (params.edges.length > 0) {
+        const edge = edges.get(params.edges[0]);
+        if (!edge) return;
 
-  html += `</div>`;
-  html += `<h3>Connection</h3>`;
-  html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
+        const fromNode = nodesMap[edge.from];
+        const toNode = nodesMap[edge.to];
 
-  const edgeFields = [
-    { key: "relationship type", label: "Type of relationship" },
-    { key: "correspondence", label: "Correspondence" },
-    { key: "know each other since", label: "Know each other since" },
-    { key: "they met", label: "They met" },
-    { key: "shared", label: "Shared" },
-    { key: "mentions", label: "Mentions" },
-    { key: "collaborations", label: "Collaborations" },
-    { key: "curiosities", label: "Curiosities" },
-    { key: "portraits", label: "Portraits" }
-  ];
+        let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
 
-  edgeFields.forEach(field => {
-    if (edge[field.key]) {
-      const linkedText = autoLinkNames(edge[field.key], nodesMap);
-      html += `<p><strong>${field.label}:</strong> ${linkedText}</p>`;
-    }
-  });
+        if (fromNode?.image) {
+          html += `<img src="${fromNode.image}" style="max-height:80px;">`;
+        }
+        if (toNode?.image) {
+          html += `<img src="${toNode.image}" style="max-height:80px;">`;
+        }
 
-  document.getElementById("nodeInfo").innerHTML = html;
-}
+        html += `</div>`;
+        html += `<h3>Connection</h3>`;
+        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
 
+        const edgeFields = [
+          { key: "relationship type", label: "Type of relationship" },
+          { key: "correspondence", label: "Correspondence" },
+          { key: "know each other since", label: "Know each other since" },
+          { key: "they met", label: "They met" },
+          { key: "shared", label: "Shared" },
+          { key: "mentions", label: "Mentions" },
+          { key: "collaborations", label: "Collaborations" },
+          { key: "curiosities", label: "Curiosities" },
+          { key: "portraits", label: "Portraits" }
+        ];
+
+        edgeFields.forEach(field => {
+          if (edge[field.key]) {
+            let value = autoLinkNames(edge[field.key], nodesMap);
+            const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+            if (urlMatch) {
+              const url = urlMatch[0];
+              value = value.replace(url, '').trim();
+              value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+            }
+            html += `<p><strong>${field.label}:</strong> ${value}</p>`;
+          }
+        });
+
+        document.getElementById("nodeInfo").innerHTML = html;
+      }
     });
 
     window.focusNode = function (nodeId) {
@@ -165,7 +168,7 @@ else if (params.edges.length > 0) {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
       const found = data.nodes.find(n =>
-      n.id.toLowerCase().includes(query) || n.label.toLowerCase().includes(query))
+        n.id.toLowerCase().includes(query) || n.label.toLowerCase().includes(query));
       if (found) {
         focusNode(found.id);
       } else {
