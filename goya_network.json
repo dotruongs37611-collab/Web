@@ -1104,7 +1104,7 @@
       "from": "Eugène Delacroix",
       "to": "Charles Baudelaire",
       "relationship type": "friend", 
-      "mentions": "Baudelaire: '"Delacroix was passionately in love with passion, but coldly determined to express passion as clearly as possible'"
+      "mentions": "Baudelaire: 'Delacroix was passionately in love with passion, but coldly determined to express passion as clearly as possible'"
     },
     {
       "from": "Eugène Delacroix",
@@ -1378,7 +1378,7 @@
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Sophie Gay",
-      "relationship type": friend, 
+      "relationship type": "friend", 
       "bibliography": "Bénichou, Romantismes français t.I, ed. 2004, p.9"
     },
     {
