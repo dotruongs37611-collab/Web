@@ -37,47 +37,91 @@
     {
       "id": "Federico Madrazo",
       "label": "F. Madrazo",
+      "life dates": "1815-1894",
+      "profession": "painter, collector, art dealer",
+      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Taylor and Dauzats; 1837-1839 (portrays Dauzats 1837): he benefits from contacts with Yalor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
+      "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Dauzat's)",
+      "author of": "illustrations in El Artista; Godofredo de Bouillon proclamado rey de Jerusalén (1838, Galerie Batailles, Palais Versailles)",
+      "editor of": "El Artista",
+      "works as": "Member of the RABASF at 16 years old; Director of RABASF in 1866; Pintor de Cámara of Isabel II; Director of the Prado 1860-68 and 1881-1894",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg"
     },
     {
       "id": "Valentín Carderera",
       "label": "Carderera",
+      "life dates": "1796-1880",
+      "profession": "painter, collector, art dealer",
+      "mentions Goya": "1835 in El Artista (with lithography by Madrazo: Vicente López's portrait of Goya); 1860; 1863 (quotes Gautier's essay on Desastres 1845)",
+      "editor of": "El Artista (1835) with Eugenio Ochoa",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg"
     },
     {
       "id": "José Madrazo",
       "label": "J. Madrazo",
+      "life dates": "1781-1859", 
+      "profession": "painter, engraver, draughtsman",
+      "in Paris": "in 1829 (1st trip). Studies Eugène Delacroix's work",
+      "mentioned in the French press": "in 1826, 9 Nov (Le Moniteur universal)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
     },
     {
       "id": "Baron Taylor",
       "label": "Taylor",
+      "life dates": "1789-1879", 
+      "profession": "politician, artist",
+      "in Spain": "1st trip in 1820; 1823 [Cien Mil hijos de S. Luis]; in 1832 (with Dauzats); July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo; 1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice of Madrazo family and Carderera [LG p.574]): 1836 Feb-Aug paintings (8 Goyas from Javier Goya)",
+      "author of": "Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan (1826)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg"
     },
     {
       "id": "Adrien Dauzats",
       "label": "Dauzats",
+      "life dates": "1804-1868",
+      "profession": "painter, engraver",
+      "in Spain": "in 1832 (with Baron Taylor); July 1833 (with Baron Taylor); 1835-1837 assists Baron Taylor in acquisition of artworks for Galerie espagnole (alongside Pharamond Blanchard)",
+      "author of": "1834 article in Magasin pittoresque? (mentions Prado commentaries, in the possession of Javier Goya until 1861)",
+      "participates in": "1831 Salon (début)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg"
     },
     {
       "id": "Pharamond Blanchard",
       "label": "Blanchard",
+      "life dates": "1805-1873",
+      "profession": "painter, draughtsman",
+      "in Spain": "1824-1837 working as a painter and engraver; hired by José Madrazo to make lithographic reproductions at the Real Museo in Madrid; 1835-37 he assists Baron Taylor in acquiring paintings for Louis Philippe's Galerie espagnole",
+      "in Paris": "after 1837 (quoted by Carderera's diary) (Lanzarote Guiral 2016, p.537)",
+      "author of": "'Course de taureaux dans un bourg d'Espagne' (Salon 1834)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Eugenio Ochoa",
       "label": "Ochoa",
+      "life dates": "1815-1872", 
+      "profession": "writer, editor, politician",
+      "in Paris": "1828-1834 at the École d'Arts et d'Offices. He meets Moratín and Godoy; 1837-1845",
+      "author of": "Translation of Victor Hugo's Hernani (watched by Théophile Gautier in 1840 in Valladolid); 'Catálogo razonado de los manuscritos españoles existentes en la Biblioteca Real de París: seguido de un suplemento que contiene los de las otras tres bibliotecas públicas' (Arsenal, Ste Geneviève and Mazarine), París, Imprenta Real, 1844",
+      "editor of": "El Artista (1835) con Federico Madrazo: spreads Romanticism in Spain and imitates the French journal L'Artiste",
+      "married to": "Carlota Madrazo (1835)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
     },
     {
       "id": "Prosper Mérimée",
       "label": "Mérimée",
+      "life dates": "1803-1870", 
+      "profession": "writer, historian, archaeologist",
+      "in Spain": "in 1830",
+      "visits the Prado Museum": "in 1830 (doesn't mention Goya in his account)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg"
     },
     {
       "id": "Ferdinand Guillemardet",
       "label": "Ferdinand Guillemardet",
+      "life dates": "1765-1809",
+      "profession": "diplomat (French ambassador 1798-1800)",
+      "in Spain": "1798",
+      "collector of Goya's work": "set of the Caprichos (1798)",
+      "commissions Goya with": "portrait, 1798 (Louvre)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg"
     },
     {
@@ -92,81 +136,129 @@
     {
       "id": "Félix Guillemardet",
       "label": "Félix Guillemardet",
+      "life dates": "1796-1842",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Felix_Guillemardet.jpg"
     },
     {
       "id": "Antonio de Brugada",
       "label": "Brugada",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brugada_AI.jpg"
+      "life dates": "1804-1863",
+      "profession": "painter",
+      "curiosities": "he sees Goya die in Bordeaux, alongside Molina (Canellas, Diplomatario,  no.181, p.512)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brugada_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Juan Agustín Ceán Bermúdez",
       "label": "Ceán Bermúdez",
+      "life dates": "1749-1829",
+      "profession": "historian, collector, painter",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cean_Bermudez.jpg"
     },
     {
       "id": "Joaquín María Ferrer",
       "label": "Ferrer",
+      "life dates": "1777-1861", 
+      "profession": "politician, military member",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferrer.jpg"
     },
     {
       "id": "Agustín Esteve",
       "label": "Esteve",
+      "life dates": "1753-1820",
+      "profession": "painter",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Esteve.jpg"
     },
     {
       "id": "Leandro Fernández de Moratín",
       "label": "Moratín",
+      "life dates": "1760-1828", 
+      "profession": "playwright, poet",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg"
     },
     {
       "id": "Manuel Godoy",
       "label": "Godoy",
+      "life dates": "1767-1851",
+      "profession": "politician",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg"
     },
     {
       "id": "Cyprien Gaulon",
       "label": "Gaulon",
+      "life dates": "1777-1858", 
+      "profession": "lithographic printer",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg"
     },
     {
       "id": "Laurent Matheron",
+      "profession": "writer",
       "label": "Matheron",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg"
     },
     {
       "id": "Frédéric Villot",
       "label": "Villot",
+      "life dates": "1809-1875", 
+      "profession": "printmaker",
+      "collector of Goya's work": "Tauromaquia (1859 sale)",
+      "sales": "1859-V-16 (Tauromaquia for 255 fr.)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
     },
     {
       "id": "Achille Devéria",
       "label": "Devéria",
+      "life dates": "1800-1857",
+      "profession": "painter, draughtsman, lithographer",
+      "works as": "director of the Département des Estampes at the BNF in 1849",
+      "address": "45 rue de Nôtre Dame des Champs (1833)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg"
     },
     {
       "id": "Louis Boulanger",
       "label": "Boulanger",
+      "life dates": 1806-1867",
+      "profession": "painter, lithographer, illustrator",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Boulanger.jpg"
     },
     {
       "id": "Antoine Fontaney",
       "label": "Fontaney",
+      "life dates": 1803-1837",
+      "profession": "wirter, journalist, poet",
+      "in Spain": "1830-1831",
+      "collector of Goya's work": "Los Caprichos (1830-1831)",
+      "shows Goya": "Fontaney's journal (8 Sept 1831): 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31); 9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
     },
     {
       "id": "Victor Hugo",
       "label": "Hugo",
+      "life dates": "1802-1885",
+      "profession": "author, playwright, poet, politician",
+      "author of": "Hernani 1830 (takes place in Spain)",
+      "in Spain": "In 1811 (at 9 years old)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
     {
       "id": "Théophile Gautier",
       "label": "Gautier",
+      "life dates": "1811-1872",
+      "profession": "poet, art critic, novelist, journalist",
+      "author of": "1840 Spanish trip essays in La Presse, reedited as Tra los montes (1843) and as Voyage en Espagne (1845). 1843 August: Gautier, ‘La Tauromachie’, Le Musée des familles, pp. 341–48.13 Illustrated with seven drawings by Gautier (signed ‘T. G.’) engraved by ‘A.B.L’ (Andrew, Best and Leloir) (see Fayos-Pérez 2024)",
+      "mentions Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [LG p.550]); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
+      "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Ochoa; Gautier praises the translation)",
+      "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
+      "knows Goya's works since": "Los Caprichos in late 1830-late 1831 (Lipschutz 1972, p.118): through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
+      "collector of Goya's work": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
     },
     {
       "id": "Honoré de Balzac",
       "label": "Balzac",
+      "life dates": "1799-1850", 
+      "profession": "novelist, playwright",
+      "author of": "La peau du chagrin (1831) mentions Murillo and Velázquez",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg"
     },
     {
@@ -177,6 +269,8 @@
     {
       "id": "Charles Nodier",
       "label": "Nodier",
+      "life dates": "1780-1844",
+      "profession": "writer, librarian",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg"
     },
     {
