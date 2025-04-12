@@ -695,6 +695,8 @@
     {
       "id": "Frédéric Chopin",
       "label": "Chopin",
+      "life dates": "1810-1849", 
+      "profession": "composer, pianist",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Chopin.jpg"
     },
     {
