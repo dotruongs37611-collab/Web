@@ -87,6 +87,10 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "author of", label: "Author of" },
           { key: "portrayed by", label: "Portrayed by" },
           { key: "Image source", label: "Image source" },
+          { key: "link to Goya's work", label: "link to Goya's work" },
+          { key: "influence of Goya's work", label: "Influence of Goya's work" },
+          { key: "collector of Goya's work", label: "Collector of Goya's work" },
+          { key: "knew Goya's work since", label: "knew Goya's work since" },
           { key: "image source", label: "Image source" }
         ];
 
@@ -166,6 +170,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "mentions", label: "Mentions" },
           { key: "collaborations", label: "Collaborations" },
           { key: "curiosities", label: "Curiosities" },
+          { key: "link to Goya's work", label: "Link to Goya's work" },
           { key: "portraits", label: "Portraits" }
         ];
 
