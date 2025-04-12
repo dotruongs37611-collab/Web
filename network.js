@@ -109,7 +109,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     
       html += `</div><h3>Connection</h3>`;
-    
       html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
     
       // 🔽 AÑADE edgeFields.forEach aquí dentro 🔽
@@ -117,16 +116,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (edge[field.key]) {
           html += `<p><strong>${field.label}:</strong> ${edge[field.key]}</p>`;
         }
-  });
+      });
 
-  // 🔚 Solo al final del if
-  document.getElementById("nodeInfo").innerHTML = html;
-}
-
-        });
-
-        document.getElementById("nodeInfo").innerHTML = html;
-      }
+      // 🔚 Solo al final del if
+      document.getElementById("nodeInfo").innerHTML = html;
+    }
     });
 
     window.focusNode = function (nodeId) {
