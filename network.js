@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: {
           enabled: true,
-          iterations: 50,
+          iterations: 150,
           updateInterval: 0,
           onlyDynamicEdges: false,
           fit: true
