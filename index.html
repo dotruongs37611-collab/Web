@@ -34,18 +34,18 @@
     padding-bottom: 1rem;
   }
 
-.layout-container {
-  display: flex;
-  align-items: flex-start;
-  width: 100%;
-  min-height: 500px;
-  gap: 1rem;
-  margin-bottom: 0;
-  flex-wrap: wrap;
-}
-
+  .layout-container {
+    display: flex;
+   }
+    
   .layout-container.visible {
     display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    align-items: stretch; /* o flex-start si prefieres */
+    flex-wrap: nowrap; /* evita que nodeInfo se baje */
   }
 
   .layout-container.hidden {
@@ -78,6 +78,8 @@
     
   #network {
     width: 100%;
+    flex: 1;
+    height: 80vh;
     background: black;
   }
 
