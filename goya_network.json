@@ -894,7 +894,11 @@
     {
       "from": "Baron Taylor",
       "to": "Adrien Dauzats",
-      "label": ""
+      "know each other since": "at least 1832",
+      "relationship type": "friend",
+      "collaborations": "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole; also for 'Voyages pittoresques de l'ancienne France'",
+      "in Spain": "1835-1837", 
+      "correspondence: "1837-VII-5 (Paris) Taylor to Dauzats: he laments that Dauzats's trip in Spain is not being more fruitful; 'Je désire bien vivement qu'il en soit autrement. M. Gautier vous accompagnait. Revenez très promptement' (coll. Claude Roger-Marx) (Guinard 1967, 'Dauzats and Blanchard', p.271); 1837-VII-15, Taylor to Dauzats (Paris): about Dauzats's Spanish trip; 1842-II-27 (London) Taylor to Dauzats: BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162] 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra'"
     },
     {
       "from": "Baron Taylor",
@@ -904,17 +908,17 @@
     {
       "from": "Baron Taylor",
       "to": "Pharamond Blanchard",
-      "label": ""
+      "relationship type": "colleague",
     },
     {
       "from": "Baron Taylor",
       "to": "Théophile Gautier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Baron Taylor",
       "to": "Charles Nodier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Baron Taylor",
@@ -924,217 +928,241 @@
     {
       "from": "Baron Taylor",
       "to": "Jean-Auguste-Dominique Ingres",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "know each other since": "at least 1833",
+      "they met": "in 1833 to visit the Louvre's department of sculptures with Federico Madrazo"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Pharamond Blanchard",
-      "label": ""
+      "relationship type": "colleague"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Eugène Delacroix",
-      "label": ""
+      "relationship type": "friend",
+      "correspondence": "1846, 12 Aug: Delacroix asks Dauzats for Goya's lithographies (“Goya ou la mort, cher ami”) (Delacroix - Joubin 1936, p.275),
+      "curiosities": "Delacroix named Dauzats the executor of his will (Mainer and Enguita 1999, p.128)"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Antonio de Brugada",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Frédéric Villot",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Théophile Gautier",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "know each other since": at least 1837?", 
+      "correspondence": "1847 Delacroix to Gautier: mention of 'eight small Goyas' of bullfighting at Mauroner’s gallery on 35 rue Laffitte. Adrien Dauzats mentions a Spanish painter and restorer called Bueno, who had brought the alleged Goyas from Madrid",
+      "mentions": "24 Sept 1837, Gautier mentions Dauzats and Taylor in an article about the Galerie espagnole (La Presse, pp.1-2)"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Pierre Lacour",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "they met": "in 1824 in Bordeaux"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Eugenio Ochoa",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Charles Nodier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Adrien Dauzats",
       "to": "Jean-Auguste-Dominique Ingres",
-      "label": ""
+      "relationship type": "colleague",
+      "know each other since": "at least 1833"
     },
     {
       "from": "Pharamond Blanchard",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "they met: "1846 in Madrid: royal wedding (also Théophile Gautier)"
     },
     {
       "from": "Pharamond Blanchard",
       "to": "Théophile Gautier",
-      "label": ""
+      "they met": "1846 in Madrid: royal wedding (also Alexandre Dumas père)"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Prosper Mérimée",
-      "label": ""
+      "correspondence": yes
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Leandro Fernández de Moratín",
-      "label": ""
+      "relationship type": "acknowledgement", 
+      "know each other since": "at least in 1824-1834 in Paris"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Manuel Godoy",
-      "label": ""
+      "relationship type": "acknowledgement", 
+      "know each other since": "at least in 1824-1834 in Paris"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Théophile Gautier",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "mentions": "Ochoa criticizes Gautier: “la vergonzosa tutela literaria en que nos tienen hace tanto tiempo los novelistas de Tras-os-Montes”, y en una nota: “Así titula M. Th. Gautier su llamado Viaje a España, libro tan verídico, tan chusco como las flamantes cartas de M. Alejandro Dumas” (Ochoa, “Doña Blanca de Navarra, crónica del siglo XV por D. F. Navarro Villoslada, Art. II”, Renacimiento, 1847, p.79) (Randolph 1966, p.55)"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Pedro de Madrazo y Kuntz",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Luis Madrazo",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Victor Hugo",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Achille Ricourt",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "know each other since": "at least 1833 (with Federico Madrazo): visit of L'Artiste, which would inspire El Artista"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Paul Delaroche",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "know each other since": "at least 1833 (with Federico Madrazo)"
     },
     {
       "from": "Ferdinand Guillemardet",
       "to": "Eugène Delacroix",
-      "label": ""
+      "relationship type": "acknowledgement; friend's father"
     },
     {
       "from": "Ferdinand Guillemardet",
       "to": "Félix Guillemardet",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Félix Guillemardet",
-      "label": ""
+      "relationship type": "close friend"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Laurent Matheron",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Frédéric Villot",
-      "label": ""
+      "relationship type": "close friend",
+      "correspondence": "since 1830 (Burty 1880, t.1, pp.149, 166, 169, 178, 188, 191, 198, 202, 204, 213, 228, 234, 236, 243, 246, 292, 307, 321, 322)"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Victor Hugo",
-      "label": ""
+      "relationship type": "colleague",
+      "correspondence": "since 1828 (Burty 1880, t.I, p.130, 134)"
     },
     {
       "from": "Eugène Delacroix",
       "to": "George Sand",
-      "label": ""
+      "relationship type": "close friend",
+      "know each other since": "at least 1834",
+      "correspondence": "1846-X-11 (MD 2012-13)",
+      "portraits": "1834, Musée Delacroix (MD 2016-1); 1838, Copenhagen"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Alfred de Musset",
-      "label": ""
+      "relationship type": "friend",
+      "correspondence": "since 1838 (Burty 1880, t.I, p.235)"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Honoré de Balzac",
-      "label": ""
+      "relationship type": "colleague"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Charles Baudelaire",
-      "label": ""
+      "relationship type": "friend", 
+      "mentions": "Baudelaire: '"Delacroix was passionately in love with passion, but coldly determined to express passion as clearly as possible'"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Théophile Thoré",
-      "label": ""
+      "relationship type": "friend; correspondent", 
+      "correspondence": "since 1837 (Burty 1880, t.I, pp.216, 218, 219, 255, 266-269, 296, 301, 309, 318, 338)"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "relationship type": "friend; correspondent", 
+      "correspondence": "since 1840 (Burty 1880, t.I, p.238, 240)"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Achille Ricourt",
-      "label": ""
+      "relationship type": "acknowledgement; professional contact"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Jean-Auguste-Dominique Ingres",
-      "label": ""
+      "relationship type": "colleagues; rivals"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Antoine-Jean Gros",
-      "label": ""
+      "know each other since": "at least 1824",
+      "mentions": "Gros about The Massacre at Chios (1824): 'a massacre of art'"
     },
     {
       "from": "Juan Agustín Ceán Bermúdez",
       "to": "Leandro Fernández de Moratín",
-      "label": ""
+      "relationship type": "friends"
     },
     {
       "from": "Juan Agustín Ceán Bermúdez",
       "to": "Sebastián Martínez y Pérez",
-      "label": ""
+      "relationship type": "friends"
     },
     {
       "from": "Agustín Esteve",
       "to": "Eugène Piot",
-      "label": ""
+      "mentions": "Piot mentions Esteve as the author of the 2nd 'tirage'; from the Caprichos (Catalogue raisonné, Cabinet de l'Amateur, 1842, p.355)"
     },
     {
       "from": "Frédéric Villot",
       "to": "Eugène Piot",
-      "label": ""
+      "collaborations": "Authors of Catalogue raisonné of Goya's prints, Cabinet de l'amateur, 1842"
     },
     {
       "from": "Achille Devéria",
       "to": "Louis Boulanger",
-      "label": ""
+      "relationship type": "colleagues"
     },
     {
       "from": "Achille Devéria",
       "to": "Antoine Fontaney",
-      "label": ""
+      "relationship type": "colleagues"
     },
     {
       "from": "Achille Devéria",
@@ -1144,97 +1172,113 @@
     {
       "from": "Achille Devéria",
       "to": "Achille Ricourt",
-      "label": ""
+      "relationship type": "acknowledgement; professional contact"
     },
     {
       "from": "Louis Boulanger",
       "to": "Antoine Fontaney",
-      "label": ""
+      "relationship type": "colleagues"
     },
     {
       "from": "Louis Boulanger",
       "to": "Victor Hugo",
-      "label": ""
+      "know each other since": "at least 1829", 
+      "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
+      "relationship type": "colleagues; friends", 
+      "collaborations": "Boulanger illustrates Les orientales (1829): Les Fantômes"
     },
     {
       "from": "Antoine Fontaney",
       "to": "Victor Hugo",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Antoine Fontaney",
       "to": "Théophile Gautier",
-      "label": ""
+      "know each other since": "at least 1831", 
+      "link to Goya's work": "Upon his return from Spain in January 1831, Fontaney shows his Caprichos set in the Arsenal (Nodier's salon), 8 Sept 1831, to artists such as Gautier (Fayos Pérez 2024, p.41)"
     },
     {
       "from": "Antoine Fontaney",
       "to": "Charles Nodier",
-      "label": ""
+      "relationship type": "acknowledgement; friend?"
     },
     {
       "from": "Antoine Fontaney",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "shared": "social circle of Nodier's salon at Arsenal and Victor Hugo's Cenacle"
     },
     {
       "from": "Antoine Fontaney",
       "to": "Adélaïde de Montgolfier",
-      "label": ""
+      "know each other since": "at least 1831", 
+      "relationship type": "acknowledgement"
+      "mentions": "Fontaney mentions Montgolfier in his journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier' when he shows the 'Goya' (Caprichos) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
       "from": "Antoine Fontaney",
       "to": "Louise Swanton Belloc",
-      "label": ""
+      "know each other since": "at least 1831",
+      "relationship type": "acknowledgement"
+      "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier (...)' when he shows the 'Goya' (Caprichos) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
-      "label": ""
+      "relationship type": "acknowledgement; friend?"
+      "know each other since": "1827, 27 June (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)"
     },
     {
       "from": "Victor Hugo",
       "to": "Honoré de Balzac",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Victor Hugo",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Victor Hugo",
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
-      "label": ""
+      "shared": "Hugo attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
       "from": "Victor Hugo",
       "to": "Nicolas Philippe Guye",
-      "label": ""
+      "know each other since": "1881",
+      "relationship type": "acknowledgement; friend of Hugo's father (Léopold Hugo)"
     },
     {
       "from": "Victor Hugo",
       "to": "Victor Guye",
-      "label": ""
+      "know each other since: "at least 1811",
+      "shared": "Same seminary school in Madrid by 1811 (College of Nobles)"
     },
     {
       "from": "Victor Hugo",
       "to": "Charles Nodier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Victor Hugo",
       "to": "Fortunée Hamelin",
-      "label": ""
+      "relationship type": "acknowledgement; lover?"
     },
     {
       "from": "Victor Hugo",
       "to": "Pedro de Madrazo y Kuntz",
-      "label": ""
+      "know each other since": "at least 1837", 
+      "they met": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
     },
     {
       "from": "Théophile Gautier",
       "to": "Honoré de Balzac",
-      "label": ""
+      "relationship type": "friend", 
+      "know each other since": "at least 1835",
+      "collaborations": "Balzac suggests Gautier to collaborate in La Chronique de Paris; Gautier is the author of one of the 1st biographies of Balzac",
+      "mentions": "Gautier: 'Je travaille à La Chronique de Paris qui est maintenant dirigée par Balzac qui est un bon gros porc très plein d’esprit et très agréable à vivre' (letter of Gautier to  E. de Nully, 1836)",
+      "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee (https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)"
     },
     {
       "from": "Théophile Gautier",
@@ -1244,212 +1288,234 @@
     {
       "from": "Théophile Gautier",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "relationship type": "friend", 
+      "know each other since": "at least 1840",
+      "shared": "trip to Spain; authorship of Goya's catalogue raissonné 1842", 
+      "correspondence": "1842 [Aug?] Gautier asks Piot to borrow his 'Toromaquia': ‘Prête-moi la Toromaquia pour un instant, après je t’appartiens’"
     },
     {
       "from": "Théophile Gautier",
       "to": "Philippe Burty",
-      "label": ""
+      "relationship type": "acknowledgement", 
+      "linked to Goya's work": "By 1871: Gautier saw Burty's working proofs of Disasters of War (Fayos-Pérez 2024, p.54; Gautier, 2 Feb 1871; Delesalle 1983, p.104)"
     },
     {
       "from": "Théophile Gautier",
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
-      "label": ""
+      "relationship type": "acknowledgement", 
+      "shared": "Gautier attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
-      "label": ""
+      "know each other since": "the early 1830s; in 1835 in Vienna (Custine meets Mme Hanska)",
+      "relationship type": "friend", 
+      "correspondence": "since at least 1838; Balzac attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine); Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's Disparates)"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Alphonse de Lamartine",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Stendhal (Henri Beyle)",
-      "label": ""
+      "relationship type": "friend", 
+      "bibliography": "Marcel Bouteron, 'L'amitié de Balzac et de Stendhal', Revue des Deux Mondes, July 1941, pp.95-"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Juliette Récamier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Honoré de Balzac",
       "to": "George Sand",
-      "label": ""
+      "relationship type": "friend"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "relationship type": "colleague; friend?"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Charles Baudelaire",
-      "label": ""
+      "relationship type": "colleague",
+      "mentions": "Baudelaire admired Balzac as a 'visionnaire passionné': 'Tous ses personnages sont doués de l'ardeur vitale dont il était animé lui-même. Toutes ses fictions sont aussi profondément colorées que les rêves […] bref, chacun dans Balzac, mêmes les portières, a du génie. Toutes les âmes sont des âmes chargées de volonté jusqu'à la gueule'"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Gustave Flaubert",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Madame Ewelina Hanska",
-      "label": ""
+      "relationship type": "lover; patronage"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Achille Ricourt",
-      "label": ""
+      "relationship type": "colleague"
     },
     {
       "from": "Alexandre Dumas père",
       "to": "Pedro de Madrazo y Kuntz",
-      "label": ""
+      "know each other since": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
     },
     {
       "from": "Charles Nodier",
       "to": "Adélaïde de Montgolfier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "George Sand",
-      "label": ""
+      "relationship type": "acknowledgement", 
+      "shared": "Sand attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Sophie Gay",
-      "label": ""
+      "relationship type": friend, 
+      "bibliography": "Bénichou, Romantismes français t.I, ed. 2004, p.9"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Charles Baudelaire",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Alphonse de Lamartine",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Juliette Récamier",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Stendhal (Henri Beyle)",
-      "label": ""
+      "shared": "Stendhal attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Charles-Augustin Sainte-Beuve",
-      "label": ""
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Madame Ewelina Hanska",
-      "label": ""
+      "they met": "1835 in Vienna with Honoré de Balzac",
+      "relationship type": "acknowledgement"
     },
     {
       "from": "Adélaïde de Montgolfier",
       "to": "Louise Swanton Belloc",
-      "label": ""
+      "relationship type": "colleague"
     },
     {
       "from": "Pierre Lacour",
       "to": "Pierre Lacour fils",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "George Sand",
       "to": "Alfred de Musset",
-      "label": ""
+      "relationship type": "lovers (1833-1835)"
+    },
+    {
+      "from": "George Sand",
+      "to": "Prosper Mérimée",
+      "relationship type": "lovers"
     },
     {
       "from": "Philippe Burty",
       "to": "Charles Blanc",
-      "label": ""
+      "relationship type": "colleague"
     },
     {
       "from": "Nicolas Philippe Guye",
       "to": "Victor Guye",
-      "label": ""
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "Román Garreta y Huerta",
       "to": "Raimundo Madrazo",
-      "label": ""
+      "relationship type": "relatives; uncle-nephew"
     },
     {
       "from": "Leocadia Zorrilla y Galarza",
       "to": "Rosario Weiss Zorrilla",
-      "label": ""
+      "relationship type": "relatives; mother-daughter"
     },
     {
       "from": "Rosario Weiss Zorrilla",
       "to": "Pierre Lacour fils",
-      "label": ""
+      "relationship type": "master-student"
     },
     {
       "from": "Juliette Récamier",
       "to": "Anne-Louise Germaine Necker (Madame de Staël)",
-      "label": ""
+      "relationship type": "friends", 
+      "correspondence": "Yes. (Lettres de Madame de Staël à Madame de Récamier, Paris, Domat, 1952)"
     },
     {
       "from": "Juliette Récamier",
       "to": "Jacques-Louis David",
-      "label": ""
+      "know each other since": "at least 1800",
+      "relationship type": "model/sitter",
+      "portraits": "1800, Louvre"
     },
     {
       "from": "Théophile Thoré",
       "to": "Achille Ricourt",
-      "label": ""
+      "relationship type": "professional contact"
     },
     {
       "from": "Pedro de Madrazo y Kuntz",
       "to": "Luis Madrazo",
-      "label": ""
+      "relationship type": "relatives; brothers", 
     },
     {
       "from": "Pedro de Madrazo y Kuntz",
       "to": "Raimundo Madrazo",
-      "label": ""
+      "relationship type": "relatives; uncle-nephew"
     },
     {
       "from": "Luis Madrazo",
       "to": "Raimundo Madrazo",
-      "label": ""
+      "relationship type": "relatives; uncle-nephew"
     },
     {
       "from": "Jean-Auguste-Dominique Ingres",
       "to": "Jacques-Louis David",
-      "label": ""
+      "relationship type": "master-student"
     },
     {
       "from": "Achille Ricourt",
       "to": "Honoré Daumier",
-      "label": ""
+      "know each other since": "at least 1837",
+      "relationship type": "professional contact"
     },
     {
       "from": "Honoré Daumier",
       "to": "J. J. Grandville (Jean Ignace Isidore Gérard)",
-      "label": ""
+      "relationship type": "colleagues" 
     },
     {
       "from": "Antoine-Jean Gros",
       "to": "Paul Delaroche",
-      "label": ""
+      "relationship type": "master-student"
     },
     {
       "from": "Antoine-Jean Gros",
       "to": "Jacques-Louis David",
-      "label": ""
+      "relationship type": "master-student"
     }
   ]
 }
