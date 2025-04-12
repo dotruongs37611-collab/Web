@@ -93,39 +93,37 @@ document.addEventListener('DOMContentLoaded', async function () {
       html += `</ul></div>`;
       document.getElementById("nodeInfo").innerHTML = html;
 
-      if (params.edges.length > 0) {
-        const edge = edges.get(params.edges[0]);
-        const fromNode = nodesMap[edge.from];
-        const toNode = nodesMap[edge.to];
-        let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
-        
-        if (fromNode?.image) {
-          html += `<img src="${fromNode.image}" style="max-height:80px;">`;
+     if (params.edges.length > 0) {
+      const edge = edges.get(params.edges[0]);
+      const fromNode = nodesMap[edge.from];
+      const toNode = nodesMap[edge.to];
+    
+      let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
+    
+      if (fromNode?.image) {
+        html += `<img src="${fromNode.image}" style="max-height:80px;">`;
+      }
+    
+      if (toNode?.image) {
+        html += `<img src="${toNode.image}" style="max-height:80px;">`;
+      }
+    
+      html += `</div><h3>Connection</h3>`;
+    
+      html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
+    
+      // 🔽 AÑADE edgeFields.forEach aquí dentro 🔽
+      edgeFields.forEach(field => {
+        if (edge[field.key]) {
+          html += `<p><strong>${field.label}:</strong> ${edge[field.key]}</p>`;
         }
-        if (toNode?.image) {
-          html += `<img src="${toNode.image}" style="max-height:80px;">`;
-        }
-      
-        html += `</div><h3>Connection</h3>`;
-        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
-      
-        edgeFields.forEach(field => {
-          if (edge[field.key]) {
-            html += `<p><strong>${field.label}:</strong> ${edge[field.key]}</p>`;
-          }
-      });
+  });
 
+  // 🔚 Solo al final del if
   document.getElementById("nodeInfo").innerHTML = html;
 }
 
-        
-        edgeFields.forEach(field => {
-          if (edge[field.key]) {
-            html += `<p><strong>${field.label}:</strong> ${edge[field.key]}</p>`;
-          }
         });
-
-        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${edge.from}')">${edge.from}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${edge.to}')">${edge.to}</a></p>`;
 
         document.getElementById("nodeInfo").innerHTML = html;
       }
