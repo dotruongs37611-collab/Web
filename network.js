@@ -128,10 +128,12 @@ else if (params.edges.length > 0) {
   const edgeFields = [
     { key: "relationship type", label: "Type of relationship" },
     { key: "correspondence", label: "Correspondence" },
-    { key: "know each other since", label: "Known each other since" },
+    { key: "know each other since", label: "Know each other since" },
     { key: "they met", label: "They met" },
+    { key: "shared", label: "Shared" },
     { key: "mentions", label: "Mentions" },
     { key: "collaborations", label: "Collaborations" },
+    { key: "curiosities", label: "Curiosities" },
     { key: "portraits", label: "Portraits" }
   ];
 
