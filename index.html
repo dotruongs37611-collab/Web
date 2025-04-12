@@ -287,5 +287,15 @@
 </footer>
 
   <script src="network.js"></script>
+
+<script>
+function showSection(section) {
+  document.getElementById('network').style.display = (section === 'network') ? 'block' : 'none';
+  document.getElementById('nodeInfo').style.display = (section === 'network') ? 'block' : 'none';
+  document.getElementById('about').style.display = (section === 'about') ? 'block' : 'none';
+}
+</script>
+
+  
 </body>
 </html>
