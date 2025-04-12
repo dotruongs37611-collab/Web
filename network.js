@@ -45,13 +45,17 @@ document.addEventListener('DOMContentLoaded', async function () {
       edges: { color: 'lightgray' },
       physics: {
         solver: 'forceAtlas2Based',
-        stabilization: true,
+        stabilization: {
+          enabled: true,
+          iterations: 200, // puede ajustar este número
+          updateInterval: 25
+        },
         forceAtlas2Based: {
           gravitationalConstant: -50,
           centralGravity: 0.01,
           springLength: 150,
           springConstant: 0.08,
-          avoidOverlap: 1 // 👈 clave para que no se solapen
+          avoidOverlap: 1
         }
       }
     });
