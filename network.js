@@ -141,9 +141,10 @@ document.addEventListener('DOMContentLoaded', async function () {
             const urlMatch = value.match(/https?:\/\/[^\s)]+/);
             if (urlMatch) {
               const url = urlMatch[0];
-              value = value.replace(url, '').trim();
+              value = value.replace(` (${url})`, '').replace(url, '').trim();
               value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
             }
+
             html += `<p><strong>${field.label}:</strong> ${value}</p>`;
           }
         });
