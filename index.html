@@ -44,6 +44,14 @@
   flex-wrap: wrap;
 }
 
+  .layout-container.visible {
+    display: flex;
+  }
+
+  .layout-container.hidden {
+    display: none;
+  }
+
   /* Versión responsive para móviles */
   @media (max-width: 768px) {
     .layout-container {
@@ -243,8 +251,8 @@
     <button onclick="showSection('about')">About</button>
   </div>
 
-  <div class="layout-container">
-    <div id="network" class="visible"></div>
+  <div class="layout-container visible" id="layout">
+    <div id="network"></div>
     <div id="nodeInfo">Click a node or edge to see more information here.</div>
   </div>
 
@@ -297,21 +305,18 @@
 
 <script>
 function showSection(section) {
-  const networkDiv = document.getElementById('network');
-  const infoDiv = document.getElementById('nodeInfo');
+  const layout = document.getElementById('layout');
   const aboutDiv = document.getElementById('about');
   const contributions = document.querySelector('.contributions-section');
 
   if (section === 'network') {
-    networkDiv.classList.remove('hidden');
-    networkDiv.classList.add('visible');
-    infoDiv.style.display = 'block';
+    layout.classList.remove('hidden');
+    layout.classList.add('visible');
     contributions.style.display = 'block';
     aboutDiv.style.display = 'none';
   } else {
-    networkDiv.classList.remove('visible');
-    networkDiv.classList.add('hidden');
-    infoDiv.style.display = 'none';
+    layout.classList.remove('visible');
+    layout.classList.add('hidden');
     contributions.style.display = 'none';
     aboutDiv.style.display = 'block';
   }
