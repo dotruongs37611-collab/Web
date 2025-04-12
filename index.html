@@ -22,9 +22,32 @@
     overflow-y: auto;
   }
 
-  .header {
-    text-align: center;
-    padding: 1.5rem;
+      .header {
+        text-align: center;
+        padding: 1.5rem;
+      }
+
+      .header-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .logo {
+    height: 48px; /* o ajústalo a tu gusto */
+    width: auto;
+  }
+  
+  .title-group h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .title-group p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ccc;
   }
 
   .controls {
@@ -217,10 +240,15 @@
   </style>
 </head>
 <body>
+  
   <div class="header">
-    <img src="images/GoyaNetwork_logo.jpg" alt="Goya Network Logo" style="max-height: 100px;">
-    <h1>Goya Network</h1>
-    <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
+    <div class="header-container">
+      <img src="images/GoyaNetwork_logo.jpg" alt="Goya Logo" class="logo">
+      <div class="title-group">
+        <h1>Goya Network</h1>
+        <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
+      </div>
+    </div>
   </div>
 
   <div class="controls">
