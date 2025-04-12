@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (edge.from === node.id || edge.to === node.id) {
           const otherId = edge.from === node.id ? edge.to : edge.from;
           if (otherNode) {
-          const otherNode = nodes.get(otherId);
             connections.push({ id: otherId, name: otherNode.id });
+          }
         }
       });
 
