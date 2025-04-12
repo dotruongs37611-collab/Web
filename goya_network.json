@@ -174,6 +174,7 @@
       "label": "Moratín",
       "life dates": "1760-1828", 
       "profession": "playwright, poet",
+      "mentions Goya": "Diary, 21 May 1798 (Canellas no.88): they see together the paintings of San Antonio de la Florida?",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg"
     },
     {
@@ -264,6 +265,8 @@
     {
       "id": "Alexandre Dumas père",
       "label": "Dumas",
+      "life dates": "1802-1870", 
+      "profession": "noveslit, playwright", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
     },
     {
@@ -276,56 +279,96 @@
     {
       "id": "Astolphe-Louis-Léonor, Marquis de Custine",
       "label": "Custine",
+      "life dates": "1790-1857", 
+      "profession": "aristocrat, writer, socialité", 
+      "in Spain": "in 1828?; in 1831",
+      "author of": "1838, 17 June (Le Temps) essay on Goya's works (signed as 'A. de C.')",
+      "mentions Goya": "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d’être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l’école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'; 1838 essay ('A. de C.'): Goya's Caprichos, Desastres, Toros Burdeos, Familia Carlos IV, frescoes and Black paintings (Fayos-Pérez 2025: publication pending)",
+      "knows Goya's works since": "at least 1831",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
     },
     {
       "id": "Adélaïde de Montgolfier",
       "label": "Montgolfier",
+      "life dates": "1789-1880", 
+      "profession": "femme de lettres, translator", 
+      "knows Goya's work since": "before April 1831, through Fontaney (after his return from Spain in Jan 1831)",
+      "writes about Goya": "In April 1831: signed as 'Ad. M' (Revue encyclopédique no.50, pp.316-331)",
+      "writes in": "Revue encyclopédique",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
     },
     {
       "id": "Pierre Lacour",
       "label": "P. Lacour père",
+      "life dates": "1745-1814",
+      "profession": "painter",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour.jpg"
     },
     {
       "id": "George Sand",
       "label": "George Sand",
+      "life dates": "1804-1876", 
+      "profession": "writer, novelist, journalist", 
+      "mentions Goya": "Journal intime, 25 Nov 1834 (jealousy over Goya's women regarding Alfred de Musset)",
+      "author of": "Album of drawings. Clumsy copy of Velázquez’s Infanta Margarita. Collection Lovenjoul Chantily [now at Institut de France? (Lipschutz 1972, p.117)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg"
     },
     {
       "id": "Alfred de Musset",
       "label": "Musset",
+      "life dates": "1810-1857", 
+      "profession": "writer, playwright",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Musset.jpg"
     },
     {
       "id": "Philippe Burty",
       "label": "Burty",
+      "life dates": "1830-1890", 
+      "profession": "art critic, collector",
+      "sales": "Burty I: [11] Oct 1862; Burty II: 27 March 1874 (lot 14: 2 black pencil drawings by Delacroix after Goya, 13 fr.); Burty III: 27 April 1876 (Sotheby's London; 56 lots of Goya (nos.444-465, 684-719): Caprichos, Tauromaquia, Proverbios, Desastres, others; Burty IV (19-21 June 1878); Burty V (2-3 March 1891): lot 83 4 pen drawings by Delacroix after Goya; Burty VI (4-5 March 1891): Tauromaquia, Desastres, Proverbios, Agarrotado, drawing; Burty VII (16-20 March 1891)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg"
     },
     {
       "id": "Charles Blanc",
       "label": "Blanc",
+      "life dates": "1813-1882", 
+      "profession": "art critic",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanc.jpg"
     },
     {
       "id": "Nicolas Philippe Guye",
       "label": "N. Guye",
+      "life dates": "1773-1845",
+      "profession": "Military man; politician; Governor of the province of Seville during the French occupation",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nicolas_Guye.jpg"
     },
     {
       "id": "Victor Guye",
       "label": "V. Guye",
+      "life dates": "c.1804-1810",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Victor_Guye.jpg"
     },
     {
       "id": "Dominique Vivant Denon",
       "label": "Vivant Denon",
+      "life dates": "1747-1825",
+      "profession": "artist, writer, diplomat, collector",
+      "in Spain": "1808, acquiring artworks for the Musée Napoléon",
+      "knows Goya's work since": "at least 1809", 
+      "collector of Goya's work": "Los Caprichos (1809 in France; 1827 at the BNF)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg"
     },
     {
       "id": "Eugène Piot",
       "label": "Piot",
+      "life dates": "1812-1890",
+      "profession": "art critic; collector; editor; journalist; photographer",
+      "in Spain": "in 1840 (with Théophile Gautier)",
+      "collector of Goya's work": "Caprichos (in the 1840s); Bulls of Bordeaux; Tauromaquia",
+      "author of": "Catalogue raisonné de l’oeuvre gravé de Fran(co) Goya y Lucientes, Le Cabinet de l’Amateur, 1842 (pp.346-366): Caprichos (80), Tauromaquia (33), Desastres de la guerra (‘Scènes d’invasion’) (20/82), prints after Velázquez (14), Pièces diverses (Garrotted Man), Lithographs (Bulls of Bordeaux) (6)",
+      "editor of": "Le Cabinet de l'amateur et de l'antiquaire (1842-1846)",
+      "sales": "12 April 1847: Caprichos (bought by 'Bauzonnet'?), Tauromaquia (lots 29-30); 1885, 22 rare proofs of Caprichos with handwritten inscriptions, acquired by BNF [Fayos Pérez 2024, p.55]",
+      "mentions of the Prado commentaries": "On his catalogue raisonné 1842 (Capricho 50):  Carderera’s diary (2 August 1861) shows he lent them to Piot, but he must have known them by 1842, having copied them in Madrid, or during one of Madrazo’s trips to Paris?",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Piot.jpg"
     },
     {
@@ -336,181 +379,317 @@
     {
       "id": "Paul Lefort",
       "label": "Lefort",
+      "life dates": "1829?-1904",
+      "profession": "art critic, art historian",
+      "collector of Goya's work": "Large collection. He has Disparates' 'Fiero monstruo' (no.81), not included in the 1864 edition, to the RABASF in 1870",
+      "writes about Goya": "Catalogue raisonné of Goya's prints, Gazette des Beaux-Arts, 1867-68",
+      "sales": "1869 I 25-29 (large Goya collection)",
+      "mentions the Prado commentaries": "in 1867",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Gustave Brunet",
       "label": "Brunet",
+      "life dates": "1805-1896", 
+      "profession": "bibliographer, historian, editor",
+      "writes about Goya": "1865 Étude sur Francisco Goya sa vie et ses travaux : notice biographique et artistique",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Román Garreta y Huerta",
       "label": "Garreta",
+      "life dates": "1820-1889",
+      "collector of Goya's work": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or Josefa Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Leocadia Zorrilla y Galarza",
       "label": "Leocadia",
+      "life dates": "1788-1856",
+      "profession": "housekeeper",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Leocadia_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Rosario Weiss Zorrilla",
       "label": "Rosario Weiss",
+      "life dates": "1814-1843",
+      "profession": "painter",
+      "in Spain": "back to Madrid in 1833: works by making copies of famous paintings; 1840 named member of Royal Academy of San Fernando; 1842 drawing teacher of future Isabel II",
+      "masters": "Francisco de Goya y Lucientes, Pierre Lacour fils (in Bordeaux)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg"
     },
     {
       "id": "Josefa Bayeu y Subías",
       "label": "Josefa Bayeu",
+      "life dates": "1747-1812",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Josefa_Bayeu.jpg"
     },
     {
       "id": "Sebastián Martínez y Pérez",
       "label": "S. Martínez",
+      "life dates": "1747-1800",
+      "profession": "businessman, politician, collector",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg"
     },
     {
       "id": "[J./L.] Carresse",
       "label": "Carresse",
+      "life dates": "active in the 1850s",
+      "profession": "engraver",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Charles Yriarte",
       "label": "Yriarte",
+      "life dates": "1832-1898",
+      "profession": "writer, draughtsman",
+      "writes about Goya": "Goya, sa vie, son œuvre (1867) (mentions Album A-B p.93)",
+      "collector of Goya's work": "Riña en el mesón del gallo (in his collection by 1867)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Yriarte.jpg"
     },
     {
       "id": "Pierre Lacour fils",
       "label": "P. Lacour fils",
+      "life dates": "1778-1859", 
+      "profession": "painter, engraver",
+      "students": "Rosario Weiss (in Bordeaux)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour_fils.jpg"
     },
     {
       "id": "José de Salamanca y Mayol (I Marqués de Salamanca)",
       "label": "Salamanca",
+      "life dates": "1811-1883", 
+      "profession": "aristocrat, businessman, banker, collector",
+      "sales": "1867-VI-5: Goya's Femme à l'éventail (no.177); 1869 (pieces acquired by the British Museum; pieces by José Madrazo); 1875",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
     },
     {
       "id": "Sophie Gay",
       "label": "Sophie Gay",
+      "life dates": "1776-1852", 
+      "profession": "writer, composer, salonnière",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sophie_Gay.jpg"
     },
     {
       "id": "Charles Baudelaire",
       "label": "Baudelaire",
+      "life dates": "1821-1867",
+      "profession": "poet, critic", 
+      "author of": "Salons (1845, 1846, 1859); Les Fleurs du mal (1857)",
+      "writes about Goya": "Quelques caricaturistes étrangers",
+      "writes in": "Revue des Deux Mondes",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Baudelaire.jpg"
     },
     {
       "id": "Alphonse de Lamartine",
       "label": "Lamartine",
+      "life dates": "1790-1869",
+      "profession": "poet, novelist, playwright, histoiran",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lamartine.jpg"
     },
     {
       "id": "Juliette Récamier",
       "label": "Récamier",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Recamier.jpg"
+      "life dates": "1777-1849", 
+      "profession": "femme de lettres, salonnière", 
+      "portrayed by": "Jacques-Louis David (1800, Louvre); F. Gérard (1805, Musée Carnavalet)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Recamier.jpg",
+      "image source": "portrait by David, 1800, Louvre"
     },
     {
       "id": "Théophile Thoré",
       "label": "Thoré",
+      "life dates": "1807-1869", 
+      "profession": "art critc, journalist", 
+      "pseudonym": "William Bürger",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg"
     },
     {
       "id": "Stendhal (Henri Beyle)",
       "label": "Stendhal",
+      "life dates": "1783-1842",
+      "profession": "writer",
+      "author of": "Le rouge et le noir (1830)",
+      "portrayed by": "Doucis, 1835",
+      "writes in": "Journal de Paris, The New Monthly Magazine, The London Magazine",
+      "pseudonym": "Stendhal, Henri Stendhal, Stendalis, Louis Alexandre Bombet, Anastase de Serpière, Don Flegme, William Crocodile, Dominique",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
     },
     {
       "id": "Charles-Augustin Sainte-Beuve",
       "label": "Sainte-Beuve",
+      "life dates": 1804-1869",
+      "profession": "writer, art critic",
+      "author of": "(Bad) criticism of Hugo, Lamartine, Musset, Baudelaire, Stendhal, Balzac",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sainte_Beuve.jpg"
     },
     {
       "id": "Gustave Flaubert",
       "label": "Flaubert",
+      "life dates": "1821-1880",
+      "profession": "novelist", 
+      "author of": "Madame Bovary (1857); L'Éducation sentimentale (1869)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Flaubert.jpg"
     },
     {
       "id": "Madame Ewelina Hanska",
       "label": "Hanska",
+      "life dates": "1804-1882", 
+      "profession": "aristocrat, socialité",
+      "nationality": "Polish",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hanska.jpg"
     },
     {
       "id": "Fortunée Hamelin",
       "label": "Hamelin",
+      "life dates": "1776-1851", 
+      "profession": "socialité, 'Merveilleuse' during Directoire", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg"
     },
     {
       "id": "Louise Swanton Belloc",
       "label": "Swanton-Belloc",
+      "life dates": "1796-1881", 
+      "profession": "femme de letters, translator",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Swanton_Belloc.jpg"
     },
     {
       "id": "Anne-Louise Germaine Necker (Madame de Staël)",
       "label": "Staël",
+      "life dates": "1766-1817", 
+      "profession": "novelist, philosopher",
+      "author of": "Correspondance générale, ed. Béatrice W. Jasinski and Othenin d'Haussonville, 2008-09",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg"
     },
     {
       "id": "Pedro de Madrazo y Kuntz",
       "label": "P. Madrazo",
+      "life dates": "1816-1898", 
+      "profession": "painter, writer, translator, scholar, journalist, art critic", 
+      "in Paris": "In 1837 (with Federico Madrazo)",
+      "portrayed by": "Federico Madrazo (1842, Hispanic Society); J. Laurent (BNE)",
+      "curiosities": "one of the first people to ever use the term 'patrimonio histórico-artístico'",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
     },
     {
       "id": "Luis Madrazo",
       "label": "L. Madrazo",
+      "life dates": "1825-1897", 
+      "profession": "painter", 
+      "in Paris": "lived there for a while. His work is recognised at the Exposition Universelle de Paris 1855",
+      "author of": "Entierro de Santa Cecilia en las catacumbas de Roma (1852, Prado, deposit in Granada Museum)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Madrazo.jpg"
     },
     {
       "id": "Raimundo Madrazo",
       "label": "R. Madrazo",
+      "life dates": "1841-1920", 
+      "profession": "painter", 
+      "in Paris": "in 1860 (disciple of Léon Cogniet); participates at the Exposition Universelle 1860 and 1889",
+      "collector of Goya's work": "1869 Perros y útiles de caza (tapestry cartoon), donated in 1894 to the Prado",
+      "masters": "Léon Cogniet", 
+      "portrayed by": "Federico Madrazo (1875, Prado)",
+      "married to": "Luisa Garreta",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
     },
     {
       "id": "Louis Viardot",
       "label": "Viardot",
+      "life dates": "1800-1883", 
+      "profession": "wirter, Hispanist", 
+      "author of": "Lettres d'un espagnol (1826); Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne (1835); 1843 longer essay on the Prado; 1852 Les musées d'Espagne",
+      "visits the Prado Museum": "in 1834 (mentions Goya in his account): 1835 publication",
+      "sales": "30 April 1884 (included an 'Inquisition scene', no.6)",
+      "writes in": "journals Le Globe, Le National, Le Siècle; magazines Revue des Deux Mondes and Revue de Paris. In 1841 he founds the Revue Indépendante with Pierre Leroux and George Sand",
+      "bibliography": "https://www.museodelprado.es/aprende/enciclopedia/voz/viardot-louis/a587ebc8-f89a-412f-8566-1d6c3abb76d6",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
     },
     {
       "id": "Jacques Galos",
       "label": "Galos",
+      "life dates": "1774-1830", 
+      "profession": "accountant?",
+      "collector of Goya's work": "Bulls of Bordeaux",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
     },
     {
       "id": "Jean-Auguste-Dominique Ingres",
       "label": "Ingres",
+      "life dates": "1780-1867", 
+      "profession": "painter", 
+      "author of": "Napoléon I (1806); Vœu de Louis XIII (Salon 1824); Portrait de Monsieur Bertin (Salon 1832)",
+      "in Paris": "1796-1806; 1824-1835; 1841-1867", 
+      "in Italy": "1806-1824 (1801 Grand prix de Rome en peinture)",
+      "works as": "directeur de l'Académie de France à Rome (1835-1842)",
+      "masters": "Joseph Roques, Jean Suau, Jacques-Louis David (1796)",
+      "students": "Amaury-Duval, Théodore Chassériau, Hippolyte Flandrin, Antoine Étex, Émile Hirsch, Romain Cazes, Louis Janmot, Alexandre Mauvernay, Charles Nègre, Clément Pruche, Henri Lehmann",
+      "curiosities": "he was a violin player at the Orchestre de Toulouse",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ingres.jpg"
     },
     {
       "id": "Achille Ricourt",
       "label": "Ricourt",
+      "life dates": "1797-1875",
+      "profession": "actor, theater director, lithographic editor",
+      "editor of": "L'Artiste (which he founds in 1831)",
+      "works as": "lithographic editor of Daumier (after 1837)",
+      "address": "rue de-La-Tour-d'Auvergne",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ricourt.jpg"
     },
     {
       "id": "Honoré Daumier",
       "label": "Daumier",
+      "life dates": "1808-1879", 
+      "profession": "lithographer, caricaturist, painter, sculptor",
+      "author of": "4,000 lithographs, 1,000 woodcuts",
+      "masters": "Alexandre Lenoir",
+      "works in": "Le Charivari, La Silhouette, La Caricature",
+      "patrons": "Adolphe Beugniet, Paul Durand-Ruel",
+      "curiosities": "Detained in the prison of Sainte-Pélagie (Paris) for the caricature Gargantua (1831)",
+      "pseudonym": "Rogelin",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg"
     },
     {
       "id": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "label": "Grandville",
+      "life dates": "1803-1847", 
+      "profession": "draughtsman, caricaturist", 
+      "author of": "Les Métamorphoses du jour (1829); Fables de La Fontaine (1838-40); Scènes de la vie privée et publique des animaux  (1842); Un autre monde (1844); Don Quichotte (1848)",
+      "works in": "La Caricature, Le Charivari",
+      "knows Goya's work since": "at least 1829", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Grandville.jpg"
     },
     {
       "id": "Juan Antonio Melón",
       "label": "Melón",
+      "life dates": "1758-1843", 
+      "profession": "writer, clergyman",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Melon.jpg"
     },
     {
       "id": "Antoine-Jean Gros",
       "label": "Gros",
+      "life dates": "1771-1835", 
+      "profession": "painter", 
+      "masters": "Jacques-Louis David",
+      "students": "Charles-Philippe Larivière, Paul Huet, Louis Léopold Robert",
+      "portrayed by": "François Gérard (c.1790)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gros.jpg"
     },
     {
       "id": "Paul Delaroche",
       "label": "Delaroche",
+      "life dates": "1797-1856", 
+      "profession": "painter", 
+      "participates in": "Salon 1822 (1st time): gets Géricault's attention", 
+      "masters": "Louis Étienne Watelet, Antoine-Jean Gros",
+      "married to": "Louise Vernet (daughter of Horace Vernet)",
+      "curiosities": "his living descendants are named Delaroche-Vernet",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delaroche.jpg"
     },
     {
@@ -521,6 +700,15 @@
     {
       "id": "Jacques-Louis David",
       "label": "David",
+      "life dates": "1748-1825", 
+      "profession": "painter", 
+      "author of": "Bonaparte franchissant le Grand-Saint-Bernard (1800, Malmaison); Mme Récamier [Juliette Récamier] (1800, Louvre)", 
+      "participates in": "Convention National", 
+      "worked for": "Napoléon I",
+      "masters": "Joseph-Marie Vien", 
+      "students": "Jean-Germain Drouais, Antoine-Jean Gros, Jean-Auguste-Dominique Ingres, Girodet, François Gérard, Marie-Guillemine Benoist, Jacques-Louis-Michel Grandin, José Madrazo",
+      "curiosities": "Bonaparte franchissant le Grand-Saint-Bernard (1800) was commissioned by the Spanish king Charles IV (through the French ambassador Charles-Jean-Marie Alquier)", 
+      "archives": "Archives nationales (MC/ET/CVIII/854)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/David.jpg"
     }
   ],
@@ -535,14 +723,16 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Javier Goya",
       "relationship type": "relatives; father-son",
+      "correspondence": "Correspondence. 1824-XII-24: Goya wonders why Javier doesn't answer his letters; mentions Galos (Canellas no.271, p.388); 1828-I-17: mentions Galos, Mugurio and Esteve (no.277, p.392); 1828-III-12: mentions Mariano and Galos (no.279, p.393); 1828-III-26 (no.280, p.394)",
       "portraits": "1805 private collection, Casa Torres, drawing (GW.843); 1805, Museo de Zaragoza, miniature (GW.844); 1805-06, private collection, Paris, full portrait (GW.852); 1810-15 Boston MFA (GW.837); 1824 private collection, drawing (GW.1636)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Martín Zapater",
-      "relationship type": "Friendship; best friend",
+      "relationship type": "best friends",
       "know each other since": "1765",
       "correspondence": "1765-1803. First letter: 1st letter in Diplomatario (Canellas López): 1774? (no.4); 6 Sept 1775 (no.7); 22 Jan 1777 (no.11); March 1777 (no.13); 16 April 1777 (no.14); 16 April 1777 (no.15); 21 Jan 1778 (no.17); 31 Jan 1778 (no.19); 7 Oct 1778 (no.21); Dec 1778 (no.23); 9 Jan 1779 (no.25); 25 Feb 1780 (no.29); 10 May 1780 (no.31); 17 May 1780 (no.32); 24 May 1780 (no.33); [21] July 1780 (no.34); 9 Aug 1780 (no.35); 16 Aug 1780 (no.36); 23 Aug 1780 (no.37); 23 Aug 1780 (no.37); ... (Bib: Cartas a Martín Zapater, ed. Águeda and Salas, 2003)",
+      "they met": "in Zaragoza",
       "portraits": "Goya portrayed Zapater in c.1780 (private collection), 1790 (Museo de Arte de Ponce, Puerto Rico) and 1797 (Museo de Bellas Artes de Bilbao)"
     },
     {
@@ -560,17 +750,20 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Antonio de Brugada",
-      "relationship type": "friend" 
+      "relationship type": "close friend" 
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Juan Agustín Ceán Bermúdez",
-      "relationship type": "friend"
+      "relationship type": "friend", 
+      "portraits": "c.1783, c.1786"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Joaquín María Ferrer",
-      "relationship type": "patronage"
+      "relationship type": "patronage",
+      "correspondence": "28 Nov 1824: Goya tells Ferrer about Rosario, praising her artistic skills, asking F to host her in Paris for her to learn painting. No response from Ferrer",
+      "portraits": "1824"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -580,7 +773,15 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Leandro Fernández de Moratín",
-      "relationship type": "friend"
+      "relationship type": "friend",
+      "they met": "1824 in Bordeaux (letter of Moratín to Melón, 30 Sept 1824, Canellas no.154)",
+      15 July 1826, letter of Moratín to Melón, from Bordeaux (Canellas no.174); July 1828, from Paris, letter of Moratín to Melón (Canellas no.173)
+    },
+    {
+      "from": "Juan Antonio Melón",
+      "to": "Leandro Fernández de Moratín",
+      "relationship type": "friend",
+      "correspondence": "15 July 1826, letter of Moratín to Melón, from Bordeaux (Canellas no.174); July 1828, from Paris, letter of Moratín to Melón (Canellas no.173)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
