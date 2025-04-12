@@ -39,7 +39,7 @@
       "label": "F. Madrazo",
       "life dates": "1815-1894",
       "profession": "painter, collector, art dealer",
-      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Taylor and Dauzats; 1837-1839 (portrays Dauzats 1837): he benefits from contacts with Yalor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
+      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Taylor and Dauzats; 1837-1839 (portrays Dauzats 1837): he benefits from contacts with Baron Taylor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
       "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Dauzat's)",
       "author of": "illustrations in El Artista; Godofredo de Bouillon proclamado rey de Jerusalén (1838, Galerie Batailles, Palais Versailles)",
       "editor of": "El Artista",
@@ -512,6 +512,11 @@
       "id": "Paul Delaroche",
       "label": "Delaroche",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delaroche.jpg"
+    },
+    {
+      "id": "Frédéric Chopin",
+      "label": "Chopin",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Chopin.jpg"
     },
     {
       "id": "Jacques-Louis David",
@@ -1444,6 +1449,11 @@
       "relationship type": "acknowledgement"
     },
     {
+      "from": "George Sand",
+      "to": "Gustave Flaubert",
+      "relationship type": "friend"
+    },
+    {
       "from": "Honoré de Balzac",
       "to": "Madame Ewelina Hanska",
       "relationship type": "lover; patronage"
@@ -1521,6 +1531,16 @@
       "from": "George Sand",
       "to": "Alfred de Musset",
       "relationship type": "lovers (1833-1835)"
+    },
+    {
+      "from": "George Sand",
+      "to": "Frédéric Chopin",
+      "relationship type": "lovers (c.1838)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Frédéric Chopin",
+      "relationship type": "friend (c.1838)"
     },
     {
       "from": "George Sand",
