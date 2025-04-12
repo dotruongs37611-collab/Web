@@ -59,6 +59,15 @@ document.addEventListener('DOMContentLoaded', async function () {
       network.setOptions({ physics: false });         // ❄️ Detiene el movimiento
       network.fit({ animation: true });               // 🎯 Centra y ajusta zoom
     });
+    network.on("dragStart", function () {
+      network.setOptions({ physics: { enabled: true } });
+    });
+
+    network.on("dragEnd", function () {
+      setTimeout(() => {
+        network.setOptions({ physics: false });
+      }, 1000); // espera 1 segundo para que se relaje
+    });
 
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
