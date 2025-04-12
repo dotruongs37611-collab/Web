@@ -145,7 +145,6 @@ else if (params.edges.length > 0) {
   document.getElementById("nodeInfo").innerHTML = html;
 }
 
-      }
     });
 
     window.focusNode = function (nodeId) {
