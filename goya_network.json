@@ -4,10 +4,19 @@
       "id": "Francisco de Goya y Lucientes",
       "label": "GOYA",
       "profession": "painter, draughtsman, engraver",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "life dates": "1746-1828",
-      "author of": "Piedad (1774), Aníbal vencedor (1771), Crucifixion (1780), San Bernardino de Siena (1781-83), The Duchess of Osuna (1785), The Dukes of Osuna (1787-88), Yard of lunatics (1794), Witches Flight (1797-98), Album A (c.1794-95), Album B (c.1795-97), Caprichos (1799), Allegory of Truth, Time and History (1800), The Family of Charles IV (1800), Clothed Maja (1802-05), Bandit stripping a woman (1808-12), The Burial of the Sardine (1808-12), Portrait of Antonia de Zárate (1810-11), Disasters of War (1810-15), The Second of May 1808 (1814), The Third of May 1808 (1814), Ferdinand VII (1814-15), Self-Portrait (1815), Tauromaquia (1816), Disparates (c.1816-19), Black Paintings (c.1819-23), Bulls of Bordeaux (1825), Portrait of Mariano Goya (1827)",
-      "portrayed by": "Vicente López, Francisco de Goya y Lucientes",
+      "author of": "Piedad (1774), Aníbal vencedor (1771), prints after Velázquez (1778), Crucifixion (1780), San Bernardino de Siena (1781-83), The Duchess of Osuna (1785), The Dukes of Osuna (1787-88), Yard of lunatics (1794), Witches Flight (1797-98), Album A (c.1794-95), Album B (c.1795-97), Caprichos (1799), Allegory of Truth, Time and History (1800), The Family of Charles IV (1800), Clothed Maja (1802-05), Bandit stripping a woman (1808-12), The Burial of the Sardine (1808-12), Portrait of Antonia de Zárate (1810-11), Disasters of War (1810-15), The Second of May 1808 (1814), The Third of May 1808 (1814), Ferdinand VII (1814-15), Self-Portrait (1815), Tauromaquia (1816), Disparates (c.1816-19), Black Paintings (c.1819-23), Bulls of Bordeaux (1825), Portrait of Mariano Goya (1827)",
+      "in Italy": "1769-1771",
+      "in France": "1824-1828: Paris (Summer 1824) and mainly Bordeaux",
+      "masters": "José Luzán",
+      "students": "Felipe Arrojo; Asensio Julià; Rosario Weiss",
+      "member of": "RABASF",
+      "portrayed by": "Vicente López (1826, Prado); Francisco de Goya y Lucientes",
+      "married to": "Josefa Bayeu (1773)",
+      "children": "Javier Goya (1 survived out of 8)",
+      "parents": "José Goya and Gracia Lucientes",
+      "curiosities": "he became completely deaf after a serious illness in 1792-93",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "Image source": "New York, Metropolitan Museum, Self-portrait, drawing, 35.103.1"
     },
     {
@@ -40,6 +49,21 @@
       "life dates": "1788-1852",
       "portrayed by": "Francisco de Goya y Lucientes (1805, 1805, 1805-06)",
       "image source": "Portrait by Goya, 1805-06, private collection, Paris"
+    },
+    {
+      "id": "Francisco Bayeu",
+      "label": "F. Bayeu",
+      "life dates": "1734-1795",
+      "profession": "painter",
+      "masters": "Juan Andrés Merklein; José Luzán; Antonio González Velázquez",
+      "students": "Agustín Esteve; Juan Antonio Ribera; Buenaventura Salesa",
+      "works as": "Pintor de Cámara",
+      "author of": "tapestry cartoons for the Real Fábrica de Tapices",
+      "member of": "RABASF",
+      "studied in": "Escuelas Pías in Zaragoza; RABASF",
+      "portrayed by": "Francisco de Goya y Lucientes (1795)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Francisco_Bayeu.jpg",
+      "image source": "Portrait by Goya, 1795, Prado"
     },
     {
       "id": "Federico Madrazo",
@@ -452,6 +476,8 @@
       "id": "Josefa Bayeu y Subías",
       "label": "Josefa Bayeu",
       "life dates": "1747-1812",
+      "married to": "Francisco de Goya y Lucientes (1773)", 
+      "portrayed by": "Francisco de Goya y Lucientes, c.1805, drawing, Colección Abelló, Madrid (GW.840)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Josefa_Bayeu.jpg"
     },
     {
@@ -781,6 +807,21 @@
       "to": "Gumersinda Goicoechea",
       "relationship type": "relatives; father-in-law, daughter-in-law",
       "portraits": "1805, Museo de Zaragoza, miniature (GW.845); 1805, drawing, lost (GW.841); 1805-06, private collection, Paris, full portrait (GW.851)"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Francisco Bayeu",
+      "relationship type": "relatives; brothers-in-law"
+    },
+    {
+      "from": "Josefa Bayeu",
+      "to": "Francisco Bayeu",
+      "relationship type": "siblings; brother-sister"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Francisco Bayeu",
+      "relationship type": "relatives; uncle-nephew"
     },
     {
       "from": "Javier Goya",
