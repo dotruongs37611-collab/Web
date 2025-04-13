@@ -778,6 +778,29 @@
     },
     {
       "from": "Francisco de Goya y Lucientes",
+      "to": "Gumersinda Goicoechea",
+      "relationship type": "relatives; father-in-law, daughter-in-law",
+      "portraits": "1805, Museo de Zaragoza, miniature (GW.845); 1805, drawing, lost (GW.841); 1805-06, private collection, Paris, full portrait (GW.851)"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Gumersinda Goicoechea",
+      "relationship type": "spouses; husband-wife",
+      "married in": "1805",
+      "children": "Mariano Goya"
+    },
+    {
+      "from": "Josefa Bayeu",
+      "to": "Gumersinda Goicoechea",
+      "relationship type": "relatives; mother-in-law, daughter-in-law"
+    },
+    {
+      "from": "Mariano Goya",
+      "to": "Gumersinda Goicoechea",
+      "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
       "to": "José Madrazo",
       "relationship type": "colleagues"
     },
