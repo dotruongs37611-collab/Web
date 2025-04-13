@@ -136,7 +136,6 @@
   #network {
     width: 100%;
     flex: 1;
-    height: 80vh;
     background: black;
   }
     
@@ -151,9 +150,7 @@
   }
 
   #nodeInfo {
-    flex: 1;
-    flex: 1;
-    max-width: 30%;
+    flex: 1 0 30%;
     background-color: #222;
     padding: 1rem;
     font-size: 16px;
@@ -164,6 +161,7 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    align-self: stretch !important;
   }
     
     #nodeInfo::after {
