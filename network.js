@@ -202,6 +202,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "mentions", label: "Mentions" },
           { key: "collaborations", label: "Collaborations" },
           { key: "curiosities", label: "Curiosities" },
+          { key: "children", label: "Children" },
+          { key: "married in", label: "Married in" },
           { key: "link to Goya's work", label: "Link to Goya's work" },
           { key: "portraits", label: "Portraits" }
         ];
