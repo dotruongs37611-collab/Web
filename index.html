@@ -102,20 +102,6 @@
       height: 80vh;
       align-items: stretch;
     }
-
-    /* Force exact height matching */
-    .layout-container.visible::after {
-        content: '';
-        display: block;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 1px;
-        background-color: transparent; /* Debug color - change to red if needed */
-        pointer-events: none;
-        z-index: 1000;
-    }
     
     .layout-container.hidden {
       display: none;
@@ -155,7 +141,12 @@
     overflow-y: auto;
     position: relative;
   }
-      
+
+  #network, #nodeInfo {
+    height: 100%; /* Children inherit full height */
+    box-sizing: border-box; /* Prevents padding from affecting heights */
+  }
+    
   .node-info {
     display: flex;
     flex-direction: column;
