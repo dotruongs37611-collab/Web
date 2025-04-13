@@ -67,9 +67,20 @@
       "id": "José Madrazo",
       "label": "J. Madrazo",
       "life dates": "1781-1859", 
-      "profession": "painter, engraver, draughtsman",
+      "profession": "painter, engraver, draughtsman, collector",
+      "in Italy": "1803-(1815), Academia de San Lucas",
+      "in Madrid": "1818",
       "in Paris": "in 1829 (1st trip). Studies Eugène Delacroix's work",
+      "works as": "Pintor de Cámara of Carlos IV; reorganises and catalogues the collections of the Prado Museum; 1823 teacher of painting at the RABASF and Deputy Director",
+      "editor of": "a catalogue of the Prado collection with lithographic illustrations of the paintings",
+      "founder of": "Real Establecimiento litográfico (1825-1837)",
+      "collector of": "a valuable painting collection, partly acquired by José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "masters": "Jacques-Louis David (by 1803); Gregorio Ferro Requeijo",
+      "students": "Léon Bonnat; José María Avrial y Flores; Pedro Kuntz y Valentini",
+      "author of": "La muerte de Viriato (1807, Prado)",
       "mentioned in the French press": "in 1826, 9 Nov (Le Moniteur universal)",
+      "married to": "Isabel Kuntz y Valentini (1809)", 
+      "children": "Federico Madrazo, Pedro Madrazo, Luis Madrazo, Juan Madrazo, Carlota Madrazo",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
     },
     {
@@ -575,14 +586,24 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg"
     },
     {
-      "id": "Pedro de Madrazo y Kuntz",
+      "id": "Pedro Madrazo",
       "label": "P. Madrazo",
       "life dates": "1816-1898", 
-      "profession": "painter, writer, translator, scholar, journalist, art critic", 
+      "profession": "writer, translator, scholar, journalist, art critic, painter", 
       "in Paris": "In 1837 (with Federico Madrazo)",
       "portrayed by": "Federico Madrazo (1842, Hispanic Society); J. Laurent (BNE)",
       "curiosities": "one of the first people to ever use the term 'patrimonio histórico-artístico'",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
+    },
+    {
+      "id": "Juan Madrazo",
+      "label": "J. Madrazo",
+      "life dates": "1829-1880", 
+      "profession": "architect", 
+      "follower of": "Eugène Viollet-le-Duc",
+      "member of": "RABASF",
+      "parents": "José Madrazo and Isabel Kuntz y Valentini",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Juan_Madrazo.jpg"
     },
     {
       "id": "Luis Madrazo",
