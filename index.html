@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goya Network</title>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: "EB Garamond", serif;
+      font-size: 18px;
+      background-color: #111;
+      color: white;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .header {
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 2rem;
+      position: relative;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .logo {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 130px; /* aumenta el tamaño del logo */
+      width: auto;
+    }
+  
+    .title-group h1 {
+      margin: 0;
+      font-size: 3rem; /* más grande */
+      color: white;
+    }
+    
+    .title-group p {
+      margin: 0;
+      font-size: 1.4rem; /* MÁS grande */
+      color: #ccc;
+    }
+
+    .menu-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.7rem;
+      padding: 0.5rem 1.5rem;
+      margin-top: -1rem; /* más pegado al título */
+    }
+  
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem;
+      padding-left: 1rem;
+      padding-right: 2rem;
+      margin-bottom: 0rem;
+      padding-bottom: 0rem;
+    }
+  
+    .menu-buttons button {
+      margin-right: 1rem;
+    }
+      
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 0.7rem;
+      padding-bottom: 1rem;
+    }
+  
+    .layout-container {
+      display: flex;
+      align-items: stretch !important;
+      height: auto !important;
+      max-height: none !important;
+      overflow: visible !important;
+     }
+      
+    .layout-container.visible {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      padding: 0 1rem; /* sin padding vertical */
+      width: 100%;
+      height: 80vh; /* 🔥 esta es la clave */
+      align-items: stretch !important;
+      flex-wrap: nowrap;
+    }
+  
+    .layout-container.hidden {
+      display: none;
+    }
+  
+    /* Versión responsive para móviles */
+    @media (max-width: 768px) {
+      .layout-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+    
+        #nodeInfo {
+          width: 100%;
+          height: 50vh !important;
+          overflow-y: auto;
+          flex-grow: 1;
+          max-width: none; /* Remove max-width restriction in mobile */
+        }
+    
+        #network {
+          height: 50vh !important;
+          flex-grow: 1;
+        }
+        #nodeInfo::after {
+          display: none;
+        }
+      }
+    
+  #network {
+    width: 100%;
+    flex: 1;
+    height: 80vh;
+    background: black;
+  }
+    
+  #network.hidden {
+    display: none;
+    height: 0;
+  }
+    
+    /* Evita que #network deje espacio cuando está oculto */
+  #network[style*="display: none"] {
+    height: 0 !important;
+  }
+
+  #nodeInfo {
+    flex: 1;
+    max-width: 30%;
+    background-color: #222;
+    padding: 1rem;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    height: 80vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+    
+    #nodeInfo::after {
+      display: none;
+    }
+      
+  .node-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+      
+  .node-info img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .contributions-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  footer {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+  }
+
+  a {
+    color: #66ccff;
+  }
+
+  .social-icons {
+    margin-top: 1rem;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #444;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #1da1f2;
+  }
+
+  .social-icons i {
+    vertical-align: middle;
+  }
+  
+  html, body {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+</style>
+
+  
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Estilos del footer y redes sociales -->
+  <style>
+    .footer {
+      font-size: 1.1rem;
+      padding: 1.5rem;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+  
+    .social-icons {
+      margin-top: 1rem;
+    }
+  
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #444;
+      transition: color 0.3s ease;
+      text-decoration: none;
+    }
+  
+    .social-icons a:hover {
+      color: #1da1f2;
+    }
+    
+    .social-icons i {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="header">
+    <div class="header-container">
+      <img src="images/GoyaNetwork_logo.jpg" alt="Goya Logo" class="logo">
+      <div class="title-group">
+        <h1>Goya Network</h1>
+        <p>Mapping Goya's Impact in 19th-Century France and Spain</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-bar">
+    <div class="menu-buttons">
+      <button onclick="showSection('network')">Network</button>
+      <button onclick="showSection('about')">About</button>
+    </div>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search...">
+      <button id="searchButton">Search</button>
+      <select id="professionFilter">
+        <option value="">All Professions</option>
+        <option value="Artist">Artist</option>
+        <option value="Writer">Writer</option>
+        <option value="Collector">Collector</option>
+        <option value="Socialité">Socialité</option>
+        <option value="Politician">Politician</option>
+        <option value="Engraver">Engraver</option>
+        <option value="Diplomat">Diplomat</option>
+        <option value="Scholar">Scholar</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="layout-container visible" id="layout">
+    <div id="network"></div>
+    <div id="nodeInfo">Click a node or edge to see more information here.</div>
+  </div>
+
+  
+  <div id="about" style="display: none; padding: 2rem; max-width: 800px; margin: auto; line-height: 1.6;">
+    <h2>About the Goya Network</h2>
+    <p><em>The Goya Network</em> is a research-based digital project developed by Paula Fayos-Pérez as part of her postdoctoral research on Goya's social and professional networks. It builds on the work done during her PhD (University of Cambridge 2018) <a href="https://www.repository.cam.ac.uk/items/8d9751ce-aca1-4d35-9436-0820ecbc98d4" target="_blank">(repository)</a>, which was later transformed into a book: <a href="https://www.ceeh.es/en/publicacion/goyas-caprichos-in-nineteenth-century-france-politics-of-the-grotesque/" target="_blank"><em>Goya’s Caprichos in Nineteenth-Century France. Politics of the Grotesque</em></a> (CEEH, 2024).</p>
+  
+    <p><strong>Methodology:</strong> Bibliographic and archival sources.</p>
+    
+    <p><strong>Nature of the project:</strong> The Goya Network is conceived as a collaborative, crowd-sourced database that becomes a useful tool for scholars, students and the general public of Goya.</p>
+  
+    <p><strong>Team:</strong> The project began with initial contributions by Anita L Verő <a href="https://www.consonant-ai.com" target="_blank">(ConsonantAI)</a></p>
+  
+    <p><strong>Funding:</strong> This project is supported by a Leonardo Grant (Beca Leonardo) from the BBVA Foundation.</p>
+  
+    <p><strong>Copyright:</strong> The Goya Network is protected by notarial deed (Madrid, 2025).</p>
+  </div>
+
+  
+  <div class="contributions-section">
+    <h2>Contributions</h2>
+    <p>The Goya Network is conceived as a collaborative, crowd-sourced database. <br>Contributions and suggestions are welcome and encouraged, and contributors will be credited if requested.</p>
+    <p><a href="https://docs.google.com/forms/d/1Gxl6_Usf45QV_qKfp-ez3BQt-0Mxirm6Ok6xg-VUnN0/edit" target="_blank">Access form</a></p>
+  </div>
+
+ <footer class="footer">
+  <p>
+    2025 Paula Fayos-Pérez. The project was funded with a Leonardo Grant 2024 (BBVA Foundation).
+    <br>The Goya Network is protected by notarial deed (Madrid, 2025).
+  </p>
+   
+  <div class="social-icons">
+    <a href="https://x.com/PaulaFayosPerez" target="_blank" aria-label="X">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="https://ucm.academia.edu/PaulaFayosPerez" target="_blank" aria-label="Academia.edu">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
+    <a href="https://https://www.researchgate.net/profile/Paula-Fayos-Perez-2"_blank" aria-label="ResearchGate">
+      <i class="fab fa-researchgate"></i>
+    </a>
+    <a href="https://github.com/PFayosP/GoyaNetworkWeb" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</footer>
+
+  <script src="network.js"></script>
+
+<script>
+function showSection(section) {
+  const layout = document.getElementById('layout');
+  const aboutDiv = document.getElementById('about');
+  const contributions = document.querySelector('.contributions-section');
+
+  if (section === 'network') {
+    layout.classList.remove('hidden');
+    layout.classList.add('visible');
+    contributions.style.display = 'block';
+    aboutDiv.style.display = 'none';
+  } else {
+    layout.classList.remove('visible');
+    layout.classList.add('hidden');
+    contributions.style.display = 'none';
+    aboutDiv.style.display = 'block';
+  }
+}
+</script>
+  
+</body>
+</html>
