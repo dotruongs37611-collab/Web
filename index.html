@@ -103,6 +103,7 @@
       height: 80vh; /* 🔥 esta es la clave */
       align-items: stretch !important;
       flex-wrap: nowrap;
+      min-height: 80vh; /* Add this to enforce minimum height */
     }
   
     .layout-container.hidden {
@@ -112,14 +113,14 @@
     /* Versión responsive para móviles */
     @media (max-width: 768px) {
       .layout-container {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
+        height: auto; /* Change from 100vh to auto */
+        min-height: 100vh; /* Add min-height instead */
       }
     
         #nodeInfo {
           width: 100%;
           height: 50vh !important;
+          min-height: 50vh; /* Add min-height for consistency */
           overflow-y: auto;
           flex-grow: 1;
           max-width: none; /* Remove max-width restriction in mobile */
@@ -132,13 +133,20 @@
         #nodeInfo::after {
           display: none;
         }
+
+        #nodeInfo, #network {
+          height: 50vh !important;
+          min-height: 50vh; /* Add min-height for consistency */
+    }
+
       }
     
   #network {
     width: 100%;
     flex: 1;
-    height: 80vh;
+    height: 100%; /* Change from 80vh to 100% to inherit from parent */
     background: black;
+    min-height: 100%; /* Ensure it fills parent */
   }
     
   #network.hidden {
@@ -159,16 +167,24 @@
     font-size: 16px;
     text-align: left;
     color: white;
-    height: 80vh;
+    height: 100%; /* Change from 80vh to 100% to inherit from parent */
     box-sizing: border-box;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    min-height: 100%; /* Ensure it fills parent */
+  }
+
+  html {
+      box-sizing: border-box;
+  }
+  *, *:before, *:after {
+      box-sizing: inherit;
   }
     
-    #nodeInfo::after {
-      display: none;
-    }
+  #nodeInfo::after {
+    display: none;
+  }
       
   .node-info {
     display: flex;
