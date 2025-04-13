@@ -122,6 +122,7 @@
           height: 50vh !important;
           overflow-y: auto;
           flex-grow: 1;
+          max-width: none; /* Remove max-width restriction in mobile */
         }
     
         #network {
@@ -152,14 +153,13 @@
 
   #nodeInfo {
     flex: 1;
-    flex: 1;
     max-width: 30%;
     background-color: #222;
     padding: 1rem;
     font-size: 16px;
     text-align: left;
     color: white;
-    height: auto;
+    height: 80vh;
     box-sizing: border-box;
     overflow-y: auto;
     display: flex;
