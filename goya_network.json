@@ -75,7 +75,7 @@
       "editor of": "a catalogue of the Prado collection with lithographic illustrations of the paintings",
       "founder of": "Real Establecimiento litográfico (1825-1837)",
       "collector of": "a valuable painting collection, partly acquired by José de Salamanca y Mayol (I Marqués de Salamanca)",
-      "masters": "Jacques-Louis David (by 1803); Gregorio Ferro Requeijo",
+      "masters": "Jacques-Louis David (1801-1803); Gregorio Ferro Requeijo",
       "students": "Léon Bonnat; José María Avrial y Flores; Pedro Kuntz y Valentini",
       "author of": "La muerte de Viriato (1807, Prado)",
       "mentioned in the French press": "in 1826, 9 Nov (Le Moniteur universal)",
@@ -659,7 +659,7 @@
       "masters": "Joseph Roques, Jean Suau, Jacques-Louis David (1796)",
       "students": "Amaury-Duval, Théodore Chassériau, Hippolyte Flandrin, Antoine Étex, Émile Hirsch, Romain Cazes, Louis Janmot, Alexandre Mauvernay, Charles Nègre, Clément Pruche, Henri Lehmann",
       "curiosities": "he was a violin player at the Orchestre de Toulouse",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ingres.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/.jpg"
     },
     {
       "id": "Achille Ricourt",
@@ -740,7 +740,7 @@
       "participates in": "Convention National", 
       "worked for": "Napoléon I",
       "masters": "Joseph-Marie Vien", 
-      "students": "Jean-Germain Drouais, Antoine-Jean Gros, Jean-Auguste-Dominique Ingres, Girodet, François Gérard, Marie-Guillemine Benoist, Jacques-Louis-Michel Grandin, José Madrazo",
+      "students": "Jean-Germain Drouais, Antoine-Jean Gros, Jean-Auguste-Dominique , Girodet, François Gérard, Marie-Guillemine Benoist, Jacques-Louis-Michel Grandin, José Madrazo",
       "curiosities": "Bonaparte franchissant le Grand-Saint-Bernard (1800) was commissioned by the Spanish king Charles IV (through the French ambassador Charles-Jean-Marie Alquier)", 
       "archives": "Archives nationales (MC/ET/CVIII/854)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/David.jpg"
@@ -1218,7 +1218,7 @@
     {
       "from": "José Madrazo",
       "to": "Jean-Auguste-Dominique Ingres",
-      "relationship type": "acknowledgement"
+      "relationship type": "colleague; friend"
     },
     {
       "from": "José Madrazo",
