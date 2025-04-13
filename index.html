@@ -102,10 +102,11 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0 1rem; /* Eliminamos padding vertical */
     width: 100%;
-    align-items: stretch !important; /* o flex-start si prefieres */
-    flex-wrap: nowrap; /* evita que nodeInfo se baje */
+    height: 80vh; /* Añadimos esto para forzar alineación vertical */
+    align-items: stretch; 
+    flex-wrap: nowrap;
   }
 
   .layout-container.hidden {
