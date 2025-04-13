@@ -27,12 +27,19 @@
     {
       "id": "Martín Zapater",
       "label": "Zapater",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martin_Zapater.jpg",
       "life dates": "1746-1803",
-      "relationship to goya": "Best friend",
-      "correspondence": "Extensive letters with Goya",
+      "profession": "businessman",
       "portrayed by": "Francisco de Goya y Lucientes (1780, 1790, 1797)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martin_Zapater.jpg",
       "image source": "Portrait by Goya, 1790, Museo de Arte de Ponce, Puerto Rico"
+    },
+    {
+      "id": "Gumersinda Goicoechea",
+      "label": "Gumersinda",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gumersinda_Goicoechea.jpg",
+      "life dates": "1788-1852",
+      "portrayed by": "Francisco de Goya y Lucientes",
+      "image source": "Portrait by Goya, 1805, miniature, Museo de Zaragoza (GW.845)"
     },
     {
       "id": "Federico Madrazo",
