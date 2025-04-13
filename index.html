@@ -97,62 +97,60 @@
       display: flex;
       flex-direction: row;
       gap: 1rem;
-      padding: 0 1rem; /* sin padding vertical */
+      padding: 0 1rem;
       width: 100%;
-      height: 80vh; /* 🔥 esta es la clave */
-      min-height: 80vh; /* Add this to enforce minimum height */
-      align-items: stretch !important;
-      flex-wrap: nowrap;
+      height: 80vh;
+      min-height: 80vh;
+      align-items: stretch;
+      position: relative; /* Add this */
     }
-  
+
+    /* Force exact height matching */
+    .layout-container.visible::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: transparent; /* Debug color - change to red if needed */
+        pointer-events: none;
+        z-index: 1000;
+    }
+    
     .layout-container.hidden {
       display: none;
     }
   
     /* Versión responsive para móviles */
     @media (max-width: 768px) {
-      .layout-container {
-        height: auto; /* Change from 100vh to auto */
-        min-height: 100vh; /* Add min-height instead */
-      }
-
       .layout-container.visible {
           height: auto; /* Let content determine height */
           flex-direction: column;
       }
       
         #nodeInfo {
-          width: 100%;
-          height: 50vh !important;
-          min-height: 50vh; /* Add min-height for consistency */
-          overflow-y: auto;
-          flex-grow: 1;
-          max-width: none; /* Remove max-width restriction in mobile */
+          height: auto !important;
+          max-height: 50vh !important;
         }
     
         #network {
           height: 50vh !important;
-          flex-grow: 1;
         }
-        #nodeInfo::after {
-          display: none;
-        }
-
+      
         #nodeInfo, #network {
-          height: 50vh !important;
-          min-height: 50vh; /* Add min-height for consistency */
           width: 100% !important;
           max-width: 100% !important;
-    }
+        }
 
       }
     
   #network {
-    width: 100%;
     flex: 1;
-    height: 100%; /* Change from 80vh to 100% to inherit from parent */
-    min-height: 100%; /* Ensure it fills parent */
     background: black;
+    height: calc(100% - 2px); /* Account for potential borders */
+    position: relative; /* Add this */
   }
     
   #network.hidden {
@@ -166,19 +164,15 @@
   }
 
   #nodeInfo {
-    flex: 0 0 30%; /* Fixed width, won't grow/shrink */
-    max-width: 30%;
+    flex: 0 0 30%;
     background-color: #222;
     padding: 1rem;
-    font-size: 16px;
-    text-align: left;
-    color: white;
-    height: 100%; /* Change from 80vh to 100% to inherit from parent */
+    height: calc(100% - 2px); /* Match network height exactly */
     box-sizing: border-box;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%; /* Ensure it fills parent */
+    position: relative; /* Add this */
+    top: 0; /* Ensure alignment from top */
+    bottom: 0; /* Ensure alignment at bottom */
   }
     
   #nodeInfo::after {
