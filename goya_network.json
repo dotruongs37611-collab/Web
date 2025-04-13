@@ -677,10 +677,11 @@
       "label": "C. Madrazo",
       "life dates": "1846-1932", 
       "profession": "antique and textile collector", 
-      "portrayed by": "Federico Madrazo (1869)",
+      "portrayed by": "Federico Madrazo (1869); Luis Madrazo (1880)",
       "married to": "Mariano Fortuny y Marsal",
       "children": "Mariano Fortuny Madrazo; María Luisa",
       "parents": "Federico Madrazo and Luisa Garreta y Huerta",
+      "curiosities": "she was a pianist; she lived in Madrid, Paris and Venice",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg"
     },
     {
@@ -1134,7 +1135,7 @@
       "relationship type": "relatives; mother-daughter"
     },
     {
-      "from": ""Mariano Fortuny y Marsal",
+      "from": "Mariano Fortuny y Marsal",
       "to": "Federico Madrazo",
       "relationship type": "relatives; father-in-law, son-in-law"
     },
