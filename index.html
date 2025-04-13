@@ -71,7 +71,7 @@
   .top-bar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 0 2rem;
     margin-bottom: 0rem;
     padding-bottom: 0rem;
@@ -137,7 +137,8 @@
     background: black;
   }
 
-  #network.visible {
+  #network.visible,
+  #nodeInfo {
     height: 80vh;
   }
     
@@ -168,6 +169,10 @@
     margin-bottom: 0;
   }
 
+  #network, #nodeInfo {
+    height: 80vh;
+  }
+    
     #nodeInfo::after {
       content: "";
       display: block;
