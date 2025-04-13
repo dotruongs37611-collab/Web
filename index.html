@@ -90,7 +90,6 @@
       display: flex;
       align-items: stretch !important;
       height: auto !important;
-      max-height: none !important;
       overflow: visible !important;
      }
       
@@ -101,9 +100,9 @@
       padding: 0 1rem; /* sin padding vertical */
       width: 100%;
       height: 80vh; /* 🔥 esta es la clave */
+      min-height: 80vh; /* Add this to enforce minimum height */
       align-items: stretch !important;
       flex-wrap: nowrap;
-      min-height: 80vh; /* Add this to enforce minimum height */
     }
   
     .layout-container.hidden {
@@ -116,7 +115,12 @@
         height: auto; /* Change from 100vh to auto */
         min-height: 100vh; /* Add min-height instead */
       }
-    
+
+      .layout-container.visible {
+          height: auto; /* Let content determine height */
+          flex-direction: column;
+      }
+      
         #nodeInfo {
           width: 100%;
           height: 50vh !important;
@@ -137,6 +141,8 @@
         #nodeInfo, #network {
           height: 50vh !important;
           min-height: 50vh; /* Add min-height for consistency */
+          width: 100% !important;
+          max-width: 100% !important;
     }
 
       }
@@ -145,8 +151,8 @@
     width: 100%;
     flex: 1;
     height: 100%; /* Change from 80vh to 100% to inherit from parent */
-    background: black;
     min-height: 100%; /* Ensure it fills parent */
+    background: black;
   }
     
   #network.hidden {
@@ -160,7 +166,7 @@
   }
 
   #nodeInfo {
-    flex: 1;
+    flex: 0 0 30%; /* Fixed width, won't grow/shrink */
     max-width: 30%;
     background-color: #222;
     padding: 1rem;
@@ -173,13 +179,6 @@
     display: flex;
     flex-direction: column;
     min-height: 100%; /* Ensure it fills parent */
-  }
-
-  html {
-      box-sizing: border-box;
-  }
-  *, *:before, *:after {
-      box-sizing: inherit;
   }
     
   #nodeInfo::after {
@@ -237,7 +236,6 @@
   
   html, body {
     height: auto !important;
-    max-height: none !important;
     overflow: visible !important;
   }
 
