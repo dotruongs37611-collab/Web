@@ -79,7 +79,7 @@
       "member of": "RABASF: member at 16 years old",
       "masters": "Alberto Lista; Franz Xaver Winterhalter; Jean-Auguste-Dominique Ingres", 
       "students": "León Abadías y Santolaria; Ricardo Villodas y de la Torre",
-      "married to": "Luisa Garreta de Huertas (1835)",
+      "married to": "Luisa Garreta y Huerta (1835)",
       "children": "Cecilia, Isabel, Raimundo, Ricardo",
       "parents": "José Madrazo and Isabel Kuntz y Valentini",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
@@ -451,9 +451,19 @@
       "id": "Román Garreta y Huerta",
       "label": "Garreta",
       "life dates": "1820-1889",
-      "collector of Goya's work": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or Josefa Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
+      "collector of Goya's work": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or  Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Luisa Garreta y Huerta",
+      "label": "Luisa Garreta",
+      "life dates": "c.1813-1854",
+      "married to": "Federico Madrazo",
+      "children": "Luisa Madrazo, Raimundo Madrazo, Cecilia Madrazo, Ricardo Madrazo",
+      "portrayed by": "Federico Madrazo, 1837 (private collection)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luisa_Garreta.jpg",
+      "image source": "portrait by Federico Madrazo, 1837"
     },
     {
       "id": "Leocadia Zorrilla y Galarza",
@@ -473,7 +483,7 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg"
     },
     {
-      "id": "Josefa Bayeu y Subías",
+      "id": "Josefa Bayeu",
       "label": "Josefa Bayeu",
       "life dates": "1747-1812",
       "married to": "Francisco de Goya y Lucientes (1773)", 
@@ -657,7 +667,8 @@
       "collector of Goya's work": "1869 Perros y útiles de caza (tapestry cartoon), donated in 1894 to the Prado",
       "masters": "Léon Cogniet", 
       "portrayed by": "Federico Madrazo (1875, Prado)",
-      "married to": "Luisa Garreta",
+      "married to": "Eugenia Ochoa (cousin)",
+      "children": "Federico (Cocó)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
     },
     {
@@ -1013,6 +1024,23 @@
       "from": "Mariano Goya",
       "to": "Román Garreta y Huerta",
       "label": ""
+    },
+    {
+      "from": "Luisa Garreta y Huerta",
+      "to": "Román Garreta y Huerta",
+      "relationship type": "siblings; brother-sister"
+    },
+    {
+      "from": "Luisa Garreta y Huerta",
+      "to": "Federico Madrazo",
+      "relationship type": "spouses; husband-wife",
+      "married in": "1834",
+      "children": "Luisa Madrazo, Raimundo Madrazo, Cecilia Madrazo, Ricardo Madrazo"
+    },
+    {
+      "from": "Luisa Garreta y Huerta",
+      "to": "Raimundo Madrazo",
+      "relationship type": "relatives; mother-son" 
     },
     {
       "from": "Mariano Goya",
