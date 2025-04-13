@@ -58,6 +58,15 @@
     color: #ccc;
   }
 
+  .menu-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.5rem 1.5rem;
+    margin-top: -1rem; /* más pegado al título */
+  }
+    
   .controls {
     display: flex;
     justify-content: center;
@@ -274,7 +283,7 @@
       <option value="Scholar">Scholar</option>
     </select>
   </div>
-
+  
   <div id="top-menu" style="padding: 1rem;">
     <button onclick="showSection('network')" style="margin-right: 1rem;">Network</button>
     <button onclick="showSection('about')">About</button>
