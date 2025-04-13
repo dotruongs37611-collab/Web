@@ -600,6 +600,7 @@
       "label": "J. Madrazo",
       "life dates": "1829-1880", 
       "profession": "architect", 
+      "author of": "Palacio del Conde de Villagonzalo, Madrid",
       "follower of": "Eugène Viollet-le-Duc",
       "member of": "RABASF",
       "parents": "José Madrazo and Isabel Kuntz y Valentini",
@@ -1003,7 +1004,7 @@
     },
     {
       "from": "Federico Madrazo",
-      "to": "Pedro de Madrazo y Kuntz",
+      "to": "Pedro Madrazo",
       "relationship type": "relatives; brothers"
     },
     {
@@ -1155,7 +1156,7 @@
     },
     {
       "from": "Valentín Carderera",
-      "to": "Pedro de Madrazo y Kuntz",
+      "to": "Pedro Madrazo",
       "relationship type": "acknowledgement"
     },
     {
@@ -1191,7 +1192,7 @@
     },
     {
       "from": "José Madrazo",
-      "to": "Pedro de Madrazo y Kuntz",
+      "to": "Pedro Madrazo",
       "relationship type": "relatives; father-son"
     },
     {
@@ -1357,7 +1358,7 @@
     },
     {
       "from": "Eugenio Ochoa",
-      "to": "Pedro de Madrazo y Kuntz",
+      "to": "Pedro Madrazo",
       "relationship type": "friend"
     },
     {
@@ -1600,7 +1601,7 @@
     },
     {
       "from": "Victor Hugo",
-      "to": "Pedro de Madrazo y Kuntz",
+      "to": "Pedro Madrazo",
       "know each other since": "at least 1837", 
       "they met": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
     },
@@ -1699,7 +1700,7 @@
     },
     {
       "from": "Alexandre Dumas père",
-      "to": "Pedro de Madrazo y Kuntz",
+      "to": "Pedro Madrazo",
       "know each other since": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
     },
     {
@@ -1825,14 +1826,39 @@
       "relationship type": "professional contact"
     },
     {
-      "from": "Pedro de Madrazo y Kuntz",
+      "from": "Pedro Madrazo",
       "to": "Luis Madrazo",
       "relationship type": "relatives; brothers"
     },
     {
-      "from": "Pedro de Madrazo y Kuntz",
+      "from": "Pedro Madrazo",
       "to": "Raimundo Madrazo",
       "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Pedro Madrazo",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Federico Madrazo",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Luis Madrazo",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Raimundo Madrazo",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "José Madrazo",
+      "relationship type": "relatives; father-son"
     },
     {
       "from": "Luis Madrazo",
