@@ -94,6 +94,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "in Italy", label: "In Italy" },
           { key: "participates in", label: "Participates in" },
           { key: "married to", label: "Married to" },
+          { key: "children", label: "Children" },
+          { key: "parents", label: "Parents" },
           { key: "commissions Goya with", label: "Commissions Goya with" },
           { key: "sales", label: "Sales" },
           { key: "visits the Prado Museum", label: "Visits the Prado Museum" },
