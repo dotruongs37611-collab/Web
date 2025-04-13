@@ -101,9 +101,9 @@
       "profession": "painter, engraver, draughtsman, collector",
       "in Italy": "1803-(1815), Academia de San Lucas",
       "in Madrid": "1818",
-      "in Paris": "in 1829 (1st trip). Studies Eugène Delacroix's work",
+      "in Paris": "in 1829 (1st trip): sees Eugène Delacroix's work",
       "works as": "Pintor de Cámara of Carlos IV; reorganises and catalogues the collections of the Prado Museum; 1823 teacher of painting at the RABASF and Deputy Director",
-      "editor of": "a catalogue of the Prado collection with lithographic illustrations of the paintings",
+      "editor of": "a catalogue of the Prado collection with lithographic illustrations of the paintings (made by Pharamond Blanchard)",
       "founder of": "Real Establecimiento litográfico (1825-1837)",
       "collector of": "a valuable painting collection, partly acquired by José de Salamanca y Mayol (I Marqués de Salamanca)",
       "masters": "Jacques-Louis David (1801-1803); Gregorio Ferro Requeijo",
@@ -180,6 +180,8 @@
       "life dates": "1798-1863",
       "profession": "painter, draughtsman, engraver",
       "author of": "Scenes from the Massacre at Chios (1824, Louvre), The Death of Sardanapalus (1827, Louvre), Liberty guiding the People (1830, Louvre)",
+      "in Spain": "in 1832",
+      "knows Goya's work since": "c.1819, through Ferdinand Guillemardet (Lipschutz 1972, p.10)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg",
       "image source": "Self-portrait with Green Vest (1837, Louvre)"
     },
@@ -276,7 +278,7 @@
       "id": "Antoine Fontaney",
       "label": "Fontaney",
       "life dates": "1803-1837",
-      "profession": "wirter, journalist, poet",
+      "profession": "writer, journalist, poet",
       "in Spain": "1830-1831",
       "collector of Goya's work": "Los Caprichos (1830-1831)",
       "shows Goya": "Fontaney's journal (8 Sept 1831): 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31); 9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)",
@@ -943,12 +945,14 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Nicolas Philippe Guye",
-      "relationship type": "patronage"
+      "relationship type": "patronage",
+      "portraits": "1810"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Victor Guye",
-      "relationship type": "patronage"
+      "relationship type": "patronage",
+      "portraits": "1810"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -958,7 +962,8 @@
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Adrien Dauzats",
-      "label": ""
+      "relationship type": "acknowledgement",
+      "they met": "in Bordeaux (1824-28) at Pierre Lacour's establishment"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -1707,7 +1712,7 @@
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
       "relationship type": "acknowledgement; friend?",
-      "know each other since": "1827, 27 June (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)"
+      "know each other since": "1827, 27 June, (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)"
     },
     {
       "from": "Victor Hugo",
@@ -1854,6 +1859,12 @@
       "from": "Charles Nodier",
       "to": "Adélaïde de Montgolfier",
       "relationship type": "acknowledgement"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Théophile Gautier",
+      "relationship type": "acknowledgement",
+      "mentions": "Gautier mentions Nodier's Histoire du roi de Bohême (1830), Le Figaro, 19 Oct 1836, 'Les récréations du génie' (Lacsote-Veysseyre 2014, p.218)"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
