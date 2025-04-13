@@ -669,7 +669,33 @@
       "portrayed by": "Federico Madrazo (1875, Prado)",
       "married to": "Eugenia Ochoa (cousin)",
       "children": "Federico (Cocó)",
+      "parents": "Federico Madrazo and Luisa Garreta y Huerta",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
+    },
+    {
+      "id": "Cecilia Madrazo",
+      "label": "C. Madrazo",
+      "life dates": "1846-1932", 
+      "profession": "antique and textile collector", 
+      "portrayed by": "Federico Madrazo (1869)",
+      "married to": "Mariano Fortuny y Marsal",
+      "children": "Mariano Fortuny Madrazo; María Luisa",
+      "parents": "Federico Madrazo and Luisa Garreta y Huerta",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg"
+    },
+    {
+      "id": "Mariano Fortuny y Marsal",
+      "label": "Fortuny",
+      "life dates": "1838-1874", 
+      "profession": "painter, watercolorist, engraver", 
+      "masters": "Claudio Lorenzale",
+      "author of": "La batalla de Tetuán (1862-64); Viejo desnudo al sol (1863, Prado); La vicaría (1870)",
+      "portrayed by": "Federico Madrazo (1867, Museo Nacional de Arte de Cataluña)",
+      "married to": "Cecilia Madrazo",
+      "children": "Mariano Fortuny Madrazo; María Luisa",
+      "parents": "Federico Madrazo and Luisa Garreta y Huerta",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg",
+      "image source": "portrait by Federico Madrazo, 1867, MNAC"
     },
     {
       "id": "Louis Viardot",
@@ -1090,6 +1116,27 @@
       "from": "Federico Madrazo",
       "to": "Baron Taylor",
       "relationship type": "friend"
+    },
+    {
+      "from": ""Mariano Fortuny y Marsal",
+      "to": "Cecilia Madrazo",
+      "relationship type": "spouses; husband-wife",
+      "children": "Mariano Fortuny Madrazo; María Luisa"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Cecilia Madrazo",
+      "relationship type": "relatives; father-daughter"
+    },
+    {
+      "from": "Luisa Garreta y Huerta",
+      "to": "Cecilia Madrazo",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": ""Mariano Fortuny y Marsal",
+      "to": "Federico Madrazo",
+      "relationship type": "relatives; father-in-law, son-in-law"
     },
     {
       "from": "Federico Madrazo",
