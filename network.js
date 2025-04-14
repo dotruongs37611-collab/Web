@@ -20,7 +20,7 @@ function resetStyles(nodes, edges) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', async function () {
+document.addEventListener('DOMContentLoaded', () => {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
     nodeInfo.style.maxHeight = '600px';
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
       
-    } catch (err) {
-      console.error("Error cargando o renderizando la red:", err);
-    }
-  });
+  } catch (err) {
+    console.error("Error cargando o renderizando la red:", err);
+  }
+});
