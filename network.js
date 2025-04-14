@@ -274,7 +274,7 @@ const query = searchInput.value.trim().toLowerCase();
     // Si hay varios, mostrar lista en el panel derecho
     let html = `<p><strong>Found ${matchingNodes.length} matching nodes:</strong></p><ul>`;
     matchingNodes.forEach(node => {
-      html += `<li><a href="#" onclick="focusNode('${node.id}')">${node.label}</a></li>`;
+      html += `<li><a href="#" onclick='focusNode("${node.id}")'>${node.label}</a></li>`;
     });
       
     html += `</ul>`;
