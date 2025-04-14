@@ -300,6 +300,7 @@ const query = searchInput.value.trim().toLowerCase();
       }
     });
 
+  }
     
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
