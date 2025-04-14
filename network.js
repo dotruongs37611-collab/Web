@@ -251,11 +251,22 @@ document.addEventListener('DOMContentLoaded', async function () {
     searchButton.addEventListener('click', () => {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
-      const found = data.nodes.find(n =>
-        Object.values(n).some(value =>
-          typeof value === 'string' && value.toLowerCase().includes(query)
-        )
+      
+      // 1. Primero intenta buscar coincidencia exacta en el label (nombre visible del nodo)
+      let found = data.nodes.find(n =>
+        typeof n.label === 'string' && n.label.toLowerCase().includes(query)
       );
+      
+      // 2. Si no se encuentra por label, busca en cualquier metadato del nodo
+      if (!found) {
+        found = data.nodes.find(n =>
+          Object.values(n).some(value =>
+            typeof value === 'string' && value.toLowerCase().includes(query)
+          )
+        );
+      }
+
+      // 3. Mostrar resultado
       if (found) {
         focusNode(found.id);
       } else {
