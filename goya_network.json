@@ -67,6 +67,7 @@
     },
     {
       "id": "Federico Madrazo",
+      "full name": "Federico de Madrazo y Kuntz",
       "label": "F. Madrazo",
       "life dates": "1815-1894",
       "profession": "painter, collector, art dealer",
@@ -697,7 +698,8 @@
     },
     {
       "id": "Cecilia Madrazo",
-      "label": "C. Madrazo",
+      "label": "Cecilia Madrazo",
+      "full names": "Cecilia de Madrazo Garreta",
       "life dates": "1846-1932", 
       "profession": "antique and textile collector", 
       "portrayed by": "Federico Madrazo (1869); Luis Madrazo (1880)",
@@ -718,7 +720,7 @@
       "married to": "Cecilia Madrazo",
       "children": "Mariano Fortuny Madrazo; María Luisa",
       "parents": "Federico Madrazo and Luisa Garreta y Huerta",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny.jpg",
       "image source": "portrait by Federico Madrazo, 1867, MNAC"
     },
     {
