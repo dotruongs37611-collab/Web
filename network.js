@@ -147,25 +147,19 @@ document.addEventListener('DOMContentLoaded', async function () {
           if (node[field.key]) {
             let value = node[field.key];
         
-            // Detectar si hay URL al final
-            const urlMatch = value.match(/https?:\/\/[^\s)]+/);
-            if (urlMatch) {
-              const url = urlMatch[0];
-              value = value.replace(` (${url})`, '').replace(url, '').trim();
-              value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
-            }
-        
-            const names = value.split(',').map(name => name.trim());
-            const linkedNames = names.map(name => {
-              const linkedNode = nodes.get(name.trim()) || Object.values(nodes.get()).find(n => n.label === name.trim());
-              return linkedNode
-                ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
-                : name;
-            });
-
-            html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
+          // Detectar si hay URL al final
+          const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+          if (urlMatch) {
+            const url = urlMatch[0];
+            value = value.replace(` (${url})`, '').replace(url, '').trim();
+            value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
           }
-        });
+        
+          const nodesMap = {};
+          nodes.get().forEach(n => nodesMap[n.label] = n);
+  
+          const htmlText = autoLinkNames(value, nodesMap);
+          html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
 
         const connections = [];
         edges.get().forEach(edge => {
