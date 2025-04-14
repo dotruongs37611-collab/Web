@@ -189,6 +189,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         const edge = edges.get(params.edges[0]);
         if (!edge) return;
 
+        edges.update({ id: edge.id, color: { color: 'red' }, width: 4 });
+        setTimeout(() => {
+          edges.update({ id: edge.id, color: { color: 'lightgray' }, width: 1 });
+        }, 3000);
+
         const fromNode = nodesMap[edge.from];
         const toNode = nodesMap[edge.to];
 
