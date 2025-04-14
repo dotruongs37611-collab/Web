@@ -252,45 +252,33 @@ document.addEventListener('DOMContentLoaded', async function () {
 const query = searchInput.value.trim().toLowerCase();
   if (!query) return;
   
-      // 1. Buscar coincidencia exacta en label
-    let found = data.nodes.find(n =>
-      typeof n.label === 'string' &&
-      n.label.toLowerCase() === query
+    // Encuentra todos los nodos relevantes
+    const matchingNodes = data.nodes.filter(n =>
+      Object.values(n).some(value =>
+        typeof value === 'string' && value.toLowerCase().includes(query)
+      )
     );
     
-    // 2. Buscar label que empiece por query
-    if (!found) {
-      found = data.nodes.find(n =>
-        typeof n.label === 'string' &&
-        n.label.toLowerCase().startsWith(query)
-      );
+    // Si no se encuentra nada
+    if (matchingNodes.length === 0) {
+      alert("No match found.");
+      return;
     }
     
-    // 3. Buscar label que contenga query
-    if (!found) {
-      found = data.nodes.find(n =>
-        typeof n.label === 'string' &&
-        n.label.toLowerCase().includes(query)
-      );
+    // Si solo hay uno, comportarse como hasta ahora
+    if (matchingNodes.length === 1) {
+      focusNode(matchingNodes[0].id);
+      return;
     }
     
-    // 4. Buscar en cualquier campo del nodo
-    if (!found) {
-      found = data.nodes.find(n =>
-        Object.values(n).some(value =>
-          typeof value === 'string' &&
-          value.toLowerCase().includes(query)
-        )
-      );
-    }
-
-      // 5. Mostrar resultado
-      if (found) {
-        focusNode(found.id);
-      } else {
-        alert("No match found.");
-      }
+    // Si hay varios, mostrar lista en el panel derecho
+    let html = `<p><strong>Found ${matchingNodes.length} matching nodes:</strong></p><ul>`;
+    matchingNodes.forEach(node => {
+      html += `<li><a href="#" onclick="focusNode('${node.id}')">${node.label}</a></li>`;
     });
+      
+    html += `</ul>`;
+    document.getElementById("nodeInfo").innerHTML = html;
 
     searchInput.addEventListener('keyup', function(event) {
       if (event.key === 'Enter') {
