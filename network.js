@@ -1,16 +1,24 @@
 function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
-  Object.keys(nodesMap).forEach(name => {
-    const regex = new RegExp(`\b${name}\b`, "g");
+
+  const knownNames = Object.keys(nodesMap);
+
+  // Recorre todos los nombres conocidos en la red
+  knownNames.forEach(name => {
+    // Crear expresión regular con bordes de palabra
+    const regex = new RegExp(`\\b${name}\\b`, 'g');
+
+    // Reemplazar solo si el nombre exacto está en el texto
     text = text.replace(regex, `<a href="#" style="color:#66ccff" onclick="focusNode('${name}')">${name}</a>`);
   });
+
   return text;
 }
 
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
-    nodeInfo.style.maxHeight = '800px';
+    nodeInfo.style.maxHeight = '810px';
     nodeInfo.style.overflowY = 'auto';
 
     const response = await fetch('goya_network.json');
