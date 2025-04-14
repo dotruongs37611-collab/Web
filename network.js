@@ -300,7 +300,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       if (event.key === 'Enter') {
         searchButton.click();
       }
-     });
       
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
