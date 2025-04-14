@@ -241,13 +241,17 @@
       "label": "Gaulon",
       "life dates": "1777-1858", 
       "profession": "lithographic printer",
+      "portrayed by": "Goya, 1824-25, lithography (Harris 1964, no.282)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg"
     },
     {
       "id": "Laurent Matheron",
-      "profession": "writer",
       "label": "Matheron",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg"
+      "life dates": "1823-1905",
+      "profession": "writer",
+      "writes about Goya": "first biography of Goya, 'Goya', 1858, París, Schulz et Thuillié",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Frédéric Villot",
