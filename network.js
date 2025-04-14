@@ -242,10 +242,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       });
 
       nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
-      const connectedEdges = network.getConnectedEdges(nodeId);
-      connectedEdges.forEach(edgeId => {
-        edges.update({ id: edgeId, color: { color: 'red' }, width: 4 });
-      });
     };
 
     // Búsqueda funcional
