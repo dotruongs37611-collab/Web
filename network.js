@@ -10,7 +10,7 @@ function autoLinkNames(text, nodesMap) {
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
-    nodeInfo.style.maxHeight = '600px';
+    nodeInfo.style.maxHeight = '720px';
     nodeInfo.style.overflowY = 'auto';
 
     const response = await fetch('goya_network.json');
