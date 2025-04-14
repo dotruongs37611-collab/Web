@@ -210,8 +210,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           ]);
         }, 3000);
 
-        const fromNode = nodesMap[edge.from];
-        const toNode = nodesMap[edge.to];
+        fromNode = nodesMap[edge.from];
+        toNode = nodesMap[edge.to];
 
         let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
 
