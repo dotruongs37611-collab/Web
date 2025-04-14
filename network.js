@@ -262,6 +262,13 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
+    searchInput.addEventListener('keyup', function(event) {
+      if (event.key === 'Enter') {
+        searchButton.click();
+      }
+    });
+
+    
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
   }
