@@ -125,6 +125,13 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "archives", label: "Archives" },
           { key: "bibliography", label: "Bibliography" },
           { key: "nationality", label: "Nationality" },
+          { key: "full name", label: "Full name" },
+          { key: "also known as", label: "Also known as" },
+          { key: "born in", label: "Born in" },
+          { key: "collection", label: "Collection" },
+          { key: "collaborates with", label: "Collaborates with" },
+          { key: "patronage", label: "Patronage" },
+          { key: "aristocratic titles", label: "Aristocratic titles" },
           { key: "image source", label: "Image source" }
         ];
 
