@@ -249,24 +249,33 @@ document.addEventListener('DOMContentLoaded', async function () {
     const searchButton = document.getElementById('searchButton');
 
     searchButton.addEventListener('click', () => {
-      const query = searchInput.value.trim().toLowerCase();
-      if (!query) return;
+const query = searchInput.value.trim().toLowerCase();
+  if (!query) return;
+  
+  // 1. Buscar coincidencia que EMPIECE por el query en el label
+  let found = data.nodes.find(n =>
+    typeof n.label === 'string' &&
+    n.label.toLowerCase().startsWith(query)
+  );
+  
+  // 2. Si no encuentra, buscar coincidencia en CUALQUIER parte del label
+  if (!found) {
+    found = data.nodes.find(n =>
+      typeof n.label === 'string' &&
+      n.label.toLowerCase().includes(query)
+    );
+  }
+  
+  // 3. Si no encuentra por label, buscar en cualquier campo del nodo
+  if (!found) {
+    found = data.nodes.find(n =>
+      Object.values(n).some(value =>
+        typeof value === 'string' && value.toLowerCase().includes(query)
+      )
+    );
+}
       
-      // 1. Primero intenta buscar coincidencia exacta en el label (nombre visible del nodo)
-      let found = data.nodes.find(n =>
-        typeof n.label === 'string' && n.label.toLowerCase().includes(query)
-      );
-      
-      // 2. Si no se encuentra por label, busca en cualquier metadato del nodo
-      if (!found) {
-        found = data.nodes.find(n =>
-          Object.values(n).some(value =>
-            typeof value === 'string' && value.toLowerCase().includes(query)
-          )
-        );
-      }
-
-      // 3. Mostrar resultado
+      // 4. Mostrar resultado
       if (found) {
         focusNode(found.id);
       } else {
