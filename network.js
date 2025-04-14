@@ -244,6 +244,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         animation: { duration: 500 }
       });
       network.selectNodes([nodeId]);
+
+      // 🔴 Colorea de rojo temporalmente
+      nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
+      setTimeout(() => {
+        nodes.update({ id: nodeId, color: { border: undefined }, borderWidth: 2 });
+      }, 3000);
     };
 
     // Búsqueda funcional
