@@ -6,6 +6,7 @@ function autoLinkNames(text, nodesMap) {
       regex,
       `<a href="#" style="color:#66ccff" onclick="focusNode(&quot;${name}&quot;)">${name}</a>`
     );
+  });
   return text;
 }
 
