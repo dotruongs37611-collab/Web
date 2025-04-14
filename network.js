@@ -2,8 +2,10 @@ function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
   Object.keys(nodesMap).forEach(name => {
     const regex = new RegExp(`\\b${name}\\b`, "g");
-    text = text.replace(regex, `<a href="#" style="color:#66ccff" onclick="focusNode('${name}')">${name}</a>`);
-  });
+    text = text.replace(
+      regex,
+      `<a href="#" style="color:#66ccff" onclick="focusNode(&quot;${name}&quot;)">${name}</a>`
+    );
   return text;
 }
 
