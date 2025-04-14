@@ -269,6 +269,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       } else {
         alert("No match found.");
       }
+    });
+    
       searchInput.addEventListener('keyup', function(event) {
         if (event.key === 'Enter') {
           searchButton.click();
