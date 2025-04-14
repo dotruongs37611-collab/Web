@@ -1,0 +1,253 @@
+function autoLinkNames(text, nodesMap) {
+  if (!text || typeof text !== "string") return text;
+  Object.keys(nodesMap).forEach(name => {
+    const regex = new RegExp(`\b${name}\b`, "g");
+    text = text.replace(regex, `<a href="#" style="color:#66ccff" onclick="focusNode('${name}')">${name}</a>`);
+  });
+  return text;
+}
+
+function resetStyles(nodes, edges) {
+  nodes.get().forEach(node => {
+    nodes.update({ id: node.id, color: { border: undefined }, borderWidth: 2 });
+  });
+
+  edges.get().forEach(edge => {
+    edges.update({ id: edge.id, color: { color: 'lightgray' }, width: 1 });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', async function () {
+  try {
+    const nodeInfo = document.getElementById('nodeInfo');
+    nodeInfo.style.maxHeight = '600px';
+    nodeInfo.style.overflowY = 'auto';
+
+    const response = await fetch('goya_network.json');
+    if (!response.ok) throw new Error('Error cargando datos');
+    const data = await response.json();
+
+    const edgeCount = {};
+    data.edges.forEach(edge => {
+      edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
+      edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
+    });
+
+    const nodesMap = {};
+    const nodes = new vis.DataSet(data.nodes.map(node => {
+      const degree = edgeCount[node.id] || 1;
+      const config = {
+        ...node,
+        size: Math.min(28 + degree * 2.5, 70),
+        font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
+        shape: node.image ? 'circularImage' : 'dot'
+      };
+      if (node.image) config.image = node.image;
+      nodesMap[node.id] = config;
+      return config;
+    }));
+
+    const edges = new vis.DataSet(data.edges);
+
+    const container = document.getElementById('network');
+    const network = new vis.Network(container, { nodes, edges }, {
+      nodes: { borderWidth: 2 },
+      edges: { color: 'lightgray' },
+      physics: {
+        solver: 'forceAtlas2Based',
+        stabilization: true,
+        forceAtlas2Based: {
+          gravitationalConstant: -50,
+          centralGravity: 0.01,
+          springLength: 150,
+          springConstant: 0.08,
+          avoidOverlap: 1 // 👈 clave para que no se solapen
+        }
+      }
+    });
+    network.once("stabilizationIterationsDone", function () {
+      network.setOptions({ physics: false });         // ❄️ Detiene el movimiento
+      network.fit({ animation: true });               // 🎯 Centra y ajusta zoom
+    });
+    network.on("dragStart", function () {
+      network.setOptions({ physics: { enabled: true } });
+    });
+
+    network.on("dragEnd", function () {
+      setTimeout(() => {
+        network.setOptions({ physics: false });
+      }, 1000); // espera 1 segundo para que se relaje
+    });
+
+    network.on("click", function (params) {
+      if (params.nodes.length > 0) {
+        const node = nodes.get(params.nodes[0]);
+        const degree = edgeCount[node.id] || 0;
+        let html = `<div class="node-info">`;
+
+        if (node.image) {
+          html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
+        }
+
+        html += `<h2>${node.id}</h2>`;
+
+        const fieldsToShow = [
+          { key: "life dates", label: "Life dates" },
+          { key: "profession", label: "Profession" },
+          { key: "author of", label: "Author of" },
+          { key: "portrayed by", label: "Portrayed by" },
+          { key: "editor of", label: "Editor of" },
+          { key: "writes in", label: "Writes in" },
+          { key: "in Madrid", label: "In Madrid" },
+          { key: "in Spain", label: "In Spain" },
+          { key: "in Paris", label: "In Paris" },
+          { key: "in France", label: "In France" },
+          { key: "in Italy", label: "In Italy" },
+          { key: "participates in", label: "Participates in" },
+          { key: "married to", label: "Married to" },
+          { key: "children", label: "Children" },
+          { key: "parents", label: "Parents" },
+          { key: "commissions Goya with", label: "Commissions Goya with" },
+          { key: "sales", label: "Sales" },
+          { key: "visits the Prado Museum", label: "Visits the Prado Museum" },
+          { key: "works as", label: "Works as" },
+          { key: "works for", label: "Works for" },
+          { key: "meets", label: "Meets" },
+          { key: "address", label: "Address" },
+          { key: "studied in", label: "Studied in" },
+          { key: "students", label: "Students" },
+          { key: "masters", label: "Masters" },
+          { key: "follower of", label: "Follower of" },
+          { key: "collector of", label: "Collector of" },
+          { key: "founder of", label: "Founder of" },
+          { key: "patrons", label: "Patrons" },
+          { key: "Image source", label: "Image source" },
+          { key: "link to Goya's work", label: "Link to Goya's work" },
+          { key: "writes about Goya", label: "Writes about Goya" },
+          { key: "mentions Goya", label: "Mentions Goya" },
+          { key: "influence of Goya's work", label: "Influence of Goya's work" },
+          { key: "collector of Goya's work", label: "Collector of Goya's work" },
+          { key: "knows Goya's work since", label: "knows Goya's work since" },
+          { key: "mentions the Prado commentaries", label: "Mentions the Prado commentaries" },
+          { key: "shows Goya", label: "Shows Goya" },
+          { key: "mentioned in the French press", label: "Mentioned in the French press" },
+          { key: "pseudonym", label: "Pseudonym" },
+          { key: "archives", label: "Archives" },
+          { key: "bibliography", label: "Bibliography" },
+          { key: "nationality", label: "Nationality" },
+          { key: "full name", label: "Full name" },
+          { key: "also known as", label: "Also known as" },
+          { key: "born in", label: "Born in" },
+          { key: "collection", label: "Collection" },
+          { key: "collaborates with", label: "Collaborates with" },
+          { key: "patronage", label: "Patronage" },
+          { key: "aristocratic titles", label: "Aristocratic titles" },
+          { key: "image source", label: "Image source" }
+        ];
+
+        fieldsToShow.forEach(field => {
+          if (node[field.key]) {
+            let value = node[field.key];
+        
+            // Detectar si hay URL al final
+            const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+            if (urlMatch) {
+              const url = urlMatch[0];
+              value = value.replace(` (${url})`, '').replace(url, '').trim();
+              value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+            }
+        
+            const names = value.split(',').map(name => name.trim());
+            const linkedNames = names.map(name => {
+              const linkedNode = nodes.get(name.trim()) || Object.values(nodes.get()).find(n => n.label === name.trim());
+              return linkedNode
+                ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
+                : name;
+            });
+
+            const rawText = linkedNames.join(', ');
+            const htmlText = marked.parseInline(rawText);
+            html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
+
+          }
+        });
+
+        const connections = [];
+        edges.get().forEach(edge => {
+          if (edge.from === node.id || edge.to === node.id) {
+            const otherId = edge.from === node.id ? edge.to : edge.from;
+            const otherNode = nodes.get(otherId);
+            if (otherNode) {
+              connections.push({ id: otherId, name: otherNode.id });
+            }
+          }
+        });
+
+        const degreeCalc = connections.length;
+        html += `<p><strong>Connections:</strong> ${degreeCalc}</p><ul>`;
+
+        connections
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach(conn => {
+            html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
+          });
+
+        html += `</ul></div>`;
+        document.getElementById("nodeInfo").innerHTML = html;
+
+      } else if (params.edges.length > 0) {
+        resetStyles(nodes, edges); // 👈 resetea lo anterior
+        
+        const edge = edges.get(params.edges[0]);
+        if (!edge) return;
+      
+        const 
+      }
+    });
+
+      window.focusNode = function (nodeId) {
+        resetStyles(nodes, edges); // 👈 resetea lo anterior
+      
+        network.focus(nodeId, {
+          scale: 1.2,
+          animation: { duration: 500 }
+        });
+        network.selectNodes([nodeId]);
+      
+        nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
+      
+        const connectedEdges = network.getConnectedEdges(nodeId);
+        connectedEdges.forEach(edgeId => {
+          edges.update({ id: edgeId, color: { color: 'red' }, width: 4 });
+        });
+      };
+
+    // Búsqueda funcional
+    const searchInput = document.getElementById('search');
+    const searchButton = document.getElementById('searchButton');
+
+    searchButton.addEventListener('click', () => {
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) return;
+      const found = data.nodes.find(n =>
+        Object.values(n).some(value =>
+          typeof value === 'string' && value.toLowerCase().includes(query)
+        )
+      );
+      if (found) {
+        focusNode(found.id);
+      } else {
+        alert("No match found.");
+      }
+    });
+    
+      searchInput.addEventListener('keyup', function(event) {
+        if (event.key === 'Enter') {
+          searchButton.click();
+        }
+    });
+
+  } catch (err) {
+    console.error("Error cargando o renderizando la red:", err);
+  }
+});
