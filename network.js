@@ -195,15 +195,71 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `</ul></div>`;
         document.getElementById("nodeInfo").innerHTML = html;
 
-      } else if (params.edges.length > 0) {
-        resetStyles(nodes, edges); // 👈 resetea lo anterior
+
         
+      } else if (params.edges.length > 0) {
+        resetStyles(nodes, edges); // 👉 resetea lo anterior
+      
         const edge = edges.get(params.edges[0]);
         if (!edge) return;
       
-        const 
-      };
+        const fromNode = nodesMap[edge.from];
+        const toNode = nodesMap[edge.to];
+      
+        edges.update({ id: edge.id, color: { color: 'red' }, width: 4 });
+      
+        nodes.update([
+          { id: edge.from, color: { border: 'red' }, borderWidth: 4 },
+          { id: edge.to, color: { border: 'red' }, borderWidth: 4 }
+        ]);
+      
+        let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
+      
+        if (fromNode?.image) {
+          html += `<img src="${fromNode.image}" style="max-height:80px;">`;
+        }
+        if (toNode?.image) {
+          html += `<img src="${toNode.image}" style="max-height:80px;">`;
+        }
+      
+        html += `</div>`;
+        html += `<h3>Connection</h3>`;
+        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
+      
+        const edgeFields = [
+          { key: "relationship type", label: "Type of relationship" },
+          { key: "correspondence", label: "Correspondence" },
+          { key: "know each other since", label: "Know each other since" },
+          { key: "they met", label: "They met" },
+          { key: "shared", label: "Shared" },
+          { key: "mentions", label: "Mentions" },
+          { key: "collaborations", label: "Collaborations" },
+          { key: "curiosities", label: "Curiosities" },
+          { key: "children", label: "Children" },
+          { key: "married in", label: "Married in" },
+          { key: "link to Goya's work", label: "Link to Goya's work" },
+          { key: "portraits", label: "Portraits" }
+        ];
+      
+        edgeFields.forEach(field => {
+          if (edge[field.key]) {
+            let value = autoLinkNames(edge[field.key], nodesMap);
+            const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+            if (urlMatch) {
+              const url = urlMatch[0];
+              value = value.replace(` (${url})`, '').replace(url, '').trim();
+              value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+            }
+      
+            html += `<p><strong>${field.label}:</strong> ${value}</p>`;
+          }
+        });
+      
+        document.getElementById("nodeInfo").innerHTML = html;
+      } // 👈 Esta es la llave que cierra el else if
 
+
+      
       window.focusNode = function (nodeId) {
         resetStyles(nodes, edges); // 👈 resetea lo anterior
       
