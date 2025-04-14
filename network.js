@@ -164,14 +164,31 @@ document.addEventListener('DOMContentLoaded', async function () {
                 ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
                 : name;
             });
-
+            
             const rawText = linkedNames.join(', ');
             const htmlText = marked.parseInline(rawText);
             html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
-
           }
         });
 
+              window.focusNode = function (nodeId) {
+                resetStyles(nodes, edges); // 👈 resetea lo anterior
+              
+                network.focus(nodeId, {
+                  scale: 1.2,
+                  animation: { duration: 500 }
+                });
+                network.selectNodes([nodeId]);
+              
+                nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
+              
+                const connectedEdges = network.getConnectedEdges(nodeId);
+                connectedEdges.forEach(edgeId => {
+                  edges.update({ id: edgeId, color: { color: 'red' }, width: 4 });
+                });
+              };
+
+        
         const connections = [];
         edges.get().forEach(edge => {
           if (edge.from === node.id || edge.to === node.id) {
@@ -259,23 +276,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       } // 👈 Esta es la llave que cierra el else if
 
 
-      
-      window.focusNode = function (nodeId) {
-        resetStyles(nodes, edges); // 👈 resetea lo anterior
-      
-        network.focus(nodeId, {
-          scale: 1.2,
-          animation: { duration: 500 }
-        });
-        network.selectNodes([nodeId]);
-      
-        nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
-      
-        const connectedEdges = network.getConnectedEdges(nodeId);
-        connectedEdges.forEach(edgeId => {
-          edges.update({ id: edgeId, color: { color: 'red' }, width: 4 });
-        });
-      };
 
     // Búsqueda funcional
     const searchInput = document.getElementById('search');
