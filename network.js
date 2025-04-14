@@ -7,6 +7,16 @@ function autoLinkNames(text, nodesMap) {
   return text;
 }
 
+function resetStyles(nodes, edges) {
+  nodes.get().forEach(node => {
+    nodes.update({ id: node.id, color: { border: undefined }, borderWidth: 2 });
+  });
+
+  edges.get().forEach(edge => {
+    edges.update({ id: edge.id, color: { color: 'lightgray' }, width: 1 });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
@@ -186,29 +196,21 @@ document.addEventListener('DOMContentLoaded', async function () {
         document.getElementById("nodeInfo").innerHTML = html;
 
       } else if (params.edges.length > 0) {
+        resetStyles(nodes, edges); // 👈 resetea lo anterior
+        
         const edge = edges.get(params.edges[0]);
         if (!edge) return;
       
         const fromNode = nodesMap[edge.from];
         const toNode = nodesMap[edge.to];
       
-        // 🔴 Resalta edge
         edges.update({ id: edge.id, color: { color: 'red' }, width: 4 });
       
-        // 🔴 Resalta ambos nodos
         nodes.update([
           { id: edge.from, color: { border: 'red' }, borderWidth: 4 },
           { id: edge.to, color: { border: 'red' }, borderWidth: 4 }
         ]);
-      
-        // Restaurar estilos tras 3s
-        setTimeout(() => {
-          edges.update({ id: edge.id, color: { color: 'lightgray' }, width: 1 });
-          nodes.update([
-            { id: edge.from, color: { border: undefined }, borderWidth: 2 },
-            { id: edge.to, color: { border: undefined }, borderWidth: 2 }
-          ]);
-        }, 3000);
+      }
 
         fromNode = nodesMap[edge.from];
         toNode = nodesMap[edge.to];
@@ -260,28 +262,20 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
       window.focusNode = function (nodeId) {
+        resetStyles(nodes, edges); // 👈 resetea lo anterior
+      
         network.focus(nodeId, {
           scale: 1.2,
           animation: { duration: 500 }
         });
         network.selectNodes([nodeId]);
       
-        // 🔴 Borde rojo del nodo
         nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
       
-        // 🔴 Bordes rojos de edges conectados
         const connectedEdges = network.getConnectedEdges(nodeId);
         connectedEdges.forEach(edgeId => {
           edges.update({ id: edgeId, color: { color: 'red' }, width: 4 });
         });
-      
-        // Restaurar estilos después de 3 segundos
-        setTimeout(() => {
-          nodes.update({ id: nodeId, color: { border: undefined }, borderWidth: 2 });
-          connectedEdges.forEach(edgeId => {
-            edges.update({ id: edgeId, color: { color: 'lightgray' }, width: 1 });
-          });
-        }, 3000);
       };
 
     // Búsqueda funcional
