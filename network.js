@@ -155,7 +155,10 @@ document.addEventListener('DOMContentLoaded', async function () {
                 : name;
             });
 
-            html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
+            const rawText = linkedNames.join(', ');
+            const htmlText = marked.parseInline(rawText);
+            html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
+
           }
         });
 
@@ -251,7 +254,10 @@ document.addEventListener('DOMContentLoaded', async function () {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
       const found = data.nodes.find(n =>
-        n.id.toLowerCase().includes(query) || n.label.toLowerCase().includes(query));
+        Object.values(n).some(value =>
+          typeof value === 'string' && value.toLowerCase().includes(query)
+        )
+      );
       if (found) {
         focusNode(found.id);
       } else {
