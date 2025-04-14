@@ -202,8 +202,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!edge) return;
       
         const 
-      }
-    });
+      };
 
       window.focusNode = function (nodeId) {
         resetStyles(nodes, edges); // 👈 resetea lo anterior
