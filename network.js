@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
       if (lastHighlightedNodes.length > 0) {
         lastHighlightedNodes.forEach(id => {
-          nodes.update({ id, color: { border: '#2B7CE9' }, borderWidth: 2 });
+          nodes.update({ id: node.id, color: { ...node.color, border: 'red' }, borderWidth: 4 });
         });
         lastHighlightedNodes = [];
       }
