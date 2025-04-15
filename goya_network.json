@@ -68,7 +68,7 @@
     {
       "id": "Federico Madrazo",
       "full name": "Federico de Madrazo y Kuntz",
-      "label": "F. Madrazo",
+      "label": "Federico Madrazo",
       "life dates": "1815-1894",
       "profession": "painter, collector, art dealer",
       "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Baron Taylor and Adrien Dauzats; 1837-1839 (portrays Adrien Dauzats 1837): he benefits from contacts with Baron Taylor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
@@ -705,14 +705,15 @@
       "life dates": "1846-1932", 
       "profession": "antique and textile collector", 
       "portrayed by": "Federico Madrazo (1869); Luis Madrazo (1880)",
-      "married to": "Mariano Fortuny y Marsal",
-      "children": "Mariano Fortuny Madrazo; María Luisa",
+      "married to": "Mariano Fortuny",
+      "children": "Mariano; María Luisa",
       "parents": "Federico Madrazo and Luisa Garreta",
       "curiosities": "she was a pianist; she lived in Madrid, Paris and Venice",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg"
     },
     {
-      "id": "Mariano Fortuny y Marsal",
+      "id": "Mariano Fortuny",
+      "full name": "Mariano Fortuny y Marsal",
       "label": "Fortuny",
       "life dates": "1838-1874", 
       "profession": "painter, watercolorist, engraver", 
@@ -720,7 +721,7 @@
       "author of": "La batalla de Tetuán (1862-64); Viejo desnudo al sol (1863, Prado); La vicaría (1870)",
       "portrayed by": "Federico Madrazo (1867, Museo Nacional de Arte de Cataluña)",
       "married to": "Cecilia Madrazo",
-      "children": "Mariano Fortuny Madrazo; María Luisa",
+      "children": "Mariano; María Luisa",
       "parents": "Federico Madrazo and Luisa Garreta",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny.jpg",
       "image source": "portrait by Federico Madrazo, 1867, MNAC"
@@ -1149,10 +1150,10 @@
       "relationship type": "friend"
     },
     {
-      "from": "Mariano Fortuny y Marsal",
+      "from": "Mariano Fortuny",
       "to": "Cecilia Madrazo",
       "relationship type": "spouses; husband-wife",
-      "children": "Mariano Fortuny Madrazo; María Luisa"
+      "children": "Mariano; María Luisa"
     },
     {
       "from": "Federico Madrazo",
@@ -1165,7 +1166,7 @@
       "relationship type": "relatives; mother-daughter"
     },
     {
-      "from": "Mariano Fortuny y Marsal",
+      "from": "Mariano Fortuny",
       "to": "Federico Madrazo",
       "relationship type": "relatives; father-in-law, son-in-law"
     },
