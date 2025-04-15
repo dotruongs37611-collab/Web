@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const node = nodes.get(params.nodes[0]);
 
         clearHighlights();
-        nodes.update({ id: node.id, color: { border: 'red' }, borderWidth: 4 });
+        nodes.update({ id: node.id, color: { ...node.color, border: 'red' }, borderWidth: 4 });
         lastHighlightedNode = node.id;
 
         const degree = edgeCount[node.id] || 0;
