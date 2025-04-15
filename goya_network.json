@@ -2330,7 +2330,7 @@
     {
       "from": "Antoine-Jean Gros",
       "to": "Jacques-Louis David",
-      connection_level": "direct",
+      "connection_level": "direct",
       "relationship type": "master-student"
     },
     {
