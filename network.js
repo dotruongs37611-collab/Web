@@ -154,17 +154,11 @@ document.addEventListener('DOMContentLoaded', async function () {
               value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
             }
         
-            const names = value.split(',').map(name => name.trim());
-            const linkedNames = names.map(name => {
-              const linkedNode = nodes.get(name.trim()) || Object.values(nodes.get()).find(n => n.label === name.trim());
-              return linkedNode
-                ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
-                : name;
-            });
-
-            html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
-          }
-        });
+          const nodesMapByLabel = {};
+          nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
+          
+          const htmlText = autoLinkNames(value, nodesMapByLabel);
+          html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
 
         const connections = [];
         edges.get().forEach(edge => {
@@ -256,7 +250,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const searchButton = document.getElementById('searchButton');
 
     searchButton.addEventListener('click', () => {
-const query = searchInput.value.trim().toLowerCase();
+  const query = searchInput.value.trim().toLowerCase();
   if (!query) return;
   
       // 1. Buscar coincidencia exacta en label
