@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         document.getElementById("nodeInfo").innerHTML = html;
 
         
-      } else if (params.edges.length > 0) {
+            } else if (params.edges.length > 0) {
         clearHighlights();
         const edge = edges.get(params.edges[0]);
         if (!edge) return;
@@ -217,22 +217,25 @@ document.addEventListener('DOMContentLoaded', async function () {
           ]);
           lastHighlightedNodes = [fromNode.id, toNode.id];
         }
+      
+        // ❌ Aquí viene el error: ya declaraste fromNode y toNode arriba
+        // 🔁 Solución: elimina "const"
+        const fromNodeMap = nodesMap[edge.from];
+        const toNodeMap = nodesMap[edge.to];
 
-        const fromNode = nodesMap[edge.from];
-        const toNode = nodesMap[edge.to];
 
         let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
 
-        if (fromNode?.image) {
-          html += `<img src="${fromNode.image}" style="max-height:80px;">`;
+        if (fromNodeMap?.image) {
+          html += `<img src="${fromNodeMap.image}" style="max-height:80px;">`;
         }
-        if (toNode?.image) {
-          html += `<img src="${toNode.image}" style="max-height:80px;">`;
+        if (toNodeMap?.image) {
+          html += `<img src="${toNodeMap.image}" style="max-height:80px;">`;
         }
 
         html += `</div>`;
         html += `<h3>Connection</h3>`;
-        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNode.id}')">${fromNode.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNode.id}')">${toNode.id}</a></p>`;
+        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNodeMap.id}')">${fromNodeMap.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNodeMap.id}')">${toNodeMap.id}</a></p>`;
 
         const edgeFields = [
           { key: "relationship type", label: "Type of relationship" },
