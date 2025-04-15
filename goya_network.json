@@ -120,7 +120,7 @@
       "label": "Baron Taylor",
       "life dates": "1789-1879", 
       "profession": "politician, artist",
-      "in Spain": "1st trip in 1820; 1823 [Cien Mil hijos de S. Luis]; in 1832 (with Dauzats); July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo; 1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice of Madrazo family and Carderera [LG p.574]): 1836 Feb-Aug paintings (8 Goyas from Javier Goya)",
+      "in Spain": "1st trip in 1820; 1823 [Cien Mil hijos de S. Luis]; in 1832 (with Dauzats); July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo; 1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice of Madrazo family and Carderera [Lanzarote Guiral 2016 p.574]): 1836 Feb-Aug paintings (8 Goyas from Javier Goya)",
       "author of": "Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan (1826)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg"
     },
@@ -164,6 +164,18 @@
       "in Spain": "in 1830",
       "visits the Prado Museum": "in 1830 (doesn't mention Goya in his account)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg"
+    },
+    {
+      "id": "Bernardo de Iriarte",
+      "label": "Iriarte",
+      "life dates": "1735-1814", 
+      "profession": "politician, diplomat, collector",
+      "worked for": "Fernando VI, Carlos III, Carlos IV, José I",
+      "member of": "Real Academia Española; Real Academia de Ciencias y Artes de Barcelona",
+      "portrayed by": "Francisco de Goya y Lucientes, 1797, Strasbourg Museum of Fine Arts",
+      "siblings": "Tomás de Iriarte",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Iriarte.jpg",
+      "image source": "Goya portrait, 1797, Strasbourg"
     },
     {
       "id": "Ferdinand Guillemardet",
@@ -321,7 +333,7 @@
       "life dates": "1811-1872",
       "profession": "poet, art critic, novelist, journalist",
       "author of": "1840 Spanish trip essays in La Presse, reedited as Tra los montes (1843) and as Voyage en Espagne (1845). 1843 August: Gautier, ‘La Tauromachie’, Le Musée des familles, pp. 341–48.13 Illustrated with seven drawings by Gautier (signed ‘T. G.’) engraved by ‘A.B.L’ (Andrew, Best and Leloir) (see Fayos-Pérez 2024)",
-      "mentions Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [LG p.550]); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
+      "mentions Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [Lanzarote Guiral 2016, p.550]); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
       "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
       "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
       "knows Goya's works since": "Los Caprichos in late 1830-late 1831 (Lipschutz 1972, p.118): through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
@@ -1307,6 +1319,15 @@
       "to": "Alejandro Aguado",
       "relationship type": "acquaintance",
       "know each other since": "1841", 
+      "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "Bernardo de Iriarte",
+      "to": "Francisco de Goya y Lucientes",
+      "relationship type": "colleague",
+      "know each other since": "at least 1794", 
+      "correspondence": "1794-I-4 Goya to Iriarte: the famous letter where Goya announces his small cabinet paintings out of commission, on topics drawn from the 'capricho e invención' (Canellas p.314, no.188; also no.189, 1794-I-7)",
+      "portraits": "Goya portrays Iriarte in 1797 (Strasbourg)",
       "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
     },
     {
