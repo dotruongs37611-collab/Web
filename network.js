@@ -44,7 +44,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       return config;
     }));
 
-    const edges = new vis.DataSet(data.edges);
+      const edges = new vis.DataSet(data.edges.map(edge => {
+        const level = edge.connection_level || "direct";
+        return {
+          ...edge,
+          color: level === "secondary" ? "#FFD700" : "lightgray", // dorado para secondary
+          width: 2
+        };
+      }));
 
     // Mostrar número de nodos y edges
     document.getElementById("networkStats").textContent = `Nodes: ${nodes.length} | Connections: ${edges.length}`;
