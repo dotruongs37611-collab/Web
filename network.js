@@ -140,6 +140,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "collaborates with", label: "Collaborates with" },
           { key: "patronage", label: "Patronage" },
           { key: "aristocratic titles", label: "Aristocratic titles" },
+          { key: "member of", label: "Member of" },
+          { key: "curiosities", label: "Curiosities" },
           { key: "image source", label: "Image source" }
         ];
 
