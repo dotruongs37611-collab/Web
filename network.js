@@ -1,15 +1,12 @@
 function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
 
-  const knownNames = Object.keys(nodesMap);
-
-  // Recorre todos los nombres conocidos en la red
-  knownNames.forEach(name => {
-    // Crear expresión regular con bordes de palabra
-    const regex = new RegExp(`\\b${name}\\b`, 'g');
-
-    // Reemplazar solo si el nombre exacto está en el texto
-    text = text.replace(regex, `<a href="#" style="color:#66ccff" onclick="focusNode('${name}')">${name}</a>`);
+  Object.keys(nodesMap).forEach(name => {
+    const regex = new RegExp(`\\b${name}\\b`, "g");
+    text = text.replace(
+      regex,
+      `<a href="#" style="color:#66ccff" onclick="focusNode('${nodesMap[name].id}')">${name}</a>`
+    );
   });
 
   return text;
