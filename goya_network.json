@@ -80,7 +80,7 @@
       "member of": "RABASF: member at 16 years old",
       "masters": "Alberto Lista; Franz Xaver Winterhalter; Jean-Auguste-Dominique Ingres", 
       "students": "León Abadías y Santolaria; Ricardo Villodas y de la Torre",
-      "married to": "Luisa Garreta y Huerta (1835)",
+      "married to": "Luisa Garreta (1835)",
       "children": "Cecilia, Isabel, Raimundo, Ricardo",
       "parents": "José Madrazo and Isabel Kuntz y Valentini",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
@@ -147,7 +147,7 @@
     },
     {
       "id": "Eugenio Ochoa",
-      "label": "Ochoa",
+      "label": "Eugenio Ochoa",
       "life dates": "1815-1872", 
       "profession": "writer, editor, politician",
       "in Paris": "1828-1834 at the École d'Arts et d'Offices. He meets Moratín and Godoy; 1837-1845",
@@ -322,7 +322,7 @@
       "profession": "poet, art critic, novelist, journalist",
       "author of": "1840 Spanish trip essays in La Presse, reedited as Tra los montes (1843) and as Voyage en Espagne (1845). 1843 August: Gautier, ‘La Tauromachie’, Le Musée des familles, pp. 341–48.13 Illustrated with seven drawings by Gautier (signed ‘T. G.’) engraved by ‘A.B.L’ (Andrew, Best and Leloir) (see Fayos-Pérez 2024)",
       "mentions Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [LG p.550]); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
-      "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Ochoa; Gautier praises the translation)",
+      "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
       "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
       "knows Goya's works since": "Los Caprichos in late 1830-late 1831 (Lipschutz 1972, p.118): through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
       "collector of Goya's work": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
@@ -472,15 +472,17 @@
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
-      "id": "Román Garreta y Huerta",
-      "label": "Garreta",
+      "id": "Román Garreta",
+      "full name": "Román Garreta y Huerta",
+      "label": "Román Garreta",
       "life dates": "1820-1889",
       "collector of Goya's work": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or  Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
-      "id": "Luisa Garreta y Huerta",
+      "id": "Luisa Garreta",
+      "full name": "Luisa Garreta y Huerta",
       "label": "Luisa Garreta",
       "life dates": "c.1813-1854",
       "married to": "Federico Madrazo",
@@ -693,7 +695,7 @@
       "portrayed by": "Federico Madrazo (1875, Prado)",
       "married to": "Eugenia Ochoa (cousin)",
       "children": "Federico (Cocó)",
-      "parents": "Federico Madrazo and Luisa Garreta y Huerta",
+      "parents": "Federico Madrazo and Luisa Garreta",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
     },
     {
@@ -705,7 +707,7 @@
       "portrayed by": "Federico Madrazo (1869); Luis Madrazo (1880)",
       "married to": "Mariano Fortuny y Marsal",
       "children": "Mariano Fortuny Madrazo; María Luisa",
-      "parents": "Federico Madrazo and Luisa Garreta y Huerta",
+      "parents": "Federico Madrazo and Luisa Garreta",
       "curiosities": "she was a pianist; she lived in Madrid, Paris and Venice",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg"
     },
@@ -719,7 +721,7 @@
       "portrayed by": "Federico Madrazo (1867, Museo Nacional de Arte de Cataluña)",
       "married to": "Cecilia Madrazo",
       "children": "Mariano Fortuny Madrazo; María Luisa",
-      "parents": "Federico Madrazo and Luisa Garreta y Huerta",
+      "parents": "Federico Madrazo and Luisa Garreta",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny.jpg",
       "image source": "portrait by Federico Madrazo, 1867, MNAC"
     },
@@ -1077,23 +1079,23 @@
     },
     {
       "from": "Mariano Goya",
-      "to": "Román Garreta y Huerta",
+      "to": "Román Garreta",
       "label": ""
     },
     {
-      "from": "Luisa Garreta y Huerta",
-      "to": "Román Garreta y Huerta",
+      "from": "Luisa Garreta",
+      "to": "Román Garreta",
       "relationship type": "siblings; brother-sister"
     },
     {
-      "from": "Luisa Garreta y Huerta",
+      "from": "Luisa Garreta",
       "to": "Federico Madrazo",
       "relationship type": "spouses; husband-wife",
       "married in": "1834",
       "children": "Luisa Madrazo, Raimundo Madrazo, Cecilia Madrazo, Ricardo Madrazo"
     },
     {
-      "from": "Luisa Garreta y Huerta",
+      "from": "Luisa Garreta",
       "to": "Raimundo Madrazo",
       "relationship type": "relatives; mother-son" 
     },
@@ -1158,7 +1160,7 @@
       "relationship type": "relatives; father-daughter"
     },
     {
-      "from": "Luisa Garreta y Huerta",
+      "from": "Luisa Garreta",
       "to": "Cecilia Madrazo",
       "relationship type": "relatives; mother-daughter"
     },
@@ -1174,7 +1176,7 @@
     },
     {
       "from": "Federico Madrazo",
-      "to": "Román Garreta y Huerta",
+      "to": "Román Garreta",
       "relationship type": "relatives; brothers-in-law"
     },
     {
@@ -1395,7 +1397,7 @@
     },
     {
       "from": "José Madrazo",
-      "to": "Román Garreta y Huerta",
+      "to": "Román Garreta",
       "relationship type": "relatives; father-in-law, son-in-law"
     },
     {
@@ -1542,7 +1544,7 @@
       "from": "Eugenio Ochoa",
       "to": "Théophile Gautier",
       "relationship type": "acquaintance",
-      "mentions": "Ochoa criticizes Gautier: “la vergonzosa tutela literaria en que nos tienen hace tanto tiempo los novelistas de Tras-os-Montes”, y en una nota: “Así titula M. Th. Gautier su llamado Viaje a España, libro tan verídico, tan chusco como las flamantes cartas de M. Alejandro Dumas” (Ochoa, “Doña Blanca de Navarra, crónica del siglo XV por D. F. Navarro Villoslada, Art. II”, Renacimiento, 1847, p.79) (Randolph 1966, p.55)"
+      "mentions": "Eugenio Ochoa criticizes Gautier: “la vergonzosa tutela literaria en que nos tienen hace tanto tiempo los novelistas de Tras-os-Montes”, y en una nota: “Así titula M. Th. Gautier su llamado Viaje a España, libro tan verídico, tan chusco como las flamantes cartas de M. Alejandro Dumas” (Eugenio Ochoa, “Doña Blanca de Navarra, crónica del siglo XV por D. F. Navarro Villoslada, Art. II”, Renacimiento, 1847, p.79) (Randolph 1966, p.55)"
     },
     {
       "from": "Eugenio Ochoa",
@@ -1987,7 +1989,7 @@
       "relationship type": "relatives; father-son"
     },
     {
-      "from": "Román Garreta y Huerta",
+      "from": "Román Garreta",
       "to": "Raimundo Madrazo",
       "relationship type": "relatives; uncle-nephew"
     },
