@@ -268,6 +268,11 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         document.getElementById("nodeInfo").innerHTML = html;
       }
+
+      if (params.nodes.length === 0 && params.edges.length === 0) {
+        clearHighlights();
+      }
+
     });
 
     window.focusNode = function (nodeId) {
