@@ -255,12 +255,15 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     window.focusNode = function (nodeId) {
+      clearHighlights();
+    
       network.focus(nodeId, {
         scale: 1.2,
         animation: { duration: 500 }
       });
-
+    
       nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
+      lastHighlightedNode = nodeId;
     };
 
     // Búsqueda funcional
