@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(28 + degree * 2.5, 70),
         font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
+        color: { border: '#2B7CE9' },
+          borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot'
       };
       if (node.image) config.image = node.image;
