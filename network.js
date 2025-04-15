@@ -12,6 +12,22 @@ function autoLinkNames(text, nodesMap) {
   return text;
 }
 
+let lastHighlightedNode = null;
+let lastHighlightedNodes = [];
+
+function clearHighlights() {
+  if (lastHighlightedNode) {
+    nodes.update({ id: lastHighlightedNode, color: { border: '#2B7CE9' }, borderWidth: 2 });
+    lastHighlightedNode = null;
+  }
+  if (lastHighlightedNodes.length > 0) {
+    lastHighlightedNodes.forEach(id => {
+      nodes.update({ id, color: { border: '#2B7CE9' }, borderWidth: 2 });
+    });
+    lastHighlightedNodes = [];
+  }
+}
+
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
