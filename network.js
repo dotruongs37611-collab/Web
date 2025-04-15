@@ -12,22 +12,6 @@ function autoLinkNames(text, nodesMap) {
   return text;
 }
 
-let lastHighlightedNode = null;
-let lastHighlightedNodes = [];
-
-function clearHighlights() {
-  if (lastHighlightedNode) {
-    nodes.update({ id: lastHighlightedNode, color: { border: '#2B7CE9' }, borderWidth: 2 });
-    lastHighlightedNode = null;
-  }
-  if (lastHighlightedNodes.length > 0) {
-    lastHighlightedNodes.forEach(id => {
-      nodes.update({ id, color: { border: '#2B7CE9' }, borderWidth: 2 });
-    });
-    lastHighlightedNodes = [];
-  }
-}
-
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
@@ -59,6 +43,22 @@ document.addEventListener('DOMContentLoaded', async function () {
     }));
 
     const edges = new vis.DataSet(data.edges);
+
+    let lastHighlightedNode = null;
+    let lastHighlightedNodes = [];
+    
+    function clearHighlights() {
+      if (lastHighlightedNode) {
+        nodes.update({ id: lastHighlightedNode, color: { border: '#2B7CE9' }, borderWidth: 2 });
+        lastHighlightedNode = null;
+      }
+      if (lastHighlightedNodes.length > 0) {
+        lastHighlightedNodes.forEach(id => {
+          nodes.update({ id, color: { border: '#2B7CE9' }, borderWidth: 2 });
+        });
+        lastHighlightedNodes = [];
+      }
+    }
 
     const container = document.getElementById('network');
     const network = new vis.Network(container, { nodes, edges }, {
