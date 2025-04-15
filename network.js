@@ -93,6 +93,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
         const node = nodes.get(params.nodes[0]);
+
+        clearHighlights();
+        nodes.update({ id: node.id, color: { border: 'red' }, borderWidth: 4 });
+        lastHighlightedNode = node.id;
+
         const degree = edgeCount[node.id] || 0;
         let html = `<div class="node-info">`;
 
