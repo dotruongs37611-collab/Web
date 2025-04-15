@@ -253,6 +253,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         const edgeFields = [
           { key: "relationship type", label: "Type of relationship" },
+          { key: "connection_level", label: "Connection_level" },
           { key: "correspondence", label: "Correspondence" },
           { key: "know each other since", label: "Know each other since" },
           { key: "they met", label: "They met" },
