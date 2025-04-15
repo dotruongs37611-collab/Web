@@ -142,6 +142,9 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "image source", label: "Image source" }
         ];
 
+        const nodesMapByLabel = {};
+        nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
+        
         fieldsToShow.forEach(field => {
           if (node[field.key]) {
             let value = node[field.key];
@@ -153,22 +156,12 @@ document.addEventListener('DOMContentLoaded', async function () {
               value = value.replace(` (${url})`, '').replace(url, '').trim();
               value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
             }
-        
-            const names = value.split(',').map(name => name.trim());
-            const linkedNames = names.map(name => {
-              const trimmed = name.trim();
-              const linkedNode =
-                nodes.get(trimmed) ||
-                Object.values(nodes.get()).find(n => n.id === trimmed || n.label === trimmed);
-              return linkedNode
-                ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
-                : name;
-            });
-
-            html += `<p><strong>${field.label}:</strong> ${linkedNames.join(', ')}</p>`;
+      
+            const htmlText = autoLinkNames(value, nodesMapByLabel);
+            html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
-
+        
         const connections = [];
         edges.get().forEach(edge => {
           if (edge.from === node.id || edge.to === node.id) {
