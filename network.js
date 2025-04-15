@@ -201,9 +201,22 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `</ul></div>`;
         document.getElementById("nodeInfo").innerHTML = html;
 
+        
       } else if (params.edges.length > 0) {
+        clearHighlights();
         const edge = edges.get(params.edges[0]);
         if (!edge) return;
+      
+        const fromNode = nodes.get(edge.from);
+        const toNode = nodes.get(edge.to);
+      
+        if (fromNode && toNode) {
+          nodes.update([
+            { id: fromNode.id, color: { border: 'red' }, borderWidth: 4 },
+            { id: toNode.id, color: { border: 'red' }, borderWidth: 4 }
+          ]);
+          lastHighlightedNodes = [fromNode.id, toNode.id];
+        }
 
         const fromNode = nodesMap[edge.from];
         const toNode = nodesMap[edge.to];
