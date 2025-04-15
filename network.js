@@ -46,6 +46,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     const edges = new vis.DataSet(data.edges);
 
+    // Mostrar número de nodos y edges
+    document.getElementById("networkStats").textContent = `Nodes: ${nodes.length} | Connections: ${edges.length}`;
+
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
     
