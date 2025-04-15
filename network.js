@@ -284,8 +284,10 @@ const query = searchInput.value.trim().toLowerCase();
     // 4. Buscar en cualquier campo del nodo
     if (!found) {
       found = data.nodes.find(n =>
-        Object.values(n).some(value =>
+        Object.entries(n).some(([key, value]) =>
           typeof value === 'string' &&
+          !key.includes('image') &&
+          !value.includes('PFayos') && // evita imágenes de IA con "PFayos"
           value.toLowerCase().includes(query)
         )
       );
