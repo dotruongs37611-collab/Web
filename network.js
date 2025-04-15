@@ -156,7 +156,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         
             const names = value.split(',').map(name => name.trim());
             const linkedNames = names.map(name => {
-              const linkedNode = nodes.get(name.trim()) || Object.values(nodes.get()).find(n => n.label === name.trim());
+              const trimmed = name.trim();
+              const linkedNode =
+                nodes.get(trimmed) ||
+                Object.values(nodes.get()).find(n => n.id === trimmed || n.label === trimmed);
               return linkedNode
                 ? `<a href="#" style="color:#66ccff" onclick="focusNode('${linkedNode.id}')">${name}</a>`
                 : name;
