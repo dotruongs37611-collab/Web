@@ -275,7 +275,7 @@
       "id": "Frédéric Villot",
       "label": "Villot",
       "life dates": "1809-1875", 
-      "profession": "printmaker",
+      "profession": "engraver",
       "collector of Goya's work": "Tauromaquia (1859 sale)",
       "sales": "1859-V-16 (Tauromaquia for 255 fr.)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
@@ -340,7 +340,7 @@
       "id": "Alexandre Dumas père",
       "label": "Dumas",
       "life dates": "1802-1870", 
-      "profession": "noveslit, playwright", 
+      "profession": "novelist, playwright", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
     },
     {
@@ -825,7 +825,7 @@
       "id": "Frédéric Chopin",
       "label": "Chopin",
       "life dates": "1810-1849", 
-      "profession": "composer, pianist",
+      "profession": "musician, composer, pianist",
       "in Spain": "1838-1839, Mallorca, with George Sand",
       "curiosities": "he stated that in Mallorca 'The three most celebrated doctors on the island have seen me ... The first said I was dead, the second that I am dying, and the third that I'm going to die' (1962, ed. Bronisław Edward Sydow, p.164)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Chopin.jpg"
