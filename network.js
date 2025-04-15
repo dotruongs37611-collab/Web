@@ -355,6 +355,27 @@ const query = searchInput.value.trim().toLowerCase();
       }
     });
 
+    document.getElementById('professionFilter').addEventListener('change', function () {
+  const selected = this.value.toLowerCase();
+
+  // Quitar anteriores
+  clearHighlights();
+
+  if (!selected) return;
+
+  const matchingNodes = [];
+
+      nodes.get().forEach(n => {
+        const profession = (n["profession"] || "").toLowerCase();
+        if (profession.includes(selected)) {
+          nodes.update({ id: n.id, color: { ...n.color, border: 'red' }, borderWidth: 4 });
+          matchingNodes.push(n.id);
+        }
+      });
+    
+      lastHighlightedNodes = matchingNodes;
+    });
+
     
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
