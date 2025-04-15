@@ -945,13 +945,13 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Antonio de Brugada",
       "connection_level": "direct",
-      "relationship type": "close friend" 
+      "relationship type": "close friends" 
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Juan Agustín Ceán Bermúdez",
       "connection_level": "direct",
-      "relationship type": "friend", 
+      "relationship type": "friends", 
       "portraits": "c.1783, c.1786"
     },
     {
@@ -966,20 +966,20 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Agustín Esteve",
       "connection_level": "direct",
-      "relationship type": "colleague"
+      "relationship type": "colleagues"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
-      "relationship type": "friend",
+      "relationship type": "friends",
       "they met": "1824 in Bordeaux (letter of Moratín to Melón, 30 Sept 1824, Canellas no.154)"
     },
     {
       "from": "Juan Antonio Melón",
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
-      "relationship type": "friend",
+      "relationship type": "friends",
       "correspondence": "15 July 1826, letter of Moratín to Melón, from Bordeaux (Canellas no.174); July 1828, from Paris, letter of Moratín to Melón (Canellas no.173)"
     },
     {
@@ -1024,7 +1024,7 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Adrien Dauzats",
       "connection_level": "direct",
-      "relationship type": "acquaintance",
+      "relationship type": "acquaintances",
       "they met": "in Bordeaux (1824-28) at Pierre Lacour's establishment"
     },
     {
@@ -1062,21 +1062,21 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Pierre Lacour fils",
       "connection_level": "direct",
-      "relationship type": "acquaintance",
+      "relationship type": "acquaintances",
       "shared": "coincided in Bordeaux. Goya probably asked Lacour to teach Rosario Weiss"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Jacques Galos",
       "connection_level": "direct",
-      "relationship type": "friend",
+      "relationship type": "friends",
       "portraits": "1826, Barnes Foundation"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Juan Antonio Melón",
       "connection_level": "direct",
-      "relationship type": "friend"
+      "relationship type": "friends"
     },
     {
       "from": "Javier Goya",
@@ -1088,7 +1088,7 @@
       "from": "Javier Goya",
       "to": "Federico Madrazo",
       "connection_level": "direct",
-      "relationship type": "friend; business partners?"
+      "relationship type": "friends; business partners?"
     },
     {
       "from": "Javier Goya",
@@ -1100,13 +1100,13 @@
       "from": "Javier Goya",
       "to": "Valentín Carderera",
       "connection_level": "direct",
-      "relationship type": "acquaintance; business partners?"
+      "relationship type": "acquaintances; business partners?"
     },
     {
       "from": "Javier Goya",
       "to": "Leocadia Zorrilla y Galarza",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Javier Goya",
@@ -1123,13 +1123,13 @@
       "from": "Mariano Goya",
       "to": "Federico Madrazo",
       "connection_level": "direct",
-      "relationship type": "acquaintance; business partners?"
+      "relationship type": "acquaintances; business partners?"
     },
     {
       "from": "Mariano Goya",
       "to": "Valentín Carderera",
       "connection_level": "direct",
-      "relationship type": "acquaintance; business partners?"
+      "relationship type": "acquaintances; business partners?"
     },
     {
       "from": "Mariano Goya",
@@ -1166,13 +1166,13 @@
       "from": "Martín Zapater",
       "to": "Juan Agustín Ceán Bermúdez",
       "connection_level": "direct",
-      "relationship type": "friend"
+      "relationship type": "friends"
     },
     {
       "from": "Federico Madrazo",
       "to": "Valentín Carderera",
       "connection_level": "direct",
-      "relationship type": "friend",
+      "relationship type": "friends",
       "know each other since": "at least 1837", 
       "they met": "19 Aug 1861 (Paris): with Baron Taylor and Eugenio Ochoa",
       "correspondence": "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París' (Bib: Lanzarote Guiral 2016 p.XXIII; Díez 1994, no.528, pp.988-89)"
@@ -1193,7 +1193,7 @@
       "from": "Federico Madrazo",
       "to": "Prosper Mérimée",
       "connection_level": "direct",
-      "relationship type": "friend/acquaintance"
+      "relationship type": "friends/acquaintances"
     },
     {
       "from": "Federico Madrazo",
@@ -1204,7 +1204,7 @@
       "from": "Federico Madrazo",
       "to": "Adrien Dauzats",
       "connection_level": "direct",
-      "relationship type": "close friend",
+      "relationship type": "close friends",
       "portraits": "Madrazo portrays Adrien Dauzats in 1837"
     },
     {
@@ -1242,7 +1242,7 @@
       "from": "Federico Madrazo",
       "to": "Théophile Gautier",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
@@ -1266,7 +1266,7 @@
       "from": "Federico Madrazo",
       "to": "Victor Hugo",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
@@ -1278,55 +1278,55 @@
       "from": "Federico Madrazo",
       "to": "Eugène Delacroix",
       "connection_level": "direct? and secondary",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
       "to": "Pharamond Blanchard",
       "connection_level": "direct",
-      "relationship type": "acquaintance; friends"
+      "relationship type": "acquaintances; friends"
     },
     {
       "from": "Federico Madrazo",
       "to": "Jean-Auguste-Dominique Ingres",
       "connection_level": "direct",
-      "relationship type": "acquaintance; friend"
+      "relationship type": "acquaintances; friends"
     },
     {
       "from": "Federico Madrazo",
       "to": "Achille Devéria",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
       "to": "Achille Ricourt",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
       "to": "Juan Antonio Melón",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
       "to": "Antoine-Jean Gros",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Federico Madrazo",
       "to": "Paul Delaroche",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
       "to": "Adrien Dauzats",
       "connection_level": "direct",
-      "relationship type": "friend"
+      "relationship type": "friends"
     },
     {
       "from": "Valentín Carderera",
@@ -1334,13 +1334,13 @@
       "connection_level": "direct",
       "know each other since": "at least 1841",
       "correspondence": "1856-VII-8 (Carderera archive): Mérimée answers he doesn't own a set of Goya's 'Toros' and he could buy a set if not too expensive; that he doesn't know the 'Proverbios' nor the 'suppressed Caprichos'(Fayos-Pérez 2020; Fayos-Pérez 2024 p.65)",
-      "relationship type": "acquaintance; correspondent; art dealing?"
+      "relationship type": "acquaintances; correspondent; art dealing?"
     },
     {
       "from": "Valentín Carderera",
       "to": "Pharamond Blanchard",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
@@ -1361,7 +1361,7 @@
       "from": "Valentín Carderera",
       "to": "Philippe Burty",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
@@ -1382,7 +1382,7 @@
       "from": "Valentín Carderera",
       "to": "Paul Lefort",
       "connection_level": "direct",
-      "relationship type": "colleague"
+      "relationship type": "colleagues"
     },
     {
       "from": "Valentín Carderera",
@@ -1399,7 +1399,7 @@
       "from": "Valentín Carderera",
       "to": "Alejandro Aguado",
       "connection_level": "direct",
-      "relationship type": "acquaintance",
+      "relationship type": "acquaintances",
       "know each other since": "1841", 
       "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
     },
@@ -1407,7 +1407,7 @@
       "from": "Bernardo de Iriarte",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "direct",
-      "relationship type": "colleague",
+      "relationship type": "colleagues",
       "know each other since": "at least 1794", 
       "correspondence": "1794-I-4 Goya to Iriarte: the famous letter where Goya announces his small cabinet paintings out of commission, on topics drawn from the 'capricho e invención' (Canellas p.314, no.188; also no.189, 1794-I-7)",
       "portraits": "Goya portrays Iriarte in 1797 (Strasbourg)",
@@ -1417,7 +1417,7 @@
       "from": "Honoré Balzac",
       "to": "Alejandro Aguado",
       "connection_level": "direct",
-      "relationship type": "acquaintance", 
+      "relationship type": "acquaintances", 
       "they shared": "artists and writers like Balzac, Rossini and Nerval participated in the meetings at the Aguado residence in Paris"
     },
     {
@@ -1433,7 +1433,7 @@
       "to": "Charles Yriarte",
       "connection_level": "direct",
       "mentions": "Yriarte acknowledges Carderera, Zarco del Valle, Fco Zapater and Lefort ('nous ont aidé de leurs lumières et de leurs documents), 1867, Avant-propos",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
@@ -1454,25 +1454,25 @@
       "from": "Valentín Carderera",
       "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
       "to": "Pedro Madrazo",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
       "to": "Luis Madrazo",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Valentín Carderera",
       "to": "Frédéric Villot",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "José Madrazo",
@@ -1486,7 +1486,7 @@
       "from": "José Madrazo",
       "to": "Baron Taylor",
       "connection_level": "direct",
-      "relationship type": "acquaintance; patronage",
+      "relationship type": "acquaintances; patronage",
       "know each other since": "at least 1833 (via Blanchard, in Madrid)",
       "correspondence": "2 Oct 1837: Carderera offers Taylor to sell 2 Morales paintings, via Madrazo (Lanzarote Guiral 2016, p.XXIII; Porée 1907, p.296)",
       "portraits": "1833 (Madrazo portrays Taylor)"
@@ -1495,7 +1495,7 @@
       "from": "José Madrazo",
       "to": "Adrien Dauzats",
       "connection_level": "direct",
-      "relationship type": "colleague",
+      "relationship type": "colleagues",
       "know each other since": "1833"
     },
     {
@@ -1565,13 +1565,13 @@
       "from": "Baron Taylor",
       "to": "Théophile Gautier",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Baron Taylor",
       "to": "Charles Nodier",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Baron Taylor",
@@ -1668,21 +1668,21 @@
       "from": "Eugenio Ochoa",
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
-      "relationship type": "acquaintance", 
+      "relationship type": "acquaintances", 
       "know each other since": "at least in 1824-1834 in Paris"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Manuel Godoy",
       "connection_level": "direct",
-      "relationship type": "acquaintance", 
+      "relationship type": "acquaintances", 
       "know each other since": "at least in 1824-1834 in Paris"
     },
     {
       "from": "Eugenio Ochoa",
       "to": "Alexandre Dumas père",
       "connection_level": "direct? and secondary",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Eugenio Ochoa",
@@ -1720,14 +1720,14 @@
       "from": "Eugenio Ochoa",
       "to": "Paul Delaroche",
       "connection_level": "direct",
-      "relationship type": "acquaintance",
+      "relationship type": "acquaintances",
       "know each other since": "at least 1833 (with Federico Madrazo)"
     },
     {
       "from": "Ferdinand Guillemardet",
       "to": "Eugène Delacroix",
       "connection_level": "direct",
-      "relationship type": "acquaintance; friend's father"
+      "relationship type": "acquaintances; friends's father"
     },
     {
       "from": "Ferdinand Guillemardet",
@@ -1739,7 +1739,7 @@
       "from": "Eugène Delacroix",
       "to": "Félix Guillemardet",
       "connection_level": "direct",
-      "relationship type": "close friend"
+      "relationship type": "close friends"
     },
     {
       "from": "Eugène Delacroix",
@@ -1758,14 +1758,14 @@
       "from": "Eugène Delacroix",
       "to": "Victor Hugo",
       "connection_level": "direct",
-      "relationship type": "colleague",
+      "relationship type": "colleagues",
       "correspondence": "since 1828 (Burty 1880, t.I, p.130, 134)"
     },
     {
       "from": "Eugène Delacroix",
       "to": "George Sand",
       "connection_level": "direct",
-      "relationship type": "close friend",
+      "relationship type": "close friends",
       "know each other since": "at least 1834",
       "correspondence": "1846-X-11 (MD 2012-13)",
       "portraits": "1834, Musée Delacroix (MD 2016-1); 1838, Copenhagen"
@@ -1889,7 +1889,7 @@
       "from": "Antoine Fontaney",
       "to": "Victor Hugo",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Antoine Fontaney",
@@ -1931,7 +1931,7 @@
     {
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
-      "relationship type": "acquaintance; friend?",
+      "relationship type": "acquaintances; friends?",
       "know each other since": "1827, 27 June, (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)"
     },
     {
@@ -1950,14 +1950,14 @@
       "from": "Victor Hugo",
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
       "connection_level": "direct",
-      "relationship type": "acquaintance",
+      "relationship type": "acquaintances",
       "shared": "Hugo attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
       "from": "Victor Hugo",
       "to": "Nicolas Philippe Guye",
       "connection_level": "direct",
-      "relationship type": "acquaintances; friend of Hugo's father (Léopold Hugo)",
+      "relationship type": "acquaintances; friends of Hugo's father (Léopold Hugo)",
       "know each other since": "1881"
     },
     {
@@ -2102,14 +2102,14 @@
       "from": "Alexandre Dumas père",
       "to": "Pedro Madrazo",
       "connection_level": "direct",
-      "relationship type": "acquaintance",
+      "relationship type": "acquaintances",
       "know each other since": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
     },
     {
       "from": "Charles Nodier",
       "to": "Adélaïde de Montgolfier",
       "connection_level": "direct",
-      "relationship type": "acquaintance"
+      "relationship type": "acquaintances"
     },
     {
       "from": "Charles Nodier",
