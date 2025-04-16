@@ -534,7 +534,9 @@
       "label": "S. Martínez",
       "life dates": "1747-1800",
       "profession": "businessman, politician, collector",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg"
+      "portrayed by": "Goya, 1792 (Met 06.289)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg",
+      "image source": "Goya portrait, 1792"
     },
     {
       "id": "[J./L.] Carresse",
@@ -1057,7 +1059,8 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Sebastián Martínez y Pérez",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "portraits": "1792, New York, Metropolitan Museum, 06.289"
     },
     {
       "from": "Francisco de Goya y Lucientes",
