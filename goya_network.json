@@ -216,7 +216,7 @@
       "correspondence": "online repository (http://www.correspondance-delacroix.fr/)",
       "author of": "Scenes from the Massacre at Chios (1824, Louvre), The Death of Sardanapalus (1827, Louvre), Liberty guiding the People (1830, Louvre)",
       "in Spain": "in 1832",
-      "knows Goya's work since": "c.1819, through Ferdinand Guillemardet (Lipschutz 1972, p.10)",
+      "knows Goya's works": "by c.1819, through Ferdinand Guillemardet (Lipschutz 1972, p.10)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg",
       "image source": "Self-portrait with Green Vest (1837, Louvre)"
     },
@@ -349,7 +349,7 @@
       "nationality": "French",
       "profession": "writer, journalist, poet",
       "in Spain": "1830-1831",
-      "collector of Goya's work": "Los Caprichos (1830-1831)",
+      "collector of Goya's works": "Los Caprichos (1830-1831)",
       "shows Goya": "Fontaney's journal (8 Sept 1831): 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31); 9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
     },
@@ -373,8 +373,8 @@
       "mentions of Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [Lanzarote Guiral 2016, p.550]); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
       "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
       "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
-      "knows Goya's works since": "Los Caprichos in late 1830-late 1831 (Lipschutz 1972, p.118): through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
-      "collector of Goya's work": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
+      "knows Goya's works": "Los Caprichos: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
+      "collector of Goya's works": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
     },
     {
@@ -411,7 +411,7 @@
       "in Spain": "in 1828?; in 1831",
       "author of": "1838, 17 June (Le Temps) essay on Goya's works (signed as 'A. de C.')",
       "mentions of Goya": "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d’être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l’école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'; 1838 essay ('A. de C.'): Goya's Caprichos, Desastres, Toros Burdeos, Familia Carlos IV, frescoes and Black paintings (Fayos-Pérez 2025: publication pending)",
-      "knows Goya's works since": "at least 1831",
+      "knows Goya's works": "by 1831",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
     },
     {
@@ -420,9 +420,13 @@
       "life dates": "1789-1880", 
       "nationality": "French",
       "profession": "femme de lettres, translator", 
-      "knows Goya's work since": "before April 1831, through Fontaney (after his return from Spain in Jan 1831)",
+      "knows Goya's works": "by April 1831, through Fontaney (after his return from Spain in Jan 1831)",
       "writes about Goya": "In April 1831: signed as 'Ad. M' (Revue encyclopédique no.50, pp.316-331)",
+      "author of": she co-authored with Louise Swanton Belloc a number of children's books (Buell Hale 1874, p.583-84)",
       "writes in": "Revue encyclopédique",
+      "founder of": "La Ruche, journal d'études familière (with Louise Swanton Belloc), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
+      "curiosities": "her father was the famous aeronaut Jacques-Etienne Montgolfier. She was buried alongside her close friend Louise Swanton Belloc (and her son, Louis Belloc) at La Celle-Saint-Cloud",
+      "bibliography": "Sarah Josepha Buell Hale, Woman's Record: Or, Sketches of All Distinguished Women, 1874 https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
     },
     {
@@ -490,8 +494,8 @@
       "nationality": "French",
       "profession": "artist, writer, diplomat, collector",
       "in Spain": "1808, acquiring artworks for the Musée Napoléon",
-      "knows Goya's work since": "at least 1809", 
-      "collector of Goya's work": "Los Caprichos (1809 in France; 1827 at the BNF)",
+      "knows Goya's works": "by 1809", 
+      "collector of Goya's works": "Los Caprichos (1809 in France; 1827 at the BNF)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg"
     },
     {
@@ -501,7 +505,7 @@
       "nationality": "French",
       "profession": "art critic; collector; editor; journalist; photographer",
       "in Spain": "in 1840 (with Théophile Gautier)",
-      "collector of Goya's work": "Caprichos (in the 1840s); Bulls of Bordeaux; Tauromaquia",
+      "collector of Goya's works": "Caprichos (in the 1840s); Bulls of Bordeaux; Tauromaquia",
       "author of": "Catalogue raisonné de l’oeuvre gravé de Fran(co) Goya y Lucientes, Le Cabinet de l’Amateur, 1842 (pp.346-366): Caprichos (80), Tauromaquia (33), Desastres de la guerra (‘Scènes d’invasion’) (20/82), prints after Velázquez (14), Pièces diverses (Garrotted Man), Lithographs (Bulls of Bordeaux) (6)",
       "editor of": "Le Cabinet de l'amateur et de l'antiquaire (1842-1846)",
       "sales": "12 April 1847: Caprichos (bought by 'Bauzonnet'?), Tauromaquia (lots 29-30); 1885, 22 rare proofs of Caprichos with handwritten inscriptions, acquired by BNF [Fayos Pérez 2024, p.55]",
@@ -527,7 +531,7 @@
       "life dates": "1829?-1904",
       "nationality": "French",
       "profession": "art critic, art historian",
-      "collector of Goya's work": "Large collection. He has Disparates' 'Fiero monstruo' (no.81), not included in the 1864 edition, to the RABASF in 1870",
+      "collector of Goya's works": "Large collection. He has Disparates' 'Fiero monstruo' (no.81), not included in the 1864 edition, to the RABASF in 1870",
       "writes about Goya": "Catalogue raisonné of Goya's prints, Gazette des Beaux-Arts, 1867-68",
       "sales": "1869 I 25-29 (large Goya collection)",
       "mentions the Prado commentaries": "in 1867",
@@ -550,7 +554,7 @@
       "label": "Román Garreta",
       "life dates": "1820-1889",
       "nationality": "Spanish",
-      "collector of Goya's work": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or  Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
+      "collector of Goya's works": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or  Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
@@ -746,21 +750,42 @@
       "id": "Louise Swanton Belloc",
       "label": "Swanton-Belloc",
       "life dates": "1796-1881", 
-      "profession": "femme de letters, translator",
+      "nationality": "French (with Irish ancestry)",
+      "profession": "femme de letters, translator, writer",
+      "writes in": "Revue encyclopédique",
+      "author of": "the translations of 'Uncle Tom's Cabin' (1852) by Harriet Beecher Stowe, the memoirs of Lord Byron, the works of Walter Scott, and four works by Charles Dickens, among others. She also authored over forty books, including a life of Byron, published with an introduction by Stendhal. She co-authored with Adélaïde de Montgolfier a number of children's books (Buell Hale 1874, p.583-84)",
+      "participated in": "a project after the 1830 Revolution to help General Lafayette establish public libraries in France, but it did not succeed (Buell Hale 1874, p.583-84)",
+      "founder of": "La Ruche, journal d'études familière (with Adélaïde de Montgolfier), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
+      "married to": "Jean-Hilaire Belloc (French painter)",
+      "children": "Louise (1822-95), Adelaide (1828-97), Louis (1830-72)",
+      "curiosities": "she was buried alongside her close friend Adélaïde de Montgolfier (and her son, Louis Belloc) at La Celle-Saint-Cloud. She was friends with Charles Dickens and Harriet Beecher Stowe. Her son would marry a prominent English feminist, Bessie Rayner Parkes, and they had two children who would become prolific writers: Marie Adelaide Belloc Lowndes (novelist) and Hilaire Belloc (poet and historian)",
+      "bibliography": "Sarah Josepha Buell Hale, Woman's Record: Or, Sketches of All Distinguished Women, 1874 https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s",
+      "websites": "Wikipedia https://en.wikipedia.org/wiki/Louise_Swanton_Belloc",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Swanton_Belloc.jpg"
     },
     {
-      "id": "Anne-Louise Germaine Necker (Madame de Staël)",
+      "id": "Madame de Staël",
       "label": "Staël",
+      "full name": "Anne-Louise Germaine Necker",
       "life dates": "1766-1817", 
-      "profession": "novelist, philosopher",
-      "author of": "Correspondance générale, ed. Béatrice W. Jasinski and Othenin d'Haussonville, 2008-09",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg"
+      "nationality": "French (of Swiss ancestry)",
+      "profession": "novelist, writer, philosopher, salonnière",
+      "author of": "Delphine (1802); Corinne ou l'Italie (1807); De l'Allegmagne (1810-13); Considérations sur les principaux événements de la Révolution française (1818, posthumous)",
+      "correspondence": "Correspondance générale, ed. Béatrice W. Jasinski and Othenin d'Haussonville, 2008-09",
+      "parents": "Suzanne Curchod and Jacques Necker",
+      "married to": "Erik Magnus Stael (from 1786 to 1802); Albert de Roca (from 1811)",
+      "partners/lovers": "Benjamin Constant (writer and politician) (from 1794); François de Pange (writer and journalist); Charles Maurice de Talleyrand; Louis, comte de Narbonne-Lara",
+      "children": "Gustavine, Auguste, Albert, Albertine, Louis-Alphonse Rocca",
+      "portraits": "Vigée Lebrun (1808); François Gérard (c.1810)",
+      "curiosities": "she was expelled from France by Napoleon I due to her political ideas (advocating for constitutional monarchy)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg",
+      "image source": "Gérard portrait, c.1810"
     },
     {
       "id": "Pedro Madrazo",
       "label": "Pedro Madrazo",
       "life dates": "1816-1898", 
+      "nationality": "Spanish",
       "profession": "writer, translator, scholar, journalist, art critic, painter", 
       "in Paris": "In 1837 (with Federico Madrazo)",
       "portrayed by": "Federico Madrazo (1842, Hispanic Society); J. Laurent (BNE)",
@@ -913,7 +938,7 @@
       "profession": "draughtsman, caricaturist", 
       "author of": "Les Métamorphoses du jour (1829); Fables de La Fontaine (1838-40); Scènes de la vie privée et publique des animaux  (1842); Un autre monde (1844); Don Quichotte (1848)",
       "works in": "La Caricature, Le Charivari",
-      "knows Goya's work since": "at least 1829", 
+      "knows Goya's works": "by 1829", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Grandville.jpg"
     },
     {
@@ -2376,7 +2401,7 @@
     },
     {
       "from": "Juliette Récamier",
-      "to": "Anne-Louise Germaine Necker (Madame de Staël)",
+      "to": "Madame de Staël",
       "relationship type": "friends", 
       "connection_level": "direct",
       "correspondence": "Yes. (Lettres de Madame de Staël à Madame de Récamier, Paris, Domat, 1952)"
