@@ -2112,6 +2112,24 @@
       "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier (...)' when he shows the 'Goya' (Caprichos) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
+      "from": "Stendhal",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Lamartine",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
       "relationship type": "acquaintances; friends?",
@@ -2292,6 +2310,12 @@
       "to": "Adélaïde de Montgolfier",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Jean-Auguste-Dominique Ingres",
+      "to": "Adélaïde de Montgolfier",
+      "connection_level": "direct",
+      "relationship type": "friends"
     },
     {
       "from": "Charles Nodier",
