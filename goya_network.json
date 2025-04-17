@@ -934,6 +934,27 @@
       "image source": "Goya portrait, 1783, Prado"
     },
     {
+      "id": "Count of Floridablanca",
+      "label": "Floridablanca",
+      "full name": "José Moñino y Redondo",
+      "life dates": "1728-1808", 
+      "nationality": "Spanish",
+      "profession": "politician",
+      "considered as": "part of the group of Spanish 'ilustrados'",
+      "political views": "he was a key agent in the so-called 'reformismo ilustrado', encouraging improvements in infraestructures, administration and economy (such as the creation of the Dirección General de Caminos, 1785). However, he opposed the ideas of the French Revolution and became more conservative; he implemented censorship and reinforced the Inquisition, controlling the border to avoid the spread of revolutionary ideas. External politics: he made Spain participate in the Independence War at the US against Great Britain, getting back the territories of Menorca and Florida. His rivals were Count of Aranda (more liberal and pro-Revolution) and Manuel Godoy (his successor)",
+      "works as": "Primer Secretario de Estado (1777-92); Secretario de Gracia y Justicia (1782-90)",
+      "works for": "Carlos III; Carlos IV",
+      "member of": "Real Academia de Jurisprudencia y Legislación; Real Academia de Ciencias y Artes de Barcelona",
+      "portrayed by": "Pompeo Batoni, c.1776 (Art Institute of Chicago); Francisco de Goya y Lucientes, 1783 (Prado P003255)",
+      "aristocratic titles": "I Count of Floridablanca (from 1773)",
+      "decorations / awards": "Caballero de la Orden del Toisón de Oro; Orden de Carlos III",
+      "studied in": "University of Salamanca",
+      "pseudonyms": "Antonio José Dorre",
+      "curiosities": "Carlos III awards him with the title of Count of Floridablanca (1773) for his work as ambassador at the Holy See, contributing to the abolition of the Jesuit order",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jovellanos.jpg",
+      "image source": "Goya portrait, 1783, Prado"
+    },
+    {
       "id": "Jean-Auguste-Dominique Ingres",
       "label": "Ingres",
       "life dates": "1780-1867", 
@@ -1596,7 +1617,7 @@
     },
     {
       "from": "XI Count of Altamira",
-      "to": "Count of Altamira",
+      "to": "Count of Floridablanca",
       "connection_level": "direct",
       "relationship type": "acquaintance"
     },
