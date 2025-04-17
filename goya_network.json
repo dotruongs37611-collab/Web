@@ -203,7 +203,7 @@
       "nationality": "French",
       "profession": "diplomat (French ambassador 1798-1800)",
       "in Spain": "1798",
-      "collector of Goya's work": "set of the Caprichos (1798)",
+      "collector of Goya's works": "set of the Caprichos (1798)",
       "commissions Goya with": "portrait, 1798 (Louvre)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg"
     },
@@ -320,7 +320,7 @@
       "life dates": "1809-1875", 
       "nationality": "French",
       "profession": "engraver",
-      "collector of Goya's work": "Tauromaquia (1859 sale)",
+      "collector of Goya's works": "Tauromaquia (1859 sale)",
       "sales": "1859-V-16 (Tauromaquia for 255 fr.)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
     },
@@ -620,12 +620,13 @@
       "nationality": "French (with Spanish ancestry)",
       "profession": "writer, draughtsman",
       "in Spain": "c.1859-62",
-      "worked as": "inspector of government buildings (by 1856); reporter for Le Monde Illustré during the Spanish campaign in Morocco ('Guerra de África'); editor of Le Monde Illustré in 1862",
+      "works as": "inspector of government buildings (by 1856); reporter for Le Monde Illustré during the Spanish campaign in Morocco ('Guerra de África'); editor of Le Monde Illustré in 1862",
       "writes in": "Le Monde Illustré",
       "writes about Goya": "Goya, sa vie, son œuvre (1867) (mentions Album A-B p.93)",
-      "collector of Goya's work": "Riña en el mesón del gallo (in his collection by 1867)",
+      "knows Goya's works": "he focused particularly on the Disasters of War print series",
+      "collector of Goya's works": "Riña en el mesón del gallo (in his collection by 1867)",
       "author of": "La société espagnole, 1861",
-      "educated in": "École des Beaux-Arts (architecture)",
+      "studied in": "École des Beaux-Arts (architecture)",
       "pseudonyms": "Junior; Le Marquis de Villemer",
       "address": "Rue Cambon, Paris",
       "curiosities": "he enlisted in the Spanish army to work as a war reporter and witnessed the 'African War' (1859-60)",
@@ -635,6 +636,7 @@
       "id": "Pierre Lacour fils",
       "label": "P. Lacour fils",
       "life dates": "1778-1859", 
+      "nationality": "French",
       "profession": "painter, engraver",
       "students": "Rosario Weiss (in Bordeaux)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour_fils.jpg"
@@ -643,6 +645,7 @@
       "id": "José de Salamanca y Mayol (I Marqués de Salamanca)",
       "label": "Salamanca",
       "life dates": "1811-1883", 
+      "nationality": "Spanish",
       "profession": "aristocrat, businessman, banker, collector",
       "sales": "1867-VI-5: Goya's Femme à l'éventail (no.177); 1869 (pieces acquired by the British Museum; pieces by José Madrazo); 1875",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
@@ -651,6 +654,7 @@
       "id": "Sophie Gay",
       "label": "Sophie Gay",
       "life dates": "1776-1852", 
+      "nationality": "French",
       "profession": "writer, composer, salonnière",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sophie_Gay.jpg"
     },
@@ -658,6 +662,7 @@
       "id": "Charles Baudelaire",
       "label": "Baudelaire",
       "life dates": "1821-1867",
+      "nationality": "French",
       "profession": "poet, critic", 
       "author of": "Salons (1845, 1846, 1859); Les Fleurs du mal (1857)",
       "writes about Goya": "Quelques caricaturistes étrangers",
@@ -668,6 +673,7 @@
       "id": "Alphonse de Lamartine",
       "label": "Lamartine",
       "life dates": "1790-1869",
+      "nationality": "French",
       "profession": "poet, novelist, playwright, histoiran",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lamartine.jpg"
     },
@@ -675,6 +681,7 @@
       "id": "Juliette Récamier",
       "label": "Récamier",
       "life dates": "1777-1849", 
+      "nationality": "French",
       "profession": "femme de lettres, salonnière", 
       "portrayed by": "Jacques-Louis David (1800, Louvre); F. Gérard (1805, Musée Carnavalet)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Recamier.jpg",
@@ -684,25 +691,28 @@
       "id": "Théophile Thoré",
       "label": "Thoré",
       "life dates": "1807-1869", 
-      "profession": "art critc, journalist", 
-      "pseudonym": "William Bürger",
+      "nationality": "French",
+      "profession": "art critic, journalist", 
+      "pseudonyms": "William Bürger",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg"
     },
     {
       "id": "Stendhal (Henri Beyle)",
       "label": "Stendhal",
       "life dates": "1783-1842",
+      "nationality": "French",
       "profession": "writer",
       "author of": "Le rouge et le noir (1830)",
       "portrayed by": "Doucis, 1835",
       "writes in": "Journal de Paris, The New Monthly Magazine, The London Magazine",
-      "pseudonym": "Stendhal, Henri Stendhal, Stendalis, Louis Alexandre Bombet, Anastase de Serpière, Don Flegme, William Crocodile, Dominique",
+      "pseudonyms": "Stendhal, Henri Stendhal, Stendalis, Louis Alexandre Bombet, Anastase de Serpière, Don Flegme, William Crocodile, Dominique",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
     },
     {
       "id": "Charles-Augustin Sainte-Beuve",
       "label": "Sainte-Beuve",
       "life dates": "1804-1869",
+      "nationality": "French",
       "profession": "writer, art critic",
       "author of": "(Bad) criticism of Hugo, Lamartine, Musset, Baudelaire, Stendhal, Balzac",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sainte_Beuve.jpg"
@@ -711,6 +721,7 @@
       "id": "Gustave Flaubert",
       "label": "Flaubert",
       "life dates": "1821-1880",
+      "nationality": "French",
       "profession": "novelist", 
       "author of": "Madame Bovary (1857); L'Éducation sentimentale (1869)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Flaubert.jpg"
@@ -719,14 +730,15 @@
       "id": "Madame Ewelina Hanska",
       "label": "Hanska",
       "life dates": "1804-1882", 
-      "profession": "aristocrat, socialite",
       "nationality": "Polish",
+      "profession": "aristocrat, socialite",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hanska.jpg"
     },
     {
       "id": "Fortunée Hamelin",
       "label": "Hamelin",
       "life dates": "1776-1851", 
+      "nationality": "French",
       "profession": "socialite, 'Merveilleuse' during Directoire", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg"
     },
@@ -781,7 +793,7 @@
       "life dates": "1841-1920", 
       "profession": "painter", 
       "in Paris": "in 1860 (disciple of Léon Cogniet); participates at the Exposition Universelle 1860 and 1889",
-      "collector of Goya's work": "1869 Perros y útiles de caza (tapestry cartoon), donated in 1894 to the Prado",
+      "collector of Goya's works": "1869 Perros y útiles de caza (tapestry cartoon), donated in 1894 to the Prado",
       "masters": "Léon Cogniet", 
       "portrayed by": "Federico Madrazo (1875, Prado)",
       "married to": "Eugenia Ochoa (cousin)",
@@ -837,7 +849,7 @@
       "label": "Galos",
       "life dates": "1774-1830", 
       "profession": "accountant?",
-      "collector of Goya's work": "Bulls of Bordeaux",
+      "collector of Goya's works": "Bulls of Bordeaux",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
     },
     {
@@ -891,7 +903,7 @@
       "works in": "Le Charivari, La Silhouette, La Caricature",
       "patrons": "Adolphe Beugniet, Paul Durand-Ruel",
       "curiosities": "Detained in the prison of Sainte-Pélagie (Paris) for the caricature Gargantua (1831)",
-      "pseudonym": "Rogelin",
+      "pseudonyms": "Rogelin",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg"
     },
     {
