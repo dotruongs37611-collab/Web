@@ -746,11 +746,14 @@
       "label": "Viardot",
       "life dates": "1800-1883", 
       "profession": "wirter, Hispanist", 
-      "author of": "Lettres d'un espagnol (1826); Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne (1835); 1843 longer essay on the Prado; 1852 Les musées d'Espagne",
+      "in Spain": "in 1823",
+      "participates in": "the 'Expedition d'Espagne' or 'Cien Mil Hijos de San Luis' in 1823",
+      "author of": "Lettres d'un espagnol (1826); Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne (1835); longer essay on the Prado (Les musées d’Espagne, d’Angleterre et de Belgique) (1843); Les musées d'Espagne (1852)",
       "visits the Prado Museum": "in 1834 (mentions Goya in his account): 1835 publication",
+      "mentions of Goya": "according to Pierre Géal (Viardot's profile, Prado): 'His opinion of Goya remains ambivalent, between praise for the strength and boldness of his brushstroke and reticence about the imperfections of the drawing'",
       "sales": "30 April 1884 (included an 'Inquisition scene', no.6)",
       "writes in": "journals Le Globe, Le National, Le Siècle; magazines Revue des Deux Mondes and Revue de Paris. In 1841 he founds the Revue Indépendante with Pierre Leroux and George Sand",
-      "bibliography": "https://www.museodelprado.es/aprende/enciclopedia/voz/viardot-louis/a587ebc8-f89a-412f-8566-1d6c3abb76d6",
+      "bibliography": "Profile at Museo del Prado by Pierre Géal https://www.museodelprado.es/aprende/enciclopedia/voz/viardot-louis/a587ebc8-f89a-412f-8566-1d6c3abb76d6",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
     },
     {
@@ -1774,6 +1777,14 @@
       "know each other since": "at least 1834",
       "correspondence": "1846-X-11 (MD 2012-13)",
       "portraits": "1834, Musée Delacroix (MD 2016-1); 1838, Copenhagen"
+    },
+    {
+      "from": "George Sand",
+      "to": "Louis Viardot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1841",
+      "shared": "co-founders of the Revue indépendante with Pierre Leroux in 1841"
     },
     {
       "from": "Eugène Delacroix",
