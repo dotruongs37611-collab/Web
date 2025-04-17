@@ -1640,6 +1640,14 @@
       "portraits": "1787, Banco de España"
     },
     {
+      "from": "Count of Floridablanca",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage; model-sitter",
+      "know each other since": "by 1783",
+      "portraits": "1783, Prado (P003255)"
+    },
+    {
       "from": "Gaspar Melchor de Jovellanos",
       "to": "XI Count of Altamira",
       "connection_level": "direct",
