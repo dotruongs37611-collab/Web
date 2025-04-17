@@ -1,0 +1,2599 @@
+{
+  "nodes": [
+    {
+      "id": "Francisco de Goya y Lucientes",
+      "label": "GOYA",
+      "profession": "painter, draughtsman, engraver",
+      "life dates": "1746-1828",
+      "born in": "Fuendetodos, Zaragoza",
+      "author of": "Piedad (1774), Aníbal vencedor (1771), prints after Velázquez (1778), Crucifixion (1780), San Bernardino de Siena (1781-83), The Duchess of Osuna (1785), The Dukes of Osuna (1787-88), Yard of lunatics (1794), Witches Flight (1797-98), Album A (c.1794-95), Album B (c.1795-97), Caprichos (1799), Allegory of Truth, Time and History (1800), The Family of Charles IV (1800), Clothed Maja (1802-05), Bandit stripping a woman (1808-12), The Burial of the Sardine (1808-12), Portrait of Antonia de Zárate (1810-11), Disasters of War (1810-15), The Second of May 1808 (1814), The Third of May 1808 (1814), Ferdinand VII (1814-15), Self-Portrait (1815), Tauromaquia (1816), Disparates (c.1816-19), Black Paintings (c.1819-23), Bulls of Bordeaux (1825), Portrait of Mariano Goya (1827)",
+      "in Italy": "1769-1771",
+      "in France": "1824-1828, Bordeaux. He visited Paris in Summer 1824",
+      "masters": "José Luzán",
+      "students": "Felipe Arrojo; Asensio Julià; Rosario Weiss",
+      "member of": "RABASF",
+      "portrayed by": "Vicente López (1826, Prado); Francisco de Goya y Lucientes",
+      "married to": "Josefa Bayeu (1773)",
+      "children": "Javier Goya (1 survived out of 8)",
+      "parents": "José Goya and Gracia Lucientes",
+      "curiosities": "he became completely deaf after a serious illness in 1792-93",
+      "nationality": "Spanish",
+      "bibliography": "Martin Schwander (ed.), Goya, exhibition catalogue, Beyeler Foundation, 2021; Janis Tomlinson, Goya: A Portrait of the Artist, 2020; Manuela B. Mena Marqués & José Manuel Matilla, Goya: dibujos. ‘Solo la voluntad me sobra’, 2019; Manuela B. Mena Marqués & José Manuel Matilla, Catálogo Razonado de Los Dibujos de Francisco de Goya, vol. 2 (1771-1792), 2018; Mena Marqués (dir.), Goya en tiempos de guerra, 2008; Andrew Schulz, Goya's Caprichos: Aesthetics, Perception, and the Body, 2005; Reva Wolf, Goya and the Satirical Print: in England and on the Continent, 1730-1850, 1994; Bozal, Goya y el gusto moderno, 1994; Tomlinson, Goya in the Twilight of Enlightenmen, 1992; Carreta Parrondo & Vega, Goya grabador, 1991; Águeda & Salas (eds.), Goya. Cartas a Martín Zapater, 1982; López Canellas, Diplomatario, 1981; Nigel Glendinning, Goya and his Critics, 1977; Pierre Gassier, The Drawings of Goya: The Complete Albums, 1973; Pierre Gassier & Juliet Wilson-Bareau, Goya: His Life and Work, 1971 (catalogue raisonné); Tomas Harris, Goya. Engravings and Lithographs, 1964",
+      "websites": "Fundación Goya en Aragón https://fundaciongoyaenaragon.es/; Museo del Prado https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812; Real Academia de Historia https://historia-hispanica.rah.es/biografias/20790-francisco-de-goya-y-lucientes",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
+      "Image source": "New York, Metropolitan Museum, Self-portrait, drawing, 35.103.1"
+    },
+    {
+      "id": "Javier Goya",
+      "label": "Javier Goya",
+      "life dates": "1784-1854",
+      "portrayed by": "Goya",
+      "nationality": "Spanish",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Javier_Goya.jpg",
+      "image source": "portrait by Goya, drawing, 1805-06"
+    },
+    {
+      "id": "Mariano Goya",
+      "label": "Mariano Goya",
+      "life dates": "1806-1874",
+      "nationality": "Spanish",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Goya.jpg",
+      "image source": "Portrait by Goya, 1827, Meadows Museum, Texas (67.03)"
+    },
+    {
+      "id": "Martín Zapater",
+      "label": "Zapater",
+      "life dates": "1746-1803",
+      "profession": "businessman",
+      "nationality": "Spanish",
+      "portrayed by": "Francisco de Goya y Lucientes (1780, 1790, 1797)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martin_Zapater.jpg",
+      "image source": "Portrait by Goya, 1790, Museo de Arte de Ponce, Puerto Rico"
+    },
+    {
+      "id": "Gumersinda Goicoechea",
+      "label": "Gumersinda",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gumersinda_Goicoechea.jpg",
+      "life dates": "1788-1852",
+      "nationality": "Spanish",
+      "portrayed by": "Francisco de Goya y Lucientes (1805, 1805, 1805-06)",
+      "image source": "Portrait by Goya, 1805-06, private collection, Paris"
+    },
+    {
+      "id": "Francisco Bayeu",
+      "label": "F. Bayeu",
+      "life dates": "1734-1795",
+      "profession": "painter",
+      "nationality": "Spanish",
+      "masters": "Juan Andrés Merklein; José Luzán; Antonio González Velázquez",
+      "students": "Agustín Esteve; Juan Antonio Ribera; Buenaventura Salesa",
+      "works as": "Pintor de Cámara",
+      "author of": "tapestry cartoons for the Real Fábrica de Tapices",
+      "member of": "RABASF",
+      "studied in": "Escuelas Pías in Zaragoza; RABASF",
+      "portrayed by": "Francisco de Goya y Lucientes (1795)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Francisco_Bayeu.jpg",
+      "image source": "Portrait by Goya, 1795, Prado"
+    },
+    {
+      "id": "Federico Madrazo",
+      "full name": "Federico de Madrazo y Kuntz",
+      "label": "Federico Madrazo",
+      "life dates": "1815-1894",
+      "nationality": "Spanish",
+      "profession": "painter, collector, art dealer",
+      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Baron Taylor and Adrien Dauzats; 1837-1839 (portrays Adrien Dauzats 1837): he benefits from contacts with Baron Taylor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
+      "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Adrien Dauzat's)",
+      "author of": "illustrations in El Artista; Godofredo de Bouillon proclamado rey de Jerusalén (1838, Galerie Batailles, Palais Versailles); Isabel II de España (1850); Doña Amalia de Llano y Dotres, Condesa de Vilches (1853); Carolina Coronado (c.1855); Eduardo Rosales (1867); El pintor Perugino Sensi (1873, Prado)",
+      "editor of": "El Artista",
+      "portrayed by": "Raimundo Madrazo, 1875, Museo de Bellas Artes de Bilbao",
+      "works as": "Director of RABASF in 1866; Pintor de Cámara of Isabel II; Director of the Prado Museum 1860-68 and 1881-1894; Senator",
+      "member of": "RABASF: member at 16 years old",
+      "masters": "Alberto Lista; Franz Xaver Winterhalter; Jean-Auguste-Dominique Ingres", 
+      "students": "León Abadías y Santolaria; Ricardo Villodas y de la Torre",
+      "married to": "Luisa Garreta (1835)",
+      "children": "Cecilia, Isabel, Raimundo, Ricardo",
+      "parents": "José Madrazo and Isabel Kuntz y Valentini",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
+      "image source": "portrait by Raimundo Madrazo, 1875, Museo de Bellas Artes de Bilbao"
+    },
+    {
+      "id": "Valentín Carderera",
+      "label": "Carderera",
+      "life dates": "1796-1880",
+      "nationality": "Spanish",
+      "profession": "painter, collector, art dealer",
+      "mentions of Goya": "1835 in El Artista (with lithography by Madrazo: Vicente López's portrait of Goya); 1860; 1863 (quotes Gautier's essay on Desastres 1845)",
+      "editor of": "El Artista (1835) with Eugenio Ochoa",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg"
+    },
+    {
+      "id": "José Madrazo",
+      "label": "José Madrazo",
+      "life dates": "1781-1859", 
+      "nationality": "Spanish",
+      "profession": "painter, engraver, draughtsman, collector",
+      "in Italy": "1803-(1815), Academia de San Lucas",
+      "in Madrid": "1818",
+      "in Paris": "in 1829 (1st trip): sees Eugène Delacroix's work",
+      "works as": "Pintor de Cámara of Carlos IV; reorganises and catalogues the collections of the Prado Museum; 1823 teacher of painting at the RABASF and Deputy Director",
+      "editor of": "a catalogue of the Prado collection with lithographic illustrations of the paintings (made by Pharamond Blanchard)",
+      "founder of": "Real Establecimiento litográfico (1825-1837)",
+      "collector of": "a valuable painting collection, partly acquired by José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "masters": "Jacques-Louis David (1801-1803); Gregorio Ferro Requeijo",
+      "students": "Léon Bonnat; José María Avrial y Flores; Pedro Kuntz y Valentini",
+      "author of": "La muerte de Viriato (1807, Prado)",
+      "mentioned in the French press": "in 1826, 9 Nov (Le Moniteur universal)",
+      "married to": "Isabel Kuntz y Valentini (1809)", 
+      "children": "Federico Madrazo, Pedro Madrazo, Luis Madrazo, Juan Madrazo, Carlota Madrazo",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
+    },
+    {
+      "id": "Baron Taylor",
+      "label": "Baron Taylor",
+      "life dates": "1789-1879", 
+      "nationality": "French",
+      "profession": "politician, artist",
+      "in Spain": "1st trip in 1820; 1823 [Cien Mil hijos de S. Luis]; in 1832 (with Dauzats); July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo; 1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice of Madrazo family and Carderera [Lanzarote Guiral 2016 p.574]): 1836 Feb-Aug paintings (8 Goyas from Javier Goya)",
+      "author of": "Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan (1826)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg"
+    },
+    {
+      "id": "Adrien Dauzats",
+      "label": "Dauzats",
+      "life dates": "1804-1868",
+      "nationality": "French",
+      "profession": "painter, engraver",
+      "in Spain": "in 1832 (with Baron Taylor); July 1833 (with Baron Taylor); 1835-1837 assists Baron Taylor in acquisition of artworks for Galerie espagnole (alongside Pharamond Blanchard)",
+      "author of": "1834 article in Magasin pittoresque? (mentions Prado commentaries, in the possession of Javier Goya until 1861)",
+      "participates in": "1831 Salon (début)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg"
+    },
+    {
+      "id": "Pharamond Blanchard",
+      "label": "Blanchard",
+      "life dates": "1805-1873",
+      "nationality": "French",
+      "profession": "painter, draughtsman",
+      "in Spain": "1824-1837 working as a painter and engraver; hired by José Madrazo to make lithographic reproductions at the Real Museo in Madrid; 1835-37 he assists Baron Taylor in acquiring paintings for Louis Philippe's Galerie espagnole",
+      "in Paris": "after 1837 (quoted by Carderera's diary) (Lanzarote Guiral 2016, p.537)",
+      "author of": "'Course de taureaux dans un bourg d'Espagne' (Salon 1834)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Eugenio Ochoa",
+      "label": "Eugenio Ochoa",
+      "life dates": "1815-1872",
+      "nationality": "French",
+      "profession": "writer, editor, politician",
+      "in Paris": "1828-1834 at the École d'Arts et d'Offices. He meets Moratín and Godoy; 1837-1845",
+      "author of": "Translation of Victor Hugo's Hernani (watched by Théophile Gautier in 1840 in Valladolid); 'Catálogo razonado de los manuscritos españoles existentes en la Biblioteca Real de París: seguido de un suplemento que contiene los de las otras tres bibliotecas públicas' (Arsenal, Ste Geneviève and Mazarine), París, Imprenta Real, 1844",
+      "editor of": "El Artista (1835) con Federico Madrazo: spreads Romanticism in Spain and imitates the French journal L'Artiste",
+      "married to": "Carlota Madrazo (1835)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
+    },
+    {
+      "id": "Prosper Mérimée",
+      "label": "Mérimée",
+      "life dates": "1803-1870",
+      "nationality": "French",
+      "profession": "writer, historian, archaeologist",
+      "in Spain": "in 1830",
+      "visits the Prado Museum": "in 1830 (doesn't mention Goya in his account)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg"
+    },
+    {
+      "id": "Bernardo de Iriarte",
+      "label": "Iriarte",
+      "life dates": "1735-1814", 
+      "nationality": "Spanish",
+      "profession": "politician, diplomat, collector",
+      "works for": "Fernando VI, Carlos III, Carlos IV, José I",
+      "member of": "Real Academia Española; Real Academia de Ciencias y Artes de Barcelona",
+      "portrayed by": "Francisco de Goya y Lucientes, 1797, Strasbourg Museum of Fine Arts",
+      "siblings": "Tomás de Iriarte",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Iriarte.jpg",
+      "image source": "Goya portrait, 1797, Strasbourg"
+    },
+    {
+      "id": "Ferdinand Guillemardet",
+      "label": "Ferdinand Guillemardet",
+      "life dates": "1765-1809",
+      "nationality": "French",
+      "profession": "diplomat (French ambassador 1798-1800)",
+      "in Spain": "1798",
+      "collector of Goya's works": "set of the Caprichos (1798)",
+      "commissions Goya with": "portrait, 1798 (Louvre)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg"
+    },
+    {
+      "id": "Eugène Delacroix",
+      "label": "Delacroix",
+      "life dates": "1798-1863",
+      "nationality": "French",
+      "profession": "painter, draughtsman, engraver",
+      "correspondence": "online repository (http://www.correspondance-delacroix.fr/)",
+      "author of": "Scenes from the Massacre at Chios (1824, Louvre), The Death of Sardanapalus (1827, Louvre), Liberty guiding the People (1830, Louvre)",
+      "in Spain": "in 1832",
+      "knows Goya's works": "by c.1819, through Ferdinand Guillemardet (Lipschutz 1972, p.10)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delacroix.jpg",
+      "image source": "Self-portrait with Green Vest (1837, Louvre)"
+    },
+    {
+      "id": "Félix Guillemardet",
+      "label": "Félix Guillemardet",
+      "life dates": "1796-1842",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Felix_Guillemardet.jpg"
+    },
+    {
+      "id": "Antonio de Brugada",
+      "label": "Brugada",
+      "life dates": "1804-1863",
+      "nationality": "Spanish",
+      "profession": "painter",
+      "curiosities": "he sees Goya die in Bordeaux, alongside Molina (Canellas, Diplomatario,  no.181, p.512)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brugada_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Juan Agustín Ceán Bermúdez",
+      "label": "Ceán Bermúdez",
+      "life dates": "1749-1829",
+      "nationality": "Spanish",
+      "profession": "historian, collector, painter",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cean_Bermudez.jpg"
+    },
+    {
+      "id": "Joaquín María Ferrer",
+      "label": "Ferrer",
+      "life dates": "1777-1861", 
+      "nationality": "Spanish",
+      "profession": "politician, military member",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferrer.jpg"
+    },
+    {
+      "id": "Agustín Esteve",
+      "label": "Esteve",
+      "life dates": "1753-1820",
+      "nationality": "Spanish",
+      "profession": "painter",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Esteve.jpg"
+    },
+    {
+      "id": "Leandro Fernández de Moratín",
+      "label": "Moratín",
+      "life dates": "1760-1828", 
+      "nationality": "Spanish",
+      "profession": "playwright, poet",
+      "mentions of Goya": "Diary, 21 May 1798 (Canellas no.88): they see together the paintings of San Antonio de la Florida?",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg"
+    },
+    {
+      "id": "Manuel Godoy",
+      "label": "Godoy",
+      "life dates": "1767-1851",
+      "nationality": "Spanish",
+      "profession": "politician",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg"
+    },
+    {
+      "id": "Cyprien Gaulon",
+      "label": "Gaulon",
+      "life dates": "1777-1858", 
+      "nationality": "French",
+      "profession": "lithographic printer",
+      "portrayed by": "Goya, 1824-25, lithography (Harris 1964, no.282)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg"
+    },
+    {
+      "id": "Laurent Matheron",
+      "label": "Matheron",
+      "life dates": "1823-1905",
+      "nationality": "French",
+      "profession": "writer",
+      "writes about Goya": "first biography of Goya, 'Goya', 1858, París, Schulz et Thuillié (digitised in Prado Biblioteca https://www.museodelprado.es/aprende/biblioteca/biblioteca-digital/fondo/goya/47f25eaf-29e1-dd74-6727-6227f053e2a2)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Alejandro Aguado",
+      "label": "Aguado",
+      "Full name": "Alejandro María Aguado y Remírez de Estenoz",
+      "life dates": "1784-1842",
+      "nationality": "Spanish",
+      "born in": "Sevilla",
+      "profession": "banker, military member, collector, patron of arts",
+      "collection": "formed from two collections: that of Bernardo de Iriarte and the Count of Altamira (Lanzarote Guiral 2016, p.LV). Around 360 paintings, mainly by Spanish artists, including Velázquez, Murillo, Ribera and Zurbarán, as well as Italians like Leonardo da Vinci, Rafael, and Dutch-Flemish like Rubens and Rembrandt",
+      "patronage": "acquired the Théâtre-Italien (or Comédie-italienne), funded the journals Revue de Paris and Le Constitutionnel, acted as the President of the Athénée des arts",
+      "collaborates with": "the Rothschild bankers",
+      "portrayed by": "Francisco Lacoma y Fontanet, 1832 (Madrid, Museo del Romanticismo, CE0509); unknown artist (Palais de Versailles, MV 6727)",
+      "aristocratic titles": "I marqués de las Marismas del Guadalquivir",
+      "also known as": "Alexandre Aguado",
+      "address": "Palais Petit-Bourg, Évry, Paris",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Aguado.jpg",
+      "image source": "Versailles portrait"
+    },
+    {
+      "id": "Frédéric Villot",
+      "label": "Villot",
+      "life dates": "1809-1875", 
+      "nationality": "French",
+      "profession": "engraver",
+      "collector of Goya's works": "Tauromaquia (1859 sale)",
+      "sales": "1859-V-16 (Tauromaquia for 255 fr.)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
+    },
+    {
+      "id": "Achille Devéria",
+      "label": "Devéria",
+      "life dates": "1800-1857",
+      "nationality": "French",
+      "profession": "painter, draughtsman, lithographer",
+      "works as": "director of the Département des Estampes at the BNF in 1849",
+      "address": "45 rue de Nôtre Dame des Champs (1833)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg"
+    },
+    {
+      "id": "Louis Boulanger",
+      "label": "Boulanger",
+      "life dates": "1806-1867",
+      "nationality": "French",
+      "profession": "painter, lithographer, illustrator",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Boulanger.jpg"
+    },
+    {
+      "id": "Antoine Fontaney",
+      "label": "Fontaney",
+      "life dates": "1803-1837",
+      "nationality": "French",
+      "profession": "writer, journalist, poet",
+      "in Spain": "1830-1831",
+      "collector of Goya's works": "Los Caprichos (1830-1831)",
+      "shows Goya": "Fontaney's journal (8 Sept 1831): 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31); 9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
+    },
+    {
+      "id": "Victor Hugo",
+      "label": "Hugo",
+      "life dates": "1802-1885",
+      "nationality": "French",
+      "profession": "author, playwright, poet, politician",
+      "author of": "Hernani 1830 (takes place in Spain)",
+      "in Spain": "In 1811 (at 9 years old)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
+    },
+    {
+      "id": "Théophile Gautier",
+      "label": "Gautier",
+      "life dates": "1811-1872",
+      "nationality": "French",
+      "profession": "poet, art critic, novelist, journalist",
+      "author of": "1840 Spanish trip essays in La Presse, reedited as Tra los montes (1843) and as Voyage en Espagne (1845). 1843 August: Gautier, ‘La Tauromachie’, Le Musée des familles, pp. 341–48.13 Illustrated with seven drawings by Gautier (signed ‘T. G.’) engraved by ‘A.B.L’ (Andrew, Best and Leloir) (see Fayos-Pérez 2024)",
+      "mentions of Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [Lanzarote Guiral 2016, p.550]); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
+      "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
+      "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
+      "knows Goya's works": "Los Caprichos: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
+      "collector of Goya's works": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
+    },
+    {
+      "id": "Honoré de Balzac",
+      "label": "Balzac",
+      "life dates": "1799-1850", 
+      "nationality": "French",
+      "profession": "novelist, playwright",
+      "author of": "La peau du chagrin (1831) mentions Murillo and Velázquez",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg"
+    },
+    {
+      "id": "Alexandre Dumas père",
+      "label": "Dumas",
+      "life dates": "1802-1870", 
+      "nationality": "French",
+      "profession": "novelist, playwright", 
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
+    },
+    {
+      "id": "Charles Nodier",
+      "label": "Nodier",
+      "life dates": "1780-1844",
+      "nationality": "French",
+      "profession": "writer, librarian",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg"
+    },
+    {
+      "id": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "label": "Custine",
+      "life dates": "1790-1857",
+      "nationality": "French",
+      "profession": "aristocrat, writer, socialite", 
+      "in Spain": "in 1828?; in 1831",
+      "author of": "1838, 17 June (Le Temps) essay on Goya's works (signed as 'A. de C.')",
+      "mentions of Goya": "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d’être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l’école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'; 1838 essay ('A. de C.'): Goya's Caprichos, Desastres, Toros Burdeos, Familia Carlos IV, frescoes and Black paintings (Fayos-Pérez 2025: publication pending)",
+      "knows Goya's works": "by 1831",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
+    },
+    {
+      "id": "Adélaïde de Montgolfier",
+      "label": "Montgolfier",
+      "life dates": "1789-1880", 
+      "nationality": "French",
+      "profession": "femme de lettres, translator", 
+      "knows Goya's works": "by April 1831, through Fontaney (after his return from Spain in Jan 1831)",
+      "writes about Goya": "In April 1831: signed as 'Ad. M' (Revue encyclopédique no.50, pp.316-331)",
+      "author of": "she co-authored with Louise Swanton Belloc a number of children's books (Buell Hale 1874, p.583-84)",
+      "writes in": "Revue encyclopédique",
+      "founder of": "La Ruche, journal d'études familière (with Louise Swanton Belloc), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
+      "curiosities": "her father was the famous aeronaut Jacques-Etienne Montgolfier. She was buried alongside her close friend Louise Swanton Belloc (and her son, Louis Belloc) at La Celle-Saint-Cloud",
+      "bibliography": "Sarah Josepha Buell Hale, Woman's Record: Or, Sketches of All Distinguished Women, 1874 https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
+    },
+    {
+      "id": "Pierre Lacour",
+      "label": "P. Lacour père",
+      "life dates": "1745-1814",
+      "nationality": "French",
+      "profession": "painter",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour.jpg"
+    },
+    {
+      "id": "George Sand",
+      "label": "George Sand",
+      "full name": "Aurore Lucile Dupin de Dudevant",
+      "life dates": "1804-1876", 
+      "nationality": "French",
+      "profession": "writer, novelist, journalist, salonnière, art critic, playwright, libretist, composer", 
+      "in Spain": "1808-1809 her family lived in Spain at the palace of Manuel Godoy when this one was exiled in Paris",
+      "knows Goya's works": "by 1834",
+      "mentions of Goya": "Journal intime, 25 Nov 1834 (jealousy over Goya's women regarding Alfred de Musset)",
+      "author of": "Voyage chez Mr. Blaise (1829); Voyage en Auvergne (1829); Voyage en Espagne (1829); Un hiver en Majorque (1841); La Petite Fadette (1849); Histoire de ma vie (1855). Album of drawings. Clumsy copy of Velázquez’s Infanta Margarita. Collection Lovenjoul Chantily [now at Institut de France? (Lipschutz 1972, p.117)",
+      "parents": "Maurice Dupin de Francueil and Sophie Victoire Delaborde",
+      "married to": "Casimir Dudevant (1822-35)",
+      "partners/lovers": "Prosper Mérimée; Jules Sandeau; Alfred de Musset (1833-35); Félicien Mallefille; Frédéric Chopin; Victor Borie (1848-49); Alexandre Manceau (1849-64)",
+      "children": "Maurice Sand; Solange Sand",
+      "pseudonyms": "George Sand; Amandine; Amantine",
+      "portraits": "Eugène Delacroix, 1838; Auguste Charpentier, 1838",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg"
+    },
+    {
+      "id": "Alfred de Musset",
+      "label": "Musset",
+      "life dates": "1810-1857", 
+      "nationality": "French",
+      "profession": "writer, playwright",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Musset.jpg"
+    },
+    {
+      "id": "Philippe Burty",
+      "label": "Burty",
+      "life dates": "1830-1890", 
+      "nationality": "French",
+      "profession": "art critic, collector",
+      "sales": "Burty I: [11] Oct 1862; Burty II: 27 March 1874 (lot 14: 2 black pencil drawings by Delacroix after Goya, 13 fr.); Burty III: 27 April 1876 (Sotheby's London; 56 lots of Goya (nos.444-465, 684-719): Caprichos, Tauromaquia, Proverbios, Desastres, others; Burty IV (19-21 June 1878); Burty V (2-3 March 1891): lot 83 4 pen drawings by Delacroix after Goya; Burty VI (4-5 March 1891): Tauromaquia, Desastres, Proverbios, Agarrotado, drawing; Burty VII (16-20 March 1891)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg"
+    },
+    {
+      "id": "Charles Blanc",
+      "label": "Blanc",
+      "life dates": "1813-1882",
+      "nationality": "French",
+      "profession": "art critic",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanc.jpg"
+    },
+    {
+      "id": "Nicolas Philippe Guye",
+      "label": "N. Guye",
+      "life dates": "1773-1845",
+      "nationality": "French",
+      "profession": "Military man; politician; Governor of the province of Seville during the French occupation",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nicolas_Guye.jpg"
+    },
+    {
+      "id": "Victor Guye",
+      "label": "V. Guye",
+      "life dates": "c.1804-1810",
+      "nationality": "French",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Victor_Guye.jpg"
+    },
+    {
+      "id": "Dominique Vivant Denon",
+      "label": "Vivant Denon",
+      "life dates": "1747-1825",
+      "nationality": "French",
+      "profession": "artist, writer, diplomat, collector",
+      "in Spain": "1808, acquiring artworks for the Musée Napoléon",
+      "knows Goya's works": "by 1809", 
+      "collector of Goya's works": "Los Caprichos (1809 in France; 1827 at the BNF)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg"
+    },
+    {
+      "id": "Eugène Piot",
+      "label": "Piot",
+      "life dates": "1812-1890",
+      "nationality": "French",
+      "profession": "art critic; collector; editor; journalist; photographer",
+      "in Spain": "in 1840 (with Théophile Gautier)",
+      "collector of Goya's works": "Caprichos (in the 1840s); Bulls of Bordeaux; Tauromaquia",
+      "author of": "Catalogue raisonné de l’oeuvre gravé de Fran(co) Goya y Lucientes, Le Cabinet de l’Amateur, 1842 (pp.346-366): Caprichos (80), Tauromaquia (33), Desastres de la guerra (‘Scènes d’invasion’) (20/82), prints after Velázquez (14), Pièces diverses (Garrotted Man), Lithographs (Bulls of Bordeaux) (6)",
+      "editor of": "Le Cabinet de l'amateur et de l'antiquaire (1842-1846)",
+      "sales": "12 April 1847: Caprichos (bought by 'Bauzonnet'?), Tauromaquia (lots 29-30); 1885, 22 rare proofs of Caprichos with handwritten inscriptions, acquired by BNF [Fayos Pérez 2024, p.55]",
+      "mentions of the Prado commentaries": "On his catalogue raisonné 1842 (Capricho 50):  Carderera’s diary (2 August 1861) shows he lent them to Piot, but he must have known them by 1842, having copied them in Madrid, or during one of Madrazo’s trips to Paris?",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Piot.jpg"
+    },
+    {
+      "id": "Vicente López",
+      "full name": "Vicente López Portaña",
+      "label": "Vicente López",
+      "life dates": "1772-1850",
+      "nationality": "Spanish",
+      "works as": "Pintor de Cámara of Isabel II",
+      "author of": "portrait of Francisco de Goya y Luciantes, 1826 (Prado); portrait of Fernando VII con el hábito de la Orden del Toisón de Oro, 1831",
+      "students": "Justo María de Velasco; José Ribelles",
+      "children": "Bernardo López Piquer; Luis López Piquer",
+      "curiosities": "his face showed in the 25-pesetas bill in 1931 (2nd Spanish Republic)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lopez.jpg"
+    },
+    {
+      "id": "Paul Lefort",
+      "label": "Lefort",
+      "life dates": "1829?-1904",
+      "nationality": "French",
+      "profession": "art critic, art historian",
+      "collector of Goya's works": "Large collection. He has Disparates' 'Fiero monstruo' (no.81), not included in the 1864 edition, to the RABASF in 1870",
+      "writes about Goya": "Catalogue raisonné of Goya's prints, Gazette des Beaux-Arts, 1867-68",
+      "sales": "1869 I 25-29 (large Goya collection)",
+      "mentions the Prado commentaries": "in 1867",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Gustave Brunet",
+      "label": "Brunet",
+      "life dates": "1805-1896", 
+      "nationality": "French",
+      "profession": "bibliographer, historian, editor",
+      "writes about Goya": "1865 Étude sur Francisco Goya sa vie et ses travaux : notice biographique et artistique",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Román Garreta",
+      "full name": "Román Garreta y Huerta",
+      "label": "Román Garreta",
+      "life dates": "1820-1889",
+      "nationality": "Spanish",
+      "collector of Goya's works": "1866 sells to the Prado 3 works attributed to Goya: Self-portrait 1815 (GW 1552), Portrait of a woman (Leocadia Zorrilla or  Bayeu) (GW 686) and Exorcism (follower of Goya); a group of drawings; copperplates from Disparates (1854)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Garreta_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Luisa Garreta",
+      "full name": "Luisa Garreta y Huerta",
+      "label": "Luisa Garreta",
+      "life dates": "c.1813-1854",
+      "nationality": "Spanish",
+      "married to": "Federico Madrazo",
+      "children": "Luisa Madrazo, Raimundo Madrazo, Cecilia Madrazo, Ricardo Madrazo",
+      "portrayed by": "Federico Madrazo, 1837 (private collection)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luisa_Garreta.jpg",
+      "image source": "portrait by Federico Madrazo, 1837"
+    },
+    {
+      "id": "Leocadia Zorrilla y Galarza",
+      "label": "Leocadia",
+      "life dates": "1788-1856",
+      "nationality": "Spanish",
+      "profession": "housekeeper",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Leocadia_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Rosario Weiss Zorrilla",
+      "label": "Rosario Weiss",
+      "life dates": "1814-1843",
+      "nationality": "Spanish",
+      "profession": "painter",
+      "in Spain": "back to Madrid in 1833: works by making copies of famous paintings; 1840 named member of Royal Academy of San Fernando; 1842 drawing teacher of future Isabel II",
+      "masters": "Francisco de Goya y Lucientes, Pierre Lacour fils (in Bordeaux)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg"
+    },
+    {
+      "id": "Josefa Bayeu",
+      "label": "Josefa Bayeu",
+      "life dates": "1747-1812",
+      "nationality": "Spanish",
+      "married to": "Francisco de Goya y Lucientes (1773)", 
+      "portrayed by": "Francisco de Goya y Lucientes, c.1805, drawing, Colección Abelló, Madrid (GW.840)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Josefa_Bayeu.jpg"
+    },
+    {
+      "id": "Sebastián Martínez y Pérez",
+      "label": "S. Martínez",
+      "life dates": "1747-1800",
+      "nationality": "Spanish",
+      "profession": "businessman, politician, collector",
+      "portrayed by": "Francisco de Goya y Lucientes, 1792, New York, Metropolitan Museum (06.289)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg",
+      "image source": "Goya portrait, 1792"
+    },
+    {
+      "id": "[J./L.] Carresse",
+      "label": "Carresse",
+      "life dates": "active in the 1850s",
+      "nationality": "French",
+      "profession": "engraver",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Charles Yriarte",
+      "label": "Yriarte",
+      "life dates": "1832-1898",
+      "nationality": "French (with Spanish ancestry)",
+      "profession": "writer, draughtsman",
+      "in Spain": "c.1859-62",
+      "works as": "inspector of government buildings (by 1856); reporter for Le Monde Illustré during the Spanish campaign in Morocco ('Guerra de África'); editor of Le Monde Illustré in 1862",
+      "writes in": "Le Monde Illustré",
+      "writes about Goya": "Goya, sa vie, son œuvre (1867) (mentions Album A-B p.93)",
+      "knows Goya's works": "he focused particularly on the Disasters of War print series",
+      "collector of Goya's works": "Riña en el mesón del gallo (in his collection by 1867)",
+      "author of": "La société espagnole, 1861",
+      "studied in": "École des Beaux-Arts (architecture)",
+      "pseudonyms": "Junior; Le Marquis de Villemer",
+      "address": "Rue Cambon, Paris",
+      "curiosities": "he enlisted in the Spanish army to work as a war reporter and witnessed the 'African War' (1859-60)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Yriarte.jpg"
+    },
+    {
+      "id": "Pierre Lacour fils",
+      "label": "P. Lacour fils",
+      "life dates": "1778-1859", 
+      "nationality": "French",
+      "profession": "painter, engraver",
+      "students": "Rosario Weiss (in Bordeaux)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pierre_Lacour_fils.jpg"
+    },
+    {
+      "id": "José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "label": "Salamanca",
+      "life dates": "1811-1883", 
+      "nationality": "Spanish",
+      "profession": "aristocrat, businessman, banker, collector",
+      "sales": "1867-VI-5: Goya's Femme à l'éventail (no.177); 1869 (pieces acquired by the British Museum; pieces by José Madrazo); 1875",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
+    },
+    {
+      "id": "Sophie Gay",
+      "label": "Sophie Gay",
+      "life dates": "1776-1852", 
+      "nationality": "French",
+      "profession": "writer, composer, salonnière",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sophie_Gay.jpg"
+    },
+    {
+      "id": "Charles Baudelaire",
+      "label": "Baudelaire",
+      "life dates": "1821-1867",
+      "nationality": "French",
+      "profession": "poet, critic", 
+      "author of": "Salons (1845, 1846, 1859); Les Fleurs du mal (1857)",
+      "writes about Goya": "Quelques caricaturistes étrangers",
+      "writes in": "Revue des Deux Mondes",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Baudelaire.jpg"
+    },
+    {
+      "id": "Alphonse de Lamartine",
+      "label": "Lamartine",
+      "life dates": "1790-1869",
+      "nationality": "French",
+      "profession": "poet, novelist, playwright, histoiran",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lamartine.jpg"
+    },
+    {
+      "id": "Juliette Récamier",
+      "label": "Récamier",
+      "life dates": "1777-1849", 
+      "nationality": "French",
+      "profession": "femme de lettres, salonnière", 
+      "portrayed by": "Jacques-Louis David (1800, Louvre); F. Gérard (1805, Musée Carnavalet)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Recamier.jpg",
+      "image source": "portrait by David, 1800, Louvre"
+    },
+    {
+      "id": "Théophile Thoré",
+      "label": "Thoré",
+      "life dates": "1807-1869", 
+      "nationality": "French",
+      "profession": "art critic, journalist", 
+      "pseudonyms": "William Bürger",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg"
+    },
+    {
+      "id": "Stendhal (Henri Beyle)",
+      "label": "Stendhal",
+      "life dates": "1783-1842",
+      "nationality": "French",
+      "profession": "writer",
+      "author of": "Le rouge et le noir (1830)",
+      "portrayed by": "Doucis, 1835",
+      "writes in": "Journal de Paris, The New Monthly Magazine, The London Magazine",
+      "pseudonyms": "Stendhal, Henri Stendhal, Stendalis, Louis Alexandre Bombet, Anastase de Serpière, Don Flegme, William Crocodile, Dominique",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
+    },
+    {
+      "id": "Charles-Augustin Sainte-Beuve",
+      "label": "Sainte-Beuve",
+      "life dates": "1804-1869",
+      "nationality": "French",
+      "profession": "writer, art critic",
+      "author of": "(Bad) criticism of Hugo, Lamartine, Musset, Baudelaire, Stendhal, Balzac",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sainte_Beuve.jpg"
+    },
+    {
+      "id": "Gustave Flaubert",
+      "label": "Flaubert",
+      "life dates": "1821-1880",
+      "nationality": "French",
+      "profession": "novelist", 
+      "author of": "Madame Bovary (1857); L'Éducation sentimentale (1869)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Flaubert.jpg"
+    },
+    {
+      "id": "Madame Ewelina Hanska",
+      "label": "Hanska",
+      "life dates": "1804-1882", 
+      "nationality": "Polish",
+      "profession": "aristocrat, socialite",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hanska.jpg"
+    },
+    {
+      "id": "Fortunée Hamelin",
+      "label": "Hamelin",
+      "life dates": "1776-1851", 
+      "nationality": "French",
+      "profession": "socialite, 'Merveilleuse' during Directoire", 
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg"
+    },
+    {
+      "id": "Louise Swanton Belloc",
+      "label": "Swanton-Belloc",
+      "life dates": "1796-1881", 
+      "nationality": "French (with Irish ancestry)",
+      "profession": "femme de letters, translator, writer",
+      "writes in": "Revue encyclopédique",
+      "author of": "the translations of 'Uncle Tom's Cabin' (1852) by Harriet Beecher Stowe, the memoirs of Lord Byron, the works of Walter Scott, and four works by Charles Dickens, among others. She also authored over forty books, including a life of Byron, published with an introduction by Stendhal. She co-authored with Adélaïde de Montgolfier a number of children's books (Buell Hale 1874, p.583-84)",
+      "participated in": "a project after the 1830 Revolution to help General Lafayette establish public libraries in France, but it did not succeed (Buell Hale 1874, p.583-84)",
+      "founder of": "La Ruche, journal d'études familière (with Adélaïde de Montgolfier), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
+      "married to": "Jean-Hilaire Belloc (French painter)",
+      "children": "Louise (1822-95), Adelaide (1828-97), Louis (1830-72)",
+      "curiosities": "she was buried alongside her close friend Adélaïde de Montgolfier (and her son, Louis Belloc) at La Celle-Saint-Cloud. She was friends with Charles Dickens and Harriet Beecher Stowe. Her son would marry a prominent English feminist, Bessie Rayner Parkes, and they had two children who would become prolific writers: Marie Adelaide Belloc Lowndes (novelist) and Hilaire Belloc (poet and historian)",
+      "bibliography": "Sarah Josepha Buell Hale, Woman's Record: Or, Sketches of All Distinguished Women, 1874 https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s",
+      "websites": "Wikipedia https://en.wikipedia.org/wiki/Louise_Swanton_Belloc",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Swanton_Belloc.jpg"
+    },
+    {
+      "id": "Madame de Staël",
+      "label": "Staël",
+      "full name": "Anne-Louise Germaine Necker",
+      "life dates": "1766-1817", 
+      "nationality": "French (of Swiss ancestry)",
+      "profession": "novelist, writer, philosopher, salonnière",
+      "author of": "Delphine (1802); Corinne ou l'Italie (1807) [these two novels are published in Spain before 1828]; De l'Allegmagne (1810-13); Considérations sur les principaux événements de la Révolution française (1818, posthumous)",
+      "correspondence": "Correspondance générale, ed. Béatrice W. Jasinski and Othenin d'Haussonville, 2008-09",
+      "parents": "Suzanne Curchod and Jacques Necker",
+      "married to": "Erik Magnus Stael (from 1786 to 1802); Albert de Roca (from 1811)",
+      "partners/lovers": "Benjamin Constant (writer and politician) (from 1794); François de Pange (writer and journalist); Charles Maurice de Talleyrand; Louis, comte de Narbonne-Lara",
+      "children": "Gustavine, Auguste, Albert, Albertine, Louis-Alphonse Rocca",
+      "portraits": "Vigée Lebrun (1808); François Gérard (c.1810)",
+      "curiosities": "she was expelled from France by Napoleon I due to her political ideas (advocating for constitutional monarchy)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stael.jpg",
+      "image source": "Gérard portrait, c.1810"
+    },
+    {
+      "id": "Pedro Madrazo",
+      "label": "Pedro Madrazo",
+      "life dates": "1816-1898", 
+      "nationality": "Spanish",
+      "profession": "writer, translator, scholar, journalist, art critic, painter", 
+      "in Paris": "In 1837 (with Federico Madrazo)",
+      "portrayed by": "Federico Madrazo (1842, Hispanic Society); J. Laurent (BNE)",
+      "curiosities": "one of the first people to ever use the term 'patrimonio histórico-artístico'",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
+    },
+    {
+      "id": "Juan Madrazo",
+      "label": "Juan Madrazo",
+      "life dates": "1829-1880", 
+      "nationality": "Spanish",
+      "profession": "architect", 
+      "author of": "Palacio del Conde de Villagonzalo, Madrid",
+      "follower of": "Eugène Viollet-le-Duc",
+      "member of": "RABASF",
+      "parents": "José Madrazo and Isabel Kuntz y Valentini",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Juan_Madrazo.jpg"
+    },
+    {
+      "id": "Luis Madrazo",
+      "label": "Luis Madrazo",
+      "life dates": "1825-1897", 
+      "nationality": "Spanish",
+      "profession": "painter", 
+      "in Paris": "lived there for a while. His work is recognised at the Exposition Universelle de Paris 1855",
+      "author of": "Entierro de Santa Cecilia en las catacumbas de Roma (1852, Prado, deposit in Granada Museum)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Madrazo.jpg"
+    },
+    {
+      "id": "Raimundo Madrazo",
+      "label": "Raimundo Madrazo",
+      "life dates": "1841-1920", 
+      "nationality": "Spanish",
+      "profession": "painter", 
+      "in Paris": "in 1860 (disciple of Léon Cogniet); participates at the Exposition Universelle 1860 and 1889",
+      "collector of Goya's works": "1869 Perros y útiles de caza (tapestry cartoon), donated in 1894 to the Prado",
+      "masters": "Léon Cogniet", 
+      "portrayed by": "Federico Madrazo (1875, Prado)",
+      "married to": "Eugenia Ochoa (cousin)",
+      "children": "Federico (Cocó)",
+      "parents": "Federico Madrazo and Luisa Garreta",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
+    },
+    {
+      "id": "Cecilia Madrazo",
+      "label": "Cecilia Madrazo",
+      "full name": "Cecilia de Madrazo Garreta",
+      "life dates": "1846-1932", 
+      "nationality": "Spanish",
+      "profession": "antique and textile collector", 
+      "portrayed by": "Federico Madrazo (1869); Luis Madrazo (1880)",
+      "married to": "Mariano Fortuny",
+      "children": "Mariano; María Luisa",
+      "parents": "Federico Madrazo and Luisa Garreta",
+      "curiosities": "she was a pianist; she lived in Madrid, Paris and Venice",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg"
+    },
+    {
+      "id": "Mariano Fortuny",
+      "full name": "Mariano Fortuny y Marsal",
+      "label": "Fortuny",
+      "life dates": "1838-1874", 
+      "nationality": "Spanish",
+      "profession": "painter, watercolorist, engraver", 
+      "masters": "Claudio Lorenzale",
+      "author of": "La batalla de Tetuán (1862-64); Viejo desnudo al sol (1863, Prado); La vicaría (1870)",
+      "portrayed by": "Federico Madrazo (1867, Museo Nacional de Arte de Cataluña)",
+      "married to": "Cecilia Madrazo",
+      "children": "Mariano; María Luisa",
+      "parents": "Federico Madrazo and Luisa Garreta",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny.jpg",
+      "image source": "portrait by Federico Madrazo, 1867, MNAC"
+    },
+    {
+      "id": "Louis Viardot",
+      "label": "Viardot",
+      "life dates": "1800-1883", 
+      "nationality": "French",
+      "profession": "writer, Hispanist", 
+      "in Spain": "in 1823",
+      "participates in": "the 'Expedition d'Espagne' or 'Cien Mil Hijos de San Luis' in 1823",
+      "author of": "Lettres d'un espagnol (1826); Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne (1835); longer essay on the Prado (Les musées d’Espagne, d’Angleterre et de Belgique) (1843); Les musées d'Espagne (1852)",
+      "visits the Prado Museum": "in 1834 (mentions Goya in his account): 1835 publication",
+      "mentions of Goya": "according to Pierre Géal (Viardot's profile, Prado): 'His opinion of Goya remains ambivalent, between praise for the strength and boldness of his brushstroke and reticence about the imperfections of the drawing'",
+      "sales": "30 April 1884 (included an 'Inquisition scene', no.6)",
+      "writes in": "journals Le Globe, Le National, Le Siècle; magazines Revue des Deux Mondes and Revue de Paris. In 1841 he founds the Revue Indépendante with Pierre Leroux and George Sand",
+      "websites": "Museo del Prado (Pierre Géal) https://www.museodelprado.es/aprende/enciclopedia/voz/viardot-louis/a587ebc8-f89a-412f-8566-1d6c3abb76d6",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
+    },
+    {
+      "id": "Jacques Galos",
+      "label": "Galos",
+      "life dates": "1774-1830", 
+      "nationality": "French",
+      "profession": "accountant?",
+      "collector of Goya's works": "Bulls of Bordeaux",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
+    },
+    {
+      "id": "XI Count of Altamira",
+      "label": "Altamira",
+      "full name": "Vicente Joaquín Osorio de Moscoso y Guzmán",
+      "life dates": "1756-1816", 
+      "nationality": "Spanish",
+      "profession": "aristocrat, banker, politician, scholar",
+      "considered as": "part of the group of Spanish 'ilustrados'",
+      "works as": "director and co-founder of the Banco de España; Gentilhombre de Cámra; Presidente de la Junta Suprema Gubernativa del Reino; Alférez mayor; Caballerizo mayor",
+      "member of": "RABASF",
+      "portrayed by": "Francisco de Goya y Lucientes, 1787 (Banco de España collection)",
+      "aristocratic titles": "Count of Altamira; grande España",
+      "decorations / awards": "Orden del Toisón de Oro",
+      "parents": "Ventura Antonio Osorio de Moscoso y Fernández de Córdoba and María de la Concepción de Guzmán y de la Cerda",
+      "curiosities": "after his father's death in 1776, he inherited a massive fortune and became one of the most powerful and richest men of his time. He catalogued his rich family library in 1789 with the librarian Pablo Recio. Altamira was particularly short, as commented by Lord Holland",
+      "websites": "Real Academia de Historia (Adriano Gutiérrez Alonso) https://historia-hispanica.rah.es/biografias/33463-vicente-joaquin-osorio-de-moscoso-y-guzman",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Altamira.jpg",
+      "image source": "Goya portrait, 1787, Banco de España"
+    },
+    {
+      "id": "Count of Floridablanca",
+      "label": "Floridablanca",
+      "full name": "José Moñino y Redondo",
+      "life dates": "1728-1808", 
+      "nationality": "Spanish",
+      "profession": "politician",
+      "considered as": "part of the group of Spanish 'ilustrados'",
+      "political views": "he was a key agent in the so-called 'reformismo ilustrado', encouraging improvements in infraestructures, administration and economy (such as the creation of the Dirección General de Caminos, 1785). However, he opposed the ideas of the French Revolution and became more conservative; he implemented censorship and reinforced the Inquisition, controlling the border to avoid the spread of revolutionary ideas. External politics: he made Spain participate in the Independence War at the US against Great Britain, getting back the territories of Menorca and Florida. His rivals were Count of Aranda (more liberal and pro-Revolution) and Manuel Godoy (his successor)",
+      "works as": "Primer Secretario de Estado (1777-92); Secretario de Gracia y Justicia (1782-90)",
+      "works for": "Carlos III; Carlos IV",
+      "member of": "Real Academia de Jurisprudencia y Legislación; Real Academia de Ciencias y Artes de Barcelona",
+      "portrayed by": "Pompeo Batoni, c.1776 (Art Institute of Chicago); Francisco de Goya y Lucientes, 1783 (Prado P003255)",
+      "aristocratic titles": "I Count of Floridablanca (from 1773)",
+      "decorations / awards": "Caballero de la Orden del Toisón de Oro; Orden de Carlos III",
+      "studied in": "University of Salamanca",
+      "pseudonyms": "Antonio José Dorre",
+      "curiosities": "Carlos III awards him with the title of Count of Floridablanca (1773) for his work as ambassador at the Holy See, contributing to the abolition of the Jesuit order",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Floridablanca.jpg",
+      "image source": "Goya portrait, 1783, Prado"
+    },
+    {
+      "id": "Jean-Auguste-Dominique Ingres",
+      "label": "Ingres",
+      "life dates": "1780-1867", 
+      "nationality": "French",
+      "profession": "painter", 
+      "author of": "Napoléon I (1806); Vœu de Louis XIII (Salon 1824); Portrait de Monsieur Bertin (Salon 1832)",
+      "in Paris": "1796-1806; 1824-1835; 1841-1867", 
+      "in Italy": "1806-1824 (1801 Grand prix de Rome en peinture)",
+      "works as": "directeur de l'Académie de France à Rome (1835-1842)",
+      "masters": "Joseph Roques, Jean Suau, Jacques-Louis David (1796)",
+      "students": "Amaury-Duval, Théodore Chassériau, Hippolyte Flandrin, Antoine Étex, Émile Hirsch, Romain Cazes, Louis Janmot, Alexandre Mauvernay, Charles Nègre, Clément Pruche, Henri Lehmann",
+      "curiosities": "he was a violin player at the Orchestre de Toulouse",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ingres.jpg"
+    },
+    {
+      "id": "Achille Ricourt",
+      "label": "Ricourt",
+      "life dates": "1797-1875",
+      "nationality": "French",
+      "profession": "actor, theater director, lithographic editor",
+      "editor of": "L'Artiste (which he founds in 1831)",
+      "works as": "lithographic editor of Daumier (after 1837)",
+      "address": "rue de-La-Tour-d'Auvergne",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ricourt.jpg"
+    },
+    {
+      "id": "Honoré Daumier",
+      "label": "Daumier",
+      "life dates": "1808-1879", 
+      "nationality": "French",
+      "profession": "lithographer, caricaturist, painter, sculptor",
+      "author of": "4,000 lithographs, 1,000 woodcuts",
+      "masters": "Alexandre Lenoir",
+      "works in": "Le Charivari, La Silhouette, La Caricature",
+      "patrons": "Adolphe Beugniet, Paul Durand-Ruel",
+      "curiosities": "Detained in the prison of Sainte-Pélagie (Paris) for the caricature Gargantua (1831)",
+      "pseudonyms": "Rogelin",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg"
+    },
+    {
+      "id": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "label": "Grandville",
+      "life dates": "1803-1847", 
+      "nationality": "French",
+      "profession": "draughtsman, caricaturist", 
+      "author of": "Les Métamorphoses du jour (1829); Fables de La Fontaine (1838-40); Scènes de la vie privée et publique des animaux  (1842); Un autre monde (1844); Don Quichotte (1848)",
+      "works in": "La Caricature, Le Charivari",
+      "knows Goya's works": "by 1829", 
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Grandville.jpg"
+    },
+    {
+      "id": "Juan Antonio Melón",
+      "label": "Melón",
+      "life dates": "1758-1843", 
+      "nationality": "Spanish",
+      "profession": "writer, clergyman",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Melon.jpg"
+    },
+    {
+      "id": "Antoine-Jean Gros",
+      "label": "Gros",
+      "life dates": "1771-1835", 
+      "nationality": "French",
+      "profession": "painter", 
+      "masters": "Jacques-Louis David",
+      "students": "Charles-Philippe Larivière, Paul Huet, Louis Léopold Robert",
+      "portrayed by": "François Gérard (c.1790)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gros.jpg"
+    },
+    {
+      "id": "Paul Delaroche",
+      "label": "Delaroche",
+      "life dates": "1797-1856", 
+      "nationality": "French",
+      "profession": "painter", 
+      "participates in": "Salon 1822 (1st time): gets Géricault's attention", 
+      "masters": "Louis Étienne Watelet, Antoine-Jean Gros",
+      "married to": "Louise Vernet (daughter of Horace Vernet)",
+      "curiosities": "his living descendants are named Delaroche-Vernet",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delaroche.jpg"
+    },
+    {
+      "id": "Frédéric Chopin",
+      "label": "Chopin",
+      "life dates": "1810-1849", 
+      "nationality": "Polish",
+      "profession": "musician, composer, pianist",
+      "in Spain": "1838-1839, Mallorca, with George Sand",
+      "curiosities": "he stated that in Mallorca 'The three most celebrated doctors on the island have seen me ... The first said I was dead, the second that I am dying, and the third that I'm going to die' (1962, ed. Bronisław Edward Sydow, p.164)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Chopin.jpg"
+    },
+    {
+      "id": "Jacques-Louis David",
+      "label": "David",
+      "life dates": "1748-1825", 
+      "nationality": "French",
+      "profession": "painter", 
+      "author of": "Bonaparte franchissant le Grand-Saint-Bernard (1800, Malmaison); Mme Récamier [Juliette Récamier] (1800, Louvre)", 
+      "participates in": "Convention National", 
+      "works for": "Napoléon I",
+      "masters": "Joseph-Marie Vien", 
+      "students": "Jean-Germain Drouais, Antoine-Jean Gros, Jean-Auguste-Dominique , Girodet, François Gérard, Marie-Guillemine Benoist, Jacques-Louis-Michel Grandin, José Madrazo",
+      "curiosities": "Bonaparte franchissant le Grand-Saint-Bernard (1800) was commissioned by the Spanish king Charles IV (through the French ambassador Charles-Jean-Marie Alquier)", 
+      "archives": "Archives nationales (MC/ET/CVIII/854)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/David.jpg"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Mariano Goya",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandfather-grandson",
+      "portraits": "1812-14, private collection, Duke of Alburquerque, Madrid; 1827 Meadows Museum, Texas"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Javier Goya",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son",
+      "correspondence": "Correspondence. 1824-XII-24: Goya wonders why Javier doesn't answer his letters; mentions Galos (Canellas no.271, p.388); 1828-I-17: mentions Galos, Mugurio and Esteve (no.277, p.392); 1828-III-12: mentions Mariano and Galos (no.279, p.393); 1828-III-26 (no.280, p.394)",
+      "portraits": "1805 private collection, Casa Torres, drawing (GW.843); 1805, Museo de Zaragoza, miniature (GW.844); 1805-06, private collection, Paris, full portrait (GW.852); 1810-15 Boston MFA (GW.837); 1824 private collection, drawing (GW.1636)"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Martín Zapater",
+      "connection_level": "direct",
+      "relationship type": "best friends",
+      "know each other since": "1765",
+      "correspondence": "1765-1803. First letter: 1st letter in Diplomatario (Canellas López): 1774? (no.4); 6 Sept 1775 (no.7); 22 Jan 1777 (no.11); March 1777 (no.13); 16 April 1777 (no.14); 16 April 1777 (no.15); 21 Jan 1778 (no.17); 31 Jan 1778 (no.19); 7 Oct 1778 (no.21); Dec 1778 (no.23); 9 Jan 1779 (no.25); 25 Feb 1780 (no.29); 10 May 1780 (no.31); 17 May 1780 (no.32); 24 May 1780 (no.33); [21] July 1780 (no.34); 9 Aug 1780 (no.35); 16 Aug 1780 (no.36); 23 Aug 1780 (no.37); 23 Aug 1780 (no.37); ... (Bib: Cartas a Martín Zapater, ed. Águeda and Salas, 2003)",
+      "they met": "in Zaragoza",
+      "portraits": "Goya portrayed Zapater in c.1780 (private collection), 1790 (Museo de Arte de Ponce, Puerto Rico) and 1797 (Museo de Bellas Artes de Bilbao)"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Gumersinda Goicoechea",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-in-law, daughter-in-law",
+      "portraits": "1805, Museo de Zaragoza, miniature (GW.845); 1805, drawing, lost (GW.841); 1805-06, private collection, Paris, full portrait (GW.851)"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Francisco Bayeu",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers-in-law"
+    },
+    {
+      "from": "Josefa Bayeu",
+      "to": "Francisco Bayeu",
+      "connection_level": "direct",
+      "relationship type": "siblings; brother-sister"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Francisco Bayeu",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Gumersinda Goicoechea",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife",
+      "married in": "1805",
+      "children": "Mariano Goya"
+    },
+    {
+      "from": "Josefa Bayeu",
+      "to": "Gumersinda Goicoechea",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-in-law, daughter-in-law"
+    },
+    {
+      "from": "Mariano Goya",
+      "to": "Gumersinda Goicoechea",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Ferdinand Guillemardet",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "know each other since": "at least 1798",
+      "portraits": "1798 Louvre"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Antonio de Brugada",
+      "connection_level": "direct",
+      "relationship type": "close friends" 
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Juan Agustín Ceán Bermúdez",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "portraits": "c.1783, c.1786"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Joaquín María Ferrer",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "correspondence": "28 Nov 1824: Goya tells Ferrer about Rosario, praising her artistic skills, asking F to host her in Paris for her to learn painting. No response from Ferrer",
+      "portraits": "1824"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Agustín Esteve",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "they met": "1824 in Bordeaux (letter of Moratín to Melón, 30 Sept 1824, Canellas no.154)"
+    },
+    {
+      "from": "Juan Antonio Melón",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "correspondence": "15 July 1826, letter of Moratín to Melón, from Bordeaux (Canellas no.174); July 1828, from Paris, letter of Moratín to Melón (Canellas no.173)"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "patronage"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Cyprien Gaulon",
+      "connection_level": "direct",
+      "relationship type": "patronage"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Pierre Lacour",
+      "connection_level": "direct",
+      "label": ""
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Nicolas Philippe Guye",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1810"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Victor Guye",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1810"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Dominique Vivant Denon",
+      "connection_level": "secondary/direct?",
+      "relationship type": "Vivant Denon acquired a set of the Caprichos in Spain c.1808"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Adrien Dauzats",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they met": "in Bordeaux (1824-28) at Pierre Lacour's establishment"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Vicente López",
+      "connection_level": "direct",
+      "portraits": "López portrayed Goya"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Leocadia Zorrilla y Galarza",
+      "connection_level": "direct",
+      "relationship type": "employer/employee; housekeeper",
+      "portraits": "Not known"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Rosario Weiss Zorrilla",
+      "connection_level": "direct",
+      "relationship type": "protegée; master-student"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Josefa Bayeu y Subías",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Sebastián Martínez y Pérez",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "portraits": "1792, New York, Metropolitan Museum, 06.289"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Pierre Lacour fils",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "coincided in Bordeaux. Goya probably asked Lacour to teach Rosario Weiss"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Jacques Galos",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "portraits": "1826, Barnes Foundation"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Juan Antonio Melón",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Mariano Goya",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "friends; business partners?"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Baron Taylor",
+      "connection_level": "direct",
+      "relationship type": "business partners (sold a group of paintings attributed to Francisco de Goya y Lucientes in 1837 for the Galerie espagnole)"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; business partners?"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Leocadia Zorrilla y Galarza",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Jacques Galos",
+      "label": ""
+    },
+    {
+      "from": "Javier Goya",
+      "to": "Josefa Bayeu y Subías",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Mariano Goya",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; business partners?"
+    },
+    {
+      "from": "Mariano Goya",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; business partners?"
+    },
+    {
+      "from": "Mariano Goya",
+      "to": "Román Garreta",
+      "label": ""
+    },
+    {
+      "from": "Luisa Garreta",
+      "to": "Román Garreta",
+      "connection_level": "direct",
+      "relationship type": "siblings; brother-sister"
+    },
+    {
+      "from": "Luisa Garreta",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife",
+      "married in": "1834",
+      "children": "Luisa Madrazo, Raimundo Madrazo, Cecilia Madrazo, Ricardo Madrazo"
+    },
+    {
+      "from": "Luisa Garreta",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son" 
+    },
+    {
+      "from": "Mariano Goya",
+      "to": "Josefa Bayeu y Subías",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandmother-grandson"
+    },
+    {
+      "from": "Martín Zapater",
+      "to": "Juan Agustín Ceán Bermúdez",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1837", 
+      "they met": "19 Aug 1861 (Paris): with Baron Taylor and Eugenio Ochoa",
+      "correspondence": "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París' (Bib: Lanzarote Guiral 2016 p.XXIII; Díez 1994, no.528, pp.988-89)"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+      {
+      "from": "Federico Madrazo",
+      "to": "Eugenio Ochoa",
+        "connection_level": "direct",
+      "relationship type": "close friends"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "friends/acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Alexandre Dumas père",
+      "label": ""
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Adrien Dauzats",
+      "connection_level": "direct",
+      "relationship type": "close friends",
+      "portraits": "Madrazo portrays Adrien Dauzats in 1837"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Baron Taylor",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Mariano Fortuny",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife",
+      "children": "Mariano; María Luisa"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
+    },
+    {
+      "from": "Luisa Garreta",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "Mariano Fortuny",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-in-law, son-in-law"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Román Garreta",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers-in-law"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Luis Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct? and secondary",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Pharamond Blanchard",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Jean-Auguste-Dominique Ingres",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Achille Devéria",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Achille Ricourt",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Juan Antonio Melón",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Antoine-Jean Gros",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Paul Delaroche",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Adrien Dauzats",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "know each other since": "at least 1841",
+      "correspondence": "1856-VII-8 (Carderera archive): Mérimée answers he doesn't own a set of Goya's 'Toros' and he could buy a set if not too expensive; that he doesn't know the 'Proverbios' nor the 'suppressed Caprichos'(Fayos-Pérez 2020; Fayos-Pérez 2024 p.65)",
+      "relationship type": "acquaintances; correspondent; art dealing?"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Pharamond Blanchard",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Laurent Matheron",
+      "connection_level": "direct"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Achille Devéria",
+      "connection_level": "direct"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Théophile Gautier",
+      "connection_level": "direct"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Philippe Burty",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Charles Blanc",
+      "connection_level": "direct",
+      "know each other since": "at least 1861",
+      "they met": "1861 in Paris (Lanzarote Guiral 2016, p.536)",
+      "link to Goya's work": "1861 in Paris, C gives Blanc Goya prints (Lanzarote Guiral 2016, p.536)"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Gustave Brunet",
+      "connection_level": "direct",
+      "know each other since": "at least 1842",
+      "shared": "correspondence. 1863-XI-5 (Carderera archive): mentions Goya's Caprichos, Tauromaquia, 'Scènes d'invasion' (Desastres) and 'Sueños o Proverbios' (Disparates) (Fayos Pérez 2020)"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Paul Lefort",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Eugène Piot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "correspondence": "Not located (this correspondence exists according to Bonnaffé 1890, p.35)",
+      "know each other since": "at least 1842",
+      "they met": "22 Nov 1842 (diary): Carderera reviews with Piot his notes on Goya (Lanzarote Guiral 2016, p.167); 24 Sept 1855: Carderera visits Piot's house (Lanzarote Guiral 2016, p.565); 13 July 1861 C shows P his drawings and Goyas'; 2 Aug 1861 C gives Piot the copies explanation of Goya (Prado commentaries) (ibid. p.454, 462; they also meet other times 1861: pp.453, 459, 464)",
+      "collaborations": "Carderera helped Piot with his Goya catalogue raisonné (1842), as well as Gautier",
+      "mentions": "Piot mentions Carderera and Agustín Ceán Bermúdez in his catalogue raisonné 1842 (p.346)"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Alejandro Aguado",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "1841", 
+      "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "XI Count of Altamira",
+      "to": "Alejandro Aguado",
+      "connection_level": "secondary",
+      "relationship type": "Aguado acquired a part of Altamira's collection (Lanzarote Guiral 2016, p.LV)."
+    },
+    {
+      "from": "XI Count of Altamira",
+      "to": "Count of Altamira",
+      "connection_level": "direct",
+      "relationship type": "acquaintance"
+    },
+    {
+      "from": "Bernardo de Iriarte",
+      "to": "Alejandro Aguado",
+      "connection_level": "secondary",
+      "relationship type": "Aguado acquired a part of Iriarte's collection (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "XI Count of Altamira",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage; model-sitter",
+      "know each other since": "at least 1787",
+      "portraits": "1787, Banco de España"
+    },
+    {
+      "from": "Bernardo de Iriarte",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1794", 
+      "correspondence": "1794-I-4 Goya to Iriarte: the famous letter where Goya announces his small cabinet paintings out of commission, on topics drawn from the 'capricho e invención' (Canellas p.314, no.188; also no.189, 1794-I-7)",
+      "portraits": "Goya portrays Iriarte in 1797 (Strasbourg)",
+      "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "Honoré Balzac",
+      "to": "Alejandro Aguado",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "they shared": "artists and writers like Balzac, Rossini and Nerval participated in the meetings at the Aguado residence in Paris"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "[J./L.] Carresse",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends",
+      "correspondence": "21 June 1857 (Carderera archive) (Fayos-Pérez 2020)",
+      "label": ""
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Charles Yriarte",
+      "connection_level": "direct",
+      "mentions": "Yriarte acknowledges Carderera, Zarco del Valle, Fco Zapater and Lefort ('nous ont aidé de leurs lumières et de leurs documents), 1867, Avant-propos",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Baron Taylor",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1837",
+      "they met": "1837-X-2 Carderera offers Taylor to sell 2 Morales paintings, via Federico Madrazo (letter Federico Madrazo to Baron Taylor, Bordeaux, 2 Oct 1837: Lanzarote Guiral 2016 p. XXIII; Porée 1907, p.296); 1841-V-5, Paris: Taylor invites him to the Comédie Française (Lanzarote Guiral 2016, p.XLIX, p.11); 1841 V 7, 9, 21; 1841 XI 21 (he introduces Ferdinand Denis); 1841 XII 19; 1842 I 2, 5-7, 13, 17; 1842 IV 10; 1842 VIII 28; 1842 IX 11, 24, 28, 30 (Baron Taylor sees a portrait); 1842-XI-27; 1843-I-8; 1845-V-6; 1845 X 12 (sees a Velázquez portrait 'in Vienna'); 1845 XI 12, 14, 15; 1855 X-9, XI 3, 25, 26; 1859-X-1; 1861 VII 19, 29, 31, VIII 7, 19, 20, 21, IX 21; in Antwerp",
+      "artworks bought/sold": "1839: Taylor offers Carderera a deal to buy his drawings and texts (Adrien Dauzats as middleman)"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Eugenio Ochoa",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Luis Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Frédéric Villot",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Pharamond Blanchard",
+      "connection_level": "direct",
+      "relationship type": "colleagues; employer-employee",
+      "know each other since": "at least 1825",
+      "collaborations": "Madrazo hired Blanchard to make lithographic reproductions at the Real Museo in Madrid"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Baron Taylor",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; patronage",
+      "know each other since": "at least 1833 (via Blanchard, in Madrid)",
+      "correspondence": "2 Oct 1837: Carderera offers Taylor to sell 2 Morales paintings, via Madrazo (Lanzarote Guiral 2016, p.XXIII; Porée 1907, p.296)",
+      "portraits": "1833 (Madrazo portrays Taylor)"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Adrien Dauzats",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "1833"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Luis Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandfather-grandson"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Román Garreta",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-in-law, son-in-law"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Eugenio Ochoa",
+      "connection_level": "direct",
+      "relationship type": "acquaintances? friends?"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Jean-Auguste-Dominique Ingres",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends"
+    },
+    {
+      "from": "José Madrazo",
+      "to": "Jacques-Louis David",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Adrien Dauzats",
+      "connection_level": "direct",
+      "know each other since": "at least 1832",
+      "relationship type": "friends",
+      "collaborations": "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole; also for 'Voyages pittoresques de l'ancienne France'",
+      "in Spain": "1835-1837", 
+      "correspondence": "1837-VII-5 (Paris) Taylor to Dauzats: he laments that Dauzats's trip in Spain is not being more fruitful; 'Je désire bien vivement qu'il en soit autrement. M. Gautier vous accompagnait. Revenez très promptement' (coll. Claude Roger-Marx) (Guinard 1967, 'Dauzats and Blanchard', p.271); 1837-VII-15, Taylor to Dauzats (Paris): about Dauzats's Spanish trip; 1842-II-27 (London) Taylor to Dauzats: BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162] 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra'"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Eugenio Ochoa",
+      "label": ""
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Pharamond Blanchard",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Charles Nodier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Louis Viardot",
+      "label": ""
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Jean-Auguste-Dominique Ingres",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1833",
+      "they met": "in 1833 to visit the Louvre's department of sculptures with Federico Madrazo"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Pharamond Blanchard",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Eugène Delacroix",
+      "relationship type": "friends",
+      "correspondence": "1846, 12 Aug: Delacroix asks Dauzats for Goya's lithographies ('Goya ou la mort, cher ami') (Delacroix - Joubin 1936, p.275)",
+      "curiosities": "Delacroix named Dauzats the executor of his will (Mainer and Enguita 1999, p.128)"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Antonio de Brugada",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Frédéric Villot",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1837?", 
+      "correspondence": "1847 Delacroix to Gautier: mention of 'eight small Goyas' of bullfighting at Mauroner’s gallery on 35 rue Laffitte. Adrien Dauzats mentions a Spanish painter and restorer called Bueno, who had brought the alleged Goyas from Madrid",
+      "mentions": "24 Sept 1837, Gautier mentions Dauzats and Taylor in an article about the Galerie espagnole (La Presse, pp.1-2)"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Pierre Lacour",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they met": "in 1824 in Bordeaux"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Eugenio Ochoa",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Charles Nodier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Jean-Auguste-Dominique Ingres",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1833"
+    },
+    {
+      "from": "Pharamond Blanchard",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "they met": "1846 in Madrid: royal wedding (also Théophile Gautier)"
+    },
+    {
+      "from": "Pharamond Blanchard",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "they met": "1846 in Madrid: royal wedding (also Alexandre Dumas père)"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "correspondence": "yes"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "know each other since": "at least in 1824-1834 in Paris"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "know each other since": "at least in 1824-1834 in Paris"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct? and secondary",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Théophile Gautier",
+      "connection_level": "direct? and secondary",
+      "relationship type": "acquaintances",
+      "mentions": "Eugenio Ochoa criticizes Gautier: “la vergonzosa tutela literaria en que nos tienen hace tanto tiempo los novelistas de Tras-os-Montes”, y en una nota: “Así titula M. Th. Gautier su llamado Viaje a España, libro tan verídico, tan chusco como las flamantes cartas de M. Alejandro Dumas” (Eugenio Ochoa, “Doña Blanca de Navarra, crónica del siglo XV por D. F. Navarro Villoslada, Art. II”, Renacimiento, 1847, p.79) (Randolph 1966, p.55)"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Luis Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Victor Hugo",
+      "connection_level": "direct? and secondary",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Achille Ricourt",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1833 (with Federico Madrazo): visit of L'Artiste, which would inspire El Artista"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Paul Delaroche",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1833 (with Federico Madrazo)"
+    },
+    {
+      "from": "Ferdinand Guillemardet",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends's father"
+    },
+    {
+      "from": "Ferdinand Guillemardet",
+      "to": "Félix Guillemardet",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Félix Guillemardet",
+      "connection_level": "direct",
+      "relationship type": "close friends"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Laurent Matheron",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?, friends?",
+      "correspondence": "1857, Delacroix congratulates Matheron for the publication of his book on Goya; 2 artworks by Goya have entered the Louvre collections thanks to Matheron [INHA NUM 0554 (01)] (https://bibliotheque-numerique.inha.fr/idurl/1/6255)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Frédéric Villot",
+      "connection_level": "direct",
+      "relationship type": "close friends",
+      "correspondence": "since 1830 (Burty 1880, t.1, pp.149, 166, 169, 178, 188, 191, 198, 202, 204, 213, 228, 234, 236, 243, 246, 292, 307, 321, 322)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "correspondence": "since 1828 (Burty 1880, t.I, p.130, 134)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "close friends",
+      "know each other since": "at least 1834",
+      "correspondence": "1846-X-11 (MD 2012-13)",
+      "portraits": "1834, Musée Delacroix (MD 2016-1); 1838, Copenhagen"
+    },
+    {
+      "from": "George Sand",
+      "to": "Louis Viardot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1841",
+      "shared": "co-founders of the Revue indépendante with Pierre Leroux in 1841"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Alfred de Musset",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "correspondence": "since 1838 (Burty 1880, t.I, p.235)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "mentions": "Baudelaire: 'Delacroix was passionately in love with passion, but coldly determined to express passion as clearly as possible'"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Théophile Thoré",
+      "connection_level": "direct",
+      "relationship type": "friends; correspondents", 
+      "correspondence": "since 1837 (Burty 1880, t.I, pp.216, 218, 219, 255, 266-269, 296, 301, 309, 318, 338)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "friends; correspondents", 
+      "correspondence": "since 1840 (Burty 1880, t.I, p.238, 240)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Achille Ricourt",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; professional contact"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Jean-Auguste-Dominique Ingres",
+      "connection_level": "direct",
+      "relationship type": "colleagues; rivals"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Antoine-Jean Gros",
+      "connection_level": "direct? and secondary",
+      "know each other since": "at least 1824",
+      "mentions": "Gros about The Massacre at Chios (1824): 'a massacre of art'"
+    },
+    {
+      "from": "Juan Agustín Ceán Bermúdez",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Juan Agustín Ceán Bermúdez",
+      "to": "Sebastián Martínez y Pérez",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Agustín Esteve",
+      "to": "Eugène Piot",
+      "connection_level": "secondary?",
+      "mentions": "Piot mentions Esteve as the author of the 2nd 'tirage'; from the Caprichos (Catalogue raisonné, Cabinet de l'Amateur, 1842, p.355)"
+    },
+    {
+      "from": "Frédéric Villot",
+      "to": "Eugène Piot",
+      "connection_level": "direct",
+      "collaborations": "Authors of Catalogue raisonné of Goya's prints, Cabinet de l'amateur, 1842"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Louis Boulanger",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Antoine Fontaney",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Victor Hugo",
+      "label": ""
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Achille Ricourt",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; professional contact"
+    },
+    {
+      "from": "Louis Boulanger",
+      "to": "Antoine Fontaney",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Louis Boulanger",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends", 
+      "know each other since": "at least 1829", 
+      "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
+      "collaborations": "Boulanger illustrates Les orientales (1829): Les Fantômes"
+    },
+    {
+      "from": "Antoine Fontaney",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Antoine Fontaney",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1831", 
+      "link to Goya's work": "Upon his return from Spain in January 1831, Fontaney shows his Caprichos set in the Arsenal (Nodier's salon), 8 Sept 1831, to artists such as Gautier (Fayos Pérez 2024, p.41)"
+    },
+    {
+      "from": "Antoine Fontaney",
+      "to": "Charles Nodier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?"
+    },
+    {
+      "from": "Antoine Fontaney",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?",
+      "shared": "social circle of Nodier's salon at Arsenal and Victor Hugo's Cenacle"
+    },
+    {
+      "from": "Antoine Fontaney",
+      "to": "Adélaïde de Montgolfier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1831", 
+      "mentions": "Fontaney mentions Montgolfier in his journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier' when he shows the 'Goya' (Caprichos) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
+    },
+    {
+      "from": "Antoine Fontaney",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1831",
+      "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier (...)' when he shows the 'Goya' (Caprichos) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
+    },
+    {
+      "from": "Stendhal",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Lamartine",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Théophile Gautier",
+      "relationship type": "acquaintances; friends?",
+      "know each other since": "1827, 27 June, (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Hugo attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Nicolas Philippe Guye",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends of Hugo's father (Léopold Hugo)",
+      "know each other since": "1881"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Victor Guye",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "know each other since": "at least 1811",
+      "shared": "Same seminary school in Madrid by 1811 (College of Nobles)"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Charles Nodier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Fortunée Hamelin",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; lovers?"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "know each other since": "at least 1837", 
+      "they met": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Honoré de Balzac",
+      "relationship type": "friends", 
+      "know each other since": "at least 1835",
+      "collaborations": "Balzac suggests Gautier to collaborate in La Chronique de Paris; Gautier is the author of one of the 1st biographies of Balzac",
+      "mentions": "Gautier: 'Je travaille à La Chronique de Paris qui est maintenant dirigée par Balzac qui est un bon gros porc très plein d’esprit et très agréable à vivre' (letter of Gautier to  E. de Nully, 1836)",
+      "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee (https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Eugène Piot",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1840",
+      "shared": "trip to Spain in 1840",
+      "collaborations": "trip to Spain; authorship of Goya's catalogue raissonné 1842",
+      "correspondence": "1842 [Aug?] Gautier asks Piot to borrow his 'Toromaquia' (Tauromaquia): ‘Prête-moi la Toromaquia pour un instant, après je t’appartiens’"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "they met": "1846 in Madrid: royal wedding (also Pharamond Blanchard)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Philippe Burty",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "linked to Goya's work": "By 1871: Gautier saw Burty's working proofs of Disasters of War (Fayos-Pérez 2024, p.54; Gautier, 2 Feb 1871; Delesalle 1983, p.104)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "shared": "Gautier attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "the early 1830s; in 1835 in Vienna (Custine meets Mme Hanska)", 
+      "correspondence": "since at least 1838; Balzac attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine); Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's Disparates) (Fayos Pérez 2025, publication pending)"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Alphonse de Lamartine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Stendhal (Henri Beyle)",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "bibliography": "Marcel Bouteron, 'L'amitié de Balzac et de Stendhal', Revue des Deux Mondes, July 1941, pp.95-"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Juliette Récamier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends?"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "mentions": "Baudelaire admired Balzac as a 'visionnaire passionné': 'Tous ses personnages sont doués de l'ardeur vitale dont il était animé lui-même. Toutes ses fictions sont aussi profondément colorées que les rêves […] bref, chacun dans Balzac, mêmes les portières, a du génie. Toutes les âmes sont des âmes chargées de volonté jusqu'à la gueule'"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Gustave Flaubert",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "George Sand",
+      "to": "Gustave Flaubert",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Madame Ewelina Hanska",
+      "connection_level": "direct",
+      "relationship type": "lovers; patronage"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Achille Ricourt",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Alexandre Dumas père",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "in 1837 in Paris (with Federico Madrazo) (https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Adélaïde de Montgolfier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Jean-Auguste-Dominique Ingres",
+      "to": "Adélaïde de Montgolfier",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "mentions": "Gautier mentions Nodier's Histoire du roi de Bohême (1830), Le Figaro, 19 Oct 1836, 'Les récréations du génie' (Lacsote-Veysseyre 2014, p.218)"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "shared": "Sand attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Sophie Gay",
+      "relationship type": "friends", 
+      "bibliography": "Bénichou, Romantismes français t.I, ed. 2004, p.9"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Alphonse de Lamartine",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Juliette Récamier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Stendhal (Henri Beyle)",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Stendhal attended Custine's salon (https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Charles-Augustin Sainte-Beuve",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Madame Ewelina Hanska",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they met": "1835 in Vienna with Honoré de Balzac"
+    },
+    {
+      "from": "Adélaïde de Montgolfier",
+      "to": "Louise Swanton Belloc",
+      "connection_level": "direct",
+      "relationship type": "close friends; colleagues"
+    },
+    {
+      "from": "Pierre Lacour",
+      "to": "Pierre Lacour fils",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "George Sand",
+      "to": "Alfred de Musset",
+      "connection_level": "direct",
+      "relationship type": "lovers (1833-1835)"
+    },
+    {
+      "from": "George Sand",
+      "to": "Frédéric Chopin",
+      "connection_level": "direct",
+      "relationship type": "lovers (c.1838)"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Frédéric Chopin",
+      "connection_level": "direct",
+      "relationship type": "friends (c.1838)"
+    },
+    {
+      "from": "George Sand",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "lovers"
+    },
+    {
+      "from": "Philippe Burty",
+      "to": "Charles Blanc",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Nicolas Philippe Guye",
+      "to": "Victor Guye",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Román Garreta",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Leocadia Zorrilla y Galarza",
+      "to": "Rosario Weiss Zorrilla",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "Rosario Weiss Zorrilla",
+      "to": "Pierre Lacour fils",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "Juliette Récamier",
+      "to": "Madame de Staël",
+      "relationship type": "friends", 
+      "connection_level": "direct",
+      "correspondence": "Yes. (Lettres de Madame de Staël à Madame de Récamier, Paris, Domat, 1952)"
+    },
+    {
+      "from": "Juliette Récamier",
+      "to": "Jacques-Louis David",
+      "connection_level": "direct",
+      "relationship type": "model/sitter",
+      "know each other since": "at least 1800",
+      "portraits": "1800, Louvre"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Achille Ricourt",
+      "connection_level": "direct",
+      "relationship type": "professional contact"
+    },
+    {
+      "from": "Pedro Madrazo",
+      "to": "Luis Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Pedro Madrazo",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Luis Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Luis Madrazo",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "Jean-Auguste-Dominique Ingres",
+      "to": "Jacques-Louis David",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "Achille Ricourt",
+      "to": "Honoré Daumier",
+      "connection_level": "direct",
+      "relationship type": "professional contact",
+      "know each other since": "at least 1837"
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "connection_level": "direct",
+      "relationship type": "colleagues" 
+    },
+    {
+      "from": "Antoine-Jean Gros",
+      "to": "Paul Delaroche",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "Antoine-Jean Gros",
+      "to": "Jacques-Louis David",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "secondary",
+      "relationship type": "influenced by Goya (see Fayos Pérez 2024)" 
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "secondary",
+      "relationship type": "influenced by Goya (see Fayos Pérez 2024)" 
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "secondary",
+      "relationship type": "influenced by Goya, from c.1819 (see Fayos Pérez 2024)" 
+    }
+  ]
+}
