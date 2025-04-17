@@ -179,6 +179,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "member of", label: "Member of" },
           { key: "curiosities", label: "Curiosities" },
           { key: "correspondence", label: "Correspondence" },
+          { key: "political views", label: "Political views" },
+          { key: "decorations / awards", label: "Decorations / awards" },
           { key: "image source", label: "Image source" }
         ];
 
