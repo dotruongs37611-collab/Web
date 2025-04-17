@@ -440,11 +440,20 @@
     {
       "id": "George Sand",
       "label": "George Sand",
+      "full name": "Aurore Lucile Dupin de Dudevant",
       "life dates": "1804-1876", 
       "nationality": "French",
-      "profession": "writer, novelist, journalist", 
+      "profession": "writer, novelist, journalist, salonnière, art critic, playwright, libretist, composer", 
+      "in Spain": "1808-1809 her family lived in Spain at the palace of Manuel Godoy when this one was exiled in Paris",
+      "knows Goya's works": "by 1834",
       "mentions of Goya": "Journal intime, 25 Nov 1834 (jealousy over Goya's women regarding Alfred de Musset)",
-      "author of": "Album of drawings. Clumsy copy of Velázquez’s Infanta Margarita. Collection Lovenjoul Chantily [now at Institut de France? (Lipschutz 1972, p.117)",
+      "author of": "Voyage chez Mr. Blaise (1829); Voyage en Auvergne (1829); Voyage en Espagne (1829); Un hiver en Majorque (1841); La Petite Fadette (1849); Histoire de ma vie (1855). Album of drawings. Clumsy copy of Velázquez’s Infanta Margarita. Collection Lovenjoul Chantily [now at Institut de France? (Lipschutz 1972, p.117)",
+      "parents": "Maurice Dupin de Francueil and Sophie Victoire Delaborde",
+      "married to": "Casimir Dudevant (1822-35)",
+      "partners/lovers": "Prosper Mérimée; Jules Sandeau; Alfred de Musset (1833-35); Félicien Mallefille; Frédéric Chopin; Victor Borie (1848-49); Alexandre Manceau (1849-64)",
+      "children": "Maurice Sand; Solange Sand",
+      "pseudonyms": "George Sand; Amandine; Amantine",
+      "portraits": "Eugène Delacroix, 1838; Auguste Charpentier, 1838",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg"
     },
     {
