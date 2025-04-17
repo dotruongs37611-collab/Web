@@ -745,7 +745,7 @@
       "id": "Louis Viardot",
       "label": "Viardot",
       "life dates": "1800-1883", 
-      "profession": "wirter, Hispanist", 
+      "profession": "writer, Hispanist", 
       "in Spain": "in 1823",
       "participates in": "the 'Expedition d'Espagne' or 'Cien Mil Hijos de San Luis' in 1823",
       "author of": "Lettres d'un espagnol (1826); Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne (1835); longer essay on the Prado (Les musées d’Espagne, d’Angleterre et de Belgique) (1843); Les musées d'Espagne (1852)",
@@ -763,6 +763,23 @@
       "profession": "accountant?",
       "collector of Goya's work": "Bulls of Bordeaux",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
+    },
+    {
+      "id": "XI Count of Altamira",
+      "label": "Altamira",
+      "full name": "Vicente Joaquín Osorio de Moscoso y Guzmán",
+      "life dates": "1756-1816", 
+      "profession": "aristocrat, banker, politician, scholar",
+      "considered as": "part of the group of Spanish 'ilustrados'",
+      "worked as": "director and co-founder of the Banco de España; Gentilhombre de Cámra; Presidente de la Junta Suprema Gubernativa del Reino; Alférez mayor; Caballerizo mayor",
+      "member of": "RABASF",
+      "portrayed by": "Francisco de Goya y Lucientes, 1787 (Banco de España collection)",
+      "aristocratic titles": "Count of Altamira; grande España; Orden del Toisón de Oro",
+      "parents": "Ventura Antonio Osorio de Moscoso y Fernández de Córdoba and María de la Concepción de Guzmán y de la Cerda",
+      "curiosities": "after his father's death in 1776, he inherited a massive fortune and became one of the most powerful and richest men of his time. He catalogued his rich family library in 1789 with the librarian Pablo Recio. Altamira was partichularly short, as commented by Lord Holland",
+      "bibliography": "profile at the Real Academia de Historia, by Adriano Gutiérrez Alonso https://historia-hispanica.rah.es/biografias/33463-vicente-joaquin-osorio-de-moscoso-y-guzman",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Altamira.jpg",
+      "image source": "Goya portrait, 1787, Banco de España"
     },
     {
       "id": "Jean-Auguste-Dominique Ingres",
@@ -1409,6 +1426,26 @@
       "relationship type": "acquaintances",
       "know each other since": "1841", 
       "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "XI Count of Altamira",
+      "to": "Alejandro Aguado",
+      "connection_level": "secondary",
+      "relationship type": "Aguado acquired a part of Altamira's collection (Lanzarote Guiral 2016, p.LV)."
+    },
+    {
+      "from": "Bernardo de Iriarte",
+      "to": "Alejandro Aguado",
+      "connection_level": "secondary",
+      "relationship type": "Aguado acquired a part of Iriarte's collection (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "XI Count of Altamira",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage; model-sitter",
+      "know each other since": "at least 1787",
+      "portraits": "1787, Banco de España"
     },
     {
       "from": "Bernardo de Iriarte",
