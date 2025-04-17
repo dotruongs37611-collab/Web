@@ -1406,6 +1406,24 @@
       "relationship type": "friends"
     },
     {
+      "from": "Gaspar Melchor de Jovellanos",
+      "to": "Juan Agustín Ceán Bermúdez",
+      "connection_level": "direct",
+      "relationship type": "friends; colleagues"
+    },
+    {
+      "from": "Juan Agustín Ceán Bermúdez",
+      "to": "Francisco de Cabarrús",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
+    },
+    {
+      "from": "Juan Agustín Ceán Bermúdez",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
       "from": "Federico Madrazo",
       "to": "Valentín Carderera",
       "connection_level": "direct",
