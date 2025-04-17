@@ -1615,7 +1615,13 @@
     },
     {
       "from": "XI Count of Altamira",
-      "to": "Count of Altamira",
+      "to": "Count of Floridablanca",
+      "connection_level": "direct",
+      "relationship type": "acquaintance"
+    },
+    {
+      "from": "Gaspar Melchor de Jovellanos",
+      "to": "Count of Floridablanca",
       "connection_level": "direct",
       "relationship type": "acquaintance"
     },
