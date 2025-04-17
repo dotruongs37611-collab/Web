@@ -391,6 +391,26 @@ const query = searchInput.value.trim().toLowerCase();
       lastHighlightedNodes = matchingNodes;
     });
 
+    document.getElementById('nationalityFilter').addEventListener('change', function () {
+      const selected = this.value.toLowerCase();
+    
+      clearHighlights();
+    
+      if (!selected) return;
+    
+      const matchingNodes = [];
+    
+      nodes.get().forEach(n => {
+        const nationality = (n["nationality"] || "").toLowerCase();
+        if (nationality.includes(selected)) {
+          nodes.update({ id: n.id, color: { ...n.color, border: 'red' }, borderWidth: 4 });
+          matchingNodes.push(n.id);
+        }
+      });
+    
+      lastHighlightedNodes = matchingNodes;
+    });
+
     
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
