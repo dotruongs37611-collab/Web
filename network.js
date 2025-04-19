@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "mentioned in the French press", label: "Mentioned in the French press" },
           { key: "pseudonyms", label: "Pseudonyms" },
           { key: "archives", label: "Archives" },
-          { key: "bibliography", label: "Bibliography" },
+          { key: "Bibliography", label: "Bibliography" },
           { key: "websites", label: "Websites" },
           { key: "nationality", label: "Nationality" },
           { key: "full name", label: "Full name" },
