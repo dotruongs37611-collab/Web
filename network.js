@@ -190,6 +190,30 @@ document.addEventListener('DOMContentLoaded', async function () {
         fieldsToShow.forEach(field => {
           if (node[field.key]) {
             let value = node[field.key];
+          
+            if (Array.isArray(value)) {
+              value = value.map(item => {
+                const urlMatch = item.match(/^(.+?)\s*\[(https?:\/\/[^\]]+)\]$/);
+                if (urlMatch) {
+                  const text = urlMatch[1];
+                  const url = urlMatch[2];
+                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${text} [source]</a>`;
+                } else {
+                  return item;
+                }
+              }).join("<br>");
+            } else {
+              const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+              if (urlMatch) {
+                const url = urlMatch[0];
+                value = value.replace(` (${url})`, '').replace(url, '').trim();
+                value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+              }
+            }
+          
+            const htmlText = autoLinkNames(value, nodesMapByLabel);
+            html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
+          }
         
             // Detectar si hay URL al final
             const urlMatch = value.match(/https?:\/\/[^\s)]+/);
