@@ -383,10 +383,15 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       
         if (matchingEdge) {
-          const edgeId = `${matchingEdge.from}-${matchingEdge.to}`;
-          network.selectEdges([edgeId]);
-          network.emit('click', { edges: [edgeId], nodes: [] });
-          return;
+          const edge = edges.get().find(e =>
+            e.from === matchingEdge.from && e.to === matchingEdge.to
+          );
+          
+          if (edge) {
+            network.selectEdges([edge.id]);
+            network.emit('click', { edges: [edge.id], nodes: [] });
+            return;
+          }
         }
       }
       
