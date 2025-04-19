@@ -379,7 +379,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       
         if (matchingEdge) {
-          found = data.nodes.find(n => n.id === matchingEdge.from);
+          network.selectEdges([matchingEdge.id]);
+          network.emit('click', { edges: [matchingEdge.id], nodes: [] });
+          found = null; // para que no active el focusNode más abajo
         }
       }
       
