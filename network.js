@@ -369,23 +369,23 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
       // 5. Mostrar resultado
-      if (!found) {
-        const matchingEdge = data.edges.find(edge =>
-          Object.entries(edge).some(([key, value]) =>
-            typeof value === 'string' &&
-            !key.includes('image') &&
-            value.toLowerCase().includes(query)
-          )
-        );
-      
-        if (matchingEdge) {
-          // Selecciona visualmente el edge y simula el clic para activar el panel
-          network.selectEdges([matchingEdge.id]);
-          network.emit('click', { edges: [matchingEdge.id], nodes: [] });
-          return; // evita que se active el focusNode de abajo
-        }
+     if (!found) {
+      const matchingEdge = data.edges.find(edge =>
+        Object.entries(edge).some(([key, value]) =>
+          typeof value === 'string' &&
+          !key.includes('image') &&
+          value.toLowerCase().includes(query)
+        )
+      );
+    
+      if (matchingEdge && matchingEdge.from && matchingEdge.to) {
+        const edgeId = `${matchingEdge.from}-${matchingEdge.to}`;
+        network.selectEdges([edgeId]);
+        network.emit('click', { edges: [edgeId], nodes: [] });
+        return;
       }
-      
+    }
+
       if (found) {
         focusNode(found.id);
       } else {
