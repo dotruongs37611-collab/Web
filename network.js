@@ -214,19 +214,6 @@ document.addEventListener('DOMContentLoaded', async function () {
             const htmlText = autoLinkNames(value, nodesMapByLabel);
             html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
-
-        
-            // Detectar si hay URL al final
-            const urlMatch = value.match(/https?:\/\/[^\s)]+/);
-            if (urlMatch) {
-              const url = urlMatch[0];
-              value = value.replace(` (${url})`, '').replace(url, '').trim();
-              value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
-            }
-      
-            const htmlText = autoLinkNames(value, nodesMapByLabel);
-            html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
-          }
         });
         
         const connections = [];
