@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           
             if (Array.isArray(value)) {
               value = value.map(item => {
-                const urlMatch = item.match(/^(.+?)\s*\[(https?:\/\/[^\]]+)\]$/);
+                const urlMatch = item.match(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/);
                 if (urlMatch) {
                   const text = urlMatch[1];
                   const url = urlMatch[2];
