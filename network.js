@@ -392,8 +392,10 @@ const query = searchInput.value.trim().toLowerCase();
       );
     
       if (matchingEdge) {
-        found = data.nodes.find(n => n.id === matchingEdge.from);
-        if (found) focusNode(found.id);
+        const fromNode = data.nodes.find(n => n.id === matchingEdge.from);
+        const toNode = data.nodes.find(n => n.id === matchingEdge.to);
+        if (fromNode) highlightNode(fromNode.id);
+        if (toNode) highlightNode(toNode.id);
       }
     }
 
