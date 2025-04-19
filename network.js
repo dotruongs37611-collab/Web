@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                 } else {
                   return item;
                 }
-              }).join("<br>");
+              }).map(text => `• ${text}`).join("<br>");
             } else {
               const urlMatch = value.match(/https?:\/\/[^\s)]+/);
               if (urlMatch) {
