@@ -366,8 +366,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     
       if (found) {
         focusNode(found.id);
+      
       } else {
-        // Paso 6: buscar en los edges
+        // Paso 6: buscar en edges si no se encuentra en nodos
         const matchingEdge = data.edges.find(edge =>
           Object.entries(edge).some(([key, value]) =>
             typeof value === 'string' &&
@@ -375,15 +376,18 @@ document.addEventListener('DOMContentLoaded', async function () {
             value.toLowerCase().includes(query)
           )
         );
-    
+      
         if (matchingEdge) {
           const fromNode = data.nodes.find(n => n.id === matchingEdge.from);
           const toNode = data.nodes.find(n => n.id === matchingEdge.to);
-          if (fromNode) highlightNode(fromNode.id);
-          if (toNode) highlightNode(toNode.id);
+      
+          if (fromNode) nodes.update({ id: fromNode.id, color: { border: 'red' }, borderWidth: 4 });
+          if (toNode) nodes.update({ id: toNode.id, color: { border: 'red' }, borderWidth: 4 });
+          lastHighlightedNodes = [fromNode?.id, toNode?.id].filter(Boolean);
         } else {
           alert("No match found.");
         }
+      }
       }
     });
 
