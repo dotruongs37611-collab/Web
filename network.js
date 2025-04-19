@@ -214,6 +214,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             const htmlText = autoLinkNames(value, nodesMapByLabel);
             html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
+
         
             // Detectar si hay URL al final
             const urlMatch = value.match(/https?:\/\/[^\s)]+/);
