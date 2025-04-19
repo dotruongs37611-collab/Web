@@ -331,8 +331,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     const searchButton = document.getElementById('searchButton');
 
     searchButton.addEventListener('click', () => {
-const query = searchInput.value.trim().toLowerCase();
-  if (!query) return;
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) return;
   
       // 1. Buscar coincidencia exacta en label
     let found = data.nodes.find(n =>
@@ -369,17 +369,26 @@ const query = searchInput.value.trim().toLowerCase();
     }
 
       // 5. Mostrar resultado
+      if (!found) {
+        const matchingEdge = data.edges.find(edge =>
+          Object.entries(edge).some(([key, value]) =>
+            typeof value === 'string' &&
+            !key.includes('image') &&
+            value.toLowerCase().includes(query)
+          )
+        );
+      
+        if (matchingEdge) {
+          found = data.nodes.find(n => n.id === matchingEdge.from);
+        }
+      }
+      
       if (found) {
         focusNode(found.id);
       } else {
         alert("No match found.");
       }
-    });
 
-    searchInput.addEventListener('keyup', function(event) {
-      if (event.key === 'Enter') {
-        searchButton.click();
-      }
     });
 
     document.getElementById('professionFilter').addEventListener('change', function () {
