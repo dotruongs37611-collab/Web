@@ -330,65 +330,102 @@ document.addEventListener('DOMContentLoaded', async function () {
     const searchInput = document.getElementById('search');
     const searchButton = document.getElementById('searchButton');
 
+    // Replace the existing searchButton event listener with this:
     searchButton.addEventListener('click', () => {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
-  
-      // 1. Buscar coincidencia exacta en label
-    let found = data.nodes.find(n =>
-      typeof n.label === 'string' &&
-      n.label.toLowerCase() === query
-    );
     
-    // 2. Buscar label que empiece por query
-    if (!found) {
-      found = data.nodes.find(n =>
-        typeof n.label === 'string' &&
-        n.label.toLowerCase().startsWith(query)
-      );
-    }
+      // Clear previous highlights
+      clearHighlights();
     
-    // 3. Buscar label que contenga query
-    if (!found) {
-      found = data.nodes.find(n =>
-        typeof n.label === 'string' &&
-        n.label.toLowerCase().includes(query)
-      );
-    }
-    
-    // 4. Buscar en cualquier campo del nodo
-    if (!found) {
-      found = data.nodes.find(n =>
-        Object.entries(n).some(([key, value]) =>
+      // 1. First try to find matching edges
+      const matchingEdges = data.edges.filter(edge => 
+        Object.entries(edge).some(([key, value]) =>
           typeof value === 'string' &&
           !key.includes('image') &&
-          !value.includes('PFayos') && // evita imágenes de IA con "PFayos"
           value.toLowerCase().includes(query)
-        )
       );
-    }
-
-      // 5. Mostrar resultado
+    
+      if (matchingEdges.length > 0) {
+        // Highlight all nodes connected by matching edges
+        const nodeIds = new Set();
+        matchingEdges.forEach(edge => {
+          nodeIds.add(edge.from);
+          nodeIds.add(edge.to);
+        });
+    
+        Array.from(nodeIds).forEach(id => {
+          const node = nodes.get(id);
+          if (node) {
+            nodes.update({ id, color: { ...node.color, border: 'red' }, borderWidth: 4 });
+            lastHighlightedNodes.push(id);
+          }
+        });
+    
+        // Focus on the first matching edge's nodes
+        const firstEdge = matchingEdges[0];
+        const fromNode = nodes.get(firstEdge.from);
+        const toNode = nodes.get(firstEdge.to);
+        
+        if (fromNode && toNode) {
+          network.focus([firstEdge.from, firstEdge.to], {
+            animation: { duration: 500 }
+          });
+        }
+    
+        return;
+      }
+    
+      // 2. If no edges found, proceed with node search as before
+      let found = data.nodes.find(n =>
+        typeof n.label === 'string' &&
+        n.label.toLowerCase() === query
+      );
+      
       if (!found) {
-        const matchingEdge = data.edges.find(edge =>
-          Object.entries(edge).some(([key, value]) =>
+        found = data.nodes.find(n =>
+          typeof n.label === 'string' &&
+          n.label.toLowerCase().startsWith(query)
+        );
+      }
+      
+      if (!found) {
+        found = data.nodes.find(n =>
+          typeof n.label === 'string' &&
+          n.label.toLowerCase().includes(query)
+        );
+      }
+      
+      if (!found) {
+        found = data.nodes.find(n =>
+          Object.entries(n).some(([key, value]) =>
             typeof value === 'string' &&
             !key.includes('image') &&
+            !value.includes('PFayos') &&
             value.toLowerCase().includes(query)
           )
         );
-      
-        if (matchingEdge) {
-          found = data.nodes.find(n => n.id === matchingEdge.from);
-        }
       }
-      
+    
       if (found) {
         focusNode(found.id);
       } else {
         alert("No match found.");
       }
+    });
+    
+    // Add Enter key support
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        searchButton.click();
+      }
+    });
 
+    // Add Enter key support
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        searchButton.click();
+      }
     });
 
     document.getElementById('professionFilter').addEventListener('change', function () {
