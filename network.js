@@ -203,12 +203,14 @@ document.addEventListener('DOMContentLoaded', async function () {
                 }
               }).join("<br>");
             } else {
+              if (typeof value === 'string') {
               const urlMatch = value.match(/https?:\/\/[^\s)]+/);
               if (urlMatch) {
                 const url = urlMatch[0];
                 value = value.replace(` (${url})`, '').replace(url, '').trim();
                 value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
               }
+            }
             }
           
             const htmlText = autoLinkNames(value, nodesMapByLabel);
