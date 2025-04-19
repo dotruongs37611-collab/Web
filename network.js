@@ -255,19 +255,13 @@ document.addEventListener('DOMContentLoaded', async function () {
           ]);
           lastHighlightedNodes = [fromNode.id, toNode.id];
         }
-      
-        // ❌ Aquí viene el error: ya declaraste fromNode y toNode arriba
-        // 🔁 Solución: elimina "const"
-        const fromNodeMap = nodesMap[edge.from];
-        const toNodeMap = nodesMap[edge.to];
-
 
         let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
 
-        if (fromNodeMap?.image) {
+        if (fromNodeMap && fromNodeMap.image) {
           html += `<img src="${fromNodeMap.image}" style="max-height:80px;">`;
         }
-        if (toNodeMap?.image) {
+        if (toNodeMap && toNodeMap.image) {
           html += `<img src="${toNodeMap.image}" style="max-height:80px;">`;
         }
 
