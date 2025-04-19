@@ -204,11 +204,13 @@ document.addEventListener('DOMContentLoaded', async function () {
               }).join("<br>");
             } else {
               if (typeof value === 'string') {
-              const urlMatch = value.match(/https?:\/\/[^\s)]+/);
-              if (urlMatch) {
-                const url = urlMatch[0];
-                value = value.replace(` (${url})`, '').replace(url, '').trim();
-                value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+                if (typeof value === 'string') {
+                const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+                if (urlMatch) {
+                  const url = urlMatch[0];
+                  value = value.replace(` (${url})`, '').replace(url, '').trim();
+                  value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+                }
               }
             }
             }
@@ -269,7 +271,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         html += `</div>`;
         html += `<h3>Connection</h3>`;
-        html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNodeMap.id}')">${fromNodeMap.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNodeMap.id}')">${toNodeMap.id}</a></p>`;
+        if (fromNodeMap && toNodeMap) {
+          html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNodeMap.id}')">${fromNodeMap.label}</a> & <a href="#" style="color:#66ccff" onclick="focusNode('${toNodeMap.id}')">${toNodeMap.label}</a></p>`;
+        }
 
         const edgeFields = [
           { key: "relationship type", label: "Type of relationship" },
