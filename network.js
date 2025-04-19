@@ -191,26 +191,26 @@ document.addEventListener('DOMContentLoaded', async function () {
           if (node[field.key]) {
             let value = node[field.key];
           
-            if (Array.isArray(value)) {
-              value = value.map(item => {
-                const urlMatch = item.match(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/);
-                if (urlMatch) {
-                  const text = urlMatch[1];
-                  const url = urlMatch[2];
-                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${text} [source]</a>`;
-                } else {
-                  return item;
-                }
-              }).map(text => `• ${text}`).join("<br>");
+         if (Array.isArray(value)) {
+          value = value.map(item => {
+            const urlMatch = item.match(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/);
+            if (urlMatch) {
+              const text = urlMatch[1];
+              const url = urlMatch[2];
+              return `• ${text} <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
             } else {
-              const urlMatch = value.match(/https?:\/\/[^\s)]+/);
-              if (urlMatch) {
-                const url = urlMatch[0];
-                value = value.replace(` (${url})`, '').replace(url, '').trim();
-                value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
-              }
+              return `• ${item}`;
             }
-          
+          }).join("<br>");
+        } else {
+          const urlMatch = value.match(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/);
+          if (urlMatch) {
+            const text = urlMatch[1];
+            const url = urlMatch[2];
+            value = `${text} <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+          }
+        }
+
             const htmlText = autoLinkNames(value, nodesMapByLabel);
             html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
