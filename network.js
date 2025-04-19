@@ -344,6 +344,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           typeof value === 'string' &&
           !key.includes('image') &&
           value.toLowerCase().includes(query)
+        )
       );
     
       if (matchingEdges.length > 0) {
