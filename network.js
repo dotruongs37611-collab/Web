@@ -338,62 +338,29 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Clear previous highlights
       clearHighlights();
     
-      // 1. First try to find matching edges
-      const matchingEdges = data.edges.filter(edge => 
-        Object.entries(edge).some(([key, value]) =>
-          typeof value === 'string' &&
-          !key.includes('image') &&
-          value.toLowerCase().includes(query)
-        )
-      );
-    
-      if (matchingEdges.length > 0) {
-        // Highlight all nodes connected by matching edges
-        const nodeIds = new Set();
-        matchingEdges.forEach(edge => {
-          nodeIds.add(edge.from);
-          nodeIds.add(edge.to);
-        });
-    
-        Array.from(nodeIds).forEach(id => {
-          const node = nodes.get(id);
-          if (node) {
-            nodes.update({ id, color: { ...node.color, border: 'red' }, borderWidth: 4 });
-            lastHighlightedNodes.push(id);
-          }
-        });
-    
-        // Focus on the first matching edge's nodes
-        const firstEdge = matchingEdges[0];
-        network.focus([firstEdge.from, firstEdge.to], {
-          animation: { duration: 500 }
-        });
-        return;
-      }
-    
-      // 2. Modified node search - prioritize exact matches in id and label
-      let found = data.nodes.find(n => 
+      // 1. Buscar primero en nodos (prioridad)
+      let found = data.nodes.find(n =>
         n.id.toLowerCase() === query || 
         (typeof n.label === 'string' && n.label.toLowerCase() === query)
       );
-    
-      // If no exact match, try startsWith in id and label
+      
+      // 2. Si no hay coincidencia exacta, buscar por startsWith
       if (!found) {
         found = data.nodes.find(n =>
           n.id.toLowerCase().startsWith(query) || 
           (typeof n.label === 'string' && n.label.toLowerCase().startsWith(query))
         );
       }
-    
-      // If still not found, try contains in id and label
+      
+      // 3. Si aún no, buscar por contiene
       if (!found) {
         found = data.nodes.find(n =>
           n.id.toLowerCase().includes(query) || 
           (typeof n.label === 'string' && n.label.toLowerCase().includes(query))
         );
       }
-    
-      // Only if no matches in id/label, search other fields
+      
+      // 4. Si no está en id o label, buscar en otros campos del nodo
       if (!found) {
         found = data.nodes.find(n =>
           Object.entries(n).some(([key, value]) =>
@@ -404,7 +371,26 @@ document.addEventListener('DOMContentLoaded', async function () {
           )
         );
       }
-    
+      
+      // 5. Si aún no hay nodo, buscar en los edges
+      if (!found) {
+        const matchingEdge = data.edges.find(edge =>
+          Object.entries(edge).some(([key, value]) =>
+            typeof value === 'string' &&
+            !key.includes('image') &&
+            value.toLowerCase().includes(query)
+          )
+        );
+      
+        if (matchingEdge) {
+          const edgeId = `${matchingEdge.from}-${matchingEdge.to}`;
+          network.selectEdges([edgeId]);
+          network.emit('click', { edges: [edgeId], nodes: [] });
+          return;
+        }
+      }
+      
+      // 6. Mostrar resultado o alerta
       if (found) {
         focusNode(found.id);
       } else {
