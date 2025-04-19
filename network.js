@@ -167,6 +167,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "pseudonyms", label: "Pseudonyms" },
           { key: "archives", label: "Archives" },
           { key: "Bibliography", label: "Bibliography" },
+          { key: "bibliography", label: "Bibliography" },
           { key: "websites", label: "Websites" },
           { key: "nationality", label: "Nationality" },
           { key: "full name", label: "Full name" },
@@ -211,6 +212,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         }
 
+            console.log("KEY:", field.key, "| VALUE:", value);
             const htmlText = autoLinkNames(value, nodesMapByLabel);
             html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
