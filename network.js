@@ -379,9 +379,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       
         if (matchingEdge) {
+          // Selecciona visualmente el edge y simula el clic para activar el panel
           network.selectEdges([matchingEdge.id]);
           network.emit('click', { edges: [matchingEdge.id], nodes: [] });
-          found = null; // para que no active el focusNode más abajo
+          return; // evita que se active el focusNode de abajo
         }
       }
       
@@ -390,7 +391,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       } else {
         alert("No match found.");
       }
-
     });
 
     document.getElementById('professionFilter').addEventListener('change', function () {
