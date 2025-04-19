@@ -331,74 +331,60 @@ document.addEventListener('DOMContentLoaded', async function () {
     const searchButton = document.getElementById('searchButton');
 
     searchButton.addEventListener('click', () => {
-const query = searchInput.value.trim().toLowerCase();
-  if (!query) return;
-  
-      // 1. Buscar coincidencia exacta en label
-    let found = data.nodes.find(n =>
-      typeof n.label === 'string' &&
-      n.label.toLowerCase() === query
-    );
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) return;
     
-    // 2. Buscar label que empiece por query
-    if (!found) {
-      found = data.nodes.find(n =>
+      let found = data.nodes.find(n =>
         typeof n.label === 'string' &&
-        n.label.toLowerCase().startsWith(query)
+        n.label.toLowerCase() === query
       );
-    }
     
-    // 3. Buscar label que contenga query
-    if (!found) {
-      found = data.nodes.find(n =>
-        typeof n.label === 'string' &&
-        n.label.toLowerCase().includes(query)
-      );
-    }
+      if (!found) {
+        found = data.nodes.find(n =>
+          typeof n.label === 'string' &&
+          n.label.toLowerCase().startsWith(query)
+        );
+      }
     
-    // 4. Buscar en cualquier campo del nodo
-    if (!found) {
-      found = data.nodes.find(n =>
-        Object.entries(n).some(([key, value]) =>
-          typeof value === 'string' &&
-          !key.includes('image') &&
-          !value.includes('PFayos') && // evita imágenes de IA con "PFayos"
-          value.toLowerCase().includes(query)
-        )
-      );
-    }
-
-      // 5. Mostrar resultado
+      if (!found) {
+        found = data.nodes.find(n =>
+          typeof n.label === 'string' &&
+          n.label.toLowerCase().includes(query)
+        );
+      }
+    
+      if (!found) {
+        found = data.nodes.find(n =>
+          Object.entries(n).some(([key, value]) =>
+            typeof value === 'string' &&
+            !key.includes('image') &&
+            !value.includes('PFayos') &&
+            value.toLowerCase().includes(query)
+          )
+        );
+      }
+    
       if (found) {
         focusNode(found.id);
       } else {
-        alert("No match found.");
-      }
-    });
-
-    searchInput.addEventListener('keyup', function(event) {
-      if (event.key === 'Enter') {
-        searchButton.click();
-      }
-
-    // 6. Buscar en cualquier campo de los edges
-    if (!found) {
-      const matchingEdge = data.edges.find(edge =>
-        Object.entries(edge).some(([key, value]) =>
-          typeof value === 'string' &&
-          !key.includes('image') &&
-          value.toLowerCase().includes(query)
-        )
-      );
+        // Paso 6: buscar en los edges
+        const matchingEdge = data.edges.find(edge =>
+          Object.entries(edge).some(([key, value]) =>
+            typeof value === 'string' &&
+            !key.includes('image') &&
+            value.toLowerCase().includes(query)
+          )
+        );
     
-      if (matchingEdge) {
-        const fromNode = data.nodes.find(n => n.id === matchingEdge.from);
-        const toNode = data.nodes.find(n => n.id === matchingEdge.to);
-        if (fromNode) highlightNode(fromNode.id);
-        if (toNode) highlightNode(toNode.id);
+        if (matchingEdge) {
+          const fromNode = data.nodes.find(n => n.id === matchingEdge.from);
+          const toNode = data.nodes.find(n => n.id === matchingEdge.to);
+          if (fromNode) highlightNode(fromNode.id);
+          if (toNode) highlightNode(toNode.id);
+        } else {
+          alert("No match found.");
+        }
       }
-    }
-
     });
 
     document.getElementById('professionFilter').addEventListener('change', function () {
