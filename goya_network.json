@@ -378,12 +378,19 @@
       "life dates": "1811-1872",
       "nationality": "French",
       "profession": "poet, art critic, novelist, journalist",
-      "author of": "1840 Spanish trip essays in La Presse, reedited as Tra los montes (1843) and as Voyage en Espagne (1845). 1843 August: Gautier, ‘La Tauromachie’, Le Musée des familles, pp. 341–48.13 Illustrated with seven drawings by Gautier (signed ‘T. G.’) engraved by ‘A.B.L’ (Andrew, Best and Leloir) (see Fayos-Pérez 2024)",
-      "mentions of Goya": "In 1831, 8 Sept: Albertus; 1832, 5 Aug, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin; 1838, 5 July, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?; ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help (Lanzarote Guiral 2016, p.550)); 1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
+      "author of": "1840 Spanish trip essays in La Presse, reedited as Tra los montes (1843) and as Voyage en Espagne (1845). 1843 August: Gautier, ‘La Tauromachie’, Le Musée des familles, pp. 341–48.13 Illustrated with seven drawings by Gautier (signed ‘T. G.’) engraved by ‘A.B.L’ (Andrew, Best and Leloir) (see Fayos-Pérez 2024); Histoire du romantisme (1874)",
+      "mentions of Goya": [
+        "1831-IX-8: Albertus; 1832-VIII-5, Onophrius Wphly, La France littéraire, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (Capricho 43); 1834 preface of Mlle Maupin",
+        "1838-VII-5, Les Caprices de Goya; (La Presse): mentions Goya's Album B of drawings?",
+        "1842 ‘Franco Goya y Lucientes’, Le Cabinet de l’Amateur, 337–45 (with Valentín Carderera's help [Lanzarote Guiral 2016, p.550])", 
+        "1845 mentions Disasters of War (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (see Fayos-Pérez 2024)",
+        "1874 Histoire du romantisme: 'Victor Hugo, s’il n’était pas poète, serait un peintre de premier ordre ; il excelle à mêler, dans des fantaisies sombres et farouches, les effets de clair-obscur de Goya à la terreur architecturale de Piranèse'; '[...] cette entente des terreurs nocturnes qu’on ne rencontre que dans les Caprices de Goya'; '[Louis Boulanger] Tantôt c’était Rubens, tantôt c’était Véronèse, et puis Titien ; d’autres fois, franchissant les monts, il allait à Velasquez et à Goya'"
+        ],
       "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
       "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
       "knows Goya's works": "Los Caprichos: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
       "collector of Goya's works": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
+      "bibliography": "Fayos-Pérez 2024",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
     },
     {
