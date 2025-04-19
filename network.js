@@ -365,38 +365,35 @@ document.addEventListener('DOMContentLoaded', async function () {
     
         // Focus on the first matching edge's nodes
         const firstEdge = matchingEdges[0];
-        const fromNode = nodes.get(firstEdge.from);
-        const toNode = nodes.get(firstEdge.to);
-        
-        if (fromNode && toNode) {
-          network.focus([firstEdge.from, firstEdge.to], {
-            animation: { duration: 500 }
-          });
-        }
-    
+        network.focus([firstEdge.from, firstEdge.to], {
+          animation: { duration: 500 }
+        });
         return;
       }
     
-      // 2. If no edges found, proceed with node search as before
-      let found = data.nodes.find(n =>
-        typeof n.label === 'string' &&
-        n.label.toLowerCase() === query
+      // 2. Modified node search - prioritize exact matches in id and label
+      let found = data.nodes.find(n => 
+        n.id.toLowerCase() === query || 
+        (typeof n.label === 'string' && n.label.toLowerCase() === query)
       );
-      
+    
+      // If no exact match, try startsWith in id and label
       if (!found) {
         found = data.nodes.find(n =>
-          typeof n.label === 'string' &&
-          n.label.toLowerCase().startsWith(query)
+          n.id.toLowerCase().startsWith(query) || 
+          (typeof n.label === 'string' && n.label.toLowerCase().startsWith(query))
         );
       }
-      
+    
+      // If still not found, try contains in id and label
       if (!found) {
         found = data.nodes.find(n =>
-          typeof n.label === 'string' &&
-          n.label.toLowerCase().includes(query)
+          n.id.toLowerCase().includes(query) || 
+          (typeof n.label === 'string' && n.label.toLowerCase().includes(query))
         );
       }
-      
+    
+      // Only if no matches in id/label, search other fields
       if (!found) {
         found = data.nodes.find(n =>
           Object.entries(n).some(([key, value]) =>
@@ -412,13 +409,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         focusNode(found.id);
       } else {
         alert("No match found.");
-      }
-    });
-    
-    // Add Enter key support
-    searchInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        searchButton.click();
       }
     });
 
