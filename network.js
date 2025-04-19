@@ -380,6 +380,23 @@ const query = searchInput.value.trim().toLowerCase();
       if (event.key === 'Enter') {
         searchButton.click();
       }
+
+    // 6. Buscar en cualquier campo de los edges
+    if (!found) {
+      const matchingEdge = data.edges.find(edge =>
+        Object.entries(edge).some(([key, value]) =>
+          typeof value === 'string' &&
+          !key.includes('image') &&
+          value.toLowerCase().includes(query)
+        )
+      );
+    
+      if (matchingEdge) {
+        found = data.nodes.find(n => n.id === matchingEdge.from);
+        if (found) focusNode(found.id);
+      }
+    }
+
     });
 
     document.getElementById('professionFilter').addEventListener('change', function () {
