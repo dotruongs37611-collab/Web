@@ -194,24 +194,16 @@ document.addEventListener('DOMContentLoaded', async function () {
           if (node[field.key]) {
             let value = node[field.key];
           
-         if (Array.isArray(value)) {
+        if (Array.isArray(value)) {
           value = value.map(item => {
-            const urlMatch = item.match(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/);
-            if (urlMatch) {
-              const text = urlMatch[1];
-              const url = urlMatch[2];
-              return `• ${text} <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
-            } else {
-              return `• ${item}`;
-            }
+            return "• " + item.replace(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+              return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+            });
           }).join("<br>");
         } else {
-          const urlMatch = value.match(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/);
-          if (urlMatch) {
-            const text = urlMatch[1];
-            const url = urlMatch[2];
-            value = `${text} <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
-          }
+          value = value.replace(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+            return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+          });
         }
 
             console.log("KEY:", field.key, "| VALUE:", value);
