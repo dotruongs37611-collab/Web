@@ -111,7 +111,7 @@
         "1863-VII-1 Gazette des Beaux-Arts 15, 'François Goya', 237-49. It focuses on the advertisement of the Caprichos in the Diario de Madrid (6 Feb 1799). It includes Jacquemart's 'Spanish scene', based on Goya. Also mentions the Prado commentaries. It quotes Théophile Gautier's essay on the Disasters of War (Voyage en Espagne, 1845, p.136). He mixes up the Disparates with the drawing series Sueños ('Les proverbes ou rêves', p.244) (Fayos Pérez 2024, p.350)."
         ],
       "editor of": "El Artista (1835) with Eugenio Ochoa",
-      "bibliography": "José María Lanzarote Guiral, 'Diarios de viaje de Valentín Carderera por Europa (1841-1861). París, Londres, Bélgica y Alemania', 2016",
+      "bibliography": "Fayos Pérez, ‘Valentín Carderera and the Dissemination of Goya’s Graphic Work in France’, The Burlington Magazine 162 (1413), 2020, 1048–55; José María Lanzarote Guiral, 'Diarios de viaje de Valentín Carderera por Europa (1841-1861). París, Londres, Bélgica y Alemania', 2016",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg"
     },
     {
@@ -213,11 +213,13 @@
       "label": "Ferdinand Guillemardet",
       "life dates": "1765-1809",
       "nationality": "French",
-      "profession": "diplomat (French ambassador 1798-1800)",
-      "in Spain": "1798",
-      "collector of Goya's works": "set of the Caprichos (1798)",
-      "commissions Goya with": "portrait, 1798 (Louvre)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg"
+      "profession": "diplomat (French ambassador 1798-1800), medical doctor, politician (representative of the Convention)",
+      "in Spain": "1798-1800",
+      "collector of Goya's works": "a set of the Caprichos; his portrait (1798, Louvre MI697); Portrait of Mariana Waldstein, 9th Marquise of Santa Cruz (c.1797-99, Louvre RF1976-79)",
+      "commissions Goya with": "portrait, 1798, Louvre MI697 (GW.677). This was the first work by Goya to enter the Louvre (donated by his heirs in 1865)",
+      "websites": "Fundación Goya en Aragón [https://fundaciongoyaenaragon.es/obra/ferdinand-guillemardet/353]",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferdinand_Guillemardet.jpg",
+      "image source": "portrait by Goya, 1798"
     },
     {
       "id": "Eugène Delacroix",
@@ -1068,6 +1070,7 @@
       "author of": "Les Métamorphoses du jour (1829); Fables de La Fontaine (1838-40); Scènes de la vie privée et publique des animaux  (1842); Un autre monde (1844); Don Quichotte (1848)",
       "works in": "La Caricature, Le Charivari",
       "knows Goya's works": "by 1829", 
+      "bibliography": "Fayos Pérez, 'Grandville: la transformación fantástica de la fisionomía', in El Arte Fantástico, 2019, pp. 231–250.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Grandville.jpg"
     },
     {
@@ -2098,7 +2101,7 @@
       "from": "Ferdinand Guillemardet",
       "to": "Eugène Delacroix",
       "connection_level": "direct",
-      "relationship type": "acquaintances; friends's father"
+      "relationship type": "acquaintances; friends' father. Delacroix discovers Goya through him (a set of the Caprichos and two portraits)."
     },
     {
       "from": "Ferdinand Guillemardet",
@@ -2741,13 +2744,18 @@
       "from": "Honoré Daumier",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "secondary",
-      "relationship type": "influenced by Goya (see Fayos Pérez 2024)" 
+      "relationship type": "influenced by Goya",
+      "bibliography": "Fayos Pérez, Goya's Caprichos in 19th-Century France: Politics of the Grotesque, CEEH, 2024"
     },
     {
       "from": "Eugène Delacroix",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "secondary",
-      "relationship type": "influenced by Goya, from c.1819 (see Fayos Pérez 2024)" 
+      "relationship type": "influenced by Goya, from c.1819",
+      "discovers Goya's work": "during his childhood, through Ferdinand Guillemardet (father of his close friends Louis and Félix), who brings to France Goya's portrait (1798) and a set of the Caprichos from Spain c.1800",
+      "copies after Goya": "at least 42 (see Fayos Pérez 2024, Appendix III, Catalogue of Eugène Delacroix's Works after Goya's Caprichos (c.1819-1827)",
+      "artworks influenced by Goya": "among others, the cover of Faust (1828), based on Capricho 66",
+      "bibliography": "Fayos Pérez, Goya's Caprichos in 19th-Century France: Politics of the Grotesque, CEEH, 2024; Fayos Pérez, ‘Delacroix after Goya’s Caprichos: A New Sheet of Drawings’, Burlington Magazine, vol. 161, no. 1395, June 2019, pp. 474–81."
     }
   ]
 }
