@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             });
           }).join("<br>");
         } else {
-          value = value.replace(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+          value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
             return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
           });
         }
