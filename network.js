@@ -196,9 +196,11 @@ document.addEventListener('DOMContentLoaded', async function () {
           
         if (Array.isArray(value)) {
           value = value.map(item => {
-            return "• " + item.replace(/(.*?)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+            // Reemplaza todos los links con texto visible
+            const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
               return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
             });
+            return `• ${replacedText}`;
           }).join("<br>");
         } else {
           value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
