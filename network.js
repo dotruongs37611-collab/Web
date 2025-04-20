@@ -292,9 +292,11 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "children", label: "Children" },
           { key: "married in", label: "Married in" },
           { key: "link to Goya's work", label: "Link to Goya's work" },
+          { key: "link to Goya", label: "Link to Goya" },
           { key: "copies after Goya", label: "Copies after Goya" },
           { key: "artworks influenced by Goya", label: "Artworks influenced by Goya" },
-          { key: "link to Goya", label: "Link to Goya" },
+          { key: "artworks bought/sold/given", label: "Artworks bought/sold/given" },
+          { key: "bibliography", label: "Bibliography" },
           { key: "portraits", label: "Portraits" }
         ];
 
