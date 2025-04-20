@@ -429,7 +429,7 @@
       "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
       "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
       "knows Goya's works": "Los Caprichos: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
-      "collector of Goya's works": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier)",
+      "collector of Goya's works": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier); Tauromaquia set given by Valentín Carderera on 13 Nov 1859 (Lanzarote Guiral 2016, p.431)",
       "bibliography": "Fayos-Pérez 2024",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg"
     },
@@ -1689,8 +1689,9 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "acquaintance", 
+      "know each other since": "at least 13 May 1841, in Paris. Carderera's diary: 'Por la mañana estuve a almorzar con Mr. Piot y con Mr. Teófilo Gautier” (Lanzarote Guiral 2016, p.12)",
       "they met": "Paris, 1859-XI-13: 'Fuime al quai Voltaire, redacción del Monitor (sic) [Le Moniteur universel] y pude entrar en el gabinete de Théophile Gautier, que estuvo amable. Vio la serie de toros, que le regalé y después mis entregas' (Lanzarote Guiral 2016, p.431)",
-      "artworks bought/sold": "on 1859-XI-13, Carderera showed Gautier Goya's Tauromaquia and then gave it to him. This is most likely the Tauromaquia set that was sold in Sotheby's Paris, 14 Dec 2022 (Library of Jorge Ortiz Linares), lot 37, for 132,300€. Sotheby's [https://www.sothebys.com/en/buy/auction/2022/de-la-precieuse-bibliotheque-jorge-ortiz-linares/madrid-1816-33-eaux-fortes-envoi-de-valentin?locale=en]. Video of the sale by Jean-Baptiste de Proyart, discussing the Tauromaquia set: YouTube [https://www.youtube.com/watch?v=6A2iC0fEZxs]",
+      "artworks bought/sold/given": "on 1859-XI-13, Carderera showed Gautier Goya's Tauromaquia and then gave it to him. This is most likely the Tauromaquia set that was sold in Sotheby's Paris, 14 Dec 2022 (Library of Jorge Ortiz Linares), lot 37, for 132,300€. Sotheby's [https://www.sothebys.com/en/buy/auction/2022/de-la-precieuse-bibliotheque-jorge-ortiz-linares/madrid-1816-33-eaux-fortes-envoi-de-valentin?locale=en]. Video of the sale by Jean-Baptiste de Proyart, discussing the Tauromaquia set: YouTube [https://www.youtube.com/watch?v=6A2iC0fEZxs]",
       "bibliography": "Fayos Pérez, 'Valentín Carderera and the dissemination of Goya’s graphic work in France', Burlington Magazine, Dec 2020, 1048-55; Lanzarote Guiral, Diarios de viaje de Valentín Carderera por Europa (1841-1861), 2016"
     },
     {
