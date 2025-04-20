@@ -160,6 +160,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "mentions of Goya", label: "Mentions of Goya" },
           { key: "influence of Goya", label: "Influence of Goya" },
           { key: "collector of Goya's works", label: "Collector of Goya's works" },
+          { key: "disseminates Goya's work", label: "Disseminates Goya's work" },
           { key: "knows Goya's works", label: "Knows Goya's works" },
           { key: "mentions the Prado commentaries", label: "Mentions the Prado commentaries" },
           { key: "shows Goya", label: "Shows Goya" },
@@ -293,6 +294,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "link to Goya's work", label: "Link to Goya's work" },
           { key: "copies after Goya", label: "Copies after Goya" },
           { key: "artworks influenced by Goya", label: "Artworks influenced by Goya" },
+          { key: "link to Goya", label: "Link to Goya" },
           { key: "portraits", label: "Portraits" }
         ];
 
