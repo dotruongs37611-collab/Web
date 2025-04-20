@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "considered as", label: "Considered as" },
           { key: "meets", label: "Meets" },
           { key: "address", label: "Address" },
-          { key: "studied in", label: "Studied in" },
+          { key: "studies in", label: "Studies in" },
           { key: "students", label: "Students" },
           { key: "masters", label: "Masters" },
           { key: "follower of", label: "Follower of" },
