@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "member of", label: "Member of" },
           { key: "curiosities", label: "Curiosities" },
           { key: "correspondence", label: "Correspondence" },
+          { key: "discovers Goya's works", label: "Discovers Goya's works" },
           { key: "political views", label: "Political views" },
           { key: "decorations / awards", label: "Decorations / awards" },
           { key: "image source", label: "Image source" }
@@ -290,6 +291,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "children", label: "Children" },
           { key: "married in", label: "Married in" },
           { key: "link to Goya's work", label: "Link to Goya's work" },
+          { key: "copies after Goya", label: "Copies after Goya" },
+          { key: "artworks influenced by Goya", label: "Artworks influenced by Goya" },
           { key: "portraits", label: "Portraits" }
         ];
 
