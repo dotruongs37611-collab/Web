@@ -248,10 +248,12 @@
       "nationality": "Spanish",
       "profession": "clergyman, scholar, politician",
       "considered as": "part of the group of Spanish 'afrancesados'",
+      "collector of Goya's works": "his portrait (1810-11); a set of the Caprichos (probably bought c.1810 when sitting for his portrait).",
+      "disseminates Goya's works": "he brings his Caprichos set to France in 1813 during his exile, and wrote an interpretation of them in French (Boston MFA 1973.730), probably to be shared among French speakers (Fayos Pérez 2024, p.35).",
       "worked as": "Comisario General de Cruzada (1810-11); Comisario del Santo Oficio; Secretario supernumerario de la Inquisición de Corte; canon of Calahorra (1790); literary censor for the Consejo de Castilla; member of the Junta Nacional for Joseph Bonaparte, Consejero de Estado para Asuntos Eclesiásticos, and Caballero comendador de la Orden Real de España (1809)",
-      "in France": "exiled from July 1813, first at Lectoure, then Bordeaux, then Paris (1814)",
+      "in France": "exiled from July 1813, first at Lectoure, then Bordeaux, then Paris (1814). In Paris, he publishes 'Histoire critique de l'Inquisition espagnole' (1817-18) in 4 volumes.",
       "in Spain": "back in 1820, after being expelled from France (during the Bourbon restoration) for being a liberal and a Carbonari",
-      "political views": "liberal. Supporter of Regalism. Member of Carbonari (secret revolutionary society, of patriotic and liberal nature). Works for the reform of the clergy in Spain",
+      "political views": "liberal. Supporter of Regalism. Member of Carbonari (secret revolutionary society, patriotic and liberal in nature). Works for the reform of the clergy in Spain",
       "studied in": "Universidad de Zaragoza. Doctor in Canonical Law",
       "born in": "Logroño",
       "author of": "a report about the Inquisition (1793); Histoire critique de l'Inquisition espagnole (1817-18) in 4 volumes; Retrato político de los Papas (1823); Historia crítica de la inquisición de España (1835).",
@@ -1234,6 +1236,23 @@
       "relationship type": "patronage",
       "know each other since": "at least 1798",
       "portraits": "1798 Louvre"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Juan Antonio Llorente",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "know each other since": "at least 1810",
+      "link to Goya": "patron, collector, interpreter and disseminator of his work (see Llorente's node)",
+      "portraits": "1810-11 Museo de Arte de São Paulo"
+    },
+    {
+      "from": "Gaspar Melchor de Jovellanos",
+      "to": "Juan Antonio Llorente",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends?",
+      "know each other since": "at least 1793.",
+      "shared": "liberal, reformist mindset. In 1797, Jovellanos quoted Llorente's report on the Inquisition, which might have contributed to his subsequent arrest."
     },
     {
       "from": "Francisco de Goya y Lucientes",
