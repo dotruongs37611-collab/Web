@@ -291,6 +291,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "artworks influenced by Goya", label: "Artworks influenced by Goya" },
           { key: "artworks bought/sold/given", label: "Artworks bought/sold/given" },
           { key: "bibliography", label: "Bibliography" },
+          { key: "comparisons", label: "Comparisons" },
           { key: "portraits", label: "Portraits" }
         ];
 
