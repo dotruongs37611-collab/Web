@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "parents", label: "Parents" },
           { key: "siblings", label: "Siblings" },
           { key: "friends", label: "Friends" },
+          { key: "rivals", label: "Rivals" },
           { key: "partners/lovers", label: "Partners/lovers" },
           { key: "commissions Goya with", label: "Commissions Goya with" },
           { key: "sales", label: "Sales" },
