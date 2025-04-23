@@ -404,9 +404,19 @@
       "label": "Hugo",
       "life dates": "1802-1885",
       "nationality": "French",
-      "profession": "author, playwright, poet, politician",
-      "author of": "Hernani 1830 (takes place in Spain)",
+      "profession": "author, essayist, novelist, playwright, poet, politician",
+      "author of": "Cromwell (play) (1827); Les Orientales (poetry) (1829): illustrated by Louis Boulanger; Hernani (play) (1830): takes place in Spain; Les Feuilles d'automne (poetry) (1831); Notre-Dame de Paris (novel) (1831); Le roi s'amuse (play) (1832); Ruy Blas (play) (1838); Les Misérables (novel) (1862);  ",
+      "works as": "Peer of France (1845-48); Member of the National Assembly for Seine (1848-51); Member of the National Assembly for Gironde (1871); Senator for Seine (1876-1882)",
+      "member of": "Académie française (1841-1885)",
       "in Spain": "In 1811 (at 9 years old)",
+      "influenced by": "Chateaubriand",
+      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Étienne Carjat, photograph, 1875",
+      "studies in": "Real Colegio de San Antonio de Abad (Madrid); Lycée Louis le Grand (Paris)",
+      "editor of": "Le Conservateur littéraire (1819)",
+      "married to": "Adèle Foucher (1822)",
+      "children": "Léopold Hugo, Léopoldine Hugo, Charles Hugo, François-Victor Hugo, Adèle Hugo",
+      "parents": "Joseph Léopold Hugo and Sophie Trébuchet",
+      "curiosities": "on 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
     {
@@ -2585,6 +2595,20 @@
       "to": "Charles Baudelaire",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "criticism": "Baudelaire praised Les Misérables (1862) in the press, but in private said it was 'repulsive and inept'", 
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Gustave Flaubert",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "criticism": "Flaubert said about Les Misérables (1862) that it did not have 'neither truth nor greatness'", 
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
