@@ -858,7 +858,7 @@
       "friends": "Chateaubriand; Benjamin Constant; Victor Hugo; Sophie Gay; V Duke of Richelieu",
       "married to": "Romain Hamelin (in 1792, when she was 14 years old)",
       "children": "Léontine; Édouard",
-      "partners / lovers": "François Fournier-Sarlovèze (until 1814); Comte de Montrond (Casimir de Montrond, 1769-1843), a French diplomat",
+      "partners/lovers": "François Fournier-Sarlovèze (until 1814); Comte de Montrond (Casimir de Montrond, 1769-1843), a French diplomat",
       "address": "rue Blanche (from 1817); rue de Clichy (ancienne Folie-Richelieu) (from 1821); 37 rue de la Tour-d'Auvergne (after 1846)",
       "bibliography": "5 years after her death, Salvandy wrote in Le Journal des débats (18 July 1856): 'Une étrangère, une Américaine (nom donné aux colons des Antilles), arriva sur la terre de France, jeune, belle, éprise de notre littérature, de nos arts, de notre société (...) Elle avait retenu autour d'elle les esprits les plus diverses, les éléments qu'on aurait pu croire étrangers entre eux, l'Empire et la Royauté, l'Institut et le grand monde (...) un des rares salons où se maintenait la conversation à travers tout le mouvement de la société d'aujourd'hui'.",
       "pseudonyms": "Madame Deschamps",
@@ -1605,6 +1605,24 @@
       "relationship type": "relatives; father-daughter"
     },
     {
+      "from": "Luis Madrazo",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
+    },
+    {
+      "from": "Juan Madrazo",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
+    },
+    {
+      "from": "Pedro Madrazo",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
+    },
+    {
       "from": "Luisa Garreta",
       "to": "Cecilia Madrazo",
       "connection_level": "direct",
@@ -1621,6 +1639,12 @@
       "to": "Mariano Fortuny",
       "connection_level": "direct",
       "relationship type": "relatives; mother-in-law, son-in-law"
+    },
+    {
+      "from": "Luisa Garreta",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-in-law, daughter-in-law"
     },
     {
       "from": "Mariano Fortuny",
