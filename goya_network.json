@@ -19,7 +19,11 @@
       "curiosities": "he became completely deaf after a serious illness in 1792-93",
       "nationality": "Spanish",
       "bibliography": "Martin Schwander (ed.), Goya, exhibition catalogue, Beyeler Foundation, 2021; Janis Tomlinson, Goya: A Portrait of the Artist, 2020; Manuela B. Mena Marqués & José Manuel Matilla, Goya: dibujos. ‘Solo la voluntad me sobra’, 2019; Manuela B. Mena Marqués & José Manuel Matilla, Catálogo Razonado de Los Dibujos de Francisco de Goya, vol. 2 (1771-1792), 2018; Mena Marqués (dir.), Goya en tiempos de guerra, 2008; Andrew Schulz, Goya's Caprichos: Aesthetics, Perception, and the Body, 2005; Reva Wolf, Goya and the Satirical Print: in England and on the Continent, 1730-1850, 1994; Bozal, Goya y el gusto moderno, 1994; Tomlinson, Goya in the Twilight of Enlightenmen, 1992; Carreta Parrondo & Vega, Goya grabador, 1991; Águeda & Salas (eds.), Goya. Cartas a Martín Zapater, 1982; López Canellas, Diplomatario, 1981; Nigel Glendinning, Goya and his Critics, 1977; Pierre Gassier, The Drawings of Goya: The Complete Albums, 1973; Pierre Gassier & Juliet Wilson-Bareau, Goya: His Life and Work, 1971 (catalogue raisonné); Tomas Harris, Goya. Engravings and Lithographs, 1964",
-      "websites": "Fundación Goya en Aragón https://fundaciongoyaenaragon.es/; Museo del Prado https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812; Real Academia de Historia https://historia-hispanica.rah.es/biografias/20790-francisco-de-goya-y-lucientes",
+      "websites": [
+        "Fundación Goya en Aragón [https://fundaciongoyaenaragon.es/]",
+        "Museo del Prado [https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812]",
+        "Real Academia de Historia [https://historia-hispanica.rah.es/biografias/20790-francisco-de-goya-y-lucientes]"
+        ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
       "Image source": "New York, Metropolitan Museum, Self-portrait, drawing, 35.103.1"
     },
