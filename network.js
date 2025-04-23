@@ -82,9 +82,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: true,
         forceAtlas2Based: {
-          gravitationalConstant: -150,
+          gravitationalConstant: -90,
           centralGravity: 0.01,
-          springLength: 200,
+          springLength: 140,
           springConstant: 0.08,
           avoidOverlap: 1 // 👈 clave para que no se solapen
         }
