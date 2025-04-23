@@ -144,11 +144,28 @@
       "id": "Baron Taylor",
       "label": "Baron Taylor",
       "life dates": "1789-1879", 
+      "full name": "Isidore-Justin-Séverin Taylor",
       "nationality": "French",
-      "profession": "politician, artist",
+      "born in": "Brussels",
+      "profession": "politician, artist, playwright, philanthropist, military member",
       "in Spain": "1st trip in 1820; 1823 [Cien Mil hijos de S. Luis]; in 1832 (with Dauzats); July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo; 1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice of Madrazo family and Carderera [Lanzarote Guiral 2016 p.574]): 1836 Feb-Aug paintings (8 Goyas from Javier Goya)",
-      "author of": "Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan (1826)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg"
+      "worked for": "Charles X; Louis-Philippe: acquiring Spanish paintings for the Galerie espagnole (1838-48)",
+      "works as": [
+        "Administrateur général de la Comédie-Française (1825-30, 1831-38): he stages Alexandre Dumas's 'Henri III et sa cour', and Hugo's 'Hernani' and 'Marion Delorme'.",
+        "Commissaire du roi (Charles X) auprès du Pacha d'Égypte (1830): commissioned with gathering Egyptian antiquities for the Louvre (with a credit of 100.000 fr.). He brings the Luxor obelisk to Paris (Place de la Concorde since 1836).",
+        "Inspecteur général des Beaux-Arts (1835): Galerie espagnole.",
+        "Senator (1869)"
+        ],
+      "author of": "Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan (1826); 'Voyages pittoresques et romantiques dans l'ancienne France', in collaboration with Charles Nodier and Alphonse de Cailleux (started in 1818; published 1820-1878)",
+      "member of": "Académie Française, Académie des beaux-arts (1847); Société des gens de lettres; Fondation Taylor",
+      "portrayed by": "Federico Madrazo, oil painting (1833); Nadar, photograph (1877)",
+      "participates in": "l'Expédition d'Espagne (1823), also known as los Cien Mil Hijos de San Luis: campaign to restore the Bourbon dinasty in Spain",
+      "aristocratic titles": "baron",
+      "decorations/awards": "Chevalier (1822), Officier (1834), Commandeur (1837) et Grand officer (1877) de la Légion d'Honneur",
+      "parents": "Hélie Taylor (English born) and Marie-Jacqueline Walwein (Belgian)",
+      "curiosities": "There is a Fondation Taylor, still running, created in 1844",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg",
+      "image source": "portrait by Madrazo, 1833"
     },
     {
       "id": "Adrien Dauzats",
@@ -409,7 +426,7 @@
       "life dates": "1802-1885",
       "nationality": "French",
       "profession": "author, essayist, novelist, playwright, poet, politician",
-      "author of": "Cromwell (play) (1827); Les Orientales (poetry) (1829): illustrated by Louis Boulanger; Hernani (play) (1830): takes place in Spain; Les Feuilles d'automne (poetry) (1831); Notre-Dame de Paris (novel) (1831); Le roi s'amuse (play) (1832); Ruy Blas (play) (1838); Les Misérables (novel) (1862); Torquemada (poetry) (1869).",
+      "author of": "Cromwell (play) (1827); Les Orientales (poetry) (1829): illustrated by Louis Boulanger; Hernani (play) (1830): takes place in Spain; Marion Delorme (play) (1831); Les Feuilles d'automne (poetry) (1831); Notre-Dame de Paris (novel) (1831); Le roi s'amuse (play) (1832: forbidden); Ruy Blas (play) (1838); Les Misérables (novel) (1862); Torquemada (poetry) (1869).",
       "works as": "Peer of France (1845-48); Member of the National Assembly for Seine (1848-51); Member of the National Assembly for Gironde (1871); Senator for Seine (1876-1882)",
       "member of": "Académie française (1841-1885)",
       "political views": "as a Pair de France in the Upper Chamber of Parliamente (1845), he spoke against the death penalty and social injustice, and in favour of freedom of the press and self-government for Poland. With Napoleon III's seize of power in 1851, he declared him a traitor to France and moved to Brussels, then Jersey, then the Channel Islands, where he was in exile 1855-1870. However, he justified colonialism in terms of a civilising mission, although he was an abolitionist of slavery. During the Paris Commune, he was very critical of both sides. He was also famously anticlerical.",
@@ -2091,7 +2108,8 @@
       "from": "Baron Taylor",
       "to": "Charles Nodier",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances; colleagues",
+      "collaborations": "they co-authored an adaptation of Charles Maturin's 'Bertram ou le pirate' (1821)"
     },
     {
       "from": "Baron Taylor",
@@ -2173,6 +2191,13 @@
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "they met": "1846 in Madrid: royal wedding (also Théophile Gautier)"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "friends; colleagues",
+      "collaborations": "as Administrateur général de la Comédie-Française, Taylor helps Dumas stage 'Henri III et sa cour' (1829). Dumas dedicates the play to Taylor"
     },
     {
       "from": "Pharamond Blanchard",
