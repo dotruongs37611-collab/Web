@@ -1577,6 +1577,18 @@
       "relationship type": "relatives; mother-daughter"
     },
     {
+      "from": "Román Garreta",
+      "to": "Cecilia Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
+    },
+    {
+      "from": "Luisa Garreta",
+      "to": "Mariano Fortuny",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-in-law, son-in-law"
+    },
+    {
       "from": "Mariano Fortuny",
       "to": "Federico Madrazo",
       "connection_level": "direct",
@@ -1617,6 +1629,18 @@
       "to": "Raimundo Madrazo",
       "connection_level": "direct",
       "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Cecilia Madrazo",
+      "to": "Raimundo Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; siblings; sister-brother"
+    },
+    {
+      "from": "Cecilia Madrazo",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandfather-granddaughter"
     },
     {
       "from": "Federico Madrazo",
