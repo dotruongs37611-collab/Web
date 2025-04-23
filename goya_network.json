@@ -486,10 +486,27 @@
     {
       "id": "Charles Nodier",
       "label": "Nodier",
+      "full name": "Jean-Charles-Emmanuel Nodier",
       "life dates": "1780-1844",
       "nationality": "French",
-      "profession": "writer, librarian",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg"
+      "profession": "writer, librarian, antiquarian",
+      "writes in": "La Quotidienne (1821-1830): he presents the work of Walter Scott, Rabelais, Marot, Lamartine, Byron and Victor Hugo; Revue des Deux Mondes; Revue de Paris (from 1829)",
+      "political views": "favourable to the French Revolution (Société des amis de la Constitution; Club des Jacobins), but also Royalist. Essentially against despotic power.",
+      "works as": "librarian of the comte d'Artois, future Charles X. He lives at the Arsenal (Bibliothèque de l'Arsenal), where he holds a literary salon known as a 'cénacle' (mentioned by Dumas as a place where all the big names of Romantic literature were present). Dismissed by Polignac in July 1830, then reinstated by Louis-Philippe when the Library passed to the state in August.",
+      "portrayed by": "Paulin Guérin; lithograph in Cénacle de la Muse française (1827)",
+      "author of": "Smarra ou les Démons de la nuit (1821): of massive influence in the Romantic generation; Infernalia (1822); Trillby ou le lutin d'Argail (1822); Examen critique des dictionnaires de la langue française (1828); Le Vieux Marinier (1832).",
+      "editor of": "'Adèle, Mélanges de littérature et de critique' and 'Lord Ruthwen ou les Vampires' by Cyprien Bérard",
+      "founder of": "the Bulletin du bibliophile, with the bookseller Techener (whose collection included a set of Goya's Caprichos in the 1841 sale)",
+      "married to": "Désirée Nodier",
+      "children": "Marie Antoinette Mennessier-Nodier",
+      "parents": "Antoine-Melchior Nodier (speaker: oratorien)",
+      "member of": "Académie française (1833-44); Académie des sciences, belles-lettres et arts de Besançon et de Franche-Comté; Société nationale des antiquaires de France",
+      "masters": "Justin Girod de Chantrans (botanique, entomologie, minéralogie); Euloge Schneider (Greek); Joseph Droz",
+      "decorations/awards": "Chevalier de la Légion d'honneur (1822)",
+      "address": "4, rue de Provence (from 1822)",
+      "curiosities": "in 1797 he was member of a secret society called the Philadelphes. Later, he was a member of the 4th society of Caveau (1834-39) ('société bachique'), dedicated to drinking, singing and literature.",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg",
+      "image source": "portrait by Paulin Guérin"
     },
     {
       "id": "Astolphe-Louis-Léonor, Marquis de Custine",
@@ -2108,8 +2125,9 @@
       "from": "Baron Taylor",
       "to": "Charles Nodier",
       "connection_level": "direct",
-      "relationship type": "acquaintances; colleagues",
-      "collaborations": "they co-authored an adaptation of Charles Maturin's 'Bertram ou le pirate' (1821)"
+      "relationship type": "friends; colleagues",
+      "know each other since": "at least 1818",
+      "collaborations": "they start the project for 'Voyages pittoresques et romantiques dans l'ancienne France' in 1818 (published 1820-78); they co-authored an adaptation of Charles Maturin's 'Bertram ou le pirate' (1821)"
     },
     {
       "from": "Baron Taylor",
