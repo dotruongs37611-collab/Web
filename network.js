@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(38 + degree * 3.5, 85),
+        size: Math.min(38 + degree * 5.5, 100),
         font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
         color: { border: '#2B7CE9' },
           borderWidth: 2,
@@ -82,9 +82,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: true,
         forceAtlas2Based: {
-          gravitationalConstant: -100,
+          gravitationalConstant: -150,
           centralGravity: 0.01,
-          springLength: 180,
+          springLength: 200,
           springConstant: 0.08,
           avoidOverlap: 1 // 👈 clave para que no se solapen
         }
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.once("stabilizationIterationsDone", function () {
       setTimeout(() => {
         network.setOptions({ physics: false });
-        network.fit({ animation: true });
+        network.fit({ animation: true, minZoomLevel: 0.5 });
       }, 2000); // Espera 2 segundos más
     });
     network.on("dragStart", function () {
