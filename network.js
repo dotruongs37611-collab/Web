@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "correspondence", label: "Correspondence" },
           { key: "discovers Goya's works", label: "Discovers Goya's works" },
           { key: "political views", label: "Political views" },
+          { key: "influenced by", label: "Influenced by" },
           { key: "decorations / awards", label: "Decorations / awards" },
           { key: "image source", label: "Image source" }
         ];
@@ -292,6 +293,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "artworks bought/sold/given", label: "Artworks bought/sold/given" },
           { key: "bibliography", label: "Bibliography" },
           { key: "comparisons", label: "Comparisons" },
+          { key: "criticism", label: "Criticism" },
+          { key: "rivalry", label: "Rivalry" },
           { key: "portraits", label: "Portraits" }
         ];
 
