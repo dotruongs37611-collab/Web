@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(38 + degree * 5.5, 100),
+        size: Math.min(42 + degree * 1.5, 100),
         font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
         color: { border: '#2B7CE9' },
           borderWidth: 2,
