@@ -411,7 +411,7 @@
       "political views": "as a Pair de France in the Upper Chamber of Parliamente (1845), he spoke against the death penalty and social injustice, and in favour of freedom of the press and self-government for Poland. With Napoleon III's seize of power in 1851, he declared him a traitor to France and moved to Brussels, then Jersey, then the Channel Islands, where he was in exile 1855-1870. However, he justified colonialism in terms of a civilising mission, although he was an abolitionist of slavery. During the Paris Commune, he was very critical of both sides. He was also famously anticlerical.",
       "in Spain": "In 1811 (at 9 years old)",
       "influenced by": "Chateaubriand",
-      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Étienne Carjat, photograph, 1875",
+      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875",
       "studies in": "Real Colegio de San Antonio de Abad (Madrid); Lycée Louis le Grand (Paris)",
       "editor of": "Le Conservateur littéraire (1819)",
       "married to": "Adèle Foucher (1822)",
@@ -829,9 +829,17 @@
     {
       "id": "Fortunée Hamelin",
       "label": "Hamelin",
+      "full name": "Jeanne-Geneviève-Fortunée Lormier-Lagrave",
       "life dates": "1776-1851", 
       "nationality": "French",
-      "profession": "socialite, 'Merveilleuse' during Directoire", 
+      "profession": "socialite, salonnière, 'Merveilleuse' during the Directoire", 
+      "political views": "enthusiastic about the Revolution of 1848",
+      "portrayed by": "Andrea Appiani, 1798 (in Milano)",
+      "married to": "Romain Hamelin (in 1792, when she was 14 years old)",
+      "children": "Léontine; Édouard",
+      "address": "rue de Clichy (ancienne Folie-Richelieu) (from 1821); 37 rue de la Tour-d'Auvergne (after 1846)",
+      "bibliography": "5 years after her death, Salvandy wrote in Le Journal des débats (18 July 1856): 'Une étrangère, une Américaine (nom donné aux colons des Antilles), arriva sur la terre de France, jeune, belle, éprise de notre littérature, de nos arts, de notre société (...) Elle avait retenu autour d'elle les esprits les plus diverses, les éléments qu'on aurait pu croire étrangers entre eux, l'Empire et la Royauté, l'Institut et le grand monde (...) un des rares salons où se maintenait la conversation à travers tout le mouvement de la société d'aujourd'hui'.",
+      "curiosities": "around rue Balzac, it was known as 'quartier de l'Avenue Fortunée' in her honour",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg"
     },
     {
@@ -2472,7 +2480,20 @@
       "from": "Victor Hugo",
       "to": "Fortunée Hamelin",
       "connection_level": "direct",
-      "relationship type": "acquaintances; lovers?"
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Juliette Récamier",
+      "to": "Fortunée Hamelin",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; rivals"
+    },
+    {
+      "from": "Sophie Gay",
+      "to": "Fortunée Hamelin",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "curiosities": "Sophie Gay would write a necrological piece on Hamelin in Le Constitutionnel, 8 May 1855"
     },
     {
       "from": "Victor Hugo",
