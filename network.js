@@ -82,17 +82,19 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: true,
         forceAtlas2Based: {
-          gravitationalConstant: -50,
+          gravitationalConstant: -100,
           centralGravity: 0.01,
-          springLength: 150,
+          springLength: 180,
           springConstant: 0.08,
           avoidOverlap: 1 // 👈 clave para que no se solapen
         }
       }
     });
     network.once("stabilizationIterationsDone", function () {
-      network.setOptions({ physics: false });         // ❄️ Detiene el movimiento
-      network.fit({ animation: true });               // 🎯 Centra y ajusta zoom
+      setTimeout(() => {
+        network.setOptions({ physics: false });
+        network.fit({ animation: true });
+      }, 2000); // Espera 2 segundos más
     });
     network.on("dragStart", function () {
       network.setOptions({ physics: { enabled: true } });
