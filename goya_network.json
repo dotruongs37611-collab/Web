@@ -405,9 +405,10 @@
       "life dates": "1802-1885",
       "nationality": "French",
       "profession": "author, essayist, novelist, playwright, poet, politician",
-      "author of": "Cromwell (play) (1827); Les Orientales (poetry) (1829): illustrated by Louis Boulanger; Hernani (play) (1830): takes place in Spain; Les Feuilles d'automne (poetry) (1831); Notre-Dame de Paris (novel) (1831); Le roi s'amuse (play) (1832); Ruy Blas (play) (1838); Les Misérables (novel) (1862);  ",
+      "author of": "Cromwell (play) (1827); Les Orientales (poetry) (1829): illustrated by Louis Boulanger; Hernani (play) (1830): takes place in Spain; Les Feuilles d'automne (poetry) (1831); Notre-Dame de Paris (novel) (1831); Le roi s'amuse (play) (1832); Ruy Blas (play) (1838); Les Misérables (novel) (1862); Torquemada (poetry) (1869).",
       "works as": "Peer of France (1845-48); Member of the National Assembly for Seine (1848-51); Member of the National Assembly for Gironde (1871); Senator for Seine (1876-1882)",
       "member of": "Académie française (1841-1885)",
+      "political views": "as a Pair de France in the Upper Chamber of Parliamente (1845), he spoke against the death penalty and social injustice, and in favour of freedom of the press and self-government for Poland. With Napoleon III's seize of power in 1851, he declared him a traitor to France and moved to Brussels, then Jersey, then the Channel Islands, where he was in exile 1855-1870. However, he justified colonialism in terms of a civilising mission, although he was an abolitionist of slavery. During the Paris Commune, he was very critical of both sides. He was also famously anticlerical.",
       "in Spain": "In 1811 (at 9 years old)",
       "influenced by": "Chateaubriand",
       "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Étienne Carjat, photograph, 1875",
@@ -416,7 +417,8 @@
       "married to": "Adèle Foucher (1822)",
       "children": "Léopold Hugo, Léopoldine Hugo, Charles Hugo, François-Victor Hugo, Adèle Hugo",
       "parents": "Joseph Léopold Hugo and Sophie Trébuchet",
-      "curiosities": "on 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'",
+      "curiosities": "on 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'. He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin. When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'. Notre-Dame de Paris was listed as a 'forbidden book' by the Church.",
+      "websites": "Wikipedia https://en.wikipedia.org/wiki/Victor_Hugo",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
     {
@@ -2298,7 +2300,7 @@
     {
       "from": "Achille Devéria",
       "to": "Victor Hugo",
-      "label": ""
+      "portraits": "Devéria portrayed Hugo in 1829 (lithograph)"
     },
     {
       "from": "Achille Devéria",
@@ -2326,6 +2328,20 @@
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Frédéric Chopin",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "curiosities": "Hugo was the one to introduce Chopin to George Sand. In 1849, Hugo attended Chopin's funeral."
+    },
+    {
+      "from": "George Sand",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "curiosities": "Hugo was the one to introduce Chopin to George Sand"
     },
     {
       "from": "Antoine Fontaney",
