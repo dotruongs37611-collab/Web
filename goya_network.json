@@ -2577,13 +2577,15 @@
       "from": "Alfred de Musset",
       "to": "Charles Nodier",
       "connection_level": "direct / secondary",
-      "relationship type": "acquaintances. Musset was influenced by Nodier."
+      "relationship type": "acquaintances. Musset was influenced by Nodier.",
+      "bibliography": "Édouard Maynial, Anthologie des romanciers du XIXe siècle, Hachette, 1943, p. 78"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
       "to": "Charles Nodier",
       "connection_level": "direct / secondary",
-      "relationship type": "acquaintances. Sainte-Beuve was influenced by Nodier."
+      "relationship type": "acquaintances. Sainte-Beuve was influenced by Nodier.",
+      "bibliography": "Édouard Maynial, Anthologie des romanciers du XIXe siècle, Hachette, 1943, p. 78"
     },
     {
       "from": "Victor Hugo",
@@ -2592,6 +2594,7 @@
       "relationship type": "friends; colleagues; rivals. Hugo was influenced by Nodier.",
       "rivalry": "Hugo was starting to replace Nodier as the head of the 'Cénacle romantique'. Nodier published a hostile article on Hugo's Le Dernier jour d'un condamné (Le Journal des débats, 26 Feb [1829]). He also made a 'venomous' allusion to Les Orientales, in an article on Byron (La Quotidienne, 1 Nov [1829]).",
       "curiosities": "they attended together the funeral of Charles X in Reims in 1825",
+      "bibliography": "Édouard Maynial, Anthologie des romanciers du XIXe siècle, Hachette, 1943, p. 78",
       "websites": "Wikipedia [https://fr.wikipedia.org/wiki/Charles_Nodier]"
     },
     {
