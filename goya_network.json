@@ -743,6 +743,23 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
     },
     {
+      "id": "Louise Bertin",
+      "label": "Louise Bertin",
+      "full name": "Louise-Angélique Bertin",
+      "life dates": "1805-1877", 
+      "nationality": "French",
+      "profession": "composer, poet, femme de lettres",
+      "masters": "François-Joseph Fétis; Antoine Reicha (also the master of Berlioz and Liszt)",
+      "decorations / awards": "Prix Montyon (1896)",
+      "author of": "Le Loup-garou (opéra comique) (1827); Fausto (1831); La Esmeralda (1836)",
+      "portrayed by": "Victor Mottez (c.1840); unidentified artist (c.1860)",
+      "parents": "Louis-François Bertin (journalist, editor) and Geneviève-Aimée-Victoire Boutard (pianist)",
+      "siblings": "Édouard Bertin, Armand Bertin, Geneviève Bertin",
+      "curiosities": "she suffered from polio. His father was portrayed by Ingres (1832), and the editor of Le Journal des débats. Berlioz considers her music 'virile, forte et neuve'.",
+      "websites: "Association des amis de Victor Hugo http://www.victorhugo.asso.fr/echo/echo2esmerlda.htm",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Louise_Bertin.jpg"
+    },
+    {
       "id": "Sophie Gay",
       "label": "Sophie Gay",
       "life dates": "1776-1852", 
@@ -2484,6 +2501,13 @@
       "to": "Charles Nodier",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Louise Bertin",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "Hugo wrote the libretto for her 1836 opera La Esmeralda, based on the character from Hugo's Notre-Dame de Paris"
     },
     {
       "from": "Victor Hugo",
