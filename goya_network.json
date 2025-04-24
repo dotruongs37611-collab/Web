@@ -2517,7 +2517,16 @@
       "relationship type": "colleagues; friends", 
       "know each other since": "at least 1829", 
       "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
-      "collaborations": "Boulanger illustrates Les orientales (1829): Les Fantômes"
+      "collaborations": "Boulanger illustrates Les orientales (1829): Les Fantômes",
+      "mentions": "Hugo probably dedicated to him (and Sainte-Beuve) a poem from 'Feuilles d'Automne' (1830), mentioning Goya."
+    },
+    {
+      "from": "Charles-Augustin Sainte-Beuve",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "know each other since": "at least 1830", 
+      "mentions": "Hugo probably dedicated to him (and Boulanger) a poem from 'Feuilles d'Automne' (1830), mentioning Goya."
     },
     {
       "from": "Antoine Fontaney",
@@ -3117,7 +3126,7 @@
       "relationship type": "influenced by Goya",
       "link to Goya": "Hugo discovers Goya's work probably around 1828-29, perhaps through his friend Louis Boulanger",
       "mentions of Goya": [
-        "Hugo's poem 28 in 'Feuilles d'Automne' (1830) carries the epigraph 'Buen viage! - GOYA-', a reference to Capricho 64.",
+        "Hugo's poem 28 in 'Feuilles d'Automne' (1830) carries the epigraph 'Buen viage! - GOYA-', a reference to Capricho 64. The title of this poem is ‘À mes amis S.-B. et L.B.’, who probably are Charles Agustin Sainte-Beuve and Louis Boulanger.",
         "In 'Rayons et les ombres' (1839), Hugo compared Goya's gnomes to Rembrandt's witches and Callot's 'Temptation of Saint Anthony' (1635)."
         ],
       "bibliography": [
