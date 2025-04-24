@@ -345,7 +345,9 @@ document.addEventListener('DOMContentLoaded', async function () {
               }
             }
         
-            html += `<p><strong>${field.label}:</strong></p>${htmlText}`;
+            html += Array.isArray(value)
+              ? `<p><strong>${field.label}:</strong></p>${htmlText}`
+              : `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
 
