@@ -316,17 +316,34 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         edgeFields.forEach(field => {
           if (edge[field.key]) {
-            let value = autoLinkNames(edge[field.key], nodesMap);
-            const urlMatch = typeof value === "string" ? value.match(/https?:\/\/[^\s)]+/) : null;
-            if (urlMatch) {
-              const url = urlMatch[0];
-              value = value.replace(` (${url})`, '').replace(url, '').trim();
-              value += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+            let value = edge[field.key];
+            let htmlText;
+        
+            if (Array.isArray(value)) {
+              const processedItems = value.map(item => {
+                const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+                });
+                return `<li>${autoLinkNames(replacedText, nodesMap)}</li>`;
+              });
+              htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+            } else {
+              value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+              });
+              htmlText = autoLinkNames(value, nodesMap);
+        
+              const urlMatch = typeof htmlText === "string" ? htmlText.match(/https?:\/\/[^\s)]+/) : null;
+              if (urlMatch) {
+                const url = urlMatch[0];
+                htmlText = htmlText.replace(` (${url})`, '').replace(url, '').trim();
+                htmlText += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+              }
             }
-
-            html += `<p><strong>${field.label}:</strong> ${value}</p>`;
+        
+            html += `<p><strong>${field.label}:</strong></p>${htmlText}`;
           }
-        });
+
 
         document.getElementById("nodeInfo").innerHTML = html;
       }
