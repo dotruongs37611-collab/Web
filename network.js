@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         
             html += `<p><strong>${field.label}:</strong></p>${htmlText}`;
           }
-
+        });
 
         document.getElementById("nodeInfo").innerHTML = html;
       }
