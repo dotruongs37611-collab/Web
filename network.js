@@ -1,14 +1,17 @@
 function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
 
-  // ⚠️ Normaliza saltos de línea invisibles
-  text = text.replace(/\r?\n|\r/g, " ");  // Sustituye \n o \r por espacio
-  
+  // Limpia saltos de línea invisibles
+  text = text.replace(/\r?\n|\r/g, " ");
+
   Object.keys(nodesMap).forEach(name => {
-    const regex = new RegExp(`\\b${name}\\b`, "g");
+    // Escapa caracteres especiales y espacios
+    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(?<!["'>])\\b(${escapedName})\\b(?!["'<])`, "g");
+
     text = text.replace(
       regex,
-      `<a href="#" style="color:#66ccff" onclick="focusNode('${nodesMap[name].id}')">${name}</a>`
+      `<a href="#" style="color:#66ccff" onclick="focusNode('${nodesMap[name].id}')">$1</a>`
     );
   });
 
