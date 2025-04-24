@@ -3025,8 +3025,26 @@
       "from": "Honoré Daumier",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "secondary",
+      "relationship type": "influenced by Goya" 
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "secondary",
       "relationship type": "influenced by Goya",
-      "bibliography": "Fayos Pérez, Goya's Caprichos in 19th-Century France: Politics of the Grotesque, CEEH, 2024"
+      "link with Goya": "Hugo discovers Goya's work probably around 1828-29, perhaps through his friend Louis Boulanger",
+      "mentions": [
+        "Hugo's poem 28 in 'Feuilles d'Automne' (1830) carries the epigraph 'Buen viage! - GOYA-', a reference to Capricho 64.",
+        "In 'Rayons et les ombres' (1839), Hugo compared Goya's gnomes to Rembrandt's witches and Callot's 'Temptation of Saint Anthony (1635)."
+        ],
+      "bibliography": [
+        "Fayos Pérez, Goya's Caprichos in 19th-Century France: Politics of the Grotesque, CEEH, 2024, p. 246.",
+        "Assante di Panzillo 2008, p.107 (Goya's mention in 'Rayons et les ombres').",
+        "Jean Adhémar & Jacques Lethève, 1958, vol. 10, p.527: they highlight 'his taste for violent contrasts of shadow and light'.",
+        "Paul Guinard 1957, p.102: Goya as Hugo's 'spiritual heir' in his use of nightmarish visions and tragic imagery, as well as sensual and picaresque themes'.",
+        "Adhémar 1935, XXVII. '[Hugo] must have observed enthusiastically the witches and demons that writhe in a darkness penetrated by violent glimmers, because his vision is very close to that of Goya. These prints must have nurtured his imagination, providing him with an endlessly rich repertoire of figures and themes from which he could draw for years' (p.XXVII).",
+        "Hugo-Hetzel 1857, p.297 (Goya's mention in 'Rayons et les ombres')."
+        ]
     },
     {
       "from": "Eugène Delacroix",
