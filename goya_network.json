@@ -509,9 +509,17 @@
       "label": "Dumas",
       "life dates": "1802-1870", 
       "nationality": "French",
-      "profession": "novelist, playwright", 
+      "born in": "Villers-Cotterêts (Aisne)",
+      "profession": "writer, novelist, playwright", 
+      "author of": "Les Trois Mousquetaires (1844); Le Comte de Monte-Cristo (1844-46); La Reine Margot (1845)",
       "participates in": "'Les Français peints par eux-mêmes' (1840)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
+      "in Spain": "October 1846 to January 1847, accompanied by his son Alexandre and his collaborator Auguste Maquet. In the same trip he goes to Algeria",
+      "portrayed by": "Joseph Guichard, 1828 (Louvre); Achille Devéria, c.1829; Achille Devéria, c.1832 (lithography published by Charles Motte); Cham, 1846 (caricature); Gouin, 1852 (photograph); Nadar, 1855 (photograph); William Henry Powell, 1855 (oil); Gustave Le Gray, c.1859 (photograph); Cham, 1860 (caricature); André Gill, 2 Dec 1866 (caricature); Alphonse Liébert, 1867 (photograph).",
+      "parents": "Marie-Louise Labouret and Thomas Alexandre Davy de La Pailleterie",
+      "children": "Alexandre Dumas fils; Henry Bauër",
+      "bibliography": "Alexandre Dumas, Correspondance générale, ed. Claude Schopp, tome 1 (1820 à 1832), 2014; tome 2 (1833-1838), 2016; tome 3 (1838-1842), 2019; tome 4 (1842-1846), 2021; tome 5 (1847-49), 2021",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg",
+      "image source": "portrait by Nadar, 1855"
     },
     {
       "id": "Charles Nodier",
@@ -2589,7 +2597,11 @@
       "from": "Victor Hugo",
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "they share": "Dumas goes into exile to Brussels with Hugo (December 1851), threatened with bankruptcy and as a protest against Napoleon III's coup",
+      "they meet": "Dumas visits Hugo in Guernesey, 1857",
+      "portraits": "drawing by Frédéric Lix (c.1893), Hugo about to go into exile in 1852, saying farewell to Dumas and other friends and followers",
+      "bibliography": "Une amitié capitale: Correspondance Hugo-Dumas, 2015"
     },
     {
       "from": "Victor Hugo",
