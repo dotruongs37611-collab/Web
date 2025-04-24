@@ -1,6 +1,9 @@
 function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
 
+  // ⚠️ Normaliza saltos de línea invisibles
+  text = text.replace(/\r?\n|\r/g, " ");  // Sustituye \n o \r por espacio
+  
   Object.keys(nodesMap).forEach(name => {
     const regex = new RegExp(`\\b${name}\\b`, "g");
     text = text.replace(
