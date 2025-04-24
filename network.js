@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         edgeFields.forEach(field => {
           if (edge[field.key]) {
             let value = autoLinkNames(edge[field.key], nodesMap);
-            const urlMatch = value.match(/https?:\/\/[^\s)]+/);
+            const urlMatch = typeof value === "string" ? value.match(/https?:\/\/[^\s)]+/) : null;
             if (urlMatch) {
               const url = urlMatch[0];
               value = value.replace(` (${url})`, '').replace(url, '').trim();
