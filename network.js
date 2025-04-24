@@ -205,9 +205,10 @@ document.addEventListener('DOMContentLoaded', async function () {
                 const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
                   return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
                 });
-                return `• ${autoLinkNames(replacedText, nodesMapByLabel)}`;
+                return `<li>${autoLinkNames(replacedText, nodesMapByLabel)}</li>`;
               });
-              htmlText = processedItems.join("<br>");
+              htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+
             } else {
               value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
@@ -215,7 +216,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               htmlText = autoLinkNames(value, nodesMapByLabel);
             }
         
-            html += `<p><strong>${field.label}:</strong><br>${htmlText}</p>`;
+            html += `<p><strong>${field.label}:</strong></p>${htmlText}`;
           }
         });
 
