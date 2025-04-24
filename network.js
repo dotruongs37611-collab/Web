@@ -215,10 +215,10 @@ document.addEventListener('DOMContentLoaded', async function () {
               htmlText = autoLinkNames(value, nodesMapByLabel);
             }
         
-            html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
+            html += `<p><strong>${field.label}:</strong><br>${htmlText}</p>`;
           }
         });
-        
+
         const connections = [];
         edges.get().forEach(edge => {
           if (edge.from === node.id || edge.to === node.id) {
