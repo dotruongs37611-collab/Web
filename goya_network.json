@@ -2264,8 +2264,16 @@
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "relationship type": "friends; colleagues",
+      "correspondence": "Cahiers Alexandre Dumas, 1993, n° 20, 'Frères d'armes de la révolution romantique. Lettres d'Alexandre Dumas au Baron Taylor et à Adrien Dauzats' (reedited in 2023).",
       "collaborations": "as Administrateur général de la Comédie-Française, Taylor helps Dumas stage 'Henri III et sa cour' (1829). Dumas dedicates the play to Taylor"
     },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "correspondence": "Cahiers Alexandre Dumas, 1993, n° 20, 'Frères d'armes de la révolution romantique. Lettres d'Alexandre Dumas au Baron Taylor et à Adrien Dauzats' (reedited in 2023)."
+      },
     {
       "from": "Pharamond Blanchard",
       "to": "Théophile Gautier",
