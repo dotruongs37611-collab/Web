@@ -439,8 +439,8 @@
       "profession": "author, essayist, novelist, playwright, poet, politician",
       "author of": "Cromwell (play) (1827); Les Orientales (poetry) (1829): illustrated by Louis Boulanger; Le Dernier jour d'un condamné (1829); Hernani (play) (1830): takes place in Spain; Marion Delorme (play) (1831); Les Feuilles d'automne (poetry) (1831); Notre-Dame de Paris (novel) (1831); Le roi s'amuse (play) (1832: forbidden); Ruy Blas (play) (1838); Les Misérables (novel) (1862); Torquemada (poetry) (1869).",
       "works as": "Peer of France (1845-48); Member of the National Assembly for Seine (1848-51); Member of the National Assembly for Gironde (1871); Senator for Seine (1876-1882)",
-      "member of": "Académie française (1841-1885)",
-      "political views": "as a Pair de France in the Upper Chamber of Parliamente (1845), he spoke against the death penalty and social injustice, and in favour of freedom of the press and self-government for Poland. With Napoleon III's seize of power in 1851, he declared him a traitor to France and moved to Brussels, then Jersey, then the Channel Islands, where he was in exile 1855-1870. However, he justified colonialism in terms of a civilising mission, although he was an abolitionist of slavery. During the Paris Commune, he was very critical of both sides. He was also famously anticlerical.",
+      "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members George Sand, Alexandre Dumas and Honoré de Balzac. Académie française (1841-1885)",
+      "political views": "as a Pair de France in the Upper Chamber of Parliament (1845), he spoke against the death penalty and social injustice, and in favour of freedom of the press and self-government for Poland. With Napoleon III's seize of power in 1851, he declared him a traitor to France and moved to Brussels, then Jersey, then the Channel Islands, where he was in exile 1855-1870. However, he justified colonialism in terms of a civilising mission, although he was an abolitionist of slavery. During the Paris Commune, he was very critical of both sides. He was also famously anticlerical.",
       "in Spain": "In 1811 (at 9 years old)",
       "influenced by": "Chateaubriand",
       "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875",
@@ -472,6 +472,7 @@
         ],
       "in Spain": "in 1840 (with Piot), watches Hugo's Hernani (translated by Eugenio Ochoa; Gautier praises the translation)",
       "visits the Prado Museum": "in 1842 (mentions Goya in his account)",
+      "participates in": "'Les Français peints par eux-mêmes' (1840)",
       "knows Goya's works": "Los Caprichos: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought Caprichos set in January 1831); Goya's drawings by 1838 (see Fayos-Pérez 2024)",
       "collector of Goya's works": "Bulls of Bordeaux; Tauromaquia (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier); Tauromaquia set given by Valentín Carderera on 13 Nov 1859 (Lanzarote Guiral 2016, p.431)",
       "bibliography": "Fayos-Pérez 2024",
@@ -482,9 +483,26 @@
       "label": "Balzac",
       "life dates": "1799-1850", 
       "nationality": "French",
-      "profession": "novelist, playwright",
-      "author of": "La peau du chagrin (1831) mentions Murillo and Velázquez",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg"
+      "profession": "novelist, playwright, journalist, art critic",
+      "author of": "La Comédie humaine (1831-50), including La peau du chagrin (1831), which mentions Murillo and Velázquez;  Le Chef-d'œuvre inconnu (1831); Les Cent Contes drolatiques (1832-37); Eugénie Grandet (1834); Le Père Goriot (1835).",
+      "participates in": "'Les français peints par eux-mêmes' (1840) (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas, J. J. Grandville, Honoré Daumier and Paul Gavarni; J. J. Grandville's 'Scènes de la vie privée et publique des animaux' (1842), alongside Charles Nodier and George Sand.",
+      "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and George Sand",
+      "works as": "President of the Société des gens de lettres (1839-1840)",
+      "masters": "François Guizot; Abel-François Villemain; Victor Cousin",
+      "influenced by": "Walter Scott; Buffon", 
+      "political views": "ambiguous. A legitimist during the July Revolution (1830). He declares himself a liberal. Defends the working class. While expressing some conservative ideas, his work was admired by Marx and Engels, and reflects some elements close to Anarchism.",
+      "writes in": "Revue des Deux Mondes, La Presse, Le Constitutionnel, Le Siècle",
+      "studies in": "Lycée Charlemagne (1814-18); Sorbonne Université (from 1816); Faculté de Droit (1816-19)",
+      "pseudonyms": "Horace de Saint-Aubin, Lord R’Hoone, Viellerglé, Saint Aubin",
+      "portrayed by": "Louis-Auguste Bisson, 1842, daguerrotype",
+      "married to": "Madame Ewelina Hanska (in 1850)",
+      "partners/lovers": "Henirette de Maillé de La Tour-Landry; Laure de Berny (1823-1833); Olympe Pélissier; Maria du Fresnay (desde 1833); Caroline Marbouty (1833-1839)",
+      "parents": "Bernard-François Balzac and Anne-Charlotte-Laure Sallambier",
+      "children": "Marie-Caroline du Fresnay",
+      "decorations/awards": "Chevalier de la Légion d'Honneur (1845)",
+      "websites": "Wikipedia [https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac]",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg",
+      "image source": "daguerrotype by Bisson, 1842"
     },
     {
       "id": "Alexandre Dumas père",
@@ -492,6 +510,7 @@
       "life dates": "1802-1870", 
       "nationality": "French",
       "profession": "novelist, playwright", 
+      "participates in": "'Les Français peints par eux-mêmes' (1840)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg"
     },
     {
@@ -502,6 +521,7 @@
       "nationality": "French",
       "profession": "writer, librarian, antiquarian",
       "writes in": "La Quotidienne (1821-1830): he presents the work of Walter Scott, Rabelais, Marot, Lamartine, Byron and Victor Hugo; Revue des Deux Mondes; Revue de Paris (from 1829)",
+      "participates in": "J. J. Grandville's 'Scènes de la vie privée et publique des animaux' (1842), alongside Honoré de Balzac and George Sand",
       "political views": "favourable to the French Revolution (Société des amis de la Constitution; Club des Jacobins), but also Royalist. Essentially against despotic power.",
       "works as": "librarian of the comte d'Artois, future Charles X. He lives at the Arsenal (Bibliothèque de l'Arsenal), where he holds a literary salon known as a 'cénacle' (mentioned by Dumas as a place where all the big names of Romantic literature were present). Dismissed by Polignac in July 1830, then reinstated by Louis-Philippe when the Library passed to the state in August.",
       "portrayed by": "Paulin Guérin; lithograph in Cénacle de la Muse française (1827)",
@@ -566,6 +586,8 @@
       "knows Goya's works": "by 1834",
       "mentions of Goya": "Journal intime, 25 Nov 1834 (jealousy over Goya's women regarding Alfred de Musset)",
       "author of": "Voyage chez Mr. Blaise (1829); Voyage en Auvergne (1829); Voyage en Espagne (1829); Un hiver en Majorque (1841); La Petite Fadette (1849); Histoire de ma vie (1855). Album of drawings. Clumsy copy of Velázquez’s Infanta Margarita. Collection Lovenjoul Chantily [now at Institut de France? (Lipschutz 1972, p.117)",
+      "participates in": "J. J. Grandville's 'Scènes de la vie privée et publique des animaux' (1842), alongside Charles Nodier and Honoré de Balzac.",
+      "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and Honoré de Balzac.",
       "parents": "Maurice Dupin de Francueil and Sophie Victoire Delaborde",
       "married to": "Casimir Dudevant (1822-35)",
       "partners/lovers": "Prosper Mérimée; Jules Sandeau; Alfred de Musset (1833-35); Félicien Mallefille; Frédéric Chopin; Victor Borie (1848-49); Alexandre Manceau (1849-64)",
@@ -1191,7 +1213,7 @@
       "life dates": "1803-1847", 
       "nationality": "French",
       "profession": "draughtsman, caricaturist", 
-      "author of": "Les Métamorphoses du jour (1829); Fables de La Fontaine (1838-40); Scènes de la vie privée et publique des animaux  (1842); Un autre monde (1844); Don Quichotte (1848)",
+      "author of": "Les Métamorphoses du jour (1829); Fables de La Fontaine (1838-40); Scènes de la vie privée et publique des animaux  (1842), with contributions by Honoré de Balzac, Charles Nodier and George Sand; Un autre monde (1844); Don Quichotte (1848)",
       "works in": "La Caricature, Le Charivari",
       "knows Goya's works": "by 1829", 
       "bibliography": "Fayos Pérez, 'Grandville: la transformación fantástica de la fisionomía', in El Arte Fantástico, 2019, pp. 231–250.",
@@ -2665,7 +2687,7 @@
       "to": "Honoré de Balzac",
       "relationship type": "friends", 
       "know each other since": "at least 1835",
-      "collaborations": "Balzac suggests Gautier to collaborate in La Chronique de Paris; Gautier is the author of one of the 1st biographies of Balzac",
+      "collaborations": "they both collaborated in 'Les Français peints par eux-mêmes' (1840); Balzac suggests Gautier collaborate in La Chronique de Paris; Gautier is the author of one of the 1st biographies of Balzac",
       "mentions": "Gautier: 'Je travaille à La Chronique de Paris qui est maintenant dirigée par Balzac qui est un bon gros porc très plein d’esprit et très agréable à vivre' (letter of Gautier to  E. de Nully, 1836)",
       "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee (https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)"
     },
@@ -2684,7 +2706,9 @@
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "relationship type": "friends", 
-      "they met": "1846 in Madrid: royal wedding (also Pharamond Blanchard)"
+      "know each other since": "at least 1840",
+      "they met": "1846 in Madrid: royal wedding (also Pharamond Blanchard)",
+      "collaborations": "they both collaborated in 'Les Français peints par eux-mêmes' (1840)"
     },
     {
       "from": "Théophile Gautier",
@@ -2737,7 +2761,8 @@
       "from": "Honoré de Balzac",
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
-      "relationship type": "colleagues; friends?"
+      "relationship type": "colleagues; friends?", 
+      "collaborations": "they both collaborated in 'Les Français peints par eux-mêmes' (1840)"
     },
     {
       "from": "Honoré de Balzac",
@@ -3012,7 +3037,8 @@
       "from": "Honoré Daumier",
       "to": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "connection_level": "direct",
-      "relationship type": "colleagues" 
+      "relationship type": "colleagues",
+      "collaborations": "they both collaborated in 'Les Français peints par eux-mêmes' (1840)"
     },
     {
       "from": "Antoine-Jean Gros",
@@ -3031,6 +3057,27 @@
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "secondary",
       "relationship type": "influenced by Goya (see Fayos Pérez 2024)" 
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "colleagues; acquaintances",
+      "collaborations": "they both collaborated in 'Les Français peints par eux-mêmes' (1840); Balzac collaborated in 'Scènes de la vie privée et publique des animaux' (1842), alongside George Sand and Charles Nodier."
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "colleagues; acquaintances",
+      "collaborations": "Sand collaborated in 'Scènes de la vie privée et publique des animaux' (1842), alongside Honoré de Balzac and Charles Nodier."
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "Charles Nodier",
+      "connection_level": "direct",
+      "relationship type": "colleagues; acquaintances",
+      "collaborations": "Nodier collaborated in 'Scènes de la vie privée et publique des animaux' (1842), alongside Honoré de Balzac and George Sand."
     },
     {
       "from": "Honoré Daumier",
