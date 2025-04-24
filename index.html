@@ -461,20 +461,25 @@
 function showSection(section) {
   const layout = document.getElementById('layout');
   const aboutDiv = document.getElementById('about');
-  const contributions = document.querySelector('.contributions-section');
+  const contributors = document.getElementById('contributors');
+  const bibliography = document.getElementById('bibliography');
+
+  layout.classList.add('hidden');
+  aboutDiv.style.display = 'none';
+  contributors.style.display = 'none';
+  bibliography.style.display = 'none';
 
   if (section === 'network') {
     layout.classList.remove('hidden');
-    layout.classList.add('visible');
-    contributions.style.display = 'block';
-    aboutDiv.style.display = 'none';
-  } else {
-    layout.classList.remove('visible');
-    layout.classList.add('hidden');
-    contributions.style.display = 'none';
+  } else if (section === 'about') {
     aboutDiv.style.display = 'block';
+  } else if (section === 'contributors') {
+    contributors.style.display = 'block';
+  } else if (section === 'bibliography') {
+    bibliography.style.display = 'block';
   }
 }
+
 </script>
   
 </body>
