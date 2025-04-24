@@ -508,12 +508,12 @@
       "nationality": "French",
       "born in": "Villers-Cotterêts (Aisne)",
       "profession": "writer, novelist, playwright", 
-      "author of": "Les Trois Mousquetaires (1844); Le Comte de Monte-Cristo (1844-46); La Reine Margot (1845)",
+      "author of": "Henri III et sa cour (1829) (play); Les Trois Mousquetaires (1844) (novel); Le Comte de Monte-Cristo (1844-46) (novel); La Reine Margot (1845)",
       "participates in": "'Les Français peints par eux-mêmes' (1840)",
       "mentions of Goya": [
         "1837-V-28 28 ‘[…] Goya, ce fantaisiaque [sic] élève de Tiepolo le Vénitien, avec lequel est mort la grande peinture espagnole, et qui dans ses compositions, dont la vérité a fait des satires, a tout attaqué: moines, nobles et rois’ (p. 2). About the Galerie espagnole: ‘[…] doté la France d’un trésor qui allait être perdu pour le monde, et rapporté pour 800,000 francs, quatre cents tableaux qui valent trois millions’ (p. 2) ‘Feuilleton: M. le Baron Taylor en Espagne’, La Presse, 1–2 [digitised in Gallica]",
         "1845-I-16 'C’était un spectacle à la fois lugubre et bizarre, que tous ces élégans [sic] seigneurs et toutes ces belles dames défilant comme une procession, peinte par Goya, au milieu de ces squelettes noircis et de ces gibets aux longs bras décharnés’ (‘Feuilleton: La Reine Margot, second volume’, La Presse, pp.1–3) [digitised in Gallica]",
-        "1849-V-3 ‘On dirait une de ces gravures de Goya, où, dans la demi-teinte, des arracheurs de dents font la chasse aux pendus’ (‘Feuilleton: Les mille et un fantomes’, Le Constitutionnel, p.1) [digitised in Gallica]"
+        "1849-V-3 ‘On dirait une de ces gravures de Goya, où, dans la demi-teinte, des arracheurs de dents font la chasse aux pendus’ (‘Feuilleton: Les mille et un fantomes’, Le Constitutionnel, p.1) [digitised in Gallica] (see Fayos Pérez 2024)."
         ],
       "in Spain": "October 1846 to January 1847, accompanied by his son Alexandre and his collaborator Auguste Maquet. In the same trip he goes to Algeria",
       "portrayed by": "Joseph Guichard, 1828 (Louvre); Achille Devéria, c.1829; Achille Devéria, c.1832 (lithography published by Charles Motte); Cham, 1846 (caricature); Gouin, 1852 (photograph); Nadar, 1855 (photograph); William Henry Powell, 1855 (oil); Gustave Le Gray, c.1859 (photograph); Cham, 1860 (caricature); André Gill, 2 Dec 1866 (caricature); Alphonse Liébert, 1867 (photograph).",
@@ -2619,7 +2619,8 @@
       "from": "Victor Hugo",
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
-      "relationship type": "friends",
+      "relationship type": "close friends",
+      "know each other since": "1829",
       "they share": "Dumas goes into exile to Brussels with Hugo (December 1851), threatened with bankruptcy and as a protest against Napoleon III's coup",
       "they meet": "Dumas visits Hugo in Guernesey, 1857",
       "portraits": "drawing by Frédéric Lix (c.1893), Hugo about to go into exile in 1852, saying farewell to Dumas and other friends and followers",
