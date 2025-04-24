@@ -198,23 +198,23 @@ document.addEventListener('DOMContentLoaded', async function () {
         fieldsToShow.forEach(field => {
           if (node[field.key]) {
             let value = node[field.key];
-          
-        if (Array.isArray(value)) {
-          value = value.map(item => {
-            // Reemplaza todos los links con texto visible
-            const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-              return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-            });
-            return `• ${replacedText}`;
-          }).join("<br>");
-        } else {
-           value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-            return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-          });
-        }
-
-            console.log("KEY:", field.key, "| VALUE:", value);
-            const htmlText = autoLinkNames(value, nodesMapByLabel);
+            let htmlText;
+        
+            if (Array.isArray(value)) {
+              const processedItems = value.map(item => {
+                const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+                });
+                return `• ${autoLinkNames(replacedText, nodesMapByLabel)}`;
+              });
+              htmlText = processedItems.join("<br>");
+            } else {
+              value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+              });
+              htmlText = autoLinkNames(value, nodesMapByLabel);
+            }
+        
             html += `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
