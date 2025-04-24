@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               htmlText = autoLinkNames(value, nodesMapByLabel);
             }
         
-            html += `<p><strong>${field.label}:</strong></p>${htmlText}`;
+            html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
 
@@ -346,8 +346,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             }
         
             html += Array.isArray(value)
-              ? `<p><strong>${field.label}:</strong></p>${htmlText}`
-              : `<p><strong>${field.label}:</strong> ${htmlText}</p>`;
+              ? `<div style="margin-top:0.3rem;"><strong>${field.label}:</strong>${htmlText}</div>`
+              : `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
 
