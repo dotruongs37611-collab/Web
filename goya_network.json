@@ -109,7 +109,13 @@
       "nationality": "Spanish",
       "profession": "painter, collector, art dealer",
       "editor of": "El Artista (1835) with Eugenio Ochoa",
-      "bibliography": "José María Lanzarote Guiral, 'Diarios de viaje de Valentín Carderera por Europa (1841-1861). París, Londres, Bélgica y Alemania', 2016",
+      "mentions of Goya": [
+        "1835 El Artista 2, 'Biografía de D. Francisco Goya, pintor', 253-55: 'La nueva escuela romántica de los pintores franceses ha puesto en evidencia el mérito de nuestro artista, y en bastantes cuadros pequeños y en muchísimas litografías y aguas fuertes que adornan las ediciones de Victor Hugo y otros célebres contemporáneos, se ve el deseo de imitar a Goya, y se columbran los originales y románticos duendecitos esparcidos en sus ochenta caprichos' (p.255) (Fayos Pérez 2024, p.325). With a lithography by Federico Madrazo (Vicente López's portrait of Goya).",
+        "1838-VII-15 Semanario Pintoresco español 120, 631-33: 'Los aficionados estrangeros tiempo ha las buscan [Los Caprichos] con mas pasion que los nuestros, y hoy vemos reproducidos y transformados sus duendecitos y alguaciles en los grabados y litografiados que nos vienen de allende sin pretensión de ocultar el plagio' (p.633) (Fayos Pérez 2024, p.328)",
+        "1860-VIII-15 Gazette des Beaux-Arts 7, 'François Goya: sa vie, ses dessins et ses eaux-fortes', 215-27, translated and annotated by Philippe Burty, with a preface by Charles Blanc and a print by Bracquemond. It includes a short biography of Goya and an account of his drawings. Carderera claims ownership of 2 sheets from Album A, 112 preparatory drawings of the Caprichos, 50 of Tauromaquia and 72 of Disasters of War (Fayos Pérez 2024, p.347).",
+        "1863-VII-1 Gazette des Beaux-Arts 15, 'François Goya', 237-49. It focuses on the advertisement of the Caprichos in the Diario de Madrid (6 Feb 1799). It includes Jacquemart's 'Spanish scene', based on Goya. Also mentions the Prado commentaries. It quotes Théophile Gautier's essay on the Disasters of War (Voyage en Espagne, 1845, p.136). He mixes up the Disparates with the drawing series Sueños ('Les proverbes ou rêves', p.244) (Fayos Pérez 2024, p.350)."
+        ],
+      "bibliography": "Fayos Pérez, ‘Valentín Carderera and the Dissemination of Goya’s Graphic Work in France’, The Burlington Magazine 162 (1413), 2020, 1048–55; José María Lanzarote Guiral, 'Diarios de viaje de Valentín Carderera por Europa (1841-1861). París, Londres, Bélgica y Alemania', 2016",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg"
     },
     {
@@ -2035,12 +2041,6 @@
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "secondary",
       "relationship type": "writes bout Goya; collector of his prints and drawings; acts as intermediary to buy/sell his works; disseminates Goya's prints and drawings in France from the 1830s",
-      "mentions of Goya": [
-        "1835 El Artista 2, 'Biografía de D. Francisco Goya, pintor', 253-55: 'La nueva escuela romántica de los pintores franceses ha puesto en evidencia el mérito de nuestro artista, y en bastantes cuadros pequeños y en muchísimas litografías y aguas fuertes que adornan las ediciones de Victor Hugo y otros célebres contemporáneos, se ve el deseo de imitar a Goya, y se columbran los originales y románticos duendecitos esparcidos en sus ochenta caprichos' (p.255) (Fayos Pérez 2024, p.325). With a lithography by Federico Madrazo (Vicente López's portrait of Goya).",
-        "1838-VII-15 Semanario Pintoresco español 120, 631-33: 'Los aficionados estrangeros tiempo ha las buscan [Los Caprichos] con mas pasion que los nuestros, y hoy vemos reproducidos y transformados sus duendecitos y alguaciles en los grabados y litografiados que nos vienen de allende sin pretensión de ocultar el plagio' (p.633) (Fayos Pérez 2024, p.328)",
-        "1860-VIII-15 Gazette des Beaux-Arts 7, 'François Goya: sa vie, ses dessins et ses eaux-fortes', 215-27, translated and annotated by Philippe Burty, with a preface by Charles Blanc and a print by Bracquemond. It includes a short biography of Goya and an account of his drawings. Carderera claims ownership of 2 sheets from Album A, 112 preparatory drawings of the Caprichos, 50 of Tauromaquia and 72 of Disasters of War (Fayos Pérez 2024, p.347).",
-        "1863-VII-1 Gazette des Beaux-Arts 15, 'François Goya', 237-49. It focuses on the advertisement of the Caprichos in the Diario de Madrid (6 Feb 1799). It includes Jacquemart's 'Spanish scene', based on Goya. Also mentions the Prado commentaries. It quotes Théophile Gautier's essay on the Disasters of War (Voyage en Espagne, 1845, p.136). He mixes up the Disparates with the drawing series Sueños ('Les proverbes ou rêves', p.244) (Fayos Pérez 2024, p.350)."
-        ],
       "bibliography": "Fayos Pérez, ‘Valentín Carderera and the Dissemination of Goya’s Graphic Work in France’, The Burlington Magazine 162 (1413), 2020, 1048–55; José María Lanzarote Guiral, 'Diarios de viaje de Valentín Carderera por Europa (1841-1861). París, Londres, Bélgica y Alemania', 2016."
     },
     {
