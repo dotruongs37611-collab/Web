@@ -2518,7 +2518,8 @@
       "know each other since": "at least 1829", 
       "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
       "collaborations": "Boulanger illustrates Les orientales (1829): Les Fantômes",
-      "mentions": "Hugo probably dedicated to him (and Sainte-Beuve) a poem from 'Feuilles d'Automne' (1830), mentioning Goya."
+      "mentions": "Hugo probably dedicated to him (and Sainte-Beuve) a poem from 'Feuilles d'Automne' (1830), mentioning Goya.",
+      "they sared": "Boulanger was part of Hugo's 'Cénacle'"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
@@ -2532,7 +2533,8 @@
       "from": "Antoine Fontaney",
       "to": "Victor Hugo",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances",
+      "they shared": "Fontaney was part of Hugo's 'Cénacle'"
     },
     {
       "from": "Frédéric Chopin",
@@ -2607,7 +2609,8 @@
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
       "relationship type": "friends",
-      "know each other since": "1827, 27 June, (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)"
+      "know each other since": "1827, 27 June, (Ulrich Guttinguer, Correspondance générale, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)",
+      "they shared": "Gautier was part of Hugo's 'Cénacle'"
     },
     {
       "from": "Victor Hugo",
