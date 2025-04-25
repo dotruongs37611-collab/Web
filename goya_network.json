@@ -138,7 +138,7 @@
       "mentioned in the French press": "in 1826, 9 Nov (Le Moniteur universal)",
       "married to": "Isabel Kuntz y Valentini (1809)", 
       "children": "Federico Madrazo, Pedro Madrazo, Luis Madrazo, Juan Madrazo, Carlota Madrazo",
-      "bibliography": "Sánchez 2024; González Navarro, 2023",
+      "bibliography": "Sánchez 2024; González Navarro 2023; Guinard 1967-A, p.85",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
     },
     {
@@ -165,6 +165,7 @@
       "decorations/awards": "Chevalier (1822), Officier (1834), Commandeur (1837) et Grand officer (1877) de la Légion d'Honneur",
       "parents": "Hélie Taylor (English born) and Marie-Jacqueline Walwein (Belgian)",
       "curiosities": "There is a Fondation Taylor, still running, created in 1844",
+      "bibliography": "Guinard 1967-A",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg",
       "image source": "portrait by Madrazo, 1833"
     },
@@ -175,9 +176,10 @@
       "nationality": "French",
       "profession": "painter, engraver",
       "in Spain": "in 1832 (with Baron Taylor); July 1833 (with Baron Taylor); 1835-1837 assists Baron Taylor in acquisition of artworks for Galerie espagnole (alongside Pharamond Blanchard)",
-      "author of": "1834 article in Magasin pittoresque? (mentions Prado commentaries, in the possession of Javier Goya until 1861)",
+      "author of": "1834 article in Magasin pittoresque? (mentions Prado commentaries, in the possession of Javier Goya until 1861) (Guinard 1967-B, p.323)",
       "participates in": "1831 Salon (début)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg",
+      "bibliography": "Guinard 1967-B"
     },
     {
       "id": "Pharamond Blanchard",
@@ -2093,7 +2095,8 @@
       "connection_level": "direct",
       "relationship type": "colleagues; employer-employee",
       "know each other since": "at least 1825",
-      "collaborations": "Madrazo hired Blanchard to make lithographic reproductions at the Real Museo in Madrid"
+      "collaborations": "Real Establecimiento Litográfico. Madrazo hired Blanchard to make lithographic reproductions at the Real Museo in Madrid",
+      "bibliography": "Guinard 1967-A, p.85"
     },
     {
       "from": "José Madrazo",
@@ -2158,14 +2161,15 @@
       "to": "Adrien Dauzats",
       "connection_level": "direct",
       "know each other since": "at least 1832",
-      "relationship type": "friends",
+      "relationship type": "close friends",
       "collaborations": "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole; also for 'Voyages pittoresques de l'ancienne France'",
-      "in Spain": "1835-1837", 
+      "in Spain": "July 1833 (Guinard 1967-A, p.86); 1835-1837", 
       "correspondence": [
-        "1837-VII-5 (Paris) Taylor to Dauzats: he laments that Dauzats's trip in Spain is not being more fruitful; 'Je désire bien vivement qu'il en soit autrement. M. Gautier vous accompagnait. Revenez très promptement' (coll. Claude Roger-Marx) (Guinard 1967, 'Dauzats et Blanchard', p.271)",
+        "1837-VII-5, Taylor to Dauzats (Paris): he laments that Dauzats's trip in Spain is not being more fruitful; 'Je désire bien vivement qu'il en soit autrement. M. Gautier vous accompagnait. Revenez très promptement. [...] Mme Nodier, Mme Ménessier et tous vos amis de l'Arsenal vous font mille compliments, ainsi que Justin et Mayer' (coll. Claude Roger-Marx) (Guinard 1967-B p.271)",
         "1837-VII-15, Taylor to Dauzats (Paris): about Dauzats's Spanish trip",
-        "1842-II-27 (London) Taylor to Dauzats: 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra' (BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162)"
-        ]
+        "1842-II-27, Taylor to Dauzats (London): 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra' (BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162)"
+        ],
+      "bibliography": "Guinard 1967-A; Guinard 1967-B"
     },
     {
       "from": "Baron Taylor",
