@@ -429,7 +429,7 @@
       "partners/lovers": "Gabrielle Dorval (daughter of the actress Marie Dorval). They flee together to Spain and England (where he falls sick with phthisis)",
       "pseudonyms": "Lord Feeling (from the Scottish writer Henry Mackenzie)",
       "curiosities": "He was (unhappily) in love with Marie Nodier. After dying of phthisis, both Hugo and Sainte-Beuve forget their recent fallout and attend his funeral",
-      "bibliography": "Journal intime, ed. René Jasinski, 1925",
+      "bibliography": "Fontaney-Jasinski 1925",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
     },
     {
@@ -523,7 +523,7 @@
       "portrayed by": "Joseph Guichard, 1828 (Louvre); Achille Devéria, c.1829; Achille Devéria, c.1832 (lithography published by Charles Motte); Cham, 1846 (caricature); Gouin, 1852 (photograph); Nadar, 1855 (photograph); William Henry Powell, 1855 (oil); Gustave Le Gray, c.1859 (photograph); Cham, 1860 (caricature); André Gill, 2 Dec 1866 (caricature); Alphonse Liébert, 1867 (photograph).",
       "parents": "Marie-Louise Labouret and Thomas Alexandre Davy de La Pailleterie",
       "children": "Alexandre Dumas fils; Henry Bauër",
-      "bibliography": "Alexandre Dumas, Correspondance générale, ed. Claude Schopp, tome 1 (1820 à 1832), 2014; tome 2 (1833-1838), 2016; tome 3 (1838-1842), 2019; tome 4 (1842-1846), 2021; tome 5 (1847-49), 2021",
+      "bibliography": "Dumas-Schopp 2014",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg",
       "image source": "portrait by Nadar, 1855"
     },
@@ -678,7 +678,7 @@
       "member of": "Société de l’histoire de France (1843); Société de l’histoire de Paris et de l’Île-de-France (1874-1881); Société nationale des antiquaires de France (1843); l’Institut archéologique de Rome (1865); Académie de Saint-Ferdinand [RABASF?] (1873)",
       "address": "Impasse du Doyenné; 20, rue Saint-Fiacre; 64, rue de Courcelles (after 1860)",
       "curiosities": "in his 1840 trip to Spain, Piot took photographs of the Burgos cathedral",   
-      "bibliography": "Lucille Garnery, Des bizarrerie du marché de l’art : les rachats Piot lors de ses propres ventes, 2023 [https://venteantique.hypotheses.org/4531]; Edmond Bonnafé, Eugène Piot, 1890; Charlotte Piot, Eugène Piot, amateur d'art et collectionneur; Louis Courajod, Eugène Piot et les objets d'art légués au Louvre, Gazette des Beaux-arts, pp.395-425",
+      "bibliography": "Garnery 2023; Bonnafé 1890; Piot 1999; Courajod 1890",
       "websites": [
         "Agorha [https://agorha.inha.fr/ark:/54721/95658a8d-b51a-477d-bbcd-2b4198278aaa]",
         "Getty [https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500037105]"
@@ -946,10 +946,10 @@
       "children": "Léontine; Édouard",
       "partners/lovers": "François Fournier-Sarlovèze (until 1814); Comte de Montrond (Casimir de Montrond, 1769-1843), a French diplomat",
       "address": "rue Blanche (from 1817); rue de Clichy (ancienne Folie-Richelieu) (from 1821); 37 rue de la Tour-d'Auvergne (after 1846)",
-      "bibliography": "5 years after her death, Salvandy wrote in Le Journal des débats (18 July 1856): 'Une étrangère, une Américaine (nom donné aux colons des Antilles), arriva sur la terre de France, jeune, belle, éprise de notre littérature, de nos arts, de notre société (...) Elle avait retenu autour d'elle les esprits les plus diverses, les éléments qu'on aurait pu croire étrangers entre eux, l'Empire et la Royauté, l'Institut et le grand monde (...) un des rares salons où se maintenait la conversation à travers tout le mouvement de la société d'aujourd'hui'.",
+      "mentions": "5 years after her death, Salvandy wrote in Le Journal des débats (18 July 1856): 'Une étrangère, une Américaine (nom donné aux colons des Antilles), arriva sur la terre de France, jeune, belle, éprise de notre littérature, de nos arts, de notre société (...) Elle avait retenu autour d'elle les esprits les plus diverses, les éléments qu'on aurait pu croire étrangers entre eux, l'Empire et la Royauté, l'Institut et le grand monde (...) un des rares salons où se maintenait la conversation à travers tout le mouvement de la société d'aujourd'hui'.",
       "pseudonyms": "Madame Deschamps",
       "curiosities": "around rue Balzac, it was known as 'quartier de l'Avenue Fortunée' in her honour. The Comtesse de Bassanville said about her, 'C'est surtout par l'esprit que brillait Madame Hamelin ; elle n'était pas simplement spirituelle, elle était l'esprit même'. Mademoiselle Cochelet in her 'Mémoires' wrote 'Ce furent selon les bruits du temps, les complots de Madame Hamelin et de la reine (Hortense) qui amenèrent ce merveilleux débarquement de l'île d'Elbe'.",
-      "bibliography": "Maurice Lescure, Madame Hamelin : Merveilleuse et turbulente fortunée, 1776-1851, 1995",
+      "bibliography": "Lescure 1995",
       "websites": "Wikipedia https://fr.wikipedia.org/wiki/Fortun%C3%A9e_Hamelin",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg",
       "image source": "portrait by Andrea Appiani, 1798, Musée Carnavalet P1685"
@@ -2407,7 +2407,11 @@
       "collaborations": "in 1828, Delacroix designs the costumes for Hugo's 'Amy Robsart', a play based on Walter Scott's 'Kenilworth' (1821). It premieres on 13 Feb 1828 at Odeón and it was Hugo's first play to be staged, but it closes after only one night. Wikipedia https://fr.wikipedia.org/wiki/Amy_Robsart_(pièce_de_théâtre)",
       "comparisons": "on 4 Nov 1826 in Le Globe, the critic Dubois compares Hugo with Delacroix: 'M. Victor Hugo est en poèsie ce que M. Delacroix est en peinture : il y a toujours une grande idée, un sentiment profond sous ces traits incorrects et heurtés ; et je l'avoue, pour moi, j'aime cette vigueur jeune et âpre; j'en puis blâmer de sang-froid les oeuvres, mais ces oeuvres mêmes me font sortir de ce sang-froid mortel à l'art; et c'est bien là un mérite aujourd'hui' (p.186) (see Hovasse 2001, p.325, note 115)",
       "correspondence": "since 1828 (Burty 1880, t.I, p.130, 134)",
-      "bibliography": "Hovasse, Victor Hugo, t.I (1802-1851), 2001, p.325 (about Delacroix's work for 'Amy Robsart'; Hovasse: 'Le jugement de Hugo sur les femmes de Delacroix était connu, car Baudelaire y fait allusion dans son article sur l’exposition universelle de 1855 paru dans Le Pays' (Œuvres complètes, ed. Claude Pichois, Gallimard, Bibliothèque de la Pléiade, t.II, 1976, p.593); 'C’est un peu avant 1827, donc avant Les Orientales, que quelques critiques, comme Dubois dans Le Globe du 4 nov 1826, s’avisèrent de rapprocher l’art de Delacroix de celui de Hugo. 20 ans après, Charles Baudelaire s’emportait violemment contre ce parallèle ‘resté dans le domaine banal des idées convenues’ (Salon de 1846; Oeuvres complètes t.II, ed. Pichois, p.430-32). Jean Gandon, 'Hugo juge de Delacroix', Gazette des Beaux-arts, no.108, sept 1966, p.173-75. 'Poésies, par M. Victor Hugo', Le Globe, 4 Nov 1826, p.186"
+      "bibliography": [
+        "Hovasse 2001, p.325 (about Delacroix's work for 'Amy Robsart').",
+        "Baudelaire-Pichois 1976: 'Le jugement de Hugo sur les femmes de Delacroix était connu, car Baudelaire y fait allusion dans son article sur l’exposition universelle de 1855 paru dans Le Pays' (p.593). 'C’est un peu avant 1827, donc avant Les Orientales, que quelques critiques, comme Dubois dans Le Globe du 4 nov 1826, s’avisèrent de rapprocher l’art de Delacroix de celui de Hugo. 20 ans après, Charles Baudelaire s’emportait violemment contre ce parallèle ‘resté dans le domaine banal des idées convenues’ (Salon de 1846; ibid., p.430-32)",
+        "Gandon 1966, p.173-75",
+        "'Poésies, par M. Victor Hugo', Le Globe, 4 Nov 1826, p.186"
     },
     {
       "from": "Eugène Delacroix",
@@ -2643,7 +2647,7 @@
       "they share": "Dumas goes into exile to Brussels with Hugo (December 1851), threatened with bankruptcy and as a protest against Napoleon III's coup",
       "they meet": "Dumas visits Hugo in Guernesey, 1857",
       "portraits": "drawing by Frédéric Lix (c.1893), Hugo about to go into exile in 1852, saying farewell to Dumas and other friends and followers",
-      "bibliography": "Une amitié capitale: Correspondance Hugo-Dumas, 2015"
+      "bibliography": "Schopp 2015"
     },
     {
       "from": "Victor Hugo",
@@ -2672,14 +2676,14 @@
       "to": "Charles Nodier",
       "connection_level": "direct / secondary",
       "relationship type": "acquaintances. Musset was influenced by Nodier.",
-      "bibliography": "Édouard Maynial, Anthologie des romanciers du XIXe siècle, Hachette, 1943, p. 78"
+      "bibliography": "Maynial 1943, p. 78"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
       "to": "Charles Nodier",
       "connection_level": "direct / secondary",
       "relationship type": "acquaintances. Sainte-Beuve was influenced by Nodier.",
-      "bibliography": "Édouard Maynial, Anthologie des romanciers du XIXe siècle, Hachette, 1943, p. 78"
+      "bibliography": "Maynial 1943, p. 78"
     },
     {
       "from": "Victor Hugo",
@@ -2688,7 +2692,7 @@
       "relationship type": "friends; colleagues; rivals. Hugo was influenced by Nodier.",
       "rivalry": "Hugo was starting to replace Nodier as the head of the 'Cénacle romantique'. Nodier published a hostile article on Hugo's Le Dernier jour d'un condamné (Le Journal des débats, 26 Feb [1829]). He also made a 'venomous' allusion to Les Orientales, in an article on Byron (La Quotidienne, 1 Nov [1829]).",
       "curiosities": "they attended together the funeral of Charles X in Reims in 1825",
-      "bibliography": "Édouard Maynial, Anthologie des romanciers du XIXe siècle, Hachette, 1943, p. 78",
+      "bibliography": "Maynial 1943, p. 78",
       "websites": "Wikipedia [https://fr.wikipedia.org/wiki/Charles_Nodier]"
     },
     {
@@ -2797,7 +2801,7 @@
       "to": "Stendhal (Henri Beyle)",
       "connection_level": "direct",
       "relationship type": "friends", 
-      "bibliography": "Marcel Bouteron, 'L'amitié de Balzac et de Stendhal', Revue des Deux Mondes, July 1941, pp.95-"
+      "bibliography": "Bouteron 1941"
     },
     {
       "from": "Honoré de Balzac",
@@ -2886,7 +2890,7 @@
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Sophie Gay",
       "relationship type": "friends", 
-      "bibliography": "Bénichou, Romantismes français t.I, ed. 2004, p.9"
+      "bibliography": "Bénichou 2004, p.9"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
