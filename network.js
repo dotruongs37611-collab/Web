@@ -161,6 +161,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "collector of", label: "Collector of" },
           { key: "founder of", label: "Founder of" },
           { key: "patrons", label: "Patrons" },
+          { key: "mentions", label: "Mentions" },
           { key: "Image source", label: "Image source" },
           { key: "commissions Goya with", label: "Commissions Goya with" },
           { key: "link to Goya's work", label: "Link to Goya's work" },
