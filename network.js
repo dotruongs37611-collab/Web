@@ -334,9 +334,15 @@ document.addEventListener('DOMContentLoaded', async function () {
               });
               htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
             } else {
-              value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+              // Primero detectar [texto](url)
+              value = value.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
               });
+              // Luego detectar texto [url] (para compatibilidad con lo antiguo)
+              value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                return `${text.trim()} <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+              });
+
               htmlText = autoLinkNames(value, nodesMap);
         
               const urlMatch = typeof htmlText === "string" ? htmlText.match(/https?:\/\/[^\s)]+/) : null;
