@@ -665,6 +665,26 @@
       "image source": "Constance Mayer portrait, 1817"
     },
     {
+      "id": "Marie Nodier",
+      "label": "Marie Nodier",
+      "full name": "Marie-Antoinette-Élisabeth Nodier",
+      "other names": "Marie Mennessier-Nodier",
+      "life dates": "1811-1893", 
+      "nationality": "French",
+      "profession": "femme de lettres, writer, novelist, composer, poet", 
+      "writes in": "Revue des Deux Mondes",
+      "author of": "Sonnet à Mélanie Gaume (1830); Mélodies romantiques (1831); 'Lettres d'une hirondelle à une serine élevée au Couvent des oiseaux', in J. J. Grandville's Scènes de la vie privée et publique des animaux (1842); Charles Nodier, épisodes et souvenirs de sa vie (1867)",
+      "correspondence": "vol. 1 (1821-1848), II (1849-1892), III (Lettres à Marie), in 2019, 2020 and 2021 respectively",
+      "portrayed by": "Jean Gigoux, Musée de Besançon, 902.6.1 (oil painting); Hyppolyte Masson, 1838, coll. Mennessier-Nodier (drawing)",
+      "married to": "Jules Mennessier (1830)",
+      "children": "Georgette, Emmanuel, Thècle, Marie-Victoire",
+      "parents": "Charles Nodier and Désirée Charve",
+      "curiosities": "a royal order allows them in 1844 to name their children 'Mennessier-Nodier'",
+      "websites": "https://fr.wikipedia.org/wiki/Marie_Mennessier-Nodier",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Marie_Nodier.jpg",
+      "image source": "Gigoux portrait"
+    },
+    {
       "id": "Pierre Lacour",
       "label": "P. Lacour père",
       "life dates": "1745-1814",
@@ -3364,10 +3384,37 @@
       "relationship type": "master-student"
     },
     {
+      "from": "Victor Hugo",
+      "to": "Marie Nodier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; correspondents",
+      "correspondence": "lettre de Victor et Adèle Hugo, 26 décembre [?], à Marie Mennessier-Nodier (BNF); Lettres de, et à, Victor Hugo (BNF)"
+    },
+    {
+      "from": "Alfred de Musset",
+      "to": "Marie Nodier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "mentions": "Musset sent her a poem in 1843"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Marie Nodier",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
+    },
+    {
       "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "secondary",
       "relationship type": "influenced by Goya (see Fayos Pérez 2024)" 
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "Marie Nodier",
+      "connection_level": "direct",
+      "relationship type": "colleagues", 
+      "collaborations": "Marie Nodier writes 'Lettres d'une hirondelle à une serine élevée au Couvent des oiseaux' in Grandville's Scènes de la vie privée et publique des animaux (1842)"
     },
     {
       "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
