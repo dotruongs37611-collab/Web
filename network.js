@@ -194,6 +194,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "political views", label: "Political views" },
           { key: "influenced by", label: "Influenced by" },
           { key: "decorations/awards", label: "Decorations/awards" },
+          { key: "salon", label: "Salon" },
+          { key: "other names", label: "Other names" },
           { key: "image source", label: "Image source" }
         ];
 
