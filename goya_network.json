@@ -452,7 +452,7 @@
       "married to": "Adèle Foucher (1822)",
       "children": "Léopold Hugo, Léopoldine Hugo, Charles Hugo, François-Victor Hugo, Adèle Hugo",
       "parents": "Joseph Léopold Hugo and Sophie Trébuchet",
-      "curiosities": "on 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'. He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin. When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'. Notre-Dame de Paris was listed as a 'forbidden book' by the Church.",
+      "curiosities": "on 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'. He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin (Delphine Gay). When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'. Notre-Dame de Paris was listed as a 'forbidden book' by the Church.",
       "websites": "Wikipedia [https://en.wikipedia.org/wiki/Victor_Hugo]",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
@@ -582,6 +582,26 @@
       "curiosities": "her father was the famous aeronaut Jacques-Etienne Montgolfier. She was buried alongside her close friend Louise Swanton Belloc (and her son, Louis Belloc) at La Celle-Saint-Cloud",
       "bibliography": "Sarah Josepha Buell Hale, Woman's Record: Or, Sketches of All Distinguished Women, 1874. Google books [https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s]",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
+    },
+    {
+      "id": "Delphine Gay",
+      "label": "Delphine Gay",
+      "life dates": "1804-1855", 
+      "other names": "Delphine Girardin",
+      "nationality": "French",
+      "profession": "femme de lettres, writer, poet, novelist, playwright, salonnière, journalist", 
+      "salon": "at Hôtel Marbeuf. Attendants: Théophile Gautier, Honoré de Balzac, Alfred de Musset, Victor Hugo, George Sand, Alphonse de Lamartine, Alexandre Dumas, Franz Liszt, Jules Janin, Fortunée Hamelin. Circle of Charles Nodier",
+      "author of": "Essais poétiques (1824), Nouveaux Essais poétiques (1825), Napoline (1833); Lettres parisiennes (1843). Fiction: Le Lorgnon (1832), Le Marquis de Pontanges (1835), Contes d'une vieille fille à ses neveux (1832), La Canne de Monsieur Balzac (1836), Il ne faut pas jouer avec la douleur (1853). Drames en prose: L'Ecole des journalists (1840), Judith (1843), Lady Tartuffe (1853). Comedies: C'est la faute du mari (1851), La joie fait peur (1854), Une femme qui déteste son mari (posthumous)",
+      "writes in": "Le Presse (1836-1839, as 'Charles de Launay')",
+      "in Italy": "in 1827, where she is enthusiastically welcome in the Roman literary circle and crowned in the Capitol",
+      "pseudonyms": "Vicomte Charles Delaunay, Charles de Launay, Vicomte de Launay, Léo Lespès, Léa Sepsel, Émile de Girardin",
+      "parents": "Sophie Gay and Jean Sigismond Gay",
+      "married to": "Émile de Girardin (1831)",
+      "portrayed by": "Louis Hersent, 1824, château de Versailles (oil painting); LD, "Une muse en 1848", Le Charivari, 15 December 1848 (caricature); anonymous, 1855 (photograph)",
+      "curiosities": "her mother named her Delphine because of the homonymous novel by Madame de Staël",
+      "websites": "https://fr.wikipedia.org/wiki/Delphine_de_Girardin",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delphine_Gay.jpg",
+      "image source": "Hersent portrait, 1824"
     },
     {
       "id": "Pierre Lacour",
@@ -2922,6 +2942,70 @@
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "criticism": "Baudelaire praised Les Misérables (1862) in the press, but in private said it was 'repulsive and inept'"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "shared": "social and artistic circle in the salons. Delphine was present at the opening of Hugo's 'Le roi s'amuse' in 1832"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Gautier frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "Alfred de Musset",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Musset frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "Alexandre Dumas père",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Dumas frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "Fortunée Hamelin",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Hamelin frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "George Sand",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Sand frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "Alphonse de Lamartine",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Lamartine frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "shared": "social and artistic circle in the salons",
+      "mentions": "Delphine Gay wrote 'La Canne de B. de Balzac' in 1836, a satirical novel of contemporary society"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "shared": "social and artistic circle in the salons"
     },
     {
       "from": "Victor Hugo",
