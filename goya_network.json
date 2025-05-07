@@ -637,10 +637,32 @@
       "children": "Marcus",
       "parents": "Nicolas-Jean-Gabriel Allart and Marie-Françoise Gay",
       "pseudonyms": "Prudence de Saman L'Esbatx",
+      "portrayed by": "Sophie Allart (her sister), Rome, 1829, Châtenay-Malabry, Maison de chateaubriand (oil painting)",
       "curiosities": "her mother translated the works of English gothic author Ann Radcliffe",
       "websites": "https://en.wikipedia.org/wiki/Hortense_Allart",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hortense_Allart.jpg",
-      "image source": "Desbordes portrait, c.1811"
+      "image source": "Sophie Allart portrait, 1829"
+    },
+    {
+      "id": "Amable Tastu",
+      "label": "Amable Tastu",
+      "full name": "Amable Cazimir Sabine Voïart ",
+      "life dates": "1795-1885", 
+      "nationality": "French",
+      "profession": "femme de lettres, writer, poet, libretist", 
+      "writes in": "Le Mercure de France; La Muse française",
+      "author of": "poetry; pedagogical works; translations; Cours d'histoire de France (1837); a volume about German literature; a volume about Italian literature",
+      "works as": "libretist for musicians such as Saint-Saëns (La Feuille de peuplier, Plainte, 1853)",
+      "member of": "Société linnéenne de Paris (1822)",
+      "pseudonyms": "Amable Tastu, Amable Voïart",
+      "married to": "Joseph Tastu (1816): works in the liberal publisher of the brothers Beaudouin, 36, rue de Vaugirard",
+      "parents": "Jacques-Philippe Voïart and Jeanne-Amable Bouchotte; Anne Élisabeth Élise Petitpain (stepmother): femme de lettres at Nancy",
+      "children": "Eugène",
+      "portrayed by": "Constance Mayer, 1817, Metz, Musée de la Cour d'Or (oil on canvas)",
+      "curiosities": "she was considered the Romantic muse par excelence. After her husband's death, she follows her son to his diplomatic missions in Cyprus and Bagdad. The rose 'Amable Tastu' was created in 1851 in her honour; with the initiative of the 'Amis d'Amable Tastu', a new 'Rose Amable' was created in 2018",
+      "websites": "https://fr.wikipedia.org/wiki/Amable_Tastu",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Amable_Tastu.jpg",
+      "image source": "Constance Mayer portrait, 1817"
     },
     {
       "id": "Pierre Lacour",
@@ -2524,6 +2546,32 @@
       "connection_level": "direct",
       "relationship type": "acquaintances; correspondents; friends?",
       "correspondence": "Lettres inédites à Sainte-Beuve (1841–1848) avec une introduction des notes, Éd. Léon Séché, Paris, Société du Mercure de France, 1908; Nouvelles lettres à Sainte-Beuve, 1832–1864 - les lettres de la collection Lovenjoul, Genève, Librairie Droz, 1965."
+    },
+    {
+      "from": "Amable Tastu",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "mentions": "Hugo dedicates to her his 'Moïse sur le Nil'"
+    },
+    {
+      "from": "Amable Tastu",
+      "to": "Alphonse de Lamartine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Amable Tastu",
+      "to": "Charles-Augustin Sainte-Beuve",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "mentions": "Sainte-Beuve composes in her honour an elegy and dedicates her 16 pages in his Portraits contemporains"
+    },
+    {
+      "from": "Amable Tastu",
+      "to": "Marceline Desbordes-Valmore",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
     },
     {
       "from": "George Sand",
