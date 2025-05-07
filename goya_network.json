@@ -604,6 +604,25 @@
       "image source": "Hersent portrait, 1824"
     },
     {
+      "id": "Marceline Desbordes-Valmore",
+      "label": "Desbordes-Valmore",
+      "life dates": "1786-1859", 
+      "nationality": "French",
+      "profession": "poet, actress, writer, lyrical artist", 
+      "author of": "Poésies; Les Pleurs (poems; 1833); Violette (novel); L'Atelier d'un peintre (1833; autobiography)",
+      "member of": "Académie des sciences, belles-lettres et arts de Lyon (1835)",
+      "works in": "théâtre de l'Odéon; Opéra-Comique; théâtre de la Monnaie (Brussels), where she plays Rosina in Le Barbier de Séville (1815)",
+      "decorations/awards": "Prix Lambert (1859)",
+      "portrayed by": "Constant Joseph Desbordes, Douai, Musée de la Chartreuse, c.1811 (oil painting); Baugé, 1833 (lithograph); Nadar, 1854 (photograph)",
+      "parents": "Catherine Lucas and Félix Desbordes",
+      "partners/lovers": "Eugène Debonne (1808-12)",
+      "married to": "Prosper Valmore (Prosper Lanchantin) (1817)",
+      "children": "Louisa Desbordes, Marie-Eugène Desbordes, Junie Valmore, Hippolyte Valmore, Ondine Valmore, Inès Valmore",
+      "websites": "https://fr.wikipedia.org/wiki/Marceline_Desbordes-Valmore",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Desbordes_Valmore.jpg",
+      "image source": "Desbordes portrait, c.1811"
+    },
+    {
       "id": "Pierre Lacour",
       "label": "P. Lacour père",
       "life dates": "1745-1814",
@@ -2591,6 +2610,35 @@
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "they shared": "Fontaney was part of Hugo's 'Cénacle'"
+    },
+    {
+      "from": "Marceline Desbordes-Valmore",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they shared": "Desbordes-Valmore frequently attended Delphine Gay's salon"
+    },
+    {
+      "from": "Marceline Desbordes-Valmore",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "colleagues; acquaintances. Balzac admired her writing",
+      "mentions": "Balzac admired the spontaneity of her writing, considering it 'assemblages délicats de sonorités douces et harmonieuses et qui évoquent la vie des gens simples' (Balzac, Correspondance, t.II, p.456). In April 1834, he also wrote about her: '[...] Elle a donc conservé le souvenir d'un cœur dans lequel elle a pleinement retenti, elle et ses paroles, elle et ses poésies de tout genre, car nous sommes du même pays, Madame, du pays des larmes et de la misère. Nous sommes aussi voisins que peuvent l'être, en France, la prose et la poésie, mais je me rapproche de vous par le sentiment avec lequel je vous admire' (Roger Pierrot, La Comédie humaine, La Pléiade, t. X, Introduction et notes à 'La Recherche de l'absolu'.)", 
+      "collaborations": "Desbordes-Valmore helped Balzac to situate his novel 'La Recherche de l'absolu' (1834) in Douai, a city she knew well (Samuel S. de Sacy, Notes sur Jésus-Christ en Flandre, Folio Classique, 1980, p. 298)."
+    },
+    {
+      "from": "Marceline Desbordes-Valmore",
+      "to": "Charles Baudelaire",
+      "connection_level": "secondary",
+      "relationship type": "Baudelaire admired her writing",
+      "mentions": "Baudelaire wrote about her in 1861 that she was 'une âme d’élite […] qui est et sera toujours un grand poète' (Baudelaire, Oeuvres complètes, 1968, p.474); 'Mme Desbordes-Valmore fut femme, fut toujours femme et ne fut absolument que femme ; mais elle fut à un degré extraordinaire l’expression poétique de toutes les beautés naturelles de la femme' (Curiosités esthétiques, L'Art romantique, Classiques Garnier, 1962, p. 745)."
+    },
+    {
+      "from": "Marceline Desbordes-Valmore",
+      "to": "Charles-Augustin Sainte-Beuve",
+      "connection_level": "secondary",
+      "relationship type": "Sainte-Bauve admired her writing",
+      "mentions": "Sainte-Beuve wrote about her: 'Elle a chanté comme l'oiseau chante" (numericable.fr, Marceline Desbordes-Valmore); he defines her poetry as 'si passionnée, si tendre, et véritablement unique en notre temps' (Notice dans Marceline Desbordes-Valmore, Poésies, Paris, Charpentier, 1842, p. I.)"
     },
     {
       "from": "Frédéric Chopin",
