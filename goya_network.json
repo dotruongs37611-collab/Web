@@ -593,7 +593,7 @@
       "salon": "at Hôtel Marbeuf. Attendants: Théophile Gautier, Honoré de Balzac, Alfred de Musset, Victor Hugo, George Sand, Alphonse de Lamartine, Alexandre Dumas, Franz Liszt, Jules Janin, Fortunée Hamelin. Circle of Charles Nodier",
       "author of": "Essais poétiques (1824), Nouveaux Essais poétiques (1825), Napoline (1833); Lettres parisiennes (1843). Fiction: Le Lorgnon (1832), Le Marquis de Pontanges (1835), Contes d'une vieille fille à ses neveux (1832), La Canne de Monsieur Balzac (1836), Il ne faut pas jouer avec la douleur (1853). Drames en prose: L'Ecole des journalists (1840), Judith (1843), Lady Tartuffe (1853). Comedies: C'est la faute du mari (1851), La joie fait peur (1854), Une femme qui déteste son mari (posthumous)",
       "writes in": "Le Presse (1836-1839, as 'Charles de Launay')",
-      "in Italy": "in 1827, where she is enthusiastically welcome in the Roman literary circle and crowned in the Capitol",
+      "in Italy": "in 1827, where she is enthusiastically welcomed in the Roman literary circle and crowned in the Capitol",
       "pseudonyms": "Vicomte Charles Delaunay, Charles de Launay, Vicomte de Launay, Léo Lespès, Léa Sepsel, Émile de Girardin",
       "parents": "Sophie Gay and Jean Sigismond Gay",
       "married to": "Émile de Girardin (1831)",
@@ -623,6 +623,26 @@
       "image source": "Desbordes portrait, c.1811"
     },
     {
+      "id": "Hortense Allart",
+      "label": "Hortense Allart",
+      "full name": "Hortense Allart de Méritens",
+      "life dates": "1801-1879", 
+      "nationality": "French; Italian",
+      "profession": "feminist writer and essayist", 
+      "works as": "governess in the household of General Bertrand",
+      "political views": "enthusiastic supporter of Napoleon. She offered to travel to Saint Helena to nurse the former emperor",
+      "author of": "Essai sur la religion intérieure (1824); Lettres sur les ouvrages de Madame de Staël (1824); Jerome (1829; novel): about her relations with Sampayo; Settimia (novel; 1836); La femme et la démocratie de nos temps (1836); Les enchantements de Prudence, Avec George Sand (1873): it had a 'succès de scandale'",
+      "partners/lovers": "Comte de Sampayo; Gino Capponi?; George Sand?; François-René de Chateaubriand; Henry Bulwer Lytton (Lord Dalling)",
+      "married to": "Napoléon Louis Frédéric Corneille de Méritens de Malvézie (1843: only one year)",
+      "children": "Marcus",
+      "parents": "Nicolas-Jean-Gabriel Allart and Marie-Françoise Gay",
+      "pseudonyms": "Prudence de Saman L'Esbatx",
+      "curiosities": "her mother translated the works of English gothic author Ann Radcliffe",
+      "websites": "https://en.wikipedia.org/wiki/Hortense_Allart",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Desbordes_Valmore.jpg",
+      "image source": "Desbordes portrait, c.1811"
+    },
+    {
       "id": "Pierre Lacour",
       "label": "P. Lacour père",
       "life dates": "1745-1814",
@@ -645,7 +665,7 @@
       "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and Honoré de Balzac.",
       "parents": "Maurice Dupin de Francueil and Sophie Victoire Delaborde",
       "married to": "Casimir Dudevant (1822-35)",
-      "partners/lovers": "Prosper Mérimée; Jules Sandeau; Alfred de Musset (1833-35); Félicien Mallefille; Frédéric Chopin; Victor Borie (1848-49); Alexandre Manceau (1849-64)",
+      "partners/lovers": "Prosper Mérimée; Jules Sandeau; Alfred de Musset (1833-35); Félicien Mallefille; Hortense Allart?; Marie Dorval?; Frédéric Chopin; Victor Borie (1848-49); Alexandre Manceau (1849-64)",
       "children": "Maurice Sand; Solange Sand",
       "pseudonyms": "George Sand; Amandine; Amantine",
       "portraits": "Eugène Delacroix, 1838; Auguste Charpentier, 1838",
@@ -2476,6 +2496,34 @@
       "know each other since": "at least 1834",
       "correspondence": "1846-X-11 (MD 2012-13)",
       "portraits": "1834, Musée Delacroix (MD 2016-1); 1838, Copenhagen"
+    },
+    {
+      "from": "Hortense Allart",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "friends; lovers?",
+      "correspondence": "Letters to George Sand",
+      "collaborations": "Les enchantements de Prudence, Avec George Sand (1873)",
+      "mentions": "Allart considered Sand 'one of the glories of her sex' (James Knowles, 1911, The Nineteenth Century and After (Public domain ed.), p. 1067)"
+    },
+    {
+      "from": "Hortense Allart",
+      "to": "Sophie Gay",
+      "connection_level": "direct",
+      "relationship type": "relatives; aunt-niece"
+    },
+    {
+      "from": "Hortense Allart",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "relatives; cousins"
+    },
+    {
+      "from": "Hortense Allart",
+      "to": "Charles-Augustin Sainte-Beuve",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; correspondents; friends?",
+      "correspondence": "Lettres inédites à Sainte-Beuve (1841–1848) avec une introduction des notes, Éd. Léon Séché, Paris, Société du Mercure de France, 1908; Nouvelles lettres à Sainte-Beuve, 1832–1864 - les lettres de la collection Lovenjoul, Genève, Librairie Droz, 1965."
     },
     {
       "from": "George Sand",
