@@ -2944,6 +2944,12 @@
       "criticism": "Baudelaire praised Les Misérables (1862) in the press, but in private said it was 'repulsive and inept'"
     },
     {
+      "from": "Sophie Gay",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
       "from": "Victor Hugo",
       "to": "Delphine Gay",
       "connection_level": "direct",
