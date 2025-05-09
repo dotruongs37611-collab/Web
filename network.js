@@ -39,14 +39,18 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
         font: { 
-          size: 18, 
-          color: '#ffffff', // White text color
-          strokeWidth: 0,   // Remove stroke
-          strokeColor: 'transparent' // Make stroke transparent
+          size: 22,              // Increased from 18
+          color: '#ffffff',
+          strokeWidth: 0,
+          strokeColor: 'transparent',
+          face: 'Arial',         // Unified font family
+          align: 'center'        // Better label alignment
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
-        shape: node.image ? 'circularImage' : 'dot'
+        shape: node.image ? 'circularImage' : 'dot',
+        labelHighlightBold: false, // Keep font weight consistent
+        margin: 5                // Reduced space between node and label
       };
       if (node.image) config.image = node.image;
       nodesMap[node.id] = config;
