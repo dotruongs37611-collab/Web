@@ -179,7 +179,27 @@ document.addEventListener('DOMContentLoaded', async function () {
       connectedEdges.forEach(edge => {
         connectedNodes.add(edge.from === nodeId ? edge.to : edge.from);
       });
-    
+
+      // Resaltar edges conectados
+      connectedEdges.forEach(edge => {
+        edges.update({
+          id: edge.id,
+          color: { color: '#ffa500' },
+          width: 3
+        });
+      });
+
+      const allEdgeIds = edges.getIds();
+      const connectedEdgeIds = new Set(connectedEdges.map(e => e.id));
+      
+      const fadedEdges = allEdgeIds.filter(id => !connectedEdgeIds.has(id)).map(id => ({
+        id,
+        color: { color: 'rgba(200,200,200,0.3)' },
+        width: 1
+      }));
+      
+      edges.update(fadedEdges);
+
       // Get all node IDs
       const allNodeIds = nodes.getIds();
       
