@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           align: 'center',
           bold: true // Added for better readability
         },
-        color: { border: '#2B7CE9' },
+        color: { border: '#ffffff' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false, // Keep font weight consistent
