@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
         font: { 
-          size: 22,
+          size: 25,
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false, // Keep font weight consistent
-        margin: 3                // Reduced space between node and label
+        margin: 2                // Reduced space between node and label
       };
       if (node.image) config.image = node.image;
       nodesMap[node.id] = config;
