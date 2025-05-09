@@ -38,9 +38,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       const config = {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
-        font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
+        font: { 
+          size: 18, 
+          color: '#ffffff', // White text color
+          strokeWidth: 0,   // Remove stroke
+          strokeColor: 'transparent' // Make stroke transparent
+        },
         color: { border: '#2B7CE9' },
-          borderWidth: 2,
+        borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot'
       };
       if (node.image) config.image = node.image;
