@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false, // Keep font weight consistent
-        margin: 2                // Reduced space between node and label
+        margin: 1                // Reduced space between node and label
       };
       if (node.image) config.image = node.image;
       nodesMap[node.id] = config;
