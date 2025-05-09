@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', async function () {
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
-          face: 'Arial',         // Unified font family
+          face: 'Helvetica, Arial, sans-serif',       // Unified font family
           align: 'center'        // Better label alignment
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false, // Keep font weight consistent
-        margin: 5                // Reduced space between node and label
+        margin: 3                // Reduced space between node and label
       };
       if (node.image) config.image = node.image;
       nodesMap[node.id] = config;
