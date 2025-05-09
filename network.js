@@ -67,13 +67,35 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Batch update nodes
       const nodeUpdates = [];
       if (lastHighlightedNode) {
-        nodeUpdates.push({ id: lastHighlightedNode, color: { border: '#2B7CE9' }, borderWidth: 2 });
-      }
-      if (lastHighlightedNodes.length > 0) {
-        lastHighlightedNodes.forEach(id => {
-          nodeUpdates.push({ id, color: { border: '#2B7CE9' }, borderWidth: 2 });
+        nodeUpdates.push({ 
+          id: lastHighlightedNode, 
+          color: { border: '#2B7CE9' }, 
+          borderWidth: 2,
+          opacity: 1 // Reset opacity
         });
       }
+      
+      if (lastHighlightedNodes.length > 0) {
+        lastHighlightedNodes.forEach(id => {
+          nodeUpdates.push({ 
+            id, 
+            color: { border: '#2B7CE9' }, 
+            borderWidth: 2,
+            opacity: 1 // Reset opacity
+          });
+        });
+      }
+      
+      // Reset opacity for non-highlighted nodes
+      if (lastNonHighlightedNodes.length > 0) {
+        lastNonHighlightedNodes.forEach(id => {
+          nodeUpdates.push({ 
+            id, 
+            opacity: 1 // Reset to fully opaque
+          });
+        });
+      }
+      
       if (nodeUpdates.length > 0) nodes.update(nodeUpdates);
     
       // Batch update edges
@@ -86,8 +108,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     
       lastHighlightedNode = null;
       lastHighlightedNodes = [];
+      lastNonHighlightedNodes = [];
     }
 
+    let lastNonHighlightedNodes = [];
+    
     const container = document.getElementById('network');
     const network = new vis.Network(container, { nodes, edges }, {
       nodes: { borderWidth: 2 },
@@ -130,15 +155,38 @@ document.addEventListener('DOMContentLoaded', async function () {
         connectedNodes.add(edge.from === nodeId ? edge.to : edge.from);
       });
     
+      // Get all node IDs
+      const allNodeIds = nodes.getIds();
+      
+      // Separate connected and non-connected nodes
+      const nonConnectedNodes = allNodeIds.filter(id => 
+        id !== nodeId && !connectedNodes.has(id)
+      );
+      
       // Batch updates
       const updates = [
         { id: nodeId, color: { border: 'red' }, borderWidth: 4 }
       ];
+      
+      // Highlight connected nodes
       Array.from(connectedNodes).forEach(id => {
         updates.push({ id, color: { border: '#ffa500' }, borderWidth: 3 });
       });
+      
+      // Make non-connected nodes translucent
+      const nonConnectedUpdates = nonConnectedNodes.map(id => ({
+        id,
+        opacity: 0.3, // Make nodes semi-transparent
+        color: {
+          ...nodes.get(id).color,
+          highlight: nodes.get(id).color.highlight || {},
+          hover: nodes.get(id).color.hover || {}
+        }
+      }));
+      
       nodes.update(updates);
-    
+      nodes.update(nonConnectedUpdates);
+      
       edges.update(
         connectedEdges.map(edge => ({
           id: edge.id,
@@ -146,9 +194,10 @@ document.addEventListener('DOMContentLoaded', async function () {
           width: 2
         }))
       );
-    
+      
       lastHighlightedNode = nodeId;
       lastHighlightedNodes = Array.from(connectedNodes);
+      lastNonHighlightedNodes = nonConnectedNodes; // Store for clearing later
     }
     
     network.on("click", function (params) {
