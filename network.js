@@ -39,11 +39,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
         font: { 
-          size: 25,
+          size: Math.min(14 + degree * 0.5, 36),  // 🔥 proporcional al número de edges
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
-          face: 'EB Garamond, serif', // Changed to match your body font
+          face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
           vadjust: -10
