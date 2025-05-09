@@ -45,16 +45,14 @@ document.addEventListener('DOMContentLoaded', async function () {
           strokeColor: 'transparent',
           face: 'EB Garamond, serif', // Changed to match your body font
           align: 'center',
-          bold: true // Added for better readability
+          bold: true,
+          vadjust: -10
         },
-        color: { border: '#ffffff' },
+        color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
-        labelHighlightBold: false, // Keep font weight consistent
-        margin: -5,  // Negative margin brings label closer
-        font: {
-          vadjust: -10  // Vertically nudge label upward
-        }
+        labelHighlightBold: false,
+        margin: -5
       };
       if (node.image) config.image = node.image;
       nodesMap[node.id] = config;
