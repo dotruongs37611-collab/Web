@@ -110,12 +110,47 @@ document.addEventListener('DOMContentLoaded', async function () {
       }, 1000); // espera 1 segundo para que se relaje
     });
 
+    function highlightNeighborhood(nodeId) {
+    const connectedNodes = new Set();
+    const connectedEdges = [];
+  
+    edges.forEach(edge => {
+      if (edge.from === nodeId) {
+        connectedNodes.add(edge.to);
+        connectedEdges.push(edge.id);
+      } else if (edge.to === nodeId) {
+        connectedNodes.add(edge.from);
+        connectedEdges.push(edge.id);
+      }
+    });
+  
+    // Destacar nodo principal
+    nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
+  
+    // Destacar nodos conectados
+    connectedNodes.forEach(id => {
+      const n = nodes.get(id);
+      if (n) nodes.update({ id, color: { border: '#ffa500' }, borderWidth: 3 });
+    });
+  
+    // Destacar edges conectados
+    edges.forEach(edge => {
+      if (edge.from === nodeId || edge.to === nodeId) {
+        edges.update({ id: edge.id, color: { color: 'red' }, width: 2 });
+      } else {
+        edges.update({ id: edge.id, color: { color: 'lightgray' }, width: 1 });
+      }
+    });
+  
+    lastHighlightedNodes = Array.from(connectedNodes);
+  }
+    
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
         const node = nodes.get(params.nodes[0]);
 
         clearHighlights();
-        nodes.update({ id: node.id, color: { ...node.color, border: 'red' }, borderWidth: 4 });
+        highlightNeighborhood(node.id);
         lastHighlightedNode = node.id;
 
         const degree = edgeCount[node.id] || 0;
@@ -250,6 +285,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `</ul></div>`;
         document.getElementById("nodeInfo").innerHTML = html;
 
+        // 🔁 Añadir esto después del cierre del primer network.on("click", ...) :
+        network.on("click", function (params) {
+          if (params.nodes.length === 0 && params.edges.length === 0) {
+            clearHighlights();
+          }
+        });
         
             } else if (params.edges.length > 0) {
         clearHighlights();
