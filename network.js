@@ -39,12 +39,13 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
         font: { 
-          size: 22,              // Increased from 18
+          size: 22,
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
-          face: 'Helvetica, Arial, sans-serif',       // Unified font family
-          align: 'center'        // Better label alignment
+          face: 'EB Garamond, serif', // Changed to match your body font
+          align: 'center',
+          bold: true // Added for better readability
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
