@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
         font: { 
-          size: Math.min(14 + degree * 0.5, 36),  // 🔥 proporcional al número de edges
+          size: Math.min(18 + degree * 1.2, 48),  // 🔥 proporcional al número de edges
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
