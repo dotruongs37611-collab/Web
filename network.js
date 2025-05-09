@@ -51,7 +51,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false, // Keep font weight consistent
-        margin: 1                // Reduced space between node and label
+        margin: -5,  // Negative margin brings label closer
+        font: {
+          vadjust: -10  // Vertically nudge label upward
+        }
       };
       if (node.image) config.image = node.image;
       nodesMap[node.id] = config;
@@ -125,18 +128,32 @@ document.addEventListener('DOMContentLoaded', async function () {
     
     const container = document.getElementById('network');
     const network = new vis.Network(container, { nodes, edges }, {
-      nodes: { borderWidth: 2 },
+      nodes: { 
+        borderWidth: 2,
+        shapeProperties: {
+          useBorderWithImage: true
+        }
+      },
       edges: { color: 'lightgray' },
       physics: {
         solver: 'forceAtlas2Based',
-        stabilization: true,
+        stabilization: {
+          enabled: true,
+          iterations: 1000,  // Increased stabilization
+          updateInterval: 25
+        },
         forceAtlas2Based: {
-          gravitationalConstant: -90,
+          gravitationalConstant: -120,  // Stronger repulsion
           centralGravity: 0.01,
-          springLength: 140,
+          springLength: 100,  // Shorter ideal distance
           springConstant: 0.08,
-          avoidOverlap: 1 // 👈 clave para que no se solapen
+          avoidOverlap: 1.5,  // Increased overlap prevention
+          damping: 0.5
         }
+      },
+      layout: {
+        improvedLayout: true,
+        randomSeed: 1912  // Consistent layout
       }
     });
     network.once("stabilizationIterationsDone", function () {
