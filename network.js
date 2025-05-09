@@ -64,32 +64,29 @@ document.addEventListener('DOMContentLoaded', async function () {
     let lastHighlightedNodes = [];
     
     function clearHighlights() {
+      // Batch update nodes
+      const nodeUpdates = [];
       if (lastHighlightedNode) {
-        const n = nodes.get(lastHighlightedNode);
-        if (n) {
-          nodes.update({ id: lastHighlightedNode, color: { ...n.color, border: '#2B7CE9' }, borderWidth: 2 });
-        }
-        lastHighlightedNode = null;
+        nodeUpdates.push({ id: lastHighlightedNode, color: { border: '#2B7CE9' }, borderWidth: 2 });
       }
-    
       if (lastHighlightedNodes.length > 0) {
         lastHighlightedNodes.forEach(id => {
-          const n = nodes.get(id);
-          if (n) {
-            nodes.update({ id, color: { ...n.color, border: '#2B7CE9' }, borderWidth: 2 });
-          }
+          nodeUpdates.push({ id, color: { border: '#2B7CE9' }, borderWidth: 2 });
         });
-        lastHighlightedNodes = [];
       }
+      if (nodeUpdates.length > 0) nodes.update(nodeUpdates);
     
-      edges.forEach(edge => {
-        const e = edges.get(edge.id);
-        if (e) {
-          edges.update({ id: edge.id, color: { color: e.connection_level === "secondary" ? "#FFD700" : "lightgray" }, width: 2 });
-        }
-      });
+      // Batch update edges
+      const edgeUpdates = edges.get().map(edge => ({
+        id: edge.id,
+        color: edge.connection_level === "secondary" ? "#FFD700" : "lightgray",
+        width: 2
+      }));
+      edges.update(edgeUpdates);
+    
+      lastHighlightedNode = null;
+      lastHighlightedNodes = [];
     }
-
 
     const container = document.getElementById('network');
     const network = new vis.Network(container, { nodes, edges }, {
@@ -124,39 +121,35 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     function highlightNeighborhood(nodeId) {
-    const connectedNodes = new Set();
-    const connectedEdges = [];
-  
-    edges.forEach(edge => {
-      if (edge.from === nodeId) {
-        connectedNodes.add(edge.to);
-        connectedEdges.push(edge.id);
-      } else if (edge.to === nodeId) {
-        connectedNodes.add(edge.from);
-        connectedEdges.push(edge.id);
-      }
-    });
-  
-    // Destacar nodo principal
-    nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
-  
-    // Destacar nodos conectados
-    connectedNodes.forEach(id => {
-      const n = nodes.get(id);
-      if (n) nodes.update({ id, color: { border: '#ffa500' }, borderWidth: 3 });
-    });
-  
-    // Destacar edges conectados
-    edges.forEach(edge => {
-      if (edge.from === nodeId || edge.to === nodeId) {
-        edges.update({ id: edge.id, color: { color: 'red' }, width: 2 });
-      } else {
-        edges.update({ id: edge.id, color: { color: 'lightgray' }, width: 1 });
-      }
-    });
-  
-    lastHighlightedNodes = Array.from(connectedNodes);
-  }
+      const connectedEdges = edges.get({
+        filter: edge => edge.from === nodeId || edge.to === nodeId
+      });
+      
+      const connectedNodes = new Set();
+      connectedEdges.forEach(edge => {
+        connectedNodes.add(edge.from === nodeId ? edge.to : edge.from);
+      });
+    
+      // Batch updates
+      const updates = [
+        { id: nodeId, color: { border: 'red' }, borderWidth: 4 }
+      ];
+      Array.from(connectedNodes).forEach(id => {
+        updates.push({ id, color: { border: '#ffa500' }, borderWidth: 3 });
+      });
+      nodes.update(updates);
+    
+      edges.update(
+        connectedEdges.map(edge => ({
+          id: edge.id,
+          color: { color: 'red' },
+          width: 2
+        }))
+      );
+    
+      lastHighlightedNode = nodeId;
+      lastHighlightedNodes = Array.from(connectedNodes);
+    }
     
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
@@ -297,13 +290,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         html += `</ul></div>`;
         document.getElementById("nodeInfo").innerHTML = html;
-
-        // 🔁 Añadir esto después del cierre del primer network.on("click", ...) :
-        network.on("click", function (params) {
-          if (params.nodes.length === 0 && params.edges.length === 0) {
-            clearHighlights();
-          }
-        });
         
             } else if (params.edges.length > 0) {
         clearHighlights();
@@ -420,6 +406,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       if (params.nodes.length === 0 && params.edges.length === 0) {
         clearHighlights();
+        return; // Add this to exit early
       }
 
     });
