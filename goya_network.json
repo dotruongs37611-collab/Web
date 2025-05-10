@@ -2337,6 +2337,13 @@
     },
     {
       "from": "Célestin Nanteuil",
+      "to": "Jean-Auguste-Dominique Ingres",
+      "connection_level": "direct",
+      "relationship type": "professional; master-student",
+      "know each other since": "c.1827"
+    },
+    {
+      "from": "Célestin Nanteuil",
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "friends",
