@@ -407,6 +407,28 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg"
     },
     {
+      "id": "Célestin Nanteuil",
+      "label": "Nanteuil",
+      "full name": "Célestin François Nanteuil-Lebœuf",
+      "life dates": "1813-1873",
+      "nationality": "French",
+      "born in": "Rome",
+      "profession": "painter, draughtsman, lithographer (etching, lithography, woodcut), illustrator, museum curator",
+      "author of": "several covers of books and artworks made by his friends: Théophile Gautier's 'Albertus' and 'Les Jeunes-France'; four covers for the edition of Victor Hugo's works (1832); Alexandre Dumas père's 'Impressions de voyage', 'Angèle' and the 1st edition of 'Théâtre'; contributes to the illustrations of Furne's edition of the work of Honoré de Balzac; Honoré Daumier's 'Cent et un Robert-Macaire' (1839). Lithography: 'Rabelais' (1836) after Eugène Delacroix; reproductions after Titian, José de Ribera, Velázquez and others to illustrate an anthology of paintings of the Royal Museum in Madrid (Prado) by Juan José Martínez (Madrid, 1857). Woodcut illustrations in the 1840s. Paintings: he was awarded at the Salon in 1837, 1848, 1861 and 1867; an example is 'Un rayon de soleil' (1848, Musée de Valenciennes).",
+      "studied in": "École nationale supérieure des beaux-arts de Paris (from 1827)",
+      "works as": "director of the Académie des Beaux-arts (1867); curator at the Musée des Beaux-arts de Dijon",
+      "participates in": "the Battle of Hernani (1830)",
+      "founder of": "the journal Les Artistes contemporains (1843-1847) with lithographers Eugène Prosper Leroux, Adolphe Mouilleron, and painters Henri Baron and Louis Français",
+      "works for": "L'Artiste; Le Monde dramatique",
+      "masters": "Eustache-Hyacinthe Langlois; Dominique Ingres",
+      "decorations/awards": "Chevalier de la Légion d'honneur (1868)",
+      "curiosities": "his parents belonged to the circle of Joseph Bonaparte. Hoplessly in love with famous actress Marie Dorval",
+      "portrayed by": "Nadar, 1873 (photograph)",
+      "bibliography": "Henri Béraldi, 1890, 'Les graveurs du XIXe siècle : guide de l'amateur d'estampes modernes', Paris, L. Conquet",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nanteuil.jpg",
+      "image source": "Nadar portrait 1873"
+    },
+    {
       "id": "Louis Boulanger",
       "label": "Boulanger",
       "life dates": "1806-1867",
@@ -2303,6 +2325,52 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Célestin Nanteuil",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "shared": "participation in the Battle of Hernani (1830); belonging to Victor Hugo's Cénacle",
+      "collaborations": "Nanteuil illustrated the cover for Gautier's 'Albertus' and 'Les Jeunes-France',
+      "mentions": "Gautier recalls by Nanteuil 'une eau-forte ultra-excentrique' in his poem 'Albertus' (L'Illustration, 9 March 1867); Gautier described Nanteuil as: 'On eût pu l'appeler le jeune homme moyen âge.[…] il gardait le sexe indécis des êtres surnaturels composés de l'éphèbe et de la jeune fille. Il avait l'émotion et la pudeur faciles et rougissait aisément' (quoted in Champfleury, 'Vignettes romantiques: histoire de la littérature et de l'art 1825-1840, 1883)"
+    },
+    {
+      "from": "Célestin Nanteuil",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "shared": "participation in the Battle of Hernani (1830); belonging to Victor Hugo's Cénacle; travelled with Hugo and his mistress to Normandie in 1836",
+      "collaborations": "Nanteuil illustrated four covers for Hugo's works in 1832"
+    },
+    {
+      "from": "Alexandre Dumas père",
+      "to": "Célestin Nanteuil",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "shared": "belonging to Victor Hugo's Cénacle",
+      "collaborations": "Nanteuil illustrated the covers for Dumas's 'Impressions de voyage', 'Angèle' and the 1st edition of 'Théâtre'; Nanteuil contributed to the decorations of the Ball given by Dumas in 1833"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Célestin Nanteuil",
+      "connection_level": "secondary and direct?",
+      "relationship type": "acquaintances",
+      "collaborations": "Nanteuil made a lithograph after Delacroix's 'Rabelais' (1836)"
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "Célestin Nanteuil",
+      "connection_level": "secondary and direct?",
+      "relationship type": "acquaintances",
+      "collaborations": "Nanteuil made an advertisement for Daumier's 'Cent et un Robert-Macaire' (1839)"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Célestin Nanteuil",
+      "connection_level": "secondary and direct?",
+      "relationship type": "acquaintances",
+      "collaborations": "Nanteuil contributed to the illustrations of Furne's edition of the work of Balzac (La Comédie Humaine, from 1841-42)"
     },
     {
       "from": "Baron Taylor",
