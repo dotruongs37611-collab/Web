@@ -158,6 +158,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         network.setOptions({ physics: false });
         network.fit({ animation: true, minZoomLevel: 0.5 });
+
+        document.getElementById('loadingMessage').style.display = 'none';
     
         // 🔁 AÑADE esto aquí dentro
         nodes.forEach(node => {
