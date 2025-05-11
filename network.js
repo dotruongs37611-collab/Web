@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         labelHighlightBold: false,
         margin: -5
       };
-      if (node.image) config.image = node.image;
+      config._imageUrl = node.image; // Guardamos temporalmente la URL
       nodesMap[node.id] = config;
       return config;
     }));
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: {
           enabled: true,
-          iterations: 1000,  // Increased stabilization
+          iterations: 500,  // Increased stabilization
           updateInterval: 25
         },
         forceAtlas2Based: {
@@ -158,8 +158,19 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         network.setOptions({ physics: false });
         network.fit({ animation: true, minZoomLevel: 0.5 });
+        
+        document.getElementById('loadingMessage').style.display = 'none';
+    
+        // 🔁 AÑADE esto aquí dentro
+        nodes.forEach(node => {
+          if (node._imageUrl) {
+            nodes.update({ id: node.id, image: node._imageUrl });
+          }
+        });
+    
       }, 2000); // Espera 2 segundos más
     });
+
     network.on("dragStart", function () {
       network.setOptions({ physics: { enabled: true } });
     });
