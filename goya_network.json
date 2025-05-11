@@ -225,10 +225,24 @@
       "label": "Mérimée",
       "life dates": "1803-1870",
       "nationality": "French",
-      "profession": "writer, historian, archaeologist",
+      "profession": "writer, historian, archaeologist, anthropologist, playwright, politician, translator, draughtsman",
+      "works as": "Inspecteur général des monuments historiques (1834). Senator (1853). He was one of the main translators of Russian into French, and also knew Arabic, English and Greek.",
+      "studied in": "Lycée Henri-IV. Then he studies Law and Music (piano), obtaining his final certificate in Rome.",
+      "author of": [
+        "Fiction: La Vénus d'Ille; Carmen (1845 written; 1847 published); Homme en Grande Bottes; Mateo Falcone (1829).",
+        "Art criticism and travel literature: Les Grands Maîtres au Musée de Madrid (1830); Lettres d’Espagne (1832): Les Combats de taureaux, Une exécution, Les Voleurs, Les Sorcières espagnoles; Notes de voyages (1835—1840)."
+        ],
+      "writes in": "Revue des Deux Mondes; Revue germanique",
+      "member of": "Académie des inscriptions et belles-lettres (1843-1870); Académie française (1844-1870), replacing Charles Nodier; Société des antiquaires de la Morinie; Société de l’histoire de France; Académie du dessin de Florence",
+      "decorations/awards": "Grand officier de la Légion d'honneur‎; Grand prix des Meilleurs romans du XIXe siècle (1952)",
       "in Spain": "in 1830",
       "visits the Prado Museum": "in 1830 (doesn't mention Goya in his account)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg"
+      "parents": "Léonor Mérimée and Anne Louise Moreau",
+      "portrayed by": "Anne Moreau in 1808 (as a child); Charles Reutilinger, photograph (1850); Simon Jacques Rochard, pastel, 1852 (Musée Carnavalet); Mathilde Bonaparte, drawing, 1869 (Musée Carnavalet)",
+      "pseudonyms": "L' Auteur du Théâtre de Clara Gazul, Clara Gazul, Joseph Lestrange, Hyacinthe Maglanovich",
+      "curiosities": "as Inspecteur général des monuments historiques, he named Viollet-le-Duc in charge of the restoration of the Vézelay basilica (1840), the cathedral Notre-Dame de Paris (1843) and the Cité de Carcassonne (1853). He was a close friend of Empress Eugènie (Eugenia de Montijo). In 1978 a 'base Mérimée' was created in his honour for the classification of historical monuments in France.",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg",
+      "image source": "Reutlinger photograph, 1850"
     },
     {
       "id": "Bernardo de Iriarte",
