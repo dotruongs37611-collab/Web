@@ -151,7 +151,13 @@
       "nationality": "French",
       "born in": "Brussels",
       "profession": "politician, artist, playwright, philanthropist, military member",
-      "in Spain": "1st trip in 1820; 1823 [Cien Mil hijos de S. Luis]; in 1832 (with Dauzats); July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo; 1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice of Madrazo family and Carderera [Lanzarote Guiral 2016 p.574]): 1836 Feb-Aug paintings (8 Goyas from Javier Goya)",
+      "in Spain": [
+        "1st trip in 1820",
+        "1823 [Cien Mil hijos de S. Luis]",
+        "in 1832 (with Dauzats)",
+        "July 1833 (with Dauzats): introduced to José Madrazo by Blanchard, portrayed by Madrazo",
+        "1835-36 commissioned by Louis-Philippe to acquire paintings for Galerie espagnole (assisted by Dauzats and Blanchard, and benefited by active help and advice from the Madrazo family and Carderera [Lanzarote Guiral 2016 p.574]): 1836 Feb-Aug (8 paintings attributed to Goya from Javier Goya)"
+        ],
       "worked for": "Charles X; Louis-Philippe: acquiring Spanish paintings for the Galerie espagnole (1838-48)",
       "works as": [
         "Administrateur général de la Comédie-Française (1825-30, 1831-38): he stages Alexandre Dumas's 'Henri III et sa cour', and Hugo's 'Hernani' and 'Marion Delorme'.",
@@ -189,7 +195,10 @@
       "life dates": "1805-1873",
       "nationality": "French",
       "profession": "painter, draughtsman",
-      "in Spain": "1824-1837 working as a painter and engraver; hired by José Madrazo to make lithographic reproductions at the Real Museo in Madrid; 1835-37 he assists Baron Taylor in acquiring paintings for Louis Philippe's Galerie espagnole",
+      "in Spain": [
+        "1824-1837 working as a painter and engraver; hired by José Madrazo to make lithographic reproductions at the Real Museo in Madrid",
+        "1835-37 he assists Baron Taylor and Dauzats in acquiring paintings for Louis Philippe's Galerie espagnole",
+        ],
       "in Paris": "after 1837 (quoted by Carderera's diary) (Lanzarote Guiral 2016, p.537)",
       "author of": "'Course de taureaux dans un bourg d'Espagne' (Salon 1834)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanchard_AI.jpg",
@@ -414,7 +423,14 @@
       "nationality": "French",
       "born in": "Rome",
       "profession": "painter, draughtsman, lithographer (etching, lithography, woodcut), illustrator, museum curator",
-      "author of": "several covers of books and artworks made by his friends: Théophile Gautier's 'Albertus' and 'Les Jeunes-France'; four covers for the edition of Victor Hugo's works (1832); Alexandre Dumas père's 'Impressions de voyage', 'Angèle' and the 1st edition of 'Théâtre'; contributes to the illustrations of Furne's edition of the work of Honoré de Balzac; Honoré Daumier's 'Cent et un Robert-Macaire' (1839). Lithography: 'Rabelais' (1836) after Eugène Delacroix; reproductions after Titian, José de Ribera, Velázquez and others to illustrate an anthology of paintings of the Royal Museum in Madrid (Prado) by Juan José Martínez (Madrid, 1857). Woodcut illustrations in the 1840s. Paintings: he was awarded at the Salon in 1837, 1848, 1861 and 1867; an example is 'Un rayon de soleil' (1848, Musée de Valenciennes).",
+      "author of": [
+        "Covers for his friends: Théophile Gautier's 'Albertus' and 'Les Jeunes-France'; four covers for the edition of Victor Hugo's works (1832); Alexandre Dumas père's 'Impressions de voyage', 'Angèle' and the 1st edition of 'Théâtre'.",
+        "Contributes to the illustrations of Furne's edition of the work of Honoré de Balzac.",
+        "Honoré Daumier's 'Cent et un Robert-Macaire' (1839).",
+        "Lithography: 'Rabelais' (1836) after Eugène Delacroix; reproductions after Titian, José de Ribera, Velázquez and others to illustrate an anthology of paintings of the Royal Museum in Madrid (Prado) by Juan José Martínez (Madrid, 1857).",
+        "Woodcut illustrations in the 1840s.",
+        "Paintings: he was awarded at the Salon in 1837, 1848, 1861 and 1867. An example is 'Un rayon de soleil' (1848, Musée de Valenciennes)."
+        ],
       "studied in": "École nationale supérieure des beaux-arts de Paris (from 1827)",
       "works as": "director of the Académie des Beaux-arts (1867); curator at the Musée des Beaux-arts de Dijon",
       "participates in": "the Battle of Hernani (1830)",
@@ -449,11 +465,14 @@
       "in Paris": "back from Madrid in August 1831",
       "author of": "Ballades, mélodies et poésies diverse (1829); Scènes de la vie castillane et andalouse (article series in Revue des Deux Mondes)",
       "collector of Goya's works": "Los Caprichos (1830-1831)",
-      "shows Goya": "Fontaney's journal (8 Sept 1831): 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31); 9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)",
+      "shows Goya": [
+        "8 Sept 1831: 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31).",
+        "9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)."
+      ],
       "partners/lovers": "Gabrielle Dorval (daughter of the actress Marie Dorval). They flee together to Spain and England (where he falls sick with phthisis)",
       "pseudonyms": "Lord Feeling (from the Scottish writer Henry Mackenzie)",
       "curiosities": "He was (unhappily) in love with Marie Nodier. After dying of phthisis, both Hugo and Sainte-Beuve forget their recent fallout and attend his funeral",
-      "bibliography": "Fontaney-Jasinski 1925",
+      "bibliography": "Fontaney's journal: Fontaney-Jasinski 1925",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
     },
     {
