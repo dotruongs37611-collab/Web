@@ -22,9 +22,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     nodeInfo.style.maxHeight = '810px';
     nodeInfo.style.overflowY = 'auto';
 
-    const response = await fetch('goya_network.json');
-    if (!response.ok) throw new Error('Error cargando datos');
-    const data = await response.json();
+    const data = window.GOYA_DATA;
+    // ... todo lo demás igual ...
 
     const edgeCount = {};
     data.edges.forEach(edge => {
