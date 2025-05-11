@@ -245,6 +245,33 @@
       "image source": "Reutlinger photograph, 1850"
     },
     {
+      "id": "Marcello (Adèle d'Affry)",
+      "label": "Marcello",
+      "full name": "Adélaïde Nathalie Marie Hedwige Philippine d’Affry",
+      "life dates": "1836-1879",
+      "nationality": "Swiss",
+      "profession": "painter, engraver, sculptor",
+      "in Spain": "in 1868 (during the Revolution): she meets painters Henri Regnault and Georges Clarin; she meets and makes a bust after Milans del Bosch; with recommentation letters from Mérimée, Marcello has access to the Prado Museum, and admires, among others, the work of Velázquez (probably of Goya too).",
+      "author of": [
+        "Sculpture: La Belle Hélène (1860); La Gorgone (Salon 1865); portrait of Empress Eugénie; Marie-Antoinette à Versailles (1866); Hécate (Exposition universelle 1867, commissioned by Napoléon III); La Bacchante fatiguée (1869); La Mauresque souriante (1869); La Pythie (1870)",
+        "Painting: Portrait de madame de Tallenay (1873); La Conjuration de Fiesque (Salon 1874: rejected); Portrait de Berthe Morisot (1875); La Baronne Keffenbrinck (Salon 1876)",
+        "Printmaking (since 1860): dark, grotesque etchings clearly inspired by Goya's prints, mainly the Desastres de la guerra (see Fayos Pérez 2024, fig.II.68, Marcello, Vision of human skulls); she made 9 etchings and some lithographs inspired by Eugène Delacroix (1873).",
+        "Writing: 'Mémoires', unfinished"
+        ],
+      "masters": "Sculpture: Heinrich Max Imhof, Antoine-Louis Barye (Muséum national d'histoire naturally), Auguste Clésinger. Painting: Ernest Hébert (drawing, at the Villa Médicis), Mariano Fortuny (at his workshop, she meets Eduardo Rosales), Léon Bonnat (from 1872); Marcellin Desboutin (printmaking).",
+      "parents": "Louis d'Affry and Lucie d'Affry de Maillardo",
+      "married to": "Carlo Colonna (1856, Rome)",
+      "address": "1, rue Bayard, from 1859 (rented to Léon Riesener, Eugène Delacroix's cousin)",
+      "portrayed by": "Gustave Courbet, 1870 (Musée de Reims); Edouard-Théophile Blanchard, oil painting, 1877 (Musée d'art et d'histoire de Fribourg)",
+      "pseudonyms": "Marcello (since 1863, for the Salon)",
+      "decorations/awards": "medal for her works at the Exposition universelle de 1873 (Vienna): Le Chef abyssin, Bianca Capello, 2 Marie-Antoinette, Pythie",
+      "curiosities": "she refused to be portrayed by Édouard Manet. She was also a great admirer of music, and met Charles Gounod and Franz Liszt. In her will, she donates her work to the city of Fribourg, under the condition of creating a museum.",
+      "bibliography": "Fayos Pérez 2024; François Géal, 2017, 'Mérimée/Goya, chronique d'un désamour annoncé', Cahiers Mérimée, pp.55; Gianna A. Mina (dir.), 'Marcello, Adèle d'Affry (1836-1879), duchesse de Castiglione Colonna', catalogue d'exposition, Fribourg, Musée d'art et d'histoire, 2014; 1980 exhibition catalogue, Fribourg ('Dictionnaire de l'estampe 1830-1950', 1985, p.213); Odette d'Alcantara, Marcello : Adèle d'Affry, duchesse Castiglione-Colonna, 1836–1879, sa vie, son œuvre, sa pensée et ses amis, Genève, Éditions générales, 1961",
+      "websites": "Wikipedia https://fr.wikipedia.org/wiki/Marcello_(artiste)#",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Marcello.jpg",
+      "image source": "E.-T. Blanchard portrait, 1877"
+    },
+    {
       "id": "Bernardo de Iriarte",
       "label": "Iriarte",
       "life dates": "1735-1814", 
@@ -1834,6 +1861,29 @@
       "to": "Prosper Mérimée",
       "connection_level": "direct",
       "relationship type": "friends/acquaintances"
+    },
+    {
+      "from": "Marcello (Adèle d'Affry)",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "friends; correspondents",
+      "correspondence": "1869-V-16 letter: Mérimée expresses his distaste for Goya's prints. He states that he 'will never forgive her' for liking Goya's work, including the Disasters of War (see Fayos Pérez 2024, fig.II.68, Marcello, Vision of human skulls, probably inspired after Goya's plate 69 'Nothing. The event will tell' and 80 'Will she live again?' from the Disasters of War)",
+      "bibliography": "Fayos Pérez 2024; Griener & Guerdat 2015, p.366"
+    },
+    {
+      "from": "Marcello (Adèle d'Affry)",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Marcello did some prints inspired by Delacroix",
+      "they met": "on 6 September 1860"
+    },
+    {
+      "from": "Marcello (Adèle d'Affry)",
+      "to": "Mariano Fortuny",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they met": "c.1868 in Morocco",
+      "bibliography": "Griener & Guerdat 2015, p.366"
     },
     {
       "from": "Federico Madrazo",
