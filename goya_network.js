@@ -1,4 +1,4 @@
-{
+window.GOYA_DATA ={
   "nodes": [
     {
       "id": "Francisco de Goya y Lucientes",
@@ -3548,4 +3548,4 @@
       "bibliography": "Fayos Pérez 2024; Fayos Pérez 2019."
     }
   ]
-}
+};
