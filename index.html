@@ -92,15 +92,31 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 2rem;
+      padding: 0.5rem 2rem; /* Adjust padding for consistency */
       padding-left: 1rem;
       padding-right: 2rem;
       margin-bottom: 0rem;
       padding-bottom: 0rem;
     }
-  
+
+    /* Ensure buttons and controls have the same height */
+    .menu-buttons button, 
+    .controls input, 
+    .controls button, 
+    .controls select {
+      height: 38px; /* Match heights */
+      box-sizing: border-box; /* Include padding in height */
+    }
+    
     .menu-buttons button {
       margin-right: 1rem;
+    }
+
+    /* Adjust menu buttons to align better */
+    .menu-buttons {
+      display: flex;
+      gap: 0.7rem; /* Match the gap in .controls */
+      align-items: center; /* Vertical alignment */
     }
       
     .controls {
