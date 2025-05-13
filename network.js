@@ -131,8 +131,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
-    
-    function clearHighlights() {
+    let lastNonHighlightedNodes = [];
+
+        function clearHighlights() {
       // Batch update nodes
       const nodeUpdates = [];
       if (lastHighlightedNode) {
@@ -179,8 +180,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       lastHighlightedNodes = [];
       lastNonHighlightedNodes = [];
     }
-
-    let lastNonHighlightedNodes = [];
     
     const container = document.getElementById('network');
     const network = new vis.Network(container, { nodes, edges }, {
@@ -587,8 +586,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     };
 
     // Búsqueda funcional
-    const searchInput = document.getElementById('search');
-    const searchButton = document.getElementById('searchButton');
+    const searchInput = document.getElementById('searchInput');
+    const searchButton = document.querySelector('.search-button');
 
     // Replace the existing searchButton event listener with this:
     searchButton.addEventListener('click', () => {
