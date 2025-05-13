@@ -99,6 +99,16 @@
       padding-bottom: 0rem;
     }
 
+    /* Standardize button/input heights */
+    .menu-buttons button, 
+    #search, 
+    #searchButton, 
+    #professionFilter, 
+    #nationalityFilter {
+      height: 38px; /* Match all heights */
+      box-sizing: border-box; /* Include padding in height */
+    }
+    
     /* Ensure buttons and controls have the same height */
     .menu-buttons button, 
     .controls input, 
@@ -109,7 +119,7 @@
     }
     
     .menu-buttons button {
-      margin-right: 1rem;
+      margin-right: 0rem;
     }
 
     /* Adjust menu buttons to align better */
@@ -129,6 +139,7 @@
       justify-content: center;
       gap: 0.7rem;
       padding-bottom: 1rem;
+      align-items: center; /* Vertical center */
     }
   
     .layout-container {
