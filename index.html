@@ -96,35 +96,14 @@
       align-items: center; /* <-- alinea verticalmente ambos bloques */
       padding: 10px 20px;
     }
-
-    /* Standardize button/input heights */
-    .menu-buttons button, 
-    #search, 
-    #searchButton, 
-    #professionFilter, 
-    #nationalityFilter {
-      height: 38px; /* Match all heights */
-      box-sizing: border-box; /* Include padding in height */
-    }
-    
-    /* Ensure buttons and controls have the same height */
-    .menu-buttons button, 
-    .controls input, 
-    .controls button, 
-    .controls select {
-      height: 38px; /* Match heights */
-      box-sizing: border-box; /* Include padding in height */
-    }
-
-    /* Forzar alineación vertical precisa de los selects */
-    .controls select {
-      padding-top: 6px;  /* ajusta este valor según navegador */
-      padding-bottom: 6px;
-      line-height: 1;     /* elimina salto interno */
-    }
     
     .menu-buttons button {
-      margin-right: 0rem;
+      padding: 6px 12px;
+      border: 1px solid #555; /* igual que los select probablemente */
+      background-color: #1a1a1a;
+      color: white;
+      font-size: 16px;
+      box-sizing: border-box;
     }
 
     /* Adjust menu buttons to align better */
@@ -151,7 +130,24 @@
       gap: 10px;
       align-items: center; /* Vertical center */
     }
-  
+
+    .controls select,
+    .controls input,
+    .controls button {
+      padding: 6px 12px;
+      border: 1px solid #555;
+      background-color: #1a1a1a;
+      color: white;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    .menu-buttons button,
+    .controls select,
+    .controls button {
+      min-width: unset;
+    }
+
     .layout-container {
       display: flex;
       align-items: stretch !important;
