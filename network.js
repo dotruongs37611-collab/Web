@@ -399,6 +399,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "decorations/awards", label: "Decorations/awards" },
           { key: "salon", label: "Salon" },
           { key: "other names", label: "Other names" },
+          { key: "trips", label: "Trips" },
           { key: "image source", label: "Image source" }
         ];
 
@@ -521,6 +522,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "comparisons", label: "Comparisons" },
           { key: "criticism", label: "Criticism" },
           { key: "rivalry", label: "Rivalry" },
+          { key: "employment/patronage", label: "Employment/patronage" },
           { key: "portraits", label: "Portraits" }
         ];
 
