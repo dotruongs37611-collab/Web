@@ -115,6 +115,13 @@
       height: 38px; /* Match heights */
       box-sizing: border-box; /* Include padding in height */
     }
+
+    /* Forzar alineación vertical precisa de los selects */
+    .controls select {
+      padding-top: 6px;  /* ajusta este valor según navegador */
+      padding-bottom: 6px;
+      line-height: 1;     /* elimina salto interno */
+    }
     
     .menu-buttons button {
       margin-right: 0rem;
