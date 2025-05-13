@@ -16,6 +16,64 @@ function autoLinkNames(text, nodesMap) {
   return text;
 }
 
+// Add these two functions at the top of network.js
+window.search = function() {
+  const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
+  if (!searchInput) return;
+
+  // Find matching nodes
+  const matchingNodes = nodes.get().filter(node => 
+    node.id.toLowerCase().includes(searchInput) || 
+    (node.label && node.label.toLowerCase().includes(searchInput))
+  );
+
+  if (matchingNodes.length > 0) {
+    // Focus on first match
+    network.focus(matchingNodes[0].id, { animation: true });
+    // Select the node
+    network.selectNodes([matchingNodes[0].id]);
+    // Show node info
+    network.emit('click', { nodes: [matchingNodes[0].id] });
+  } else {
+    alert('No matching nodes found');
+  }
+};
+
+window.filterGraph = function() {
+  const professionFilter = document.getElementById('professionFilter').value;
+  const nationalityFilter = document.getElementById('nationalityFilter').value;
+  
+  // Clear previous highlights
+  clearHighlights();
+
+  if (!professionFilter && !nationalityFilter) return;
+
+  const matchingNodes = nodes.get().filter(node => {
+    const professionMatch = !professionFilter || 
+      (node.profession && node.profession.includes(professionFilter));
+    const nationalityMatch = !nationalityFilter || 
+      (node.nationality && node.nationality.includes(nationalityFilter));
+    return professionMatch && nationalityMatch;
+  });
+
+  if (matchingNodes.length > 0) {
+    // Highlight matching nodes
+    matchingNodes.forEach(node => {
+      nodes.update({ 
+        id: node.id, 
+        color: { ...node.color, border: 'red' }, 
+        borderWidth: 4 
+      });
+    });
+    
+    // Focus on the first matching node
+    network.focus(matchingNodes[0].id, { animation: true });
+    lastHighlightedNodes = matchingNodes.map(node => node.id);
+  } else {
+    alert('No nodes match the selected filters');
+  }
+};
+
 document.addEventListener('DOMContentLoaded', async function () {
   try {
     const nodeInfo = document.getElementById('nodeInfo');
