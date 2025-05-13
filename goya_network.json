@@ -397,11 +397,33 @@
     {
       "id": "Leandro Fernández de Moratín",
       "label": "Moratín",
+      "full name": "Leandro Eulogio Melitón Fernández de Moratín y Cabo",
       "life dates": "1760-1828", 
-      "nationality": "Spanish",
-      "profession": "playwright, poet",
-      "mentions of Goya": "Diary, 21 May 1798 (Canellas no.88): they see together the paintings of San Antonio de la Florida?",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg"
+      "nationality": "Spanish; French",
+      "profession": "playwright, poet, actor, writer, translator (of Molière and Voltaire)",
+      "works as": "Secretary of language interpretation (1797), after the death of one of the Samaniego brothers; member of the Junta de Dirección y Reforma de los Teatros (1799), but he resigns 3 months later; main librarian (bibliotecario mayor) of the Real Biblioteca in 1811, under Joseph Bonaparte (he creates a new catalogue); Juez de Imprentas in 1820 in Barcelona (after the victory of Rafael del Riego)",
+      "founder of": "a parodic literary academy called 'Acalófilos o amantes de lo feo' (supporters of the ugly), alongside his friend Juan Tineo Ramírez, nephew of Jovellanos, and the arabist José Antonio Conde; the group was mostly a <i>tertulia</i> (similar to a <i>salon</i>) to read and criticise theatre plays.",
+      "author of": "<i>Lección poética. Sátira contra los vicios introducidos en la poesía española</i> (1782); <i>La derrota de los pedantes</i> (1789); <i>La comedia nueva</i> o <i>El café</i> (1792); <i>Apuntaciones sueltas de Inglaterra</i> (1792), <i>Viaje a Italia</i> (1793); translation of <i>Hamlet</i> (1798); <i>El barón</i> (1803); <i>La mojigata</i> (1804); <i>El sí de las niñas</i> (1806), his greatest success; a prologue criticising the recently banished Inquisition, for a failed edition of <i>Fray Gerundio de Campazas</i> (1758) by José Francisco de Isla y Rojo; reedition of <i>Auto de fe celebrado en la ciudad de Logroño en los días 7 y 8 de noviembre del año de 1610 (...)</i> (1811); <i>La escuela de los maridos</i> (1812), with actor Isidoro Máiquez, portrayed by Goya; <i>Obras dramáticas y líricas</i> (1825, Paris). Posthumous: <i>Orígenes del teatro español</i> (1830-1831), <i>Diarios</i> (1968), <i>Epistolario</i> (1973) edited by René Andioc.",
+      "in France": [
+        "In 1787, in a trip accompanying Cabarrús to Paris in a diplomatic mission to advise Louis XVI on counter-revolutionary measures", 
+        "In his 1792-1797 European tour, he witnessed the assault on the Tuileries on 10 August 1792, and being scared, went to England", 
+        "1817-1820: fears of the newly restored Inquisition led him back to France on the pretext of taking the waters in Aix-en-Provence; he then went to Montpellier, Paris and Bologna",
+        "In 1821 he flees to Bayonne after the plague is declared in Barcelona. He would never return to Spain again. He settles in Bordeaux with his friend Manuel Silvela (also portrayed by Goya). In Bordeaux, he meets Goya again (who makes his second portrait in 1824). He dies in Paris in 1825."
+        ],
+      "writes in": "<i>Diario de Valencia</i> in 1812",
+      "trips": "1792-1797 European tour (funded by Godoy): France, England, Belgium, Germany, Switzerland, Italy",
+      "member of": "Academia de la Arcadia (Roma); Real Academia Española, miembro de número (1821)",
+      "studies in": "Universidad de Valladolid",
+      "political views": "reformist. Supporter of Godoy. Afrancesado",
+      "parents": "Isidora Cabo Conde and Nicolás Fernández de Moratín",
+      "decorations/awards": "knight of the Orden Real de España in 1811 (under Joseph Bonaparte)",
+      "mentions of Goya": [
+        "Diary, 21 May 1798 (Canellas no.88): they see together the paintings of San Antonio de la Florida?",
+        "Moratín writes <i>Silva á D. Francisco Goya, insigne pintor</i> in 1799 to thank him for his newly made portrait [https://es.wikisource.org/wiki/Silva_a_don_Francisco_Goya]"
+        ],
+      "portrayed by": "Francisco de Goya y Lucientes, 1799, RABASF; Luis Paret y Alcázar, Museo de Navarra; Francisco de Goya y Lucientes, 1824, Museo de Bellas Artes de Bilbao",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg",
+      "image source": "Goya portrait 1799"
     },
     {
       "id": "Manuel Godoy",
@@ -1447,6 +1469,7 @@
       "life dates": "1758-1843", 
       "nationality": "Spanish",
       "profession": "writer, clergyman",
+      "author of": "<i>Desordenadas y mal digeridas apuntaciones</i> (memoirs), where he mentions his friend Moratín",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Melon.jpg"
     },
     {
@@ -1600,6 +1623,36 @@
       "shared": "liberal, reformist mindset. In 1797, Jovellanos quoted Llorente's report on the Inquisition in <i>Representación al Rey sobre el tribunal de la Inquisición</i>, which contributed to his subsequent arrest."
     },
     {
+      "from": "Gaspar Melchor de Jovellanos",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1787"
+    },
+    {
+      "from": "Francisco Cabarrús",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1787",
+      "shared": "a trip to Paris in 1787, where Moratín acted as secretary of Cabarrús in his mission to advise Louis XVI on counter-revolutionary measures"
+    },
+    {
+      "from": "Count of Floridablanca",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; patronage",
+      "employment/patronage": "Floridablanca granted him a benefit of three hundred ducats from the archbishopric of Burgos"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; patronage",
+      "they met": "Godoy attended the premiere of <i>El sí de las niñas</i>, 24 January 1806 at the coliseo de la Cruz"
+      "employment/patronage": "Godoy helped Moratín to premiere his comedies and increased his income with other ecclesiastical sinecures: 3,000 ducats from a parish in Montoro and 600 from the mitre of Oviedo. From 1792-1797, Godoy funds Moratín's European tour in England, Belgium, Germany, Switzerland and Italy."
+    },
+    {
       "from": "Francisco de Goya y Lucientes",
       "to": "Antonio de Brugada",
       "connection_level": "direct",
@@ -1631,13 +1684,17 @@
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
       "relationship type": "friends",
-      "they met": "1824 in Bordeaux (letter of Moratín to Melón, 30 Sept 1824, Canellas no.154)"
+      "know each other since": "c.1797",
+      "they met": "1824 in Bordeaux (letter of Moratín to Melón, 30 Sept 1824, Canellas no.154)",
+      "mentions": "Moratín writes <i>Silva á D. Francisco Goya, insigne pintor</i> in 1799 to thank him for his newly made portrait [https://es.wikisource.org/wiki/Silva_a_don_Francisco_Goya]"
     },
     {
       "from": "Juan Antonio Melón",
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
       "relationship type": "friends",
+      "know each other since": "at least 1797",
+      "mentions": "Melón mentions Moratín in his memoirs, <i>Desordenadas y mal digeridas apuntaciones</i>",
       "correspondence": "15 July 1826, letter of Moratín to Melón, from Bordeaux (Canellas no.174); July 1828, from Paris, letter of Moratín to Melón (Canellas no.173)"
     },
     {
