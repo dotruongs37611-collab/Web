@@ -961,10 +961,15 @@
       "label": "Rosario Weiss",
       "life dates": "1814-1843",
       "nationality": "Spanish",
-      "profession": "painter",
+      "profession": "painter, engraver, draughtsman",
+      "author of": "a corpus of 77 drawings now at the Hispanic Society of America (attributed in 1956 by José López-Ray); possibly, <i>La lechera de Burdeos</i>, attributed to Goya",
+      "works as": "copyist at the Prado Museum: works by Murillo, Vicente López and others; drawing teacher of the infantas Isabel (future Isabel II) and Luisa Fernanda",
+      "member of": "Real Academia de Bellas Artes de San Fernando, as 'Académica de mérito' (1842)",
+      "parents": "Leocadia Zorrilla and Isidoro Weiss Alonso",
       "in Spain": "back to Madrid in 1833: works by making copies of famous paintings; 1840 named member of Royal Academy of San Fernando; 1842 drawing teacher of future Isabel II",
       "masters": "Francisco de Goya y Lucientes, Pierre Lacour fils (in Bordeaux)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Rosario_Weiss.jpg",
+      "image source": "self-portrait (alegoría de la atención), 1841, Prado P008468 [https://www.museodelprado.es/coleccion/obra-de-arte/la-atencion-autorretrato/480281b2-9e70-4309-8004-73e502949157]"
     },
     {
       "id": "Josefa Bayeu",
