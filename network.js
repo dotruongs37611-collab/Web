@@ -331,14 +331,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `<h2>${node.id}</h2>`;
 
         if (node["life dates"] || node["profession"]) {
-          html += `<div class="node-overview" style="margin-bottom: 1em; background: #f8f8f8; padding: 0.5em; border-radius: 6px;">`;
           if (node["life dates"]) {
-            html += `<p><strong>Life dates:</strong> ${node["life dates"]}</p>`;
+            html += `<p style="margin-top:0.3rem;"><strong>Life dates:</strong> ${node["life dates"]}</p>`;
           }
           if (node["profession"]) {
-            html += `<p><strong>Profession:</strong> ${node["profession"]}</p>`;
+            html += `<p style="margin-top:0.3rem;"><strong>Profession:</strong> ${node["profession"]}</p>`;
           }
-          html += `</div>`;
         }
 
         const fieldsToShow = [
@@ -423,35 +421,40 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "image source", label: "Image source" },
         ];
 
-        const nodesMapByLabel = {};
-        nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
-        
-        fieldsToShow.forEach(field => {
-          if (field.type === "section") {
-            html += `<h3 class="section-heading">${field.label}</h3>`;
-          } else if (field.type === "field" && node[field.key]) {
-            let value = node[field.key];
-            let htmlText;
-        
-            if (Array.isArray(value)) {
-              const processedItems = value.map(item => {
-                const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-                });
-                return `<li>${autoLinkNames(replacedText, nodesMapByLabel)}</li>`;
-              });
-              htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
-        
-            } else {
-              value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-                return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-              });
-              htmlText = autoLinkNames(value, nodesMapByLabel);
-            }
+      const nodesMapByLabel = {};
+      nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
 
-            html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
-          }
-        });
+      fieldsToShow.forEach(field => {
+        if (field.type === "section") {
+          // Solo mostrar sección si al menos uno de los siguientes campos tiene valor
+          const nextFields = fieldsToShow.slice(fieldsToShow.indexOf(field) + 1);
+          const hasData = nextFields.some(f => f.type === "field" && node[f.key]);
+          if (hasData) {
+            html += `<h3 class="section-heading">${field.label}</h3>`;
+        }
+      } else if (field.type === "field" && node[field.key]) {
+        let value = node[field.key];
+        let htmlText;
+        
+        if (Array.isArray(value)) {
+          const processedItems = value.map(item => {
+            const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+              return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+            });
+            return `<li>${autoLinkNames(replacedText, nodesMapByLabel)}</li>`;
+          });
+          htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+        
+        } else {
+          value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+            return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+          });
+          htmlText = autoLinkNames(value, nodesMapByLabel);
+        }
+
+        html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
+      }
+    });
 
         const connections = [];
         edges.get().forEach(edge => {
