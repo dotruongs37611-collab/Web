@@ -426,35 +426,40 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       fieldsToShow.forEach((field, idx) => {
         if (field.type === "section") {
-          // Solo mostrar sección si al menos uno de los siguientes campos tiene valor
+          // buscar solo los campos hasta la siguiente sección
           const nextFields = fieldsToShow.slice(idx + 1);
-          const hasData = nextFields.some(f => f.type === "field" && node[f.key]);
+          const fieldsInThisSection = [];
+          for (const f of nextFields) {
+            if (f.type === "section") break;
+            fieldsInThisSection.push(f);
+          }
+      
+          const hasData = fieldsInThisSection.some(f => node[f.key]);
           if (hasData) {
             html += `<h3 class="section-heading">${field.label}</h3>`;
-        }
-      } else if (field.type === "field" && node[field.key]) {
-        let value = node[field.key];
-        let htmlText;
-        
-        if (Array.isArray(value)) {
-          const processedItems = value.map(item => {
-            const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+          }
+        } else if (field.type === "field" && node[field.key]) {
+          let value = node[field.key];
+          let htmlText;
+      
+          if (Array.isArray(value)) {
+            const processedItems = value.map(item => {
+              const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+              });
+              return `<li>${autoLinkNames(replacedText, nodesMapByLabel)}</li>`;
+            });
+            htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+          } else {
+            value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
               return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
             });
-            return `<li>${autoLinkNames(replacedText, nodesMapByLabel)}</li>`;
-          });
-          htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
-        
-        } else {
-          value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-            return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-          });
-          htmlText = autoLinkNames(value, nodesMapByLabel);
+            htmlText = autoLinkNames(value, nodesMapByLabel);
+          }
+      
+          html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
         }
-
-        html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
-      }
-    });
+      });
 
         const connections = [];
         edges.get().forEach(edge => {
