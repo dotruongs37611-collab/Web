@@ -526,6 +526,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "correspondence", label: "Correspondence" },
           { key: "they met", label: "They met" },
           { key: "shared", label: "Shared" },
+          { key: "interactions", label: "Interactions" },
           { key: "they shared", label: "They shared" },
           { key: "mentions", label: "Mentions" },
           { key: "collaborations", label: "Collaborations" },
