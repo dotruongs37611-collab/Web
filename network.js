@@ -432,6 +432,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           if (hasData) {
             html += `<h3 class="section-heading">${field.label}</h3>`;
         }
+      }
       } else if (field.type === "field" && node[field.key]) {
         let value = node[field.key];
         let htmlText;
