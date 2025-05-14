@@ -422,6 +422,7 @@
         "Moratín writes <i>Silva á D. Francisco Goya, insigne pintor</i> in 1799 to thank him for his newly made portrait [https://es.wikisource.org/wiki/Silva_a_don_Francisco_Goya]"
         ],
       "portrayed by": "Francisco de Goya y Lucientes, 1799, RABASF; Luis Paret y Alcázar, Museo de Navarra; Francisco de Goya y Lucientes, 1824, Museo de Bellas Artes de Bilbao",
+      "curiosities": "his remains are in the collective mausoleum with Goya, Meléndez Valdés and Donoso Cortés at the Cemetery of San Isidro (Madrid)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Moratin.jpg",
       "image source": "Goya portrait 1799"
     },
@@ -1412,6 +1413,27 @@
       "image source": "Goya portrait, 1788, Banco de España"
     },
     {
+      "id": "Juan Meléndez Valdés",
+      "label": "Meléndez Valdés",
+      "life dates": "1754-1817", 
+      "nationality": "Spanish",
+      "profession": "poet, attorney, jurist, politician",
+      "studies in": "Reales Estudios de San Isidro (moral philosophy and Greek); Universidad de Salamanca: from 1772 (Law), and later obtains a PhD in Law (1783)",
+      "works as": "professor of Greek and Humanities (Salamanca); prosecuting attorney (1789); Court Judge in Zaragoza (1789); Chancellor in Valladolid (1791); prosecuting attorney, Sala de Alcaldes de la Casa y Corte, Madrid (1797); supervisor for the Juna Suprema in Oviedo 1808 (where he almost gets executed); at the Consejo de Estado for Joseph Bonaparte",
+      "author of": "<i>Batilo</i> (1780); <i>Las enamoradas anacreónticas</i,> <i>Los besos de amor</i> (c.1783); <i>Las bodas de Camacho el rico</i> (1784); volume of poems edited by Joaquín Ibarra (1785); <i>Discursos forenses</i> (published c.1820)"
+      "political views": "in 1808 he is commissioned by the Junta Suprema to supervise the uprising in Oviedo, where he is imprisoned and later almost executed by the mob, accused of wanting to punish the patriots. Afracesado: he works for Joseph Bonaparte",
+      "in France": "exiled after the French occupation in Toulouse, Montpellier, Nîmes, Alès and Montauban",
+      "participates in": "the <i>tertulias</i> of fray Juan Fernández de Roja (portrayed by Goya), known as <i>Liseno</i>, and that of José Cadalso in 1773), who introduces him to French culture",
+      "portrayed by": "Francisco de Goya y Lucientes, 1797, Bowes Museum",
+      "member of": "Real Academia Española",
+      "decorations/awards": "poetry award of the Real Academia Española for his work <i>Batilo</i> (1780); award to the best play by the city of Madrid, for <i>Las bodas de Camacho el rico</i> (1784). Knight of the Orden Real de España (by Joseph Bonaparte)",
+      "married to": "María Andrea de Coca",
+      "parents": "Juan Antonio Meléndez Valdés and María de los Ángeles Díaz Cacho",
+      "curiosities": "his remains were taken back to Madrid in 1900, after a brief stay at the Panteón de Hombres Ilustres (Madrid), and are now in the collective mausoleum with Goya, Moratín and Donoso Cortés at the Cemetery of San Isidro",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Malendez_Valdes.jpg",
+      "image source": "Goya portrait, 1797, Bowes Museum"
+    },
+    {
       "id": "Jean-Auguste-Dominique Ingres",
       "label": "Ingres",
       "life dates": "1780-1867", 
@@ -1628,6 +1650,21 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "know each other since": "at least 1787"
+    },
+    {
+      "from": "Gaspar Melchor de Jovellanos",
+      "to": "Juan Meléndez Valdés",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "c.1777"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Juan Meléndez Valdés",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1797",
+      "portraits": "Goya portrayed Meléndez Valdés in 1797 (Bowes)" 
     },
     {
       "from": "Francisco Cabarrús",
