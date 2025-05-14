@@ -16,7 +16,6 @@
       "married to": "Josefa Bayeu (1773)",
       "children": "Javier Goya (1 survived out of 8)",
       "parents": "José Goya and Gracia Lucientes",
-      "curiosities": "he became completely deaf after a serious illness in 1792-93",
       "nationality": "Spanish",
       "bibliography": "Schwander 2021; Tomlinson 2020; Mena Marqués & Manuel Matilla, 2019; Mena Marqués & Manuel Matilla, 2018; Mena Marqués 2008; Schulz 2005; Wolf 1994; Bozal 1994; Tomlinson 1992; Carreta Parrondo & Vega 1991; Águeda & Salas 1982; López Canellas 1981; Glendinning 1977; Gassier 1973; Gassier & Wilson-Bareau 1971; Harris 1964",
       "websites": [
@@ -105,23 +104,51 @@
     {
       "id": "Valentín Carderera",
       "label": "Carderera",
+      "full name": "Valentín Carderera y Solano",
       "life dates": "1796-1880",
       "nationality": "Spanish",
-      "profession": "painter, collector, art dealer",
+      "born in": "Huesca",
+      "in Rome": "1822-1831, funded by the Duke of Villahermosa",
+      "in Paris": [
+        "1st trip: 1841-1843 April-July 1841, November 1841-September 1843",
+        "2nd trip: 1845 24 April-20 December",
+        "3rd trip: 1855 (4 months). Exposition Universelle.",
+        "4th trip: 1856 11 July- 21 December (5 months)", 
+        "5th trip: 1859 20 August-26 November (3 months)",
+        "Last trip: 1861 17 June-5 November (4 months)"
+        ],
+      "in Spain": [
+        "September 1843 (fall of Espartero; followers of Queen María Cristina return to Spain",
+        "1845-1855"
+        ],
+      "participates in": "Paris Exposition Universelle 1855",
+      "correspondence": "Federico Madrazo, Prosper Mérimée, Gustave Brunet, Carresse, Viollet-le-Duc (among many others)",
+      "friends": "Eugenio Ochoa; Federico Madrazo", 
+      "works as": "Pintor de Cámara; member of the Junta del Museo Nacional y del Museo Real de Pintura y Escultura (currently the Prado Museum), from 1838; teacher of Theory and History of Fine Arts at the Real Academia de Bellas Artes de San Fernando; vice-director of the Real Museo de Pintura y Escultura (current Prado Museum)",
+      "member of": "Real Academia de la Historia; Real Academia de Bellas Artes de San Fernando",
+      "profession": "painter, writer, collector, art historian, art dealer",
       "editor of": "<i>El Artista</i> (1835) with Eugenio Ochoa",
+      "writes in": "<i>El Artista</i>, <i>Semanario Pintoresco español</i>, <i>El Museo Universal</i>, <i>La Gazette des Beaux-arts</i>",
+      "studies in": "Universidad Sertoriana de Huesca; Real Academia de Bellas Artes de San Fernando (from 1816)",
+      "masters": "Mariano Salvador Maella",
+      "portrayed by": "Federico Madrazo, 1850, Museo de Huesca",
+      "decorations/awards": "Gran Cruz de Carlos III (1844)",
+      "author of": "<i>Iconografía espan̂ola: Colección de retratos, estatuas, mausoleos y demás monumentos (...)</i>, in Spanish and French, 1855-1864",
       "mentions of Goya": [
         "1835 <i>El Artista</i> 2, 'Biografía de D. Francisco Goya, pintor', 253-55: 'La nueva escuela romántica de los pintores franceses ha puesto en evidencia el mérito de nuestro artista, y en bastantes cuadros pequeños y en muchísimas litografías y aguas fuertes que adornan las ediciones de Victor Hugo y otros célebres contemporáneos, se ve el deseo de imitar a Goya, y se columbran los originales y románticos duendecitos esparcidos en sus ochenta caprichos' (p.255) (Fayos Pérez 2024, p.325). With a lithography by Federico Madrazo (Vicente López's portrait of Goya).",
         "1838-VII-15 <i>Semanario Pintoresco español</i> 120, 631-33: 'Los aficionados estrangeros tiempo ha las buscan [<i>Caprichos</i>] con mas pasion que los nuestros, y hoy vemos reproducidos y transformados sus duendecitos y alguaciles en los grabados y litografiados que nos vienen de allende sin pretensión de ocultar el plagio' (p.633) (Fayos Pérez 2024, p.328)",
         "1860-VIII-15 <i>Gazette des Beaux-Arts</i> 7, 'François Goya: sa vie, ses dessins et ses eaux-fortes', 215-27, translated and annotated by Philippe Burty, with a preface by Charles Blanc and a print by Bracquemond. It includes a short biography of Goya and an account of his drawings. Carderera claims ownership of 2 sheets from Album A, 112 preparatory drawings of the <i>Caprichos</i>, 50 of <i>Tauromaquia</i> and 72 of <i>Disasters of War</i> (Fayos Pérez 2024, p.347).",
         "1863-VII-1 <i>Gazette des Beaux-Arts</i> 15, 'François Goya', 237-49. It focuses on the advertisement of the <i>Caprichos</i> in the <i>Diario de Madrid</i> (6 Feb 1799). It includes Jacquemart's 'Spanish scene', based on Goya. Also mentions the Prado commentaries. It quotes Théophile Gautier's essay on the <i>Disasters of War</i> (<i>Voyage en Espagne</i>, 1845, p.136). He mixes up the <i>Disparates</i> with the drawing series <i>Sueños</i> ('Les proverbes ou rêves', p.244) (Fayos Pérez 2024, p.350)."
         ],
+      "collection of Goya's works": "Carderera gathered a large part of Goya's prints and drawings, acquired from Mariano Goya",
       "bibliography": "Fayos Pérez 2020; Lanzarote Guiral 2016",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg",
-      "image source": "portrait by Federico Madrazo, Museo de Huesca 00046"
+      "image source": "Madrazo portrait, 1850, Museo de Huesca 00046"
     },
     {
       "id": "José Madrazo",
       "label": "José Madrazo",
+      "full name": "José de Madrazo y Agudo",
       "life dates": "1781-1859", 
       "nationality": "Spanish",
       "born in": "Santander",
@@ -173,7 +200,7 @@
       "decorations/awards": "Chevalier (1822), Officier (1834), Commandeur (1837) et Grand officer (1877) de la Légion d'Honneur",
       "parents": "Hélie Taylor (English born) and Marie-Jacqueline Walwein (Belgian)",
       "curiosities": "There is a Fondation Taylor, still running, created in 1844",
-      "bibliography": "Guinard 1967-A",
+      "bibliography": "Lanzarote Guiral 2016; Guinard 1967-A",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg",
       "image source": "portrait by Madrazo, 1833"
     },
@@ -586,7 +613,7 @@
       "nationality": "French",
       "profession": "poet, art critic, novelist, journalist",
       "address": "Hôtel de Fourcy (1828-1834); impasse du Doyenné (current Place du Carrousel), near Camille Rogier, Arsène Houssaye and Nerval. He shares an apartment with Eguène Piot",
-      "married to": "Ernesta Grisi (Carlotta Grissi's older sister", 
+      "married to": "Ernesta Grisi (Carlotta Grissi's older sister)", 
       "partners/lovers": "Carlotta Grisi (dancer), who leads in Gautier's ballet <i>Giselle</i> (1842)",
       "children": "Théophile Gautier fils, Judith Gautier, Estelle Gautier",
       "parents": "Jean-Pierre Gautier and Adélaïde Cocard",
@@ -620,10 +647,10 @@
       "masters": "Louis-Édouard Rioult",
       "member of": "Société héliographique (1851); Jeune-France; Société nationale des beaux-arts",
       "participates in": "the Battle of Hernani (1830); <i>Les Français peints par eux-mêmes</i> (1840)",
-      "knows Goya's works": "the <i>Caprichos</i>: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought a <i>Caprichos</i> set in January 1831); Goya's drawings by 1838 (see Fayos Pérez 2024)",
+      "knows Goya's works": "the <i>Caprichos</i>: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought a <i>Caprichos</i> set in January 1831); Goya's drawings by 1838 (Fayos Pérez 2024)",
       "collector of Goya's works": "<i>Bulls of Bordeaux</i>; <i>Tauromaquia</i> (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier); <i>Tauromaquia</i> set given by Valentín Carderera on 13 Nov 1859 (Lanzarote Guiral 2016, p.431)",
       "portrayed by": "Auguste de Châtillon, 1839, Musée Carnavalet (oil painting); Bertall, 1850 (photograph); Amédée Bodin after Théodore Chassériau, 1850 (drawing); Nadar, 1850 (photograph); Nadar, 1854-55, Getty (photograph); Nadar, 1855 (photograph); Nadar, 1856 (photograph); Albert-Ernest Carrier-Belleuse, 1862 (sculpture: bust); Hippolite Mailly, 1862 (caricature); André Gill, 1869, <i>L'éclipse</i> (caricature)",
-      "bibliography": "Fayos Pérez 2024; Lacoste-Veysseyre 2014; Hovasse 2001; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
+      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Lacoste-Veysseyre 2014; Hovasse 2001; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg",
       "image source": "Nadar photograph, 1854-55, Getty 84.XM.436.7"
     },
@@ -1695,6 +1722,12 @@
       "relationship type": "colleagues"
     },
     {
+      "from": "Valentín Carderera",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "colleagues (RABASF)"
+    },
+    {
       "from": "Francisco de Goya y Lucientes",
       "to": "Ferdinand Guillemardet",
       "connection_level": "direct",
@@ -2461,8 +2494,18 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "know each other since": "at least 1837",
-      "they met": "1837-X-2 Carderera offers Taylor to sell 2 Morales paintings, via Federico Madrazo (letter Federico Madrazo to Baron Taylor, Bordeaux, 2 Oct 1837: Lanzarote Guiral 2016 p. XXIII; Porée 1907, p.296); 1841-V-5, Paris: Taylor invites him to the Comédie Française (Lanzarote Guiral 2016, p.XLIX, p.11); 1841 V 7, 9, 21; 1841 XI 21 (he introduces Ferdinand Denis); 1841 XII 19; 1842 I 2, 5-7, 13, 17; 1842 IV 10; 1842 VIII 28; 1842 IX 11, 24, 28, 30 (Baron Taylor sees a portrait); 1842-XI-27; 1843-I-8; 1845-V-6; 1845 X 12 (sees a Velázquez portrait 'in Vienna'); 1845 XI 12, 14, 15; 1855 X-9, XI 3, 25, 26; 1859-X-1; 1861 VII 19, 29, 31, VIII 7, 19, 20, 21, IX 21; in Antwerp",
-      "artworks bought/sold": "1839: Taylor offers Carderera a deal to buy his drawings and texts (Adrien Dauzats as middleman)"
+      "they met": [
+        "1837-X-2 Carderera offers Taylor to sell 2 Morales paintings, via Federico Madrazo (letter from Federico Madrazo to Baron Taylor, Bordeaux, 2 Oct 1837: Lanzarote Guiral 2016 p. XXIII; Porée 1907, p.296)",
+        "1841-V-5, Paris: Taylor invites him to the Comédie Française (Lanzarote Guiral 2016, p.XLIX, p.11); 1841 V 7, 9, 21; 1841 XI 21 (he introduces Ferdinand Denis); 1841 XII 19",
+        "1842 I 2, 5-7, 13, 17; 1842 IV 10; 1842 VIII 28; 1842 IX 11, 24, 28 (Taylor was 'catequizándome para que le vendiese mis dibujos y escritos' [Lanzarote Guiral 2016, p.XXXI]), 30 (Baron Taylor sees a portrait); 1842-XI-27",
+        "1843-I-8",
+        "1845-V-6; 1845 X 12 (sees a Velázquez portrait 'in Vienna'); 1845 XI 12, 14, 15",
+        "1855 X-9, XI 3, 25, 26",
+        "1859-X-1",
+        "1861 VII 19, 29, 31, VIII 7, 19, 20, 21, IX 21; in Antwerp"
+        ],
+      "artworks bought/sold": "1839: Taylor offers Carderera a deal to buy his drawings and texts (Adrien Dauzats as middleman)",
+      "bibliography": "Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
@@ -2579,9 +2622,9 @@
       "correspondence": [
         "1837-VII-5, Taylor to Dauzats (Paris): he laments that Dauzats's trip in Spain is not being more fruitful; 'Je désire bien vivement qu'il en soit autrement. M. Gautier vous accompagnait. Revenez très promptement. [...] Mme Nodier, Mme Ménessier et tous vos amis de l'Arsenal vous font mille compliments, ainsi que Justin et Mayer' (coll. Claude Roger-Marx) (Guinard 1967-B p.271)",
         "1837-VII-15, Taylor to Dauzats (Paris): about Dauzats's Spanish trip",
-        "1842-II-27, Taylor to Dauzats (London): 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra' (BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162)"
+        "1842-II-27, Taylor to Dauzats (London): 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra' (BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162; Lanzarote Guiral 2016, p.XXXI)"
         ],
-      "bibliography": "Guinard 1967-A; Guinard 1967-B"
+      "bibliography": "Lanzarote Guiral 2016; Luxenberg 2008; Guinard 1967-A; Guinard 1967-B"
     },
     {
       "from": "Baron Taylor",
