@@ -424,10 +424,10 @@ document.addEventListener('DOMContentLoaded', async function () {
       const nodesMapByLabel = {};
       nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
 
-      fieldsToShow.forEach(field => {
+      fieldsToShow.forEach((field, idx) => {
         if (field.type === "section") {
           // Solo mostrar sección si al menos uno de los siguientes campos tiene valor
-          const nextFields = fieldsToShow.slice(fieldsToShow.indexOf(field) + 1);
+          const nextFields = fieldsToShow.slice(idx + 1);
           const hasData = nextFields.some(f => f.type === "field" && node[f.key]);
           if (hasData) {
             html += `<h3 class="section-heading">${field.label}</h3>`;
