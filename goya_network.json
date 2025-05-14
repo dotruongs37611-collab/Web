@@ -3207,7 +3207,7 @@
       "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier (...)' when he shows the 'Goya' (<i>Caprichos</i>) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
-      "from": "Stendhal",
+      "from": "Stendhal (Henri Beyle)",
       "to": "Louise Swanton Belloc",
       "connection_level": "direct",
       "relationship type": "acquaintances"
@@ -3219,7 +3219,7 @@
       "relationship type": "acquaintances"
     },
     {
-      "from": "Lamartine",
+      "from": "Alphonse de Lamartine",
       "to": "Louise Swanton Belloc",
       "connection_level": "direct",
       "relationship type": "acquaintances"
