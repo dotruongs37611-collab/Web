@@ -427,7 +427,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
         
         fieldsToShow.forEach(field => {
-          if (node[field.key]) {
+          if (field.type === "section") {
+            html += `<h3 class="section-heading">${field.label}</h3>`;
+          } else if (field.type === "field" && node[field.key]) {
             let value = node[field.key];
             let htmlText;
         
@@ -439,14 +441,14 @@ document.addEventListener('DOMContentLoaded', async function () {
                 return `<li>${autoLinkNames(replacedText, nodesMapByLabel)}</li>`;
               });
               htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
-
+        
             } else {
               value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
               });
               htmlText = autoLinkNames(value, nodesMapByLabel);
             }
-        
+
             html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
