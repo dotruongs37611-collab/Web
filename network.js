@@ -426,12 +426,11 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       fieldsToShow.forEach((field, idx) => {
         if (field.type === "section") {
-          // buscar solo los campos hasta la siguiente sección
-          const nextFields = fieldsToShow.slice(idx + 1);
+          // 🔧 Buscar los campos que pertenecen solo a esta sección
           const fieldsInThisSection = [];
-          for (const f of nextFields) {
-            if (f.type === "section") break;
-            fieldsInThisSection.push(f);
+          for (let i = idx + 1; i < fieldsToShow.length; i++) {
+            if (fieldsToShow[i].type === "section") break;
+            fieldsInThisSection.push(fieldsToShow[i]);
           }
       
           const hasData = fieldsInThisSection.some(f => node[f.key]);
@@ -460,6 +459,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
         }
       });
+
 
         const connections = [];
         edges.get().forEach(edge => {
