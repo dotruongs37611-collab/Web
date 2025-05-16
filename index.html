@@ -646,11 +646,13 @@ function showSection(section) {
   const aboutDiv = document.getElementById('about');
   const contributors = document.getElementById('contributors');
   const bibliography = document.getElementById('bibliography');
+  const artworks = document.getElementById('artworks'); // Añadir esta línea
 
   layout.classList.add('hidden');
   aboutDiv.style.display = 'none';
   contributors.style.display = 'none';
   bibliography.style.display = 'none';
+  artworks.style.display = 'none'; // Añadir esta línea
 
   if (section === 'network') {
     layout.classList.remove('hidden');
@@ -660,6 +662,8 @@ function showSection(section) {
     contributors.style.display = 'block';
   } else if (section === 'bibliography') {
     bibliography.style.display = 'block';
+  } else if (section === 'artworks') { // Añadir esta condición
+    artworks.style.display = 'block';
   }
 }
 
