@@ -1323,6 +1323,38 @@
       "image source": "Goya portrait, 1812"
     },
     {
+      "id": "IX Duke of Osuna",
+      "label": "Osuna IX",
+      "full name": "Pedro de Alcántara Téllez Girón y Pacheco",
+      "life dates": "1755-1807", 
+      "profession": "military member (teniente general); art patron",
+      "aristocratic titles": "IX Duke of Osuna, X Marquis of Peñafiel, XIII Count of Urueña and Grandee of Spain (Grande de España), and others",
+      "member of": "Real Academia Española",
+      "decorations/awards": "Orden de Carlos III; Orden del Toisón de Oro",
+      "participated in": "Anglo-Spanish War (1779-1783)",
+      "portrayed by": "Goya, 1785, private collection; Agustín Esteve, 1785, Museo Lázaro Galdiano (Madrid); Goya, 1788, family portrait, Prado; Goya, c.1798, Frick Collection (NY); Guillermo Ducker, 1805, Prado",
+      "married to": "María Josefa de Borja Pimentel y Téllez-Girón, XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, marquesa de Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, future Marquise of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, future Duchess of Abrantes (portrayed by Goya)",
+      "parents": "Pedro Zoilo Téllez-Girón y Pérez de Guzmán and María Vicenta Pacheco y Téllez-Girón",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Osuna_IX.jpg",
+      "image source": "Goya portrait, c.1798, Frick Collection"
+    },
+    {
+      "id": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "label": "Benavente",
+      "full name": "María Josefa de Borja Pimentel y Téllez-Girón",
+      "life dates": "1752-1834", 
+      "profession": "salonnière; art patron",
+      "married to": "Pedro de Alcántara Téllez Girón y Pacheco, IX Duke of Osuna (by marriage)",
+      "aristocratic titles": "XII Countess-Duchess of Benavente (by inheritance) and Duchess of Osuna",
+      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, marquesa de Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, future Marquise of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, future Duchess of Abrantes (portrayed by Goya)",
+      "parents": "Francisco Alfonso-Pimentel y Borja and María Faustina Téllez-Girón y Pérez de Guzmán",
+      "member of": "Junta de Damas de Honor y Mérito (1787: President); Real Sociedad Económica Matritense (one of the first two women to be admitted)",
+      "portrayed by": "Goya, c.1785, Fundación Bartolomé March (Palma de Mallorca); Goya, 1788, family portrait, Prado",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Benavente.jpg",
+      "image source": "Goya portrait, c.1785, Fundación Bartolomé March"
+    },
+    {
       "id": "Pedro Madrazo",
       "label": "Pedro Madrazo",
       "life dates": "1816-1898", 
@@ -3768,6 +3800,34 @@
       "relationship type": "patronage", 
       "knew each other since": "at least 1812",
       "portraits": "equestrian portrait, 1812, Apsley House; bust portrait, 1812, London National Gallery (preparatory drawing: British Museum)"
+    },
+    {
+      "from": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage", 
+      "knew each other since": "1785",
+      "commissions": "individual and family portraits; two series of paintings, including one of witchcraft scenes. See <i>El aquelarre</i> (1798, Museo Lázaro Galdiano) and <i>Vuelo de brujas</i> (1799, Prado)",
+      "patronage": "she was one of the first people to ever acquire sets of the <i>Caprichos</i> (the Osuna sets were probably before letters)",
+      "portraits": "c.1785 (Fundación Bartolomé March, Palma de Mallorca); family portrait, 1788, Prado"
+    },
+    {
+      "from": "IX Duke of Osuna",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "individual and family portraits",
+      "knew each other since": "1785",
+      "portraits": "1785, private collection; 1788, family portrait, Prado; c.1798, Frick Collection, New York"
+    },
+    {
+      "from": "IX Duke of Osuna",
+      "to": "Agustín Esteve",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portrait",
+      "knew each other since": "at least 1785",
+      "portraits": "1785, Museo Lázaro Galdiano (Madrid)"
     },
     {
       "from": "Juliette Récamier",
