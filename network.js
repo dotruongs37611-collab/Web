@@ -554,6 +554,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "criticism", label: "Criticism" },
           { key: "rivalry", label: "Rivalry" },
           { key: "employment/patronage", label: "Employment/patronage" },
+          { key: "commissions", label: "Commissions" },
+          { key: "patronage", label: "Patronage" },
           { key: "portraits", label: "Portraits" }
         ];
 
