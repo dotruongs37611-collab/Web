@@ -1327,8 +1327,12 @@
       "label": "Osuna IX",
       "full name": "Pedro de Alcántara Téllez Girón y Pacheco",
       "life dates": "1755-1807", 
+      "nationality": "Spanish",
       "profession": "military member (teniente general); art patron",
-      "aristocratic titles": "IX Duke of Osuna, X Marquis of Peñafiel, XIII Count of Urueña and Grandee of Spain (Grande de España), and others",
+      "aristocratic titles": [
+        "By inheritance: IX Duke of Osuna, X Marquis of Peñafiel, XIII Count of Urueña and Grandee of Spain (Grande de España), and others", 
+        "By marriage: Count-Duke of Benavente, Duke of Béjar, Gandía and Arcos, Prince of Esquilache and Anglona"
+        ],
       "member of": "Real Academia Española",
       "decorations/awards": "Orden de Carlos III; Orden del Toisón de Oro",
       "participated in": "Anglo-Spanish War (1779-1783)",
@@ -1344,15 +1348,35 @@
       "label": "Benavente",
       "full name": "María Josefa de Borja Pimentel y Téllez-Girón",
       "life dates": "1752-1834", 
+      "nationality": "Spanish",
       "profession": "salonnière; art patron",
       "married to": "Pedro de Alcántara Téllez Girón y Pacheco, IX Duke of Osuna (by marriage)",
-      "aristocratic titles": "XII Countess-Duchess of Benavente (by inheritance) and Duchess of Osuna",
-      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, marquesa de Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, future Marquise of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, future Duchess of Abrantes (portrayed by Goya)",
+      "aristocratic titles": [
+        "By inheritance: Princedom of Anglona, Princedom of Esquilache, Dukedom of Arcos, Béjar, Benavente (XII), Gandía, and others",
+        "By marriage: Duchess of Osuna, Marchioness of Peñafiel, Earldom of Fontanar and Ureña"
+        ],
+      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, marquesa de Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, future Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, future Duchess of Abrantes (portrayed by Goya)",
       "parents": "Francisco Alfonso-Pimentel y Borja and María Faustina Téllez-Girón y Pérez de Guzmán",
       "member of": "Junta de Damas de Honor y Mérito (1787: President); Real Sociedad Económica Matritense (one of the first two women to be admitted)",
       "portrayed by": "Goya, c.1785, Fundación Bartolomé March (Palma de Mallorca); Goya, 1788, family portrait, Prado",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Benavente.jpg",
       "image source": "Goya portrait, c.1785, Fundación Bartolomé March"
+    },
+    {
+      "id": "X Duke of Osuna",
+      "label": "Osuna X",
+      "full name": "Francisco de Borja Téllez-Girón y Pimentel",
+      "life dates": "1785-1820", 
+      "aristocratic titles": "X Duke of Osuna, XI Marquis of Peñafiel, II Duke of Monteagudo, XVII Marquis of Zahara, XVI Marquis of Lombay, XIV Count of Ureña, XXIII Count of Mayorga, XVIII Count of Belalcázar, VI Count of Fontanar",
+      "parents": "Pedro de Alcántara Téllez-Girón y Pacheco, IX Duke of Osuna, and María Josefa Pimentel y Téllez-Girón, XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "married to": "María Francisca Felipa Tomasa Leopolda de Beaufort y Toledo, Countess of Beaufort and of the Holy Roman Empire",
+      "children": "Pedro de Alcántara María Tomás Téllez Girón y Beaufort (future XI Duke of Osuna); Mariano Francisco de Borja José Justo Téllez-Girón y Beaufort-Spontin, who succeeded his brother in 1844",
+      "political views": "he was declared a traitor by Joseph Bonaparte, who confiscated his estates on 12 November 1808",
+      "nationality": "Spanish",
+      "member of": "Orden de Calatrava",
+      "profession": "military member", 
+      "portrayed by": "Francisco de Goya y Lucientes, 1816, Musée Bonnat-Helleu",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Osuna_X.jpg"
     },
     {
       "id": "Pedro Madrazo",
@@ -1364,6 +1388,17 @@
       "portrayed by": "Federico Madrazo (1842, Hispanic Society); J. Laurent (BNE)",
       "curiosities": "one of the first people to ever use the term 'patrimonio histórico-artístico'",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
+    },
+    {
+      "id": "María Teresa de Silva, XIII Duchess of Alba",
+      "label": "Alba (Duchess)",
+      "life dates": "1762-1802", 
+      "nationality": "Spanish",
+      "aristocratic titles": "XIII Duchess of Alba de Tormes, VIII Countess-Duchess of Olivares, XI Marchioness del Carpio and Grandee of España (Grande de España)", 
+      "portrayed by": "Goya, 1795, Palacio de Liria, Madrid; Goya 1797, Hispanic Society of America, New York",
+      "parents": "Francisco de Paula de Silva y Álvarez de Toledo and	Mariana de Silva-Bazán y Sarmiento",
+      "married to": "José Álvarez de Toledo, XI Marquis of Villafranca del Bierzo and XV Duke of Medina Sidonia",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Alba_XIII.jpg"
     },
     {
       "id": "Juan Madrazo",
@@ -3807,9 +3842,18 @@
       "connection_level": "direct",
       "relationship type": "patronage", 
       "knew each other since": "1785",
-      "commissions": "individual and family portraits; two series of paintings, including one of witchcraft scenes. See <i>El aquelarre</i> (1798, Museo Lázaro Galdiano) and <i>Vuelo de brujas</i> (1799, Prado)",
+      "commissions": "individual and family portraits; two series of paintings, including one of witchcraft scenes (<i>Composiciones de asuntos de Brujas</i>). See <i>El aquelarre</i> (1798, Museo Lázaro Galdiano) and <i>Vuelo de brujas</i> (c.1798, Prado)",
       "patronage": "she was one of the first people to ever acquire sets of the <i>Caprichos</i> (the Osuna sets were probably before letters)",
       "portraits": "c.1785 (Fundación Bartolomé March, Palma de Mallorca); family portrait, 1788, Prado"
+    },
+    {
+      "from": "X Duke of Osuna",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "individual portrait",
+      "knew each other since": "at least 1816",
+      "portraits": "1816, Musée Bonnat-Helleu"
     },
     {
       "from": "IX Duke of Osuna",
@@ -3819,6 +3863,15 @@
       "commissions": "individual and family portraits",
       "knew each other since": "1785",
       "portraits": "1785, private collection; 1788, family portrait, Prado; c.1798, Frick Collection, New York"
+    },
+    {
+      "from": "María Teresa de Silva, XIII Duchess of Alba",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portraits",
+      "knew each other since": "at least 1795",
+      "portraits": "1795, Palacio de Liria (Fundación Casa de Alba); 1797, Hispanic Society of America (New York)"
     },
     {
       "from": "IX Duke of Osuna",
