@@ -674,13 +674,15 @@ function showSection(section) {
   const aboutDiv = document.getElementById('about');
   const contributors = document.getElementById('contributors');
   const bibliography = document.getElementById('bibliography');
-  const artworks = document.getElementById('artworks'); // Añadir esta línea
+  const artworks = document.getElementById('artworks'); 
+  const cite = document.getElementById('cite');
 
   layout.classList.add('hidden');
   aboutDiv.style.display = 'none';
   contributors.style.display = 'none';
   bibliography.style.display = 'none';
-  artworks.style.display = 'none'; // Añadir esta línea
+  artworks.style.display = 'none';
+  cite.style.display = 'none';
 
   if (section === 'network') {
     layout.classList.remove('hidden');
@@ -690,9 +692,10 @@ function showSection(section) {
     contributors.style.display = 'block';
   } else if (section === 'bibliography') {
     bibliography.style.display = 'block';
-  } else if (section === 'artworks') { // Añadir esta condición
+  } else if (section === 'artworks') { 
     artworks.style.display = 'block';
-  }
+  } else if (section === 'cite') {
+  cite.style.display = 'block';
 }
 
 </script>
