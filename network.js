@@ -567,6 +567,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             let htmlText;
         
             if (Array.isArray(value)) {
+              // Handle array case (unchanged)
               const processedItems = value.map(item => {
                 const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
                   return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
@@ -575,23 +576,26 @@ document.addEventListener('DOMContentLoaded', async function () {
               });
               htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
             } else {
-              // Primero detectar [texto](url)
+              // NEW IMPROVED PROCESSING FOR STRING VALUES
+              // First preserve the italics tags
+              value = value.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
+              
+              // Process markdown-style links [text](url)
               value = value.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
               });
-              // Luego detectar texto [url] (para compatibilidad con lo antiguo)
+              
+              // Process your custom-style links text [url]
               value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-                return `${text.trim()} <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
+                // Only create link if there's actual text before the URL
+                const linkText = text.trim() ? text.trim() : 'source';
+                return `<a href="${url}" target="_blank" style="color:#66ccff;">${linkText}</a>`;
               });
-
+              
+              // Restore italics tags
+              value = value.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
+              
               htmlText = autoLinkNames(value, nodesMap);
-        
-              const urlMatch = typeof htmlText === "string" ? htmlText.match(/https?:\/\/[^\s)]+/) : null;
-              if (urlMatch) {
-                const url = urlMatch[0];
-                htmlText = htmlText.replace(` (${url})`, '').replace(url, '').trim();
-                htmlText += ` <a href="${url}" target="_blank" style="color:#66ccff;">[source]</a>`;
-              }
             }
         
             html += Array.isArray(value)
