@@ -499,6 +499,25 @@
       "image source": "Goya portrait, 1801, RABASF"
     },
     {
+      "id": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "label": "Chinchón",
+      "full name": "María Teresa Josefa de Borbón y Vallabriga",
+      "life dates": "1780-1828", 
+      "parents": "Luis Antonio de Borbón y Farnesio and María Teresa de Vallabriga y Rozas",
+      "married to": "Manuel Godoy",
+      "children": "Carlota Luisa de Godoy y Borbón",
+      "nationality": "Spanish",
+      "in Paris": "she went into exile in 1824, alongside her sister María Luisa and her sister's husband, the Duke of San Fernando de Quiroga. This was due to her links with Constitutionalists and her liberal ideas. She confided her financial affairs to Vicente López Arnao. She was surveyed by the French Police, who knew she had paintings by Velázquez and Murillo (Gerard Powell, 2014, p.306, ANP,F/7 12026)",
+      "lovers": "Coronal Mateos?",
+      "art collection": "her impressive collection included Velázquez's <i>Cristo de San Plácido</i>, now at the Prado",
+      "sales": "she tried to sell her collection in July 1824, then in 1826",
+      "aristocratic titles": "XV Countess of Chinchón; I Marchioness of Boadilla del Monte (1799). Grandee of Spain (Grande de España) (1823)",
+      "bibliography": "Gerard Powell 2014",
+      "portrayed by": "Goya, 1783, National Gallery, Washington; Goya, 1784, in Retrato del Infante Don Luis (Fundación Magnani-Rocca, Italy); Goya, 1800, Prado",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Chinchon.jpg",
+      "image source": "Goya portrait, 1800, Prado"
+    },
+    {
       "id": "Cyprien Gaulon",
       "label": "Gaulon",
       "life dates": "1777-1858", 
@@ -1898,6 +1917,19 @@
       "to": "Manuel Godoy",
       "connection_level": "direct",
       "relationship type": "colleagues; rivals"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1783, National Gallery, Washington; 1784, in Retrato del Infante Don Luis, Fundación Magnani-Rocca, Italy; 1800, Prado"
     },
     {
       "from": "Manuel Godoy",
