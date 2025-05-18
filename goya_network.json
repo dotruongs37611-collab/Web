@@ -19,8 +19,8 @@
       "nationality": "Spanish",
       "bibliography": "Schwander 2021; Tomlinson 2020; Mena Marqués & Manuel Matilla, 2019; Mena Marqués & Manuel Matilla, 2018; Mena Marqués 2008; Schulz 2005; Wolf 1994; Bozal 1994; Tomlinson 1992; Carreta Parrondo & Vega 1991; Águeda & Salas 1982; López Canellas 1981; Glendinning 1977; Gassier 1973; Gassier & Wilson-Bareau 1971; Harris 1964",
       "websites": [
-        "Fundación Goya en Aragón [https://fundaciongoyaenaragon.es/]",
-        "Museo del Prado [https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812]",
+        "[Fundación Goya en Aragón] (https://fundaciongoyaenaragon.es/)",
+        "[Museo del Prado] (https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812)",
         "Real Academia de Historia [https://historia-hispanica.rah.es/biografias/20790-francisco-de-goya-y-lucientes]"
         ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
@@ -331,7 +331,7 @@
       "life dates": "1798-1863",
       "nationality": "French",
       "profession": "painter, draughtsman, engraver",
-      "correspondence": "online repository [http://www.correspondance-delacroix.fr/]",
+      "correspondence": "[online repository] (http://www.correspondance-delacroix.fr/)",
       "author of": "<i>La Barque de Dante</i> (1822, Louvre); <i>Scenes from the Massacre at Chios</i> (1824, Louvre); <i>Nature morte aux Homards</i> (1826-27, Louvre); <i>The Death of Sardanapalus</i> (1827, Louvre); <i>Liberty guiding the People</i> (1830, Louvre); <i>Les Femmes d'Alger</i> (1834, Louvre); <i>Médée</i> (1838, Lille); <i>Hamlet et Horatio au cimetière</i> (1839); décor de la bibliothèque de l'Assemblée national (Palais Bourbon) (1838-1847); décor de la bilbiothèque du Sénat (palais Luxembourg) (1840-1846); décor de la Galerie d'Apollon (Louvre) (1850-1851); <i>Le Christ sur le lac de Génésareth</i> (1854); décor de Saint-Sulpice (1850-1861)",
       "studies in": "École nationale supérieure des beaux-arts; Lycée Louis-le-Grand; Lycée Pierre-Corneille de Rouen",
       "member of": "Société héliographique (from 1851): the first of its kind to be focused on photography",
@@ -483,7 +483,7 @@
       "in Paris": "after the death of Carlos IV and María Luisa de Parma in Italy, Godoy continued his exile in Paris from 1832, where King Louis-Philippe gave him a modest pension, and he focused on the writing of his autobiography. In 1844 and 1847, Queen Isabel II gave him back his titles and properties, but he did not return to Spain. In 1848, he witnessed the revolution in Paris, and the exaltation of Napoleon III",
       "art collection": "his collection included works by Zurbarán, Ribera, Murillo, Rubens, Teniers, Tiziano, Goya and Velázquez (including the famous <i>Venus del espejo</i>, known as the 'Rokeby Venus', now at the London National Gallery). His estates, titles and art collection were expropriated when Godoy went into exile, and there are unanswered questions about, for instance, the dubious ways in which the 'Rokeby Venus' ended up in England",
       "patronage": "he commissioned portraits from all the main artists of the moment, including Goya",
-      "collector of Goya's works": "Godoy commissioned Goya with a portrait (1801) and the two celebrated 'Majas': the <i>Maja vestida</i> and the <i>Maja desnuda</i> (for which Goya was accused to the Inquisition), both paintings now at the Prado. There has been much speculation about the identity of the model of the 'Majas', mostly as part of the alleged (and spurious) love affair of the painter with the Duchess of Alba; others pointed towards Godoy's lover and second wife, Pepita Tudó. The 'Majas', however, are most likely an idealisation created by the artist",
+      "collector of Goya's works": "Godoy commissioned Goya with a portrait (1801) and the two celebrated 'Majas': the <i>Maja vestida</i> and the <i>Maja desnuda</i>, both paintings now at the Prado (see Goya-Godoy edge).",
       "rivals": "Count of Floridablanca; Count of Aranda; Ferdinand VII",
       "bibliography": "José Belmonte Díaz & Pilar Leseduarte, <i>Godoy: historia documentada de un expolio</i>, 2004; <i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1839-1841",
       "websites": "Wikipedia [https://es.wikipedia.org/wiki/Manuel_Godoy]",
@@ -532,7 +532,7 @@
       "life dates": "1823-1905",
       "nationality": "French",
       "profession": "writer",
-      "writes about Goya": "first biography of Goya, <i>Goya</i>, 1858, París, Schulz et Thuillié (digitised in Prado Biblioteca https://www.museodelprado.es/aprende/biblioteca/biblioteca-digital/fondo/goya/47f25eaf-29e1-dd74-6727-6227f053e2a2)",
+      "writes about Goya": "first biography of Goya, <i>Goya</i>, 1858, París, Schulz et Thuillié. Digitised in [Prado Biblioteca] (https://www.museodelprado.es/aprende/biblioteca/biblioteca-digital/fondo/goya/47f25eaf-29e1-dd74-6727-6227f053e2a2)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
@@ -1017,7 +1017,7 @@
       "bibliography": "Garnery 2023; Bonnafé 1890; Piot 1999; Courajod 1890",
       "websites": [
         "Agorha [https://agorha.inha.fr/ark:/54721/95658a8d-b51a-477d-bbcd-2b4198278aaa]",
-        "Getty [https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500037105]"
+        "[Getty] (https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500037105)"
       ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Piot.jpg",
       "image source": "bibliothèque de l'INHA, Fol Phot 047"
@@ -2049,7 +2049,7 @@
       "to": "Manuel Godoy",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "commissions": "a portrait (1801) and the two 'Majas': the [<i>Maja desnuda</i> (1795–1800)](https://www.museodelprado.es/coleccion/obra-de-arte/la-maja-desnuda/65953b93-323e-48fe-98cb-9d4b15852b18) and the [<i>Maja vestida</i> (1800–07)](https://www.museodelprado.es/coleccion/obra-de-arte/la-maja-vestida/a3121efc-6924-454c-8a9f-e4320f26d3d0), now at the Prado",
+      "commissions": "a portrait (1801) and the two 'Majas': the [<i>Maja desnuda</i> (1795–1800)](https://www.museodelprado.es/coleccion/obra-de-arte/la-maja-desnuda/65953b93-323e-48fe-98cb-9d4b15852b18) and the [<i>Maja vestida</i> (1800–07)](https://www.museodelprado.es/coleccion/obra-de-arte/la-maja-vestida/a3121efc-6924-454c-8a9f-e4320f26d3d0), now at the Prado. Goya was probably accused to the Inquisition because of the <i>Naked Maja</i>. There has been much speculation about the identity of the model of the 'Majas', mostly as part of the alleged (and spurious) love affair of the painter with the Duchess of Alba; others pointed towards Godoy's lover and second wife, Pepita Tudó. The 'Majas', however, are most likely an idealisation created by the artist",
       "mentions": "Godoy mentions Goya three times in his <i>Memorias</i>, including a mention of the Caprichos (see Godoy's node)"
     },
     {
@@ -2531,7 +2531,7 @@
       "relationship type": "acquaintance", 
       "know each other since": "at least 13 May 1841, in Paris. Carderera's diary: 'Por la mañana estuve a almorzar con Mr. Piot y con Mr. Teófilo Gautier” (Lanzarote Guiral 2016, p.12)",
       "they met": "Paris, 1859-XI-13: 'Fuime al quai Voltaire, redacción del Monitor (sic) [<i>Le Moniteur universel</i>] y pude entrar en el gabinete de Théophile Gautier, que estuvo amable. Vio la serie de toros, que le regalé y después mis entregas [...]' (Lanzarote Guiral 2016, p.431)",
-      "artworks bought/sold/given": "on 1859-XI-13, Carderera showed Gautier Goya's <i>Tauromaquia</i> and then gave it to him. This is most likely the <i>Tauromaquia</i> set that was sold in Sotheby's Paris, 14 Dec 2022 (Library of Jorge Ortiz Linares), lot 37, for 132,300€. Sotheby's [https://www.sothebys.com/en/buy/auction/2022/de-la-precieuse-bibliotheque-jorge-ortiz-linares/madrid-1816-33-eaux-fortes-envoi-de-valentin?locale=en]. YouTube video of Jean-Baptiste de Proyart discussing the <i>Tauromaquia</i> set (min 2:10) [https://www.youtube.com/watch?v=6A2iC0fEZxs]",
+      "artworks bought/sold/given": "on 1859-XI-13, Carderera showed Gautier Goya's <i>Tauromaquia</i> and then gave it to him. This is most likely the <i>Tauromaquia</i> set that was sold in Sotheby's Paris, 14 Dec 2022 (Library of Jorge Ortiz Linares), lot 37, for 132,300€. [Sotheby's] (https://www.sothebys.com/en/buy/auction/2022/de-la-precieuse-bibliotheque-jorge-ortiz-linares/madrid-1816-33-eaux-fortes-envoi-de-valentin?locale=en). [YouTube video] (https://www.youtube.com/watch?v=6A2iC0fEZxs) of Jean-Baptiste de Proyart discussing the <i>Tauromaquia</i> set (min 2:10)",
       "bibliography": "Fayos Pérez 2020; Lanzarote Guiral 2016"
     },
     {
