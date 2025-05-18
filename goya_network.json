@@ -417,9 +417,21 @@
       "id": "Agustín Esteve",
       "label": "Esteve",
       "life dates": "1753-1820",
+      "full name": "Agustín Esteve y Marqués",
+      "born in": "Valencia",
+      "studies in": "Academia de Bellas Artes de San Carlos, Valencia",
+      "in Madrid": "from 1770",
+      "masters": "Francisco Bayeu; Mariano Salvador Maella; Francisco de Goya",
+      "parents": "Agustín Esteve Torralba and María Marqués",
+      "author of": "Portrait of the Marchioness of San Andrés de Parma (c.1791); Portrait of Francisco de Borja Téllez-Girón, future X Duke of Osuna (1797, colección Masaveu); Portrait of Martín Antonio Álvarez de Sotomayor y Soto-Flores, conde de Colomera (1798, Prado); Portrait of Manuel Godoy, fundador del Instituto Pestalozzi (c.1806, Museo de Bellas Artes de Valencia); self-portrait, c.1815, Museo Lázaro Galdiano. Copies after Francisco de Goya",
+      "works as": "Pintor de Cámara (from 1800); art professor (RABASF)",
+      "member of": "RABASF (académico de mérito) (from 1800)",
+      "decorations/awards": "first prize of painting at the RABASF (1778)",
       "nationality": "Spanish",
       "profession": "painter",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Esteve.jpg"
+      "bibliography": "Albarrán 2018; Albarrán (upcoming)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Esteve.jpg",
+      "image source": "self-portrait, c.1815, Museo Lázaro Galdiano"
     },
     {
       "id": "Leandro Fernández de Moratín",
@@ -482,7 +494,7 @@
         "Foreign: Bailío gran cruz de la Orden de San Juan de Jerusalén; Caballero de la Orden de la Legión de Honor; Caballero de la Suprema Orden de Cristo (Reino de Portugal); Caballero de la Suprema Orden de Cristo (Estados Pontificios); Caballero de la Orden de San Jenaro (Reino de las Dos Sicilias); Caballero de la Orden de San Fernando y el Mérito (Reino de las Dos Sicilias)"
         ],
       "political views": "extremely loyal to Carlos IV and María Luisa de Parma, who gave him countless decorations and aristocratic titles. He limited the power of the high aristocracy. In 1797, he formed a government considered <i>ilustrado</i>: Jovellanos (Secretary of Justice), Francisco de Saavedra (Hacienda), Cabarrús (creator of Banco de San Carlos): sent to Paris as ambassador; he also included Meléndez Valdés and Mariano Luis de Urquijo. Most of these politicians were portrayed by Goya, and many were also his friends.",
-      "portrayed by": "Francisco Folch de Cardona, 1788, RABASF; Francisco Bayeu, 1792, RABASF; Juan Adán, 1794, RABASF (sculpture: bust); Agustín Esteve, 1800, Chicago Art Institute; Francisco de Goya y Lucientes, 1794, private collection (equestrian portrait); Francisco de Goya y Lucientes, 1801, RABASF; Antonio Carnicero, c.1807-1808, RABASF; José de Madrazo, c.1816, RABASF",
+      "portrayed by": "Francisco Folch de Cardona, 1788, RABASF; Francisco Bayeu, 1792, RABASF; Juan Adán, 1794, RABASF (sculpture: bust); Francisco de Goya y Lucientes, 1794, private collection (equestrian portrait); Agustín Esteve, 1800, Chicago Art Institute; Francisco de Goya y Lucientes, 1801, RABASF; Agustín Esteve, c.1806, portrait as founder of the Instituto Pestalozzi, Museo de Bellas Artes de Valencia; Antonio Carnicero, c.1807-1808, RABASF; José de Madrazo, c.1816, RABASF",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg",
       "image source": "Goya portrait, 1801, RABASF"
     },
@@ -1400,7 +1412,7 @@
       "nationality": "Spanish",
       "member of": "Orden de Calatrava",
       "profession": "military member", 
-      "portrayed by": "Francisco de Goya y Lucientes, 1816, Musée Bonnat-Helleu",
+      "portrayed by": "Agustín Esteve, 1797, colección Masaveu; Francisco de Goya y Lucientes, 1816, Musée Bonnat-Helleu",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Osuna_X.jpg"
     },
     {
@@ -1959,7 +1971,9 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Agustín Esteve",
       "connection_level": "direct",
-      "relationship type": "colleagues"
+      "relationship type": "colleagues",
+      "know each other since": "1775",
+      "collaborations": "Esteve produced several copies after Goya's portraits (see Albarrán 2018 and upcoming)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
