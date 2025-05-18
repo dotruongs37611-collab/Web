@@ -464,11 +464,16 @@
       "parents": "José Alfonso Godoy Cáceres Ovando y Ríos and Antonia Justa Álvarez de Faria y Sánchez Zarzoza",
       "married to": "María Teresa de Borbón y Vallabriga (Condesa de Chinchón); Josefa Tudó y Catalán",
       "children": "Carlota Luisa de Godoy y Borbón; Manuel Luis de Godoy y Tudó; Luis Carlos de Godoy y Tudó",
-      "author of": "<i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1839-1841",
-      "mentions of Goya": "in his <i>Memorias</i>, vol. 2, 1839, p.172",
-      "art collection": "his collection included works by Zurbarán, Ribera, Murillo, Rubens, Teniers, Tiziano, Goya and Velázquez (including the famous <i>Venus del espejo</i>, known as the 'Rokeby Venus', now at the London National Gallery)",
+      "author of": "<i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1836-1838. He wrote them in Paris and they were translated into French by Jean-Baptiste Esménard",
+      "mentions of Goya": "in his <i>Memorias</i>, Madrid, Imprenta de I. Sancha: t.II, 1836, p.233 (mention of Goya among other artists); t.III, 1836, p.375 ('La calcografia real publicaba la coleccion de vistas del Escorial y las ochenta estampas de los bellos caprichos de don Francisco Goya, dibujados por él mismo'); t.IV, 1837, p.238 (mention of Goya's portrait)",
+      "in France": "Carlos IV, María Luisa de Parma and Godoy were first in exile in 1808 in Compiègne, close to Paris",
+      "in Italy: "from 1812, Carlos IV, María Luisa de Parma and Godoy were in exile in Rome, first at the Palazzo Borghese, then at the Palazzo Barberini (where María Luisa died in 1819)",
+      "in Paris": "after the death of Carlos IV and María Luisa de Parma in Italy, Godoy continued his exile in Paris from 1832, where King Louis-Philippe gave him a modest pension, and he focused on the writing of his autobiography. In 1844 and 1847, Queen Isabel II gave him back his titles and properties, but he did not return to Spain. In 1848, he witnessed the revolution in Paris, and the exaltation of Napoleon III",
+      "art collection": "his collection included works by Zurbarán, Ribera, Murillo, Rubens, Teniers, Tiziano, Goya and Velázquez (including the famous <i>Venus del espejo</i>, known as the 'Rokeby Venus', now at the London National Gallery). His estates, titles and art collection were expropriated when Godoy went into exile, and there are unanswered questions about, for instance, the dubious ways in which the 'Rokeby Venus' ended up in England",
       "collector of Goya's works": "Godoy commissioned Goya with a portrait (1801) and the two celebrated 'Majas': the <i>Maja vestida</i> and the <i>Maja desnuda</i> (for which Goya was accused to the Inquisition), both paintings now at the Prado. There has been much speculation about the identity of the model of the 'Majas', mostly as part of the alleged (and spurious) love affair of the painter with the Duchess of Alba; others pointed towards Godoy's lover and second wife, Pepita Tudó. The 'Majas', however, are most likely an idealisation created by the artist",
+      "rivals": "Count of Floridablanca; Count of Aranda; Ferdinand VII",
       "bibliography": "José Belmonte Díaz & Pilar Leseduarte, <i>Godoy: historia documentada de un expolio</i>, 2004; <i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1839-1841",
+      "websites": "Wikipedia [https://es.wikipedia.org/wiki/Manuel_Godoy]",
       "works for": "Carlos III; Carlos IV",
       "works as": "Guardia de Corps (1784), for Carlos III; Mariscal de campo (Field Marshal) (Feb 1791), teniente general (July 1791), Generalísimo (1801) and Gran almirante (1807) of the Reales Ejércitos; Primer Secretario de Estado (1792-1798) and President of the Consejo de Estado; Almirante general de España e Indias (1807) (Alteza Serenísima); Primer Ministro; Jefe superior de los Reales Cuerpos de Artillería e Ingenieros; Ayudante general del Real Cuerpo de Guardias de Corps; Coronel general de la Guardia Suiza Pontificia; Gentilhombre de la Cámara del Rey con ejercicio; Superintendente general de la Renta de Correos (1792-1798)",
       "decorations/awards": [
@@ -1977,7 +1982,9 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Manuel Godoy",
       "connection_level": "direct",
-      "relationship type": "patronage"
+      "relationship type": "patronage",
+      "commissions": "a portrait (1801) and the two 'Majas': the <i>Maja vestida</i> and the <i>Maja desnuda</i>, now at the Prado",
+      "mentions": "Godoy mentions Goya three times in his <i>Memorias</i>, including a mention of the Caprichos (see Godoy's node)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
