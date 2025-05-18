@@ -567,39 +567,51 @@ document.addEventListener('DOMContentLoaded', async function () {
             let htmlText;
         
             if (Array.isArray(value)) {
-              // Handle array case (unchanged)
               const processedItems = value.map(item => {
-                const replacedText = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                // First preserve italics
+                item = item.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
+                
+                // Process markdown links [text](url)
+                item = item.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
                   return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
                 });
-                return `<li>${autoLinkNames(replacedText, nodesMap)}</li>`;
+                
+                // Process custom links text [url]
+                item = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+                  const linkText = text.trim() ? text.trim() : 'source';
+                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${linkText}</a>`;
+                });
+                
+                // Restore italics
+                item = item.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
+                
+                return `<li>${autoLinkNames(item, nodesMap)}</li>`;
               });
               htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
             } else {
-              // NEW IMPROVED PROCESSING FOR STRING VALUES
-              // First preserve the italics tags
+              // Process string values
+              // Preserve italics
               value = value.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
               
-              // Process markdown-style links [text](url)
+              // Process markdown links [text](url)
               value = value.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
               });
               
-              // Process your custom-style links text [url]
+              // Process custom links text [url]
               value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-                // Only create link if there's actual text before the URL
                 const linkText = text.trim() ? text.trim() : 'source';
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${linkText}</a>`;
               });
               
-              // Restore italics tags
+              // Restore italics
               value = value.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
               
               htmlText = autoLinkNames(value, nodesMap);
             }
         
             html += Array.isArray(value)
-              ? `<div style="margin-top:0.3rem;"><strong>${field.label}:</strong>${htmlText}</div>`
+              ? `<div style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</div>`
               : `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
