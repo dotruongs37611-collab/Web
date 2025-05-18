@@ -458,8 +458,22 @@
       "label": "Godoy",
       "life dates": "1767-1851",
       "nationality": "Spanish",
-      "profession": "politician",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg"
+      "profession": "military member (Generalísimo); politician",
+      "full name": "Manuel Godoy y Álvarez de Faria Ríos",
+      "aristocratic titles": "Príncipe de la Paz, I Marquis and Duke of Alcudia (Grandee of Spain), I Duke of Sueca (Grandee of Spain), I Baron of Mascalbó, VII Prince of Bassano, I Count of Évoramonte, Count of Chinchón (by marriage; Grandee of Spain), and others",
+      "parents": "José Alfonso Godoy Cáceres Ovando y Ríos and Antonia Justa Álvarez de Faria y Sánchez Zarzoza",
+      "married to": "María Teresa de Borbón y Vallabriga; Josefa Tudó y Catalán",
+      "children": "Carlota Luisa de Godoy y Borbón; Manuel Luis de Godoy y Tudó; Luis Carlos de Godoy y Tudó",
+      "works for": "Carlos III; Carlos IV",
+      "works as": "Guardia de Corps (1784), for Carlos III; Mariscal de campo (Field Marshal) (Feb 1791), teniente general (July 1791), Generalísimo (1801) and Gran almirante (1807) of the Reales Ejércitos; Primer Secretario de Estado (1792-1798) and President of the Consejo de Estado; Almirante general de España e Indias (1807) (Alteza Serenísima); Primer Ministro; Jefe superior de los Reales Cuerpos de Artillería e Ingenieros; Ayudante general del Real Cuerpo de Guardias de Corps; Coronel general de la Guardia Suiza Pontificia; Gentilhombre de la Cámara del Rey con ejercicio; Superintendente general de la Renta de Correos (1792-1798)",
+      "decorations/awards": [
+        "Spain: Caballero de la Orden del Toisón de Oro; Gran Cruz de la Orden de Cristo; Caballero de la Orden de Carlos III; Caballero de la Real y Militar Orden de San Hermenegildo; Caballero (1789) y comendador (1790) de la Orden de Santiago. Also he was named protector of the Real Academia de Nobles Artes y de los Reales Institutos de Historia Natural, Jardín Botánico, Laboratorio Químico and the Observatory",
+        "Foreign: Bailío gran cruz de la Orden de San Juan de Jerusalén; Caballero de la Orden de la Legión de Honor; Caballero de la Suprema Orden de Cristo (Reino de Portugal); Caballero de la Suprema Orden de Cristo (Estados Pontificios); Caballero de la Orden de San Jenaro (Reino de las Dos Sicilias); Caballero de la Orden de San Fernando y el Mérito (Reino de las Dos Sicilias)"
+        ],
+      "political views": "extremely loyal to Carlos IV and María Luisa de Parma, who gave him countless decorations and aristocratic titles. He limited the power of the high aristocracy. In 1797, he formed a government considered <i>ilustrado</i>: Jovellanos (Secretary of Justice), Francisco de Saavedra (Hacienda), Cabarrús (creator of Banco de San Carlos): sent to Paris as ambassador; he also included Meléndez Valdés and Mariano Luis de Urquijo. Most of these politicians were portrayed by Goya, and many were also his friends.",
+      "portrayed by": "Francisco Folch de Cardona, 1788, RABASF; Francisco Bayeu, 1792, RABASF; Juan Adán, 1794, RABASF (sculpture: bust); Agustín Esteve, 1800, Chicago Art Institute; Francisco de Goya y Lucientes, 1794, private collection (equestrian portrait); Francisco de Goya y Lucientes, 1801, RABASF; Antonio Carnicero, c.1807-1808, RABASF; José de Madrazo, c.1816, RABASF",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg",
+      "image source": "Goya portrait, 1801, RABASF"
     },
     {
       "id": "Cyprien Gaulon",
@@ -1857,12 +1871,57 @@
       "employment/patronage": "Floridablanca granted him a benefit of three hundred ducats from the archbishopric of Burgos"
     },
     {
+      "from": "Count of Floridablanca",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "colleagues; rivals"
+    },
+    {
       "from": "Manuel Godoy",
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
       "relationship type": "acquaintances; patronage",
       "they met": "Godoy attended the premiere of <i>El sí de las niñas</i>, 24 January 1806 at the coliseo de la Cruz",
       "employment/patronage": "Godoy helped Moratín to premiere his comedies and increased his income with other ecclesiastical sinecures: 3,000 ducats from a parish in Montoro and 600 from the mitre of Oviedo. From 1792-1797, Godoy funds Moratín's European tour in England, Belgium, Germany, Switzerland and Italy."
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Gaspar Melchor de Jovellanos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; patronage; employer-employee (Godoy named Jovellanos as Secretary of Justice)"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Francisco Cabarrús",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; patronage; employer-employee (Godoy named Cabarrús ambassador in France)"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Juan Meléndez Valdés",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; patronage"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Agustín Esteve",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1800, Chicago Art Institute"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "c.1816, RABASF. Madrazo also portrays Godoy's second wife, Pepita Tudó: c.1812 (<i>Josefa Tudó, I Condesa de Castillo Fiel, con sus hijos Manuel y Luis Godoy, junto a un busto de Manuel Godoy</i>, Prado) and c.1813 (RABASF)"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Francisco Bayeu",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1792, RABASF"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -3884,6 +3943,13 @@
       "commissions": "portraits",
       "knew each other since": "at least 1795",
       "portraits": "1795, Palacio de Liria (Fundación Casa de Alba); 1797, Hispanic Society of America (New York)"
+    },
+    {
+      "from": "María Teresa de Silva, XIII Duchess of Alba",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; lovers?",
+      "exchanges": "after the death of the Duchess in 1802, her outstanding art collection passed to Godoy's hands, including Velázquez's <i>Venus del espejo</i> (known as the Rokeby Venus) and Correggio's <i>La educación de Cupido</i>, both now held at the National Gallery (London)"
     },
     {
       "from": "IX Duke of Osuna",
