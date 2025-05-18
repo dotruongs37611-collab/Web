@@ -16,6 +16,23 @@ function autoLinkNames(text, nodesMap) {
   return text;
 }
 
+function processMarkdownLinks(text) {
+  if (!text) return text;
+  
+  // First preserve italics
+  text = text.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
+  
+  // Process markdown links [text](url)
+  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (match, text, url) => {
+    return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
+  });
+  
+  // Restore italics
+  text = text.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
+  
+  return text;
+}
+
 // Add these two functions at the top of network.js
 window.search = function() {
   const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
@@ -568,34 +585,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         
             if (Array.isArray(value)) {
               const processedItems = value.map(item => {
-                // First preserve italics
-                item = item.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
-                
-                // Process markdown links [text](url)
-                item = item.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
-                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-                });
-                
-                // Restore italics
-                item = item.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
-                
-                return `<li>${autoLinkNames(item, nodesMap)}</li>`;
+                const processedText = processMarkdownLinks(item);
+                return `<li>${autoLinkNames(processedText, nodesMap)}</li>`;
               });
               htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
             } else {
-              // Process string values
-              // Preserve italics
-              value = value.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
-              
-              // Process markdown links [text](url)
-              value = value.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
-                return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-              });
-              
-              // Restore italics
-              value = value.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
-              
-              htmlText = autoLinkNames(value, nodesMap);
+              htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
             }
         
             html += Array.isArray(value)
