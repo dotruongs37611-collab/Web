@@ -349,7 +349,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "born in", label: "Born in" },
           { type: "field", key: "considered as", label: "Considered as" },
           { type: "field", key: "political views", label: "Political views" },
-          { type: "field", key: "portrayed by", label: "Portrayed by" },
           { type: "field", key: "address", label: "Address" },
           { type: "field", key: "curiosities", label: "Curiosities" },
           { type: "field", key: "aristocratic titles", label: "Aristocratic titles" },
@@ -388,7 +387,9 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "author of", label: "Author of" },
           { type: "field", key: "patrons", label: "Patrons" },
           { type: "field", key: "patronage", label: "Patronage" },
+          { type: "field", key: "portrayed by", label: "Portrayed by" },
           { type: "field", key: "collection", label: "Collection" },
+          { type: "field", key: "art collection", label: "Art collection" },
           { type: "field", key: "collector of", label: "Collector of" },
           { type: "field", key: "sales", label: "Sales" },
 
