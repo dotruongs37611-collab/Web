@@ -451,7 +451,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             });
             htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
           } else {
-            value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
+            value = value.replace(/([^\[\]]+?)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
               return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
             });
             htmlText = autoLinkNames(value, nodesMapByLabel);
