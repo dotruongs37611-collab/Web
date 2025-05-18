@@ -1166,8 +1166,27 @@
       "label": "Salamanca",
       "life dates": "1811-1883", 
       "nationality": "Spanish",
-      "profession": "aristocrat, businessman, banker, collector",
-      "sales": "1867-VI-5: Goya's Femme à l'éventail (no.177); 1869 (pieces acquired by the British Museum; pieces by José Madrazo); 1875",
+      "profession": "aristocrat, businessman, banker, collector, politician",
+      "married to": "Petronila Livermore y Salas", 
+      "studies in": "Universidad de Granada",
+      "political views": "worked as a politician for the Partido Moderado",
+      "in Paris": [
+        "In 1841: a trip to look for support with the Spanish external debt. He meets with María Cristina de Borbón, who was there in exile, and Narváez (Partido Moderado)",
+        "In 1849: he goes into exile for 16 months, until amnesty is given by Narváez",
+        "In 1854: he goes into exile for the second time",
+        "In 1867: he celebrates his first art sale"
+      ],
+      "works as": "politician, senator, businessman (railway and banking)",
+      "art collection": "it included 19 paintings attributed to Velázquez, also to Goya, from the Flemish, Dutch and Italian schools. He has acquired some of these works from the sales of the collections of the Marquis of Leganés and of the Infante Luis de Borbón",
+      "aristocratic titles": "I Marquis of Salamanca; I Count of Los Llanos; Grandee of Spain (Grande de España)",
+      "portrayed by": "anonymous, drawing; anonymous, photograph",
+      "sales": [
+        "1867-VI-5 (Paris): more than 200 paintings, artworks and furniture. It included a work by Goya (<i>Femme à l'éventail</i>), and El Greco's <i>La Purificación del Templo</i>, now at the Washington National Gallery of Art",
+        "1869 (Sotheby's): pieces acquired by the British Museum; Pieces by José Madrazo", 
+        "1875"
+      ],
+      "collector of Goya's works": "<i>Femme à l'éventail</i> (lot 177) (1867 sale)",
+      "curiosities": "Salamanca's residence in Madrid, the Palace of the Marquis of Salamanca, now belongs to the BBVA Foundation, where there are two works by Goya: a portrait of Carlos III as a hunter (c.1786), and the portrait of Don Pantaleón Pérez de Nenín (1808). He gives his name to the Neighbourhood of Salamanca (Barrio de Salamanca) in Madrid, where he refurbished 14 blocks",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
     },
     {
