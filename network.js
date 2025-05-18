@@ -576,12 +576,6 @@ document.addEventListener('DOMContentLoaded', async function () {
                   return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
                 });
                 
-                // Process custom links text [url]
-                item = item.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-                  const linkText = text.trim() ? text.trim() : 'source';
-                  return `<a href="${url}" target="_blank" style="color:#66ccff;">${linkText}</a>`;
-                });
-                
                 // Restore italics
                 item = item.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
                 
@@ -596,12 +590,6 @@ document.addEventListener('DOMContentLoaded', async function () {
               // Process markdown links [text](url)
               value = value.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, (match, text, url) => {
                 return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-              });
-              
-              // Process custom links text [url]
-              value = value.replace(/([^\[\]]+)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
-                const linkText = text.trim() ? text.trim() : 'source';
-                return `<a href="${url}" target="_blank" style="color:#66ccff;">${linkText}</a>`;
               });
               
               // Restore italics
