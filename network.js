@@ -583,19 +583,28 @@ document.addEventListener('DOMContentLoaded', async function () {
             let value = edge[field.key];
             let htmlText;
         
+            // Debugging: Check the raw value
+            console.log("Raw value:", value);
+        
             if (Array.isArray(value)) {
               const processedItems = value.map(item => {
-                const processedText = processMarkdownLinks(item);
-                return `<li>${autoLinkNames(processedText, nodesMap)}</li>`;
+                // Process markdown links [text](url)
+                const withLinks = item.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, 
+                  '<a href="$2" target="_blank" style="color:#66ccff;">$1</a>');
+                return `<li>${autoLinkNames(withLinks, nodesMap)}</li>`;
               });
-              htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+              htmlText = `<ul>${processedItems.join("")}</ul>`;
             } else {
-              htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
+              // Process markdown links [text](url)
+              const withLinks = value.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, 
+                '<a href="$2" target="_blank" style="color:#66ccff;">$1</a>');
+              htmlText = autoLinkNames(withLinks, nodesMap);
             }
         
-            html += Array.isArray(value)
-              ? `<div style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</div>`
-              : `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
+            // Debugging: Check the processed HTML
+            console.log("Processed HTML:", htmlText);
+        
+            html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
 
