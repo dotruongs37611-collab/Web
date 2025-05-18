@@ -3847,6 +3847,18 @@
       "portraits": "c.1785 (Fundación Bartolomé March, Palma de Mallorca); family portrait, 1788, Prado"
     },
     {
+      "from": "IX Duke of Osuna",
+      "to": "X Duke of Osuna",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "to": "X Duke of Osuna",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son"
+    },
+    {
       "from": "X Duke of Osuna",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "direct",
