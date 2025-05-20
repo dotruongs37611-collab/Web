@@ -1495,6 +1495,7 @@
       "full name": "Carlos Antonio Pascual Francisco Javier Juan Nepomuceno José Januario Serafín Diego de Borbón",
       "life dates": "1748-1819", 
       "nationality": "Spanish",
+      "born in": "Portici (Naples)",
       "profession": "aristocrat; art patron",
       "patronage": "Luis Meléndez, Claude Joseph Vernet, Luis Paret, Francisco de Goya y Lucientes (named Pintor de Cámara in 1789)",
       "art collection": "he gathered his own art collection since he was Príncipe de Asturias, with works by artists such as Robert Campin (<i>Tríptico Werl</i>) and Rafael (<i>Sagrada Familia del cordero</i>, <i>Retrato de cardenal</i>). During his exile in Rome, an inventory of his collection was made by his Chamber Painters, José Madrazo and Juan Antonio Ribera Fernández. His collection returns to Spain in 1819, part of which would become part of the Prado Museum (the rest being spread among his heirs)",
@@ -1514,6 +1515,7 @@
       "full name": "María Luisa de Borbón-Parma",
       "life dates": "1751-1819", 
       "nationality": "Spanish",
+      "born in": "Parma (Ducado de Parma, Italy)",
       "portrayed by": "Anton Raphael Mengs, c.1765, Prado; Goya, 1789, Prado; Goya, equestrian portrait, 1799, Prado; Goya, <i>La familia de Carlos IV</i>, 1800, Prado; Vicente López, <i>Carlos IV y su familia homenajeados por la Universidad de Valencia</i>, 1802, Prado; Vicente López, 1819, Palacio Real de Madrid",
       "parents": "Felipe I de Parma and Luisa Isabel de Francia",
       "married to": "Carlos IV",
@@ -1522,6 +1524,20 @@
       "children": "out of 24 pregnancies, 14 children were born, of which 7 survived, including Carlota Joaquina, María Amalia, María Luisa Josefina, Carlos María Isidro (founder of <i>carlismo</i>), María Isabel, Francisco de Paula Antonio (Duke of Cádiz), Fernando (future Ferdinand VII)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/MLuisa_Parma.jpg",
       "image source": "Goya portrait (equestrian), 1799, Prado"
+    },
+    {
+      "id": "Fernando VII",
+      "label": "Fernando VII",
+      "full name": "Fernando María Francisco de Paula Domingo Vicente Ferrer Antonio José Joaquín Pascual Diego Juan Nepomuceno Genaro Francisco Javier Rafael Miguel Gabriel Calixto Cayetano Fausto Luis Ramón Gregorio Lorenzo Jerónimo",
+      "life dates": "1784-1833", 
+      "born in": "El Escorial",
+      "nationality": "Spanish",
+      "rivals": "Joseph Bonaparte; Manuel Godoy",
+      "married to": "María Antonia de Nápoles (1802-1806); María Isabel de Portugal (1816-1818); María Josefa Amalia de Sajonia (1819-1829); María Cristina de las Dos Sicilias (1829-1833)",
+      "children": "Isabel II; María Isabel Luisa de Borbón; María Luisa (Duchess of Montpensier)",
+      "portrayed by": "Goya, as Príncipe de Asturias (for <i>La Familia de Carlos IV</i>), 1800, New York, Metropolitan Museum; Vicente López, c.1814-15, Prado; Goya, 1814, Museo de Arte Moderno y Contemporáneo de Santander y Cantabria; Goya, <i>Fernando VII con manto real</i>, 1814-15, Prado; Goya, in a military camp, after 1815, Prado P000724; Vicente López, 1828, Banco de España",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fernando_VII.jpg",
+      "image source": "Goya portrait, 1814, Prado"
     },
     {
       "id": "María Teresa de Silva, XIII Duchess of Alba",
@@ -4190,6 +4206,24 @@
       "they shared": "exile in France and Italy"
     },
     {
+      "from": "Gaspar Melchor de Jovellanos",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Francisco Cabarrús",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Count of Floridablanca",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
       "from": "Manuel Godoy",
       "to": "María Luisa de Parma",
       "connection_level": "direct",
@@ -4207,6 +4241,48 @@
       "to": "XII Countess-Duchess of Benavente and Duchess of Osuna",
       "connection_level": "direct",
       "relationship type": "acquaintances; rivals"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "rivals; acquaintances"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portraits",
+      "knew each other since": "at least 1800",
+      "portraits": "1800, New York, Metropolitan Museum; 1800, <i>La familia de Carlos IV</i>; 1814, Museo de Arte Moderno y Contemporáneo de Santander y Cantabria; <i>Fernando VII con manto real</i>, 1814-15, Prado P000735 [https://www.museodelprado.es/coleccion/obra-de-arte/fernando-vii-con-manto-real/1b46165d-1ef7-4399-8282-7056bb901ad9]; Fernando VII in a military camp, after 1815, Prado P000724 [https://www.museodelprado.es/coleccion/obra-de-arte/fernando-vii-en-un-campamento/eb432c33-5391-4e84-b55f-14281c36d416?searchMeta=p000724]"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "patronage"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Vicente López",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portraits",
+      "knew each other since": "at least 1814",
+      "portraits": "c.1814-15, Prado; 1828, Banco de España; 1831, Palacio de España, Rome"
+    },
+    {
+      "from": "Carlos IV",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "relatives: father-son"
+    },
+    {
+      "from": "María Luisa de Parma",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "relatives: mother-son"
     },
     {
       "from": "Carlos IV",
