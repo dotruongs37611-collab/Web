@@ -1535,9 +1535,34 @@
       "rivals": "Joseph Bonaparte; Manuel Godoy",
       "married to": "María Antonia de Nápoles (1802-1806); María Isabel de Portugal (1816-1818); María Josefa Amalia de Sajonia (1819-1829); María Cristina de las Dos Sicilias (1829-1833)",
       "children": "Isabel II; María Isabel Luisa de Borbón; María Luisa (Duchess of Montpensier)",
-      "portrayed by": "Goya, as Príncipe de Asturias (for <i>La Familia de Carlos IV</i>), 1800, New York, Metropolitan Museum; Vicente López, c.1814-15, Prado; Goya, 1814, Museo de Arte Moderno y Contemporáneo de Santander y Cantabria; Goya, <i>Fernando VII con manto real</i>, 1814-15, Prado; Goya, in a military camp, after 1815, Prado P000724; Vicente López, 1828, Banco de España",
+      "portrayed by": [
+        "Goya, as Príncipe de Asturias (for <i>La Familia de Carlos IV</i>), 1800, New York, Metropolitan Museum",
+        "Goya, <i>La Familia de Carlos IV</i>, 1800, Prado",
+        "Vicente López, c.1814-15, Prado",
+        "Goya, 1814, Museo de Arte Moderno y Contemporáneo de Santander y Cantabria", 
+        "Goya, <i>Fernando VII con manto real</i>, 1814-15, Prado",
+        "Goya, in a military camp, after 1815, Prado P000724",
+        "Vicente López, 1828, Banco de España"
+        ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fernando_VII.jpg",
       "image source": "Goya portrait, 1814, Prado"
+    },
+    {
+      "id": "Joseph Bonaparte",
+      "label": "J. Bonaparte",
+      "full name": "Joseph Nabulion Bonaparte",
+      "life dates": "1784-1833", 
+      "born in": "Corte, Corsica",
+      "nationality": "French",
+      "rivals": "Manuel Godoy; Carlos IV; Fernando VII; X Duke of Osuna; Duke of Wellington",
+      "founder of": "Museo Josefino, which would later become the Prado Museo", 
+      "art collection": "he looted a great number of artworks from the Spanish royal collections, including paintings by Velázquez, Ribera, Correggio and Titian. When the French army started to lose the war, he fled towards France with several wagons carrying the looted artworks. During the Battle of Vitoria (1813), he abandoned all his luggage and fled to France. The vast collection, known as the 'Vitoria Paintings' or 'Equipaje del Rey José', abandoned by Joseph, was then taken by the Duke of Wellington to London, and eventually would form his own collection. The public side of this collection can be seen at the Wellington Museum at Apsley House, London",
+      "married to": "Julia Clary",
+      "children": "Julia Bonaparte; Zenaida Bonaparte; Carlota Bonaparte",
+      "parents": "Carlo Buonaparte and María Leticia Ramolino",
+      "portrayed by": "Jean Baptiste Joseph Wicar, 1808, Palace of Versailles; François Gérard, 1808, as King of Spain, Musée national du Château de Fontainebleau; Joseph Flaugier, 1809, MNAC",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Bonaparte.jpg",
+      "image source": "Flaugier portrait, 1809, MNAC"
     },
     {
       "id": "María Teresa de Silva, XIII Duchess of Alba",
@@ -4247,6 +4272,75 @@
       "to": "Manuel Godoy",
       "connection_level": "direct",
       "relationship type": "rivals; acquaintances"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "rivals; allies; acquaintances"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "rivals"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Marís Luisa de Parma",
+      "connection_level": "direct",
+      "relationship type": "rivals"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee",
+      "collaborations": "Goya participated in the inventory of artworks from the Spanish royal collections to be gathered at the Museo Josefino",
+      "portraits": "there are no finished or known portraits by Goya of Joseph Bonaparte, but there are speculations about a couple of unfinished portraits that were later modified due to political reasons. In 2011, the Rijksmuseum published a study asserting that X-ray analysis had shown that the <i>Portrait of Ramón Satué</i> from 1823 had an underlying portrait of Joseph Bonaparte. See <i>The Guardian</i> [https://www.theguardian.com/artanddesign/2011/sep/20/xrays-uncover-painting-goya-masterpiece]. Goya's equestrian portrait of the Duke of Wellington (1812) at Apsley House was also examined with X-ray and another underlying drawing appeared; some scholars argued it could be the portrait of Joseph Bonaparte (see Braham 1966)",
+      "bibliography": "Allan Braham, 'Goya's Equestrian Portrait of the Duke of Wellington', <i>The Burlington Magazine</i>, vol.108, no.765, December 1966, pp.618-621"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Juan Antonio Llorente",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Francisco Cabarrús",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Juan Meléndez Valdés",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Arthur Wellesley, 1st Duke of Wellington",
+      "connection_level": "direct",
+      "relationship type": "rivals"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "X Duke of Osuna",
+      "connection_level": "direct",
+      "relationship type": "rivals"
+    },
+    {
+      "from": "Joseph Bonaparte",
+      "to": "Célestin Nanteuil",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?"
     },
     {
       "from": "Fernando VII",
