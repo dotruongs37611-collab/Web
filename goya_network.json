@@ -1467,13 +1467,50 @@
     {
       "id": "María Teresa de Silva, XIII Duchess of Alba",
       "label": "Duchess of Alba",
+      "full name": "María del Pilar Teresa Cayetana Manuela Margarita Leonor Sebastiana Bárbara Ana Joaquina Josefa Francisca de Paula Javiera de Asís de Borja y de Sales Andrea Abelina Sinforosa Benita Bernarda Petronila de Alcántara Dominga Micaela Rafaela Gabriela Venancia Antonia Fernanda Bibiana Vicenta Catalina de Silva Álvarez de Toledo y Silva-Bazán",
       "life dates": "1762-1802", 
       "nationality": "Spanish",
-      "aristocratic titles": "XIII Duchess of Alba de Tormes, VIII Countess-Duchess of Olivares, XI Marchioness del Carpio and Grandee of España (Grande de España)", 
+      "aristocratic titles": "XIII Duchess of Alba de Tormes, VIII Countess-Duchess of Olivares, XI Marchioness del Carpio and Grandee of España (Grande de España), among many others", 
       "portrayed by": "Goya, 1795, Palacio de Liria, Madrid; Goya 1797, Hispanic Society of America, New York",
+      "children": "she adopted a girl she named María de la Luz, who Goya portrayed in the arms of the Duchess in his drawing albums, c.1794-95 (A.f) [Prado D004183] (https://www.museodelprado.es/coleccion/obra-de-arte/la-duquesa-de-alba-teniendo-en-sus-brazos-a-maria/eeee25da-d6fd-493f-af37-c6eeb6518e50)",
       "parents": "Francisco de Paula de Silva y Álvarez de Toledo and Mariana de Silva Bazán y Sarmiento",
-      "married to": "José Álvarez de Toledo, XI Marquis of Villafranca del Bierzo and XV Duke of Medina Sidonia",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Alba_XIII.jpg"
+      "married to": "José Álvarez de Toledo, XI Marquis of Villafranca del Bierzo and XV Duke of Medina Sidonia, in 1775 (when she was 12 years old)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Alba_XIII.jpg",
+      "image source": "Goya portrait, 1795, Palacio de Liria"
+    },
+    {
+      "id": "José Álvarez de Toledo, Duke of Alba",
+      "label": "Duke of Alba",
+      "full name": "José Álvarez de Toledo y Gonzaga",
+      "life dates": "1756-1796", 
+      "profession": "aristocrat; patron of arts",
+      "works as": "Gran canciller y registrador de las Indias (1793)",
+      "nationality": "Spanish",
+      "rivals": "Manuel Godoy: he participated in the plot against Godoy with Alejandro Malaspina",
+      "aristocratic titles": [
+        "By birth: XI Marquis of Villafranca, XV Duke of Medina Sidonia, Grandee of España (Grande de España), among others",
+        "By marriage: Duke of Alba (consort), Marquis del Carpio, conde-duque de Olivares, among others"
+        ],
+      "portrayed by": "Goya (attributed), 1783, Museo Ibercaja de Zaragoza; Goya, 1795, Prado; Goya, 1795, Chicago Art Institute",
+      "parents": "Antonio Álvarez de Toledo and María Antonia Gonzaga (also portrayed by Goya)",
+      "married to": "María Teresa de Silva, XIII Duchess of Alba, in 1775 (when she was 12 years old)",
+      "decorations/awards": "caballero gran cruz de la Orden de Carlos III (1789); caballero de la Orden del Toisón de Oro (1791)",
+      "curiosities": "as a patron of arts, he had a long correspondence with the composer Joseph Haydn",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Alba_XIII_duque.jpg",
+      "image source": "Goya portrait, 1795, Prado"
+    },
+    {
+      "id": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "label": "Villafranca",
+      "full name": "María Antonia Gonzaga y Caracciolo",
+      "life dates": "1735-1801", 
+      "nationality": "Spanish",
+      "portrayed by": "Goya, 1795, Prado",
+      "parents": "Francesco Gonzaga, I Duke of Solferino, and Guilia Caracciolo",
+      "children": "5 children, including José Álvarez de Toledo, future Duke of Alba (consort)",
+      "married to": "Antonio Álvarez de Toledo y Pérez de Guzmán, X Marquis of Villafranca",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca.jpg",
+      "image source": "Goya portrait 1795, Prado"
     },
     {
       "id": "Juan Madrazo",
@@ -4034,6 +4071,41 @@
       "connection_level": "direct",
       "relationship type": "acquaintances; lovers?",
       "exchanges": "after the death of the Duchess in 1802, her outstanding art collection passed to Godoy's hands, including Velázquez's <i>Venus del espejo</i> (known as the Rokeby Venus) and Correggio's <i>La educación de Cupido</i>, both now held at the National Gallery (London)"
+    },
+    {
+      "from": "María Teresa de Silva, XIII Duchess of Alba",
+      "to": "José Álvarez de Toledo, Duke of Alba",
+      "connection_level": "direct",
+      "relationship type": "Spouses: husband-wife. Relatives: cousins",
+      "children": "none"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "José Álvarez de Toledo, Duke of Alba",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portrait",
+      "portraits": "1795 Prado; 1795 Chicago Art Institute"
+    },
+    {
+      "from": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "to": "José Álvarez de Toledo, Duke of Alba",
+      "connection_level": "direct",
+      "relationship type": "relatives: mother-son"
+    },
+    {
+      "from": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "to": "María Teresa de Silva, XIII Duchess of Alba",
+      "connection_level": "direct",
+      "relationship type": "relatives: mother-inlaw, daughter-in-law"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portrait",
+      "portraits": "1795 Prado"
     },
     {
       "from": "IX Duke of Osuna",
