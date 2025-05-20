@@ -19,13 +19,20 @@ function autoLinkNames(text, nodesMap) {
 function processMarkdownLinks(text) {
   if (!text) return text;
   
-  // First preserve italics
+  // Preserve italics
   text = text.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
   
-  // Process markdown links [text](url)
-  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (match, text, url) => {
-    return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
-  });
+  // Format 1: [text](url)
+  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, 
+    '<a href="$2" target="_blank" style="color:#66ccff;">$1</a>');
+  
+  // Format 2: (text)[url]
+  text = text.replace(/\(([^)]+)\)\[(https?:\/\/[^\]]+)\]/g, 
+    '(<a href="$2" target="_blank" style="color:#66ccff;">$1</a>)');
+    
+  // Format 3: text [url] (fallback)
+  text = text.replace(/(\b[^\s\[\]]+\b)\s*\[(https?:\/\/[^\]]+)\]/g, 
+    '<a href="$2" target="_blank" style="color:#66ccff;">$1</a>');
   
   // Restore italics
   text = text.replace(/%%%ITALIC_OPEN%%%/g, '<i>').replace(/%%%ITALIC_CLOSE%%%/g, '</i>');
