@@ -471,7 +471,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             value = value.replace(/([^\[\]]+?)\s*\[(https?:\/\/[^\]\s]+)\]/g, (match, text, url) => {
               return `<a href="${url}" target="_blank" style="color:#66ccff;">${text.trim()}</a>`;
             });
-            htmlText = autoLinkNames(value, nodesMapByLabel);
+            htmlText = autoLinkNames(processMarkdownLinks(value), nodesMapByLabel);
           }
       
           html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
