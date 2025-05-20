@@ -543,8 +543,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "correspondence", label: "Correspondence" },
           { key: "they met", label: "They met" },
           { key: "shared", label: "Shared" },
-          { key: "interactions", label: "Interactions" },
           { key: "they shared", label: "They shared" },
+          { key: "interactions", label: "Interactions" },
           { key: "mentions", label: "Mentions" },
           { key: "collaborations", label: "Collaborations" },
           { key: "curiosities", label: "Curiosities" },
@@ -566,7 +566,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "shows Goya", label: "Shows Goya" },
           { key: "artworks influenced by Goya", label: "Artworks influenced by Goya" },
           { key: "artworks bought/sold/given", label: "Artworks bought/sold/given" },
-          { key: "bibliography", label: "Bibliography" },
           { key: "comparisons", label: "Comparisons" },
           { key: "criticism", label: "Criticism" },
           { key: "rivalry", label: "Rivalry" },
@@ -574,7 +573,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "commissions", label: "Commissions" },
           { key: "exchanges", label: "Exchanges" },
           { key: "patronage", label: "Patronage" },
-          { key: "portraits", label: "Portraits" }
+          { key: "portraits", label: "Portraits" },
+          { key: "bibliography", label: "Bibliography" }
         ];
 
         edgeFields.forEach(field => {
