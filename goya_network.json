@@ -1466,7 +1466,7 @@
     },
     {
       "id": "María Teresa de Silva, XIII Duchess of Alba",
-      "label": "Alba (Duchess)",
+      "label": "Duchess of Alba",
       "life dates": "1762-1802", 
       "nationality": "Spanish",
       "aristocratic titles": "XIII Duchess of Alba de Tormes, VIII Countess-Duchess of Olivares, XI Marchioness del Carpio and Grandee of España (Grande de España)", 
@@ -3994,6 +3994,12 @@
       "to": "X Duke of Osuna",
       "connection_level": "direct",
       "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "to": "IX Duke of Osuna",
+      "connection_level": "direct",
+      "relationship type": "Spouses: husband-wife. Relatives: first cousins"
     },
     {
       "from": "X Duke of Osuna",
