@@ -6,7 +6,7 @@
       "profession": "painter, draughtsman, engraver",
       "life dates": "1746-1828",
       "born in": "Fuendetodos, Zaragoza",
-      "author of": "<i>Piedad</i> (1774), <i>Aníbal vencedor</i> (1771), tapestryStaël cartoons (1775-1792), prints after Velázquez (1778), <i>Crucifixion</i> (1780), <i>San Bernardino de Siena</i> (1781-83), <i>The Duchess of Osuna</i> (1785), <i>The Dukes of Osuna</i> (1787-88), <i>Yard of lunatics</i> (1794), <i>Witches Flight</i> (1797-98), Album A (c.1794-95), Album B (c.1795-97), <i>Caprichos</i> (1799), <i>Allegory of Truth, Time and History</i> (1800), <i>The Family of Charles IV</i> (1800), <i>Clothed Maja</i> (1802-05), <i>Bandit stripping a woman</i> (1808-12), <i>The Burial of the Sardine</i> (1808-12), <i>Portrait of Antonia de Zárate</i> (1810-11), <i>Disasters of War</i> (1810-15), <i>The Second of May 1808</i> (1814), <i>The Third of May 1808</i> (1814), <i>Ferdinand VII</i> (1814-15), Self-Portrait (1815), <i>Tauromaquia</i> (1816), <i>Disparates</i> (c.1816-19), Black Paintings (c.1819-23), <i>Bulls of Bordeaux</i> (1825), <i>Portrait of Mariano Goya</i> (1827)",
+      "author of": "<i>Piedad</i> (1774), <i>Aníbal vencedor</i> (1771), tapestry cartoons (1775-1792), prints after Velázquez (1778), <i>Crucifixion</i> (1780), <i>San Bernardino de Siena</i> (1781-83), <i>The Duchess of Osuna</i> (1785), <i>The Dukes of Osuna</i> (1787-88), <i>Yard of lunatics</i> (1794), <i>Witches Flight</i> (1797-98), Album A (c.1794-95), Album B (c.1795-97), <i>Caprichos</i> (1799), <i>Allegory of Truth, Time and History</i> (1800), <i>The Family of Charles IV</i> (1800), <i>Clothed Maja</i> (1802-05), <i>Bandit stripping a woman</i> (1808-12), <i>The Burial of the Sardine</i> (1808-12), <i>Portrait of Antonia de Zárate</i> (1810-11), <i>Disasters of War</i> (1810-15), <i>The Second of May 1808</i> (1814), <i>The Third of May 1808</i> (1814), <i>Ferdinand VII</i> (1814-15), Self-Portrait (1815), <i>Tauromaquia</i> (1816), <i>Disparates</i> (c.1816-19), Black Paintings (c.1819-23), <i>Bulls of Bordeaux</i> (1825), <i>Portrait of Mariano Goya</i> (1827)",
       "in Italy": "1769-1771",
       "in France": "1824-1828, Bordeaux. He visited Paris in Summer 1824",
       "masters": "José Luzán",
@@ -1120,7 +1120,7 @@
       "life dates": "1747-1800",
       "nationality": "Spanish",
       "profession": "businessman, politician, collector",
-      "portrayed by": "Francisco de Goya y Lucientes, 1792, New York, Metropolitan Museum (06.289)",
+      "portrayed by": "Francisco de Goya y Lucientes, 1792, New York, Metropolitan Museum",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg",
       "image source": "Goya portrait, 1792"
     },
@@ -1491,7 +1491,7 @@
         "By birth: XI Marquis of Villafranca, XV Duke of Medina Sidonia, Grandee of España (Grande de España), among others",
         "By marriage: Duke of Alba (consort), Marquis del Carpio, conde-duque de Olivares, among others"
         ],
-      "portrayed by": "Goya (attributed), 1783, Museo Ibercaja de Zaragoza; Goya, 1795, Prado; Goya, 1795, Chicago Art Institute",
+      "portrayed by": "Goya? (attributed), 1783, Museo Ibercaja de Zaragoza; Goya, c.1795, Prado; Goya, 1795, Chicago Art Institute",
       "parents": "Antonio Álvarez de Toledo and María Antonia Gonzaga (also portrayed by Goya)",
       "married to": "María Teresa de Silva, XIII Duchess of Alba, in 1775 (when she was 12 years old)",
       "decorations/awards": "caballero gran cruz de la Orden de Carlos III (1789); caballero de la Orden del Toisón de Oro (1791)",
@@ -1500,17 +1500,38 @@
       "image source": "Goya portrait, 1795, Prado"
     },
     {
-      "id": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "id": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
       "label": "Villafranca",
       "full name": "María Antonia Gonzaga y Caracciolo",
       "life dates": "1735-1801", 
       "nationality": "Spanish",
-      "portrayed by": "Goya, 1795, Prado",
+      "portrayed by": "Goya, c.1795, Prado",
       "parents": "Francesco Gonzaga, I Duke of Solferino, and Guilia Caracciolo",
       "children": "5 children, including José Álvarez de Toledo, future Duke of Alba (consort)",
       "married to": "Antonio Álvarez de Toledo y Pérez de Guzmán, X Marquis of Villafranca",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca.jpg",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca_viuda.jpg",
       "image source": "Goya portrait 1795, Prado"
+    },
+    {
+      "id": "María Tomasa Palafox, Marchioness of Villafranca",
+      "label": "Villafranca widow",
+      "full name": "María Tomasa Palafox y Portocarrero",
+      "life dates": "1780-1835", 
+      "nationality": "Spanish",
+      "works as": "painter; President of the Junta de Damas de Honor y Mérito (1818-1824), which was the first association of women founded in Spain (since 1787)",
+      "profession": "artist; painter; intellectual; writer; salonnière (<i>tertulia</i>)",
+      "author of": "<i>Elogio a la reina Isabel de Braganza</i> (1819); <i>Memorias</i> of her work as President of the Junta de Damas",
+      "aristocratic titles": "Marchioness of Villafranca, Grandee of Spain (Grande de España)",
+      "portrayed by": "Goya, 1804, Prado: as a painter, in the act of portraying her husband; José Alonso del Rivero, c.1805",
+      "member of": "RABASF: miembro de honor (1805)",
+      "founder of": "Sociedad Patriótica de Señoras de Fernando VII (Cádiz, 1811)",
+      "decorations/awards": "Orden de las Damas Nobles de la Reina María Luisa (1830)",
+      "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "children": "6 children: Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)", 
+      "married to": "Francisco de Borja Álvarez de Toledo, XII Marquis of Villafranca, Duke of Medina Sidonia, Grandee of Spain",
+        "José Álvarez de Toledo y Dubois",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca.jpg",
+      "image source": "Goya portrait 1804, Prado"
     },
     {
       "id": "Juan Madrazo",
@@ -2093,27 +2114,28 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Cyprien Gaulon",
       "connection_level": "direct",
-      "relationship type": "patronage"
+      "relationship type": "patronage; colleagues",
+      "portraits": "1824-25, lithography [https://artsandculture.google.com/asset/the-printer-gaulon-goya-y-lucientes-francisco-de/EAGPfbiHV7U66Q?hl=es]"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Pierre Lacour",
       "connection_level": "direct",
-      "label": ""
+      "relationship type": "acquaintances; colleagues"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Nicolas Philippe Guye",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "portraits": "1810"
+      "portraits": "1810, Virginia Museum of Fine Arts, 71.26 [https://vmfa.museum/piction/6027262-8091582/]"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Victor Guye",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "portraits": "1810"
+      "portraits": "1810, Washington National Gallery of Art, 1956.11.1 [https://www.nga.gov/artworks/43625-victor-guye]"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2132,7 +2154,8 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Vicente López",
       "connection_level": "direct",
-      "portraits": "López portrayed Goya"
+      "portraits": "López portrayed Goya in 1826, Prado P000864 [https://www.museodelprado.es/coleccion/obra-de-arte/el-pintor-francisco-de-goya/d24dba94-d730-44c5-8b46-1f1732d2b571],
+      "curiosities": "López's portrait of Goya was taken as a model for the statuette of the <i>Premios Goya</i> in the Spanish cinema"
     },
     {
       "from": "José Madrazo",
@@ -2151,7 +2174,7 @@
       "to": "Leocadia Zorrilla y Galarza",
       "connection_level": "direct",
       "relationship type": "employer/employee; housekeeper",
-      "portraits": "Not known"
+      "portraits": "Not known (with confirmed identity)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2170,7 +2193,7 @@
       "to": "Sebastián Martínez y Pérez",
       "connection_level": "direct",
       "relationship type": "friends",
-      "portraits": "1792, New York, Metropolitan Museum, 06.289"
+      "portraits": "1792, New York, Metropolitan Museum, 06.289 [https://www.metmuseum.org/art/collection/search/436541]"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2704,7 +2727,7 @@
       "relationship type": "colleagues",
       "know each other since": "at least 1794", 
       "correspondence": "1794-I-4 Goya to Iriarte: the famous letter where Goya announces his small cabinet paintings out of commission, on topics drawn from the 'capricho e invención' (Canellas p.314, no.188; also no.189, 1794-I-7)",
-      "portraits": "Goya portrays Iriarte in 1797 (Strasbourg)",
+      "portraits": "Goya portrays Iriarte in 1797 (Strasbourg Museum). Copy at the Metropolitan Museum (50.145.19)",
       "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
     },
     {
@@ -4063,7 +4086,7 @@
       "relationship type": "patronage",
       "commissions": "portraits",
       "knew each other since": "at least 1795",
-      "portraits": "1795, Palacio de Liria (Fundación Casa de Alba); 1797, Hispanic Society of America (New York)"
+      "portraits": "1795, Madrid, Palacio de Liria, Fundación Casa de Alba [https://www.palaciodeliria.com/galeria/dona-maria-del-pilar-teresa-cayetana-de-silva-alvarez-de-toledo-xiii-duquesa-de-alba]; 1797, New York, Hispanic Society of America [https://hispanicsociety.org/exhibition/current-exhibitions-works-on-loan/treasures-on-the-terrace_highlights-from-the-hispanic-society-museum-and-library/duchess-of-alba/]"
     },
     {
       "from": "María Teresa de Silva, XIII Duchess of Alba",
@@ -4085,27 +4108,35 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portrait",
-      "portraits": "1795 Prado; 1795 Chicago Art Institute"
+      "portraits": "1795 Prado P002449 [https://www.museodelprado.es/coleccion/obra-de-arte/jose-alvarez-de-toledo-xi-marques-de-villafranca/7ee3e5f0-69b9-40c8-8e08-2144766b2eaa]; 1795 Chicago Art Institute"
     },
     {
-      "from": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "from": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
       "to": "José Álvarez de Toledo, Duke of Alba",
       "connection_level": "direct",
       "relationship type": "relatives: mother-son"
     },
     {
-      "from": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "from": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
       "to": "María Teresa de Silva, XIII Duchess of Alba",
       "connection_level": "direct",
-      "relationship type": "relatives: mother-inlaw, daughter-in-law"
+      "relationship type": "relatives: mother-in-law, daughter-in-law"
     },
     {
       "from": "Francisco de Goya y Lucientes",
-      "to": "María Antonia Gonzaga, Marchioness of Villafranca",
+      "to": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portrait",
-      "portraits": "1795 Prado"
+      "portraits": "1795 Prado P002447 [https://www.museodelprado.es/coleccion/obra-de-arte/maria-antonia-gonzaga-marquesa-viuda-de/5264367e-1c43-4a1e-a519-ce2182968ccb]"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portrait",
+      "portraits": "1804 Prado P002448 [https://www.museodelprado.es/coleccion/obra-de-arte/la-xii-marquesa-de-villafranca-pintando-a-su/1fff2174-3bfc-4d3e-b190-ff7cd09187d6]"
     },
     {
       "from": "IX Duke of Osuna",
