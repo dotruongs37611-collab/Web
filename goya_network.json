@@ -522,9 +522,34 @@
       "label": "Gaulon",
       "life dates": "1777-1858", 
       "nationality": "French",
-      "profession": "lithographic printer",
+      "in Bordeaux": "active 1815-1858. He coincides with Goya",
+      "studies in": "École royale de Sorèze",
+      "participates in": "the army of the French Republic in 1791",
+      "works as": "editor and lithographer for Gustave de Galard, Eugène Devéria, Pierre Lacour, Francisco de Goya y Lucientes (Bulls of Bordeaux, 1825)",
+      "profession": "lithographic printer; writer; calligrapher (<i>maître-écrivain</i>)",
       "portrayed by": "Goya, 1824-25, lithography (Harris 1964, no.282)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg"
+      "bibliography": "Harris 1964",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gaulon.jpg",
+      "image source": "Goya portrait, lithograph, 1824-25"
+    },
+    {
+      "id": "Bartolomé Sureda",
+      "label": "Sureda",
+      "full name": "Bartolomé Sureda y Miserol",
+      "life dates": "1769-1851", 
+      "born in": "Palma de Mallorca",
+      "nationality": "Spanish",
+      "profession": "porcelain maker; engineer; painter",
+      "in France": "1800-1803 (to study); in 1812, during the Peninsular War (after the Real Fábrica de Porcelana del Buen Retiro is destroyed by the Duke of Wellington)",
+      "in Madrid": "from October 1803. He gets portrayed by Goya",
+      "married to": "Thérèse Louise Sureda (also portrayed by Goya): Washington National Gallery of Art 1942.3.1 [https://www.nga.gov/artworks/991-therese-louise-de-sureda]",
+      "children": "Alejandro Sureda (architect)",
+      "studies in": "Palma, Escuela de Dibujo (from 1785); France (from 1800)",
+      "works as": "Director of the Real Fábrica de Porcelana del Buen Retiro (until its destruction in 1812 until 1820) and the Real Fábrica de La Moncloa (from 1817); also Director of the Real Fábrica de Paños de Guadalajara and the Real Fábrica de Cristales de La Granja (from 1822)", 
+      "portrayed by": "Goya, c.1803-04, Washington, National Gallery of Art. According to Sazatornil & Jiméno, Goya made this portrait to thank Sureda for his help with the printing technique of the <i>Caprichos</i> (2014, pp.108-112)",
+      "bibliography": "Sazatornil & Jiméno 2014",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sureda_Bartolome.jpg",
+      "image source": "Goya portrait, c.1803-04, Washington"
     },
     {
       "id": "Laurent Matheron",
@@ -1501,7 +1526,7 @@
     },
     {
       "id": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
-      "label": "Villafranca",
+      "label": "Villafranca widow",
       "full name": "María Antonia Gonzaga y Caracciolo",
       "life dates": "1735-1801", 
       "nationality": "Spanish",
@@ -1514,7 +1539,7 @@
     },
     {
       "id": "María Tomasa Palafox, Marchioness of Villafranca",
-      "label": "Villafranca widow",
+      "label": "Villafranca",
       "full name": "María Tomasa Palafox y Portocarrero",
       "life dates": "1780-1835", 
       "nationality": "Spanish",
@@ -2008,6 +2033,13 @@
       "portraits": "1783, National Gallery, Washington; 1784, in Retrato del Infante Don Luis, Fundación Magnani-Rocca, Italy; 1800, Prado"
     },
     {
+      "from": "Bartolomé Sureda",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage; colleagues",
+      "portraits": "1803-04, Washington National Gallery of Art 1941.10.1 [https://www.nga.gov/artworks/985-bartolome-sureda-y-miserol]"
+    },
+    {
       "from": "Manuel Godoy",
       "to": "Leandro Fernández de Moratín",
       "connection_level": "direct",
@@ -2114,6 +2146,7 @@
       "to": "Cyprien Gaulon",
       "connection_level": "direct",
       "relationship type": "patronage; colleagues",
+      "collaborations": "Gaulon edits Goya's lithographic series <i>The Bulls of Bordeaux</i> (1825)",
       "portraits": "1824-25, lithography [https://artsandculture.google.com/asset/the-printer-gaulon-goya-y-lucientes-francisco-de/EAGPfbiHV7U66Q?hl=es]"
     },
     {
