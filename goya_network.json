@@ -1133,6 +1133,7 @@
     {
       "id": "Josefa Bayeu",
       "label": "Josefa Bayeu",
+      "full name": "Josefa Bayeu y Subías",
       "life dates": "1747-1812",
       "nationality": "Spanish",
       "married to": "Francisco de Goya y Lucientes (1773)", 
@@ -2292,7 +2293,7 @@
     },
     {
       "from": "Francisco de Goya y Lucientes",
-      "to": "Josefa Bayeu y Subías",
+      "to": "Josefa Bayeu",
       "connection_level": "direct",
       "relationship type": "spouses; husband-wife"
     },
@@ -2360,7 +2361,7 @@
     },
     {
       "from": "Javier Goya",
-      "to": "Josefa Bayeu y Subías",
+      "to": "Josefa Bayeu",
       "connection_level": "direct",
       "relationship type": "relatives; mother-son"
     },
@@ -2403,7 +2404,7 @@
     },
     {
       "from": "Mariano Goya",
-      "to": "Josefa Bayeu y Subías",
+      "to": "Josefa Bayeu",
       "connection_level": "direct",
       "relationship type": "relatives; grandmother-grandson"
     },
