@@ -318,6 +318,7 @@
       "nationality": "French",
       "profession": "diplomat (French ambassador 1798-1800), medical doctor, politician (representative of the Convention)",
       "in Spain": "1798-1800",
+      "portrayed by": "Goya, 1798, Louvre",
       "collector of Goya's works": "a set of the <i>Caprichos</i>; his portrait (1798, Louvre MI697); <i>Portrait of Mariana Waldstein, 9th Marquise of Santa Cruz</i> (c.1797-99, Louvre RF1976-79) [authorship doubts]",
       "commissions Goya with": "portrait, 1798, Louvre MI697 (GW.677). This was the first work by Goya to enter the Louvre (donated by his heirs in 1865)",
       "websites": "Fundación Goya en Aragón [https://fundaciongoyaenaragon.es/obra/ferdinand-guillemardet/353]",
@@ -2049,7 +2050,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "know each other since": "at least 1798",
-      "portraits": "1798 Louvre"
+      "portraits": "1798 [Louvre, MI 697](https://collections.louvre.fr/ark:/53355/cl010059836)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2058,7 +2059,7 @@
       "relationship type": "patronage",
       "know each other since": "at least 1810",
       "link to Goya": "patron, collector, interpreter and disseminator of his work (see Llorente's node)",
-      "portraits": "1810-11 Museo de Arte de São Paulo"
+      "portraits": "1810-11 [Museo de Arte de São Paulo MASP.00176](https://masp.org.br/en/collections/works/portrait-of-don-juan-antonio-llorente)"
     },
     {
       "from": "Gaspar Melchor de Jovellanos",
@@ -2088,7 +2089,7 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "know each other since": "at least 1797",
-      "portraits": "Goya portrayed Meléndez Valdés in 1797 (Bowes)" 
+      "portraits": "1797, Durham, [Bowes Museum B.M.26](https://artuk.org/discover/artworks/juan-antonio-melendez-valdes-17741817-44311)" 
     },
     {
       "from": "Francisco Cabarrús",
@@ -2122,14 +2123,14 @@
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "portraits": "1783, National Gallery, Washington; 1784, in Retrato del Infante Don Luis, Fundación Magnani-Rocca, Italy; 1800, Prado"
+      "portraits": "1783, Washington, [National Gallery of Art 1970.17.123](https://www.nga.gov/artworks/52267-maria-teresa-de-borbon-y-vallabriga-later-condesa-de-chinchon); 1784, in <i>Retrato del Infante Don Luis</i>, [Fondazione Magnani-Rocca(https://www.magnanirocca.it/en/the-family-of-the-infante-don-luis-by-goya/); 1800, [Prado P007695](https://www.museodelprado.es/coleccion/obra-de-arte/maria-teresa-de-vallabriga/a402fbb2-0198-49c0-901f-c7a4f2530abd)"
     },
     {
       "from": "Bartolomé Sureda",
       "to": "Francisco de Goya y Lucientes",
       "connection_level": "direct",
       "relationship type": "patronage; colleagues",
-      "portraits": "1803-04, [Washington National Gallery of Art 1941.10.1](https://www.nga.gov/artworks/985-bartolome-sureda-y-miserol)"
+      "portraits": "1803-04, Washington, [National Gallery of Art 1941.10.1](https://www.nga.gov/artworks/985-bartolome-sureda-y-miserol)"
     },
     {
       "from": "Manuel Godoy",
@@ -2189,7 +2190,7 @@
       "to": "Juan Agustín Ceán Bermúdez",
       "connection_level": "direct",
       "relationship type": "friends", 
-      "portraits": "c.1783, c.1786"
+      "portraits": "c.1783 [colección privada](https://es.m.wikipedia.org/wiki/Archivo:Portrait_of_Juan_Agust%C3%ADn_Ce%C3%A1n_Berm%C3%BAdez_by_Francisco_de_Goya_%281792-93%29.jpg); c.1785, [colección privada](https://es.wikipedia.org/wiki/Retrato_de_Juan_Agust%C3%ADn_Ce%C3%A1n_Berm%C3%BAdez)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2197,7 +2198,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "correspondence": "28 Nov 1824: Goya tells Ferrer about Rosario, praising her artistic skills, asking F to host her in Paris for her to learn painting. No response from Ferrer",
-      "portraits": "1824"
+      "portraits": "1824, [private collection](https://es.m.wikipedia.org/wiki/Archivo:Joaqu%C3%ADn_Mar%C3%ADa_Ferrer_por_Francisco_de_Goya.jpg)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2232,7 +2233,8 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "a portrait (1801) and the two 'Majas': the [<i>Maja desnuda</i> (1795–1800)](https://www.museodelprado.es/coleccion/obra-de-arte/la-maja-desnuda/65953b93-323e-48fe-98cb-9d4b15852b18) and the [<i>Maja vestida</i> (1800–07)](https://www.museodelprado.es/coleccion/obra-de-arte/la-maja-vestida/a3121efc-6924-454c-8a9f-e4320f26d3d0), now at the Prado. Goya was probably accused to the Inquisition because of the <i>Naked Maja</i>. There has been much speculation about the identity of the model of the 'Majas', mostly as part of the alleged (and spurious) love affair of the painter with the Duchess of Alba; others pointed towards Godoy's lover and second wife, Pepita Tudó. The 'Majas', however, are most likely an idealisation created by the artist",
-      "mentions": "Godoy mentions Goya three times in his <i>Memorias</i>, including a mention of the Caprichos (see Godoy's node)"
+      "mentions": "Godoy mentions Goya three times in his <i>Memorias</i>, including a mention of the Caprichos (see Godoy's node)",
+      "portraits": "1801, [RABASF 0670](https://www.academiacolecciones.com/pinturas/inventario.php?id=0670)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2240,7 +2242,7 @@
       "connection_level": "direct",
       "relationship type": "patronage; colleagues",
       "collaborations": "Gaulon edits Goya's lithographic series <i>The Bulls of Bordeaux</i> (1825)",
-      "portraits": "1824-25, lithography [https://artsandculture.google.com/asset/the-printer-gaulon-goya-y-lucientes-francisco-de/EAGPfbiHV7U66Q?hl=es]"
+      "portraits": "1824-25, [lithography](https://artsandculture.google.com/asset/the-printer-gaulon-goya-y-lucientes-francisco-de/EAGPfbiHV7U66Q?hl=es)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2253,7 +2255,7 @@
       "to": "Nicolas Philippe Guye",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "portraits": "1810, Virginia Museum of Fine Arts, 71.26 [https://vmfa.museum/piction/6027262-8091582/]"
+      "portraits": "1810, [Virginia Museum of Fine Arts, 71.26](https://vmfa.museum/piction/6027262-8091582/)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2299,7 +2301,7 @@
       "to": "Leocadia Zorrilla y Galarza",
       "connection_level": "direct",
       "relationship type": "employer/employee; housekeeper",
-      "portraits": "Not known (with confirmed identity)"
+      "portraits": "not known (with confirmed identity)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2332,13 +2334,14 @@
       "to": "Jacques Galos",
       "connection_level": "direct",
       "relationship type": "friends",
-      "portraits": "1826, Barnes Foundation"
+      "portraits": "1826, Philadelphia, [Barnes Foundation BF5](https://collection.barnesfoundation.org/objects/5664/Portrait-of-Jacques-Galos/)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Juan Antonio Melón",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "portraits": "lithography, [BNE](https://bdh.bne.es/bnesearch/Search.do;jsessionid=06DC3C7DC06D3E8701A596FB1F840B51?numfields=1&field1=materia&showYearItems=&field1val=%22Litograf%C3%ADas%22&advanced=true&field1Op=AND&exact=on&textH=&completeText=&text=&language=es&autor=Gilliang&pageSize=30)"
     },
     {
       "from": "Javier Goya",
