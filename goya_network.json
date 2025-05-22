@@ -1491,6 +1491,22 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
     },
     {
+      "id": "Carlos III",
+      "label": "Carlos III",
+      "life dates": "1716-1788", 
+      "nationality": "Spanish",
+      "born in": "Madrid",
+      "profession": "aristocrat; art patron",
+      "works as": "Duke of Parma and Plasencia, King of Naples and Sicily, King of Spain",
+      "patronage": "other than individual artists like Goya, Maella and Mengs, Carlos III created several royal manufactures and academies of arts and science, following the French example. As King of Naples: Real Laboratorio de Piedras Duras de Nápoles (1737), Real Fábrica de Tapices de Nápoles (1737), Real Fábrica de Porcelanas de Capodimonte (1743), and Real Fábrica de Mayólicas de Caserta (1753). As King of Spain: Real Laboratorio de Mosaicos y Piedras Duras del Buen Retiro (1759), Real Fábrica de Porcelana del Buen Retiro (1759), Real Fábrica de Platería Martínez (1778), and Real Fábrica de Relojes (1788)",
+      "portrayed by": "Jean Ranc, Carlos III at the age of 10, c.1724, Prado; Giovanni Maria delle Piane, <i>Carlos III as Duke of Parma</i>, 1732; Giovanni Maria delle Piane, <i>Carlos III as King of the Two Sicilies</i>, 1737, Museo de Pontevedra (deposit from the Prado); Giuseppe Bonito, as King of the Two Sicilies, 1745, Prado; Francesco Liani?, c.1760, Museo Capodimonte; Anton Raphael Mengs, 1767, Prado; Luis Paret y Alcázar, <i>Luis III comiendo ante su corte</i>, 1775, Prado; Goya, <i>Carlos III en traje de corte</i>, c.1780, Banco de España; José del Castillo, 1775-1785; Mariano Salvador Maella, 1783-84, Palacio Real; Goya, <i>Carlos III cazador</i>, c.1786, Prado and BBVA Foundation",
+      "parents": "Felipe V and Isabel Farnesio",
+      "married to": "María Amalia de Sajonia",
+      "children": "out of 13, 7 reached adult age: María Josefa Carmela, María Luisa, Felipe Antonio, Carlos IV, Fernando I, Gabriel, Antonio Pascual, Francisco Javier",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carlos_III.jpg",
+      "image source": "Goya portrait, 1786-88, Prado"
+    },
+    {
       "id": "Carlos IV",
       "label": "Carlos IV",
       "full name": "Carlos Antonio Pascual Francisco Javier Juan Nepomuceno José Januario Serafín Diego de Borbón",
@@ -4189,6 +4205,30 @@
       "portraits": "1785, private collection; 1788, family portrait, Prado; c.1798, Frick Collection, New York"
     },
     {
+      "from": "Carlos III",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Carlos III",
+      "to": "María Luisa de Parma",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-in-law, daughter-in-law"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Gaspar Melchor de Jovellanos",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Count of Floridablanca",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
       "from": "María Luisa de Parma",
       "to": "Carlos IV",
       "connection_level": "direct",
@@ -4248,6 +4288,15 @@
       "to": "Carlos IV",
       "connection_level": "direct",
       "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portraits",
+      "knew each other since": "at least 1786",
+      "portraits": "<i>Carlos III en traje de corte</i>, c.1780, Banco de España; <i>Carlos III cazador</i>, c.1786, Prado and BBVA Foundation"
     },
     {
       "from": "Manuel Godoy",
