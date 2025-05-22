@@ -1065,13 +1065,20 @@
     {
       "id": "Paul Lefort",
       "label": "Lefort",
-      "life dates": "1829?-1904",
+      "life dates": "1829-1904",
+      "full name": "Paul Adolphe Lefort",
       "nationality": "French",
-      "profession": "art critic, art historian",
+      "profession": "art critic, art historian, hispanist",
+      "writes in": "<i>Gazette des Beaux-arts</i>",
+      "works as": "Inspecteur des Beaux-arts (Ministère de l'Instruction publique et des Beaux-Arts): inspection des musées de Corse et d'Algérie (Dossier n°F/21/2286 dossier 35)",
       "collector of Goya's works": "Large collection. He has <i>Disparates</i>' 'Fiero monstruo' (no.81), not included in the 1864 edition, to the RABASF in 1870",
       "writes about Goya": "Catalogue raisonné of Goya's prints, <i>Gazette des Beaux-Arts</i>, 1867-68",
       "sales": "1869 I 25-29 (large Goya collection)",
       "mentions the Prado commentaries": "in 1867",
+      "author of": "<i>Histoire des peintres de toutes les écoles</i> (1861), <i>Francisco Goya. Etude biographique et critique, suivie de l'essai d'un catalogue raisonné de son oeuvre gravé et lithographié</i> (1877), <i>Velazquez</i> (1887), <i>La peinture française actuelle</i> (1891), <i>Murillo et ses élèves, suivi du catalogue raisonné de ses principaux ouvrages</i> (1892), <i>La peinture espagnole</i> (1893)",
+      "decorations/awards": "Encomienda de la Orden de Carlos III (1863); chevalier de la Légion d'honneur (1895)",
+      "websites": "[BNE](https://datos.bne.es/persona/XX1340334.html)",
+      "archives": "[Leonore, Archives nationales](https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/226114); [Archives nationales: missions artistiques (1840-1893)](https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText=Paul%20Adolphe%20LEFORT); Work as inspector of Algerian and Corsican museums[archives nationales](https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/consultation/ir/consultationIR.action?consIr=&frontIr=&optionFullText=&fullText=&defaultResultPerPage=&irId=FRAN_IR_027857&formCaller=GENERALISTE&gotoArchivesNums=false&auSeinIR=false&details=true&page=&udId=d_2_10_16)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lefort_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
@@ -2734,7 +2741,8 @@
       "connection_level": "direct",
       "know each other since": "at least 1861",
       "they met": "1861 in Paris (Lanzarote Guiral 2016, p.536)",
-      "link to Goya's work": "1861 in Paris, C gives Blanc Goya prints (Lanzarote Guiral 2016, p.536)"
+      "link to Goya's work": "1861 in Paris, Carderera gives Blanc Goya prints (Lanzarote Guiral 2016, p.536)",
+      "bibliography": "Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
@@ -2747,7 +2755,10 @@
       "from": "Valentín Carderera",
       "to": "Paul Lefort",
       "connection_level": "direct",
-      "relationship type": "colleagues"
+      "relationship type": "colleagues",
+      "collaborations": "in the <i>Gazette des Beaux-arts</i> (see Correspondence 1866-69, BNE)",
+      "correspondence": "at least 1866-1869",
+      "archives": "BNE, Papeles de Valentín Carderera [MSS/23291/74](https://datos.bne.es/edicion/a6562750.html): 9 letters from Lefort and a sketch from Carderera referring to their collaboration in the <i>Gazette des Beaux-arts</i>"
     },
     {
       "from": "Valentín Carderera",
