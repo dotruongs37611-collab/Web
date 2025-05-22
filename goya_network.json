@@ -304,7 +304,7 @@
       "life dates": "1735-1814", 
       "nationality": "Spanish",
       "profession": "politician, diplomat, collector",
-      "works for": "Fernando VI, Carlos III, Carlos IV, José I",
+      "works for": "Fernando VI, Carlos III, Carlos IV, José I (Joseph Bonaparte)",
       "member of": "Real Academia Española; Real Academia de Ciencias y Artes de Barcelona",
       "portrayed by": "Francisco de Goya y Lucientes, 1797, Strasbourg Museum of Fine Arts",
       "siblings": "Tomás de Iriarte",
@@ -4227,6 +4227,30 @@
       "to": "Count of Floridablanca",
       "connection_level": "direct",
       "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Francisco Cabarrús",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Bernardo de Iriarte",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandfather-grandson"
     },
     {
       "from": "María Luisa de Parma",
