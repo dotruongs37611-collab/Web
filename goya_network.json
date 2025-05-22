@@ -19,8 +19,8 @@
       "nationality": "Spanish",
       "bibliography": "Schwander 2021; Tomlinson 2020; Mena Marqués & Manuel Matilla, 2019; Mena Marqués & Manuel Matilla, 2018; Mena Marqués 2008; Schulz 2005; Wolf 1994; Bozal 1994; Tomlinson 1992; Carreta Parrondo & Vega 1991; Águeda & Salas 1982; López Canellas 1981; Glendinning 1977; Gassier 1973; Gassier & Wilson-Bareau 1971; Harris 1964",
       "websites": [
-        "[Fundación Goya en Aragón] (https://fundaciongoyaenaragon.es/)",
-        "[Museo del Prado] (https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812)",
+        "Fundación Goya en Aragón [https://fundaciongoyaenaragon.es/]",
+        "Museo del Prado [https://www.museodelprado.es/coleccion/artista/goya-y-lucientes-francisco-de/39568a17-81b5-4d6f-84fa-12db60780812]",
         "Real Academia de Historia [https://historia-hispanica.rah.es/biografias/20790-francisco-de-goya-y-lucientes]"
         ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya.jpg",
@@ -331,7 +331,7 @@
       "life dates": "1798-1863",
       "nationality": "French",
       "profession": "painter, draughtsman, engraver",
-      "correspondence": "[online repository] (http://www.correspondance-delacroix.fr/)",
+      "correspondence": "online repository [http://www.correspondance-delacroix.fr/]",
       "author of": "<i>La Barque de Dante</i> (1822, Louvre); <i>Scenes from the Massacre at Chios</i> (1824, Louvre); <i>Nature morte aux Homards</i> (1826-27, Louvre); <i>The Death of Sardanapalus</i> (1827, Louvre); <i>Liberty guiding the People</i> (1830, Louvre); <i>Les Femmes d'Alger</i> (1834, Louvre); <i>Médée</i> (1838, Lille); <i>Hamlet et Horatio au cimetière</i> (1839); décor de la bibliothèque de l'Assemblée national (Palais Bourbon) (1838-1847); décor de la bilbiothèque du Sénat (palais Luxembourg) (1840-1846); décor de la Galerie d'Apollon (Louvre) (1850-1851); <i>Le Christ sur le lac de Génésareth</i> (1854); décor de Saint-Sulpice (1850-1861)",
       "studies in": "École nationale supérieure des beaux-arts; Lycée Louis-le-Grand; Lycée Pierre-Corneille de Rouen",
       "member of": "Société héliographique (from 1851): the first of its kind to be focused on photography",
@@ -557,7 +557,7 @@
       "life dates": "1823-1905",
       "nationality": "French",
       "profession": "writer",
-      "writes about Goya": "first biography of Goya, <i>Goya</i>, 1858, París, Schulz et Thuillié. Digitised in [Prado Biblioteca] (https://www.museodelprado.es/aprende/biblioteca/biblioteca-digital/fondo/goya/47f25eaf-29e1-dd74-6727-6227f053e2a2)",
+      "writes about Goya": "first biography of Goya, <i>Goya</i>, 1858, París, Schulz et Thuillié. Digitised in Prado Biblioteca [https://www.museodelprado.es/aprende/biblioteca/biblioteca-digital/fondo/goya/47f25eaf-29e1-dd74-6727-6227f053e2a2]",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Matheron_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
