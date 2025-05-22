@@ -575,7 +575,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "exchanges", label: "Exchanges" },
           { key: "patronage", label: "Patronage" },
           { key: "portraits", label: "Portraits" },
-          { key: "bibliography", label: "Bibliography" }
+          { key: "bibliography", label: "Bibliography" },
+          { key: "archives", label: "Archives" }
         ];
 
         edgeFields.forEach(field => {
