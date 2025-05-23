@@ -272,6 +272,27 @@
       "image source": "Reutlinger photograph, 1850"
     },
     {
+      "id": "Eugénie de Montijo",
+      "label": "Montijo",
+      "full name": "María Eugenia Ignacia Agustina de Palafox y Kirkpatrick",
+      "life dates": "1826-1920",
+      "born in": "Granada",
+      "nationality": "Spanish",
+      "aristocratic titles": "XI Countess of Mora and Grandee of Spain, XVII Baroness of Quinto, XVIII Marchioness of Moya, XIX Countess of Teba, XVI Marchioness of Ardales, IX Marchioness of Osera, IX Countess of Ablitas, XII Countess of Baños, IX Countess of Santa Cruz de la Sierra",
+      "political views": "she embraced the Bonapartist cause; she advocated equality for women: she tried (unsuccessfully) to convince the Académie Française to elect George Sand as its first female member; she personally intervened on behalf of Julie-Victoire Daubié for the signing of her baccalaureate diploma; she also intervened for the award of the Légion d'honneur to painter Rosa Bonheur; and obtained Madeleine Brès's enrolment in the Faculty of Medicine",
+      "masters": "Prosper Mérimée; Stendhal (Henri Beyle)",
+      "siblings": "María Francisca de Sales (Paca), who marries the Duke of Alba in 1849",
+      "studies in": "Convento del Sagrado Corazón, Paris (1835) and Gymnase Normale, Civile et Orthosomatique",
+      "married to": "Napoleon III (1853)",
+      "children": "Louis-Napoléon Bonaparte",
+      "parents": "Cipriano de Palafox y Portocarrero and María Manuela Kirkpatrick de Grevignée",
+      "portrayed by": "Franz Xaver Winterhalter, 1853; Winterhalter, 1854; Édouard Louis Dubufe, 1854; Winterhalter, <i>L'Impératrice Eugènie entourée de ses dames d'honneur</i> (1855); Gustave Le Gray, photograph, 1856; Winterhalter, <i>Eugènie portant son fils Louis Napoléon</i> (1857); <i>Napoléon, Eugénie and the Imperial Prince</i>, photograph 1858; André-Adolphe-Eugène Disdéri, 1858, photograph; Sergey Lvovich Levitsky, c.1862, photograph; Gustave Le Gray, oil painting, 1869; W. & D. Downey, 1880, photograph; 1920 photograph",
+      "decorations/awards": "Orden de la Reina Maria Luisa (1853); Order of Saint Isabel of Portugal (1854); Order of the British Empire (1919); Ordre de Notre-Dame de Guadalupe; Order of the Starry Cross of Austria; Imperial Order of Saont Charles of the MExican Empire (1865)",
+      "curiosities": "in her will, she bequeathed 100,000 francs to the Committee for Rebuilding the Cathedral of Reims",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Eugenia_Montijo.jpg",
+      "image source": "Winterhalter portrait, 1854"
+    },
+    {
       "id": "Marcello (Adèle d'Affry)",
       "label": "Marcello",
       "full name": "Adélaïde Nathalie Marie Hedwige Philippine d’Affry",
@@ -2559,6 +2580,37 @@
       "to": "Prosper Mérimée",
       "connection_level": "direct",
       "relationship type": "friends/acquaintances"
+    },
+    {
+      "from": "Eugénie de Montijo",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "friends; master-student",
+      "know each other since": "c.1839, when Mérimée became her French teacher",
+      "correspondence": "yes",
+      "collaborations": "Eugénie told Mérimée about the story of a love between a bullfighter and a cigar vendor, which would inspire him to write his famous novella <i>Carmen</i>"
+    },
+    {
+      "from": "Stendhal (Henri Beyle)",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": " at least 1839"
+      "they shared": "they were both teachers of Empress Eugénie de Montijo"
+    },
+    {
+      "from": "Eugénie de Montijo",
+      "to": "Stendhal (Henri Beyle)",
+      "connection_level": "direct",
+      "relationship type": "friends; master-student",
+      "know each other since": "c.1839, when Stendhal became her History teacher"
+    },
+    {
+      "from": "Eugénie de Montijo",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; protegée?",
+      "interactions": "Eugénie tried (unsuccessfully) to convince the Académie Française to accept Sand as its first female member"
     },
     {
       "from": "Marcello (Adèle d'Affry)",
