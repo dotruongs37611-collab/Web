@@ -3538,6 +3538,12 @@
     },
     {
       "from": "Théophile Thoré",
+      "to": "Juan Agustín Ceán Bermúdez",
+      "connection_level": "secondary",
+      "mentions": "1847, 12 Dec: Thoré mentions Ceán Bermúdez's <i>Diccionario histórico</i> (‘Beaux-Arts. Abolition de l’école française a Rome’, <i>Le Constitutionnel</i>, p.3)"
+    },
+    {
+      "from": "Théophile Thoré",
       "to": "Charles Baudelaire",
       "connection_level": "direct",
       "relationship type": "friends?, correspondents",
