@@ -991,6 +991,7 @@
       "life dates": "1813-1882",
       "nationality": "French",
       "profession": "art critic",
+      "writes about Goya": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanc.jpg"
     },
     {
@@ -1072,10 +1073,21 @@
       "writes in": "<i>Gazette des Beaux-arts</i>",
       "works as": "Inspecteur des Beaux-arts (Ministère de l'Instruction publique et des Beaux-Arts): inspection des musées de Corse et d'Algérie (Dossier n°F/21/2286 dossier 35)",
       "collector of Goya's works": "Large collection. He has <i>Disparates</i>' 'Fiero monstruo' (no.81), not included in the 1864 edition, to the RABASF in 1870",
-      "writes about Goya": "Catalogue raisonné of Goya's prints, <i>Gazette des Beaux-Arts</i>, 1867-68",
+      "writes about Goya": [
+        "1867-68 Catalogue raisonné of Goya's prints, <i>Gazette des Beaux-Arts</i>",
+        "1869 Lefort mentions Goya in the collective <i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i>"
+        ],
       "sales": "1869 I 25-29 (large Goya collection)",
       "mentions the Prado commentaries": "in 1867",
-      "author of": "<i>Histoire des peintres de toutes les écoles</i> (1861), <i>Francisco Goya. Etude biographique et critique, suivie de l'essai d'un catalogue raisonné de son oeuvre gravé et lithographié</i> (1877), <i>Velazquez</i> (1887), <i>La peinture française actuelle</i> (1891), <i>Murillo et ses élèves, suivi du catalogue raisonné de ses principaux ouvrages</i> (1892), <i>La peinture espagnole</i> (1893)",
+      "author of": [
+        "<i>Histoire des peintres de toutes les écoles</i> (1861)", 
+        "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)",
+        "<i>Francisco Goya. Etude biographique et critique, suivie de l'essai d'un catalogue raisonné de son oeuvre gravé et lithographié</i> (1877)",
+        "<i>Velazquez</i> (1887)",
+        "<i>La peinture française actuelle</i> (1891)", 
+        "<i>Murillo et ses élèves, suivi du catalogue raisonné de ses principaux ouvrages</i> (1892)",
+        "<i>La peinture espagnole</i> (1893)"
+        ],
       "decorations/awards": "Encomienda de la Orden de Carlos III (1863); chevalier de la Légion d'honneur (1895)",
       "websites": "[BNE](https://datos.bne.es/persona/XX1340334.html)",
       "archives": "[Leonore, Archives nationales](https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/226114); [Archives nationales: missions artistiques (1840-1893)](https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText=Paul%20Adolphe%20LEFORT); Work as inspector of Algerian and Corsican museums[archives nationales](https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/consultation/ir/consultationIR.action?consIr=&frontIr=&optionFullText=&fullText=&defaultResultPerPage=&irId=FRAN_IR_027857&formCaller=GENERALISTE&gotoArchivesNums=false&auSeinIR=false&details=true&page=&udId=d_2_10_16)",
@@ -1327,7 +1339,8 @@
         "<i>Dictionnaire de phrénologie et de physiognomonie à l’usage des artistes</i> (1836)",
         "Salons: Salon de 1844, preceded by a letter to Théodore Rousseau (with an etching by Jacque); Salon de 1845, preceded by a letter to Béranger; Salon de 1847, preceded by a letter to  Firmin Barrion; Salon de 1848, preceded by a letter to George Sand. <i>Salons de T. Thoré avec une préface par W. Bürger</i> (1870)",
         "Art criticism, particularly on Dutch art (Vermeer, Rembrandt, and others)",
-        "Politics: <i>La Vérité sur le parti démocratique</i> (1840); <i>La Recherche de la liberté</i> (1845)"
+        "Politics: <i>La Vérité sur le parti démocratique</i> (1840); <i>La Recherche de la liberté</i> (1845)",
+        "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
         ],
       "writes in": "Before 1848: <i>le Siècle</i>, <i>l’Artiste</i>, <i>le Réformateur</i>, <i>le Journal du peuple</i>, <i>la Revue de Paris</i>, <i>le Constitutionnel</i>; <i>Gazette des Beaux-arts</i> (1866, on Vermeer: 'Van der Meer de Delft')",
       "writes about Goya": [
@@ -1765,15 +1778,41 @@
       "id": "Louis Viardot",
       "label": "Viardot",
       "life dates": "1800-1883", 
+      "born in": "Dijon",
       "nationality": "French",
-      "profession": "writer, Hispanist", 
-      "in Spain": "in 1823",
+      "profession": "writer, Hispanist, translator (of Spanish and Russian), politician", 
+      "works as": "lawyer (until 1821); writer and translator; Director of Théâtre des Italiens (1838)",
+      "in Spain": "in 1823-1824; 1834-35?; 1842 (to accompany his wife, an actress, in her tour)",
+      "trips": "1843-44 Vienna and Russia; from 1846 Germany; 1863-1870 Bade",
       "participates in": "the 'Expedition d'Espagne' or 'Cien Mil Hijos de San Luis' in 1823",
-      "author of": "<i>Lettres d'un espagnol</i> (1826); <i>Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne</i> (1835); longer essay on the Prado (<i>Les musées d’Espagne, d’Angleterre et de Belgique</i>) (1843); <i>Les musées d'Espagne</i> (1852)",
-      "visits the Prado Museum": "in 1834 (mentions Goya in his account): 1835 publication",
-      "mentions of Goya": "according to Pierre Géal (Viardot's profile, Prado): 'His opinion of Goya remains ambivalent, between praise for the strength and boldness of his brushstroke and reticence about the imperfections of the drawing'",
+      "married to": "Pauline García (1838)",
+      "children": "Louise Héritte-Viardot (composer); Paul Viardot (violinist)",
+      "studies in": "Faculté de Droit, Paris",
+      "author of": [
+        "After his trip to Spain (1823-24): <i>Laure d'Arezzo</i>; <i>Lettres d'un espagnol</i> (1826); translation of <i>La Monja Alférez</i>",
+        "<i>Essai sur l’histoire des Arabes et des Mores d’Espagne</i> (1833); <i>Scènes de mœurs arabes : Espagne, Xe siècle</i> (1834); <i>Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne</i> (1835)",
+        "Translations: <i>Histoire de la révolution et de la guerre d’Espagne>/i> by Toreno; Cervantes's <i>Don Quijote</i> (1836-37), illustrated by Tony Johannot (reedited in 1845; reedited with Gustave Doré's illustrations in 1869); Cervantes's <i>Novelas</i> (1838; 1858)",
+        "'Musée de Madrid', <i>Revue républicaine</i>, December 1834",
+        "<i>Notices sur les principaux peintres de l'Espagne, ouvrage servant de texte aux gravures de la Galerie Aguado</i>, Paris, Gavard (1839)",
+        "<i>Les musées d’Espagne, d’Angleterre et de Belgique</i>) (1843), with a longer comment on the Prado",
+        "<i>Les musées d'Espagne</i> (1852), within the series <i>Les Musées d'Europe: Guide et Memento de l'artiste et du voyageur</i> (5 volumes)",
+        "<i>Espagne et Beaux-Arts : mélanges</i>, 1866",
+        "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+        ],
+        "writes in": "journals <i>Le Globe</i> (from 1828), <i>Le National</i> (1830-1836), <i>Le Siècle</i> (1836); magazines <i>Revue des Deux Mondes</i> and <i>Revue de Paris</i>, <i>Revue Indépendante</i>",
+      "founder of": "<i>Revue Indépendante</i> with Pierre Leroux and George Sand (1841), a journal 'démocratique à tendance socialisante et républicaine'",
+      "visits the Prado Museum": "in 1834 (mentions Goya in his account); 1835",
+      "mentions of Goya": [
+        "According to Pierre Géal: 'His opinion of Goya remains ambivalent, between praise for the strength and boldness of his brushstroke and reticence about the imperfections of the drawing'",
+        "1834: 'Il y a […] un bon ouvrage du vieux Goya, mort depuis quelques années, et dont l’oeuvre fantasque est fort appréciée de nos romantiques; c’est le portrait équestre de Charles IV, que le peintre semble avoir monté plutôt sur un cochon que sur un cheval, mais qui offre de singulières beautés dans la tête et le buste. Goya, c’est toute la liste des peintres contemporains, le reste ne vaut pas l’honneur d’être nommé’ (‘Le Musée de Madrid’, <i>Revue Républicaine</i>, pp.303–47; p.307)",
+        "1835, May: mention of Goya in <i>Etudes sur l'histoire des institutions, de la littérature, du théâtre et des ­beaux-arts en Espagne</i>",
+        "1839: 'Après Mengs, il n’y eut plus que Francisco Goya, talent tout personnel, bizarre et fantasque, ne tenant rien du passé et ne pouvant rien donner à l’avenir’ (p.13). ‘Il ne prit de leçon que des morts, et fut à lui-même son maître unique. De cette éducation bizarre sortit un talent incorrect, sauvage, dépourvu de méthode et de style, mais plein de sève, d’audace et d’originalité' (p.306) 'Goya est le dernier héritier, mais à un degré très-distant, du grand Velazquez. C’est la même manière, plus lâche, plus fougueuse, plus déréglée. Ne s’abusant point sur la portée de son talent, Goya ne s’est jamais essayé dans les choses de haut style; ses compositions se bornent à des processions de village, à des chantres au lutrin, à des scènes de courses de taureaux, à des farces de polissons, enfin à des sortes de caricatures peintes' (p.307). '[The Caprichos] sont, comme la plupart de ses tableaux, des caricatures sur les usages, les moeurs, les personnages de son pays et de son temps. Il y en a de fort malignes, et qui s’attaquent, par des allusions assez claires, au gens de la cour de Charles IV, surtout à la reine Maria- Luisa et au favori Godoy. Ces caricatures sont de charmants caprices, rendus avec une vigueur peu commune, qui rappellent Hogarth par l’humour et Rembrandt par l’exécution’ (pp.307-8) (‘Goya’, in <i>Notices sur les principaux peintres de l’Espagne</i>, Paris, Paulin, pp.305–8)",
+        "1843 <i>Les Musées d’Espagne, d’Angleterre et de Belgique</i>, Paris, Paulin: Goya is mentioned on pp. 155–56, 167–69 and 178. 'ces Toros fantastiques de Goya, non moins que ses autres Caprices, nous rappellent Callot par l’imagination, Hogarth par l’humour, et Rembrandt par la vigueur d’exécution’ (pp.168-69)",
+        "1860 <i>Les Musées d'Espagne</i>: ‘Le Musée national n’a de lui qu’une seule peinture, une Loge au cirque des taureaux (un Palco en los toros)’ (p. 163). Wrong basic data such as Goya’s name and date of death: ‘Goya, mort en 1832’; ‘Antonio Goya’ (p. 163)"
+        ],
       "sales": "30 April 1884 (included an 'Inquisition scene', no.6)",
-      "writes in": "journals <i>Le Globe</i>, <i>Le National</i>, <i>Le Siècle</i>; magazines <i>Revue des Deux Mondes</i> and <i>Revue de Paris</i>. In 1841 he founds the <i>Revue Indépendante</i> with Pierre Leroux and George Sand",
+      "portrayed by": "Benjamin Roubaud, c.1837-39, caricature in <i>Panthéon charivarique</i>, no.11; Léon Viardot (his brother), Oct 1847, drawing, Musée de la vie romantique; Étienne Carjat, 1850, photograph",
+      "curiosities": "Viardot was a close friend of the composer Gioachino Rossini",
       "websites": "[Museo del Prado (Pierre Géal)](https://www.museodelprado.es/aprende/enciclopedia/voz/viardot-louis/a587ebc8-f89a-412f-8566-1d6c3abb76d6)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
     },
@@ -4641,6 +4680,55 @@
       "connection_level": "secondary",
       "relationship type": "Thoré knows Madrazo's work",
       "mentions": "Thoré mentions Madrazo in 1857 (<i>Trésors d'art exposés à Manchester</i>) and 1862, 18 July, in <i>Le Temps</i>. See Thoré'd node"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Charles Blanc",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Paul Lefort",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Louis Viardot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+    },
+    {
+      "from": "Charles Blanc",
+      "to": "Paul Lefort",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Louis Viardot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+    },
+    {
+      "from": "Louis Viardot",
+      "to": "Paul Lefort",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+    },
+    {
+      "from": "Charles Blanc",
+      "to": "Louis Viardot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
     },
     {
       "from": "Pedro Madrazo",
