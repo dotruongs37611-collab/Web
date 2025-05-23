@@ -1035,11 +1035,17 @@
       "label": "Vivant Denon",
       "life dates": "1747-1825",
       "nationality": "French",
-      "profession": "artist, writer, diplomat, collector",
-      "in Spain": "1808, acquiring artworks for the Musée Napoléon",
+      "profession": "artist, writer, diplomat, collector, politician, engraver, Egyptologist",
+      "works as": "Director of the National Museums (1802-1815), directeur général du muséum central des arts (future Louvre) and administrateur des arts",
+      "author of": "<i>Sketches of Voltaire at Age 81</i>, 1775, Metropolitan Museum 49.125.3; illustrations for Alexandre de Laborde's <i>Voyage pittoresque et historique en Espagne</i> (1806-1820)",
+      "in Spain": "1808, acquiring artworks for the Musée Napoléon. He contributes to the looting during those years",
       "knows Goya's works": "by 1809", 
+      "member of": "Académie des sciences de Turin (1813); Académie des beaux-arts; Académie bavaroise des sciences; Académie royale néerlandaise des arts et des sciences; Académie royale de peinture et de sculpture; Académie du dessin de Florence",
       "collector of Goya's works": "<i>Caprichos</i> (1809 in France; 1827 at the BNF)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg"
+      "portrayed by": "Augustin de Sain-Aubin, 1768; Robert Lefèvre, 1809, Louvre; Joseph Charles Marin, Salon 1827, sculpture (bust)"
+      "decorations/awards": "Officier de la Légion d'honneur",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vivant_Denon.jpg",
+      "image source": "Lefèvre portrait 1809"
     },
     {
       "id": "Eugène Piot",
@@ -4567,7 +4573,7 @@
       "relationship type": "employer-employee. Pintor de Cámara"
     },
     {
-      "from": "Rosario Weiss",
+      "from": "Rosario Weiss Zorrilla",
       "to": "Isabel II",
       "connection_level": "direct",
       "relationship type": "employer-employee"
