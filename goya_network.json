@@ -1643,13 +1643,28 @@
       "image source": "Goya portrait, 1814, Prado"
     },
     {
+      "id": "Isabel II",
+      "label": "Isabel II",
+      "full name": "María Isabel Luisa de Borbón y Borbón-Dos Sicilias",
+      "life dates": "1830-1904", 
+      "born in": "Madrid, Royal Palace",
+      "parents": "Fernando VII and Queen María Cristina",
+      "nationality": "Spanish",
+      "married to": "Francisco de Asís, Duke of Cádiz (1846)",
+      "children": "out of 12 pregnancies, 5 children survived: Infanta María Isabel, Alfonso XII, Infanta María del Pilar, Infanta María de la Paz, Infanta María Eulalia. Some of the children were allegedly born from extramarital relationships",
+      "portrayed by": "Carlos Luis de Ribera, <i>La reina niña Isabel II de España</i>, 1835, Museo del Romanticismo; Antonio María Esquivel, 1843, Museo de Bellas Artes de Sevilla; José Castelaro y Perea, 1844, <i>Isabel II jurando la Constitución de 1837</i>; Federico Madrazo, 1844, RABASF; Jean Laurent, c.1860, photograph; L. Mouton, c.1868, photograph; Francisco Ortego, '¡A Francia!', caricature in <i>Gil Blas</i>, 4 Oct 1868; anonymous, c.1870, photograph (in exile in Paris); 1875, photograph (Queen Doña Isabel II of Spain with her three youngest daughters: Pilar, Paz and Eulalia); portrait of Isabel II and the King consort, photograph, before 1902",
+      "curiosities": "an anonymous album of 107 drawings, <i>Los Borbones en pelota</i>, appeared showing sexually explicit images of the Queen with different men. Possible authors are the brothers Gustavo Adolfo and Valeriano Bécquer, or the draughtsman Francisco Ortego. It was in an unknown location until 1986 and is now held at the BNE. It was not officially published until 1991",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Isabel_II.jpg",
+      "image source": "Jean Laurent, photograph, c.1860"
+    },
+    {
       "id": "Joseph Bonaparte",
       "label": "J. Bonaparte",
       "full name": "Joseph Nabulion Bonaparte",
       "life dates": "1784-1833", 
       "born in": "Corte, Corsica",
       "nationality": "French",
-      "rivals": "Manuel Godoy; Carlos IV; Fernando VII; X Duke of Osuna; Duke of Wellington",
+      "rivals": "Manuel Godoy; Carlos IV; ; X Duke of Osuna; Duke of Wellington",
       "founder of": "Museo Josefino, which would later become the Prado Museo", 
       "art collection": "he looted a great number of artworks from the Spanish royal collections, including paintings by Velázquez, Ribera, Correggio and Titian. When the French army started to lose the war, he fled towards France with several wagons carrying the looted artworks. During the Battle of Vitoria (1813), he abandoned all his luggage and fled to France. The vast collection, known as the 'Vitoria Paintings' or 'Equipaje del Rey José', abandoned by Joseph, was then taken by the Duke of Wellington to London, and eventually would form his own collection. The public side of this collection can be seen at the Wellington Museum at Apsley House, London",
       "married to": "Julia Clary",
@@ -1719,7 +1734,7 @@
       "aristocratic titles": "Marchioness of Villafranca, Grandee of Spain (Grande de España)",
       "portrayed by": "Goya, 1804, Prado: as a painter, in the act of portraying her husband; José Alonso del Rivero, c.1805",
       "member of": "RABASF: miembro de honor (1805)",
-      "founder of": "Sociedad Patriótica de Señoras de Fernando VII (Cádiz, 1811)",
+      "founder of": "Sociedad Patriótica de Señoras de  (Cádiz, 1811)",
       "decorations/awards": "Orden de las Damas Nobles de la Reina María Luisa (1830)",
       "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
       "children": "6 children: Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)", 
@@ -4415,7 +4430,7 @@
     },
     {
       "from": "Carlos III",
-      "to": "Fernando VII",
+      "to": "",
       "connection_level": "direct",
       "relationship type": "relatives; grandfather-grandson"
     },
@@ -4507,6 +4522,55 @@
       "to": "XII Countess-Duchess of Benavente and Duchess of Osuna",
       "connection_level": "direct",
       "relationship type": "acquaintances; rivals"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
+    },
+    {
+      "from": "Carlos IV",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandfather-granddaughter"
+    },
+    {
+      "from": "María Luisa de Parma",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandmother-granddaughter"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "relatives; great-grandfather, great-granddaughter"
+    },
+    {
+      "from": "Eugénie de Montijo",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. Pintor de Cámara",
+      "portraits": "1844, RABASF; 1848, Prado; 1849, Museo del Romanticismo; c.1850, Banco de España; 1852, <i>Isabel II con la infanta Isabel</i>, Cuartel General del Ejército, Palacio de Buenavista, Madrid; 1862, UCM"
+    },
+    {
+      "from": "Vicente López",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. Pintor de Cámara"
+    },
+    {
+      "from": "Rosario Weiss",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
     },
     {
       "from": "Fernando VII",
