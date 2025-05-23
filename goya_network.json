@@ -710,7 +710,7 @@
       "mentions of Goya": [
         "1831-IX-8 <i>Albertus</i>",
         "1832-VIII-5, Onophrius Wphly, <i>La France littéraire</i>, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (<i>Capricho</i> 43)",
-        "1834 preface of Mlle Maupin.",
+        "1834 preface of <i>Mademoiselle de Maupin</i>: 'Quant au genre monstre, vous savez comme ils l’ont traité (...) Ni les grands traits à la Michel-Ange, ni les curiosités dignes de Callot, ni les effets d’ombre et de clair à la façon de Goya, rien n’a pu trouver grâce devant eux' (pp.34-35)",
         "1838-VII-5, Les Caprices de Goya; (<i>La Presse</i>): mentions Goya's Album B of drawings?",
         "1842 ‘Franco Goya y Lucientes’, <i>Le Cabinet de l’Amateur</i>, 337–45 (with Valentín Carderera's help [Lanzarote Guiral 2016, p.550]).", 
         "1845 mentions <i>Disasters of War</i> (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (Fayos Pérez 2024).",
@@ -1307,11 +1307,40 @@
     {
       "id": "Théophile Thoré",
       "label": "Thoré",
+      "full name": "Étienne-Joseph-Théophile Thoré",
       "life dates": "1807-1869", 
       "nationality": "French",
-      "profession": "art critic, journalist", 
-      "pseudonyms": "William Bürger",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg"
+      "profession": "art critic (from 1832), journalist, art historian, writer, journalist, art collector", 
+      "friends": "Eugène Delacroix, Ary Scheffer, Alexandre Decamps, Narcisse Virgilio Diaz, David d'Angers, Théodore Rousseau, Paul Lacroix, Paul Mantz",
+      "founder of": "the journal <i>La Vraie République</i> (26 March 1848), with collaborators such as George Sand, Pierre Leroux and Armand Barbès; it was banned by Cavaignac (13 June 1848); <i>Journal de la vraie république</i> (9 March 1849)",
+      "sales": "5 December 1892, Hôtel Drouot (L.51162): introduction by Paul Mantz",
+      "partners/lovers": "Apolline Lacroix, spouse of Paul Lacroix, curator at the Bibliothèque de l'Arsenal; she would inherit his art collection",
+      "studies in": "Prytanée national militaire de La Flèche",
+      "author of": [
+        "<i>Dictionnaire de phrénologie et de physiognomonie à l’usage des artistes</i> (1836)",
+        "Salons: Salon de 1844, preceded by a letter to Théodore Rousseau (with an etching by Jacque); Salon de 1845, preceded by a letter to Béranger; Salon de 1847, preceded by a letter to  Firmin Barrion; Salon de 1848, preceded by a letter to George Sand. <i>Salons de T. Thoré avec une préface par W. Bürger</i> (1870)"
+        "Art criticism, particularly on Dutch art (Vermeer, Rembrandt, and others)",
+        "Politics: <i>La Vérité sur le parti démocratique</i> (1840); <i>La Recherche de la liberté</i> (1845)"
+        ],
+      "writes in": "Before 1848: <i>le Siècle</i>, <i>l’Artiste</i>, <i>le Réformateur</i>, <i>le Journal du peuple</i>, <i>la Revue de Paris</i>, <i>le Constitutionnel</i>; <i>Gazette des Beaux-arts</i> (1866, on Vermeer: 'Van der Meer de Delft')",
+      "writes about Goya": [
+        "1835: 'Un Nain de Felipe IV, eau-forte, par don Francisco Goya’ and ‘l’oeuvre comique du vieux Goya’ (p. 57); ‘Après Mengs, l’Espagne ne cite que le vieux Goya, mort en ces dernières années, Goya homme de verve et d’imagination, plus connu par ses études des maîtres et par ses eaux fortes hardies que par sa peinture' (p.64) (‘Études sur la peinture espagnole, Galerie du Maréchal Soult (II)’, <i>Revue de Paris</i>, XXI–XXII, pp.44–64",
+        "1838: ‘[…] composition très fantastique, comme l’<i>Enterrement</i> de Goya, cette fougueuse esquisse du musée espagnol' (p.278) (Salon de 1838. Troisième article’, <i>Revue de Paris</i>, 52, 267–279)",
+        "1842 (with Paul Lacroix): 'Francesco Goya. Il fut le Callot, le Hogarth de l’Espagne, et il fut aussi un peintre d’un rang fort distingué. […] L’étude de Rembrandt a surtout influé sur le style de la seconde manière de notre artiste' [...] Goya a laissé au moins autant de dessins que de tableaux; même verve, même originalité. Une collection précieuse, qu’au moment de sa mort il recommandait à son fils, c’est une suite de soixante-dix dessins représentant l’histoire de Saragosse pendant l’invasion de l’Empire [...] C’est un Rabelais le crayon à la main, mais un Rabelais espagnol, […] sa gaieté fait parfois frémir celui qui le comprend. Un dessin de Goya en dit plus sur l’Espagne d’il y a quarante ans, que tous les volumes des historiens et toutes les relations des touristes [...] Les Caprichos sont extrêmement rares en France; nous avons eu sous les yeux l’exemplaire de la Bibliothèque du Roi, et nous en recommandons l’étude à nos artistes' (‘Francesco Goya’, <i>Bulletin de l’Alliance des Arts</i>, 6, 94–96)",
+        "1846, 2-3 June: 'Aux [Théâtre des] Variétés, M. Roqueplan, qui a tant d’esprit, se propose aussi, dit-on, d’exhiber la série des caricatures de Daumier, à côté des fantaisies de Hogarth et de Goya’ (<i>Le Constitutionnel</i>, p.1)",
+        "1847, 15 April: ‘Ce chien là ressemble à un fier mendiant espagnol, peint par Velasquez ou par Goya’ (‘Feuilleton: Salon de 1847’, <i>Le Constitutionnel</i>, p.1–2)",
+        "1847, 12 December: 'Au xviiie siècle, l’Espagne ne compte plus qu’un seul vrai peintre, Goya, le caricaturiste, que l’Italie sans doute ne réclamera point’. Before this passage, Thoré makes a summary of the best known Old Master Spanish artists, including Morales, Zurbarán, Velázquez, Murillo and Ribera, quoting Ceán Bermúdez’s <i>Diccionario histórico</i> (‘Beaux-Arts. Abolition de l’école française a Rome’, <i>Le Constitutionnel</i>, p.3)",
+        "1857: 'Depuis eux, un seul homme en Espagne fut un véritable artiste: c’est Goya. On voit de lui à Manchester quatre pochades d’enfants, non cataloguées* et égarées dans la Clock Gallery, ce refugium peccatorum. Goya vécut bien vieux, et, de la France où il mourut, il put voir les Aparicio, les Madrazo et bien d’autres livrer au triste style de Louis David – sa patrie, la patrie de Velasquez! *Le nouveau tirage du catalogue les enregistre au nom de Goya: quatre esquisses d’Enfants qui jouent' (<i>Trésors d’art exposés à Manchester en 1857 [...]</i>, Paris, Renouard)",
+        "1862, 18 July: ‘Et quel nom de peintre espagnol a passé les Pyrénées, depuis Goya? [Federico] Madrazo, peut-être, le nom se rattachant au Musée de Madrid’ (‘Beaux-Arts’, <i>Le Temps</i>, p.3)",
+        "1862, 9 August: 'En France, on placerait volontiers Hogarth en pendant de Goya. Ce n’est pas juste. Goya est un véritable artiste, tout spontané, jetant, de verve, sa caricature légère, très expressive, une fois même l’improvisant sur un mur, du bout de son doigt trempé dans la bourbe d’un ruisseau' (‘Beaux-Arts: Exposition internationale de 1862 à Londres (III)’, <i>Le Temps</i>, pp.2–3)"
+        ],
+      "political views": "participated in the Revolution of 1830. Disappointed at Louis-Philippe's government; he promotes the 1848 Revolution; he runs for the Assemblée constituante in 1848, against Louis Bonaparte (future Napoleon III); on 15 May 1849, he encourages the popular movement to take the Assemblée and Hôtel de Ville, which leads to Thoré being condemned to death and he flees into exile in Brussels (where he takes the pseudonym William Bürger). In exile 1849-1860 (amnesty)",
+      "mentions": "Émile de Girardin stated: 'Je ne connais guère en France que deux hommes qui soient restés incorruptibles : Proudhon et Thoré'",
+      "pseudonyms": "William Bürger; Jacques Van Damme",
+      "bibliography": "Fayos Pérez 2024, Appendix II; Magali Charreire, 'Vermeer à l’Arsenal : la bibliothèque-musée de Paul Lacroix', <i>Littératures</i>, vol. 75,‎ 2016, p. 45–56; Frances Suzman Jowell, 'Thoré-Bürger's Art Collection: "A Rather Unusual Gallery of Bric-à-Brac', <i>Simiolus: Netherlands Quarterly for the History of Art</i>, vol. 30, nos 1/2,‎ 2003, pp.54–119",
+      "portrayed by": "Nadar, 1865, caricature; Nadar, 1865, photograph; Léopold Flameng, 1870, lithography",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg",
+      "image source": "Nadar, 1865, photograph"
     },
     {
       "id": "Stendhal (Henri Beyle)",
@@ -3450,6 +3479,14 @@
       "mentions": "Manet's <i>L'Homme mort</i> (1864-65, Washington, National Gallery of Art) is badly criticised by Théophile Thoré"
     },
     {
+      "from": "Théophile Thoré",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "friends?, correspondents",
+      "correspondence": "May? 1864, Baudelaire to Thoré: 'M. Manet, que l’on croit fou et enragé, est simplement un homme très loyal, très simple, faisant tout ce qu’il peut pour être raisonnable, mais malheureusement marqué de romantisme depuis sa naissance. Le mot pastiche n’est pas juste. M. Manet n’a jamais vu de Goya; M. Manet n’a jamais vu de Gréco; M. Manet n’a jamais vu la galerie Pourtalès. Cela vous paraît incroyable, mais cela est vrai. Moi-même, j’ai admiré, avec stupéfaction, ces mystérieuses coïncidences. […] On lui a tant parlé de ses pastiches de Goya que, maintenant, il cherche à voir des Goya. Il est vrai qu’il a vu des Velasquez, je ne sais où' (see Baudelaire 1906, pp.361-62; Fayos Pérez 2024)",
+      "bibliography": "Fayos Pérez 2024, Appendix II; Baudelaire 1906"
+    },
+    {
       "from": "Théophile Gautier",
       "to": "Édouard Manet",
       "connection_level": "direct",
@@ -4571,6 +4608,20 @@
       "to": "Achille Ricourt",
       "connection_level": "direct",
       "relationship type": "professional contact"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "George Sand",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "mentions": "Thoré's Salon de 1848 is preceded by a letter to George Sand"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Federico Madrazo",
+      "connection_level": "secondary; direct?",
+      "relationship type": "Thoré knows Madrazo's work",
+      "mentions": "Thoré mentions Madrazo in 1857 (<i>Trésors d'art exposés à Manchester</i>) and 1862, 18 July, in <i>Le Temps</i>. See Thoré'd node"
     },
     {
       "from": "Pedro Madrazo",
