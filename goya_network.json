@@ -830,7 +830,7 @@
       "nationality": "French",
       "profession": "femme de lettres, translator", 
       "knows Goya's works": "by April 1831, through Fontaney (after his return from Spain in Jan 1831)",
-      "writes about Goya": "In April 1831: signed as 'Ad. M' (Revue encyclopédique no.50, pp.316-331)",
+      "writes about Goya": "In April 1831: signed as 'Ad. M' (Revue encyclopédique no.50, pp.316-331). Parts of her essay are plagiarised by male writers such as Gustave Brunet (1855, <i>Revue Universelle des Arts</i>) and Théophile Thoré (10 Sept 1842)",
       "author of": "she co-authored with Louise Swanton Belloc a number of children's books (Buell Hale 1874, p.583-84)",
       "writes in": "<i>Revue encyclopédique</i>",
       "founder of": "<i>La Ruche</i>, journal d'études familière (with Louise Swanton Belloc), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
@@ -1085,10 +1085,17 @@
     {
       "id": "Gustave Brunet",
       "label": "Brunet",
+      "full name": "Pierre Gustave Brunet",
       "life dates": "1805-1896", 
       "nationality": "French",
       "profession": "bibliographer, historian, editor",
-      "writes about Goya": "1865 Étude sur Francisco Goya sa vie et ses travaux : notice biographique et artistique",
+      "writes in": "<i>Revue Universelle des Arts</i>",
+      "pseudonyms": "les frères Gébéodé (with Octave Delepierre)",
+      "author of": "<i>Fantaisies bibliographiques</i> (1864)",
+      "writes about Goya": [
+        "1855 Review of Charles Le Blanc’s <i>Manuel de l’amateur d’estampes</i> (Paris, P. Jannet), where Brunet laments the absence of Goya’s <i>Tauromaquia</i> (33 plates) and <i>Scènes d’invasion</i> (i.e. <i>Disasters of War</i>; 20 known plates). ‘Les Caprichos, ces étincelantes caricatures, en disent plus sur l’Espagne que tous les voyageurs; elles sont bien ce qu’aurait fait Rabelais s’il avait manié le crayon, un Rabelais espagnol bien entendu, sérieux et dont la plaisanterie fait frémir […]. On pourrait ajouter qu’à Paris ils se sont payés 150 et 130 francs, aux ventes Sampayo et Saint-Morys’ (p.385). In the footnote, Brunet mentions some key publications on the <i>Caprichos</i>: Gintrac’s lithography of ‘un des plus charmants caprices de Goya’ in <i>L’Artiste</i>, Gautier’s essays in <i>L’Artiste</i> (1845), the article in <i>Le Revue Encyclopédique</i> [1831, Adélaïde de Montgolfier], and Viardot’s <i>Musées d’Espagne</i> (‘Bulletin bibliographique’, <i>Revue Universelle des Arts</i>, vol.1, pp.384–86). Brunet here is plagiarising Adélaïde de Montgolfier (1831), whose article on Goya he quotes on the footnote but without mentioning her name or indicating that is was a quotation",
+        "1865 <i>Étude sur Francisco Goya sa vie et ses travaux : notice biographique et artistique</i>"
+        ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Brunet_AI.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
@@ -2779,6 +2786,18 @@
       "connection_level": "direct",
       "know each other since": "at least 1842",
       "shared": "correspondence. 1863-XI-5 (Carderera archive): mentions Goya's <i>Caprichos</i>, <i>Tauromaquia</i>, 'Scènes d'invasion' (<i>Disasters of War</i>) and 'Sueños o Proverbios' (<i>Disparates</i>) (Fayos Pérez 2020)"
+    },
+    {
+      "from": "Adélaïde de Montgolfier",
+      "to": "Gustave Brunet",
+      "connection_level": "secondary?",
+      "mentions": "Brunet plagiarised Montgolfier's 1831 article on Goya in 1855 (‘Bulletin bibliographique’, <i>Revue Universelle des Arts</i>, vol.1, pp.384–86)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Gustave Brunet",
+      "connection_level": "secondary?",
+      "mentions": "Brunet acknowledges Gautier's essay on Goya (<i>L’Artiste</i>, 1845) in his 1855 article (‘Bulletin bibliographique’, <i>Revue Universelle des Arts</i>, vol.1, pp.384–86)"
     },
     {
       "from": "Valentín Carderera",
@@ -4619,7 +4638,7 @@
     {
       "from": "Théophile Thoré",
       "to": "Federico Madrazo",
-      "connection_level": "secondary; direct?",
+      "connection_level": "secondary",
       "relationship type": "Thoré knows Madrazo's work",
       "mentions": "Thoré mentions Madrazo in 1857 (<i>Trésors d'art exposés à Manchester</i>) and 1862, 18 July, in <i>Le Temps</i>. See Thoré'd node"
     },
