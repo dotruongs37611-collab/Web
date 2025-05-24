@@ -218,16 +218,16 @@ document.addEventListener('DOMContentLoaded', async function () {
         solver: 'forceAtlas2Based',
         stabilization: {
           enabled: true,
-          iterations: 600,  // Increased stabilization
+          iterations: 550,  // Increased stabilization
           updateInterval: 25
         },
         forceAtlas2Based: {
-          gravitationalConstant: -160,  // Stronger repulsion
-          centralGravity: 0.01,
-          springLength: 110,  // Shorter ideal distance
+          gravitationalConstant: -140,  // Stronger repulsion
+          centralGravity: 0.015,
+          springLength: 95,  // Shorter ideal distance
           springConstant: 0.07,
-          avoidOverlap: 1.7,  // Increased overlap prevention
-          damping: 0.45
+          avoidOverlap: 1.6,  // Increased overlap prevention
+          damping: 0.5
         }
       },
       layout: {
