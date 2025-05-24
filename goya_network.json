@@ -293,6 +293,28 @@
       "image source": "Winterhalter portrait, 1854"
     },
     {
+      "id": "Rosa Bonheur",
+      "label": "Bonheur",
+      "full name": "Marie-Rosalie Bonheur",
+      "life dates": "1822-1899",
+      "born in": "Bordeaux",
+      "nationality": "French",
+      "participates in": "the Salon 1841, 1845, 1848, 1849, 1853, 1855. Between 1856 and 1867, she didn't exhibit at the Salon because all her production was sold beforehand. Exposition Universelle 1867 (10 paintings; médaille de 2e classe, because of which she decides not to exhibit at the Salon again). Exposition Universelle de Chicago 1893 (4 paintings)",
+      "profession": "painter, sculptor, draughtsman",
+      "in Paris": "from 1829",
+      "partners/lovers": "Nathalie Micas (painter); Anna Klumpke (painter)",
+      "author of": "<i>Bœufs et Taureaux, Race du Cantal</i> (Salon 1848: médaille de 1er classe d'or), <i>Labourage nivernais</i> (Salon 1849), <i>Le Marché aux chevaux</i> (Salon 1853), <i>La Fenaison en Auvergne</i> (Salon 1855), <i>La Foulaison du blé en Camargue</i> (1864-1899), <i>El Cid</i> (1879, Prado)",
+      "masters": "Raymond Bonheur", 
+      "works as": "Director of École nationale gratuite de dessin pour les jeunes filles (1849-1860)",
+      "political views": "influenced by Saint-simonisme",
+      "parents": "Oscar-Raymond Bonheur and Sophie Marquis",
+      "decorations/awards": "chevalier de la Légion d'honneur (1865); officière de la Légion d'honneur (1894)",
+      "portrayed by": "David d'Angers, 1856, medallion; Edouard Louis Dubufe, 1857, oil painting, Palace de Versailles; Charles-Michel Geoffroy, 1859, print; Eugène Disdéri, 1865, photograph; Anna Klumpke, 1898, oil painting, Metropolitan; c.1900, photograph, Musée Rosa Bonheur",
+      "curiosities": "Rosa's father, Raymond Bonheur, was a painter who met and befriended Goya and Moratín in Bordeaux",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Eugenia_Montijo.jpg",
+      "image source": "Winterhalter portrait, 1854"
+    },
+    {
       "id": "Marcello (Adèle d'Affry)",
       "label": "Marcello",
       "full name": "Adélaïde Nathalie Marie Hedwige Philippine d’Affry",
@@ -2606,6 +2628,28 @@
       "to": "Prosper Mérimée",
       "connection_level": "direct",
       "relationship type": "friends/acquaintances"
+    },
+    {
+      "from": "Eugénie de Montijo",
+      "to": "Rosa Bonheur",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; protegée",
+      "they met": "in 1864, Eugénie pays a surprise visit to Bonheur and invites her for lunch at Fontainebleau with Napoleon III (this visit is portrayed in a print by Auguste Victor Deroy: <i>L'impératrice Eugénie rendant visite à Rosa Bonheur</i>). The following year, 1865, Eugénie visits Bonheur again to name her Chevalier de la Légion d'honneur, making her the first female artist and the 9th woman to receive it. At this moment, Eugénie is said to have said: 'Enfin, vous voilà chevalier. Je suis tout heureuse d’être la marraine de la première femme artiste qui reçoive cette haute distinction. J’ai voulu que le dernier acte de ma régence fût consacré à montrer qu’à mes yeux le génie n’a pas de sexe",
+      "interactions": "Eugénie intervened for the award of the Légion d'honneur to painter Rosa Bonheur",
+      "websites": "Visite de l'impératrice Eugénie à l'artiste Rosa Bonheur decorée de la Légion d'honneur (1865), [Napoleon.org](https://www.napoleon.org/histoire-des-2-empires/articles/la-famille-imperiale-et-rosa-bonheur/)"
+    },
+    {
+      "from": "George Sand",
+      "to": "Rosa Bonheur",
+      "connection_level": "secondary",
+      "mentions": "Bonheur discovered through her father Sand's 'countryside novels ' (<i>romans champêtres</i>). Bonheur's <i>Le Labourage nivernais</i> (1849) is reference to Sand's novel <i>La Mare au diable</i> (Lebovici 2007)",
+      "bibliography": "Élisabeth Lebovici, <i>Femmes artistes, artistes femmes : Paris, de 1880 à nos jours</i>, 2007"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Rosa Bonheur",
+      "connection_level": "secondary",
+      "mentions": "Gautier says: 'Nous avons toujours professé une sincère estime pour le talent de mademoiselle Rosa Bonheur. Avec elle, il n'y a pas besoin de galanterie ; elle fait de l'art sérieusement, et on peut la traiter en homme. La peinture n'est pas pour elle une variété de broderie au petit point' (<i>Les beaux-Arts en Europe</i>, 1855, p.120)"
     },
     {
       "from": "Eugénie de Montijo",
