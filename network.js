@@ -128,13 +128,13 @@ document.addEventListener('DOMContentLoaded', async function () {
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -10
+          vadjust: -18  // Eleva más el texto
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false,
-        margin: -5
+        margin: -15      // Más espacio visual alrededor del nodo
       };
       config._imageUrl = node.image; // Guardamos temporalmente la URL
       nodesMap[node.id] = config;
