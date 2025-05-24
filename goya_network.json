@@ -1222,14 +1222,19 @@
       "in Spain": "c.1859-62",
       "works as": "inspector of government buildings (by 1856); reporter for Le Monde Illustré during the Spanish campaign in Morocco ('Guerra de África'); editor of Le Monde Illustré in 1862",
       "writes in": "<i>Le Monde Illustré</i>",
-      "writes about Goya": "Goya, sa vie, son œuvre (1867) (mentions Album A-B p.93)",
+      "writes about Goya": [
+        "Many mentions of Goya in <i>Le Monde Illustré</i>, <i>L'Art</i> and other journals, from 1860 to 1877",
+        "<i>Goya, sa vie, son œuvre</i> (1867): with 229 artworks. With illustrations by Tabar, Bocourt and Yriarte, including the <i>Maja</i>, <i>The devil's lamp</i> and <i>Saturn</i> (Black Paintings). It mentions, among other works, the <i>Caprichos</i>, the <i>Proverbes</i> (Disparates), and Album A-B (p.93). It mentions Count of Floridablanca, Count of Aranda, and Manuel Godoy (Prince de la Paix)",
+        "'Goya aquafortiste', <i>L'Art</i>, 1877, vol.2, pp.2-10, 33-40, 56-60, 78-93"
+        ],
       "knows Goya's works": "he focused particularly on the Disasters of War print series",
-      "collector of Goya's works": "Riña en el mesón del gallo (in his collection by 1867)",
+      "collector of Goya's works": "<i>Riña en el mesón del gallo</i>, 1777, [Prado P007801](https://www.museodelprado.es/coleccion/obra-de-arte/la-ria-en-el-meson-del-gallo/5c2ae04f-6ca7-4939-803a-505de186c5a6) (in his collection by 1867)",
       "author of": "<i>La société espagnole</i>, 1861",
       "studies in": "École des Beaux-Arts (architecture)",
       "pseudonyms": "Junior; Le Marquis de Villemer",
       "address": "Rue Cambon, Paris",
-      "curiosities": "he enlisted in the Spanish army to work as a war reporter and witnessed the 'African War' (1859-60)",
+      "curiosities": "he enlisted in the Spanish army to work as a war reporter and witnessed the African War (1859-60)",
+      "bibliography": "Fayos Pérez 2024, Appendix II",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Yriarte.jpg"
     },
     {
@@ -3050,6 +3055,34 @@
       "connection_level": "direct",
       "mentions": "Yriarte acknowledges Carderera, Zarco del Valle, Fco Zapater and Lefort ('nous ont aidé de leurs lumières et de leurs documents), 1867, Avant-propos",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Charles Yriarte",
+      "connection_level": "secondary",
+      "mentions": "Gautier writes a review of Yriarte's 1867 book on Goya: 'Goya, par Charles Yriarte', <i>Le Monde Illustré</i>, 27 April 1867, pp.261-62 (see Fayos Pérez 2024, Appendix II)",
+      "bibliography": "Fayos Pérez 2024"
+    },
+    {
+      "from": "Édouard Manet",
+      "to": "Charles Yriarte",
+      "connection_level": "secondary",
+      "mentions": "Manet partly discovers Goya thanks to Yriarte's book on Goya, published in April 1867, which had 50 prints after Goya, including <i>The 3rd of May 1808</i> and the <i>Majas at the balcony</i>",
+      "websites": "Prado, [Édouard Manet, by José Álvarez Lopera](https://www.museodelprado.es/aprende/enciclopedia/voz/manet-edouard/96436dba-ef0d-4f39-929a-4ea72d2fa16b?searchMeta=)"
+    },
+    {
+      "from": "Gustave Brunet",
+      "to": "Charles Yriarte",
+      "connection_level": "secondary",
+      "mentions": "Yriarte writes a review of Brunet's 1865 book on Goya. He is disappointed at the fact that Brunet only wrote about Goya's prints",
+      "bibliography": "Fayos Pérez 2024, Appendix II"
+    },
+    {
+      "from": "Édouard Manet",
+      "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "connection_level": "secondary",
+      "mentions": "Manet partly discovers Goya thanks to the Salamanca sale, which took place in June 1867",
+      "websites": "Prado, [Édouard Manet, by José Álvarez Lopera](https://www.museodelprado.es/aprende/enciclopedia/voz/manet-edouard/96436dba-ef0d-4f39-929a-4ea72d2fa16b?searchMeta=)"
     },
     {
       "from": "Valentín Carderera",
