@@ -1024,9 +1024,36 @@
       "label": "Burty",
       "life dates": "1830-1890", 
       "nationality": "French",
-      "profession": "art critic, collector",
-      "sales": "Burty I: [11] Oct 1862; Burty II: 27 March 1874 (lot 14: 2 black pencil drawings by Delacroix after Goya, 13 fr.); Burty III: 27 April 1876 (Sotheby's London; 56 lots of Goya (nos.444-465, 684-719): <i>Caprichos</i>, <i>Tauromaquia</i>, <i>Proverbios</i> (<i>Disparates</i>), <i>Disasters of War</i>, others; Burty IV (19-21 June 1878); Burty V (2-3 March 1891): lot 83 4 pen drawings by Delacroix after Goya; Burty VI (4-5 March 1891): Tauromaquia, Desastres, Proverbios, Agarrotado, drawing; Burty VII (16-20 March 1891)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg"
+      "profession": "art critic, art collector, artist, lithographer, draughtsman",
+      "works as": "art critic in different journals; art dealer and advisor for art dealers such as Frederick Keppel",
+      "parents": "father: Marin Burty, silk merchant",
+      "children": "Madeleine (who marries the porcelain maker Charles Edward Haviland",
+      "editor of": [
+        "Illustrated albums: <i>Sonnets et eaux-fortes</i> (1869), edited by Alphonse Lemerre, gathering 42 painters-engravers and 42 poets"; <i>L'Eau-forte en...</i> (1874-1881, ed. Alfred Cadart) [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8527609t); <i>Japonisme</i> (1883), a series of prints by Félix Buhot, from the Burty collection (Paris, Edmond Sagot); <i>L'Âge du romantisme</i>, illustrated album edited with Maurice Tourneux (Paris, Ed. Monnier, 1887-88)",
+        "Art criticism: <i>La Photographie au Palais des beaux-arts</i> (1859); <i>Catalogue de tableaux et dessins de l'école française, principalement du XVIIIe siècle, tirés de collections d'amateurs</i> (1860); <i>Chefs-d'oeuvre des arts industriels</i> (1866); <i>Notice des études peintes par M. Théodore Rousseau exposées au Cercle des arts</i> (1867); <i>Les émaux cloisonnés anciens et modernes</i> (1868); <i>Eaux-fortes de Jules de Goncourt : notice et catalogue</i> (1876); <i>Maîtres et petits maîtres</i> (1877)",
+        "The correspondence of Eugène Delacroix: 1st edition, 1878 [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k205063z); 2nd edition, revised and expanded, 1880"
+        ],
+      "writes in": "<i>Gazette des Beaux-arts</i> (since 1859); <i>Le Rappel</i> (in 1871 during the Paris Commune)",
+      "political views": "during the Paris Commune in 1871, he wrote in <i>Le Rappel</i> and supported Gustave Courbet's Fédération des artistes",
+      "portrayed by": "Étienne Carjat, 1873, photograph; Carolus-Duran, 1874, oil painting, Allen Memorial Art Museum (Ohio)",
+      "sales": [
+        "Burty I: [11] Oct 1862"
+        "Burty II: 27 March 1874 (lot 14: 2 black pencil drawings by Delacroix after Goya, 13 fr.)"
+        "Burty III: 27 April 1876 (Sotheby's London; 56 lots of Goya (nos.444-465, 684-719): <i>Caprichos</i>, <i>Tauromaquia</i>, <i>Proverbios</i> (<i>Disparates</i>), <i>Disasters of War</i>, and others"
+        "Burty IV (19-21 June 1878)"
+        "Burty V (2-3 March 1891): lot 83 4 pen drawings by Delacroix after Goya"
+        "Burty VI (4-5 March 1891): Tauromaquia, Desastres, Proverbios, Agarrotado, drawing"
+        "Burty VII (16-20 March 1891)"
+        ],
+      "curiosities": [
+        "Burty coined the term 'japonisme' in 1872",
+        "He was the grandfather of the photographer Paul Haviland and of the painter Frank Burty Haviland"
+        ],
+      "archives": "[INHA (archives 033)](https://calames.abes.fr/Pub/inha.aspx#details?id=FileId-2149)",
+      "bibliography": "P. Weisberg, <i>The Early Years of Philippe Burty: Art Critic, Amateur and Japoniste, 1855-1875</i>, 1967; P. Weisberg, <i>The Independent Critic: Philippe Burty and the Visual Arts of Mid-Nineteenth-Century France</i>, 1993",
+      "websites": "[INHA](https://agorha.inha.fr/detail/427)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg",
+      "image source": "Carolus-Duran 1874 photograph"
     },
     {
       "id": "Charles Blanc",
@@ -2933,6 +2960,25 @@
       "relationship type": "acquaintances"
     },
     {
+      "from": "Eugène Delacroix",
+      "to": "Philippe Burty",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends?",
+      "collaborations": [
+        "Delacroix asked Dauzats and Burty (alongside Andrieu, Dutilleux and Schwiter) to catalogue his drawings and albums (which included his copies after Goya's <i>Caprichos</i>)",
+        "Burty wrote the catalogue of his 1864 sale; he acquired several artworks from his sale (including drawings after Goya's <i>Caprichos</i>)",
+        "He edited Delacroix's correspondence in 1878 and 1880"
+        ],
+      "archives": "Papiers relatifs à Eugène Delacroix provenant peut-être de Philippe Burty, [INHA Archives 33/1/4 (1829-1877)](https://calames.abes.fr/Pub/inha.aspx#details?id=Calames-2016101416105892039)",
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Philippe Burty",
+      "connection_level": "direct",
+      "relationship type": "colleagues; acquaintances",
+      "collaborations": "Burty and Dauzats catalogued Delacroix's drawings and albums (alongside Andrieu, Dutilleux and Schwiter)"
+    },
+    {
       "from": "Valentín Carderera",
       "to": "Charles Blanc",
       "connection_level": "direct",
@@ -3370,7 +3416,8 @@
       "know each other since": "at least 1846",
       "correspondence": "1846, 12 Aug: Delacroix asks Dauzats for Goya's lithographies ('Goya ou la mort, cher ami') (Delacroix - Joubin 1936, p.275)",
       "mentions": "Delacroix's journal, 1856-X-10: 'Funeral procession of poor Chassériau. I saw Dauzats, Diaz, and the young Moreau. I quite like him'",
-      "curiosities": "Delacroix named Dauzats the executor of his will (Mainer and Enguita 1999, p.128)"
+      "curiosities": "Delacroix named Dauzats the executor of his will (Mainer and Enguita 1999, p.128)",
+      "collaborations": "Delacroix asked Dauzats and Burty to catalogue his drawings and albums (which included Delacroix's copies after Goya's <i>Caprichos</i>)"
     },
     {
       "from": "Adrien Dauzats",
