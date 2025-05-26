@@ -373,7 +373,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "born in", label: "Born in" },
           { type: "field", key: "considered as", label: "Considered as" },
           { type: "field", key: "political views", label: "Political views" },
-          { type: "field", key: "address", label: "Address" },
           { type: "field", key: "curiosities", label: "Curiosities" },
           { type: "field", key: "aristocratic titles", label: "Aristocratic titles" },
         
@@ -419,6 +418,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "sales", label: "Sales" },
 
           { type: "section", label: "Geographic Presence and Movement" },
+          { type: "field", key: "lives in", label: "Lives in" },
           { type: "field", key: "trips", label: "Trips" },
           { type: "field", key: "in Spain", label: "In Spain" },
           { type: "field", key: "in Madrid", label: "In Madrid" },
@@ -426,6 +426,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "in France", label: "In France" },
           { type: "field", key: "in Paris", label: "In Paris" },
           { type: "field", key: "in Italy", label: "In Italy" },
+          { type: "field", key: "address", label: "Address" },
         
           { type: "section", label: "Relationship to Goya and His Work" },
           { type: "field", key: "link to Goya's work", label: "Link to Goya's work" },
@@ -572,6 +573,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "rivalry", label: "Rivalry" },
           { key: "employment/patronage", label: "Employment/patronage" },
           { key: "commissions", label: "Commissions" },
+          { key: "influence", label: "Influence" },
           { key: "exchanges", label: "Exchanges" },
           { key: "patronage", label: "Patronage" },
           { key: "portraits", label: "Portraits" },
