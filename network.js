@@ -575,6 +575,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "commissions", label: "Commissions" },
           { key: "influence", label: "Influence" },
           { key: "exchanges", label: "Exchanges" },
+          { key: "collection", label: "Collection" },
           { key: "patronage", label: "Patronage" },
           { key: "portraits", label: "Portraits" },
           { key: "bibliography", label: "Bibliography" },
