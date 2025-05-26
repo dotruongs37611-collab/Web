@@ -117,12 +117,13 @@
       "in Rome": "1757-1765",
       "parents": "father: Mariano Maella",
       "studies in": "RABASF",
+      "political views": "considered as <i>afrancesado</i>",
       "masters": "Felipe de Castro; Anton Raphael Mengs",
-      "students": "Agustín Esteve; Zacarías González Velázquez; Pau Montaña; Joaquín Oliet Cruella; Valentín Carderera",
+      "students": "Agustín Esteve; Zacarías González Velázquez; Pau Montaña; Joaquín Oliet Cruella; Valentín Carderera; Vicente López",
       "member of": "RABASF",
-      "works for": "Carlos III; Carlos IV",
-      "works as": "Pintor de Cámara: Carlos III (1774) and Carlos IV; Director General de la RABASF (1795-1798). Works in the Palacio Real, La Granja de San Ildefonso, Palacio de El Pardo, Palacio de Escorial, Real Fábrica de Tapices",
-      "author of": "<i>El embarque</i>, 1784, Prado",
+      "works for": "Carlos III; Carlos IV; Joseph Bonaparte",
+      "works as": "Pintor de Cámara (Carlos III (1774). Primer Pintor de Cámara (Carlos IV). Director General de la RABASF (1795-1798). Works in the Palacio Real, La Granja de San Ildefonso, Palacio de El Pardo, Palacio de Escorial, Palacio Real de Aranjuez, Real Fábrica de Tapices",
+      "author of": "<i>Carlos III</i>, 1783, Banco de España; <i>El embarque</i>, 1784, Prado; serie de las cuatro estaciones, 180506, Prado",
       "portrayed by": "Self-portraits. c.1758-65, RABASF (ex-Valentín Carderera)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Maella.jpg",
       "image source": "self-portrait, c.1758-65, RABASF"
@@ -2232,13 +2233,33 @@
       "from": "Mariano Salvador Maella",
       "to": "Carlos III",
       "connection_level": "direct",
-      "relationship type": "patronage; employer-employee"
+      "relationship type": "patronage; employer-employee",
+      "portraits": "1783-84, Palacio Real"
     },
     {
       "from": "Mariano Salvador Maella",
       "to": "Carlos IV",
       "connection_level": "direct",
       "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Joseph Bonaparte",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee",
+      "collaborations": "Frédéric Quilliet started an inventory of the Spanish royal collections in 1810, a selection of which were to be gathered at the Museo Josefino, and others at the Musée Napoleón in Paris. Maella collaborated in two of these inventories: one signed on 25 October 1810, alongside Goya and Napoli (AGP, Gobierno Intruso, caja 29, exp.no.31) (see Antigüedad del Castillo-Olivares 1987, pp.298-301); and another one in November 1810, also with Goya and Napoli (AHN, Consejos, leg.17.787)"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "acquaintance; removed from his post"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Vicente López",
+      "connection_level": "direct",
+      "relationship type": "colleagues; master-student (Maella is replaced with López with the Restoration of Fernando VII)"
     },
     {
       "from": "Mariano Salvador Maella",
@@ -2262,7 +2283,9 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Mariano Salvador Maella",
       "connection_level": "direct",
-      "relationship type": "colleagues"
+      "relationship type": "colleagues",
+      "collaborations": "Frédéric Quilliet started an inventory of the Spanish royal collections in 1810, a selection of which were to be gathered at the Museo Josefino, and others at the Musée Napoleón in Paris. Maella collaborated in two of these inventories: one signed on 25 October 1810, alongside Goya and Napoli (AGP, Gobierno Intruso, caja 29, exp.no.31) (see Antigüedad del Castillo-Olivares 1987, pp.298-301); and another one in November 1810, also with Goya and Napoli (AHN, Consejos, leg.17.787)",
+      "bibliography": "Antigüedad del Castillo-Olivares 1987"
     },
     {
       "from": "Francisco de Goya y Lucientes",
