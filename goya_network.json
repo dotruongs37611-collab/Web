@@ -139,7 +139,7 @@
       "nationality": "Italian",
       "parents": "Domenico and Orsetta Tiepolo",
       "married to": "Maria Cecilia Guardi (1719): sister of the painter Francesco Guardi",
-      "children": "Giovanni Domenico (with whom he collaborates from 1740) and Lorenzo Tiepolo",
+      "children": "Giovanni Domenico (painter and engraver, with whom he collaborates from 1740) and Lorenzo Tiepolo (painter and engraver; author of <i>Pasiega y soldados</i>, 1773-74, and <i>La mielera</i>, c.1775, Galería de las Colecciones reales)",
       "masters": "Gregorio Lazzarini",
       "influenced by": "Titian, Tintoretto, Veronese; Salvator Rosa, Giovanni Benedetto Castiglione",
       "in Madrid": "from 1762",
@@ -150,7 +150,7 @@
         "Drawings: <i>Caricature of a short gentleman holding a muff</i>, c.1770, Christie's (27 Jan 2010, lot 118)"
         ],
       "lives in": "Venice (1726-50, 1753-70); Würzburg Residenz, Bavaria (1750-53); Madrid (1861-1770)", 
-      "portrayed by": "self-portrait, fresco, Wurzburg, 1750-53",
+      "portrayed by": "self-portrait, <i>Apotheosis Of The Prince Bishop</i> fresco, Wurzburg, 1750-53",
       "bibliography": "<i>Giambattista Tiepolo 1698–1770</i>, exhibition catalogue, Metropolitan, 1996",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Tiepolo.jpg",
       "image source": "self-portrait, 1750-53, Wurzburg"
@@ -168,15 +168,16 @@
       "nationality": "Italian",
       "parents": "Giambattista Tiepolo and Maria Cecilia Guardi",
       "collector of Goya's works": "he acquired a set of the <i>Caprichos</i> among other prints by Goya",
-      "sales": "Paris, 10-12 November 1845: Goya works lots 76-81 (1st-edition set of the <i>Caprichos</i>, <i>Blind guitarist on the horns of a bull</i>, plates after Velázquez (see Harris 1964, vol.I, p.13; Wilson Bareau 2016, p.38, note 22). The catalogue was distributed by the print dealer Pierre Defer, who was in contact with Carderera from 1841, with whom he 'talked about Goya' in 1855 (Lanzarote Guiral 2016, p.314)",
+      "sales": "Paris, 10-12 November 1845: Goya works lots 76-81, including a 1st-edition set of the <i>Caprichos</i>, <i>Blind guitarist on the horns of a bull</i> and plates after Velázquez (see Harris 1964, vol.I, p.13; Wilson Bareau 2016, p.38, note 22). The catalogue was distributed by the print dealer Pierre Defer, who was in contact with Carderera from 1841, with whom he 'talked about Goya' in 1855 (Lanzarote Guiral 2016, p.314)",
       "author of": [
-        "Paintings: <i>The Minuet</i>, 1756, MNAC; <i>The Tiepolo Family</i>, private collection (unfinished); <i>Patron Saints of thee Crotta Family</i>, 1750, Städel Museum; <i>Christ and the Woman Taken in Adultery</i>, 1752, LACMA; <i>The Charlatan (The Tooth-Puller)</i>, 1754-55, Louvre; <i>The Triumph of Pulcinella</i>, 1760-70, Statens Museum for Kunst (Copenhagen)<i>The Immaculate Conception with Saint Lawrence and Saint Francis of Padua</i>, 1770s, Strasbourg; <i>The swing of the polichinelles</i>, 1793, Ca'Rezzonico",
+        "Paintings: <i>The Minuet or Carnival Scene</i>, 1754-55, Louvre; <i>The Minuet</i>, 1756, MNAC; <i>The Tiepolo Family</i>, private collection (unfinished); <i>Patron Saints of thee Crotta Family</i>, 1750, Städel Museum; <i>Christ and the Woman Taken in Adultery</i>, 1752, LACMA; <i>The Charlatan (The Tooth-Puller)</i>, 1754-55, Louvre; <i>The Triumph of Pulcinella</i>, 1760-70, Statens Museum for Kunst (Copenhagen); <i>El mundo nuevo</i>, c.1765, Prado; <i>The Immaculate Conception with Saint Lawrence and Saint Francis of Padua</i>, 1770s, Strasbourg; <i>Pulcinella in love</i>, 1793, Ca' Rezzonico; <i>The swing of the polichinelles</i>, 1793, Ca' Rezzonico",
         "Prints: <i>Picturesque Scenes from the Flight into Egypt</i>, 1750, etchings"
         ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/GD_Tiepolo.jpg",
+      "portrayed by": "Giambattista Tiepolo-Giandomenico Tiepolo (self-portrait), <i>Apotheosis Of The Prince Bishop</i> fresco, Wurzburg, 1750-53",
       "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Wilson Bareau 2016; Harris 1964, vol.I", 
       "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/tiepolo-giandomenico/1c2f6bf5-ebe2-4cb8-b79e-d898b6941831)",
-      "image source": "..."
+      "image source": "self-portrait, 1750-53, Wurzburg"
     },
     {
       "id": "Federico Madrazo",
