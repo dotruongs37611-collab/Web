@@ -730,7 +730,10 @@
       "life dates": "1809-1875", 
       "nationality": "French",
       "profession": "engraver",
-      "collector of Goya's works": "<i>Tauromaquia<i/> (1859 sale); former attribution to Goya, <i>Portrait of a Young Man</i> (c.1820)[1993.1046](https://www.metmuseum.org/art/collection/search/334587) (another impression at the BM, ex-Burty)"",
+      "collector of Goya's works": [
+        "<i>Tauromaquia<i/> (1859 sale)",
+        "Former attribution to Goya, <i>Portrait of a Young Man</i> (c.1820)[1993.1046](https://www.metmuseum.org/art/collection/search/334587); there is another impression at the BM (ex-Burty)"
+        ],
       "sales": "1859-V-16 (Tauromaquia for 255 fr.)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villot.jpg"
     },
