@@ -1126,17 +1126,20 @@
       "life dates": "1830-1890", 
       "nationality": "French",
       "profession": "art critic, art collector, artist, lithographer, draughtsman",
-      "works as": "art critic in different journals; art dealer and advisor for art dealers such as Frederick Keppel",
-      "parents": "father: Marin Burty, silk merchant",
-      "children": "Madeleine (who marries the porcelain maker Charles Edward Haviland",
+      "works as": "art critic in different journals; inspector at the Académie des Beaux-Arts (1881); art dealer and advisor for art dealers such as Frederick Keppel",
+      "member of": "Société des aquafortistes (founded in 1862), directed by Alfred Cadart; Union centrale des beaux-arts appliqués à l’industrie",
+      "parents": "father: Marin Burty, silk merchant and owner of fashion business during the Restoration",
+      "masters": "Chabal Dussurgey, painter of flowers at the Gobelins manufactory",
+      "children": "Madeleine (who marries the porcelain maker Charles Edward Haviland)",
       "editor of": [
         "Illustrated albums: <i>Sonnets et eaux-fortes</i> (1869), edited by Alphonse Lemerre, gathering 42 painters-engravers and 42 poets; <i>L'Eau-forte en...</i> (1874-1881, ed. Alfred Cadart) [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8527609t); <i>Japonisme</i> (1883), a series of prints by Félix Buhot, from the Burty collection (Paris, Edmond Sagot); <i>L'Âge du romantisme</i>, illustrated album edited with Maurice Tourneux (Monnier, 1887)",
         "Art criticism: <i>La Photographie au Palais des beaux-arts</i> (1859); <i>Catalogue de tableaux et dessins de l'école française, principalement du XVIIIe siècle, tirés de collections d'amateurs</i> (1860); <i>Chefs-d'oeuvre des arts industriels</i> (1866); <i>Notice des études peintes par M. Théodore Rousseau exposées au Cercle des arts</i> (1867); <i>Les émaux cloisonnés anciens et modernes</i> (1868); <i>Eaux-fortes de Jules de Goncourt : notice et catalogue</i> (1876); <i>Maîtres et petits maîtres</i> (1877)",
         "The correspondence of Eugène Delacroix: 1st edition, 1878 [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k205063z); 2nd edition, revised and expanded, 1880"
         ],
+      "author of": "<i>Les Émaux cloisonnés anciens et modernes</i> (1868); <i>Maîtres et Petits Maîtres</i> (1872); <i>Grave Imprudence</i> (1880, novel)",
       "writes in": "<i>Gazette des Beaux-arts</i> (since 1859); <i>Le Rappel</i> (in 1871 during the Paris Commune)",
-      "political views": "during the Paris Commune in 1871, he wrote in <i>Le Rappel</i> and supported Gustave Courbet's Fédération des artistes",
-      "portrayed by": "Étienne Carjat, 1873, photograph; Carolus-Duran, 1874, oil painting, Allen Memorial Art Museum (Ohio)",
+      "political views": "'Dedicated Republican and networker'; 'herald of modernity and stimulated reflections on the renewal of the arts in France' (AGORHA). During the Paris Commune in 1871, he wrote in <i>Le Rappel</i> and supported Gustave Courbet's Fédération des artistes",
+      "portrayed by": "Étienne Carjat, 1873, photograph; Carolus-Duran, 1874, oil painting, Allen Memorial Art Museum (Ohio); Marcellin-Gilbert Desboutin, 1875, drawing, BNF, Dép. Estampes, FOL-EF-415 (I, 1)",
       "sales": [
         "Burty I: [11] Oct 1862",
         "Burty II: 27 March 1874 (lot 14: 2 black pencil drawings by Delacroix after Goya, 13 fr.)",
@@ -1146,15 +1149,51 @@
         "Burty VI (4-5 March 1891): Tauromaquia, Desastres, Proverbios, Agarrotado, drawing",
         "Burty VII (16-20 March 1891)"
         ],
+      "collection": "Charles Meryon, Goya, Théophile Chauvel, Michel Manzi, Félix Bracquemond, Eugène Delacroix, Decamps, Édouard Manet", 
+      "collector of Goya's works": "the Metropolitan Museum holds several prints by Goya that belonged to the Burty collection, such as 'Funereal Folly' (private printing c.1854) [31.79.2](https://www.metmuseum.org/art/collection/search/333961), 'Flying Folly' (private printing c.1854) [32.78.3](https://www.metmuseum.org/art/collection/search/333981), 'Dancing Giant' (private printing c.1854) [31.79.1](https://www.metmuseum.org/art/collection/search/397761), another 'Dancing Giant' (published 1854-63) [21.54.1](https://www.metmuseum.org/art/collection/search/333833), 'Folly of Fear' (published c.1848) [21.54.2](https://www.metmuseum.org/art/collection/search/333834) from <i>Disparates</i>; also <i>A Maja standing against a dark background with figures</i>, 1859 [23.37.6](https://www.metmuseum.org/art/collection/search/333866)"
       "curiosities": [
         "Burty coined the term 'japonisme' in 1872",
         "He was the grandfather of the photographer Paul Haviland and of the painter Frank Burty Haviland"
         ],
+      "decorations/awards": "medal of the Order of the Rising Sun (1884): a rare honor for a non-Japanese person (INHA)",
       "archives": "[INHA (archives 033)](https://calames.abes.fr/Pub/inha.aspx#details?id=FileId-2149)",
       "bibliography": "P. Weisberg, <i>The Early Years of Philippe Burty: Art Critic, Amateur and Japoniste, 1855-1875</i>, 1967; P. Weisberg, <i>The Independent Critic: Philippe Burty and the Visual Arts of Mid-Nineteenth-Century France</i>, 1993",
       "websites": "[INHA](https://agorha.inha.fr/detail/427)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Burty.jpg",
       "image source": "Carolus-Duran 1874 photograph"
+    },
+    {
+      "id": "Paul Mantz",
+      "label": "Mantz",
+      "life dates": "1821-1895", 
+      "nationality": "French",
+      "born in": "Bordeaux",
+      "profession": "art historian, art critic",
+      "parents": "Godefroy Mantz and Mathilde Vignes",
+      "married to": "Geneviève-Honorine Malwoz (1852)",
+      "children": "Marguerite-Mathilde Mantz (1853-1933)",
+      "studies in": "Paris: Law (1839)",
+      "influenced by": "Victor Hugo; Théophile Gautier",
+      "writes in": "<i>L'Artiste</i> (from 1844; chief editor 1849-52), <i>L'Événement</i> (founded by Victor Hugo; from 1848), <i>La Vraie République</i> (founded by Théophile Thoré; from 1848); <i>Gazette des Beaux-Arts</i> (founded by Charles Blanc; from 1859); <i>Le Temps</i> (from 1873); <i>La Revue française</i>",
+      "friends": "Théophile Thoré, Charles Blanc (and his brother Louis Blanc), Philippe de Chennevières. 'Il se lie ainsi à un groupe d'homme de lettres qui partagent les mêmes convictions et joueront un rôle capital dans sa carrière' (INHA)",
+      "writes about Goya": "'Francisco Goya', <i>Archives de l’art français</i>, I, 1851-1852, pp.319-320",
+      "author of": "<i>Les Peintres vivants</i> (1858), with Théophile Gautier and Arsène Houssaye; 'La Galerie Pourtalès' (1865); <i>L'Œuvre et la vie de Michel-Ange</i> (1876), directed by Charles Blanc; <i>Antoine Watteau</i>, 1892",
+      "works as": [
+        "Art critic: Salons from 1845. Supporter of the Romantic generation, specifically Eugène Delacroix and Théodore Rousseau. <i>Gazette des Beaux-Arts</i> (from 1859): Salons (1859, 1863, 1865, 1867, 1869, 1872), Expositions universelles in Paris (1867, 1878, 1889), biographies of living painters (such as Corot, Carpeaux, Courbet)"
+        "Civil servant at the Ministère de l'Intérieur",
+        "Directeur de l’administration des Beaux-Arts (1848-51)",
+        "Art historian (1859-1878)",
+        "Deputy Director of the Administration départamentale et communale (1880)",
+        "Directeur Général des Beaux-Arts (1881-82)"
+        ],
+      "founder of": "<i>Les Archives de l'art français</i> (1851)",
+      "member of": "Conseil supérieur des Beaux-Arts; Admissions committee of the Exposition Universelle 1878",
+      "websites": "[INHA, Frédéric Elsig](https://www.inha.fr/dictionnaire-critique-des-historiens-de-lart-actifs-en-france-de-la-revolution-a-la-premiere-guerre-mondiale/mantz-paul-inha/)",
+      "portrayed by": "Louise Abbéma, 1879, drypoint",
+      "decorations/awards": "Légion d'honneur (1881)",
+      "archives": "[INHA, Fonds Paul Mantz](https://calames.abes.fr/Pub/inha.aspx#details?id=FileId-3388)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mantz.jpg",
+      "image source": "portrait at Mantz's nechrological article, <i>Magasin pittoresque</i>, 31 Dec 1895, [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k349690/f107.item.r=Mantz)"
     },
     {
       "id": "Charles Blanc",
@@ -3245,6 +3284,72 @@
       "mentions": "Brunet acknowledges Gautier's essay on Goya (<i>L’Artiste</i>, 1845) in his 1855 article (‘Bulletin bibliographique’, <i>Revue Universelle des Arts</i>, vol.1, pp.384–86)"
     },
     {
+      "from": "Théophile Gautier",
+      "to": "Paul Mantz",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "they both participate in <i>Les Peintres vivants</i> (1858), alongside Arsène Houssaye",
+      "influence": "In his early years, Mantz was inspired by Gautier's writings"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Paul Mantz",
+      "connection_level": "secondary?",
+      "relationship type": "colleagues; acquaintances",
+      "influence": "In his early years, Mantz was inspired by Hugo's writings",
+      "collaborations": "Mantz wrote in Hugo's journal <i>L'Événement</i> from 1848"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Paul Mantz",
+      "connection_level": "secondary?",
+      "influence": "Mantz was a supporter of Delacroix's work in his journal articles and essays. Mantz organised an exhibition on Delacroix in 1885"
+    },
+    {
+      "from": "Philippe Burty",
+      "to": "Paul Mantz",
+      "connection_level": "direct"
+      "relationship type": "colleagues; friends",
+      "collaborations": "they both participated in Charles Blanc's <i>La Gazette des Beaux-Arts</i> from its foundation in 1859",
+      "mentions": "Mantz said about Burty that he 'always retained an invincible passion for painting and, generally speaking, for art expressed in all modes and in all languages' (AGORHA)",
+      "websites": "[AGHORA](https://agorha.inha.fr/detail/427)"
+    },
+    {
+      "from": "Théophile Thoré",
+      "to": "Paul Mantz",
+      "connection_level": "direct",
+      "relationship type": "friends; colleagues",
+      "collaborations": [
+        "Mantz wrote in Thoré's journal <i>La Vraie République</i> from 1848",
+        "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt"
+        ],
+    },
+    {
+      "from": "Louis Viardot",
+      "to": "Paul Mantz",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt"
+    },
+    {
+      "from": "Paul Lefort",
+      "to": "Paul Mantz",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt"
+    },
+    {
+      "from": "Charles Blanc",
+      "to": "Paul Mantz",
+      "connection_level": "direct",
+      "relationship type": "friends; colleagues",
+      "collaborations": [
+        "From its foundation in 1859 (by Charles Blanc), Mantz participates in the <i>Gazette des Beaux-Arts</i>",
+        "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt",
+        "Mantz wrote <i>L'Œuvre et la vie de Michel-Ange</i> (1876), directed by Blanc"
+        ],
+    },
+    {
       "from": "Valentín Carderera",
       "to": "Paul Lefort",
       "connection_level": "direct",
@@ -4657,7 +4762,9 @@
       "from": "Philippe Burty",
       "to": "Charles Blanc",
       "connection_level": "direct",
-      "relationship type": "colleagues"
+      "relationship type": "colleagues; friends",
+      "collaborations": "Burty participated in Blanc's <i>Gazette des Beaux-Arts</i> since its foundation in 1859. Blanc entrusted him with reports on the sales at Hôtel Drouot in the supplement <i>Chroniques des arts et de la curiosité</i>",
+      "websites": "[AGHORA](https://agorha.inha.fr/detail/427)"
     },
     {
       "from": "Nicolas Philippe Guye",
@@ -5188,14 +5295,14 @@
       "to": "Charles Blanc",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
     },
     {
       "from": "Théophile Thoré",
       "to": "Paul Lefort",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
+      "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)"
     },
     {
       "from": "Théophile Thoré",
