@@ -2242,12 +2242,6 @@
     },
     {
       "from": "Mariano Salvador Maella",
-      "to": "Carlos III",
-      "connection_level": "direct",
-      "relationship type": "patronage; employer-employee"
-    },
-    {
-      "from": "Mariano Salvador Maella",
       "to": "Francisco Bayeu",
       "connection_level": "direct",
       "relationship type": "colleagues; rivals"
