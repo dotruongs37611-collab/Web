@@ -2226,14 +2226,21 @@
       "to": "Anton Raphael Mengs",
       "connection_level": "direct",
       "relationship type": "patronage; employer-employee",
-      "portraits": "
+      "portraits": "1767, Prado"
     },
     {
       "from": "Carlos IV",
       "to": "Anton Raphael Mengs",
       "connection_level": "direct",
       "relationship type": "patronage; employer-employee",
-      "portraits": "
+      "portraits": "c.1765, Prado"
+    },
+    {
+      "from": "María Luisa de Parma",
+      "to": "Anton Raphael Mengs",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee",
+      "portraits": "c.1765, Prado"
     },
     {
       "from": "Josefa Bayeu",
@@ -4604,6 +4611,18 @@
     },
     {
       "from": "Carlos III",
+      "to": "Bernardo de Iriarte",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Carlos IV",
+      "to": "Bernardo de Iriarte",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Joseph Bonaparte",
       "to": "Bernardo de Iriarte",
       "connection_level": "direct",
       "relationship type": "employer-employee"
