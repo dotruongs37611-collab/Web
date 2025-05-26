@@ -92,6 +92,7 @@
       "children": "Anna Maria Mengs",
       "masters": "Johann Joachim Winckelmann (from 1755); Ismael Mengs; Marco Benefial (Rome)",
       "member of": "Academia de San Lucas, Rome (1752)",
+      "students": "Mariano Salvador Maella",
       "in Rome": "1741-1744, 1746-1749",
       "in Madrid": "1761-1769, 1774-1777",
       "works for": "Carlos III of Spain; Augustus III of Poland",
@@ -100,11 +101,31 @@
         "Artworks: <i>Fernando IV, rey de Nápoles</i>, 1760, Prado; <i>Jupiter Kissing Ganymede</i>, 1760, Galleria Nazionale d'Arte Antica; <i>Carlos IV, príncipe de ASturias</i>, c.1765, Prado; <i>María Luisa de Parma, princesa de Asturias</i>, c.1765, Prado; <i>Helios as Personification of Midday</i>, c.1765, Galería de las Colecciones Reales; <i>St John the Baptist Preaching in the Wilderness</i>, 1760s, Houston; <i>Portrait of Gabriel of Spain</i>, 1767, Prado; <i>Portrait of Carlos III</i>, 1767, Prado; <i>Our Lady of Sorrows</i>, 1765-69, Museo Camón Aznar; <i>Flagelación de Cristo</i>, 1769, Galería de las Colecciones Reales; <i>Retrato de la marquesa de Llano, doña Isabel de Parreño y Arce</i>, 1772, RABASF; <i>The Dream of St Joseph</i>, 1773-74, Kunsthistorisches Museum; <i>St Peter</i>, 1773-76, Kunsthistorisches Museum; <i>Retrato de José Nicolás de Azara</i>, 1774, Prado (2012); Portrait of Winckelmann, c.1777, Metropolitan", 
         "Essays: <i>Gedanken über die Schönheit und über den Geschmak in der Malerey</i>, Zurich, 1762"
         ],
-      "portrayed by": "Self-portraits: 1740 (drawing); 1774, Walker Art Gallery, Liverpool; 1744, oil painting, Gemäldegalerie Alte Meister, Dresden; c.1775, Uffizi; c.1775, Hermitage (copy?)",
+      "portrayed by": "Self-portraits: 1740 (drawing); 1774, Walker Art Gallery, Liverpool; 1744, oil painting, Gemäldegalerie Alte Meister, Dresden; c.1775, Uffizi; c.1775, Hermitage (copy of Uffizi portrait)",
       "decorations/awards": "Orden de la Espuela de Oro",
       "websites": "[Prado](https://www.museodelprado.es/coleccion/artista/mengs-antonio-rafael/bcd5ee4e-bcc3-472b-a832-a4800279e0e0)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mengs.jpg",
-      "image source": "..."
+      "image source": "self-portrait, c.1775, Hermitage"
+    },
+    {
+      "id": "Mariano Salvador Maella",
+      "label": "Maella",
+      "life dates": "1739-1819",
+      "born in": "Valencia,
+      "profession": "painter",
+      "nationality": "Spanish",
+      "in Rome": "1757-1765",
+      "parents": "father: Mariano Maella",
+      "studies in": "RABASF",
+      "masters": "Felipe de Castro; Anton Raphael Mengs",
+      "students": "Agustín Esteve; Zacarías González Velázquez; Pau Montaña; Joaquín Oliet Cruella; Valentín Carderera",
+      "member of": "RABASF",
+      "works for": "Carlos III; Carlos IV",
+      "works as": "Pintor de Cámara: Carlos III (1774) and Carlos IV; Director General de la RABASF (1795-1798). Works in the Palacio Real, La Granja de San Ildefonso, Palacio de El Pardo, Palacio de Escorial, Real Fábrica de Tapices",
+      "author of": "<i>El embarque</i>, 1784, Prado",
+      "portrayed by": "Self-portraits. c.1758-65, RABASF (ex-Valentín Carderera)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Maella.jpg",
+      "image source": "self-portrait, c.1758-65, RABASF"
     },
     {
       "id": "Federico Madrazo",
@@ -2206,6 +2227,48 @@
       "to": "Francisco Bayeu",
       "connection_level": "direct",
       "relationship type": "relatives; brothers-in-law"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Carlos III",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Carlos III",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Francisco Bayeu",
+      "connection_level": "direct",
+      "relationship type": "colleagues; rivals"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Mariano Salvador Maella",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "Mariano Salvador Maella",
+      "to": "Agustín Esteve",
+      "connection_level": "direct",
+      "relationship type": "master-student"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Mariano Salvador Maella",
+      "connection_level": "direct",
+      "relationship type": "colleagues"
     },
     {
       "from": "Francisco de Goya y Lucientes",
