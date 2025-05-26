@@ -130,6 +130,55 @@
       "image source": "self-portrait, c.1758-65, RABASF"
     },
     {
+      "id": "Giambattista Tiepolo",
+      "label": "Tiepolo",
+      "full name": "Giovanni Battista Tiepolo",
+      "life dates": "1696-1770",
+      "born in": "Venice",
+      "profession": "painter, engraver",
+      "nationality": "Italian",
+      "parents": "Domenico and Orsetta Tiepolo",
+      "married to": "Maria Cecilia Guardi (1719): sister of the painter Francesco Guardi",
+      "children": "Giovanni Domenico (with whom he collaborates from 1740) and Lorenzo Tiepolo",
+      "masters": "Gregorio Lazzarini",
+      "influenced by": "Titian, Tintoretto, Veronese; Salvator Rosa, Giovanni Benedetto Castiglione",
+      "in Madrid": "from 1762",
+      "works for": "Carlos III: frescoes for the Palacio Real (ceiling of the Salón del Trono); a series of paintings for the altars of the Convento de San Pascual (Aranjuez)",
+      "author of": [
+        "Paintings and frescoes: <i>Sara y el arcángel</i>, 1726-28, Palacio Arzobispal de Udine; <i>The Banquet of Cleopatra</i>, 1743-44, National Gallery of Victoria, Melbourne; <i>Traslación de la Santa Casa de Loreto</i>, 1743-45, Galería de la Academia de Venecia; <i<Martirio de Santa Águeda</i>, 1750, Gemäldegalerie Berlin; <i>Allegory of the Planets and Continents</i>, 1752, Metropolitan; <i>Apollo Pursuing Daphne</i>, 1755-60, National Gallery of Art (Washington); frescoes at the Palacio Real, Madrid, 1762-66 (<i>Apotheosis of Spain</i>); <i>Wealth and Benefits of the Spanish Monarchy under Charles III</i>, 1762, National Gallery of Art; <The Immaculate Conception</i>, 1767-68, Prado",
+        "Prints: <i>Capricci</i> (c.1740-42): series of etchings first published by Anton Maria Zanetti, with subject matter related to the bizarre and the fantastical; e.g. <i>Woman and infant satyr in a landscape</i>, <i>Satyr Family (Pan and his Family)</i>. <i>Scherzi di Fantasia</i> (c.1743-57): mysterious Eastern figures, scenes of necromancy",
+        "Drawings: <i>Caricature of a short gentleman holding a muff</i>, c.1770, Christie's (27 Jan 2010, lot 118)"
+        ],
+      "lives in": "Venice (1726-50, 1753-70); Würzburg Residenz, Bavaria (1750-53); Madrid (1861-1770)", 
+      "portrayed by": "self-portrait, fresco, Wurzburg, 1750-53",
+      "bibliography": "<i>Giambattista Tiepolo 1698–1770</i>, exhibition catalogue, Metropolitan, 1996",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Tiepolo.jpg",
+      "image source": "self-portrait, 1750-53, Wurzburg"
+    },
+    {
+      "id": "Giandomenico Tiepolo",
+      "full name": "Giovanni Domenico Tiepolo",
+      "label": "G.D. Tiepolo",
+      "life dates": "1727-1804",
+      "nationality": "Italian",
+      "born in": "Venice",
+      "lives in": "Venice; Würzburg, Baviera (1751-53); Madrid (1762-70): assisted his father in the decoration of the Royal Palace",
+      "works for": "Carlos III",
+      "profession": "painter, engraver",
+      "nationality": "Italian",
+      "parents": "Giambattista Tiepolo and Maria Cecilia Guardi",
+      "collector of Goya's works": "he acquired a set of the <i>Caprichos</i> among other prints by Goya",
+      "sales": "Paris, 10-12 November 1845: Goya works lots 76-81 (1st-edition set of the <i>Caprichos</i>, <i>Blind guitarist on the horns of a bull</i>, plates after Velázquez (see Harris 1964, vol.I, p.13; Wilson Bareau 2016, p.38, note 22). The catalogue was distributed by the print dealer Pierre Defer, who was in contact with Carderera from 1841, with whom he 'talked about Goya' in 1855 (Lanzarote Guiral 2016, p.314)",
+      "author of": [
+        "Paintings: <i>The Minuet</i>, 1756, MNAC; <i>The Tiepolo Family</i>, private collection (unfinished); <i>Patron Saints of thee Crotta Family</i>, 1750, Städel Museum; <i>Christ and the Woman Taken in Adultery</i>, 1752, LACMA; <i>The Charlatan (The Tooth-Puller)</i>, 1754-55, Louvre; <i>The Triumph of Pulcinella</i>, 1760-70, Statens Museum for Kunst (Copenhagen)<i>The Immaculate Conception with Saint Lawrence and Saint Francis of Padua</i>, 1770s, Strasbourg; <i>The swing of the polichinelles</i>, 1793, Ca'Rezzonico",
+        "Prints: <i>Picturesque Scenes from the Flight into Egypt</i>, 1750, etchings"
+        ],
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/GD_Tiepolo.jpg",
+      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Wilson Bareau 2016; Harris 1964, vol.I", 
+      "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/tiepolo-giandomenico/1c2f6bf5-ebe2-4cb8-b79e-d898b6941831)",
+      "image source": "..."
+    },
+    {
       "id": "Federico Madrazo",
       "full name": "Federico de Madrazo y Kuntz",
       "label": "Federico Madrazo",
@@ -2295,6 +2344,50 @@
       "relationship type": "colleagues; employer-employee",
       "collaborations": "Mengs contributed to give Goya his first position at the court in Madrid",
       "influence": "Goya's <i> Crucifixion</i> (1780), for which he was accepted at the Real Academia, was greatly influenced by Mengs's Neoclassical model"
+    },
+    {
+      "from": "Giambattista Tiepolo",
+      "to": "Giandomenico Tiepolo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Giandomenico Tiepolo",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Giandomenico Tiepolo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; colleagues",
+      "exchanges": "Tiepolo acquired a set of the <i>Caprichos</i>, among other prints by Goya"
+    },
+    {
+      "from": "Giambattista Tiepolo",
+      "to": "Anton Raphael Mengs",
+      "connection_level": "direct",
+      "relationship type": "colleagues; rivals"
+    },
+    {
+      "from": "Giambattista Tiepolo",
+      "to": "Carlos III",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee"
+    },
+    {
+      "from": "Giambattista Tiepolo",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "colleagues; acquaintances",
+      "influence": "Goya was influenced by Tiepolo"
+    },
+    {
+      "from": "Giambattista Tiepolo",
+      "to": "Anton Raphael Mengs",
+      "connection_level": "direct",
+      "relationship type": "colleagues; rivals"
     },
     {
       "from": "Francisco Bayeu",
