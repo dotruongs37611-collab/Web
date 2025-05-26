@@ -114,7 +114,7 @@
       "born in": "Valencia",
       "profession": "painter",
       "nationality": "Spanish",
-      "in Rome": "1757-1765",
+      "in Rome": "1757-1765. He makes copies after Italian painters, e.g. <i>Salomé</i>, after Guido Reni, 1761 (RABASF)",
       "parents": "father: Mariano Maella",
       "studies in": "RABASF",
       "political views": "considered as <i>afrancesado</i>",
@@ -122,9 +122,10 @@
       "students": "Agustín Esteve; Zacarías González Velázquez; Pau Montaña; Joaquín Oliet Cruella; Valentín Carderera; Vicente López",
       "member of": "RABASF",
       "works for": "Carlos III; Carlos IV; Joseph Bonaparte",
-      "works as": "Pintor de Cámara (Carlos III (1774). Primer Pintor de Cámara (Carlos IV). Director General de la RABASF (1795-1798). Works in the Palacio Real, La Granja de San Ildefonso, Palacio de El Pardo, Palacio de Escorial, Palacio Real de Aranjuez, Real Fábrica de Tapices",
-      "author of": "<i>Carlos III</i>, 1783, Banco de España; <i>El embarque</i>, 1784, Prado; serie de las cuatro estaciones, 180506, Prado",
+      "works as": "Pintor de Cámara (Carlos III (1774). Primer Pintor de Cámara from 1799 (Carlos IV). Director General de la RABASF (1795-1798). Works in the Palacio Real, La Granja de San Ildefonso, Palacio de El Pardo, Palacio de Escorial, Palacio Real de Aranjuez, Real Fábrica de Tapices",
+      "author of": "<i>Agar e Ismael en el desierto</i>, 1763, RABASF; <i>Carlos III</i>, 1783, Banco de España; <i>El embarque</i>, 1784, Prado; <i>San Francisco de Borja ante el cadáver de la Emperatriz Isabel</i>, 1787, Valencia cathedral; serie de las cuatro estaciones, 1805-06, Prado",
       "portrayed by": "Self-portraits. c.1758-65, RABASF (ex-Valentín Carderera)",
+      "websites": "[Prado](https://www.museodelprado.es/coleccion/artista/maella-mariano-salvador/0fe872fc-65f0-47c5-9ffe-459e212ec007); [RABASF](https://www.academiacolecciones.com/pinturas/mostrar-autores.php?id=maella-mariano-salvador)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Maella.jpg",
       "image source": "self-portrait, c.1758-65, RABASF"
     },
@@ -2234,7 +2235,7 @@
       "to": "Carlos III",
       "connection_level": "direct",
       "relationship type": "patronage; employer-employee",
-      "portraits": "1783-84, Palacio Real"
+      "portraits": "1783, Banco de España; 1783-84, Palacio Real"
     },
     {
       "from": "Mariano Salvador Maella",
