@@ -3363,10 +3363,27 @@
       "bibliography": "Monneret 1987, p.74"
     },
     {
+      "from": "Eugène Delacroix",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; colleagues",
+      "copies": "Bracquemond made a print in 1872 after Delacroix's <i>Les Natchez</i> (1823-24 and 1835, Metropolitan)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; colleagues",
+      "portrait": "Bracquemond, <i>Théophile Gautier</i>, 1874, etching (presented at the 1st Exposition des peintres impressionnistes)",
+      "mentions": "in Bracquemond's first participation at the Salon, in 1852, Gautier compared his <i>Portrait de ma grand-mère</i> to Hans Holbein the Younger"
+    },
+    The Salon: 1852 with Portrait de ma grand-mère (compared to Hans Holbein the Younger 
+    {
       "from": "Charles Baudelaire",
       "to": "Félix Bracquemond",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "portrait": "Bracquemond, <i>Charles Baudelaire</i>, 1874, etching (presented at the 1st Exposition des peintres impressionnistes)"
     },
     {
       "from": "Philippe Burty",
