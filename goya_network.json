@@ -3268,7 +3268,9 @@
       "from": "Valentín Carderera",
       "to": "Philippe Burty",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "colleagues; friends",
+      "know each other since": "at least 1860",
+      "correspondence": "from at least 1860"
     },
     {
       "from": "Eugène Delacroix",
@@ -4537,7 +4539,8 @@
       "to": "Philippe Burty",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "linked to Goya's work": "By 1871: Gautier saw Burty's working proofs of <i>Disasters of War</i> (Fayos Pérez 2024, p.54; Gautier, 2 Feb 1871; Delesalle 1983, p.104)"
+      "link to Goya's work": "by 1871: Gautier saw Burty's working proofs of <i>Disasters of War</i> (Fayos Pérez 2024, p.54; Gautier, 2 Feb 1871; Delesalle 1983, p.104). Note by Charles Asselineau: 'Gautier has the pressing need to re-examine the Disasters of War (Goya’s invasion) whose copper plates were brought back by Dauzats' (Delesalle 1983, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle 1983"
     },
     {
       "from": "Théophile Gautier",
