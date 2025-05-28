@@ -206,6 +206,10 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
     
     const container = document.getElementById('network');
+    if (!container) {
+      console.error("❌ No se encontró el contenedor #network.");
+      return;
+}
     const network = new vis.Network(container, { nodes, edges }, {
       nodes: { 
         borderWidth: 2,
