@@ -481,7 +481,10 @@
       "correspondence": "[online repository](http://www.correspondance-delacroix.fr/)",
       "author of": "<i>La Barque de Dante</i> (1822, Louvre); <i>Scenes from the Massacre at Chios</i> (1824, Louvre); <i>Nature morte aux Homards</i> (1826-27, Louvre); <i>The Death of Sardanapalus</i> (1827, Louvre); <i>Liberty guiding the People</i> (1830, Louvre); <i>Les Femmes d'Alger</i> (1834, Louvre); <i>Médée</i> (1838, Lille); <i>Hamlet et Horatio au cimetière</i> (1839); décor de la bibliothèque de l'Assemblée national (Palais Bourbon) (1838-1847); décor de la bilbiothèque du Sénat (palais Luxembourg) (1840-1846); décor de la Galerie d'Apollon (Louvre) (1850-1851); <i>Le Christ sur le lac de Génésareth</i> (1854); décor de Saint-Sulpice (1850-1861)",
       "studies in": "École nationale supérieure des beaux-arts; Lycée Louis-le-Grand; Lycée Pierre-Corneille de Rouen",
-      "member of": "Société héliographique (from 1851): the first of its kind to be focused on photography",
+      "member of": [
+        "Société héliographique (from 1851): the first of its kind to be focused on photography",
+        "The Société Nationales de Beaux-Arts is founded by Théophile Gautier and Louis Martinet in 1862. The committee includes Eugène Delacroix, Carrier-Belleuse and Puvis de Chavannes. Among the exhibitors were Léon Bonnat, Jean-Baptiste Carpeaux, Charles-François Daubigny, Gustave Doré and Édouard Manet. Upon Delacroix's death, the SNBA organised a retrospective exhibition of his work (1864)"
+        ],
       "journal": "from 1822-1824, then 1847-1863",
       "in Spain": "in 1832: 'Tout Goya palpitait autour de moi'",
       "knows Goya's works": "by c.1819, through Ferdinand Guillemardet (Lipschutz 1972, p.10)",
@@ -843,6 +846,7 @@
       "full name": "Jules Pierre Théophile Gautier",
       "life dates": "1811-1872",
       "nationality": "French",
+      "founder of": "SNBA (Société Nationales de Beaux-Arts) with Louis Martinet in 1862. The committee included Eugène Delacroix, Carrier-Belleuse and Puvis de Chavannes. Among the exhibitors were Léon Bonnat, Jean-Baptiste Carpeaux, Charles-François Daubigny, Gustave Doré and Édouard Manet",
       "profession": "poet, art critic, novelist, journalist",
       "address": "Hôtel de Fourcy (1828-1834); impasse du Doyenné (current Place du Carrousel), near Camille Rogier, Arsène Houssaye and Nerval. He shares an apartment with Eguène Piot",
       "married to": "Ernesta Grisi (Carlotta Grissi's older sister)", 
@@ -1190,6 +1194,7 @@
         ],
       "participates in": [
         "The Salon: 1852 with <i>Portrait de ma grand-mère</i> (compared to Hans Holbein the Younger by Théophile Gautier); 1853 with <i>Autoportrait</i> with his printmaking tools",
+        "The 1st Salon des Beaux-arts in 1864 (26 boulevard des Italiens): works by Édouard Manet, Charles-François Daubigny, Félix Bracquemond, Gustave Doré, Jean-Baptiste-Camille Corot and Pierre Puvis de Chavannes",
         "Exposition universelle de 1867: with ceramics",
         "Première exposition des peintres impressionnistes (1874): at Nadar's workshop. He presents a drawing portrait, etching portraits of Auguste Comte, Baudelaire and Théophile Gautier, etchings after Turner, Ingres and Manet, and original etchings like <i>Les Saules</i> and <i>Le Mur</i>. He exhibits again with the Impressionists in 1879 and 1880 (<i>Portrait d'Edmond de Goncourt</i>)"
         ],
@@ -1569,6 +1574,10 @@
       "masters": "Thomas Couture",
       "students": "Eva Gonzalès",
       "in Spain": "in 1865",
+      "participates in": [
+        "The Société Nationales de Beaux-Arts is founded by Théophile Gautier and Louis Martinet in 1862. The committee includes Eugène Delacroix, Carrier-Belleuse and Puvis de Chavannes. Among the exhibitors were Léon Bonnat, Jean-Baptiste Carpeaux, Charles-François Daubigny, Gustave Doré and Édouard Manet",
+        "The 1st Salon des Beaux-arts in 1864 (26 boulevard des Italiens): works by Édouard Manet, Charles-François Daubigny, Félix Bracquemond, Gustave Doré, Jean-Baptiste-Camille Corot and Pierre Puvis de Chavannes"
+        ],
       "parents": "Eugénie-Désirée Fournier and Auguste Manet",
       "married to": "Suzanne Manet (1863-1883)",
       "children": "Léon Koelin-Leenhoff",
@@ -1582,6 +1591,7 @@
       "decorations/awards": "chevalier de la Légion d'honneur (1882)",
       "portrayed by": "Nadar, 1870 (photograph); Carolus-Duran, 1876, Rhode Island School of Design Museum (oil painting)",
       "bibliography": "Fayos-Pérez 2024; Tinterow 2003; Wilson-Bareau 1992; Monneret 1987; Cachin, Moffett & Wilson-Bareau 1983",
+      "websites": "[Salon des Beaux-arts](https://www.salondesbeauxarts.com/160-ans/)"
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Manet.jpg",
       "image source": "Nadar photograph, 1870"
     },
