@@ -211,6 +211,7 @@
           overflow-y: auto;
           flex-grow: 1;
           max-width: none; /* Remove max-width restriction in mobile */
+          line-height: 1.4; /* Adjust line height for better spacing */
         }
     
         #network {
@@ -303,7 +304,7 @@
     }
     
     #nodeInfo strong {
-      display: inline;
+      display: inline; /* Ensures strong tags don't create line breaks */
       font-weight: bold;
     }
     
@@ -501,10 +502,9 @@
     Loading network…
   </div>
   
-  <div class="layout-container visible" id="layout">
-    <div id="network"></div>
-    <div id="nodeInfo">Click a <strong>node</strong> (an individual) or <strong>edge</strong> (a connection between two individuals) to view the data they contain.<br>
-    <br>(It might take a few seconds for the website to show the network)</div>
+  <div id="nodeInfo">
+    <p>Click a <strong>node</strong> (an individual) or <strong>edge</strong> (a connection between two individuals) to view the data they contain.</p>
+    <p style="color: #ccc; margin-top: 1em;">(It might take a few seconds for the website to show the network)</p>
   </div>
 
   <div id="networkStats" style="font-size: 0.9rem; color: #ccc; padding: 0.3rem 0 0 0.5rem; margin-left: 1rem;"></div>
