@@ -217,6 +217,11 @@
           height: 50vh !important;
           flex-grow: 1;
         }
+      
+        #network {
+          min-width: 60%;
+        }
+      
         #nodeInfo::after {
           display: none;
         }
@@ -702,8 +707,6 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
   </div>
 </footer>
 
-  <script src="network.js"></script>
-
 <script>
 function showSection(section) {
   const layout = document.getElementById('layout');
@@ -735,6 +738,8 @@ function showSection(section) {
   }
 }
 </script>
+
+  <script src="network.js"></script>
   
 </body>
 </html>
