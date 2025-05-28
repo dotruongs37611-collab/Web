@@ -4,16 +4,25 @@ function autoLinkNames(text, nodesMap) {
   // Sustituye saltos de línea invisibles por espacio
   text = text.replace(/\r?\n|\r/g, " ");
 
-  Object.keys(nodesMap).forEach(name => {
-    const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(`(?<![\\w>])(${escapedName})(?![\\w<])`, "g");
-    text = text.replace(
-      regex,
-      `<a href="#" style="color:#66ccff" onclick="focusNode('${nodesMap[name].id}')">$1</a>`
-    );
+  // Divide el texto en partes: enlaces HTML intactos y el resto
+  const splitParts = text.split(/(<a [^>]+>.*?<\/a>)/g);
+
+  const processed = splitParts.map(part => {
+    if (part.startsWith('<a ')) return part; // ya es un enlace, no tocar
+
+    Object.keys(nodesMap).forEach(name => {
+      const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(?<![\\w>])(${escapedName})(?![\\w<])`, "g");
+      part = part.replace(
+        regex,
+        `<a href="#" style="color:#66ccff" onclick="focusNode('${nodesMap[name].id}')">$1</a>`
+      );
+    });
+
+    return part;
   });
 
-  return text;
+  return processed.join('');
 }
 
 function processMarkdownLinks(text) {
