@@ -1173,6 +1173,50 @@
       "image source": "Carolus-Duran 1874"
     },
     {
+      "id": "Félix Bracquemond",
+      "label": "Bracquemond",
+      "full name": "Auguste Joseph Bracquemond",
+      "life dates": "1833-1914", 
+      "nationality": "French",
+      "profession": "painter, ceramist, engraver, decorator",
+      "considered as": "promoter of the study of Japanese art in France, from 1856; also of the interest in printmaking, encouraging artists such as Édouard Manet, Edgar Degas and Camille Pissarro to use this technique (Monneret 1987, p.74)",
+      "registered in": "the Cabinet des estampes (BNF) as reader in 1849, alongside Henri Fantin-Laatour and Gustave Doré (Lethève 1968, p.109)",
+      "member of": [
+        "Société des aquafortistes: from 1862 (founding member)", 
+        "Société nationale des beaux-arts (1890): he encourages foreign artists (particularly Japanese) to exhibit at the Salon des beaux-arts",
+        "Société anonyme des artistes peintres, sculpteurs et graveurs: from 1874",
+        "Société des peintres-graveurs français: honorary president (1890)",
+        "Société des peintres-lithographes: honorary president (with his friend Auguste Rodin)"
+        ],
+      "participates in": [
+        "The Salon: 1852 with <i>Portrait de ma grand-mère</i> (compared to Hans Holbein the Younger by Théophile Gautier); 1853 with <i>Autoportrait</i> with his printmaking tools",
+        "Exposition universelle de 1867: with ceramics",
+        "Première exposition des peintres impressionnistes (1874): at Nadar's workshop. He presents a drawing portrait, etching portraits of Auguste Comte, Baudelaire and Théophile Gautier, etchings after Turner, Ingres and Manet, and original etchings like <i>Les Saules</i> and <i>Le Mur</i>. He exhibits again with the Impressionists in 1879 and 1880 (<i>Portrait d'Edmond de Goncourt</i>)"
+        ],
+      "founder of": "<i>L'Estampe original</i> with Auguste Lepère, Daniel Vierge and Tony Beltrand. From the 1870s he was thinking of creating a journal focused on printmaking with Degas, Camille Pissarro and Mary Cassatt",
+      "friends": "Edmond de Goncourt; Charles Baudelaire; Théodore de Banville; Jules Barbery d'Aurevilly; Félix Nadar; Édouard Manet; James McNeill Whistler; Henri Fantin-Latour (Bracquemond appears in his <i>Hommage à Delacroix</i> (1864, Orsay); Auguste Rodin",
+      "works as": "ceramist and designer at the Manufacture nationale de Sèvres (from 1870); artistic director at the workshop of Charles Edward Haviland in Limoges",
+      "parents": "César Auguste Bracquemond and Jeanne Girardine Bailly",
+      "married to": "Marie Bracquemond, née Marie Quivoron (1869), Impressionist painter",
+      "children": "Pierre Bracquemond",
+      "masters": "Joseph Guichard (student of Ingres); Théodore Deck",
+      "students": "Alexandre Jean-Baptiste Brun; Louis Busière; François Courboin; Léon Coutil; Édouard Dammouse; Lucien Dautrey; Fernand Desmoulin; Jeanne Sisley; Henri Jean Turlin",
+      "decorations/awards": "Chevalier (1882) Officier de la Légion d'honneur (1889). Médaille d'honneur du Salon (1884)",
+      "knows Goya's works": "drawing <i>Don Quijote</i> (F.54) by 1860, via Carderera",
+      "copies after Goya": "<i>Don Quixote</i> (F.54), 1860, for Carderera's article in <i>Gazette des Beaux-arts</i> (Fayos Pérez 2024, p.164, fig.II.42)",
+      "author of": [
+        "Portraits: Paul Meurice, Charles Méryon (1853), Alphonse Legros (1861), Zacharie Astruc (c.1865), Édouard Manet (1864, pastel), Edmond de Goncourt (1882)",
+        "After other artists: Jean-Louis-Ernest Meissonier, Gustave Moreau, Jean-Baptiste Camille Corot, Eugène Delacroix (<i>Les Natchez</i>, 1835, Met)",
+        "Original compositions: <i>Broderie</i> (c.1855), <i>L'Inconnu</i> (1862), <i>L'éclipse</i> (1869), <i>La Terrasse de la villa Brancas</i> (1876), <i>Le grand lapin</i> (1891), <i>Roseaux et sarcelles</i> (1882), <i>Les Hirondelles</i> (1882), <i>Les Mouettes</i> (1888)",
+        "Essays: <i>Du dessin et de la couleur</i> (1886), very appreciated by Vincent van Gogh (Monneret 1987, p.76); <i>Étude sur la gravure sur bois et la lithographie</i>"
+        ],
+      "portrayed by": "Nadar, 1865, photograph",
+      "bibliography": "Jean-Paul Bouillon, <i>Félix Bracquemond et les arts décoratifs</i>, 2005; Monneret, <i>L'Impressionnisme et son époque</i>, 1987; Lethève 1968; Henri Beraldi, 'Félix Bracquemont', in <i>Les Graveurs du XIXe siècle. Guide de l'amateur d'estampes modernes</i>, volume III, Paris, Librairie L. Conquet, 1885",
+      "websites": "[Salon des Beaux-arts](salondesbeauxarts.com)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Bracquemond.jpg",
+      "image source": "Nadar 1865"
+    },
+    {
       "id": "Paul Mantz",
       "label": "Mantz",
       "life dates": "1821-1895", 
@@ -3307,6 +3351,46 @@
       "relationship type": "friends; colleagues",
       "collaborations": "Manet made <i>Fleur exotique</i> (1868), a print inspired by Goya, for a sonnet by Armand Renaud, published by Burty, [Metropolitan 64.649.1](https://www.metmuseum.org/art/collection/search/337433)]",
       "collection": "the Metropolitan Museum holds several prints by Manet from the Burty collection, such as <i>Dead Christ with Angels</i> (1866-67) [70.588](https://www.metmuseum.org/art/collection/search/844693), <i>The Infanta Margarita, after Velázquez</i> (1861-62) [NMG 310/1924](https://www.metmuseum.org/art/collection/search/851751), <i>Charles Baudelaire, Full Face, after Nadar, III</i> (1869) [NMG 313/1924](https://www.metmuseum.org/art/collection/search/857998), <i>Plainte Moresque (Moorish Lament)</i> (1866), <i>Monsieur Manet (The Artist's Father) I</i> (1860), <i>Hat and Guitar, Frontispiece for an Edition of Fourteen Etchings</i> (1862-63). A substantial part of Burty's collection of Manet's prints was acquired by Edgar Degas (with the help of Michel Manzi)"    
+    },
+    {
+      "from": "Édouard Manet",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "friends; colleagues",
+      "portrait": "Bracquemond, <i>Édouard Manet</i>, 1864, pastel",
+      "collaborations": "Bracquemond encourages Manet to use the printing technique. He helps Manet with his etchings of <i>Olympia</i> and <i>L'Homme mort</i>. Bracquemond also makes prints after works by Manet",
+      "they share": "they both appear in Fantin-Latour's <i>Hommage à Delacroix</i> (1864)",
+      "bibliography": "Monneret 1987, p.74"
+    },
+    {
+      "from": "Charles Baudelaire",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Philippe Burty",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "Burty had several prints by Bracquemond in his collection. They also collaborated in articles in the <i>Gazette des Beaux-arts</i>"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "they met": "on 12 November 1859, Carderera shows Bracquemond some Goya drawings: 'I ran into the engraver who etched my drawing of Don Quixote. I showed him the rest' (Lanzarote Guiral 2016, p.430)",
+      "collaborations": "Bracquemond made a print after Goya to illustrate Carderera's first article in the <i>Gazette des Beaux-arts</i> in 1860: <i>Don Quixote</i> after drawing F.54 (Fayos Pérez 2024, p.164, fig.II.42)",
+      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Félix Bracquemond",
+      "connection_level": "secondary",
+      "relationship type": "influence",
+      "copies": "Bracquemond made a print after Goya to illustrate Carderera's first article in the <i>Gazette des Beaux-arts</i> in 1860: <i>Don Quixote</i> after drawing F.54. He knew Goya's drawing via Carderera (Fayos Pérez 2024, p.164, fig.II.42)",
+      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
