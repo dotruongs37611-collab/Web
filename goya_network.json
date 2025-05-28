@@ -1498,11 +1498,14 @@
       "nationality": "French",
       "profession": "poet, critic", 
       "author of": "Salons (1845, 1846, 1859); <i>Les Fleurs du mal</i> (1857)",
-      "writes about Goya": "'Quelques caricaturistes étrangers'",
+      "writes about Goya": [
+        "'Quelques caricaturistes étrangers. Hogarth, Cruikshank, Goya, Pinelli, Brueghel’, <i>Le Présent</i>, vol.2, pp.185–94. This essay also appeared in L’Artiste (26 September 1858, 55–59), in <i>Curiosités Esthétiques</i> (1868) and in <i>OEuvres complètes</i> (1869). Transcribed in Fayos-Pérez 2024, Appendix II, p.344",
+        "‘Quelques caricaturistes français’, in <i>Curiosités Esthétiques</i> (1868): ‘Goya, lui aussi, s’est attaqué à la gent monastique. Je présume qu’il n’aimait pas les moines, car il les a faits bien laids; mais qu’ils sont beaux dans leur laideur et triomphants dans leur crasse et leur crapule monacales! [...]' (Fayos Pérez 2024, p.342; Baudelaire – Le Dantec & Pichois 1961, p.997)"
+        ],
       "mentions of Goya": "letter of 22 Feb 1864 (probably to Charles Yriarte), where he discusses a prospective publication and his previous writings on Goya, and mentions the publications on this artist by Théophile Gautier and Eugène Piot (letter sold in [Autographes des siècles](https://www.autographes-des-siecles.com/produit/charles-baudelaire-revient-a-ses-travaux-sur-francisco-de-goya/))",
-      "writes in": "<i>Revue des Deux Mondes</i>",
+      "writes in": "<i>Revue des Deux Mondes</i>; <i>Le Présent</i>",
       "curiosities": "Baudelaire dedicated his <i>Fleurs du mal</i> (published in 1857) to Gautier ('au poète impeccable'). However, when he was condemned for this work, Gautier remained silent and did not defend him publicly (<i>Les Fleurs du mal</i>, ed. Livre de poche, p.345). Baudelaire was helped, though, by Empress Eugenia de Montijo, to reduce the fee he was sentenced to pay",
-      "bibliography": "Chagniot 2016",
+      "bibliography": "Fayos Pérez 2024; Baudelaire – Le Dantec & Pichois 1961; Chagniot 2016",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Baudelaire.jpg"
     },
     {
