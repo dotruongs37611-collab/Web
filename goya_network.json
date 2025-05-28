@@ -190,7 +190,7 @@
       "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Adrien Dauzat's)",
       "author of": "illustrations in <i>El Artista</i>; <i>Godofredo de Bouillon proclamado rey de Jerusalén</i> (1838, Galerie Batailles, Palais Versailles); <i>Isabel II de España</i> (1850); <i>Doña Amalia de Llano y Dotres, Condesa de Vilches</i> (1853); <i>Carolina Coronado</i> (c.1855); <i>Eduardo Rosales</i> (1867); <i>El pintor Perugino Sensi</i> (1873, Prado)",
       "editor of": "<i>El Artista</i>",
-      "portrayed by": "Raimundo Madrazo, 1875, Museo de Bellas Artes de Bilbao",
+      "portrayed by": "M. Huerta, photograph (Prado HF0857); Raimundo Madrazo, 1875, Museo de Bellas Artes de Bilbao",
       "works as": "Director of RABASF in 1866; Pintor de Cámara of Isabel II; Director of the Prado Museum 1860-68 and 1881-1894; Senator",
       "member of": "RABASF: member at 16 years old",
       "masters": "Alberto Lista; Franz Xaver Winterhalter; Jean-Auguste-Dominique Ingres", 
@@ -198,7 +198,8 @@
       "married to": "Luisa Garreta (1835)",
       "children": "Cecilia, Raimundo, Ricardo, Isabel",
       "parents": "José Madrazo and Isabel Kuntz y Valentini",
-      "bibliography": "Gilarranz Ibáñez 2020; Martínez Plaza 2017; González López 1994; Díez 1994",
+      "bibliography": "Gilarranz Ibáñez 2020; G. Navarro, in <i>El siglo XIX en el Prado</i>, 2007; Martínez Plaza 2017; González López 1994; Díez 1994",
+      "websites": "[Prado website](https://www.museodelprado.es/coleccion/artista/madrazo-y-kuntz-federico-de/9bdb1678-fdd4-47bb-92e3-6833fadc8a50), Carlos G. Navarro",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
       "image source": "portrait by Raimundo Madrazo, 1875, Museo de Bellas Artes de Bilbao"
     },
@@ -1768,6 +1769,7 @@
     {
       "id": "Pedro Madrazo",
       "label": "Pedro Madrazo",
+      "full name": "Pedro de Madrazo y Kuntz",
       "life dates": "1816-1898", 
       "nationality": "Spanish",
       "profession": "writer, translator, scholar, journalist, art critic, painter", 
@@ -1953,6 +1955,7 @@
     {
       "id": "Juan Madrazo",
       "label": "Juan Madrazo",
+      "full name": "Juan de Madrazo y Kuntz",
       "life dates": "1829-1880", 
       "nationality": "Spanish",
       "profession": "architect", 
@@ -1965,6 +1968,7 @@
     {
       "id": "Luis Madrazo",
       "label": "Luis Madrazo",
+      "full name": "Luis de Madrazo y Kuntz",
       "life dates": "1825-1897", 
       "nationality": "Spanish",
       "profession": "painter", 
@@ -2817,6 +2821,19 @@
       "to": "Federico Madrazo",
       "connection_level": "direct",
       "relationship type": "friends; business partners?"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Federico Madrazo",
+      "connection_level": "secondary?",
+      "relationship type": "Madrazo acquired a substantial group of Goya's prints and drawings, probably through Carderera",
+      "bibliography": "Martí 2007; Harris 1964"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Théophile Gautier",
+      "connection_level": "secondary",
+      "relationship type": "Gautier writes extensively about Goya (see Gautier's node). He also collects some works"
     },
     {
       "from": "Javier Goya",
