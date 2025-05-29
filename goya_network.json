@@ -883,7 +883,11 @@
       "masters": "Louis-Édouard Rioult",
       "member of": "Société héliographique (1851); Jeune-France; Société nationale des beaux-arts",
       "participates in": "the Battle of Hernani (1830); <i>Les Français peints par eux-mêmes</i> (1840)",
-      "knows Goya's works": "the <i>Caprichos</i>: in late 1830-late 1831 (Lipschutz 1972, p.118); through Antoine Fontaney? (brought a <i>Caprichos</i> set in January 1831); Goya's drawings by 1838 (Fayos Pérez 2024)",
+      "knows Goya's works": [
+        "The <i>Caprichos</i>: in late 1830-late 1831 (Lipschutz 1972, p.118). Through Antoine Fontaney? (brought a <i>Caprichos</i> set in January 1831)",
+        "Goya's drawings by 1838 (see Fayos Pérez 2024)",
+        "<i>Disasters of War</i>: at least since 1842 (<i>Cabinet de l'Amateur</i>, with Eugène Piot and Frédéric Villot). He regains interest in this series in 1871 when he writes a necrological piece on Regnault, and he borrows Burty's working-proof set (through Asselineau)"
+        ],
       "collector of Goya's works": "<i>Bulls of Bordeaux</i>; <i>Tauromaquia</i> (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier); <i>Tauromaquia</i> set given by Valentín Carderera on 13 Nov 1859 (Lanzarote Guiral 2016, p.431)",
       "portrayed by": "Auguste de Châtillon, 1839, Musée Carnavalet (oil painting); Bertall, 1850 (photograph); Amédée Bodin after Théodore Chassériau, 1850 (drawing); Nadar, 1850 (photograph); Nadar, 1854-55, Getty (photograph); Nadar, 1855 (photograph); Nadar, 1856 (photograph); Albert-Ernest Carrier-Belleuse, 1862 (sculpture: bust); Hippolite Mailly, 1862 (caricature); André Gill, 1869, <i>L'éclipse</i> (caricature)",
       "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Lacoste-Veysseyre 2014; Hovasse 2001; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
@@ -3449,6 +3453,7 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "acquaintances",
+      "mentions": "at the Salon of 1870, Gautier praises Regnault's <i>Juan Prim. 8 octobre 1868</i> (1869, Orsay) and <i>Salomé</i> (1870, Metropolitan): '<i>Prim</i> c'est toute l'Espagne, <i>Salomé</i> c'est tout l'Orient'",
       "link to Goya's work": [
         "In 1870-71, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>, probably to write his necrological piece on Regnault. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
         "2 February 1871, ‘Henri Regnault’, <i>Journal Officiel de la République Française</i>, 33, pp.65–66: Gautier tells about a meeting with Regnault where they talked about Goya and they looked at Burty's working-proof set of <i>Disasters of War</i>. Gautier's piece becomes focused on describing different plates from the series. 'La conversation s’engagea. On parla de l’Espagne et du Maroc. […] Après divers détours, la conversation en vint sur Goya. Nous avions précisément à la maison un superbe exemplaire des Estragos y desastres de la guerra, que nous avait prêté Ph. Burty, qui possède toutes les belles choses “dans le meilleur état”' (Fayos Pérez 2024, Appendix III, p.371)"
@@ -4070,7 +4075,7 @@
       "know each other since": "at least 1837?", 
       "correspondence": "1847 Delacroix to Gautier: mention of 'eight small Goyas' of bullfighting at Mauroner’s gallery on 35 rue Laffitte. Adrien Dauzats mentions a Spanish painter and restorer called Bueno, who had brought the alleged Goyas from Madrid",
       "mentions": "24 Sept 1837, Gautier mentions Dauzats and Taylor in an article about the Galerie espagnole (<i>La Presse</i>, pp.1-2)",
-      "link to Goya's work": "in 1871, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
+      "link to Goya's work": "in 1871, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i> (Gautier knew this series at least since 1842). Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
       "bibliography": "Fayos Pérez 2024; Delesalle 1983"
     },
     {
