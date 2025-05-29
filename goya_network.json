@@ -1554,6 +1554,7 @@
       "life dates": "1821-1867",
       "nationality": "French",
       "profession": "poet, critic", 
+      "friends": "Charles Asselineau",
       "author of": "Salons (1845, 1846, 1859); <i>Les Fleurs du mal</i> (1857)",
       "writes about Goya": [
         "'Quelques caricaturistes étrangers. Hogarth, Cruikshank, Goya, Pinelli, Brueghel’, <i>Le Présent</i>, vol.2, pp.185–94. This essay also appeared in L’Artiste (26 September 1858, 55–59), in <i>Curiosités Esthétiques</i> (1868) and in <i>OEuvres complètes</i> (1869). Transcribed in Fayos-Pérez 2024, Appendix II, p.344",
@@ -1564,6 +1565,24 @@
       "curiosities": "Baudelaire dedicated his <i>Fleurs du mal</i> (published in 1857) to Gautier ('au poète impeccable'). However, when he was condemned for this work, Gautier remained silent and did not defend him publicly (<i>Les Fleurs du mal</i>, ed. Livre de poche, p.345). Baudelaire was helped, though, by Empress Eugenia de Montijo, to reduce the fee he was sentenced to pay",
       "bibliography": "Fayos Pérez 2024; Chagniot 2016; Baudelaire – Le Dantec & Pichois 1961",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Baudelaire.jpg"
+    },
+    {
+      "id": "Charles Asselineau",
+      "label": "Asselineau",
+      "full name": "François Charles Alexandre Asselineau",
+      "life dates": "1820-1874",
+      "nationality": "French",
+      "profession": "homme de lettres, writer, art critic", 
+      "address": "Rue de Rennes (1874)",
+      "friends": "Charles Baudelaire (from 1845); Nadar",
+      "writes in": "<i>Bulletin du bibliophile</i>; <i>Le Courrier artistique</i>",
+      "works for": "Bibliothèque Mazarine", 
+      "member of": "Société des gens de lettres",
+      "author of": "<i>La double vie</i> (1858), <i>L’enfer du bibliophile</i> (1860), <i>Le paradis des gens de lettres</i> (1862), <i>Mélanges tirés d’une petite bibliothèque romantique</i> (1866), <i>L'Italie et Constantinople</i> (1869), <i>Charles Baudelaire, sa vie et son œuvre</i> (1869), <i>André Boulle, ébéniste de Louis XIV</i> (1872), <i>Bibliographie romantique</i> (1872)",
+      "studies in": "Collège Bourbon (current Lycée Condorcet), with Nadar",
+      "portrayed by": "Baudelaire, 1850, pen drawing; Nadar, c.1860, photograph",
+      "websites": "Fernand Chaffiol-Debillemont, [<i>Charles Asselineau</i>](http://www.miscellanees.com/a/asselino.htm), 1952",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau.jpg"
     },
     {
       "id": "Édouard Manet",
@@ -2811,8 +2830,8 @@
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "they met": "in Bordeaux (1824-28) at Pierre Lacour's establishment",
-      "link to Goya's work": "in 1877, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>. Note by Charles Asselineau: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Delesalle 1983, p.104)",
-      "bibliography": "Delesalle 1983"
+      "link to Goya's work": "in 1871, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle 1983"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -3396,6 +3415,49 @@
       "portraits": "Bracquemond, <i>Charles Baudelaire</i>, 1874, etching (presented at the 1st Exposition des peintres impressionnistes)"
     },
     {
+      "from": "Charles Baudelaire",
+      "to": "Charles Asselineau",
+      "connection_level": "direct",
+      "relationship type": "close friends",
+      "interactions": "Asselineau would support Baudelaire with the publication of <i>Les Fleurs du Mal</i> (1857)",
+      "know each other since": "1845",
+      "portraits": "Baudelaire makes a pen portrait of Asselineau in 1850",
+      "collaborations": "Asselineau writes Baudelaire's first biography: <i>Charles Baudelaire, sa vie et son œuvre</i> (1869)",
+      "websites": "[Baudelaire.litteratura](http://baudelaire.litteratura.com/charlesasselineau.php)",
+      "bibliography": "Jacques Crépet et Claude Pichois, <i>Baudelaire et Asselineau, textes recueillis et commentés</i>, Nizet, 1953"
+    },
+    {
+      "from": "Philippe Burty",
+      "to": "Charles Asselineau",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "correspondence": "'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Charles Asselineau",
+      "connection_level": "secondary?",
+      "relationship type": "acquaintances?",
+      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Charles Asselineau",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
+    },
+    {
+      "from": "Francisco de Goya y Lucientes",
+      "to": "Charles Asselineau",
+      "connection_level": "secondary",
+      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
+    },
+    {
       "from": "Philippe Burty",
       "to": "Félix Bracquemond",
       "connection_level": "direct",
@@ -3946,8 +4008,8 @@
       "know each other since": "at least 1837?", 
       "correspondence": "1847 Delacroix to Gautier: mention of 'eight small Goyas' of bullfighting at Mauroner’s gallery on 35 rue Laffitte. Adrien Dauzats mentions a Spanish painter and restorer called Bueno, who had brought the alleged Goyas from Madrid",
       "mentions": "24 Sept 1837, Gautier mentions Dauzats and Taylor in an article about the Galerie espagnole (<i>La Presse</i>, pp.1-2)",
-      "link to Goya's work": "in 1877, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>. Note by Charles Asselineau: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Delesalle 1983, p.104)",
-      "bibliography": "Delesalle 1983"
+      "link to Goya's work": "in 1871, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle 1983"
     },
     {
       "from": "Adrien Dauzats",
@@ -4660,7 +4722,7 @@
       "to": "Philippe Burty",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "link to Goya's work": "by 1871: Gautier saw Burty's working proofs of <i>Disasters of War</i> (Fayos Pérez 2024, p.54; Gautier, 2 Feb 1871; Delesalle 1983, p.104). Note by Charles Asselineau: 'Gautier has the pressing need to re-examine the Disasters of War (Goya’s invasion) whose copper plates were brought back by Dauzats' (Delesalle 1983, p.104)",
+      "link to Goya's work": "by 1871: Gautier saw Burty's working proofs of <i>Disasters of War</i>. Asselineau to Burty: 'Gautier has the pressing need to re-examine the Disasters of War (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
       "bibliography": "Fayos Pérez 2024; Delesalle 1983"
     },
     {
