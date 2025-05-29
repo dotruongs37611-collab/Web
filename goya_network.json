@@ -866,7 +866,7 @@
         "1832-VIII-5, Onophrius Wphly, <i>La France littéraire</i>, pp.388-418: 'El sueno de la razon produce monstruos. Goya' (<i>Capricho</i> 43)",
         "1834 preface of <i>Mademoiselle de Maupin</i>: 'Quant au genre monstre, vous savez comme ils l’ont traité (...) Ni les grands traits à la Michel-Ange, ni les curiosités dignes de Callot, ni les effets d’ombre et de clair à la façon de Goya, rien n’a pu trouver grâce devant eux' (pp.34-35)",
         "1838-VII-5, Les Caprices de Goya; (<i>La Presse</i>): mentions Goya's Album B of drawings?",
-        "1842 ‘Franco Goya y Lucientes’, <i>Le Cabinet de l’Amateur</i>, 337–45 (with Valentín Carderera's help [Lanzarote Guiral 2016, p.550]).", 
+        "1842 ‘Franco Goya y Lucientes’, <i>Le Cabinet de l’Amateur</i>, pp.337–45: Gautier acknowledges here the <i>Disasters of War</i>, over 20 years before they were published by the RABASF (1863); he must have known them via Eugène Piot and Carderera. For this article, Gautier has Carderera's help (Lanzarote Guiral 2016, p.550)", 
         "1845 mentions <i>Disasters of War</i> (Voyage en Espagne, nouvelle édition révue, p.136) [quoted by Valentín Carderera in 1863] (Fayos Pérez 2024).",
         "1855 <i>Les Beaux-arts en Europe</i>: 'L'Espagne a oublié Velasquez, Ribera, Murillo, Zurbaran et même Goya; elle ne peint plus avec sa sombre palette d'autrefois des moines au froc brun [...] elle n'a plus cette ardeur farouche, cette passion catholique qui la caractérisaient [...]' (p.8)",
         "1874 <i>Histoire du romantisme</i>: 'Victor Hugo, s’il n’était pas poète, serait un peintre de premier ordre ; il excelle à mêler, dans des fantaisies sombres et farouches, les effets de clair-obscur de Goya à la terreur architecturale de Piranèse'; '[...] cette entente des terreurs nocturnes qu’on ne rencontre que dans les Caprices de Goya'; '[Louis Boulanger] Tantôt c’était Rubens, tantôt c’était Véronèse, et puis Titien ; d’autres fois, franchissant les monts, il allait à Velasquez et à Goya'."
@@ -3385,6 +3385,7 @@
       "connection_level": "direct",
       "relationship type": "colleagues; friends",
       "know each other since": "at least 1860",
+      "discovers Goya's works": "Burty probably acquired his working-proof set of Goya's <i>Disasters of War</i> (now at the British Museum), among other Goya prints, through Carderera",
       "correspondence": "from at least 1860 (BNE MSS/23291/19)",
       "bibliography": "Fayos Pérez (upcoming)"
     },
@@ -3456,7 +3457,7 @@
       "mentions": "at the Salon of 1870, Gautier praises Regnault's <i>Juan Prim. 8 octobre 1868</i> (1869, Orsay) and <i>Salomé</i> (1870, Metropolitan): '<i>Prim</i> c'est toute l'Espagne, <i>Salomé</i> c'est tout l'Orient'",
       "link to Goya's work": [
         "In 1870-71, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>, probably to write his necrological piece on Regnault. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
-        "2 February 1871, ‘Henri Regnault’, <i>Journal Officiel de la République Française</i>, 33, pp.65–66: Gautier tells about a meeting with Regnault where they talked about Goya and they looked at Burty's working-proof set of <i>Disasters of War</i>. Gautier's piece becomes focused on describing different plates from the series. 'La conversation s’engagea. On parla de l’Espagne et du Maroc. […] Après divers détours, la conversation en vint sur Goya. Nous avions précisément à la maison un superbe exemplaire des Estragos y desastres de la guerra, que nous avait prêté Ph. Burty, qui possède toutes les belles choses “dans le meilleur état”' (Fayos Pérez 2024, Appendix III, p.371)"
+        "2 February 1871, ‘Henri Regnault’, <i>Journal Officiel de la République Française</i>, 33, pp.65–66: Gautier tells about a meeting with Regnault where they talked about Goya and they looked at Burty's working-proof set of <i>Disasters of War</i>. Gautier's piece becomes focused on describing different plates from the series. 'La conversation s’engagea. On parla de l’Espagne et du Maroc. […] Après divers détours, la conversation en vint sur Goya. Nous avions précisément à la maison un superbe exemplaire des Estragos y desastres de la guerra, que nous avait prêté Ph. Burty, qui possède toutes les belles choses “dans le meilleur état”' (Fayos Pérez 2024, Appendix III, p.371). Gautier's piece on Regnault was then included in <i>Tableaux de siège. Paris, 1870-1871</i>, 1871"
         ],
       "bibliography": "Fayos Pérez 2024; Delesalle 1982"
     },
@@ -3656,11 +3657,12 @@
       "to": "Eugène Piot",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "correspondence": "Not located (this correspondence exists according to Bonnaffé 1890, p.35)",
+      "correspondence": "not located (this correspondence exists according to Bonnaffé 1890, p.35)",
       "know each other since": "at least 1842",
-      "they met": "22 Nov 1842 (diary): Carderera reviews with Piot his notes on Goya (Lanzarote Guiral 2016, p.167); 24 Sept 1855: Carderera visits Piot's house (Lanzarote Guiral 2016, p.565); 13 July 1861 C shows P his drawings and Goyas'; 2 Aug 1861 C gives Piot the copies explanation of Goya (Prado commentaries) (ibid. p.454, 462; they also meet other times 1861: pp.453, 459, 464)",
-      "collaborations": "Carderera helped Piot with his Goya catalogue raisonné (1842), as well as Gautier",
-      "mentions": "Piot mentions Carderera and Agustín Ceán Bermúdez in his catalogue raisonné 1842 (p.346)"
+      "they met": "22 Nov 1842 (diary): Carderera reviews with Piot his notes on Goya (Lanzarote Guiral 2016, p.167); 24 Sept 1855: Carderera visits Piot's house (ibid. p.565); 13 July 1861 Carderera shows Piot his drawings and Goyas'; 2 Aug 1861 Carderera gives Piot the copies explanation of Goya (Prado commentaries) (ibid. p.454, 462; they also meet other times 1861: pp.453, 459, 464)",
+      "collaborations": "Carderera helped Piot with his Goya catalogue raisonné (1842), as well as Gautier. Piot most likely discovered Goya's <i>Disasters of War</i> around that time through Carderera",
+      "mentions": "Piot mentions Carderera and Agustín Ceán Bermúdez in his catalogue raisonné 1842 (p.346)",
+      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Bonnaffé 1890"
     },
     {
       "from": "Valentín Carderera",
