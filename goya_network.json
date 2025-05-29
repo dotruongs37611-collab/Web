@@ -1585,6 +1585,36 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau.jpg"
     },
     {
+      "id": "Henri Regnault",
+      "label": "Regnault",
+      "full name": "Alexandre Georges Henri Regnault",
+      "life dates": "1843-1871",
+      "nationality": "French",
+      "address": "rue de Rome",
+      "in Madrid": "in 1868, with his colleague Auguste Laguillermie. He witnesses the Carlist War, General Prim's victory, and Isabel II's exile",
+      "in Spain": "he visits the Alhambra of Granada, which makes a profound impact on him. He also visits Morocco with his friend Georges Clarin",
+      "studies in": "Lycée Henri-IV; Académie de France à Rome (1867-1871); École nationale supérieure des beaux-arts",
+      "participates in": [
+        "The Salon of 1870 with <i>Juan Prim. 8 octobre 1868</i> (1869, Orsay) and <i>Salomé</i> (1870, Metropolitan), which are praised by Théophile Gautier",
+        "Franco-Prussian War in 1870-71, where he dies"
+        ],
+      "decorations/awards": "Prix de Rome (1866): for <i>Thétis apportant à Achille les armes forgées par Vulcain</i>",
+      "profession": "painter",
+      "parents": "father: Henri Victor Regnault",
+      "masters": "Louis Lamothe (1861); Alexandre Cabanel (1864)",
+      "curiosities": [
+        "Regnault was represented by the famous art dealer Paul Durand-Ruel",
+        "Camille Saint-Saëns dedicates him a <i>Marche héroïque</i> (1871)"
+        ],
+      "author of": [
+        "<i>Thétis apporte à Achille les armes forgées par Vulcain</i>, 1866; <i>Portrait de Madame Mazois sur son lit de mort </i>, 1866; <i>Automédon ramenant les coursiers d'Achille des bords du Scamandre</i>, 1868, Boston"
+        "Spain-related: <i>Berger des montagnes de la Castille</i>, 1868, Musée de Pau; <i>Juan Prim. 8 octobre 1868</i>, 1869, Orsay; <i>Salomé</i>, 1870, Metropolitan; <i>Exécution sans jugement sous les rois maures de Grenade</i>, 1870, Orsay; <i>Head of a Moor</i>, 1870. Gautier states (Salon of 1870): '<i>Prim</i> c'est toute l'Espagne, <i>Salomé</i> c'est tout l'Orient'"
+        ],
+      "portrayed by": "Self-portrait, c.1863, Clevelant Museum; Thomas Couture, c.1865, pierre noire et craie sur papier bleu; Michel Berthaud, c.1865, photograph; Nicolas Escalier; Carolus-Duran, <i>Henri Regnault mort au champ de bataille</i>, oil painting sketch (1871, Lille); Bocourt, 1874, drawing after a photograph (<i>Le Magasin pittoresque</i>); F. Levé, <i>Mort d'Henri Regnault</i> (Salon des artistes français de 1910). Bust of Henri Regnault at the Lycée Henri-IV",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Regnault.jpg",
+      "image source": "Couture, c.1865, drawing"
+    },
+    {
       "id": "Édouard Manet",
       "label": "Manet",
       "life dates": "1832-1883",
@@ -3415,6 +3445,38 @@
       "portraits": "Bracquemond, <i>Charles Baudelaire</i>, 1874, etching (presented at the 1st Exposition des peintres impressionnistes)"
     },
     {
+      "from": "Henri Regnault",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "link to Goya's work": [
+        "In 1870-71, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>, probably to write his necrological piece on Regnault. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
+        "2 February 1871, ‘Henri Regnault’, <i>Journal Officiel de la République Française</i>, 33, pp.65–66: Gautier tells about a meeting with Regnault where they talked about Goya and they looked at Burty's working-proof set of <i>Disasters of War</i>. Gautier's piece becomes focused on describing different plates from the series. 'La conversation s’engagea. On parla de l’Espagne et du Maroc. […] Après divers détours, la conversation en vint sur Goya. Nous avions précisément à la maison un superbe exemplaire des Estragos y desastres de la guerra, que nous avait prêté Ph. Burty, qui possède toutes les belles choses “dans le meilleur état”' (Fayos Pérez 2024, Appendix III, p.371)"
+        ],
+      "bibliography": "Fayos Pérez 2024; Delesalle 1982"
+    },
+    {
+      "from": "Henri Regnault",
+      "to": "Philippe Burty",
+      "connection_level": "secondary?",
+      "link to Goya's work": "in 1870-71, Gautier wants to see Burty’s working-proof set of <i>Disasters of War</i>, probably to write his necrological piece on Regnault. Asselineau to Burty: 'Gautier has the pressing need to re-examine the <i>Disasters of War</i> (Goya’s invasion) whose copper plates were brought back by Dauzats' (Fayos Pérez 2024, p.54; Delesalle 1983, p.104)",
+      "bibliography": "Fayos Pérez 2024; Delesalle 1982"
+    },
+    {
+      "from": "Henri Regnault",
+      "to": "Marcello (Adèle d'Affry)",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they met": "Marcello meets Regnault and Georges Clarin in Spain in 1868 (during the Revolution)"
+    },
+    {
+      "from": "Henri Regnault",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "secondary",
+      "link to Goya's work": "2 February 1871, ‘Henri Regnault’, <i>Journal Officiel de la République Française</i>, 33, pp.65–66: Théophile Gautier tells about a meeting with Regnault where they talked about Goya and they looked at Burty's working-proof set of <i>Disasters of War</i>. Gautier's piece becomes focused on describing different plates from the series. 'La conversation s’engagea. On parla de l’Espagne et du Maroc. […] Après divers détours, la conversation en vint sur Goya. Nous avions précisément à la maison un superbe exemplaire des Estragos y desastres de la guerra, que nous avait prêté Ph. Burty, qui possède toutes les belles choses “dans le meilleur état”' (Fayos Pérez 2024, Appendix III, p.371)",
+      "bibliography": "Fayos Pérez 2024; Delesalle 1982"
+    },
+    {
       "from": "Charles Baudelaire",
       "to": "Charles Asselineau",
       "connection_level": "direct",
@@ -3431,7 +3493,7 @@
       "to": "Charles Asselineau",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
-      "correspondence": "'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "correspondence": "'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regnault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
       "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
     },
     {
@@ -3439,7 +3501,7 @@
       "to": "Charles Asselineau",
       "connection_level": "secondary?",
       "relationship type": "acquaintances?",
-      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regnault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
       "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
     },
     {
@@ -3447,14 +3509,14 @@
       "to": "Charles Asselineau",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
-      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regnault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
       "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
     },
     {
       "from": "Francisco de Goya y Lucientes",
       "to": "Charles Asselineau",
       "connection_level": "secondary",
-      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regntault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
+      "link to Goya's work": "Asselineau to Burty: 'Mon cher Burty, Gautier a l'impérieux besoin de revoir les <i>Malheurs de la guerre</i> (<i>l'invansion</i> de Goya) dont les cuivres ont été rapportés par Dauzats. Sous quelle forme pourriez-vous les lui communiquer pendant quelques heures ? Votre Charles Asselineau. À jeudi, Gautier demeure 12 rue de Beaune' [Sept 1870-March 1871]. Gautier probably wanted to look at the <i>Disasters of War</i> in order to write his nechrological piece on Regnault (Fayos Pérez 2024, p.54; Delesalle 1982, p.104)",
       "bibliography": "Fayos Pérez 2024; Delesalle, 'Théophile et les <i>Desastres de la guerre</i> de Goya (A propos d'un billet de Charles Asselineau à Philippe Burty), 1982'"
     },
     {
