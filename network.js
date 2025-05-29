@@ -554,8 +554,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `<p><strong>Between:</strong> <a href="#" style="color:#66ccff" onclick="focusNode('${fromNodeMap.id}')">${fromNodeMap.id}</a> and <a href="#" style="color:#66ccff" onclick="focusNode('${toNodeMap.id}')">${toNodeMap.id}</a></p>`;
 
         const edgeFields = [
-          { key: "relationship type", label: "Type of relationship" },
           { key: "connection_level", label: "Type of connection" },
+          { key: "relationship type", label: "Type of relationship" },
           { key: "know each other since", label: "Know each other since" },
           { key: "correspondence", label: "Correspondence" },
           { key: "they met", label: "They met" },
