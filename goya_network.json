@@ -746,12 +746,32 @@
     {
       "id": "Achille Devéria",
       "label": "Devéria",
+      "full name": "Achille Jacques Jean Marie Devéria",
       "life dates": "1800-1857",
       "nationality": "French",
-      "profession": "painter, draughtsman, lithographer",
-      "works as": "director of the Département des Estampes at the BNF in 1849",
-      "address": "45 rue de Nôtre Dame des Champs (1833)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg"
+      "masters": "Anne-Louis Girodet; Louis Lafitte; Auguste-Barthélemy Glaize",
+      "participates in": "the Salon (from 1822); in 1846, his work is praised by Charles Baudelaire",
+      "parents": "François-Marie Devéria (foctionnaire de la Marine)",
+      "siblings": "Eugène Devéria; Laure Devéria",
+      "married to": "Céleste Motte (1829)",
+      "children": "Théodule Charles Devéria (Egyptologist), Sara Devéria, Gabriel Devéria",
+      "profession": "lithographer, draughtsman, illustrator, painter",
+      "works as": "director of the Département des Estampes at the BNF in 1849; curator of the Department of Egyptian art at the Louvre",
+      "trips": "to Egypt, after being appointed curator of Egyptian art at the Louvre",
+      "decorations/awards": "Chevalier de la Légion d'honneur (1855)",
+      "address": "45 rue de Nôtre Dame des Champs (1833), very close to Victor Hugo",
+      "author of": [
+        "Portraits: Honoré de Balzac (c.1825: attributed), Victor Hugo, Alexandre Dumas père (1829), Prosper Mérimée, Franz Liszt (1832)",
+        "Original prints: cover of Goethe's <i>Faust</i>",
+        "Illustrations: <i>Don Quixote</i> (1821); 10 lithographies after Goya's <i>Caprichos</i> (1825, Charles Motte); La Fontaine's <i>Œuvres complètes</i> (1826; preface by Balzac); Rousseau's <i>Œuvres complètes</i> (1826); Goethe's <i>Faust</i> (illustrated edition after Delacroix, Ch. Motte, 1828); Perrault's <i>Contes</i> (1828); Defoe's <i>Robinson Crusoë</i> (1836); <i>Photographie zoologique ou représentation des animaux rares des collections du Muséum d'Histoire Naturelle</i> (1853-55)",
+        "Erotic prints"
+        ],
+      "copies after Goya": "10 lithographies (in reverse) after the <i>Caprichos</i> (1825): <i>Carricatures [sic] espagnoles, Ni plus ni moins, par Goya</i>, edited by Charles Motte. They are not signed but most scholars agree on this attribution. After <i>Caprichos</i> 10, 14, 15, 18, 23, 32, 41, 43, 52, 55 (Fayos Pérez 2024, p.119; reproduced in Chazal 2008, pp. 302–5, nos.224–34)",
+      "portrayed by": "self-portrait, c.1835, lithograph; Louis Boulanger, 1837, oil painting, Louvre",
+      "bibliography": "Fayos Pérez 2024; Chazal, <i>Goya graveur</i>, 2008",
+      "archives": "<i>Carricatures [sic] espagnoles [...]</i>, 1825: BNF Tf-65-Fol"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg",
+      "image source:" "self-portrait, c.1835"
     },
     {
       "id": "Célestin Nanteuil",
@@ -829,6 +849,7 @@
       "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members George Sand, Alexandre Dumas and Honoré de Balzac. Académie française (1841-1885)",
       "political views": "as a Pair de France in the Upper Chamber of Parliament (1845), he spoke against the death penalty and social injustice, and in favour of freedom of the press and self-government for Poland. With Napoleon III's seize of power in 1851, he declared him a traitor to France and moved to Brussels, then Jersey, then the Channel Islands, where he was in exile 1855-1870. However, he justified colonialism in terms of a civilising mission, although he was an abolitionist of slavery. During the Paris Commune, he was very critical of both sides. He was also famously anticlerical.",
       "in Spain": "In 1811 (at 9 years old)",
+      "address": "90 rue Vaugirard (later no.88); 11 rue Notre-Dame-des-Champs (later no.27), very close to Achille Devéria",
       "influenced by": "Chateaubriand",
       "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875",
       "studies in": "Real Colegio de San Antonio de Abad (Madrid); Lycée Louis le Grand (Paris)",
@@ -4498,7 +4519,51 @@
     {
       "from": "Achille Devéria",
       "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "1824",
       "portraits": "Devéria portrayed Hugo in 1829 (lithograph)"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Eugène Delacroix",
+      "collaborations": "Devéria made the cover for Goethe's <i>Faust</i>, illustrated edition after Delacroix (Motte 1828)"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Devéria portrayed Mérimée in 1829 (lithograph)"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Charles Baudelaire",
+      "connection_level": "secondary?",
+      "portraits": "Baudelaire praised Devéria's work presented at the 1846 Salon: 'Voilà un beau nom, voilà un noble et vrai artiste à notre sens'",
+      "bibliography": "<i>Œuvres complètes de Charles Baudelaire</i>, 1868, Lévy frères)
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?",
+      "portraits": "Devéria portrayed Balzac in 1825 (attributed)"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Alfred de Musset",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Musset declamed his poetry at Devéria's house in Notre-Dame-des-Champs",
+      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Achille_Dev%C3%A9ria)"
+    },
+    {
+      "from": "Achille Devéria",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Devéria portrayed Dumas in c.1829 and c.1832 (lithography published by Charles Motte)"
     },
     {
       "from": "Achille Devéria",
