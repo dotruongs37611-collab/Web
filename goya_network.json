@@ -759,7 +759,7 @@
       "works as": "director of the Département des Estampes at the BNF in 1849; curator of the Department of Egyptian art at the Louvre",
       "trips": "to Egypt, after being appointed curator of Egyptian art at the Louvre",
       "decorations/awards": "Chevalier de la Légion d'honneur (1855)",
-      "address": "45 rue de Nôtre Dame des Champs (1833), very close to Victor Hugo",
+      "address": "45 rue de Notre-Dame-des-Champs (1833) (very close to Victor Hugo), where he would hold a successful <i>salon</i>",
       "author of": [
         "Portraits: Honoré de Balzac (c.1825: attributed), Victor Hugo, Alexandre Dumas père (1829), Prosper Mérimée, Franz Liszt (1832)",
         "Original prints: cover of Goethe's <i>Faust</i>",
@@ -772,6 +772,32 @@
       "archives": "<i>Carricatures [sic] espagnoles [...]</i>, 1825: BNF Tf-65-Fol",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Deveria.jpg",
       "image source": "self-portrait, c.1835"
+    },
+    {
+      "id": "Charles Motte",
+      "label": "Motte",
+      "full name": "Charles Étienne Pierre Motte",
+      "life dates": "1784-1836",
+      "nationality": "French",
+      "profession": "lithographer (one of the first ones in Paris: 1817), draughtsman, printer, engraver (etching)",
+      "works as": "lithographic printer: Paris, 13 rue des Marais, Faubourg St. Germain (1818-1830); Lonodn, 23 Leicester Square (1830-31); London, 29 Bedford Street, Covent Garden (1829-1830); London, 70 St.Martin's Lane (1831)",
+      "participates in": "The Salon (1827; 1831); Paris, 290 rue Saint Honoré (1831)",
+      "students": "Laurent Imbert (who would import the lithographic technique to China)",
+      "editor of": [
+        "Satirical prints in the 1820s, such as Eugène Delacroix's 'Le Déménagement de la Censure' in <i>Le Miroir</i> (1822)",
+        "Lamartine's <i>Méditations poétiques de Lamartine</i> (1823)",
+        "<i>Carricatures espagnoles, Ni plus ni moins, par Goya</i> (1825)",
+        "Goethe's <i>Faust</i> (1827-28), illustrated by Eugène Delacroix, with a cover by Achille Devéria",
+        "<i>Histoire lithographiée du Palais Royal</i> (1834), illustrated by Horace Vernet"
+        ],
+      "author of": "<i>Napoleon visitant l'atelier de David</i> (1820-1830); <i>Le traité de Tolentino s'exécute</i> (1820-1830)",
+      "link to Goya's work": "Motte edits <i>Carricatures espagnoles, Ni plus ni moins, par Goya</i> in 1825, with 10 lithographies after the <i>Caprichos</i> made by Achille Devéria",
+      "parents": "Pierre Martin Motte (veterinary) and Ursule Durupt",
+      "married to": "Marie Mathieux",
+      "children": "Céleste Motte (married to Achille Devéria)",
+      "archives": "in Archives nationales",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Motte.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Célestin Nanteuil",
@@ -4572,10 +4598,37 @@
       "relationship type": "acquaintances; professional contact"
     },
     {
+      "from": "Achille Devéria",
+      "to": "Charles Motte",
+      "connection_level": "direct",
+      "relationship type": "relatives: father-in-law, son-in-law; professional: colleagues",
+      "collaborations": [
+        "Devéria makes 10 lithographic copies after Goya's <i>Caprichos</i> in Charles Motte's <i>Carricatures espagnoles, Ni plus ni moins, par Goya</i> (1825)",
+        "Devéria makes the cover for Motte's <i>Faust</i> by Goethe, illustrated by Delacroix (1827-28)"
+        ]
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Charles Motte",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": [
+        "Motte edits Delacroix's satirical prints in <i>Le Miroir</i> in the early 1820s",
+        "Motte edits Goethe's <i>Faust</i> (1827-28), illustrated by Delacroix"
+      ]
+    },
+    {
       "from": "Louis Boulanger",
       "to": "Antoine Fontaney",
       "connection_level": "direct",
       "relationship type": "colleagues"
+    },
+    {
+      "from": "Louis Boulanger",
+      "to": "Achille Devéria",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Boulanger portrayed Devéria in 1837 (oil painting, Louvre)"
     },
     {
       "from": "Louis Boulanger",
