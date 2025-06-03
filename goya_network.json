@@ -138,6 +138,30 @@
       "image source": "self-portrait, c.1758-65, RABASF"
     },
     {
+      "id": "Frédéric Quilliet",
+      "label": "Quilliet",
+      "life dates": "active 1808-1825",
+      "profession": "art dealer; <i>connaisseur</i>",
+      "nationality": "French",
+      "in Spain": "living in Cádiz in the late years of Carlos IV's reign, then in Madrid until 1813",
+      "author of": [
+        "Inventories of the artworks in El Escorial, the Royal Palaces in Madrid, and the Godoy collection (BNE)",
+        "<i>Dictionnaire des peintres espagnols</i> (París, Fain, 1816), for which he used Ceán Bermúdez's <i>Diccionario</i> (1800); <i>Le arti italiane in Spagna</i> (Roma, 1825), which he wanted to reedit as <i>Dictionnaire des Artistes Étrangers qui ont travaillé en Espagne</i>"
+        ],
+      "works as": "1808-1810: <i>conservateur de tableaux</i> or 'Artistic inspector' for Joseph I: Administration générale du mobilier de la Couronne (or <i>Administración general del Real Menage</i>). He had a key role in the planning of the <i>Museo Josefino</i>, to be installed at the Palacio de Buenavista. He is dismissed by Joseph I on 21 July 1810 due to doubts regarding his honesty. He contributed to the looting of the Spanish royal collections during the Peninsular War",
+      "websites": [
+        "José Luis Sancho, [Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/quilliet-frederic/b6643d34-fd82-4bcc-8408-80e5271ed30e)",
+        "[Memoria del Archivo, UCM](https://memoriadelarchivo.ucm.es/omeka/exhibits/show/un-museo-nacional-pintura/los-personajes)"
+        ],
+      "bibliography": "Mano 2008; Sancho 2001",
+      "archives": [
+        "<i>Catálogo de la colección de cuadros que poseía el Príncipe de la Paz en 1808</i>, BNE [MSS/21458/3](https://bdh.bne.es/bnesearch/detalle/bdh0000230113;jsessionid=0DE9CE03C99D72B56D0CFC2AFBC455FF)",
+        "[PARES](https://pares.mcu.es/ParesBusquedas20/catalogo/contiene/3749270)"
+        ],
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Quilliet_AI.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
       "id": "Giambattista Tiepolo",
       "label": "Tiepolo",
       "full name": "Giovanni Battista Tiepolo",
@@ -458,7 +482,7 @@
       "life dates": "1735-1814", 
       "nationality": "Spanish",
       "profession": "politician, diplomat, collector",
-      "works for": "Fernando VI, Carlos III, Carlos IV, José I (Joseph Bonaparte)",
+      "works for": "Fernando VI, Carlos III, Carlos IV, Joseph I (Joseph Bonaparte)",
       "member of": "Real Academia Española; Real Academia de Ciencias y Artes de Barcelona",
       "portrayed by": "Francisco de Goya y Lucientes, 1797, Strasbourg Museum of Fine Arts",
       "siblings": "Tomás de Iriarte",
@@ -531,7 +555,7 @@
       "born in": "Logroño",
       "author of": "a report about the Inquisition (1793); <i>Histoire critique de l'Inquisition espagnole</i> (1817-18) in 4 volumes; <i>Retrato político de los Papas</i> (1823); <i>Historia crítica de la inquisición de España</i> (1835).",
       "member of": "Real Sociedad Económica de La Rioja (1805)",
-      "portrayed by": "Francisco de Goya y Lucientes, 1810-11, Museo de Arte de São Paulo",
+      "portrayed by": "Francisco de Goya y Lucientes, 1810-11, Museo de Arte de São Paulo; Vicente Velázquez, in <i>Noticia biográfica de D. Juan Antonio Llorente, escrita por él mismo</i>, Paris, 1818 (BNE IH 5183/4)",
       "decorations/awards": "Orden Real de España",
       "curiosities": "he wrote a zarzuela, <i>El recluta gallego</i> (1782)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Llorente.jpg"
@@ -2042,7 +2066,7 @@
     },
     {
       "id": "Joseph Bonaparte",
-      "label": "J. Bonaparte",
+      "label": "Joseph I",
       "full name": "Joseph Nabulion Bonaparte",
       "life dates": "1784-1833", 
       "born in": "Corte, Corsica",
@@ -2054,6 +2078,7 @@
       "children": "Julia Bonaparte; Zenaida Bonaparte; Carlota Bonaparte",
       "parents": "Carlo Buonaparte and María Leticia Ramolino",
       "portrayed by": "Jean Baptiste Joseph Wicar, 1808, Palace of Versailles; François Gérard, 1808, as King of Spain, Musée national du Château de Fontainebleau; Joseph Flaugier, 1809, MNAC",
+      "bibliography": "Mano 2008",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Bonaparte.jpg",
       "image source": "Flaugier portrait, 1809, MNAC"
     },
@@ -2538,6 +2563,39 @@
       "connection_level": "direct",
       "relationship type": "patronage; employer-employee",
       "collaborations": "Frédéric Quilliet started an inventory of the Spanish royal collections in 1810, a selection of which were to be gathered at the Museo Josefino, and others at the Musée Napoleón in Paris. Maella collaborated in two of these inventories: one signed on 25 October 1810, alongside Goya and Napoli (AGP, Gobierno Intruso, caja 29, exp.no.31) (see Antigüedad del Castillo-Olivares 1987, pp.298-301); and another one in November 1810, also with Goya and Napoli (AHN, Consejos, leg.17.787)"
+    },
+    {
+      "from": "Frédéric Quilliet",
+      "to": "Joseph Bonaparte",
+      "connection_level": "direct",
+      "relationship type": "patronage; employer-employee",
+      "collaborations": "<i>Conservateur de tableaux</i>. Quilliet started an inventory of the Spanish royal collections in 1810, a selection of which were to be gathered at the Museo Josefino, and others at the Musée Napoleón in Paris. Inventories: one on 25 October 1810, signed by Maella, Goya and Napoli (AGP, Gobierno Intruso, caja 29, exp.no.31) (see Antigüedad del Castillo-Olivares 1987, pp.298-301); and another one in November 1810, signed by Maella, Goya and Napoli (AHN, Consejos, leg.17.787)",
+      "bibliography": "Mano 2008; Sancho 2001; Antigüedad del Castillo-Olivares 1987"
+    },
+    {
+      "from": "Frédéric Quilliet",
+      "to": "Mariano Salvador Maella",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "Quilliet started an inventory of the Spanish royal collections in 1810, a selection of which were to be gathered at the Museo Josefino, and others at the Musée Napoleón in Paris. Inventories: one on 25 October 1810, signed by Maella, Goya and Napoli (AGP, Gobierno Intruso, caja 29, exp.no.31) (see Antigüedad del Castillo-Olivares 1987, pp.298-301); and another one in November 1810, signed by Maella, Goya and Napoli (AHN, Consejos, leg.17.787)",
+      "bibliography": "Mano 2008; Sancho 2001; Antigüedad del Castillo-Olivares 1987"
+    },
+    {
+      "from": "Frédéric Quilliet",
+      "to": "Francisco de Goya y Lucientes",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "Quilliet started an inventory of the Spanish royal collections in 1810, a selection of which were to be gathered at the Museo Josefino, and others at the Musée Napoleón in Paris. Inventories: one on 25 October 1810, signed by Maella, Goya and Napoli (AGP, Gobierno Intruso, caja 29, exp.no.31) (see Antigüedad del Castillo-Olivares 1987, pp.298-301); and another one in November 1810, signed by Maella, Goya and Napoli (AHN, Consejos, leg.17.787)",
+      "bibliography": "Mano 2008; Sancho 2001; Antigüedad del Castillo-Olivares 1987"
+    },
+    {
+      "from": "Frédéric Quilliet",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "employer-employee?",
+      "collaborations": "Quilliet made an inventory of Godoy's collection (commissioned by Godoy himself? Or when he was in exile?)",
+      "bibliography": "Mano 2008; Sancho 2001; Antigüedad del Castillo-Olivares 1987",
+      "archives": "<i>Catálogo de la colección de cuadros que poseía el Príncipe de la Paz en 1808</i>, BNE [MSS/21458/3](https://bdh.bne.es/bnesearch/detalle/bdh0000230113;jsessionid=0DE9CE03C99D72B56D0CFC2AFBC455FF)"
     },
     {
       "from": "Mariano Salvador Maella",
