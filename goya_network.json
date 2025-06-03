@@ -2566,6 +2566,12 @@
     },
     {
       "from": "Frédéric Quilliet",
+      "to": "Juan Agustín Ceán Bermúdez",
+      "connection_level": "secondary?",
+      "relationship type": "acquaintance? Quilliet was very well acquainted with Ceán Bermúdez's <i>Diccionario</i> (1800), which he used to locate artworks in palaces and convents. He also used Ceán's book to write his <i>Dictionnaire des peintres espagnols</i> (París, Fain, 1816)"
+    },
+    {
+      "from": "Frédéric Quilliet",
       "to": "Joseph Bonaparte",
       "connection_level": "direct",
       "relationship type": "patronage; employer-employee",
