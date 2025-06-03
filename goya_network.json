@@ -17,6 +17,7 @@
       "children": "Javier Goya (1 survived out of 8)",
       "parents": "José Goya and Gracia Lucientes",
       "nationality": "Spanish",
+      "address": "C/ Desengaño, 1, Madrid (by 1784); Quinta del Sordo, Madrid (acquired in 1819)",
       "bibliography": "Schwander 2021; Tomlinson 2020; Mena Marqués & Manuel Matilla, 2019; Mena Marqués & Manuel Matilla, 2018; Mena Marqués 2008; Schulz 2005; Wolf 1994; Bozal 1994; Tomlinson 1992; Carreta Parrondo & Vega 1991; Águeda & Salas 1982; López Canellas 1981; Glendinning 1977; Gassier 1973; Gassier & Wilson-Bareau 1971; Harris 1964",
       "websites": [
         "[Fundación Goya en Aragón](https://fundaciongoyaenaragon.es/)",
@@ -29,17 +30,24 @@
     {
       "id": "Javier Goya",
       "label": "Javier Goya",
+      "full name": "Javier Goya y Bayeu",
       "life dates": "1784-1854",
-      "portrayed by": "Goya",
+      "profession": "'hacendado y labrador' (considered as such in a legal document from 1832)",
+      "address": "C/ Desengaño, 1, Madrid (childhood); C/ Valverde, 15, Madrid (by 1828)",
+      "portrayed by": "Goya: 1805, miniature, oil on copper (Museo de Zaragoza 51358; 1805, drawing (Colección Casa Torres); 1805-06, full portrait, oil painting (private collection); 1824, drawing (private collection)",
+      "married to": "Gumersinda Goicoechea (1805)",
+      "children": "Mariano Goya (born 1806)",
       "nationality": "Spanish",
+      "websites": "[Arte Procom](https://sites.google.com/site/arteprocomun/francisco-javier-goya-y-bayeu-noticias-para-su-biografia-y-de-la-quinta-del-sordo)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Javier_Goya.jpg",
-      "image source": "portrait by Goya, drawing, 1805-06"
+      "image source": "portrait by Goya, 1824, drawing"
     },
     {
       "id": "Mariano Goya",
       "label": "Mariano Goya",
       "life dates": "1806-1874",
       "nationality": "Spanish",
+      "portrayed by": "Goya: c.1810, oil painting, full portrait (private collection); c.1813-15, oil painting, bust with top hat (Museo Goya, Colección Ibercaja: deposit); 1827, oil painting, bust (Meadows Museum, Texas)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Goya.jpg",
       "image source": "Portrait by Goya, 1827, Meadows Museum, Texas (67.03)"
     },
@@ -549,12 +557,12 @@
       "member of": "RABASF",
       "collector of Goya's works": "Goya gave a vast number of his works to Ceán Bermúdez, including rare working proofs (now at the BNE); this collection was later acquired by Valentín Carderera",
       "author of": "<i>Colección lithographica de cuadros del Rey de España el Sr. D. Fernando VII</i> (1826-37); <i>Diccionario histórico de los más ilustres profesores de las Bellas Artes en España</i> (1800); <i>Sumario de las antigüedades romanas que hay en España, en especial las pertenecientes a las Bellas Artes</i> (1832, postumous)", 
-      "portrayed by": "Francisco de Goya y Lucientes, 1785 (private collection)",
+      "portrayed by": "Goya (attributed), c.1783, oil painting (private collection); Goya, c.1786, oil painting (private collection); Goya c.1798-1799, drawing (colección Colomer)",
       "collector of": "Dürer, José de Ribera, Piranesi, among others",
       "married to": "Manuela Camas y de las Heras",
       "studies in": "Universidad Complutense",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cean_Bermudez.jpg",
-      "image source": "portrait by Goya, 1785"
+      "image source": "portrait attributed to Goya, c.1783"
     },
     {
       "id": "Joaquín María Ferrer",
@@ -2235,9 +2243,17 @@
       "label": "Galos",
       "life dates": "1774-1830", 
       "nationality": "French",
-      "profession": "accountant?",
+      "profession": "banker; accountant",
+      "in Spain": "he lived in Pamplona (before 1804)",
+      "in Bordeaux": "from 1804",
+      "founder of": "Caja de Ahorros de Burdeos (1819)",
+      "works as": "Director of the Banco de Burdeos (after 1819); member of the Chamber of Commerce (1827); Parliament member (1830)",
+      "political views": "liberal: elected member of Parliament with the 1830 Revolution",
       "collector of Goya's works": "Bulls of Bordeaux",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg"
+      "portrayed by": "Goya, 1826, oil painting (Barnes Foundation)",
+      "websites": "[Fundación Goya en Aragón](https://fundaciongoyaenaragon.es/obra/jacques-galos/190)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Galos.jpg",
+      "image source": "Goya portrait, 1826"
     },
     {
       "id": "XI Count of Altamira",
@@ -2464,7 +2480,7 @@
       "to": "Mariano Goya",
       "connection_level": "direct",
       "relationship type": "relatives; grandfather-grandson",
-      "portraits": "1812-14, private collection, Duke of Alburquerque, Madrid; 1827 Meadows Museum, Texas"
+      "portraits": "c.1810, oil painting, full portrait (private collection); c.1813-15, oil painting, bust with top hat (Museo Goya, Colección Ibercaja: deposit); 1827, oil painting, bust (Meadows Museum, Texas, 67.03)"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2472,7 +2488,13 @@
       "connection_level": "direct",
       "relationship type": "relatives; father-son",
       "correspondence": "Correspondence. 1824-XII-24: Goya wonders why Javier doesn't answer his letters; mentions Galos (Canellas no.271, p.388); 1828-I-17: mentions Galos, Mugurio and Esteve (no.277, p.392); 1828-III-12: mentions Mariano and Galos (no.279, p.393); 1828-III-26 (no.280, p.394)",
-      "portraits": "1805 private collection, Casa Torres, drawing (GW.843); 1805, Museo de Zaragoza, miniature (GW.844); 1805-06, private collection, Paris, full portrait (GW.852); 1810-15 Boston MFA (GW.837); 1824 private collection, drawing (GW.1636)"
+      "portraits": "1805 private collection, Casa Torres, drawing (GW.843); 1805, Museo de Zaragoza, miniature (GW.844); 1805-06, private collection, Paris, full portrait (GW.852); 1810-15, possibly Javier Goya, Boston MFA (GW.837); 1824 private collection, drawing (GW.1636)"
+    },
+    {
+      "from": "Vicente López",
+      "to": "Javier Goya",
+      "connection_level": "direct",
+      "relationship type": "professional. In 1831, López made a valuation of Goya's paintings inherited by Javier Goya"
     },
     {
       "from": "Francisco de Goya y Lucientes",
@@ -2970,7 +2992,8 @@
       "from": "Francisco de Goya y Lucientes",
       "to": "Jacques Galos",
       "connection_level": "direct",
-      "relationship type": "friends",
+      "relationship type": "friends. Galos became Goya's accountant in Bordeaux, and he also managed Goya's inheritance",
+      "collector of Goya's works": "Galos acquired the <i>Bulls of Bordeaux</i>",
       "portraits": "1826, Philadelphia, [Barnes Foundation BF5](https://collection.barnesfoundation.org/objects/5664/Portrait-of-Jacques-Galos/)"
     },
     {
@@ -3026,7 +3049,8 @@
     {
       "from": "Javier Goya",
       "to": "Jacques Galos",
-      "label": ""
+      "label": "acquaintances. Galos mentioned Goya in his letters to Javier Goya",
+      "correspondence": "yes"
     },
     {
       "from": "Javier Goya",
@@ -5594,6 +5618,12 @@
       "to": "Fernando VII",
       "connection_level": "direct",
       "relationship type": "relatives: father-son"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "relatives: grandfather-grandson"
     },
     {
       "from": "María Luisa de Parma",
