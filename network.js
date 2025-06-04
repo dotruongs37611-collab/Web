@@ -254,7 +254,16 @@ document.addEventListener('DOMContentLoaded', async function () {
         network.fit({ animation: true, minZoomLevel: 0.5 });
 
         document.getElementById('loadingMessage').style.display = 'none';
-    
+
+        // Si hay un hash en la URL (como #Delacroix), enfocar automáticamente ese nodo
+        const hash = window.location.hash.substring(1); // quita el #
+        if (hash && nodesMap[hash]) {
+          const nodeId = nodesMap[hash].id;
+          network.focus(nodeId, { animation: true });
+          network.selectNodes([nodeId]);
+          network.emit('click', { nodes: [nodeId] });
+        }
+
         // 🔁 AÑADE esto aquí dentro
         nodes.forEach(node => {
           if (node._imageUrl) {
@@ -352,6 +361,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
+        // Actualiza la URL con el nodo clicado
+        window.history.pushState(null, "", `#${params.nodes[0]}`);
+        
         const node = nodes.get(params.nodes[0]);
 
         clearHighlights();
