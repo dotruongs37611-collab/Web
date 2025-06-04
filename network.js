@@ -255,22 +255,23 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         document.getElementById('loadingMessage').style.display = 'none';
 
-        // Si hay un hash en la URL (como #Delacroix), enfocar automáticamente ese nodo
-        const hash = window.location.hash.substring(1); // quita el #
-        if (hash && nodesMap[hash]) {
-          const nodeId = nodesMap[hash].id;
-          network.focus(nodeId, { animation: true });
-          network.selectNodes([nodeId]);
-          network.emit('click', { nodes: [nodeId] });
-        }
-
         // 🔁 AÑADE esto aquí dentro
         nodes.forEach(node => {
           if (node._imageUrl) {
             nodes.update({ id: node.id, image: node._imageUrl });
           }
         });
-    
+
+        setTimeout(() => {
+          const hash = decodeURIComponent(window.location.hash.substring(1));
+          if (hash && nodesMap[hash]) {
+            const nodeId = nodesMap[hash].id;
+            network.focus(nodeId, { animation: true });
+            network.selectNodes([nodeId]);
+            network.emit('click', { nodes: [nodeId] });
+          }
+        }, 300); // un poco después del ajuste de imágenes
+
       }, 2000); // Espera 2 segundos más
     });
 
