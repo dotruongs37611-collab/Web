@@ -265,8 +265,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         const hash = decodeURIComponent(window.location.hash.substring(1));
         if (hash && nodesMap[hash]) {
-          const nodeId = nodesMap[hash].id;
-          selectAndShowNode(nodeId);
+          selectAndShowNode(nodesMap[hash].id);
         }
       }, 300);
 
@@ -642,6 +641,92 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
 
     });
+
+    window.selectAndShowNode = function (nodeId) {
+      // Simula clic en un nodo, tal como se hace en el evento 'click'
+      window.history.pushState(null, "", `#${nodeId}`);
+    
+      const node = nodes.get(nodeId);
+      if (!node) return;
+    
+      clearHighlights();
+      highlightNeighborhood(node.id);
+      lastHighlightedNode = node.id;
+    
+      const degree = edgeCount[node.id] || 0;
+      let html = `<div class="node-info">`;
+    
+      if (node.image) {
+        html += `<img src="${node.image}" alt="${node.id}" style="max-width: 150px;"><br>`;
+      }
+    
+      html += `<h2>${node.id}</h2>`;
+    
+      if (node["life dates"] || node["profession"]) {
+        if (node["life dates"]) {
+          html += `<p style="margin-top:0.3rem;"><strong>Life dates:</strong> ${node["life dates"]}</p>`;
+        }
+        if (node["profession"]) {
+          html += `<p style="margin-top:0.3rem;"><strong>Profession:</strong> ${node["profession"]}</p>`;
+        }
+      }
+    
+      const nodesMapByLabel = {};
+      nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
+    
+      const fieldsToShow = [...]; // Usa aquí el mismo array que ya tienes (cópialo entero)
+    
+      fieldsToShow.forEach((field, idx) => {
+        if (field.type === "section") {
+          const fieldsInThisSection = [];
+          for (let i = idx + 1; i < fieldsToShow.length; i++) {
+            if (fieldsToShow[i].type === "section") break;
+            fieldsInThisSection.push(fieldsToShow[i]);
+          }
+    
+          const hasData = fieldsInThisSection.some(f => node[f.key]);
+          if (hasData) {
+            html += `<h3 class="section-heading">${field.label}</h3>`;
+          }
+        } else if (field.type === "field" && node[field.key]) {
+          let value = node[field.key];
+          let htmlText;
+    
+          if (Array.isArray(value)) {
+            const processedItems = value.map(item => {
+              return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMapByLabel)}</li>`;
+            });
+            htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+          } else {
+            htmlText = autoLinkNames(processMarkdownLinks(value), nodesMapByLabel);
+          }
+          html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
+        }
+      });
+    
+      const connections = [];
+      edges.get().forEach(edge => {
+        if (edge.from === node.id || edge.to === node.id) {
+          const otherId = edge.from === node.id ? edge.to : edge.from;
+          const otherNode = nodes.get(otherId);
+          if (otherNode) {
+            connections.push({ id: otherId, name: otherNode.id });
+          }
+        }
+      });
+    
+      html += `<p><strong>Connections:</strong> ${connections.length}</p><ul>`;
+      connections.sort((a, b) => a.name.localeCompare(b.name)).forEach(conn => {
+        html += `<li><a href="#" style="color:#66ccff" onclick="focusNode('${conn.id}')">${conn.name}</a></li>`;
+      });
+      html += `</ul></div>`;
+    
+      document.getElementById("nodeInfo").innerHTML = html;
+    
+      network.focus(node.id, { animation: true });
+      network.selectNodes([node.id]);
+    };
+
 
     window.focusNode = function (nodeId) {
       clearHighlights();
