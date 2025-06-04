@@ -719,7 +719,7 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
 
   <script>
   function downloadRIS() {
-    const ris = `TY  - ELEC\nTI  - The Goya Network\nED  - Paula Fayos-Pérez\nCN  - Anita Vero\nUR  - https://www.goyanetwork.com\nPY  - 2025\nRI  - protected by notarial deed (Madrid, 2025)\nER  -`;
+    const ris = `TY  - ELEC\nTI  - The Goya Network\nED  - Paula Fayos-Pérez\nCT  - Anita Vero\nUR  - https://www.goyanetwork.com\nPY  - 2025\nPB  - Goya Network\nCY  - Madrid\nDA  - 2025\nRI  - protected by notarial deed (Madrid, 2025)\nER  -`;
     const blob = new Blob([ris], { type: 'text/plain' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
