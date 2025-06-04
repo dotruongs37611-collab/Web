@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.once("stabilizationIterationsDone", function () {
       setTimeout(() => {
         network.setOptions({ physics: false });
-        network.fit({ animation: true, minZoomLevel: 0.5 });
+        // NO hacemos zoom aquí, esperamos a ver si hay hash
 
         document.getElementById('loadingMessage').style.display = 'none';
     
