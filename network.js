@@ -658,16 +658,20 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     function showShareModal(label = '') {
       const modal = document.getElementById('shareModal');
-      const shareUrl = `${window.location.origin}`;
-      const text = `Check out ${label} on Goya Network`;
+      const hash = '#' + label.replace(/ /g, '_');
+      const shareUrl = `${window.location.origin}${window.location.pathname}${hash}`;
+      const text = `Check out ${label} on the Goya Network`;
     
-      // Mostramos URL para copiar (puedes cambiar a directUrl si prefieres)
       document.getElementById('shareUrl').value = shareUrl;
     
-      // Enlaces de redes con imagen garantizada
-      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
-      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(text)}`;
-      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(text)}`;
+      document.getElementById('twitterShare').href =
+        `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
+    
+      document.getElementById('linkedinShare').href =
+        `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(text)}`;
+    
+      document.getElementById('facebookShare').href =
+        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(text)}`;
     
       modal.style.display = 'flex';
     }
@@ -694,25 +698,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
     
-    const node = nodesMapByLabel[nodeName];
-    if (node?.image) {
-      const instaBtn = document.createElement('button');
-      instaBtn.innerHTML = '<i class="fab fa-instagram"></i> Instagram';
-      instaBtn.style.marginTop = '1rem';
-      instaBtn.style.padding = '0.5rem 1rem';
-      instaBtn.style.background = '#833AB4';
-      instaBtn.style.color = 'white';
-      instaBtn.style.border = '1px solid #555';
-      instaBtn.style.borderRadius = '4px';
-      instaBtn.onclick = () => {
-        const link = document.createElement('a');
-        link.href = node.image;
-        link.download = `${node.label}.jpg`;
-        link.click();
-      };
-      nodeInfo.appendChild(instaBtn);
-    }
-
     // Export RIS
 const risBtn = document.createElement('button');
 risBtn.innerHTML = '<i class="fas fa-file-alt"></i> Export RIS';
