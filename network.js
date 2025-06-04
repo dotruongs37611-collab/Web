@@ -697,49 +697,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         nodeInfo.appendChild(shareBtn);
       }
     }
-    
-    // Export RIS
-const risBtn = document.createElement('button');
-risBtn.innerHTML = '<i class="fas fa-file-alt"></i> Export RIS';
-risBtn.style.marginTop = '1rem';
-risBtn.style.padding = '0.5rem 1rem';
-risBtn.style.background = '#444';
-risBtn.style.color = 'white';
-risBtn.style.border = '1px solid #555';
-risBtn.style.borderRadius = '4px';
-risBtn.onclick = () => {
-  const ris = `TY  - ELEC
-TI  - ${node.label} - Goya Network
-AU  - Goya Network
-UR  - ${window.location.origin}${window.location.pathname}#${node.label.replace(/ /g, '_')}
-PY  - 2025
-ER  -`;
-  const blob = new Blob([ris], { type: 'text/plain' });
-  const link = document.createElement('a');
-  link.href = URL.createObjectURL(blob);
-  link.download = `${node.label.replace(/ /g, '_')}.ris`;
-  link.click();
-};
-nodeInfo.appendChild(risBtn);
-
-    // Export CSV
-    const csvBtn = document.createElement('button');
-    csvBtn.innerHTML = '<i class="fas fa-file-csv"></i> Export CSV';
-    csvBtn.style.marginTop = '1rem';
-    csvBtn.style.padding = '0.5rem 1rem';
-    csvBtn.style.background = '#444';
-    csvBtn.style.color = 'white';
-    csvBtn.style.border = '1px solid #555';
-    csvBtn.style.borderRadius = '4px';
-    csvBtn.onclick = () => {
-      const csv = `id,label,profession,nationality,url\n"${node.id}","${node.label}","${node.profession || ''}","${node.nationality || ''}","${window.location.origin}${window.location.pathname}#${node.label.replace(/ /g, '_')}"`;
-      const blob = new Blob([csv], { type: 'text/csv' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = `${node.label.replace(/ /g, '_')}.csv`;
-      link.click();
-    };
-    nodeInfo.appendChild(csvBtn);
 
     // Update URL when a node is clicked
     function updateURL(nodeId) {
