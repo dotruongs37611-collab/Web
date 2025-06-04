@@ -658,19 +658,19 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     function showShareModal(label = '') {
       const modal = document.getElementById('shareModal');
-    
       const encodedLabel = label.replace(/ /g, '_');
-      const directUrl = `${window.location.origin}${window.location.pathname}#${encodedLabel}`;
-      const baseUrl = `${window.location.origin}`;
+      const shareUrl = `${window.location.origin}${window.location.pathname}#${encodedLabel}`;
     
-      // Mostrar la URL con hash para copiar
-      document.getElementById('shareUrl').value = directUrl;
+      // Mostrar solo el link del nodo
+      document.getElementById('shareUrl').value = shareUrl;
     
-      // Twitter y Facebook solo usarán baseUrl (para cargar imagen), pero el texto tendrá el link
-      const tweetText = `Check out ${label} on Goya Network: ${directUrl}`;
-      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(baseUrl)}&text=${encodeURIComponent(tweetText)}`;
-      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(baseUrl)}&summary=${encodeURIComponent(tweetText)}`;
-      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(baseUrl)}&quote=${encodeURIComponent(tweetText)}`;
+      // Solo usar esa URL en todos los botones
+      const encodedFull = encodeURIComponent(shareUrl);
+      const encodedText = encodeURIComponent(`Check out ${label} on Goya Network`);
+    
+      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?text=${encodedText}%20${encodedFull}`;
+      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodedFull}&title=${encodedText}`;
+      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodedFull}`;
     
       modal.style.display = 'flex';
     }
@@ -696,7 +696,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         nodeInfo.appendChild(shareBtn);
       }
     }
-
+    
     const node = nodesMapByLabel[nodeName];
     if (node?.image) {
       const instaBtn = document.createElement('button');
