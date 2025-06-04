@@ -661,7 +661,8 @@ function updateURL(nodeId) {
           if (node) {
             // Wait for network to stabilize
             setTimeout(() => {
-              focusNode(node.id);
+              network.selectNodes([node.id]);
+              network.emit("click", { nodes: [node.id] });
               resolve(true);
             }, 1000);
           } else {
@@ -671,11 +672,6 @@ function updateURL(nodeId) {
           resolve(false);
         }
       });
-    }
-    
-    // Add this to the click handler in the network.on("click") event:
-    if (params.nodes.length > 0) {
-      updateURL(params.nodes[0]);
     }
     
     // Call this at the end of the DOMContentLoaded event:
