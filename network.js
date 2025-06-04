@@ -261,6 +261,14 @@ document.addEventListener('DOMContentLoaded', async function () {
             nodes.update({ id: node.id, image: node._imageUrl });
           }
         });
+
+        // Now handle the initial hash
+        handleInitialHash().then(handled => {
+          if (!handled) {
+            // Default view if no hash
+            network.fit({ animation: true });
+          }
+        });
     
       }, 2000); // Espera 2 segundos más
     });
@@ -657,7 +665,10 @@ function updateURL(nodeId) {
         const hash = window.location.hash.substring(1);
         if (hash) {
           const decodedHash = decodeURIComponent(hash);
-          const node = nodes.get().find(n => n.id === decodedHash);
+          const node = nodes.get().find(n => 
+            n.id === decodedHash || 
+            (typeof n.label === "string" && n.label === decodedHash)
+          );
           if (node) {
             // Wait for network to stabilize
             setTimeout(() => {
@@ -686,14 +697,6 @@ function updateURL(nodeId) {
         nodes.forEach(node => {
           if (node._imageUrl) {
             nodes.update({ id: node.id, image: node._imageUrl });
-          }
-        });
-    
-        // Now handle the initial hash
-        handleInitialHash().then(handled => {
-          if (!handled) {
-            // Default view if no hash
-            network.fit({ animation: true });
           }
         });
     
