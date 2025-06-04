@@ -526,6 +526,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         html += `</ul></div>`;
         document.getElementById("nodeInfo").innerHTML = html;
+        addShareButton(node.id);
         
             } else if (params.edges.length > 0) {
         clearHighlights();
@@ -652,6 +653,42 @@ document.addEventListener('DOMContentLoaded', async function () {
       nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
       lastHighlightedNode = nodeId;
     };
+
+    // Mostrar modal para compartir
+    function showShareModal(nodeName = '') {
+      const modal = document.getElementById('shareModal');
+      const shareUrl = nodeName ? 
+        `${window.location.origin}${window.location.pathname}#${encodeURIComponent(nodeName)}` : 
+        window.location.href;
+    
+      document.getElementById('shareUrl').value = shareUrl;
+      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${nodeName ? 'Check out ' + nodeName + ' on Goya Network' : 'Explore Goya Network'}`;
+      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}`;
+      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+      
+      modal.style.display = 'flex';
+    }
+    
+    // Crear y añadir botón
+    function addShareButton(nodeName) {
+      const shareBtn = document.createElement('button');
+      shareBtn.innerHTML = '<i class="fas fa-share-alt"></i> Share';
+      shareBtn.style.marginTop = '1rem';
+      shareBtn.style.padding = '0.5rem 1rem';
+      shareBtn.style.background = '#333';
+      shareBtn.style.color = 'white';
+      shareBtn.style.border = '1px solid #555';
+      shareBtn.style.borderRadius = '4px';
+      shareBtn.onclick = () => showShareModal(nodeName);
+    
+      const nodeInfo = document.getElementById('nodeInfo');
+      if (nodeInfo) {
+        const existingShareBtn = nodeInfo.querySelector('.share-btn');
+        if (existingShareBtn) existingShareBtn.remove();
+        shareBtn.className = 'share-btn';
+        nodeInfo.appendChild(shareBtn);
+      }
+    }
 
     // Update URL when a node is clicked
 function updateURL(nodeId) {
