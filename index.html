@@ -719,49 +719,21 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
 
   <script>
   function downloadRIS() {
-    // Create RIS content with all required fields
-    const risContent = [
-      'TY  - WEB',
-      'TI  - The Goya Network',
-      'A1  - Fayos-Pérez, Paula',
-      'A2  - Vero, Anita',  // Contributor explicitly added
-      'UR  - https://www.goyanetwork.com',
-      'PY  - 2025',
-      'CY  - Madrid',
-      'DA  - 2025/06/04',
-      'N1  - protected by notarial deed (Madrid, 2025)',  // Rights explicitly added
-      'ER  - '
-    ].join('\n');
-  
-    // Create and trigger download
-    const blob = new Blob([risContent], { type: 'text/plain;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
+    const ris = `TY  - ELEC\nTI  - The Goya Network\nAU  - Fayos-Pérez, Paula\nA2  - Vero, Anita\nDA  - 2025///\nPY  - 2025\nLA  - English\nUR  - https://www.goyanetwork.com\nER  - `;
+    const blob = new Blob([ris], { type: 'text/plain' });
     const link = document.createElement('a');
-    link.href = url;
+    link.href = URL.createObjectURL(blob);
     link.download = 'GoyaNetwork.ris';
-    document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
   }
   
   function downloadCSV() {
-    // Create CSV content with all required fields
-    const csvContent = [
-      ['title', 'editor', 'contributor', 'url', 'year', 'rights'],
-      ['"The Goya Network"', '"Paula Fayos-Pérez"', '"Anita Vero"', '"https://www.goyanetwork.com"', '"2025"', '"protected by notarial deed (Madrid, 2025)"']
-    ].map(e => e.join(',')).join('\n');
-  
-    // Create and trigger download
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
+    const csv = `title,url,author,contributor,year,language\n"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","Anita Vero","2025","English"`;
+    const blob = new Blob([csv], { type: 'text/csv' });
     const link = document.createElement('a');
-    link.href = url;
+    link.href = URL.createObjectURL(blob);
     link.download = 'GoyaNetwork.csv';
-    document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
   }
   </script>
   
