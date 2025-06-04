@@ -681,8 +681,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       shareBtn.style.color = 'white';
       shareBtn.style.border = '1px solid #555';
       shareBtn.style.borderRadius = '4px';
-      shareBtn.onclick = () => showShareModal(nodeName);
-    
+      const label = nodes.get(nodeName)?.label || nodeName;
+      shareBtn.onclick = () => showShareModal(label.replace(/ /g, '_'));
+
       const nodeInfo = document.getElementById('nodeInfo');
       if (nodeInfo) {
         const existingShareBtn = nodeInfo.querySelector('.share-btn');
