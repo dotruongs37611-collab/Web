@@ -659,7 +659,16 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Mostrar modal para compartir
     function showShareModal(nodeName = '') {
       const modal = document.getElementById('shareModal');
-      const shareUrl = 'https://www.goyanetwork.com'; // Siempre base sin hash
+      const directUrl = `${window.location.origin}${window.location.pathname}#${nodeName}`;
+      const baseUrl = `${window.location.origin}`;
+      
+      // Por defecto: mostrar enlace con hash
+      document.getElementById('shareUrl').value = directUrl;
+      
+      // Twitter y Facebook usan el baseUrl para que aparezca la imagen
+      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(baseUrl)}&text=Check out ${nodeName} on Goya Network: ${directUrl}`;
+      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(baseUrl)}&summary=${encodeURIComponent(directUrl)}`;
+      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(baseUrl)}&quote=Check out ${nodeName} on Goya Network: ${directUrl}`;
 
       document.getElementById('shareUrl').value = shareUrl;
       document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${nodeName ? 'Check out ' + nodeName + ' on Goya Network' : 'Explore Goya Network'}`;
@@ -690,6 +699,68 @@ document.addEventListener('DOMContentLoaded', async function () {
         nodeInfo.appendChild(shareBtn);
       }
     }
+
+    const node = nodesMapByLabel[nodeName];
+    if (node?.image) {
+      const instaBtn = document.createElement('button');
+      instaBtn.innerHTML = '<i class="fab fa-instagram"></i> Instagram';
+      instaBtn.style.marginTop = '1rem';
+      instaBtn.style.padding = '0.5rem 1rem';
+      instaBtn.style.background = '#833AB4';
+      instaBtn.style.color = 'white';
+      instaBtn.style.border = '1px solid #555';
+      instaBtn.style.borderRadius = '4px';
+      instaBtn.onclick = () => {
+        const link = document.createElement('a');
+        link.href = node.image;
+        link.download = `${node.label}.jpg`;
+        link.click();
+      };
+      nodeInfo.appendChild(instaBtn);
+    }
+
+    // Export RIS
+const risBtn = document.createElement('button');
+risBtn.innerHTML = '<i class="fas fa-file-alt"></i> Export RIS';
+risBtn.style.marginTop = '1rem';
+risBtn.style.padding = '0.5rem 1rem';
+risBtn.style.background = '#444';
+risBtn.style.color = 'white';
+risBtn.style.border = '1px solid #555';
+risBtn.style.borderRadius = '4px';
+risBtn.onclick = () => {
+  const ris = `TY  - ELEC
+TI  - ${node.label} - Goya Network
+AU  - Goya Network
+UR  - ${window.location.origin}${window.location.pathname}#${node.label.replace(/ /g, '_')}
+PY  - 2025
+ER  -`;
+  const blob = new Blob([ris], { type: 'text/plain' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `${node.label.replace(/ /g, '_')}.ris`;
+  link.click();
+};
+nodeInfo.appendChild(risBtn);
+
+    // Export CSV
+    const csvBtn = document.createElement('button');
+    csvBtn.innerHTML = '<i class="fas fa-file-csv"></i> Export CSV';
+    csvBtn.style.marginTop = '1rem';
+    csvBtn.style.padding = '0.5rem 1rem';
+    csvBtn.style.background = '#444';
+    csvBtn.style.color = 'white';
+    csvBtn.style.border = '1px solid #555';
+    csvBtn.style.borderRadius = '4px';
+    csvBtn.onclick = () => {
+      const csv = `id,label,profession,nationality,url\n"${node.id}","${node.label}","${node.profession || ''}","${node.nationality || ''}","${window.location.origin}${window.location.pathname}#${node.label.replace(/ /g, '_')}"`;
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `${node.label.replace(/ /g, '_')}.csv`;
+      link.click();
+    };
+    nodeInfo.appendChild(csvBtn);
 
     // Update URL when a node is clicked
     function updateURL(nodeId) {
