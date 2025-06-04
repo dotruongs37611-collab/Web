@@ -719,17 +719,19 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
 
 <script>
 function downloadRIS() {
-  const ris = `TY  - ELEC
+  const ris = `TY  - WEB
 TI  - The Goya Network
-ED  - Paula Fayos-Pérez
-A2  - Anita Vero
+A1  - Fayos-Pérez, Paula
+A2  - Vero, Anita
 UR  - https://www.goyanetwork.com
 PY  - 2025
 CY  - Madrid
-DA  - 2025
-PB  - 
-ER  - 
-N1  - protected by notarial deed (Madrid, 2025)`;
+DA  - 2025/06/04
+LA  - 
+DB  - 
+DP  - 
+N1  - protected by notarial deed (Madrid, 2025)
+ER  - `;
   const blob = new Blob([ris], { type: 'text/plain' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
@@ -738,8 +740,8 @@ N1  - protected by notarial deed (Madrid, 2025)`;
 }
 
 function downloadCSV() {
-  const csv = `title,url,editor,contributor,year,rights
-"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","Anita Vero","2025","protected by notarial deed (Madrid, 2025)"`;
+  const csv = `title,author,contributor,url,year,place,rights,access_date
+"The Goya Network","Paula Fayos-Pérez","Anita Vero","https://www.goyanetwork.com","2025","Madrid","protected by notarial deed (Madrid, 2025)","2025-06-04"`;
   const blob = new Blob([csv], { type: 'text/csv' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
