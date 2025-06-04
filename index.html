@@ -704,7 +704,35 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
       Paula Fayos-Pérez, ed., <em>The Goya Network</em>, 2024, https://www.goyanetwork.com (accessed May 17, 2025).
     </li>
   </ul>
+  <div style="margin-top: 1rem;">
+    <button onclick="downloadRIS()" style="margin-right: 1rem; padding: 0.5rem 1rem; background:#444; color:white; border:1px solid #555; border-radius:4px;">
+      <i class="fas fa-file-alt"></i> Export RIS
+    </button>
+    <button onclick="downloadCSV()" style="padding: 0.5rem 1rem; background:#444; color:white; border:1px solid #555; border-radius:4px;">
+      <i class="fas fa-file-csv"></i> Export CSV
+    </button>
+  </div>
 </div>
+
+<script>
+function downloadRIS() {
+  const ris = `TY  - ELEC\nTI  - The Goya Network\nAU  - Goya Network\nUR  - https://www.goyanetwork.com\nPY  - 2025\nER  -`;
+  const blob = new Blob([ris], { type: 'text/plain' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'GoyaNetwork.ris';
+  link.click();
+}
+
+function downloadCSV() {
+  const csv = `title,url,author,year\n"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","2025"`;
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'GoyaNetwork.csv';
+  link.click();
+}
+</script>
   
   <div class="contributions-section">
     <h2>Contributions</h2>
