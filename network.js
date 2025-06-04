@@ -656,28 +656,24 @@ document.addEventListener('DOMContentLoaded', async function () {
       lastHighlightedNode = nodeId;
     };
 
-    // Mostrar modal para compartir
     function showShareModal(nodeName = '') {
       const modal = document.getElementById('shareModal');
+    
       const directUrl = `${window.location.origin}${window.location.pathname}#${nodeName}`;
       const baseUrl = `${window.location.origin}`;
-      
-      // Por defecto: mostrar enlace con hash
-      document.getElementById('shareUrl').value = directUrl;
-      
-      // Twitter y Facebook usan el baseUrl para que aparezca la imagen
-      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(baseUrl)}&text=Check out ${nodeName} on Goya Network: ${directUrl}`;
-      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(baseUrl)}&summary=${encodeURIComponent(directUrl)}`;
-      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(baseUrl)}&quote=Check out ${nodeName} on Goya Network: ${directUrl}`;
-
+    
+      // Mostrar solo el link del nodo
+      const shareUrl = directUrl;
       document.getElementById('shareUrl').value = shareUrl;
-      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${nodeName ? 'Check out ' + nodeName + ' on Goya Network' : 'Explore Goya Network'}`;
-      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}`;
-      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
-      
+    
+      // Twitter, Facebook, LinkedIn usan baseUrl para imagen, y añadimos el link como texto
+      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(baseUrl)}&text=Check out ${nodeName} on Goya Network: ${shareUrl}`;
+      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(baseUrl)}&summary=Check out ${nodeName} on Goya Network: ${shareUrl}`;
+      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(baseUrl)}&quote=Check out ${nodeName} on Goya Network: ${shareUrl}`;
+    
       modal.style.display = 'flex';
     }
-    
+
     // Crear y añadir botón
     function addShareButton(nodeName) {
       const shareBtn = document.createElement('button');
