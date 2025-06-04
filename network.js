@@ -674,7 +674,92 @@ document.addEventListener('DOMContentLoaded', async function () {
       const nodesMapByLabel = {};
       nodes.get().forEach(n => nodesMapByLabel[n.label] = n);
     
-      const fieldsToShow = [...]; // Usa aquí el mismo array que ya tienes (cópialo entero)
+      const fieldsToShow = [
+        { type: "section", label: "Identity and Personal Data" },
+          { type: "field", key: "full name", label: "Full name" },
+          { type: "field", key: "also known as", label: "Also known as" },
+          { type: "field", key: "other names", label: "Other names" },
+          { type: "field", key: "pseudonyms", label: "Pseudonyms" },
+          { type: "field", key: "nationality", label: "Nationality" },
+          { type: "field", key: "born in", label: "Born in" },
+          { type: "field", key: "considered as", label: "Considered as" },
+          { type: "field", key: "political views", label: "Political views" },
+          { type: "field", key: "curiosities", label: "Curiosities" },
+          { type: "field", key: "aristocratic titles", label: "Aristocratic titles" },
+        
+          { type: "section", label: "Family and Personal Relationships" },
+          { type: "field", key: "parents", label: "Parents" },
+          { type: "field", key: "siblings", label: "Siblings" },
+          { type: "field", key: "married to", label: "Married to" },
+          { type: "field", key: "partners/lovers", label: "Partners/lovers" },
+          { type: "field", key: "children", label: "Children" },
+          { type: "field", key: "friends", label: "Friends" },
+          { type: "field", key: "rivals", label: "Rivals" },
+          { type: "field", key: "correspondence", label: "Correspondence" },
+          { type: "field", key: "meets", label: "Meets" },
+        
+          { type: "section", label: "Education, Profession and Institutions" },
+          { type: "field", key: "studies in", label: "Studies in" },
+          { type: "field", key: "works as", label: "Works as" },
+          { type: "field", key: "works for", label: "Works for" },
+          { type: "field", key: "influenced by", label: "Influenced by" },
+          { type: "field", key: "follower of", label: "Follower of" },
+          { type: "field", key: "masters", label: "Masters" },
+          { type: "field", key: "students", label: "Students" },
+          { type: "field", key: "member of", label: "Member of" },
+          { type: "field", key: "founder of", label: "Founder of" },
+          { type: "field", key: "editor of", label: "Editor of" },
+          { type: "field", key: "writes in", label: "Writes in" },
+          { type: "field", key: "participates in", label: "Participates in" },
+          { type: "field", key: "collaborates with", label: "Collaborates with" },
+          { type: "field", key: "registered in", label: "Registered in" },
+          { type: "field", key: "mentions", label: "Mentions" },
+          { type: "field", key: "mentioned in the French press", label: "Mentioned in the French press" },
+          { type: "field", key: "decorations/awards", label: "Decorations/awards" },
+          { type: "field", key: "salon", label: "Salon" },
+          { type: "field", key: "tertulia", label: "Tertulia" },
+
+          { type: "section", label: "Artistic Activity, Art Collecting and Patronage" },
+          { type: "field", key: "author of", label: "Author of" },
+          { type: "field", key: "patrons", label: "Patrons" },
+          { type: "field", key: "patronage", label: "Patronage" },
+          { type: "field", key: "portrayed by", label: "Portrayed by" },
+          { type: "field", key: "collection", label: "Collection" },
+          { type: "field", key: "art collection", label: "Art collection" },
+          { type: "field", key: "collector of", label: "Collector of" },
+          { type: "field", key: "sales", label: "Sales" },
+
+          { type: "section", label: "Geographic Presence and Movement" },
+          { type: "field", key: "lives in", label: "Lives in" },
+          { type: "field", key: "in Spain", label: "In Spain" },
+          { type: "field", key: "in Madrid", label: "In Madrid" },
+          { type: "field", key: "visits the Prado Museum", label: "Visits the Prado Museum" },
+          { type: "field", key: "in France", label: "In France" },
+          { type: "field", key: "in Paris", label: "In Paris" },
+          { type: "field", key: "in Italy", label: "In Italy" },
+          { type: "field", key: "address", label: "Address" },
+          { type: "field", key: "trips", label: "Trips" },
+        
+          { type: "section", label: "Relationship to Goya and His Work" },
+          { type: "field", key: "link to Goya's work", label: "Link to Goya's work" },
+          { type: "field", key: "discovers Goya's works", label: "Discovers Goya's works" },
+          { type: "field", key: "knows Goya's works", label: "Knows Goya's works" },
+          { type: "field", key: "copies after Goya", label: "Copies after Goya" },
+          { type: "field", key: "writes about Goya", label: "Writes about Goya" },
+          { type: "field", key: "mentions of Goya", label: "Mentions of Goya" },
+          { type: "field", key: "commissions Goya with", label: "Commissions Goya with" },
+          { type: "field", key: "influence of Goya", label: "Influence of Goya" },
+          { type: "field", key: "collector of Goya's works", label: "Collector of Goya's works" },
+          { type: "field", key: "disseminates Goya's works", label: "Disseminates Goya's works" },
+          { type: "field", key: "shows Goya", label: "Shows Goya" },
+          { type: "field", key: "mentions the Prado commentaries", label: "Mentions the Prado commentaries" },
+        
+          { type: "section", label: "Sources and Documentation" },
+          { type: "field", key: "archives", label: "Archives" },
+          { type: "field", key: "bibliography", label: "Bibliography" },
+          { type: "field", key: "websites", label: "Websites" },
+          { type: "field", key: "image source", label: "Image source" },
+        ];
     
       fieldsToShow.forEach((field, idx) => {
         if (field.type === "section") {
@@ -738,22 +823,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     
       nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
       lastHighlightedNode = nodeId;
-    };
-
-    window.selectAndShowNode = function (nodeId) {
-      clearHighlights();
-    
-      network.focus(nodeId, {
-        scale: 1.2,
-        animation: { duration: 500 }
-      });
-    
-      network.selectNodes([nodeId]);
-      nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
-      lastHighlightedNode = nodeId;
-    
-      // Simula el evento de clic
-      network.emit("click", { nodes: [nodeId] });
     };
 
     // Búsqueda funcional
