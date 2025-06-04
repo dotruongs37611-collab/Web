@@ -353,6 +353,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.on("click", function (params) {
       if (params.nodes.length > 0) {
         const node = nodes.get(params.nodes[0]);
+        updateURL(node.id);  // This line should be here
 
         clearHighlights();
         highlightNeighborhood(node.id);
@@ -652,14 +653,24 @@ function updateURL(nodeId) {
 
     // Handle initial URL hash
     function handleInitialHash() {
-      const hash = window.location.hash.substring(1);
-      if (hash) {
-        const decodedHash = decodeURIComponent(hash);
-        const node = nodes.get().find(n => n.id === decodedHash);
-        if (node) {
-          setTimeout(() => focusNode(node.id), 500); // Small delay to ensure network is ready
+      return new Promise((resolve) => {
+        const hash = window.location.hash.substring(1);
+        if (hash) {
+          const decodedHash = decodeURIComponent(hash);
+          const node = nodes.get().find(n => n.id === decodedHash);
+          if (node) {
+            // Wait for network to stabilize
+            setTimeout(() => {
+              focusNode(node.id);
+              resolve(true);
+            }, 1000);
+          } else {
+            resolve(false);
+          }
+        } else {
+          resolve(false);
         }
-      }
+      });
     }
     
     // Add this to the click handler in the network.on("click") event:
@@ -668,7 +679,30 @@ function updateURL(nodeId) {
     }
     
     // Call this at the end of the DOMContentLoaded event:
-    handleInitialHash();
+    network.once("stabilizationIterationsDone", function () {
+      setTimeout(() => {
+        network.setOptions({ physics: false });
+        network.fit({ animation: true, minZoomLevel: 0.5 });
+    
+        document.getElementById('loadingMessage').style.display = 'none';
+    
+        // Load images after stabilization
+        nodes.forEach(node => {
+          if (node._imageUrl) {
+            nodes.update({ id: node.id, image: node._imageUrl });
+          }
+        });
+    
+        // Now handle the initial hash
+        handleInitialHash().then(handled => {
+          if (!handled) {
+            // Default view if no hash
+            network.fit({ animation: true });
+          }
+        });
+    
+      }, 2000);
+    });
 
     // Búsqueda funcional
     const searchInput = document.getElementById('searchInput');
