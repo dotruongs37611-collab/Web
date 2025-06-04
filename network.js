@@ -656,20 +656,21 @@ document.addEventListener('DOMContentLoaded', async function () {
       lastHighlightedNode = nodeId;
     };
 
-    function showShareModal(nodeName = '') {
+    function showShareModal(label = '') {
       const modal = document.getElementById('shareModal');
     
-      const directUrl = `${window.location.origin}${window.location.pathname}#${nodeName}`;
+      const encodedLabel = label.replace(/ /g, '_');
+      const directUrl = `${window.location.origin}${window.location.pathname}#${encodedLabel}`;
       const baseUrl = `${window.location.origin}`;
     
-      // Mostrar solo el link del nodo
-      const shareUrl = directUrl;
-      document.getElementById('shareUrl').value = shareUrl;
+      // Mostrar la URL con hash para copiar
+      document.getElementById('shareUrl').value = directUrl;
     
-      // Twitter, Facebook, LinkedIn usan baseUrl para imagen, y añadimos el link como texto
-      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(baseUrl)}&text=Check out ${nodeName} on Goya Network: ${shareUrl}`;
-      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(baseUrl)}&summary=Check out ${nodeName} on Goya Network: ${shareUrl}`;
-      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(baseUrl)}&quote=Check out ${nodeName} on Goya Network: ${shareUrl}`;
+      // Twitter y Facebook solo usarán baseUrl (para cargar imagen), pero el texto tendrá el link
+      const tweetText = `Check out ${label} on Goya Network: ${directUrl}`;
+      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(baseUrl)}&text=${encodeURIComponent(tweetText)}`;
+      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(baseUrl)}&summary=${encodeURIComponent(tweetText)}`;
+      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(baseUrl)}&quote=${encodeURIComponent(tweetText)}`;
     
       modal.style.display = 'flex';
     }
@@ -685,7 +686,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       shareBtn.style.border = '1px solid #555';
       shareBtn.style.borderRadius = '4px';
       const label = nodes.get(nodeName)?.label || nodeName;
-      shareBtn.onclick = () => showShareModal(label.replace(/ /g, '_'));
+      shareBtn.onclick = () => showShareModal(label);
 
       const nodeInfo = document.getElementById('nodeInfo');
       if (nodeInfo) {
