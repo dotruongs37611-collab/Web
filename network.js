@@ -124,7 +124,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     const nodesMap = {};
+    const labelToId = {};
     const nodes = new vis.DataSet(data.nodes.map(node => {
+      labelToId[node.label] = node.id;
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
@@ -691,10 +693,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     // Update URL when a node is clicked
-function updateURL(nodeId) {
-  const newUrl = window.location.pathname + '#' + encodeURIComponent(nodeId);
-  window.history.pushState({}, '', newUrl);
-}
+    function updateURL(nodeId) {
+      const node = nodes.get(nodeId);
+      const label = node?.label || nodeId;
+      const newUrl = window.location.pathname + '#' + encodeURIComponent(label);
+      window.history.pushState({}, '', newUrl);
+    }
 
     // Handle initial URL hash
     function handleInitialHash() {
@@ -702,10 +706,9 @@ function updateURL(nodeId) {
         const hash = window.location.hash.substring(1);
         if (hash) {
           const decodedHash = decodeURIComponent(hash);
-          const node = nodes.get().find(n => 
-            n.id === decodedHash || 
-            (typeof n.label === "string" && n.label === decodedHash)
-          );
+          const idFromLabel = labelToId[decodedHash];
+          const node = idFromLabel ? nodes.get(idFromLabel) : null;
+
           if (node) {
             // Wait for network to stabilize
             setTimeout(() => {
