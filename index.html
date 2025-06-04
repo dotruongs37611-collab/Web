@@ -717,25 +717,36 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
   </div>
 </div>
 
-  <script>
-  function downloadRIS() {
-    const ris = `TY  - ELEC\nTI  - The Goya Network\nED  - Paula Fayos-Pérez\nA2  - Anita Vero\nUR  - https://www.goyanetwork.com\nPY  - 2025\nCY  - Madrid\nDA  - 2025\nPB  - \nER  -\nRI  - protected by notarial deed (Madrid, 2025)`;
-    const blob = new Blob([ris], { type: 'text/plain' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'GoyaNetwork.ris';
-    link.click();
-  }
-  
-  function downloadCSV() {
-    const csv = `title,url,editor,contributor,year,rights\n"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","Anita Vero","2025","protected by notarial deed (Madrid, 2025)"`;
-    const blob = new Blob([csv], { type: 'text/csv' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'GoyaNetwork.csv';
-    link.click();
-  }
-  </script>
+<script>
+function downloadRIS() {
+  const ris = `TY  - ELEC
+TI  - The Goya Network
+ED  - Paula Fayos-Pérez
+A2  - Anita Vero
+UR  - https://www.goyanetwork.com
+PY  - 2025
+CY  - Madrid
+DA  - 2025
+PB  - 
+ER  - 
+N1  - protected by notarial deed (Madrid, 2025)`;
+  const blob = new Blob([ris], { type: 'text/plain' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'GoyaNetwork.ris';
+  link.click();
+}
+
+function downloadCSV() {
+  const csv = `title,url,editor,contributor,year,rights
+"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","Anita Vero","2025","protected by notarial deed (Madrid, 2025)"`;
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'GoyaNetwork.csv';
+  link.click();
+}
+</script>
   
   <div class="contributions-section">
     <h2>Contributions</h2>
