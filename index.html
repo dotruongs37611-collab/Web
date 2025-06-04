@@ -704,6 +704,9 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
       Paula Fayos-Pérez, ed., <em>The Goya Network</em>, 2024, https://www.goyanetwork.com (accessed May 17, 2025).
     </li>
   </ul>
+  <p style="font-size: 0.9rem; color: #999; margin-top: 1rem;">
+    <strong>Rights:</strong> protected by notarial deed (Madrid, 2025)
+  </p>
   <div style="margin-top: 1rem;">
     <button onclick="downloadRIS()" style="margin-right: 1rem; padding: 0.5rem 1rem; background:#444; color:white; border:1px solid #555; border-radius:4px;">
       <i class="fas fa-file-alt"></i> Export RIS
@@ -716,7 +719,7 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
 
   <script>
   function downloadRIS() {
-    const ris = `TY  - ELEC\nTI  - The Goya Network\nAU  - Goya Network\nED  - Paula Fayos-Pérez\nCT  - Anita Vero\nUR  - https://www.goyanetwork.com\nPY  - 2025\nPB  - Goya Network\nRI  - protected by notarial deed (Madrid, 2025)\nER  -`;
+    const ris = `TY  - ELEC\nTI  - The Goya Network\nED  - Paula Fayos-Pérez\nCN  - Anita Vero\nUR  - https://www.goyanetwork.com\nPY  - 2025\nRI  - protected by notarial deed (Madrid, 2025)\nER  -`;
     const blob = new Blob([ris], { type: 'text/plain' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
@@ -725,7 +728,7 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
   }
   
   function downloadCSV() {
-    const csv = `title,url,author,year\n"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","2025"`;
+    const csv = `title,url,editor,contributor,year,rights\n"The Goya Network","https://www.goyanetwork.com","Paula Fayos-Pérez","Anita Vero","2025","protected by notarial deed (Madrid, 2025)"`;
     const blob = new Blob([csv], { type: 'text/csv' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
