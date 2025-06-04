@@ -658,19 +658,16 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     function showShareModal(label = '') {
       const modal = document.getElementById('shareModal');
-      const encodedLabel = label.replace(/ /g, '_');
-      const shareUrl = `${window.location.origin}${window.location.pathname}#${encodedLabel}`;
+      const shareUrl = `${window.location.origin}`;
+      const text = `Check out ${label} on Goya Network`;
     
-      // Mostrar solo el link del nodo
+      // Mostramos URL para copiar (puedes cambiar a directUrl si prefieres)
       document.getElementById('shareUrl').value = shareUrl;
     
-      // Solo usar esa URL en todos los botones
-      const encodedFull = encodeURIComponent(shareUrl);
-      const encodedText = encodeURIComponent(`Check out ${label} on Goya Network`);
-    
-      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?text=${encodedText}%20${encodedFull}`;
-      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodedFull}&title=${encodedText}`;
-      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodedFull}`;
+      // Enlaces de redes con imagen garantizada
+      document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
+      document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(text)}`;
+      document.getElementById('facebookShare').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(text)}`;
     
       modal.style.display = 'flex';
     }
