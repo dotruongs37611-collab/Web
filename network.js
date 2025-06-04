@@ -528,7 +528,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         html += `</ul></div>`;
         document.getElementById("nodeInfo").innerHTML = html;
-        addShareButton(node.id);
+        addShareButton(node.label);
         
             } else if (params.edges.length > 0) {
         clearHighlights();
