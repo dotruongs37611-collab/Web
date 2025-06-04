@@ -660,9 +660,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     function showShareModal(nodeName = '') {
       const modal = document.getElementById('shareModal');
       const shareUrl = nodeName ? 
-        `${window.location.origin}${window.location.pathname}#${nodeName}` : 
-        window.location.href;
-    
+        `https://www.goyanetwork.com#${nodeName}` : 
+        'https://www.goyanetwork.com';
+
       document.getElementById('shareUrl').value = shareUrl;
       document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${nodeName ? 'Check out ' + nodeName + ' on Goya Network' : 'Explore Goya Network'}`;
       document.getElementById('linkedinShare').href = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}`;
