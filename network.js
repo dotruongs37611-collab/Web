@@ -696,7 +696,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     function updateURL(nodeId) {
       const node = nodes.get(nodeId);
       const label = node?.label || nodeId;
-      const newUrl = window.location.pathname + '#' + encodeURIComponent(label);
+      const newUrl = window.location.pathname + '#' + label.replace(/ /g, '_');
       window.history.pushState({}, '', newUrl);
     }
 
@@ -705,7 +705,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       return new Promise((resolve) => {
         const hash = window.location.hash.substring(1);
         if (hash) {
-          const decodedHash = decodeURIComponent(hash);
+          const decodedHash = decodeURIComponent(hash).replace(/_/g, ' ');
           const idFromLabel = labelToId[decodedHash];
           const node = idFromLabel ? nodes.get(idFromLabel) : null;
 
