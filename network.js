@@ -644,7 +644,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     window.selectAndShowNode = function (nodeId) {
       // Simula clic en un nodo, tal como se hace en el evento 'click'
-      window.history.pushState(null, "", `#${nodeId}`);
     
       const node = nodes.get(nodeId);
       if (!node) return;
@@ -652,6 +651,15 @@ document.addEventListener('DOMContentLoaded', async function () {
       clearHighlights();
       highlightNeighborhood(node.id);
       lastHighlightedNode = node.id;
+      
+      // Selecciona el nodo y lo centra
+      network.focus(node.id, {
+        scale: 1.2,
+        animation: { duration: 500 }
+      });
+      network.selectNodes([node.id]);
+      nodes.update({ id: node.id, color: { border: 'red' }, borderWidth: 4 });
+
     
       const degree = edgeCount[node.id] || 0;
       let html = `<div class="node-info">`;
