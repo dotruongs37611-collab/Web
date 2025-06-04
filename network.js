@@ -660,7 +660,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     function showShareModal(nodeName = '') {
       const modal = document.getElementById('shareModal');
       const shareUrl = nodeName ? 
-        `${window.location.origin}${window.location.pathname}#${encodeURIComponent(nodeName)}` : 
+        `${window.location.origin}${window.location.pathname}#${nodeName}` : 
         window.location.href;
     
       document.getElementById('shareUrl').value = shareUrl;
