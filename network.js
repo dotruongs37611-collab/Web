@@ -665,11 +665,6 @@ function updateURL(nodeId) {
       }
     }
     
-    // Add this to the click handler in the network.on("click") event:
-    if (params.nodes.length > 0) {
-      updateURL(params.nodes[0]);
-    }
-    
     // Call this at the end of the DOMContentLoaded event:
     handleInitialHash();
 
