@@ -262,15 +262,13 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         });
 
-        setTimeout(() => {
-          const hash = decodeURIComponent(window.location.hash.substring(1));
-          if (hash && nodesMap[hash]) {
-            const nodeId = nodesMap[hash].id;
-            network.focus(nodeId, { animation: true });
-            network.selectNodes([nodeId]);
-            network.emit('click', { nodes: [nodeId] });
-          }
-        }, 300); // un poco después del ajuste de imágenes
+      setTimeout(() => {
+        const hash = decodeURIComponent(window.location.hash.substring(1));
+        if (hash && nodesMap[hash]) {
+          const nodeId = nodesMap[hash].id;
+          selectAndShowNode(nodeId);
+        }
+      }, 300);
 
       }, 2000); // Espera 2 segundos más
     });
@@ -655,6 +653,22 @@ document.addEventListener('DOMContentLoaded', async function () {
     
       nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
       lastHighlightedNode = nodeId;
+    };
+
+    window.selectAndShowNode = function (nodeId) {
+      clearHighlights();
+    
+      network.focus(nodeId, {
+        scale: 1.2,
+        animation: { duration: 500 }
+      });
+    
+      network.selectNodes([nodeId]);
+      nodes.update({ id: nodeId, color: { border: 'red' }, borderWidth: 4 });
+      lastHighlightedNode = nodeId;
+    
+      // Simula el evento de clic
+      network.emit("click", { nodes: [nodeId] });
     };
 
     // Búsqueda funcional
