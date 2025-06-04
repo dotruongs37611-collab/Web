@@ -693,15 +693,15 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
   <ul>
     <li>
       <strong>MLA (Modern Language Association):</strong><br>
-      Fayos-Pérez, Paula, editor. <em>The Goya Network</em>. 2024. GoyaNetwork.com. Accessed 17 May 2025.
+      Fayos-Pérez, Paula, editor. <em>The Goya Network</em>. Anita Vero, contributor. 2025. GoyaNetwork.com. Accessed 17 May 2025.
     </li>
     <li>
       <strong>APA (American Psychological Association):</strong><br>
-      Fayos-Pérez, P. (Ed.). (2024). <em>The Goya Network</em>. Retrieved May 17, 2025, from https://www.goyanetwork.com
+      Fayos-Pérez, P. (Ed.). (2025). <em>The Goya Network</em>. [Anita Vero, contributor]. Retrieved May 17, 2025, from https://www.goyanetwork.com
     </li>
     <li>
       <strong>Chicago (Notes and Bibliography):</strong><br>
-      Paula Fayos-Pérez, ed., <em>The Goya Network</em>, 2024, https://www.goyanetwork.com (accessed May 17, 2025).
+      Paula Fayos-Pérez, ed., <em>The Goya Network</em>, with Anita Vero as contributor, 2025, https://www.goyanetwork.com (accessed May 17, 2025).
     </li>
   </ul>
   <p style="font-size: 0.9rem; color: #999; margin-top: 1rem;">
@@ -717,38 +717,53 @@ Web development: built using HTML and JavaScript, with structured data in JSON, 
   </div>
 </div>
 
-<script>
-function downloadRIS() {
-  const ris = `TY  - WEB
-TI  - The Goya Network
-A1  - Fayos-Pérez, Paula
-A2  - Vero, Anita
-UR  - https://www.goyanetwork.com
-PY  - 2025
-CY  - Madrid
-DA  - 2025/06/04
-LA  - 
-DB  - 
-DP  - 
-N1  - protected by notarial deed (Madrid, 2025)
-ER  - `;
-  const blob = new Blob([ris], { type: 'text/plain' });
-  const link = document.createElement('a');
-  link.href = URL.createObjectURL(blob);
-  link.download = 'GoyaNetwork.ris';
-  link.click();
-}
-
-function downloadCSV() {
-  const csv = `title,author,contributor,url,year,place,rights,access_date
-"The Goya Network","Paula Fayos-Pérez","Anita Vero","https://www.goyanetwork.com","2025","Madrid","protected by notarial deed (Madrid, 2025)","2025-06-04"`;
-  const blob = new Blob([csv], { type: 'text/csv' });
-  const link = document.createElement('a');
-  link.href = URL.createObjectURL(blob);
-  link.download = 'GoyaNetwork.csv';
-  link.click();
-}
-</script>
+  <script>
+  function downloadRIS() {
+    // Create RIS content with all required fields
+    const risContent = [
+      'TY  - WEB',
+      'TI  - The Goya Network',
+      'A1  - Fayos-Pérez, Paula',
+      'A2  - Vero, Anita',  // Contributor explicitly added
+      'UR  - https://www.goyanetwork.com',
+      'PY  - 2025',
+      'CY  - Madrid',
+      'DA  - 2025/06/04',
+      'N1  - protected by notarial deed (Madrid, 2025)',  // Rights explicitly added
+      'ER  - '
+    ].join('\n');
+  
+    // Create and trigger download
+    const blob = new Blob([risContent], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'GoyaNetwork.ris';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+  
+  function downloadCSV() {
+    // Create CSV content with all required fields
+    const csvContent = [
+      ['title', 'editor', 'contributor', 'url', 'year', 'rights'],
+      ['"The Goya Network"', '"Paula Fayos-Pérez"', '"Anita Vero"', '"https://www.goyanetwork.com"', '"2025"', '"protected by notarial deed (Madrid, 2025)"']
+    ].map(e => e.join(',')).join('\n');
+  
+    // Create and trigger download
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'GoyaNetwork.csv';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+  </script>
   
   <div class="contributions-section">
     <h2>Contributions</h2>
