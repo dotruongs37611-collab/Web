@@ -659,9 +659,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Mostrar modal para compartir
     function showShareModal(nodeName = '') {
       const modal = document.getElementById('shareModal');
-      const shareUrl = nodeName ? 
-        `https://www.goyanetwork.com#${nodeName}` : 
-        'https://www.goyanetwork.com';
+      const shareUrl = 'https://www.goyanetwork.com'; // Siempre base sin hash
 
       document.getElementById('shareUrl').value = shareUrl;
       document.getElementById('twitterShare').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${nodeName ? 'Check out ' + nodeName + ' on Goya Network' : 'Explore Goya Network'}`;
