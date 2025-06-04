@@ -755,6 +755,28 @@ function showSection(section) {
 </script>
 
   <script src="network.js"></script>
+
+<!-- Social Share Modal -->
+<div id="shareModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; justify-content:center; align-items:center;">
+  <div style="background:#222; padding:2rem; border-radius:8px; max-width:500px;">
+    <h3 style="margin-top:0;">Share</h3>
+    <div style="display:flex; gap:1rem; margin-bottom:1rem;">
+      <a id="twitterShare" target="_blank" style="background:#1DA1F2; color:white; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">
+        <i class="fab fa-twitter"></i> Twitter
+      </a>
+      <a id="linkedinShare" target="_blank" style="background:#0077B5; color:white; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a id="facebookShare" target="_blank" style="background:#4267B2; color:white; padding:0.5rem 1rem; border-radius:4px; text-decoration:none;">
+        <i class="fab fa-facebook"></i> Facebook
+      </a>
+    </div>
+    <div style="margin-bottom:1rem;">
+      <input type="text" id="shareUrl" style="width:100%; padding:0.5rem; background:#333; color:white; border:1px solid #555;" readonly>
+    </div>
+    <button onclick="document.getElementById('shareModal').style.display='none'" style="padding:0.5rem 1rem; background:#444; color:white; border:none; border-radius:4px;">Close</button>
+  </div>
+</div>
   
 </body>
 </html>
