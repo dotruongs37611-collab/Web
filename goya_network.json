@@ -329,7 +329,7 @@
         ],
       "author of": "<i>Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan</i> (1826); <i>Voyages pittoresques et romantiques dans l'ancienne France</i>, in collaboration with Charles Nodier and Alphonse de Cailleux (started in 1818; published 1820-1878)",
       "member of": "Académie Française, Académie des beaux-arts (1847); Société des gens de lettres; Fondation Taylor",
-      "portrayed by": "Federico Madrazo, oil painting (1833); Nadar, photograph (1877)",
+      "portrayed by": "Federico Madrazo, 1833, oil painting, Musée National du Château de Versailles; Nadar, 1877, photograph",
       "participates in": "l'Expédition d'Espagne (1823), also known as los Cien Mil Hijos de San Luis: campaign to restore the Bourbon dinasty in Spain",
       "aristocratic titles": "baron",
       "decorations/awards": "Chevalier (1822), Officier (1834), Commandeur (1837) et Grand officer (1877) de la Légion d'Honneur",
@@ -337,19 +337,41 @@
       "curiosities": "There is a Fondation Taylor, still running, created in 1844",
       "bibliography": "Lanzarote Guiral 2016; Guinard 1967-A",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg",
-      "image source": "portrait by Madrazo, 1833"
+      "image source": "Madrazo portrait, 1833, Versailles"
     },
     {
       "id": "Adrien Dauzats",
       "label": "Dauzats",
       "life dates": "1804-1868",
+      "born in": "Bordeaux",
+      "studies in": "École nationale supérieure d'Arts et Métiers (Angers 1819); Bordeaux École de Dessin",
+      "masters": "Michel-Julien Gué; Pierre Lacour (fils?) (see Tinterow 2003, p.75)",
       "nationality": "French",
-      "profession": "painter, engraver",
-      "in Spain": "in 1832 (with Baron Taylor); July 1833 (with Baron Taylor); 1835-1837 assists Baron Taylor in acquisition of artworks for Galerie espagnole (alongside Pharamond Blanchard)",
-      "author of": "1834 article in <i>Le Magasin pittoresque</i>? (mentions Prado commentaries, in the possession of Javier Goya until 1861) (Guinard 1967-B, p.323)",
-      "participates in": "1831 Salon (début)",
+      "profession": "painter, engraver, illustrator, lithographer",
+      "in Spain": [
+        "1832 (with Baron Taylor)",
+        "July 1833 (with Baron Taylor)",
+        "1835-1837 assists Baron Taylor in the acquisition of artworks for the Galerie espagnole. He meets Pharamond Blanchard, who introduces him to the Madrazo family. Meets prominent Spanish artists and develops an interest in Spanish art (see Tinterow 2003, p.180)"
+        ],
+      "author of": [
+        "1820-63 illustrations for Baron Taylor's <i>Voyages Pittoresques et Romantiques de l'ancienne France</i>",
+        "1826-32 illustrations for Baron Taylor's <i>Voyage Pittoresque en Espagne, en Portugal, et sur la côte d'Afrique, de Tanger à Tetouan</i>",
+        "Probable author: 1834 article in <i>Le Magasin pittoresque</i>? (mentions Prado commentaries, in the possession of Javier Goya until 1861) (Guinard 1967-B, p.323)",
+        "1836 <i>Vue de Malaga depuis le nord</i> (drawing)",
+        "1838 co-autor with Alexandre Dumas père of <i>Quinze Jours au Sinai</i>",
+        "1839 illustrations for Baron Taylor's <i>La Syrie, I'Egypte, la Palestine et la Judée</i>",
+        "1839 illustrations (with Pharamond Blanchard) for <i>San Juan de Ulúa, ou Relation de l'expédition française au Mexique</i>",
+        "1868 commissioned by Madame Aldema with four illustrations of characters from the Arabian folktale <i>One Thousand and One Nights</i>. He died before being able to finish and there was a lawsuit."
+        ],
+      "member of": "the Société archéologique du Midi de la France (from 1831)",
+      "portrayed by": "Jean Pierre Dantan (Dantan Jeune), 1834, sculpture (<i>Portrait sérieux</i>), Musée Carnavalet S1194; Federico Madrazo, 1837, Musée National du Château de Versailles; Carjat & Cie., 1868, photograph (Getty); Chenu, 1868, lithograph, <i>L'Illustration</i>; Loÿs Delteil (after Claude-Marie Dubufe), print, April 1896 (posthumous), <i>L'Artiste</i>, vol.XI",
+      "decorations/awards": "Chevalier de la Légion d'honneur (1837); Orden de Carlos III (1856)",
+      "trips": "Spain; Portugal; Algeria (1839); Tanger; Ottoman Empire. In 1829, he accompanies Baron Taylor to Egypt, Syria, Mount Sinai and Palestine",
+      "participates in": "Salon (from 1831)",
+      "sales": "Hôtel Drouot, February 1869: sketchbooks, Spanish masterpieces and an extensive library (Tinterow 2003, p.395)",
+      "bibliography": "Tinterow 2003; Guinard 1967-B",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg",
-      "bibliography": "Guinard 1967-B"
+      "image source:" "Madrazo portrait, 1837, Versailles"
     },
     {
       "id": "Pharamond Blanchard",
@@ -4077,7 +4099,10 @@
       "connection_level": "direct",
       "know each other since": "at least 1832",
       "relationship type": "close friends",
-      "collaborations": "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole; also for 'Voyages pittoresques de l'ancienne France'",
+      "collaborations": [
+        "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole",
+        "Dauzats made lithographic illustrations for several books of Baron Taylor, including <i>Voyages pittoresques de l'ancienne France</i>"
+        ],
       "in Spain": "July 1833 (Guinard 1967-A, p.86); 1835-1837", 
       "correspondence": [
         "1837-VII-5, Taylor to Dauzats (Paris): he laments that Dauzats's trip in Spain is not being more fruitful; 'Je désire bien vivement qu'il en soit autrement. M. Gautier vous accompagnait. Revenez très promptement. [...] Mme Nodier, Mme Ménessier et tous vos amis de l'Arsenal vous font mille compliments, ainsi que Justin et Mayer' (coll. Claude Roger-Marx) (Guinard 1967-B p.271)",
@@ -4181,7 +4206,8 @@
       "from": "Adrien Dauzats",
       "to": "Pharamond Blanchard",
       "connection_level": "direct",
-      "relationship type": "colleagues"
+      "relationship type": "colleagues",
+      "know each other since": "1835 (in Spain)"
     },
     {
       "from": "Adrien Dauzats",
@@ -4198,6 +4224,20 @@
       "to": "Antonio de Brugada",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Hugo 'témoigne son admiration' for Dauzats",
+      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Adrien_Dauzats)"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Mérimée 'témoigne son admiration' for Dauzats",
+      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Adrien_Dauzats)"
     },
     {
       "from": "Adrien Dauzats",
@@ -4220,7 +4260,13 @@
       "from": "Adrien Dauzats",
       "to": "Pierre Lacour",
       "connection_level": "direct",
-      "relationship type": "acquaintances",
+      "relationship type": "master-student? Was it Pierre Lacour fils? (Pierre Lacour père dies in 1814)"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Pierre Lacour fils",
+      "connection_level": "direct",
+      "relationship type": "master-student?",
       "they met": "in 1824 in Bordeaux"
     },
     {
@@ -4261,10 +4307,14 @@
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "relationship type": "friends",
+      "know each other since": "at least 1834",
       "correspondence": [
+        "Long correspondence from 1834 to 1851",
         "1851 Nov, letter from Dumas to Dauzats: ‘Mon cher Dauzats. Prêtez donc pour un jour ou deux votre costume de la femme espagnole à l’Ambigu—Je voudrais le faire faire au théâtre. Vous savez c’est la grand-mère de d’Ossun d’après Goya’ (Dumas-Schopp 1993, p.169: Schopp identifies this work as María Josefa de la Soledad, Countess of Benavente, Duchess of Osuna, c.1785)."
         ],
-      "bibliography": "Dumas-Schopp 2014; Schopp 1993."
+      "mentions": "Dumas quotes Dauzats several times in his novels (<i>Le comte de Monte-Cristo</i>; <i<Le capitaine Pamphile</i>)",
+      "collaborations": "they co-author <i>Quinze jours au Sinaï</i> (1838)",
+      "bibliography": "Dumas-Schopp 2014; Tinterow 2003; Schopp 1993."
       },
     {
       "from": "Pharamond Blanchard",
