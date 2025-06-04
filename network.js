@@ -657,7 +657,10 @@ function updateURL(nodeId) {
         const decodedHash = decodeURIComponent(hash);
         const node = nodes.get().find(n => n.id === decodedHash);
         if (node) {
-          setTimeout(() => focusNode(node.id), 500); // Small delay to ensure network is ready
+          setTimeout(() => {
+            network.selectNodes([node.id]);
+            network.emit("click", { nodes: [node.id] });
+          }, 500);
         }
       }
     }
