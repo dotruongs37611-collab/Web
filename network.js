@@ -644,6 +644,32 @@ document.addEventListener('DOMContentLoaded', async function () {
       lastHighlightedNode = nodeId;
     };
 
+    // Update URL when a node is clicked
+function updateURL(nodeId) {
+  const newUrl = window.location.pathname + '#' + encodeURIComponent(nodeId);
+  window.history.pushState({}, '', newUrl);
+}
+
+    // Handle initial URL hash
+    function handleInitialHash() {
+      const hash = window.location.hash.substring(1);
+      if (hash) {
+        const decodedHash = decodeURIComponent(hash);
+        const node = nodes.get().find(n => n.id === decodedHash);
+        if (node) {
+          setTimeout(() => focusNode(node.id), 500); // Small delay to ensure network is ready
+        }
+      }
+    }
+    
+    // Add this to the click handler in the network.on("click") event:
+    if (params.nodes.length > 0) {
+      updateURL(params.nodes[0]);
+    }
+    
+    // Call this at the end of the DOMContentLoaded event:
+    handleInitialHash();
+
     // Búsqueda funcional
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.querySelector('.search-button');
