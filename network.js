@@ -240,9 +240,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 130,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 145,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.2,       // Más atracción hacia el centro
-          springLength: 120,         // Menos distancia ideal entre nodos
+          springLength: 135,         // Menos distancia ideal entre nodos
           springConstant: 0.06,      // Más elasticidad (menos rigidez)
           damping: 0.2               // Estabiliza más rápido sin perder suavidad
         },
@@ -270,7 +270,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       handleInitialHash().then(handled => {
         if (!handled) {
           network.fit({ animation: true });
-          network.moveTo({ scale: 1.25, animation: true });
         }
       });
     });
