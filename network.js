@@ -258,6 +258,48 @@ document.addEventListener('DOMContentLoaded', async function () {
         randomSeed: 1912  // Consistent layout
       }
     });
+
+    network.once("stabilizationIterationsDone", function clusteringEnhancement() {
+      // Calcular conexiones comunes entre nodos
+      const commonConnections = {};
+      nodes.getIds().forEach(id1 => {
+        nodes.getIds().forEach(id2 => {
+          if (id1 !== id2) {
+            const key = [id1, id2].sort().join('-');
+            if (!commonConnections[key]) {
+              const edges1 = new Set(edges.get({
+                filter: e => e.from === id1 || e.to === id1
+              }).map(e => e.from === id1 ? e.to : e.from));
+    
+              const edges2 = new Set(edges.get({
+                filter: e => e.from === id2 || e.to === id2
+              }).map(e => e.from === id2 ? e.to : e.from));
+    
+              let common = 0;
+              edges1.forEach(node => {
+                if (edges2.has(node)) common++;
+              });
+    
+              commonConnections[key] = common;
+            }
+          }
+        });
+      });
+  
+    // Aplicar fuerzas adicionales para nodos con conexiones comunes
+    network.setOptions({
+      physics: {
+        forceAtlas2Based: {
+          springLength: edge => {
+            const key = [edge.from, edge.to].sort().join('-');
+            const common = commonConnections[key] || 0;
+            return 150 - (common * 10); // Ajustable según visualización
+          }
+        }
+      }
+    });
+  });
+
     
     network.once("stabilizationIterationsDone", function () {
       document.getElementById('loadingMessage').style.display = 'none';
