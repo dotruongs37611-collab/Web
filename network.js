@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         dragNodes: true,         // asegura que puedes moverlos
         dragView: true,
         zoomView: true
-      }
+      },
       layout: {
         improvedLayout: true,
         randomSeed: 1912  // Consistent layout
