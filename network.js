@@ -244,14 +244,19 @@ document.addEventListener('DOMContentLoaded', async function () {
           updateInterval: 25
         },
         forceAtlas2Based: {
-          gravitationalConstant: -140,  // Stronger repulsion
+          gravitationalConstant: -80,  // Stronger repulsion
           centralGravity: 0.015,
           springLength: 115,  // Shorter ideal distance
           springConstant: 0.07,
           avoidOverlap: 2.0,  // Increased overlap prevention
-          damping: 0.5
+          damping: 0.85 // evita temblores, amortigua.
         }
       },
+      interaction: {
+        dragNodes: true,         // asegura que puedes moverlos
+        dragView: true,
+        zoomView: true
+      }
       layout: {
         improvedLayout: true,
         randomSeed: 1912  // Consistent layout
@@ -289,7 +294,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.on("dragEnd", function () {
       setTimeout(() => {
         network.setOptions({ physics: false });
-      }, 1000); // espera 1 segundo para que se relaje
+      }, 500); // espera 0.5 segundo para que se relaje
     });
 
     function highlightNeighborhood(nodeId) {
