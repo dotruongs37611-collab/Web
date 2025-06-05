@@ -892,16 +892,22 @@ document.addEventListener('DOMContentLoaded', async function () {
       lastHighlightedNodes = matchingNodes;
     });
 
-        window.toggleFullScreen = function () {
-          const elem = document.documentElement;
-          if (!document.fullscreenElement) {
-            elem.requestFullscreen().catch(err => {
-              alert(`Error trying to enable full-screen mode: ${err.message}`);
-            });
-          } else {
-            document.exitFullscreen();
-          }
+    window.toggleFullScreen = function () {
+      try {
+        const elem = document.documentElement;
+        if (!document.fullscreenElement) {
+          elem.requestFullscreen().catch(err => {
+            alert(`Error trying to enable full-screen mode: ${err.message}`);
+          });
+        } else {
+          document.exitFullscreen().catch(err => {
+            alert(`Error trying to exit full-screen mode: ${err.message}`);
+          });
         }
+      } catch (err) {
+        alert(`Fullscreen error: ${err.message}`);
+      }
+    }
 
   // Activar física solo mientras se arrastra un nodo
   network.on("dragStart", () => {
