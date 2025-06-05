@@ -342,6 +342,7 @@ network.once("stabilizationIterationsDone", function() {
         }
       }
     });
+  });
 
     } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
