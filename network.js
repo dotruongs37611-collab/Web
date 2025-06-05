@@ -152,14 +152,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       return config;
     }));
 
-      const edges = new vis.DataSet(data.edges.map(edge => {
-        const level = edge.connection_level || "direct";
-        return {
-          ...edge,
-          color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.2)",
-          width: 2
-        };
-      }));
+    const edges = new vis.DataSet(data.edges.map(edge => {
+      const level = edge.connection_level || "direct";
+      return {
+        ...edge,
+        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.2)" },
+        width: 2
+      };
+    }));
 
     // Mostrar número de nodos y edges
     document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>`;
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         stabilization: {
           enabled: true,
-          iterations: 1000,
+          iterations: 300,
           updateInterval: 50
         }
       },
@@ -255,27 +255,21 @@ document.addEventListener('DOMContentLoaded', async function () {
         randomSeed: 1912  // Consistent layout
       }
     });
+    
     network.once("stabilizationIterationsDone", function () {
-      setTimeout(() => {
-
-        document.getElementById('loadingMessage').style.display = 'none';
+      document.getElementById('loadingMessage').style.display = 'none';
     
-        // 🔁 AÑADE esto aquí dentro
-        nodes.forEach(node => {
-          if (node._imageUrl) {
-            nodes.update({ id: node.id, image: node._imageUrl });
-          }
-        });
-
-        // Now handle the initial hash
-        handleInitialHash().then(handled => {
-          if (!handled) {
-            // Default view if no hash
-            network.fit({ animation: true });
-          }
-        });
+      nodes.forEach(node => {
+        if (node._imageUrl) {
+          nodes.update({ id: node.id, image: node._imageUrl });
+        }
+      });
     
-      }, 2000); // Espera 2 segundos más
+      handleInitialHash().then(handled => {
+        if (!handled) {
+          network.fit({ animation: true });
+        }
+      });
     });
 
     function highlightNeighborhood(nodeId) {
