@@ -312,13 +312,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Atenuar edges no conectados
       const edgeIds = edges.getIds();
       edges.update(edgeIds.map(id => {
-        if (id !== edge.id) {
-          return { id, color: { color: 'rgba(200,200,200,0.05)' }, width: 0.5 };
-        } else {
-          return { id, color: { color: 'red' }, width: 3 };
-        }
+        const isConnected = connectedEdgeIds.has(id);
+        return {
+          id,
+          color: { color: isConnected ? 'red' : 'rgba(200,200,200,0.05)' },
+          width: isConnected ? 3 : 0.5
+        };
       }));
-      
+
       // Batch updates
       const updates = [
         { id: nodeId, color: { border: 'red' }, borderWidth: 4 }
