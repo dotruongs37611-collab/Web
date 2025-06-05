@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(40 + degree * 1.1, 75),
+        size: Math.min(38 + degree * 1.1, 72),
         font: {
-          size: Math.min(18 + degree * 1.0, 40),
+          size: Math.min(17 + degree * 1.0, 38),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       const level = edge.connection_level || "direct";
       return {
         ...edge,
-        color: { color: level === "secondary" ? "rgba(255,215,0,0.3)" : "rgba(200,200,200,0.1)" },
+        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
         width: 1.5
       };
     }));
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Batch update edges
       const edgeUpdates = edges.get().map(edge => ({
         id: edge.id,
-        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.3)" : "rgba(200,200,200,0.25)" },
+        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
         width: 2
       }));
 
@@ -240,11 +240,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'forceAtlas2Based',
         forceAtlas2Based: {
-          gravitationalConstant: -40,     // menor repulsión
-          centralGravity: 0.005,          // atracción mínima
-          springLength: 100,              // más distancia ideal
+          gravitationalConstant: -20,     // menor repulsión
+          centralGravity: 0.001,          // atracción mínima
+          springLength: 110,              // más distancia ideal
           springConstant: 0.04,           // enlaces suaves
-          avoidOverlap: 2,                // buena separación
+          avoidOverlap: 2.5,                // buena separación
           damping: 0.8                    // amortiguación alta
         },
         stabilization: {
