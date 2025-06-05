@@ -238,12 +238,12 @@ document.addEventListener('DOMContentLoaded', async function () {
           updateInterval: 25
         },
         forceAtlas2Based: {
-          gravitationalConstant: -140,  // Stronger repulsion
-          centralGravity: 0.015,
-          springLength: 95,  // Shorter ideal distance
-          springConstant: 0.07,
-          avoidOverlap: 1.6,  // Increased overlap prevention
-          damping: 0.5
+          gravitationalConstant: -120,  // Stronger repulsion
+          centralGravity: 0.02,
+          springLength: 100,  // Shorter ideal distance
+          springConstant: 0.04,
+          avoidOverlap: 2,  // Increased overlap prevention
+          damping: 0.9
         }
       },
       layout: {
