@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const level = edge.connection_level || "direct";
         return {
           ...edge,
-          color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.2)"
+          color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.2)",
           width: 2
         };
       }));
