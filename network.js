@@ -308,10 +308,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       
       edges.update(fadedEdges);
 
-      // Get all node IDs
       const allNodeIds = nodes.getIds();
-      
-      // Separate connected and non-connected nodes
       const nonConnectedNodes = allNodeIds.filter(id => 
         id !== nodeId && !connectedNodes.has(id)
       );
@@ -325,16 +322,10 @@ document.addEventListener('DOMContentLoaded', async function () {
       Array.from(connectedNodes).forEach(id => {
         updates.push({ id, color: { border: '#ffa500' }, borderWidth: 3 });
       });
-      
-      // Make non-connected nodes translucent
+    
       const nonConnectedUpdates = nonConnectedNodes.map(id => ({
         id,
-        opacity: 0.3, // Make nodes semi-transparent
-        color: {
-          ...nodes.get(id).color,
-          highlight: nodes.get(id).color.highlight || {},
-          hover: nodes.get(id).color.hover || {}
-        }
+        opacity: 0.3
       }));
       
       nodes.update(updates);
@@ -729,8 +720,11 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         network.setOptions({
           physics: {
+            solver: 'forceAtlas2Based',
             forceAtlas2Based: {
               damping: 0.95
+            },
+            stabilization: false
             }
           }
         }
