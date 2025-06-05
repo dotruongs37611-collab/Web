@@ -237,20 +237,21 @@ document.addEventListener('DOMContentLoaded', async function () {
       },
       edges: { color: 'lightgray' },
       physics: {
-        solver: 'forceAtlas2Based',
+        solver: 'repulsion',
         stabilization: {
           enabled: true,
-          iterations: 550,  // Increased stabilization
+          iterations: 550,
           updateInterval: 25
         },
-        forceAtlas2Based: {
-          gravitationalConstant: -80,  // Stronger repulsion
-          centralGravity: 0.015,
-          springLength: 115,  // Shorter ideal distance
-          springConstant: 0.07,
-          avoidOverlap: 2.0,  // Increased overlap prevention
-          damping: 0.85 // evita temblores, amortigua.
+        repulsion: {
+          nodeDistance: 180,         // más espacio entre nodos
+          springLength: 100,
+          springConstant: 0.02,
+          damping: 0.9,              // muy amortiguado
+          centralGravity: 0.2        // ligera atracción al centro
         }
+      },
+
       },
       interaction: {
         dragNodes: true,         // asegura que puedes moverlos
