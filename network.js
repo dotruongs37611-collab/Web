@@ -131,16 +131,16 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(28 + degree * 0.6, 45),
+        size: Math.min(26 + degree * 0.7, 48),
         font: {
-          size: Math.min(13 + degree * 0.5, 24),
+          size: Math.min(13 + degree * 0.6, 24),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -16
+          vadjust: -24
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 110,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 130,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.2,       // Más atracción hacia el centro
           springLength: 120,         // Menos distancia ideal entre nodos
           springConstant: 0.06,      // Más elasticidad (menos rigidez)
@@ -270,6 +270,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       handleInitialHash().then(handled => {
         if (!handled) {
           network.fit({ animation: true });
+          network.moveTo({ scale: 1.25, animation: true });
         }
       });
     });
