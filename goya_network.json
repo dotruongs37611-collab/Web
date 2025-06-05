@@ -3136,7 +3136,8 @@
     {
       "from": "Javier Goya",
       "to": "Jacques Galos",
-      "label": "acquaintances. Galos mentioned Goya in his letters to Javier Goya",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Galos mentioned Goya in his letters to Javier Goya",
       "correspondence": "yes"
     },
     {
