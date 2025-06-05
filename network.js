@@ -725,10 +725,8 @@ document.addEventListener('DOMContentLoaded', async function () {
               damping: 0.95
             },
             stabilization: false
-            }
           }
-        }
-        );
+        });
 
         network.fit({ animation: true, minZoomLevel: 0.5 });
     
