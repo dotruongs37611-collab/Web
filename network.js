@@ -257,20 +257,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         randomSeed: 1912  // Consistent layout
       }
     });
-
-    if (common >= 3) {
-            const n1 = nodes.get(id1);
-            const n2 = nodes.get(id2);
-            if (!n1 || !n2) return;
-    
-            const dx = (n2.x - n1.x) * 0.02 * common;
-            const dy = (n2.y - n1.y) * 0.02 * common;
-    
-            nodes.update([
-              { id: id1, x: n1.x + dx, y: n1.y + dy },
-              { id: id2, x: n2.x - dx, y: n2.y - dy }
-            ]);
-          }
         }
       }
     });
