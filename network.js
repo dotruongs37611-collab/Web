@@ -260,32 +260,31 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     network.once("stabilizationIterationsDone", function clusteringEnhancement() {
-      // Calcular conexiones comunes entre nodos
-      const commonConnections = {};
+      const connectedCounts = {};
+    
+      // Cuenta cuántos vecinos comunes tiene cada par
       nodes.getIds().forEach(id1 => {
-        nodes.getIds().forEach(id2 => {
-          if (id1 !== id2) {
-            const key = [id1, id2].sort().join('-');
-            if (!commonConnections[key]) {
-              const edges1 = new Set(edges.get({
-                filter: e => e.from === id1 || e.to === id1
-              }).map(e => e.from === id1 ? e.to : e.from));
-    
-              const edges2 = new Set(edges.get({
-                filter: e => e.from === id2 || e.to === id2
-              }).map(e => e.from === id2 ? e.to : e.from));
-    
-              let common = 0;
-              edges1.forEach(node => {
-                if (edges2.has(node)) common++;
-              });
-    
-              commonConnections[key] = common;
-            }
-          }
-        });
+        connectedCounts[id1] = new Set(
+          edges.get({
+            filter: e => e.from === id1 || e.to === id1
+          }).map(e => e.from === id1 ? e.to : e.from)
+        ).size;
       });
-  
+    
+      // Reasignar posiciones iniciales ligeramente más cerca según nº de conexiones
+      const updates = nodes.get().map(node => {
+        const count = connectedCounts[node.id] || 1;
+        return {
+          id: node.id,
+          x: Math.random() * 100 - 50,
+          y: Math.random() * 100 - 50,
+          mass: 1 + count * 0.1
+        };
+      });
+    
+      nodes.update(updates);
+    });
+
     // Aplicar fuerzas adicionales para nodos con conexiones comunes
     network.setOptions({
       physics: {
