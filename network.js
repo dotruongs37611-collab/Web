@@ -116,6 +116,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     const response = await fetch('goya_network.json');
     if (!response.ok) throw new Error('Error cargando datos');
     const data = await response.json();
+    data.nodes.forEach(n => {
+      if (n.image) {
+        const img = new Image();
+        img.src = n.image;
+      }
+    });
 
     const edgeCount = {};
     data.edges.forEach(edge => {
@@ -240,9 +246,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         forceAtlas2Based: {
           gravitationalConstant: -140,  // Stronger repulsion
           centralGravity: 0.015,
-          springLength: 95,  // Shorter ideal distance
+          springLength: 115,  // Shorter ideal distance
           springConstant: 0.07,
-          avoidOverlap: 1.6,  // Increased overlap prevention
+          avoidOverlap: 2.0,  // Increased overlap prevention
           damping: 0.5
         }
       },
