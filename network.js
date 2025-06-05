@@ -237,21 +237,20 @@ document.addEventListener('DOMContentLoaded', async function () {
       },
       edges: { color: 'lightgray' },
       physics: {
-        solver: 'repulsion',
+        solver: 'forceAtlas2Based',
         stabilization: {
           enabled: true,
           iterations: 550,
           updateInterval: 25
         },
-        repulsion: {
-          nodeDistance: 180,         // más espacio entre nodos
-          springLength: 100,
-          springConstant: 0.02,
-          damping: 0.9,              // muy amortiguado
-          centralGravity: 0.2        // ligera atracción al centro
+        forceAtlas2Based: {
+          gravitationalConstant: -80,
+          centralGravity: 0.015,
+          springLength: 115,
+          springConstant: 0.07,
+          avoidOverlap: 2.0,
+          damping: 0.85
         }
-      },
-
       },
       interaction: {
         dragNodes: true,         // asegura que puedes moverlos
@@ -265,8 +264,22 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
     network.once("stabilizationIterationsDone", function () {
       setTimeout(() => {
-        network.setOptions({ physics: false });
-        // NO hacemos zoom aquí, esperamos a ver si hay hash
+        // 🔁 Transición de ForceAtlas2 a Repulsion para interacción más suave
+
+        // Luego activamos física de repulsión más suave
+        network.setOptions({
+          physics: {
+            enabled: true,
+            solver: 'repulsion',
+            repulsion: {
+              nodeDistance: 180,
+              springLength: 100,
+              springConstant: 0.02,
+              damping: 0.9,
+              centralGravity: 0.2
+            }
+          }
+        });
 
         document.getElementById('loadingMessage').style.display = 'none';
     
