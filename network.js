@@ -259,46 +259,35 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
-    network.once("stabilizationIterationsDone", function clusteringEnhancement() {
-      const connectedCounts = {};
-    
-      nodes.getIds().forEach(id1 => {
-        connectedCounts[id1] = new Set(
-          edges.get({
-            filter: e => e.from === id1 || e.to === id1
-          }).map(e => e.from === id1 ? e.to : e.from)
-        ).size;
-      });
-    
-      const updates = nodes.get().map(node => {
-        const count = connectedCounts[node.id] || 1;
-        return {
-          id: node.id,
-          x: Math.random() * 100 - 50,
-          y: Math.random() * 100 - 50,
-          mass: 1 + count * 0.1
-        };
-      });
-    
-      nodes.update(updates);
-    });
+network.once("stabilizationIterationsDone", function clusteringEnhancement() {
+  const connectedCounts = {};
 
-      nodes.update(updates);
-    });
-
-    // Aplicar fuerzas adicionales para nodos con conexiones comunes
-    network.setOptions({
-      physics: {
-        forceAtlas2Based: {
-          springLength: edge => {
-            const key = [edge.from, edge.to].sort().join('-');
-            const common = commonConnections[key] || 0;
-            return 150 - (common * 10); // Ajustable según visualización
-          }
-        }
-      }
-    });
+  nodes.getIds().forEach(id1 => {
+    connectedCounts[id1] = new Set(
+      edges.get({
+        filter: e => e.from === id1 || e.to === id1
+      }).map(e => e.from === id1 ? e.to : e.from)
+    ).size;
   });
+
+  const updates = nodes.get().map(node => {
+    const count = connectedCounts[node.id] || 1;
+    return {
+      id: node.id,
+      x: Math.random() * 100 - 50,
+      y: Math.random() * 100 - 50,
+      mass: 1 + count * 0.1
+    };
+  });
+
+  nodes.update(updates);
+});
+    
+      nodes.update(updates);
+    });
+
+      nodes.update(updates);
+    });
 
     
     network.once("stabilizationIterationsDone", function () {
