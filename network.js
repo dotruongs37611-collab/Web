@@ -240,12 +240,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'forceAtlas2Based',
         forceAtlas2Based: {
-          gravitationalConstant: -50,     // menor repulsión
+          gravitationalConstant: -120,     // menor repulsión
           centralGravity: 0.01,          // atracción mínima
-          springLength: 150,              // más distancia ideal
-          springConstant: 0.08,           // enlaces suaves
-          avoidOverlap: 7,                // buena separación
-          damping: 0.4                    // amortiguación alta
+          springLength: 200,              // más distancia ideal
+          springConstant: 0.06,           // enlaces suaves
+          avoidOverlap: 10,                // buena separación
+          damping: 0.5                    // amortiguación alta
         },
         stabilization: {
           enabled: true,
