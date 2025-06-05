@@ -132,15 +132,15 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(42 + degree * 1.5, 100),
         font: { 
-          size: Math.min(18 + degree * 1.2, 48),  // 🔥 proporcional al número de edges
+          size: Math.min(18 + degree * 1.2, 48),
           color: '#ffffff',
-          strokeWidth: 0,
-          strokeColor: 'transparent',
+          strokeWidth: 2,
+          strokeColor: '#000000',
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -18  // Eleva más el texto
-        },
+          vadjust: -18
+        }
         color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
