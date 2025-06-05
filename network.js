@@ -331,14 +331,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       nodes.update(updates);
       nodes.update(nonConnectedUpdates);
       
-      edges.update(
-        connectedEdges.map(edge => ({
-          id: edge.id,
-          color: { color: 'red' },
-          width: 2
-        }))
-      );
-      
       lastHighlightedNode = nodeId;
       lastHighlightedNodes = Array.from(connectedNodes);
       lastNonHighlightedNodes = nonConnectedNodes; // Store for clearing later
@@ -720,14 +712,20 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         network.setOptions({
           physics: {
+            enabled: true,
             solver: 'forceAtlas2Based',
             forceAtlas2Based: {
-              damping: 0.95
+              gravitationalConstant: -80,
+              centralGravity: 0.002,
+              springLength: 100,
+              springConstant: 0.03,
+              avoidOverlap: 1.5,
+              damping: 1
             },
             stabilization: false
           }
         });
-
+        
         network.fit({ animation: true, minZoomLevel: 0.5 });
     
         document.getElementById('loadingMessage').style.display = 'none';
