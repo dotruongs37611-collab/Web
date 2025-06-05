@@ -131,22 +131,22 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(32 + degree * 1.0, 60),
+        size: Math.min(28 + degree * 0.6, 45),
         font: {
-          size: Math.min(15 + degree * 1.0, 30),
+          size: Math.min(13 + degree * 0.5, 24),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -18
+          vadjust: -16
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false,
-        margin: -15
+        margin: -10
       };
       config._imageUrl = node.image;
       nodesMap[node.id] = config;
