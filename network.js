@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(24 + degree * 0.6, 40),
+        size: Math.min(20 + degree * 0.5, 40),
         font: {
-          size: Math.min(12 + degree * 0.45, 20),
+          size: Math.min(11 + degree * 0.4, 18),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 145,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 160,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.2,       // Más atracción hacia el centro
           springLength: 135,         // Menos distancia ideal entre nodos
           springConstant: 0.06,      // Más elasticidad (menos rigidez)
