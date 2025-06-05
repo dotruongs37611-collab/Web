@@ -125,39 +125,41 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     const nodesMap = {};
     const labelToId = {};
+    // Ajustes de nodos
     const nodes = new vis.DataSet(data.nodes.map(node => {
       labelToId[node.label] = node.id;
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(60 + degree * 1, 120),
-        font: { 
-          size: Math.min(22 + degree * 1.5, 60),  // 🔥 proporcional al número de edges
+        size: Math.min(50 + degree * 1.3, 90),
+        font: {
+          size: Math.min(20 + degree * 1.2, 48),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -18  // Eleva más el texto
+          vadjust: -18
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
         labelHighlightBold: false,
-        margin: -15      // Más espacio visual alrededor del nodo
+        margin: -15
       };
-      config._imageUrl = node.image; // Guardamos temporalmente la URL
+      config._imageUrl = node.image;
       nodesMap[node.id] = config;
       return config;
     }));
 
+    // Edges más transparentes (general)
     const edges = new vis.DataSet(data.edges.map(edge => {
       const level = edge.connection_level || "direct";
       return {
         ...edge,
-        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.2)" },
-        width: 2
+        color: { color: level === "secondary" ? "rgba(255,215,0,0.3)" : "rgba(200,200,200,0.1)" },
+        width: 1.5
       };
     }));
 
@@ -286,7 +288,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       connectedEdges.forEach(edge => {
         edges.update({
           id: edge.id,
-          color: { color: '#ffa500' },
+          color: { color: 'red' },
           width: 3
         });
       });
@@ -303,9 +305,18 @@ document.addEventListener('DOMContentLoaded', async function () {
       edges.update(fadedEdges);
 
       const allNodeIds = nodes.getIds();
-      const nonConnectedNodes = allNodeIds.filter(id => 
-        id !== nodeId && !connectedNodes.has(id)
-      );
+      const nonConnected = allNodeIds.filter(id => id !== fromNode.id && id !== toNode.id);
+      nodes.update(nonConnected.map(id => ({ id, opacity: 0.3 })));
+
+      // Atenuar edges no conectados
+      const edgeIds = edges.getIds();
+      edges.update(edgeIds.map(id => {
+        if (id !== edge.id) {
+          return { id, color: { color: 'rgba(200,200,200,0.05)' }, width: 0.5 };
+        } else {
+          return { id, color: { color: 'red' }, width: 3 };
+        }
+      }));
       
       // Batch updates
       const updates = [
@@ -501,20 +512,19 @@ document.addEventListener('DOMContentLoaded', async function () {
         addShareButton(node.label);
         
             } else if (params.edges.length > 0) {
-        clearHighlights();
-        const edge = edges.get(params.edges[0]);
-        if (!edge) return;
+      clearHighlights();
+      const edge = edges.get(params.edges[0]);
+      if (!edge) return;
+      const fromNode = nodes.get(edge.from);
+      const toNode = nodes.get(edge.to);
       
-        const fromNode = nodes.get(edge.from);
-        const toNode = nodes.get(edge.to);
-      
-        if (fromNode && toNode) {
-          nodes.update([
-            { id: fromNode.id, color: { border: 'red' }, borderWidth: 4 },
-            { id: toNode.id, color: { border: 'red' }, borderWidth: 4 }
-          ]);
-          lastHighlightedNodes = [fromNode.id, toNode.id];
-        }
+      if (fromNode && toNode) {
+        nodes.update([
+          { id: fromNode.id, color: { border: 'red' }, borderWidth: 4 },
+          { id: toNode.id, color: { border: 'red' }, borderWidth: 4 }
+        ]);
+        lastHighlightedNodes = [fromNode.id, toNode.id];
+      }
       
         // ❌ Aquí viene el error: ya declaraste fromNode y toNode arriba
         // 🔁 Solución: elimina "const"
