@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (common >= 3) {
             const n1 = nodes.get(id1);
             const n2 = nodes.get(id2);
-            if (!n1 || !n2) continue;
+            if (!n1 || !n2) return;
     
             const dx = (n2.x - n1.x) * 0.02 * common;
             const dy = (n2.y - n1.y) * 0.02 * common;
