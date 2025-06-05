@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Batch update edges
       const edgeUpdates = edges.get().map(edge => ({
         id: edge.id,
-        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.3)" : "rgba(200,200,200,0.1)" }
+        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.3)" : "rgba(200,200,200,0.1)" },
         width: 2
       }));
       edges.update(edgeUpdates);
