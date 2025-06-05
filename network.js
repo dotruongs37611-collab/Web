@@ -317,14 +317,6 @@ network.once("stabilizationIterationsDone", function() {
     handleInitialHash();
   }, 300);
 });
-    
-    // Handle initial hash if present
-    handleInitialHash();
-  });
-
-  } catch (err) {
-    console.error("Error cargando o renderizando la red:", err);
-  }
 
   network.on("dragStart", function(params) {
     if (params.nodes.length > 0) {
@@ -350,6 +342,11 @@ network.once("stabilizationIterationsDone", function() {
         }
       }
     });
+
+    } catch (err) {
+      console.error("Error cargando o renderizando la red:", err);
+    }
+
   });
       
       const connectedNodes = new Set();
