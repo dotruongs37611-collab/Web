@@ -321,7 +321,11 @@ network.once("stabilizationIterationsDone", function() {
     // Handle initial hash if present
     handleInitialHash();
   });
-  
+
+  } catch (err) {
+    console.error("Error cargando o renderizando la red:", err);
+  }
+
   network.on("dragStart", function(params) {
     if (params.nodes.length > 0) {
       // Slightly stronger physics during drag for connected nodes
