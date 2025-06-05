@@ -344,9 +344,8 @@ network.once("stabilizationIterationsDone", function() {
     });
 
     } catch (err) {
-      console.error("Error cargando o renderizando la red:", err);
+    console.error("Error cargando o renderizando la red:", err);
     }
-
   });
       
       const connectedNodes = new Set();
