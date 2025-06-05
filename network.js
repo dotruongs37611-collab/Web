@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           align: 'center',
           bold: true,
           vadjust: -18
-        }
+        },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
         shape: node.image ? 'circularImage' : 'dot',
