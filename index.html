@@ -522,7 +522,19 @@
     </div>
   </div>
   
-  <div id="networkStats" style="font-size: 0.9rem; color: #ccc; padding: 0.3rem 0 0 0.5rem; margin-left: 1rem;"></div>
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 0.5rem 1rem 0 1rem;">
+  <div id="networkStats" style="font-size: 0.9rem; color: #ccc;">
+    Nodes: – | Connections: –<br>
+    <span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>
+  </div>
+  <div>
+    <button onclick="toggleFullScreen()" title="Toggle fullscreen"
+      style="padding: 0.4rem 0.8rem; background:#333; color:white; border:1px solid #555; border-radius:4px;">
+      <i class="fas fa-expand"></i> Fullscreen
+    </button>
+  </div>
+</div>
+
   <div style="margin-left: 1rem; margin-top: 0.5rem;">
   <button onclick="toggleFullScreen()" title="Toggle fullscreen"
     style="padding: 0.4rem 0.8rem; background:#333; color:white; border:1px solid #555; border-radius:4px;">
