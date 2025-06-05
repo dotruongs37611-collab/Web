@@ -166,12 +166,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Mostrar número de nodos y edges
     document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>`;
 
-
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
     let lastNonHighlightedNodes = [];
 
-        function clearHighlights() {
+    function clearHighlights() {
       // Batch update nodes
       const nodeUpdates = [];
       if (lastHighlightedNode) {
@@ -224,7 +223,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (!container) {
       console.error("❌ No se encontró el contenedor #network.");
       return;
-}
+    }
+
     const network = new vis.Network(container, { nodes, edges }, {
       nodes: { 
         borderWidth: 2,
@@ -256,23 +256,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         improvedLayout: true,
         randomSeed: 1912  // Consistent layout
       }
-    });
-
-    
-        }
-      }
-    });
-      
-    });
-    
-    }
-      });
-    
-      handleInitialHash().then(handled => {
-        if (!handled) {
-          network.fit({ animation: true });
-        }
-      });
     });
 
     function highlightNeighborhood(nodeId) {
@@ -502,26 +485,23 @@ document.addEventListener('DOMContentLoaded', async function () {
         document.getElementById("nodeInfo").innerHTML = html;
         addShareButton(node.label);
         
-            } else if (params.edges.length > 0) {
-      clearHighlights();
-      const edge = edges.get(params.edges[0]);
-      if (!edge) return;
-      const fromNode = nodes.get(edge.from);
-      const toNode = nodes.get(edge.to);
-      
-      if (fromNode && toNode) {
-        nodes.update([
-          { id: fromNode.id, color: { border: 'red' }, borderWidth: 4 },
-          { id: toNode.id, color: { border: 'red' }, borderWidth: 4 }
-        ]);
-        lastHighlightedNodes = [fromNode.id, toNode.id];
-      }
-      
-        // ❌ Aquí viene el error: ya declaraste fromNode y toNode arriba
-        // 🔁 Solución: elimina "const"
+      } else if (params.edges.length > 0) {
+        clearHighlights();
+        const edge = edges.get(params.edges[0]);
+        if (!edge) return;
+        const fromNode = nodes.get(edge.from);
+        const toNode = nodes.get(edge.to);
+        
+        if (fromNode && toNode) {
+          nodes.update([
+            { id: fromNode.id, color: { border: 'red' }, borderWidth: 4 },
+            { id: toNode.id, color: { border: 'red' }, borderWidth: 4 }
+          ]);
+          lastHighlightedNodes = [fromNode.id, toNode.id];
+        }
+        
         const fromNodeMap = nodesMap[edge.from];
         const toNodeMap = nodesMap[edge.to];
-
 
         let html = `<div style="display:flex; align-items:center; gap:1rem; padding-bottom:1rem;">`;
 
@@ -586,9 +566,6 @@ document.addEventListener('DOMContentLoaded', async function () {
             let value = edge[field.key];
             let htmlText;
         
-            // Debugging: Check the raw value
-            console.log("Raw value:", value);
-        
             if (Array.isArray(value)) {
               const processedItems = value.map(item => {
                 return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
@@ -597,9 +574,6 @@ document.addEventListener('DOMContentLoaded', async function () {
             } else {
               htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
             }
-
-            // Debugging: Check the processed HTML
-            console.log("Processed HTML:", htmlText);
         
             html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
@@ -610,9 +584,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       if (params.nodes.length === 0 && params.edges.length === 0) {
         clearHighlights();
-        return; // Add this to exit early
+        return;
       }
-
     });
 
     window.focusNode = function (nodeId) {
@@ -647,7 +620,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       modal.style.display = 'flex';
     }
 
-    // Crear y añadir botón
     function addShareButton(nodeName) {
       const shareBtn = document.createElement('button');
       shareBtn.innerHTML = '<i class="fas fa-share-alt"></i> Share';
@@ -669,7 +641,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
 
-    // Update URL when a node is clicked
     function updateURL(nodeId) {
       const node = nodes.get(nodeId);
       const label = node?.label || nodeId;
@@ -677,7 +648,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       window.history.pushState({}, '', newUrl);
     }
 
-    // Handle initial URL hash
     function handleInitialHash() {
       return new Promise((resolve) => {
         const hash = window.location.hash.substring(1);
@@ -687,7 +657,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           const node = idFromLabel ? nodes.get(idFromLabel) : null;
 
           if (node) {
-            // Wait for network to stabilize
             setTimeout(() => {
               network.selectNodes([node.id]);
               network.emit("click", { nodes: [node.id] });
@@ -702,40 +671,31 @@ document.addEventListener('DOMContentLoaded', async function () {
       });
     }
     
-    // Call this at the end of the DOMContentLoaded event:
     network.fit({ animation: true, minZoomLevel: 0.5 });
+    document.getElementById('loadingMessage').style.display = 'none';
     
-        document.getElementById('loadingMessage').style.display = 'none';
-    
-        // Load images after stabilization
-        nodes.forEach(node => {
-          if (node._imageUrl) {
-            nodes.update({ id: node.id, image: node._imageUrl });
-          }
-        });
-    
-      }, 2000);
+    // Load images after stabilization
+    nodes.forEach(node => {
+      if (node._imageUrl) {
+        nodes.update({ id: node.id, image: node._imageUrl });
+      }
     });
 
     // Búsqueda funcional
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.querySelector('.search-button');
 
-    // Replace the existing searchButton event listener with this:
     searchButton.addEventListener('click', () => {
       const query = searchInput.value.trim().toLowerCase();
       if (!query) return;
     
-      // Clear previous highlights
       clearHighlights();
     
-      // 1. Buscar primero en nodos (prioridad)
       let found = data.nodes.find(n =>
         n.id.toLowerCase() === query || 
         (typeof n.label === 'string' && n.label.toLowerCase() === query)
       );
       
-      // 2. Si no hay coincidencia exacta, buscar por startsWith
       if (!found) {
         found = data.nodes.find(n =>
           n.id.toLowerCase().startsWith(query) || 
@@ -743,7 +703,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       }
       
-      // 3. Si aún no, buscar por contiene
       if (!found) {
         found = data.nodes.find(n =>
           n.id.toLowerCase().includes(query) || 
@@ -751,7 +710,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       }
       
-      // 4. Si no está en id o label, buscar en otros campos del nodo
       if (!found) {
         found = data.nodes.find(n =>
           Object.entries(n).some(([key, value]) =>
@@ -763,7 +721,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       }
       
-      // 5. Si aún no hay nodo, buscar en los edges
       if (!found) {
         const matchingEdge = data.edges.find(edge =>
           Object.entries(edge).some(([key, value]) =>
@@ -786,7 +743,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       }
       
-      // 6. Mostrar resultado o alerta
       if (found) {
         focusNode(found.id);
       } else {
@@ -794,7 +750,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
-    // Add Enter key support
     searchInput.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
         searchButton.click();
@@ -802,15 +757,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     document.getElementById('professionFilter').addEventListener('change', function () {
-  const selected = this.value.toLowerCase();
+      const selected = this.value.toLowerCase();
+      clearHighlights();
+      if (!selected) return;
 
-  // Quitar anteriores
-  clearHighlights();
-
-  if (!selected) return;
-
-  const matchingNodes = [];
-
+      const matchingNodes = [];
       nodes.get().forEach(n => {
         const profession = (n["profession"] || "").toLowerCase();
         if (profession.includes(selected)) {
@@ -818,19 +769,15 @@ document.addEventListener('DOMContentLoaded', async function () {
           matchingNodes.push(n.id);
         }
       });
-    
       lastHighlightedNodes = matchingNodes;
     });
 
     document.getElementById('nationalityFilter').addEventListener('change', function () {
       const selected = this.value.toLowerCase();
-    
       clearHighlights();
-    
       if (!selected) return;
-    
+
       const matchingNodes = [];
-    
       nodes.get().forEach(n => {
         const nationality = (n["nationality"] || "").toLowerCase();
         if (nationality.includes(selected)) {
@@ -838,31 +785,29 @@ document.addEventListener('DOMContentLoaded', async function () {
           matchingNodes.push(n.id);
         }
       });
-    
       lastHighlightedNodes = matchingNodes;
     });
 
-        window.toggleFullScreen = function () {
-          const elem = document.documentElement;
-          if (!document.fullscreenElement) {
-            elem.requestFullscreen().catch(err => {
-              alert(`Error trying to enable full-screen mode: ${err.message}`);
-            });
-          } else {
-            document.exitFullscreen();
-          }
-        }
+    window.toggleFullScreen = function () {
+      const elem = document.documentElement;
+      if (!document.fullscreenElement) {
+        elem.requestFullscreen().catch(err => {
+          alert(`Error trying to enable full-screen mode: ${err.message}`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
 
-  // Activar física solo mientras se arrastra un nodo
-  network.on("dragStart", () => {
-    network.setOptions({ physics: { enabled: true } });
-  });
-  
-  network.on("dragEnd", () => {
-    network.setOptions({ physics: { enabled: false } });
-  });
+    // Activar física solo mientras se arrastra un nodo
+    network.on("dragStart", () => {
+      network.setOptions({ physics: { enabled: true } });
+    });
     
-  
+    network.on("dragEnd", () => {
+      network.setOptions({ physics: { enabled: false } });
+    });
+    
     network.once("stabilizationIterationsDone", function () {
       const connectedCounts = {};
       const allNodeIds = nodes.getIds();
@@ -917,7 +862,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       }, 500);
     });
 
-} catch (err) {
+  } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
   }
 });
