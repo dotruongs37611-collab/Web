@@ -231,19 +231,20 @@ document.addEventListener('DOMContentLoaded', async function () {
       },
       edges: { color: 'lightgray' },
       physics: {
+        enabled: true,
         solver: 'forceAtlas2Based',
+        forceAtlas2Based: {
+          gravitationalConstant: -80,     // menor repulsión
+          centralGravity: 0.002,          // atracción mínima
+          springLength: 120,              // más distancia ideal
+          springConstant: 0.03,           // enlaces suaves
+          avoidOverlap: 2,                // buena separación
+          damping: 0.9                    // amortiguación alta
+        },
         stabilization: {
           enabled: true,
-          iterations: 550,  // Increased stabilization
-          updateInterval: 25
-        },
-        forceAtlas2Based: {
-          gravitationalConstant: -120,  // Stronger repulsion
-          centralGravity: 0.02,
-          springLength: 100,  // Shorter ideal distance
-          springConstant: 0.04,
-          avoidOverlap: 2,  // Increased overlap prevention
-          damping: 0.9
+          iterations: 1000,
+          updateInterval: 50
         }
       },
       layout: {
@@ -253,8 +254,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
     network.once("stabilizationIterationsDone", function () {
       setTimeout(() => {
-        network.setOptions({ physics: false });
-        // NO hacemos zoom aquí, esperamos a ver si hay hash
 
         document.getElementById('loadingMessage').style.display = 'none';
     
@@ -274,16 +273,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
     
       }, 2000); // Espera 2 segundos más
-    });
-
-    network.on("dragStart", function () {
-      network.setOptions({ physics: { enabled: true } });
-    });
-
-    network.on("dragEnd", function () {
-      setTimeout(() => {
-        network.setOptions({ physics: false });
-      }, 1000); // espera 1 segundo para que se relaje
     });
 
     function highlightNeighborhood(nodeId) {
