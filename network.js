@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           centralGravity: 0.01,          // atracción mínima
           springLength: 150,              // más distancia ideal
           springConstant: 0.08,           // enlaces suaves
-          avoidOverlap: 5,                // buena separación
+          avoidOverlap: 7,                // buena separación
           damping: 0.4                    // amortiguación alta
         },
         stabilization: {
