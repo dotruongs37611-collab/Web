@@ -257,6 +257,50 @@ document.addEventListener('DOMContentLoaded', async function () {
         randomSeed: 1912  // Consistent layout
       }
     });
+
+    network.once("stabilizationIterationsDone", function groupByCommonNeighbors() {
+      const connectedCounts = {};
+      const allNodeIds = nodes.getIds();
+    
+      for (let i = 0; i < allNodeIds.length; i++) {
+        const id1 = allNodeIds[i];
+        const neighbors1 = new Set(
+          edges.get({
+            filter: e => e.from === id1 || e.to === id1
+          }).map(e => e.from === id1 ? e.to : e.from)
+        );
+    
+        for (let j = i + 1; j < allNodeIds.length; j++) {
+          const id2 = allNodeIds[j];
+          const neighbors2 = new Set(
+            edges.get({
+              filter: e => e.from === id2 || e.to === id2
+            }).map(e => e.from === id2 ? e.to : e.from)
+          );
+    
+          let common = 0;
+          neighbors1.forEach(n => {
+            if (neighbors2.has(n)) common++;
+          });
+    
+          if (common >= 3) {
+            const n1 = nodes.get(id1);
+            const n2 = nodes.get(id2);
+            if (!n1 || !n2) continue;
+    
+            const dx = (n2.x - n1.x) * 0.02 * common;
+            const dy = (n2.y - n1.y) * 0.02 * common;
+    
+            nodes.update([
+              { id: id1, x: n1.x + dx, y: n1.y + dy },
+              { id: id2, x: n2.x - dx, y: n2.y - dy }
+            ]);
+          }
+        }
+      }
+    });
+      
+    });
     
     network.once("stabilizationIterationsDone", function () {
       document.getElementById('loadingMessage').style.display = 'none';
