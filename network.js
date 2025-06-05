@@ -240,11 +240,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'forceAtlas2Based',
         forceAtlas2Based: {
-          gravitationalConstant: -70,     // menor repulsión
-          centralGravity: 0.01,          // atracción mínima
-          springLength: 80,              // más distancia ideal
+          gravitationalConstant: -40,     // menor repulsión
+          centralGravity: 0.005,          // atracción mínima
+          springLength: 100,              // más distancia ideal
           springConstant: 0.04,           // enlaces suaves
-          avoidOverlap: 1.2,                // buena separación
+          avoidOverlap: 2,                // buena separación
           damping: 0.8                    // amortiguación alta
         },
         stabilization: {
@@ -283,15 +283,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       const connectedNodes = new Set();
       connectedEdges.forEach(edge => {
         connectedNodes.add(edge.from === nodeId ? edge.to : edge.from);
-      });
-
-      // Resaltar edges conectados
-      connectedEdges.forEach(edge => {
-        edges.update({
-          id: edge.id,
-          color: { color: 'red' },
-          width: 3
-        });
       });
 
       const allEdgeIds = edges.getIds();
