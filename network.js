@@ -162,7 +162,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       }));
 
     // Mostrar número de nodos y edges
-    document.getElementById("networkStats").textContent = `Nodes: ${nodes.length} | Connections: ${edges.length}`;
+    document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>`;
+
 
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
