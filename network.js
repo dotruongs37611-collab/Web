@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       edges: {
         color: 'rgba(200,200,200,0.2)',
         width: 1
-      }
+      },
       physics: {
         enabled: true,
         solver: 'forceAtlas2Based',
