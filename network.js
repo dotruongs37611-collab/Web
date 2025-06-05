@@ -262,7 +262,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.once("stabilizationIterationsDone", function clusteringEnhancement() {
       const connectedCounts = {};
     
-      // Cuenta cuántos vecinos comunes tiene cada par
       nodes.getIds().forEach(id1 => {
         connectedCounts[id1] = new Set(
           edges.get({
@@ -271,7 +270,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         ).size;
       });
     
-      // Reasignar posiciones iniciales ligeramente más cerca según nº de conexiones
       const updates = nodes.get().map(node => {
         const count = connectedCounts[node.id] || 1;
         return {
@@ -282,6 +280,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         };
       });
     
+      nodes.update(updates);
+    });
+
       nodes.update(updates);
     });
 
