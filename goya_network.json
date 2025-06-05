@@ -5486,12 +5486,6 @@
       "relationship type": "employer-employee"
     },
     {
-      "from": "Carlos III",
-      "to": "",
-      "connection_level": "direct",
-      "relationship type": "relatives; grandfather-grandson"
-    },
-    {
       "from": "María Luisa de Parma",
       "to": "Carlos IV",
       "connection_level": "direct",
