@@ -299,8 +299,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       }
     });
-      
-    });
     
     network.once("stabilizationIterationsDone", function () {
       document.getElementById('loadingMessage').style.display = 'none';
