@@ -133,14 +133,14 @@ document.addEventListener('DOMContentLoaded', async function () {
         ...node,
         size: Math.min(26 + degree * 0.7, 48),
         font: {
-          size: Math.min(13 + degree * 0.6, 24),
+          size: Math.min(12 + degree * 0.45, 20),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -24
+          vadjust: -30
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
