@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       
       lastHighlightedNode = nodeId;
       lastHighlightedNodes = Array.from(connectedNodes);
-      lastNonHighlightedNodes = nonConnectedNodes; // Store for clearing later
+      lastNonHighlightedNodes = nonConnected;
     }
     
     network.on("click", function (params) {
