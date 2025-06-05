@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const level = edge.connection_level || "direct";
         return {
           ...edge,
-          color: level === "secondary" ? "#FFD700" : "lightgray", // dorado para secondary
+          color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.2)"
           width: 2
         };
       }));
@@ -229,16 +229,19 @@ document.addEventListener('DOMContentLoaded', async function () {
           useBorderWithImage: true
         }
       },
-      edges: { color: 'lightgray' },
+      edges: {
+        color: 'rgba(200,200,200,0.2)',
+        width: 1
+      }
       physics: {
         enabled: true,
         solver: 'forceAtlas2Based',
         forceAtlas2Based: {
-          gravitationalConstant: -80,     // menor repulsión
-          centralGravity: 0.002,          // atracción mínima
-          springLength: 120,              // más distancia ideal
-          springConstant: 0.03,           // enlaces suaves
-          avoidOverlap: 2,                // buena separación
+          gravitationalConstant: -120,     // menor repulsión
+          centralGravity: 0.01,          // atracción mínima
+          springLength: 100,              // más distancia ideal
+          springConstant: 0.05,           // enlaces suaves
+          avoidOverlap: 1.2,                // buena separación
           damping: 0.9                    // amortiguación alta
         },
         stabilization: {
@@ -724,7 +727,15 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Call this at the end of the DOMContentLoaded event:
     network.once("stabilizationIterationsDone", function () {
       setTimeout(() => {
-        network.setOptions({ physics: false });
+        network.setOptions({
+          physics: {
+            forceAtlas2Based: {
+              damping: 0.95
+            }
+          }
+        }
+        );
+
         network.fit({ animation: true, minZoomLevel: 0.5 });
     
         document.getElementById('loadingMessage').style.display = 'none';
