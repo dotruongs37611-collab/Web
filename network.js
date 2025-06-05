@@ -260,6 +260,48 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
     
     network.once("stabilizationIterationsDone", function () {
+      
+      const commonConnections = {};
+      nodes.getIds().forEach(id1 => {
+        nodes.getIds().forEach(id2 => {
+          if (id1 !== id2) {
+            const key = [id1, id2].sort().join('-');
+            if (!commonConnections[key]) {
+              const edges1 = new Set(edges.get({
+                filter: e => e.from === id1 || e.to === id1
+              }).map(e => e.from === id1 ? e.to : e.from));
+              
+              const edges2 = new Set(edges.get({
+                filter: e => e.from === id2 || e.to === id2
+              }).map(e => e.from === id2 ? e.to : e.from));
+              
+              // Count common connections
+              let common = 0;
+              edges1.forEach(node => {
+                if (edges2.has(node)) common++;
+              });
+              
+              commonConnections[key] = common;
+            }
+          }
+        });
+      });
+    
+      // Apply additional spring forces for nodes with common connections
+      network.setOptions({
+        physics: {
+          forceAtlas2Based: {
+            springLength: edge => {
+              const nodes = edge.from + '-' + edge.to;
+              const common = commonConnections[nodes] || 0;
+              // Nodes with more common connections should be closer
+              return 150 - (common * 10); // Adjust multiplier as needed
+            }
+          }
+        }
+      });
+    });
+      
       document.getElementById('loadingMessage').style.display = 'none';
     
       nodes.forEach(node => {
