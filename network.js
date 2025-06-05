@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Batch update edges
       const edgeUpdates = edges.get().map(edge => ({
         id: edge.id,
-        color: edge.connection_level === "secondary" ? "#FFD700" : "lightgray",
+        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.3)" : "rgba(200,200,200,0.1)" }
         width: 2
       }));
       edges.update(edgeUpdates);
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       edges.update(fadedEdges);
 
       const allNodeIds = nodes.getIds();
-      const nonConnected = allNodeIds.filter(id => id !== fromNode.id && id !== toNode.id);
+      const nonConnected = allNodeIds.filter(id => id !== nodeId && !connectedNodes.has(id));
       nodes.update(nonConnected.map(id => ({ id, opacity: 0.3 })));
 
       // Atenuar edges no conectados
@@ -328,7 +328,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         updates.push({ id, color: { border: '#ffa500' }, borderWidth: 3 });
       });
     
-      const nonConnectedUpdates = nonConnectedNodes.map(id => ({
+      const nonConnectedUpdates = nonConnected.map(id => ({
         id,
         opacity: 0.3
       }));
