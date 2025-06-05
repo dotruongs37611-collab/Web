@@ -130,9 +130,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(42 + degree * 1.5, 100),
+        size: Math.min(60 + degree * 1, 120),
         font: { 
-          size: Math.min(18 + degree * 1.2, 48),  // 🔥 proporcional al número de edges
+          size: Math.min(22 + degree * 1.5, 60),  // 🔥 proporcional al número de edges
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
@@ -237,12 +237,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'forceAtlas2Based',
         forceAtlas2Based: {
-          gravitationalConstant: -120,     // menor repulsión
+          gravitationalConstant: -50,     // menor repulsión
           centralGravity: 0.01,          // atracción mínima
-          springLength: 100,              // más distancia ideal
-          springConstant: 0.05,           // enlaces suaves
+          springLength: 50,              // más distancia ideal
+          springConstant: 0.04,           // enlaces suaves
           avoidOverlap: 1.2,                // buena separación
-          damping: 0.9                    // amortiguación alta
+          damping: 0.8                    // amortiguación alta
         },
         stabilization: {
           enabled: true,
@@ -706,17 +706,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         network.setOptions({
           physics: {
-            enabled: true,
-            solver: 'forceAtlas2Based',
-            forceAtlas2Based: {
-              gravitationalConstant: -80,
-              centralGravity: 0.002,
-              springLength: 100,
-              springConstant: 0.03,
-              avoidOverlap: 1.5,
-              damping: 1
-            },
-            stabilization: false
+            enabled: false
           }
         });
         
@@ -869,6 +859,15 @@ document.addEventListener('DOMContentLoaded', async function () {
             document.exitFullscreen();
           }
         }
+
+  // Activar física solo mientras se arrastra un nodo
+  network.on("dragStart", () => {
+    network.setOptions({ physics: { enabled: true } });
+  });
+  
+  network.on("dragEnd", () => {
+    network.setOptions({ physics: { enabled: false } });
+  });
     
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
