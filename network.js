@@ -749,17 +749,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }, 2000);
     });
 
-    function toggleFullScreen() {
-  const elem = document.documentElement;
-  if (!document.fullscreenElement) {
-    elem.requestFullscreen().catch(err => {
-      alert(`Error trying to enable full-screen mode: ${err.message}`);
-    });
-  } else {
-    document.exitFullscreen();
-  }
-}
-
     // Búsqueda funcional
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.querySelector('.search-button');
@@ -885,6 +874,16 @@ document.addEventListener('DOMContentLoaded', async function () {
       lastHighlightedNodes = matchingNodes;
     });
 
+        window.toggleFullScreen = function () {
+          const elem = document.documentElement;
+          if (!document.fullscreenElement) {
+            elem.requestFullscreen().catch(err => {
+              alert(`Error trying to enable full-screen mode: ${err.message}`);
+            });
+          } else {
+            document.exitFullscreen();
+          }
+        }
     
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
