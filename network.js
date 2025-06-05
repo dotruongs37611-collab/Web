@@ -227,86 +227,90 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (!container) {
       console.error("❌ No se encontró el contenedor #network.");
       return;
-}
-    const network = new vis.Network(container, { nodes, edges }, {
-      nodes: { 
-        borderWidth: 2,
-        shapeProperties: {
-          useBorderWithImage: true
-        }
+    }
+    
+  const network = new vis.Network(container, { nodes, edges }, {
+    nodes: { 
+      borderWidth: 2,
+      shapeProperties: {
+        useBorderWithImage: true
+      }
+    },
+    edges: { 
+      color: 'lightgray',
+      smooth: {
+        enabled: true,
+        type: 'continuous'
+      }
+    },
+    physics: {
+      enabled: true, // Keep physics enabled for natural movement
+      solver: 'forceAtlas2Based',
+      stabilization: {
+        enabled: true,
+        iterations: 200, // Reduced from 550 for faster loading
+        updateInterval: 25
       },
-      edges: { color: 'lightgray' },
+      forceAtlas2Based: {
+        gravitationalConstant: -50, // Reduced from -80 for less repulsion
+        centralGravity: 0.02, // Reduced from 0.015 for less tight clustering
+        springLength: 150, // Increased from 115 for more spacing
+        springConstant: 0.05, // Reduced from 0.07 for less tension
+        avoidOverlap: 1.0, // Reduced from 2.0 for less strict overlap avoidance
+        damping: 0.4 // Reduced from 0.85 for faster stabilization
+      }
+    },
+    interaction: {
+      dragNodes: true,
+      dragView: true,
+      zoomView: true,
+      hideEdgesOnDrag: false,
+      tooltipDelay: 100
+    },
+    layout: {
+      improvedLayout: true,
+      randomSeed: 1912
+    }
+  });
+    
+  network.once("stabilizationIterationsDone", function () {
+    // Switch to a more stable physics model after initial layout
+    network.setOptions({
       physics: {
-        solver: 'forceAtlas2Based',
-        stabilization: {
-          enabled: true,
-          iterations: 550,
-          updateInterval: 25
-        },
-        forceAtlas2Based: {
-          gravitationalConstant: -80,
-          centralGravity: 0.015,
-          springLength: 115,
-          springConstant: 0.07,
-          avoidOverlap: 2.0,
-          damping: 0.85
+        enabled: true,
+        solver: 'repulsion',
+        repulsion: {
+          nodeDistance: 200, // Increased distance
+          centralGravity: 0.1, // Moderate central pull
+          springLength: 150,
+          springConstant: 0.01, // Very weak springs
+          damping: 0.3 // Low damping for smooth movement
         }
-      },
-      interaction: {
-        dragNodes: true,         // asegura que puedes moverlos
-        dragView: true,
-        zoomView: true
-      },
-      layout: {
-        improvedLayout: true,
-        randomSeed: 1912  // Consistent layout
       }
     });
-    network.once("stabilizationIterationsDone", function () {
-      setTimeout(() => {
-        // 🔁 Transición de ForceAtlas2 a Repulsion para interacción más suave
 
-        document.getElementById('loadingMessage').style.display = 'none';
+  // Load images after initial stabilization
+    nodes.forEach(node => {
+      if (node._imageUrl) {
+        nodes.update({ id: node.id, image: node._imageUrl });
+      }
+    });
     
-        // 🔁 AÑADE esto aquí dentro
-        nodes.forEach(node => {
-          if (node._imageUrl) {
-            nodes.update({ id: node.id, image: node._imageUrl });
-          }
-        });
-
-        // Now handle the initial hash
-        handleInitialHash().then(handled => {
-          if (!handled) {
-            // Default view if no hash
-            network.fit({ animation: true });
-          }
-        });
+    document.getElementById('loadingMessage').style.display = 'none';
     
-      }, 2000); // Espera 2 segundos más
-    });
-
-    network.on("dragStart", function () {
-      network.setOptions({
-        physics: {
-          enabled: true,
-          solver: 'repulsion',
-          repulsion: {
-            nodeDistance: 180,
-            springLength: 100,
-            springConstant: 0.02,
-            damping: 0.9,
-            centralGravity: 0.2
-          }
-        }
-      });
-    });
-
-    network.on("dragEnd", function () {
-      setTimeout(() => {
-        network.setOptions({ physics: false });
-      }, 500); // espera 0.5 segundo para que se relaje
-    });
+    // Handle initial hash if present
+    handleInitialHash();
+  });
+  
+  // Replace your drag handlers with these:
+  network.on("dragStart", function () {
+    // No physics changes needed - keep current repulsion settings
+  });
+  
+  network.on("dragEnd", function () {
+    // Let the network settle naturally with current physics
+    // No need to disable physics completely
+  });
 
     function highlightNeighborhood(nodeId) {
       const connectedEdges = edges.get({
