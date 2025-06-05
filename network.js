@@ -238,18 +238,17 @@ document.addEventListener('DOMContentLoaded', async function () {
       },
       physics: {
         enabled: true,
-        solver: 'forceAtlas2Based',
-        forceAtlas2Based: {
-          gravitationalConstant: -120,     // menor repulsión
-          centralGravity: 0.01,          // atracción mínima
-          springLength: 200,              // más distancia ideal
-          springConstant: 0.06,           // enlaces suaves
-          avoidOverlap: 10,                // buena separación
-          damping: 0.5                    // amortiguación alta
+        solver: 'repulsion',
+        repulsion: {
+          nodeDistance: 110,         // Antes tenías 200 (excesivo), ahora es más compacto
+          centralGravity: 0.2,       // Más atracción hacia el centro
+          springLength: 120,         // Menos distancia ideal entre nodos
+          springConstant: 0.06,      // Más elasticidad (menos rigidez)
+          damping: 0.2               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
           enabled: true,
-          iterations: 500,
+          iterations: 400,
           updateInterval: 25
         }
       },
