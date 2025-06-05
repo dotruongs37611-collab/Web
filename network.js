@@ -344,11 +344,10 @@ network.once("stabilizationIterationsDone", function() {
     });
   });
 
-    } catch (err) {
-    console.error("Error cargando o renderizando la red:", err);
-    }
-  });
-      
+} catch (err) {
+  console.error("Error cargando o renderizando la red:", err);
+});
+    
       const connectedNodes = new Set();
       connectedEdges.forEach(edge => {
         connectedNodes.add(edge.from === nodeId ? edge.to : edge.from);
