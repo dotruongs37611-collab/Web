@@ -266,21 +266,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       setTimeout(() => {
         // 🔁 Transición de ForceAtlas2 a Repulsion para interacción más suave
 
-        // Luego activamos física de repulsión más suave
-        network.setOptions({
-          physics: {
-            enabled: true,
-            solver: 'repulsion',
-            repulsion: {
-              nodeDistance: 180,
-              springLength: 100,
-              springConstant: 0.02,
-              damping: 0.9,
-              centralGravity: 0.2
-            }
-          }
-        });
-
         document.getElementById('loadingMessage').style.display = 'none';
     
         // 🔁 AÑADE esto aquí dentro
@@ -302,7 +287,19 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     network.on("dragStart", function () {
-      network.setOptions({ physics: { enabled: true } });
+      network.setOptions({
+        physics: {
+          enabled: true,
+          solver: 'repulsion',
+          repulsion: {
+            nodeDistance: 180,
+            springLength: 100,
+            springConstant: 0.02,
+            damping: 0.9,
+            centralGravity: 0.2
+          }
+        }
+      });
     });
 
     network.on("dragEnd", function () {
