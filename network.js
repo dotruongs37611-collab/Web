@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(34 + degree * 1.0, 65),
+        size: Math.min(32 + degree * 1.0, 60),
         font: {
-          size: Math.min(16 + degree * 1.0, 34),
+          size: Math.min(15 + degree * 1.0, 30),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
@@ -209,8 +209,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Batch update edges
       const edgeUpdates = edges.get().map(edge => ({
         id: edge.id,
-        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
-        width: 2
+        color: { color: edge.connection_level === "secondary" ? "rgba(255,215,0,0.25)" : "rgba(200,200,200,0.15)" },
+        width: 1.5
       }));
 
       edges.update(edgeUpdates);
@@ -242,9 +242,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         forceAtlas2Based: {
           gravitationalConstant: -10,     // menor repulsión
           centralGravity: 0.0005,          // atracción mínima
-          springLength: 100,              // más distancia ideal
+          springLength: 120,              // más distancia ideal
           springConstant: 0.05,           // enlaces suaves
-          avoidOverlap: 3,                // buena separación
+          avoidOverlap: 4,                // buena separación
           damping: 0.8                    // amortiguación alta
         },
         stabilization: {
