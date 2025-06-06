@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               face: 'EB Garamond, serif',
               align: 'center',
               bold: true,
-              vadjust: -25
+              vadjust: -10
             },
             color: { border: '#2B7CE9' },
             borderWidth: 2,
