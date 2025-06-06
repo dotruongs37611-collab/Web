@@ -308,37 +308,39 @@ document.addEventListener('DOMContentLoaded', async function () {
     const MIN_DISTANCE = 80;
     const positions = network.getPositions();
     const updates = [];
-    const nodeIds = nodes.getIds();
-    for (let i = 0; i < nodeIds.length; i++) {
-      const id1 = nodeIds[i];
-      const p1 = positions[id1];
-    
-      for (let j = i + 1; j < nodeIds.length; j++) {
-        const id2 = nodeIds[j];
-        const p2 = positions[id2];
-    
+    const nodeArray = nodes.get();
+
+    for (let i = 0; i < nodeArray.length; i++) {
+      const node1 = nodeArray[i];
+      const p1 = positions[node1.id];
+      
+      for (let j = i + 1; j < nodeArray.length; j++) {
+        const node2 = nodeArray[j];
+        const p2 = positions[node2.id];
+        
         const dx = p2.x - p1.x;
         const dy = p2.y - p1.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
-    
-        let push;
-    
+        
         if (distance < MIN_DISTANCE && distance > 0.5) {
-          push = (MIN_DISTANCE - distance) / 2;
-          updates.push({ id: id1, x: p1.x - dx * push / distance, y: p1.y - dy * push / distance });
-          updates.push({ id: id2, x: p2.x + dx * push / distance, y: p2.y + dy * push / distance });
-        } else if (distance <= 0.5) {
-          const randomX = Math.random() - 0.5;
-          const randomY = Math.random() - 0.5;
-          push = MIN_DISTANCE / 2;
-    
-          updates.push({ id: id1, x: p1.x - randomX * push, y: p1.y - randomY * push });
-          updates.push({ id: id2, x: p2.x + randomX * push, y: p2.y + randomY * push });
+          const push = (MIN_DISTANCE - distance) / 2;
+          updates.push({ 
+            id: node1.id, 
+            x: p1.x - dx * push / distance, 
+            y: p1.y - dy * push / distance 
+          });
+          updates.push({ 
+            id: node2.id, 
+            x: p2.x + dx * push / distance, 
+            y: p2.y + dy * push / distance 
+          });
         }
       }
     }
 
-    nodes.update(updates);
+    if (updates.length > 0) {
+      nodes.update(updates);
+    }
   
     // 3. Ajustar vista si no se ha enfocado a un nodo
     handleInitialHash().then(handled => {
