@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         };
     
         // Load the network data
-        const response = await fetch('goya_network.json');
+        const response = await fetch('goya_network_v2.json');
         if (!response.ok) throw new Error('Error cargando datos');
         const data = await response.json();
         
