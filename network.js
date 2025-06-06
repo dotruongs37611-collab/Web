@@ -347,9 +347,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     // 3. Ajustar vista si no se ha enfocado a un nodo
     handleInitialHash().then(handled => {
     // 🧲 FORZAR estabilización ANTES de reagrupar
-    network.stabilize();
-  
-    // 🧲 Agrupar nodos con muchas conexiones compartidas
+
+        // 🧲 Agrupar nodos con muchas conexiones compartidas
     const threshold = 2;
     const adjacency = {};
     edges.forEach(edge => {
@@ -374,7 +373,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (shared.length >= threshold) {
           const dx = positions[idB].x - positions[idA].x;
           const dy = positions[idB].y - positions[idA].y;
-          const factor = 0.4; // 💪 más agrupación (antes 0.2)
+          const factor = 0.6; // 💪 más agrupación (antes 0.2)
 
           updates.push({ id: idA, x: positions[idA].x + dx * factor, y: positions[idA].y + dy * factor });
           updates.push({ id: idB, x: positions[idB].x - dx * factor, y: positions[idB].y - dy * factor });
@@ -383,6 +382,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   
     nodes.update(updates);
+    network.stabilize();
   
     if (!handled) {
       setTimeout(() => {
