@@ -132,6 +132,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       const config = {
         ...node,
         size: Math.min(20 + degree * 0.8, 50),
+        mass: 1 + degree * 0.2,
         font: {
           size: Math.min(11 + degree * 0.6, 24),
           color: '#ffffff',
@@ -140,7 +141,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -30
+          vadjust: -35
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
@@ -242,7 +243,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         repulsion: {
           nodeDistance: 220,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.2,       // Más atracción hacia el centro
-          springLength: 135,         // Menos distancia ideal entre nodos
+          springLength: 160,         // Menos distancia ideal entre nodos
           springConstant: 0.06,      // Más elasticidad (menos rigidez)
           damping: 0.2               // Estabiliza más rápido sin perder suavidad
         },
