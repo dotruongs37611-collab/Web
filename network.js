@@ -267,28 +267,35 @@ document.addEventListener('DOMContentLoaded', async function () {
     const positions = network.getPositions();
     const updates = [];
     const nodeIds = nodes.getIds();
-  
     for (let i = 0; i < nodeIds.length; i++) {
       const id1 = nodeIds[i];
       const p1 = positions[id1];
-  
+    
       for (let j = i + 1; j < nodeIds.length; j++) {
         const id2 = nodeIds[j];
         const p2 = positions[id2];
-  
+    
         const dx = p2.x - p1.x;
         const dy = p2.y - p1.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
-  
-        if (distance < MIN_DISTANCE) {
-          const push = (MIN_DISTANCE - distance) / 2;
-  
+    
+        let push;
+    
+        if (distance < MIN_DISTANCE && distance > 0.5) {
+          push = (MIN_DISTANCE - distance) / 2;
           updates.push({ id: id1, x: p1.x - dx * push / distance, y: p1.y - dy * push / distance });
           updates.push({ id: id2, x: p2.x + dx * push / distance, y: p2.y + dy * push / distance });
+        } else if (distance <= 0.5) {
+          const randomX = Math.random() - 0.5;
+          const randomY = Math.random() - 0.5;
+          push = MIN_DISTANCE / 2;
+    
+          updates.push({ id: id1, x: p1.x - randomX * push, y: p1.y - randomY * push });
+          updates.push({ id: id2, x: p2.x + randomX * push, y: p2.y + randomY * push });
         }
       }
     }
-  
+
     nodes.update(updates);
   
     // 2. Cargar imágenes
