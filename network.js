@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           align: 'center',
           background: 'rgba(0,0,0,0.5)',
           bold: true,
-          vadjust: 10
+          vadjust: -2
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
@@ -308,6 +308,9 @@ document.addEventListener('DOMContentLoaded', async function () {
   
     // 3. Ajustar vista si no se ha enfocado a un nodo
     handleInitialHash().then(handled => {
+    // 🧲 FORZAR estabilización ANTES de reagrupar
+    network.stabilize();
+  
     // 🧲 Agrupar nodos con muchas conexiones compartidas
     const threshold = 6;
     const adjacency = {};
@@ -319,10 +322,11 @@ document.addEventListener('DOMContentLoaded', async function () {
       adjacency[a].add(b);
       adjacency[b].add(a);
     });
-    const pullUpdates = [];
-    network.stabilize();
-    const pos = network.getPositions();
+  
+    const positions = network.getPositions();
+    const updates = [];
     const ids = nodes.getIds();
+  
     for (let i = 0; i < ids.length; i++) {
       for (let j = i + 1; j < ids.length; j++) {
         const idA = ids[i];
@@ -330,19 +334,21 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!adjacency[idA] || !adjacency[idB]) continue;
         const shared = [...adjacency[idA]].filter(x => adjacency[idB].has(x));
         if (shared.length >= threshold) {
-          const dx = pos[idB].x - pos[idA].x;
-          const dy = pos[idB].y - pos[idA].y;
-          pullUpdates.push({ id: idA, x: pos[idA].x + dx * 0.2, y: pos[idA].y + dy * 0.2 });
-          pullUpdates.push({ id: idB, x: pos[idB].x - dx * 0.2, y: pos[idB].y - dy * 0.2 });
+          const dx = positions[idB].x - positions[idA].x;
+          const dy = positions[idB].y - positions[idA].y;
+          updates.push({ id: idA, x: positions[idA].x + dx * 0.2, y: positions[idA].y + dy * 0.2 });
+          updates.push({ id: idB, x: positions[idB].x - dx * 0.2, y: positions[idB].y - dy * 0.2 });
         }
       }
     }
-    nodes.update(pullUpdates);
+  
+    nodes.update(updates);
   
     if (!handled) {
       network.fit({ animation: true });
     }
   });
+
 
 
   });
