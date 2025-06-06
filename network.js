@@ -285,13 +285,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
-    // Add this right after network creation:
-    setTimeout(() => {
-      // Defer these heavy operations
-      handleInitialHash();
-      loadFullImages();
-    }, 500);
-
     function loadFullImages() {
       const imageUpdates = data.nodes
         .filter(node => node.image)
@@ -776,7 +769,14 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       });
     }
-    
+
+      // Add this right after network creation:
+      setTimeout(() => {
+        // Defer these heavy operations
+        handleInitialHash();
+        loadFullImages();
+      }, 500);
+
       }, 2000);
 
     // Búsqueda funcional
