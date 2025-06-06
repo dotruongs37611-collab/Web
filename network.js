@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       const degree = edgeCount[node.id] || 1;
       const config = {
         ...node,
-        size: Math.min(20 + degree * 0.5, 40),
+        size: Math.min(20 + degree * 0.8, 50),
         font: {
-          size: Math.min(11 + degree * 0.4, 18),
+          size: Math.min(11 + degree * 0.6, 24),
           color: '#ffffff',
           strokeWidth: 0,
           strokeColor: 'transparent',
