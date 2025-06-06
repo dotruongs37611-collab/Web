@@ -304,7 +304,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     
   network.once("stabilizationIterationsDone", function () {
     document.getElementById('loadingMessage').style.display = 'none';
-  network.setOptions({ physics: { enabled: false } });
   
     // 1. Separar nodos que están demasiado cerca
     const MIN_DISTANCE = 80;
@@ -343,53 +342,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (updates.length > 0) {
       nodes.update(updates);
     }
-  
-    // 3. Ajustar vista si no se ha enfocado a un nodo
-    handleInitialHash().then(handled => {
-    // 🧲 FORZAR estabilización ANTES de reagrupar
-
-        // 🧲 Agrupar nodos con muchas conexiones compartidas
-    const threshold = 2;
-    const adjacency = {};
-    edges.forEach(edge => {
-      const a = edge.from;
-      const b = edge.to;
-      if (!adjacency[a]) adjacency[a] = new Set();
-      if (!adjacency[b]) adjacency[b] = new Set();
-      adjacency[a].add(b);
-      adjacency[b].add(a);
-    });
-  
-    const positions = network.getPositions();
-    const updates = [];
-    const ids = nodes.getIds();
-  
-    for (let i = 0; i < ids.length; i++) {
-      for (let j = i + 1; j < ids.length; j++) {
-        const idA = ids[i];
-        const idB = ids[j];
-        if (!adjacency[idA] || !adjacency[idB]) continue;
-        const shared = [...adjacency[idA]].filter(x => adjacency[idB].has(x));
-        if (shared.length >= threshold) {
-          const dx = positions[idB].x - positions[idA].x;
-          const dy = positions[idB].y - positions[idA].y;
-          const factor = 0.6; // 💪 más agrupación (antes 0.2)
-
-          updates.push({ id: idA, x: positions[idA].x + dx * factor, y: positions[idA].y + dy * factor });
-          updates.push({ id: idB, x: positions[idB].x - dx * factor, y: positions[idB].y - dy * factor });
-        }
-      }
-    }
-  
-    nodes.update(updates);
+    
+    // FORZAR la física a estabilizar con las nuevas posiciones
     network.stabilize();
-  
-    if (!handled) {
-      setTimeout(() => {
-        network.fit({ animation: true });
-      }, 300); // medio segundo de pausa tras el agrupamiento
-    }
-  });
+
+    // 🔁 Ahora sí: detener la física
+    network.setOptions({ physics: { enabled: false } });
 
     function highlightNeighborhood(nodeId) {
       const connectedEdges = edges.get({
@@ -803,6 +761,54 @@ document.addEventListener('DOMContentLoaded', async function () {
           const node = idFromLabel ? nodes.get(idFromLabel) : null;
 
           if (node) {
+
+            // 3. Ajustar vista si no se ha enfocado a un nodo
+            handleInitialHash().then(handled => {
+            // 🧲 FORZAR estabilización ANTES de reagrupar
+
+                // 🧲 Agrupar nodos con muchas conexiones compartidas
+            const threshold = 2;
+            const adjacency = {};
+            edges.forEach(edge => {
+              const a = edge.from;
+              const b = edge.to;
+              if (!adjacency[a]) adjacency[a] = new Set();
+              if (!adjacency[b]) adjacency[b] = new Set();
+              adjacency[a].add(b);
+              adjacency[b].add(a);
+            });
+          
+            const positions = network.getPositions();
+            const updates = [];
+            const ids = nodes.getIds();
+          
+            for (let i = 0; i < ids.length; i++) {
+              for (let j = i + 1; j < ids.length; j++) {
+                const idA = ids[i];
+                const idB = ids[j];
+                if (!adjacency[idA] || !adjacency[idB]) continue;
+                const shared = [...adjacency[idA]].filter(x => adjacency[idB].has(x));
+                if (shared.length >= threshold) {
+                  const dx = positions[idB].x - positions[idA].x;
+                  const dy = positions[idB].y - positions[idA].y;
+                  const factor = 0.6; // 💪 más agrupación (antes 0.2)
+
+                  updates.push({ id: idA, x: positions[idA].x + dx * factor, y: positions[idA].y + dy * factor });
+                  updates.push({ id: idB, x: positions[idB].x - dx * factor, y: positions[idB].y - dy * factor });
+                }
+              }
+            }
+          
+            nodes.update(updates);
+            network.stabilize();
+          
+            if (!handled) {
+              setTimeout(() => {
+                network.fit({ animation: true });
+              }, 300); // medio segundo de pausa tras el agrupamiento
+            }
+          });
+
             // Wait for network to stabilize
             setTimeout(() => {
               network.selectNodes([node.id]);
