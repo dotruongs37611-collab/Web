@@ -197,7 +197,6 @@
       "lives in": "Venice; Würzburg, Baviera (1751-53); Madrid (1762-70): assisted his father in the decoration of the Royal Palace",
       "works for": "Carlos III",
       "profession": "painter, engraver",
-      "nationality": "Italian",
       "parents": "Giambattista Tiepolo and Maria Cecilia Guardi",
       "collector of Goya's works": "at the time of his death in Venice in 1804, he owned proofs of most of Goya's etchings executed bfore that date, including a set of the <i>Caprichos</i> (Harris 1964, vol.I, p.7)",
       "sales": "Paris, 10-12 November 1845: Goya works lots 76-81, including a 1st-edition set of the <i>Caprichos</i>, <i>Blind guitarist on the horns of a bull</i> and plates after Velázquez (see Harris 1964, vol.I, p.13; Wilson Bareau 2016, p.38, note 22). The catalogue was distributed by the print dealer Pierre Defer, who was in contact with Carderera from 1841, with whom he 'talked about Goya' in 1855 (Lanzarote Guiral 2016, p.314)",
@@ -214,7 +213,7 @@
     {
       "id": "Federico Madrazo",
       "full name": "Federico de Madrazo y Kuntz",
-      "label": "Federico Madrazo",
+      "label": "F. Madrazo",
       "life dates": "1815-1894",
       "nationality": "Spanish",
       "profession": "painter, collector, art dealer",
@@ -390,7 +389,7 @@
     },
     {
       "id": "Eugenio Ochoa",
-      "label": "Eugenio Ochoa",
+      "label": "Ochoa",
       "life dates": "1815-1872",
       "nationality": "Spanish",
       "profession": "writer, editor, politician",
@@ -513,7 +512,7 @@
     },
     {
       "id": "Ferdinand Guillemardet",
-      "label": "Ferdinand Guillemardet",
+      "label": "Guillemardet",
       "life dates": "1765-1809",
       "nationality": "French",
       "profession": "diplomat (French ambassador 1798-1800), medical doctor, politician (representative of the Convention)",
@@ -546,7 +545,7 @@
       "students": "Pierre Andrieu, Gustave de Lassalle-Borde, Louis de Planet, Maurice Sand. In 1841 he opens a workshop with students in order to complete different commissions.",
       "influenced by": "Géricault, Antoine-Jean Gros, Pierre Paul Rubens, Francisco de Goya",
       "parents": "Victoire Œben and Charles-François Delacroix",
-      "decorations/awards": "Commandeur de la Légion d'honneur‎ (1855)",
+      "decorations/awards": "Commandeur de la Légion d'honneur (1855)",
       "portrayed by": "Delacroix/Géricault, c.1816, Rouen (oil painting); Nadar, 1858 (photograph)",
       "curiosities": "he became interested in photography since 1851, and commissioned the photographer Eugène Durieu with a series of pictures of nude models (male and female)",
       "bibliography": "Sébastien Allard et al., 2018 exhibition catalogue, Louvre; Maurice Sérullaz, 1989, <i>Delacroix</i>",
@@ -556,7 +555,7 @@
     },
     {
       "id": "Félix Guillemardet",
-      "label": "Félix Guillemardet",
+      "label": "Félix Guillem.",
       "life dates": "1796-1842",
       "nationality": "French",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Felix_Guillemardet.jpg"
@@ -2188,7 +2187,7 @@
     },
     {
       "id": "Luis Madrazo",
-      "label": "Luis Madrazo",
+      "label": "L. Madrazo",
       "full name": "Luis de Madrazo y Kuntz",
       "life dates": "1825-1897", 
       "nationality": "Spanish",
@@ -2200,7 +2199,8 @@
     },
     {
       "id": "Raimundo Madrazo",
-      "label": "Raimundo Madrazo",
+      "label": "R. Madrazo",
+      "full name": "Raimundo de Madrazo y Garreta",
       "life dates": "1841-1920", 
       "nationality": "Spanish",
       "profession": "painter", 
@@ -2216,7 +2216,7 @@
     },
     {
       "id": "Cecilia Madrazo",
-      "label": "Cecilia Madrazo",
+      "label": "C. Madrazo",
       "full name": "Cecilia de Madrazo Garreta",
       "life dates": "1846-1932", 
       "nationality": "Spanish",
@@ -2375,10 +2375,9 @@
       "nationality": "Spanish and French",
       "profession": "economist, banker, diplomat, politician, civil servant",
       "considered as": "part of the group of Spanish 'ilustrados' and 'afrancesado'",
-      "political views": "liberal and 'afrancesado'",
       "works as": "Ministro plenipotenciario; Ministro de Hacienda (1808-10); Ministro de Finanzas with Joseph Bonaparte",
       "works for": "Carlos III; Carlos IV",
-      "political views": "liberal. Political feuds. Imprisoned in 1790 for an alleged fraud. Afterwards he returns to politics with Carlos IV. Afrancesado during the Napoleonic invasion (named caballero Gran Banda de la Orden Real de España by Joseph Bonaparte); he is arrested in June 1808 in Zaragoza alongside Jovellanos; he then works for Joseph Bonaparte until his death in 1810",
+      "political views": "liberal and 'afrancesado'. Political feuds. Imprisoned in 1790 for an alleged fraud. Afterwards he returns to politics with Carlos IV. Afrancesado during the Napoleonic invasion (named caballero Gran Banda de la Orden Real de España by Joseph Bonaparte); he is arrested in June 1808 in Zaragoza alongside Jovellanos; he then works for Joseph Bonaparte until his death in 1810",
       "founder of": "contributed to the creation of Banco de San Carlos in 1782; Real Compañía de Filipinas; Canal de Cobarrús (now Canal de Isabel II)",
       "member of": "Sociedad económica de amigos del país",
       "portrayed by": "Francisco de Goya y Lucientes, 1788 (Banco de España)",
