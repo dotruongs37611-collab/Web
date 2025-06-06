@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           strokeColor: '#111111', 
           face: 'EB Garamond, serif',
           align: 'center',
+          background: 'rgba(0,0,0,0.5)',
           bold: true,
           vadjust: -45
         },
@@ -241,7 +242,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 180,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 200,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.25,       // Más atracción hacia el centro
           springLength: 120,         // Menos distancia ideal entre nodos
           springConstant: 0.08,      // Más elasticidad (menos rigidez)
@@ -307,16 +308,9 @@ document.addEventListener('DOMContentLoaded', async function () {
   
     // 3. Ajustar vista si no se ha enfocado a un nodo
     handleInitialHash().then(handled => {
-      if (!handled) {
-        network.fit({ animation: true });
-      }
-    });
-    
-    // 🧲 Reunir grupos con muchas conexiones compartidas
-    const threshold = 6; // número mínimo de conexiones compartidas
+    // 🧲 Agrupar nodos con muchas conexiones compartidas
+    const threshold = 6;
     const adjacency = {};
-    
-    // Construir matriz de adyacencia
     edges.forEach(edge => {
       const a = edge.from;
       const b = edge.to;
@@ -325,21 +319,16 @@ document.addEventListener('DOMContentLoaded', async function () {
       adjacency[a].add(b);
       adjacency[b].add(a);
     });
-    
-    // Buscar pares con muchas conexiones compartidas
     const pullUpdates = [];
     const pos = network.getPositions();
     const ids = nodes.getIds();
-    
     for (let i = 0; i < ids.length; i++) {
       for (let j = i + 1; j < ids.length; j++) {
         const idA = ids[i];
         const idB = ids[j];
         if (!adjacency[idA] || !adjacency[idB]) continue;
-    
         const shared = [...adjacency[idA]].filter(x => adjacency[idB].has(x));
         if (shared.length >= threshold) {
-          // Atraerlos entre sí
           const dx = pos[idB].x - pos[idA].x;
           const dy = pos[idB].y - pos[idA].y;
           pullUpdates.push({ id: idA, x: pos[idA].x + dx * 0.2, y: pos[idA].y + dy * 0.2 });
@@ -348,6 +337,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
     nodes.update(pullUpdates);
+  
+    if (!handled) {
+      network.fit({ animation: true });
+    }
+  });
+
 
   });
 
