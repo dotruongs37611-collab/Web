@@ -349,10 +349,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   });
 
-
-
-  });
-
     function highlightNeighborhood(nodeId) {
       const connectedEdges = edges.get({
         filter: edge => edge.from === nodeId || edge.to === nodeId
@@ -781,7 +777,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
     
       }, 2000);
-    });
 
     // Búsqueda funcional
     const searchInput = document.getElementById('searchInput');
