@@ -846,6 +846,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               ]);
             }
           }
+        }
 
       nodes.forEach(node => {
         if (node._imageUrl) {
