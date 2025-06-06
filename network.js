@@ -848,6 +848,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         }
 
+      }
+
       nodes.forEach(node => {
         if (node._imageUrl) {
           nodes.update({ id: node.id, image: node._imageUrl });
