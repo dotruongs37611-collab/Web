@@ -124,54 +124,57 @@ document.addEventListener('DOMContentLoaded', async function () {
                 });
             return Promise.all(promises);
         };
+    
+        // Load the network data
+        const response = await fetch('goya_network.json');
+        if (!response.ok) throw new Error('Error cargando datos');
+        const data = await response.json();
+        
+        // Start image preloading
+        const imagePreload = preloadImages(data.nodes);
 
-    const nodeInfo = document.getElementById('nodeInfo');
-    nodeInfo.style.maxHeight = '810px';
-    nodeInfo.style.overflowY = 'auto';
+        // Existing setup code
+        const nodeInfo = document.getElementById('nodeInfo');
+        nodeInfo.style.maxHeight = '810px';
+        nodeInfo.style.overflowY = 'auto';
 
-    const response = await fetch('goya_network.json');
-    if (!response.ok) throw new Error('Error cargando datos');
-    const data = await response.json();
+        const edgeCount = {};
+        data.edges.forEach(edge => {
+          edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
+          edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
+        });
 
-    await preloadImages(data.nodes);
-
-    const edgeCount = {};
-    data.edges.forEach(edge => {
-      edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
-      edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
-    });
-
-    const nodesMap = {};
-    const labelToId = {};
-    // Ajustes de nodos
-    const nodes = new vis.DataSet(data.nodes.map(node => {
-      labelToId[node.label] = node.id;
-      const degree = edgeCount[node.id] || 1;
-      const config = {
-        ...node,
-        size: Math.min(20 + degree * 0.8, 50),
-        mass: 1 + degree * 0.2,
-        font: {
-          size: Math.min(11 + degree * 0.6, 24),
-          color: '#ffffff',
-          strokeWidth: 3,
-          strokeColor: '#111111', 
-          face: 'EB Garamond, serif',
-          align: 'center',
-          background: 'rgba(0,0,0,0.5)',
-          bold: true,
-          vadjust: -25
-        },
-        color: { border: '#2B7CE9' },
-        borderWidth: 2,
-        shape: node.image ? 'circularImage' : 'dot',
-        labelHighlightBold: false,
-        margin: -10
-      };
-      config._imageUrl = node.image;
-      nodesMap[node.id] = config;
-      return config;
-    }));
+        const nodesMap = {};
+        const labelToId = {};
+        // Ajustes de nodos
+        const nodes = new vis.DataSet(data.nodes.map(node => {
+          labelToId[node.label] = node.id;
+          const degree = edgeCount[node.id] || 1;
+          const config = {
+            ...node,
+            size: Math.min(20 + degree * 0.8, 50),
+            mass: 1 + degree * 0.2,
+            font: {
+              size: Math.min(11 + degree * 0.6, 24),
+              color: '#ffffff',
+              strokeWidth: 3,
+              strokeColor: '#111111', 
+              face: 'EB Garamond, serif',
+              align: 'center',
+              background: 'rgba(0,0,0,0.5)',
+              bold: true,
+              vadjust: -25
+            },
+            color: { border: '#2B7CE9' },
+            borderWidth: 2,
+            shape: node.image ? 'circularImage' : 'dot',
+            labelHighlightBold: false,
+            margin: -10
+          };
+          config._imageUrl = node.image;
+          nodesMap[node.id] = config;
+          return config;
+        }));
 
     // Edges más transparentes (general)
     const edges = new vis.DataSet(data.edges.map(edge => {
@@ -182,6 +185,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         width: 1.5
       };
     }));
+
+    await imagePreload;
 
     // Mostrar número de nodos y edges
     document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>`;
