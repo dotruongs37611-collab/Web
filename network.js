@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           align: 'center',
           background: 'rgba(0,0,0,0.5)',
           bold: true,
-          vadjust: -45
+          vadjust: -30
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
@@ -242,11 +242,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 200,         // Antes tenías 200 (excesivo), ahora es más compacto
-          centralGravity: 0.25,       // Más atracción hacia el centro
-          springLength: 120,         // Menos distancia ideal entre nodos
-          springConstant: 0.08,      // Más elasticidad (menos rigidez)
-          damping: 0.25               // Estabiliza más rápido sin perder suavidad
+          nodeDistance: 240,         // Antes tenías 200 (excesivo), ahora es más compacto
+          centralGravity: 0.3,       // Más atracción hacia el centro
+          springLength: 100,         // Menos distancia ideal entre nodos
+          springConstant: 0.05,      // Más elasticidad (menos rigidez)
+          damping: 0.3               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
           enabled: true,
@@ -320,6 +320,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       adjacency[b].add(a);
     });
     const pullUpdates = [];
+    network.stabilize();
     const pos = network.getPositions();
     const ids = nodes.getIds();
     for (let i = 0; i < ids.length; i++) {
