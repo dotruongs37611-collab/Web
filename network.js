@@ -261,20 +261,21 @@ document.addEventListener('DOMContentLoaded', async function () {
         color: 'rgba(200,200,200,0.2)',
         width: 1
       },
+
       physics: {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 240,         // Antes tenías 200 (excesivo), ahora es más compacto
-          centralGravity: 0.3,       // Más atracción hacia el centro
-          springLength: 100,         // Menos distancia ideal entre nodos
-          springConstant: 0.05,      // Más elasticidad (menos rigidez)
-          damping: 0.3               // Estabiliza más rápido sin perder suavidad
+          nodeDistance: 200,         // Antes tenías 200 (excesivo), ahora es más compacto
+          centralGravity: 0.2,       // Más atracción hacia el centro
+          springLength: 80,         // Menos distancia ideal entre nodos
+          springConstant: 0.04,      // Más elasticidad (menos rigidez)
+          damping: 0.5               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
           enabled: true,
-          iterations: 400,
-          updateInterval: 25
+          iterations: 200,
+          updateInterval: 10
         }
       },
       layout: {
@@ -282,6 +283,23 @@ document.addEventListener('DOMContentLoaded', async function () {
         randomSeed: 1912  // Consistent layout
       }
     });
+
+    // Add this right after network creation:
+    setTimeout(() => {
+      // Defer these heavy operations
+      handleInitialHash();
+      loadFullImages();
+    }, 500);
+
+    function loadFullImages() {
+      const imageUpdates = data.nodes
+        .filter(node => node.image)
+        .map(node => ({ id: node.id, image: node.image }));
+      
+      if (imageUpdates.length > 0) {
+        nodes.update(imageUpdates);
+      }
+    }
     
   network.once("stabilizationIterationsDone", function () {
     document.getElementById('loadingMessage').style.display = 'none';
@@ -321,13 +339,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     nodes.update(updates);
-  
-    // 2. Cargar imágenes
-    nodes.forEach(node => {
-      if (node._imageUrl) {
-        nodes.update({ id: node.id, image: node._imageUrl });
-      }
-    });
   
     // 3. Ajustar vista si no se ha enfocado a un nodo
     handleInitialHash().then(handled => {
