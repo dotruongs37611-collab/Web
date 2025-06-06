@@ -108,7 +108,26 @@ window.filterGraph = function() {
 };
 
 document.addEventListener('DOMContentLoaded', async function () {
+  // Add this right after: document.addEventListener('DOMContentLoaded', async function () {
   try {
+        // ADD THESE LINES:
+        const preloadImages = (nodes) => {
+            const promises = nodes
+                .filter(node => node.image)
+                .map(node => {
+                    return new Promise((resolve) => {
+                        const img = new Image();
+                        img.src = node.image;
+                        img.onload = resolve;
+                        img.onerror = resolve;
+                    });
+                });
+            return Promise.all(promises);
+        };
+
+        // ADD THIS LINE to start image loading:
+        const imagePreload = preloadImages(data.nodes);
+
     const nodeInfo = document.getElementById('nodeInfo');
     nodeInfo.style.maxHeight = '810px';
     nodeInfo.style.overflowY = 'auto';
@@ -250,8 +269,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         stabilization: {
           enabled: true,
-          iterations: 800,
-          updateInterval: 50
+          iterations: 400,
+          updateInterval: 25
         }
       },
       layout: {
