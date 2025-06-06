@@ -136,12 +136,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         font: {
           size: Math.min(11 + degree * 0.6, 24),
           color: '#ffffff',
-          strokeWidth: 0,
-          strokeColor: 'transparent',
+          strokeWidth: 3,
+          strokeColor: '#111111', 
           face: 'EB Garamond, serif',
           align: 'center',
           bold: true,
-          vadjust: -35
+          vadjust: -45
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
@@ -241,11 +241,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 220,         // Antes tenías 200 (excesivo), ahora es más compacto
-          centralGravity: 0.2,       // Más atracción hacia el centro
-          springLength: 160,         // Menos distancia ideal entre nodos
-          springConstant: 0.06,      // Más elasticidad (menos rigidez)
-          damping: 0.2               // Estabiliza más rápido sin perder suavidad
+          nodeDistance: 180,         // Antes tenías 200 (excesivo), ahora es más compacto
+          centralGravity: 0.25,       // Más atracción hacia el centro
+          springLength: 120,         // Menos distancia ideal entre nodos
+          springConstant: 0.08,      // Más elasticidad (menos rigidez)
+          damping: 0.25               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
           enabled: true,
@@ -311,6 +311,44 @@ document.addEventListener('DOMContentLoaded', async function () {
         network.fit({ animation: true });
       }
     });
+    
+    // 🧲 Reunir grupos con muchas conexiones compartidas
+    const threshold = 6; // número mínimo de conexiones compartidas
+    const adjacency = {};
+    
+    // Construir matriz de adyacencia
+    edges.forEach(edge => {
+      const a = edge.from;
+      const b = edge.to;
+      if (!adjacency[a]) adjacency[a] = new Set();
+      if (!adjacency[b]) adjacency[b] = new Set();
+      adjacency[a].add(b);
+      adjacency[b].add(a);
+    });
+    
+    // Buscar pares con muchas conexiones compartidas
+    const pullUpdates = [];
+    const pos = network.getPositions();
+    const ids = nodes.getIds();
+    
+    for (let i = 0; i < ids.length; i++) {
+      for (let j = i + 1; j < ids.length; j++) {
+        const idA = ids[i];
+        const idB = ids[j];
+        if (!adjacency[idA] || !adjacency[idB]) continue;
+    
+        const shared = [...adjacency[idA]].filter(x => adjacency[idB].has(x));
+        if (shared.length >= threshold) {
+          // Atraerlos entre sí
+          const dx = pos[idB].x - pos[idA].x;
+          const dy = pos[idB].y - pos[idA].y;
+          pullUpdates.push({ id: idA, x: pos[idA].x + dx * 0.2, y: pos[idA].y + dy * 0.2 });
+          pullUpdates.push({ id: idB, x: pos[idB].x - dx * 0.2, y: pos[idB].y - dy * 0.2 });
+        }
+      }
+    }
+    nodes.update(pullUpdates);
+
   });
 
     function highlightNeighborhood(nodeId) {
