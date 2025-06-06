@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 160,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 170,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.2,       // Más atracción hacia el centro
           springLength: 135,         // Menos distancia ideal entre nodos
           springConstant: 0.06,      // Más elasticidad (menos rigidez)
