@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           align: 'center',
           background: 'rgba(0,0,0,0.5)',
           bold: true,
-          vadjust: -2
+          vadjust: -1
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
