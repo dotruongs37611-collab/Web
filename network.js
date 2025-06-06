@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           align: 'center',
           background: 'rgba(0,0,0,0.5)',
           bold: true,
-          vadjust: -1
+          vadjust: -25
         },
         color: { border: '#2B7CE9' },
         borderWidth: 2,
@@ -250,8 +250,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         stabilization: {
           enabled: true,
-          iterations: 400,
-          updateInterval: 25
+          iterations: 800,
+          updateInterval: 50
         }
       },
       layout: {
@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.stabilize();
   
     // 🧲 Agrupar nodos con muchas conexiones compartidas
-    const threshold = 6;
+    const threshold = 3;
     const adjacency = {};
     edges.forEach(edge => {
       const a = edge.from;
@@ -345,7 +345,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     nodes.update(updates);
   
     if (!handled) {
-      network.fit({ animation: true });
+      setTimeout(() => {
+        network.fit({ animation: true });
+      }, 300); // medio segundo de pausa tras el agrupamiento
     }
   });
 
