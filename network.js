@@ -259,21 +259,52 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
     
-    network.once("stabilizationIterationsDone", function () {
-      document.getElementById('loadingMessage').style.display = 'none';
-    
-      nodes.forEach(node => {
-        if (node._imageUrl) {
-          nodes.update({ id: node.id, image: node._imageUrl });
+  network.once("stabilizationIterationsDone", function () {
+    document.getElementById('loadingMessage').style.display = 'none';
+  
+    // 1. Separar nodos que están demasiado cerca
+    const MIN_DISTANCE = 80;
+    const positions = network.getPositions();
+    const updates = [];
+    const nodeIds = nodes.getIds();
+  
+    for (let i = 0; i < nodeIds.length; i++) {
+      const id1 = nodeIds[i];
+      const p1 = positions[id1];
+  
+      for (let j = i + 1; j < nodeIds.length; j++) {
+        const id2 = nodeIds[j];
+        const p2 = positions[id2];
+  
+        const dx = p2.x - p1.x;
+        const dy = p2.y - p1.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+  
+        if (distance < MIN_DISTANCE) {
+          const push = (MIN_DISTANCE - distance) / 2;
+  
+          updates.push({ id: id1, x: p1.x - dx * push / distance, y: p1.y - dy * push / distance });
+          updates.push({ id: id2, x: p2.x + dx * push / distance, y: p2.y + dy * push / distance });
         }
-      });
-    
-      handleInitialHash().then(handled => {
-        if (!handled) {
-          network.fit({ animation: true });
-        }
-      });
+      }
+    }
+  
+    nodes.update(updates);
+  
+    // 2. Cargar imágenes
+    nodes.forEach(node => {
+      if (node._imageUrl) {
+        nodes.update({ id: node.id, image: node._imageUrl });
+      }
     });
+  
+    // 3. Ajustar vista si no se ha enfocado a un nodo
+    handleInitialHash().then(handled => {
+      if (!handled) {
+        network.fit({ animation: true });
+      }
+    });
+  });
 
     function highlightNeighborhood(nodeId) {
       const connectedEdges = edges.get({
@@ -701,26 +732,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
       });
     }
-    
-    // Call this at the end of the DOMContentLoaded event:
-    network.once("stabilizationIterationsDone", function () {
-      setTimeout(() => {
-        network.setOptions({
-          physics: {
-            enabled: false
-          }
-        });
-        
-        network.fit({ animation: true, minZoomLevel: 0.5 });
-    
-        document.getElementById('loadingMessage').style.display = 'none';
-    
-        // Load images after stabilization
-        nodes.forEach(node => {
-          if (node._imageUrl) {
-            nodes.update({ id: node.id, image: node._imageUrl });
-          }
-        });
     
       }, 2000);
     });
