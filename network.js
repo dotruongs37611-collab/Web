@@ -125,9 +125,6 @@ document.addEventListener('DOMContentLoaded', async function () {
             return Promise.all(promises);
         };
 
-        // ADD THIS LINE to start image loading:
-        const imagePreload = preloadImages(data.nodes);
-
     const nodeInfo = document.getElementById('nodeInfo');
     nodeInfo.style.maxHeight = '810px';
     nodeInfo.style.overflowY = 'auto';
@@ -135,6 +132,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     const response = await fetch('goya_network.json');
     if (!response.ok) throw new Error('Error cargando datos');
     const data = await response.json();
+
+    await preloadImages(data.nodes);
 
     const edgeCount = {};
     data.edges.forEach(edge => {
