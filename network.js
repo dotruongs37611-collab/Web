@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     network.stabilize();
   
     // 🧲 Agrupar nodos con muchas conexiones compartidas
-    const threshold = 3;
+    const threshold = 2;
     const adjacency = {};
     edges.forEach(edge => {
       const a = edge.from;
@@ -375,8 +375,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (shared.length >= threshold) {
           const dx = positions[idB].x - positions[idA].x;
           const dy = positions[idB].y - positions[idA].y;
-          updates.push({ id: idA, x: positions[idA].x + dx * 0.2, y: positions[idA].y + dy * 0.2 });
-          updates.push({ id: idB, x: positions[idB].x - dx * 0.2, y: positions[idB].y - dy * 0.2 });
+          const factor = 0.4; // 💪 más agrupación (antes 0.2)
+
+          updates.push({ id: idA, x: positions[idA].x + dx * factor, y: positions[idA].y + dy * factor });
+          updates.push({ id: idB, x: positions[idB].x - dx * factor, y: positions[idB].y - dy * factor });
         }
       }
     }
