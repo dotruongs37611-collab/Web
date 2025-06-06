@@ -161,7 +161,6 @@ document.addEventListener('DOMContentLoaded', async function () {
               strokeColor: '#111111', 
               face: 'EB Garamond, serif',
               align: 'center',
-              background: 'rgba(0,0,0,0.5)',
               bold: true,
               vadjust: -25
             },
@@ -268,7 +267,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 200,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 230,         // Antes tenías 200 (excesivo), ahora es más compacto
           centralGravity: 0.2,       // Más atracción hacia el centro
           springLength: 80,         // Menos distancia ideal entre nodos
           springConstant: 0.04,      // Más elasticidad (menos rigidez)
@@ -326,7 +325,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const distance = Math.sqrt(dx * dx + dy * dy);
         
         if (distance < MIN_DISTANCE && distance > 0.5) {
-          const push = (MIN_DISTANCE - distance) / 2;
+          const push = (MIN_DISTANCE - distance) * 1.5;
           updates.push({ 
             id: node1.id, 
             x: p1.x - dx * push / distance, 
