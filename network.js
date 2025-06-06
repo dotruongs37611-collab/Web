@@ -305,6 +305,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     
   network.once("stabilizationIterationsDone", function () {
     document.getElementById('loadingMessage').style.display = 'none';
+  network.setOptions({ physics: { enabled: false } });
   
     // 1. Separar nodos que están demasiado cerca
     const MIN_DISTANCE = 80;
