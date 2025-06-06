@@ -861,6 +861,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       }, 500);
     });
 
+  }
   } catch (err) {
     console.error("Error cargando o renderizando la red:", err);
   }
