@@ -416,15 +416,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         html += `<h2>${node.id}</h2>`;
 
-        if (node["life dates"] || node["profession"]) {
-          if (node["life dates"]) {
-            html += `<p style="margin-top:0.3rem;"><strong>Life dates:</strong> ${node["life dates"]}</p>`;
-          }
-          if (node["profession"]) {
-            html += `<p style="margin-top:0.3rem;"><strong>Profession:</strong> ${node["profession"]}</p>`;
-          }
-        }
-
         const fieldsToShow = [
           { type: "section", label: "Identity and Personal Data" },
           { type: "field", key: "life dates", label: "Life dates" },
