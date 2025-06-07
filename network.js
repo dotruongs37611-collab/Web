@@ -427,10 +427,12 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         const fieldsToShow = [
           { type: "section", label: "Identity and Personal Data" },
+          { type: "field", key: "life dates", label: "Life dates" },
           { type: "field", key: "full name", label: "Full name" },
           { type: "field", key: "also known as", label: "Also known as" },
           { type: "field", key: "other names", label: "Other names" },
           { type: "field", key: "pseudonyms", label: "Pseudonyms" },
+          { type: "field", key: "profession", label: "Profession" },
           { type: "field", key: "nationality", label: "Nationality" },
           { type: "field", key: "born in", label: "Born in" },
           { type: "field", key: "considered as", label: "Considered as" },
