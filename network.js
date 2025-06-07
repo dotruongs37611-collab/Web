@@ -185,13 +185,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       };
     }));
 
-    imagePreload.finally(() => {
-  document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>`;
-});
-
-    // Mostrar número de nodos y edges
-    document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: 5 June 2025</span>`;
-
+    const today = new Date();
+    const day = today.getDate();
+    const month = today.toLocaleString('en-US', { month: 'long' });
+    const year = today.getFullYear();
+    const formattedDate = `${day} ${month} ${year}`;
+    document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: ${formattedDate}</span>`;
 
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
