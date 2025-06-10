@@ -411,7 +411,7 @@
       "nationality": "French",
       "profession": "writer, historian, archaeologist, anthropologist, playwright, politician, translator, draughtsman",
       "works as": "Inspecteur général des monuments historiques (1834). Senator (1853). He was one of the main translators of Russian into French, and also knew Arabic, English and Greek.",
-      "studied in": "Lycée Henri-IV. Then he studies Law and Music (piano), obtaining his final certificate in Rome.",
+      "studies in": "Lycée Henri-IV. Then he studies Law and Music (piano), obtaining his final certificate in Rome.",
       "author of": [
         "Fiction: <i>La Vénus d'Ille</i>; <i>Carmen</i> (1845 written; 1847 published); <i>Homme en Grande Bottes</i>; <i>Mateo Falcone</i> (1829).",
         "Art criticism and travel literature: <i>Les Grands Maîtres au Musée de Madrid</i> (1830); <i>Lettres d’Espagne</i> (1832): Les Combats de taureaux, Une exécution, Les Voleurs, Les Sorcières espagnoles; <i>Notes de voyages</i> (1835—1840)."
@@ -424,8 +424,16 @@
       "parents": "Léonor Mérimée and Anne Louise Moreau",
       "portrayed by": "Anne Moreau in 1808 (as a child); Charles Reutilinger, photograph (1850); Simon Jacques Rochard, pastel, 1852 (Musée Carnavalet); Mathilde Bonaparte, drawing, 1869 (Musée Carnavalet)",
       "pseudonyms": "L' Auteur du Théâtre de Clara Gazul, Clara Gazul, Joseph Lestrange, Hyacinthe Maglanovich",
-      "curiosities": "as Inspecteur général des monuments historiques, he named Viollet-le-Duc in charge of the restoration of the Vézelay basilica (1840), the cathedral Notre-Dame de Paris (1843) and the Cité de Carcassonne (1853). He was a close friend of Empress Eugènie (Eugenia de Montijo). In 1978 a 'base Mérimée' was created in his honour for the classification of historical monuments in France.",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg",
+      "mentions of Goya": [
+        "1856-VII-8 letter to Valentín Carderera (see node Mérimée-Carderera)",
+        "1869-V-16 letter to Marcello: he expresses his distaste for Goya's prints. He states that he 'will never forgive her' for liking Goya's work (see Mérimée-Marcello node)"
+      ]
+      "curiosities": [
+        "As Inspecteur général des monuments historiques, he named Viollet-le-Duc in charge of the restoration of the Vézelay basilica (1840), the cathedral Notre-Dame de Paris (1843) and the Cité de Carcassonne (1853)",
+        "He was a close friend of Empress Eugènie (Eugenia de Montijo)",
+        "In 1978 a 'base Mérimée' was created in his honour for the classification of historical monuments in France"
+        ],
+        "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Merimee.jpg",
       "image source": "Reutlinger photograph, 1850"
     },
     {
@@ -3509,7 +3517,7 @@
       "to": "Prosper Mérimée",
       "connection_level": "direct",
       "know each other since": "at least 1841",
-      "correspondence": "1856-VII-8 (Carderera archive): Mérimée answers he doesn't own a set of Goya's 'Toros' and he could buy a set if not too expensive; that he doesn't know the 'Proverbios' (<i>Disparates</i>) nor the 'suppressed Caprichos'(Fayos Pérez 2020; Fayos Pérez 2024 p.65)",
+      "correspondence": "1856-VII-8 (Carderera archive): Mérimée answers he doesn't own a set of Goya's 'Toros' and he could buy a set if not too expensive; that he doesn't know the 'Proverbios' (<i>Disparates</i>) nor the 'suppressed Caprichos' (Fayos Pérez 2020; Fayos Pérez 2024 p.65)",
       "relationship type": "acquaintances; correspondent; art dealing?"
     },
     {
