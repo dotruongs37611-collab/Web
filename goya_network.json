@@ -395,14 +395,29 @@
       "life dates": "1815-1872",
       "nationality": "Spanish",
       "profession": "writer, editor, politician",
-      "in Paris": "1828-1834 at the École d'Arts et d'Offices. He meets Moratín and Godoy; 1837-1845",
+      "in Paris": [
+        "1828-1834 at the École d'Arts et d'Offices. He meets Moratín and Godoy",
+        "1837-1844: works for editors Baudry & Rosa. In contact with circle of politicians around the exiled Queen María Cristina",
+        "1855: visits Exposition Universelle"
+        ],
+      "in Spain": "1834-1837. 1844-1856",
       "author of": [
-        "Translation of Victor Hugo's <i>Hernani</i> (watched by Théophile Gautier in 1840 in Valladolid)",
+        "Translations of French Romantic works: Victor Hugo's <i>Hernani</i> (watched by Théophile Gautier in 1840 in Valladolid); George Sand; Honoré de Balzac; Jules Janin; Jules Sandeau; Alexandre Dumas; Frédéric Soulié",
+        "Translations from English: David Hume (<i>Historia de Inglaterra</i>; Walter Scott",
         "1844 <i>Catálogo razonado de los manuscritos españoles existentes en la Biblioteca Real de París: seguido de un suplemento que contiene los de las otras tres bibliotecas públicas</i> (Arsenal, Ste Geneviève and Mazarine), París, Imprenta Real",
         "1861 <i>Paris, Londres y Madrid</i>: he mentions Dumas, Balzac, Gautier, Delacroix, Dauzats, Nodier, Lamartine, Ingres, Vernet, Decamps, Delaroche, Eugène Sue, Feuillet, Houssaye and others. He does not mention Goya, Taylor, Javier Goya or Mariano Goya. HathiTrust [https://babel.hathitrust.org/cgi/pt?id=hvd.32044014808356&seq=203&q1=Sand]"
         ],
-      "editor of": "<i>El Artista</i> (1835) con Federico Madrazo: spreads Romanticism in Spain and imitates the French journal <i>L'Artiste</i>",
+      "editor of": [
+        "<i>El Artista</i> (1835) con Federico Madrazo: spreads Romanticism in Spain and imitates the French journal <i>L'Artiste</i>",
+        "<i>Horas de invierno</i> (1836-37): volume of short stories by famous European writers such as Hoffmann",
+        "In Paris: <i>Colección de los mejores autores españoles</i>; <i>Catálogo razonado de los manuscrito españoles existentes en la Biblioteca Real de París</i> (1844); <i>Revista Encilopédica de la Civilización Europea</i> (1843), with Patricio de la Escosura"
+        ],
+      "works in": "<i>Gaceta de Madrid</i> (1835)",
+      "works for": "Baudry & Rosa, Paris 1837: volumes of Spanish literature and translations; <i>Colección de los mejores autores españoles</i>; <i>Catálogo razonado de los manuscrito españoles existentes en la Biblioteca Real de París</i> (Paris, 1844)",
+      "works as": "editor; librarian (bibliotecario segundo de la Biblioteca Nacional); politician (jefe político de Huesca; diputado); Administrator of the Imprenta Nacional; Director General de Instrucción Pública",
       "married to": "Carlota Madrazo (1835)",
+      "bibliography": "Raquel Sánchez, 'Busto de Eugenio Ochoa por Ponciano Ponzano (Pieza del trimestre julio-septiembre 2018)', Ministerio de Cultura",
+      "member of": "Real Academia Española: honorary member, then miembro titular in 1847 (for the letter 'H')",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
     },
     {
@@ -1042,7 +1057,7 @@
       "masters": "François Guizot; Abel-François Villemain; Victor Cousin",
       "influenced by": "Walter Scott; Buffon", 
       "political views": "ambiguous. A legitimist during the July Revolution (1830). He declares himself a liberal. Defends the working class. While expressing some conservative ideas, his work was admired by Marx and Engels, and reflects some elements close to Anarchism.",
-      "writes in": "<i>Revue des Deux Mondes</i>, <i>La Presse</i>, <i>Le Constitutionnel</i>, <i>Le Siècle</i>",
+      "writes in": "<i>Revue des Deux Mondes</i>, <i>La Presse</i>, <i>Le Constitutionnel</i>, <i>Le Siècle</i>, <i>La Caricature</i>",
       "studies in": "Lycée Charlemagne (1814-18); Sorbonne Université (from 1816); Faculté de Droit (1816-19)",
       "pseudonyms": "Horace de Saint-Aubin, Lord R’Hoone, Viellerglé, Saint Aubin",
       "portrayed by": "Louis-Auguste Bisson, 1842, daguerrotype",
@@ -1073,6 +1088,7 @@
       "portrayed by": "Joseph Guichard, 1828 (Louvre); Achille Devéria, c.1829; Achille Devéria, c.1832 (lithography published by Charles Motte); Cham, 1846 (caricature); Gouin, 1852 (photograph); Nadar, 1855 (photograph); William Henry Powell, 1855 (oil); Gustave Le Gray, c.1859 (photograph); Cham, 1860 (caricature); André Gill, 2 Dec 1866 (caricature); Alphonse Liébert, 1867 (photograph).",
       "parents": "Marie-Louise Labouret and Thomas Alexandre Davy de La Pailleterie",
       "children": "Alexandre Dumas fils; Henry Bauër",
+      "curiosities": "despite having all the merits for it, Dumas père was never accepted as a member of the Académie française, most likely due to racism. Only his son Alexandre Dumas (fils) was accepted in 1874",
       "bibliography": "Dumas-Schopp 2014",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg",
       "image source": "portrait by Nadar, 1855"
@@ -1228,7 +1244,7 @@
       "life dates": "1792-1875", 
       "born in": "Dijon",
       "nationality": "French",
-      "profession": "novelist, playwright, author, painter and salonnière",
+      "profession": "femme de lettres, novelist, playwright, author, painter and salonnière",
       "salon": "Hôtel de La Rochefoucauld-Liancourt, rue de Seine (from 1824 until her death): she hosts Victor Hugo, Sophie Gay, Delphine Gay, Mélanie Waldor, Rachel, Mme Récamier, Saint-Simon, Alfred de Musset, Stendhal, Chateaubriand, Lamartine, Alfred de Vigny, Mérimée, Delacroix",
       "parents": "Thomas Chardon and Barbe Edmée Chardon",
       "married to": "Jacques-François Ancelot (1817)",
