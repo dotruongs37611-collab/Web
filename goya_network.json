@@ -328,6 +328,7 @@
         "Senator (1869)"
         ],
       "author of": "<i>Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan</i> (1826); <i>Voyages pittoresques et romantiques dans l'ancienne France</i>, in collaboration with Charles Nodier and Alphonse de Cailleux (started in 1818; published 1820-1878)",
+      "founder of": "Societés des peintres et sculpteurs; des musiciens; des inventeurs industriels; des professeurs (Challamel 1885, p.336)",
       "member of": "Académie Française, Académie des beaux-arts (1847); Société des gens de lettres; Fondation Taylor",
       "portrayed by": "Federico Madrazo, 1833, oil painting, Musée National du Château de Versailles; Nadar, 1877, photograph",
       "participates in": "l'Expédition d'Espagne (1823), also known as los Cien Mil Hijos de San Luis: campaign to restore the Bourbon dinasty in Spain",
@@ -965,7 +966,12 @@
       "married to": "Adèle Foucher (1822)",
       "children": "Léopold Hugo, Léopoldine Hugo, Charles Hugo, François-Victor Hugo, Adèle Hugo",
       "parents": "Joseph Léopold Hugo and Sophie Trébuchet",
-      "curiosities": "on 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'. He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin (Delphine Gay). When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'. <i>Notre-Dame de Paris</i> was listed as a 'forbidden book' by the Church.",
+      "curiosities": [
+        "On 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'", 
+        "He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin (Delphine Gay)", 
+        "When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'",
+        "<i>Notre-Dame de Paris</i> was listed as a 'forbidden book' by the Church"
+        ],
       "websites": "[Wikipedia](https://en.wikipedia.org/wiki/Victor_Hugo)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
@@ -1121,7 +1127,10 @@
       "author of": "she co-authored with Louise Swanton Belloc a number of children's books (Buell Hale 1874, p.583-84)",
       "writes in": "<i>Revue encyclopédique</i>",
       "founder of": "<i>La Ruche</i>, journal d'études familière (with Louise Swanton Belloc), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
-      "curiosities": "her father was the famous aeronaut Jacques-Etienne Montgolfier. She was buried alongside her close friend Louise Swanton Belloc (and her son, Louis Belloc) at La Celle-Saint-Cloud",
+      "curiosities": [
+        "Her father was the famous aeronaut Jacques-Etienne Montgolfier",
+        "She was buried alongside her close friend Louise Swanton Belloc (and her son, Louis Belloc) at La Celle-Saint-Cloud"
+        ],
       "bibliography": "Sarah Josepha Buell Hale, <i>Woman's Record: Or, Sketches of All Distinguished Women</i>, 1874. [Google books](https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
     },
@@ -1132,7 +1141,7 @@
       "other names": "Delphine Girardin",
       "nationality": "French",
       "profession": "femme de lettres, writer, poet, novelist, playwright, salonnière, journalist", 
-      "salon": "at Hôtel Marbeuf. Attendants: Théophile Gautier, Honoré de Balzac, Alfred de Musset, Victor Hugo, George Sand, Alphonse de Lamartine, Alexandre Dumas, Franz Liszt, Jules Janin, Fortunée Hamelin. Circle of Charles Nodier",
+      "salon": "at Hôtel Marbeuf. Attendants: Théophile Gautier, Honoré de Balzac, Alfred de Musset, Victor Hugo, George Sand, Alphonse de Lamartine, Alexandre Dumas, Franz Liszt, Jules Janin, Fortunée Hamelin, Frédéric Soulié, Eugène Sue, Chateaubriand, Méry, Mlles Mars and Rachel (Challamel 1885). Circle of Charles Nodier",
       "author of": "<i>Essais poétiques</i> (1824), <i>Nouveaux Essais poétiques</i> (1825), <i>Napoline</i> (1833); <i>Lettres parisiennes</i> (1843). Fiction: <i>Le Lorgnon</i> (1832), <i>Le Marquis de Pontanges</i> (1835), <i>Contes d'une vieille fille à ses neveux</i> (1832), <i>La Canne de Monsieur Balzac</i> (1836), <i>Il ne faut pas jouer avec la douleur</i> (1853). Drames en prose: <i>L'Ecole des journalists</i> (1840), <i>Judith</i> (1843), <i>Lady Tartuffe</i> (1853). Comedies: <i>C'est la faute du mari</i> (1851), <i>La joie fait peur</i> (1854), <i>Une femme qui déteste son mari</i> (posthumous)",
       "writes in": "<i>Le Presse</i> (1836-1839, as 'Charles de Launay')",
       "in Italy": "in 1827, where she is enthusiastically welcomed in the Roman literary circle and crowned in the Capitol",
@@ -1141,6 +1150,7 @@
       "married to": "Émile de Girardin (1831)",
       "portrayed by": "Louis Hersent, 1824, château de Versailles (oil painting); LD, 'Une muse en 1848', <i>Le Charivari</i>, 15 December 1848 (caricature); anonymous, 1855 (photograph)",
       "curiosities": "her mother named her Delphine because of the homonymous novel by Madame de Staël",
+      "bibliography": "Challamel 1885",
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Delphine_de_Girardin)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delphine_Gay.jpg",
       "image source": "Hersent portrait, 1824"
@@ -1201,10 +1211,42 @@
       "parents": "Jacques-Philippe Voïart and Jeanne-Amable Bouchotte; Anne Élisabeth Élise Petitpain (stepmother): femme de lettres at Nancy",
       "children": "Eugène",
       "portrayed by": "Constance Mayer, 1817, Metz, Musée de la Cour d'Or (oil on canvas)",
-      "curiosities": "she was considered the Romantic muse par excelence. After her husband's death, she follows her son to his diplomatic missions in Cyprus and Bagdad. The rose 'Amable Tastu' was created in 1851 in her honour; with the initiative of the 'Amis d'Amable Tastu', a new 'Rose Amable' was created in 2018",
+      "curiosities": [
+        "She was considered the Romantic muse par excelence", 
+        "After her husband's death, she follows her son to his diplomatic missions in Cyprus and Bagdad", 
+        "The rose 'Amable Tastu' was created in 1851 in her honour; with the initiative of the 'Amis d'Amable Tastu', a new 'Rose Amable' was created in 2018"
+        ],
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Amable_Tastu)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Amable_Tastu.jpg",
       "image source": "Constance Mayer portrait, 1817"
+    },
+    {
+      "id": "Virginie Ancelot",
+      "label": "V. Ancelot",
+      "full name": "Marguerite Louise Virginie Chardon",
+      "pseudonyms": "Virginie Ancelot",
+      "life dates": "1792-1875", 
+      "born in": "Dijon",
+      "nationality": "French",
+      "profession": "novelist, playwright, author, painter and salonnière",
+      "salon": "Hôtel de La Rochefoucauld-Liancourt, rue de Seine (from 1824 until her death): she hosts Victor Hugo, Sophie Gay, Delphie Gay, Mélanie Waldor, Rachel, Mme Récamier, Saint-Simon, Alfred de Musset, Stendhal, Chateaubriand, Lamartine, Alfred de Vigny, Mérimée, Delacroix",
+      "parents": "Thomas Chardon and Barbe Edmée Chardon",
+      "married to": "Jacques-François Ancelot (1817)",
+      "children": "three",
+      "curiosities": "her great-grandson Jean Sangnier (1912-2011) was a member of the <i>Résistance</i>",
+      "portrayed by": "Jean Gigoux, 1839, lithograph (<i>Galerie de la presse</i>); François-Joseph Heim, <i>Andrieux faisant une lecture dans le foyer à la Comédie Française en 1828</i>, 1847, Château de Versailles (detail)",
+      "studies in": "Convent of the Ursulines, Paris (1802-1806)",
+      "participates in": "the Salon: 1814 (début) <i>La Veuve du Roi Ban</i> and some portrait; 1819 <i>Henri IV et Catherine de Médicies</i>; 1828 <i>Une lecture de M. Ancelot</i> (portraying many writers of the time)",
+      "author of": [
+        "Painting: <i>La Veuve du Roi Ban</i> (1814); <i>Portrait de Jacques-François Ancelot</i> (1819); <i>Henri IV et Catherine de Médicies</i> (1819); <i>Une lecture de M. Ancelot</i> (1828)",
+        "Theatre: <i>Mariage raisonnable</i> (1835); <i>Marie, ou Trois Époques</i> (1836, Théâtre-Français: her biggest success); <i>Juana, ou le Projet de vengeance</i> (1838, Théâtre du Vaudeville); <i>Pierre le millionnaire</i> (1844, Th. Vaudeville); <i>Un jour de liberté</i> (1844, Th. Vaudeville); <i>Les Femmes de Paris, ou l'Homme de loisira</i> (1848, Th. de la Gaîté), among others",
+        "Novels: <i>Gabrielle</i> (1839: reprinted and translated); <i>Émerance</i> (1843); <i>Renée de Varville</i> (1853); <i>La Nièce du banquier</i> (1853); <i>Les Deux Sœurs</i> (1866), among others",
+        "Essays: <i>Les Salons de Paris, foyers étients</i> (1858); <i>Un salon de Paris: 1824 à 1864</i> (1866)"
+        ],
+      "writes in": "<i>Journal pour tous</i>",
+      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Virginie_Ancelot)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ancelot.jpg",
+      "image source": "Gigoux portrait, 1839"
     },
     {
       "id": "Marie Nodier",
@@ -1449,7 +1491,10 @@
       "address": "Impasse du Doyenné, from 1835-36 (sharing an apartment with Théophile Gautier); 20, rue Saint-Fiacre; 64, rue de Courcelles (after 1860)",
       "pseudonyms": "Nemo",
       "decorations/awards": "he receives an award (médaille de première classe) at the Exposition universelle 1855 for the photographic album entitled <i>L'Italie monumentale</i> (1851)",
-      "curiosities": "in his 1840 trip to Spain, Piot took photographs of the Burgos cathedral. There was a Prix Eugène Piot at the Académie des Beaux-Arts (established in his will in 1889) until 1984",   
+      "curiosities": [
+        "In his 1840 trip to Spain, Piot took photographs of the Burgos cathedral", 
+        "There was a Prix Eugène Piot at the Académie des Beaux-Arts (established in his will in 1889) until 1984"
+        ],
       "bibliography": "Garnery 2023; Bonnafé 1890; Piot 1999; Courajod 1890",
       "websites": [
         "[Agorha](https://agorha.inha.fr/ark:/54721/95658a8d-b51a-477d-bbcd-2b4198278aaa)",
@@ -1653,7 +1698,10 @@
         "1875"
       ],
       "collector of Goya's works": "<i>Femme à l'éventail</i> (1806-07) (1867 sale, lot 177): Musée du Louvre, RF 1132 [https://collections.louvre.fr/ark:/53355/cl010064756]",
-      "curiosities": "Salamanca's residence in Madrid, the Palace of the Marquis of Salamanca, now belongs to the BBVA Foundation, where there are two works by Goya: a portrait of Carlos III as a hunter (c.1786), and the portrait of Don Pantaleón Pérez de Nenín (1808). He gives his name to the Neighbourhood of Salamanca (Barrio de Salamanca) in Madrid, where he refurbished 14 blocks",
+      "curiosities": [
+        "Salamanca's residence in Madrid, the Palace of the Marquis of Salamanca, now belongs to the BBVA Foundation, where there are two works by Goya: a portrait of Carlos III as a hunter (c.1786), and the portrait of Don Pantaleón Pérez de Nenín (1808)", 
+        "He gives his name to the Neighbourhood of Salamanca (Barrio de Salamanca) in Madrid, where he refurbished 14 blocks"
+        ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Salamanca.jpg"
     },
     {
@@ -1669,7 +1717,11 @@
       "portrayed by": "Victor Mottez (c.1840); unidentified artist (c.1860)",
       "parents": "Louis-François Bertin (journalist, editor) and Geneviève-Aimée-Victoire Boutard (pianist)",
       "siblings": "Édouard Bertin, Armand Bertin, Geneviève Bertin",
-      "curiosities": "she suffered from polio. His father was portrayed by Ingres (1832), and the editor of Le Journal des débats. Berlioz considers her music 'virile, forte et neuve'.",
+      "curiosities": [
+        "She suffered from polio", 
+        "His father was portrayed by Ingres (1832), and the editor of <i>Le Journal des débats</i>", 
+        "Berlioz considers her music 'virile, forte et neuve'"
+        ],
       "websites": "[Association des amis de Victor Hugo](http://www.victorhugo.asso.fr/echo/echo2esmerlda.htm)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Louise_Bertin.jpg"
     },
@@ -1892,7 +1944,11 @@
       "address": "rue Blanche (from 1817); rue de Clichy (ancienne Folie-Richelieu) (from 1821); 37 rue de la Tour-d'Auvergne (after 1846)",
       "mentions": "5 years after her death, Salvandy wrote in Le Journal des débats (18 July 1856): 'Une étrangère, une Américaine (nom donné aux colons des Antilles), arriva sur la terre de France, jeune, belle, éprise de notre littérature, de nos arts, de notre société (...) Elle avait retenu autour d'elle les esprits les plus diverses, les éléments qu'on aurait pu croire étrangers entre eux, l'Empire et la Royauté, l'Institut et le grand monde (...) un des rares salons où se maintenait la conversation à travers tout le mouvement de la société d'aujourd'hui'.",
       "pseudonyms": "Madame Deschamps",
-      "curiosities": "around rue Balzac, it was known as 'quartier de l'Avenue Fortunée' in her honour. The Comtesse de Bassanville said about her, 'C'est surtout par l'esprit que brillait Madame Hamelin ; elle n'était pas simplement spirituelle, elle était l'esprit même'. Mademoiselle Cochelet in her 'Mémoires' wrote 'Ce furent selon les bruits du temps, les complots de Madame Hamelin et de la reine (Hortense) qui amenèrent ce merveilleux débarquement de l'île d'Elbe'.",
+      "curiosities": [
+        "Around rue Balzac, it was known as 'quartier de l'Avenue Fortunée' in her honour", 
+        "The Comtesse de Bassanville said about her: 'C'est surtout par l'esprit que brillait Madame Hamelin ; elle n'était pas simplement spirituelle, elle était l'esprit même'",
+        "Mademoiselle Cochelet in her 'Mémoires' wrote 'Ce furent selon les bruits du temps, les complots de Madame Hamelin et de la reine (Hortense) qui amenèrent ce merveilleux débarquement de l'île d'Elbe'."
+        ],
       "bibliography": "Lescure 1995",
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Fortun%C3%A9e_Hamelin)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hamelin.jpg",
@@ -1910,7 +1966,11 @@
       "founder of": "La Ruche, journal d'études familière (with Adélaïde de Montgolfier), a monthly magazine dedicated to the education of young women (Buell Hale 1874, p.583-84)",
       "married to": "Jean-Hilaire Belloc (French painter)",
       "children": "Louise (1822-95), Adelaide (1828-97), Louis (1830-72)",
-      "curiosities": "she was buried alongside her close friend Adélaïde de Montgolfier (and her son, Louis Belloc) at La Celle-Saint-Cloud. She was friends with Charles Dickens and Harriet Beecher Stowe. Her son would marry a prominent English feminist, Bessie Rayner Parkes, and they had two children who would become prolific writers: Marie Adelaide Belloc Lowndes (novelist) and Hilaire Belloc (poet and historian)",
+      "curiosities": [
+        "She was buried alongside her close friend Adélaïde de Montgolfier (and her son, Louis Belloc) at La Celle-Saint-Cloud",
+        "She was friends with Charles Dickens and Harriet Beecher Stowe",
+        "Her son would marry a prominent English feminist, Bessie Rayner Parkes, and they had two children who would become prolific writers: Marie Adelaide Belloc Lowndes (novelist) and Hilaire Belloc (poet and historian)"
+        ],
       "bibliography": "Sarah Josepha Buell Hale, <i>Woman's Record: Or, Sketches of All Distinguished Women</i>, 1874. [Google books](https://books.google.es/books?id=X7ZiAAAAMAAJ&vq=belloc+la+ruche&hl=es&source=gbs_navlinks_s)",
       "websites": "[Wikipedia](https://en.wikipedia.org/wiki/Louise_Swanton_Belloc)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Swanton_Belloc.jpg"
@@ -3309,6 +3369,15 @@
       "collaborations": "<i>Correspondance inédite [de] Stendhal. Précédée d'une introduction par Prosper Mérimée</i>, Paris, Michel Lévy, 1855"
     },
     {
+      "from": "Stendhal (Henri Beyle)",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?",
+      "know each other since": "at least 1829",
+      "mentions": "according to Augustin Challamel (1885, p.23-24), Stendhal said in 1829: 'Victor Hugo, ultra vanté, n'a pas su succès réel, du moins pour les <i>Orientales</i>. Le <i>Condamné</i> fait horreur et me semble inférieur à certains passages de <i>Mémoires de Vidocq</i>... M. Victor Hugo n'est pas un homme ordinaire, mais il <i>veut</i> être extraordinaire, et les <i>Orientales</i> m'ennuient...'",
+      "bibliography": "Challamel 1885"
+    },
+    {
       "from": "Eugénie de Montijo",
       "to": "Stendhal (Henri Beyle)",
       "connection_level": "direct",
@@ -4144,7 +4213,7 @@
     {
       "from": "Baron Taylor",
       "to": "Eugenio Ochoa",
-      "label": ""
+      "label": "acquaintances?"
     },
     {
       "from": "Baron Taylor",
@@ -4157,6 +4226,20 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Baron Taylor",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends",
+      "knew each other since": "at least 1829",
+      "they met": [
+        "1829: 'Victor Hugo lut <i>Un duel sous Richelieu</i> à son cénacle élargi le 10 juillet 1829 : Sainte-Beuve, Boulanger, Vigny, Dumas, Soumet, Delacroix, Taylor, Musset, Mérimée, les Devéria, les Deschamps, les Bertin, d’autres encore, ils étaient tous là, et même Balzac, qui venait de publier son premier livre sous son nom, <i>Le Dernier Chouan, ou la Bretagne en 1800</i>' (Hovasse 2001, p.403)",
+        "1830 <i>Hernani</i>: 'Hugo et Taylor, cachés dans une encoignure, assistèrent au défilé des conjurés excentriques, qui allaient à des buts élevés par des voies étroites' (Hovasse 2001, p.424; quoting <i>Victor Hugo raconté</i>, p.462-63)",
+        "1832 Taylor communicates Hugo the government's censorship of his play <i>Le roi s'aume</i> (Hovasse 2001, p.570)"
+        ],
+      "collaborations": "as <i>commissaire royal</i> of the Comédie-Française, Taylor 'opened the doors' for Hugo's plays (Challamel 1885, p.153)",
+      "bibliography": "Hovasse 2001; Ubersfeld & Rosa (eds.), <i>Victor Hugo raconté</i>, 1985; Challamel 1885"
     },
     {
       "from": "Célestin Nanteuil",
@@ -4329,8 +4412,9 @@
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "relationship type": "friends; colleagues",
-      "correspondence": "Schopp 1993",
-      "collaborations": "as Administrateur général de la Comédie-Française, Taylor helps Dumas stage <i>Henri III et sa cour</i> (1829). Dumas dedicates the play to Taylor"
+      "correspondence": "1842 Dumas to Taylor, on his rejection from the Académie française: 'Au revoir, songez à mon Académie : chauffez Nodier, Barante et Molé. Ce sont, je crois, les trois personnes sur lesquelles vous avez le plus d'influence' (Challamel 1885, pp.183-84)",
+      "collaborations": "as Administrateur général de la Comédie-Française, Taylor helps Dumas stage <i>Henri III et sa cour</i> (1829). Dumas dedicates the play to Taylor",
+      "bibliography": "Schopp 1993 (Correspondence); Challamel 1885"
     },
     {
       "from": "Adrien Dauzats",
@@ -4516,6 +4600,67 @@
       "connection_level": "direct",
       "relationship type": "acquaintances", 
       "mentions": "Hugo dedicates to her his <i>Moïse sur le Nil</i>"
+    },
+    {
+      "from": "Amable Tastu",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "friends? mentor-protegé?; Challamel says about Delphine Gay: 'les gens de tous les partis célébraient-ils la 'muse', qui grandissait à côté de Mme Amable Tastu' (1855, p.192)",
+      "bibliography": "Challamel 1885"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Delphine Gay attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Sophie Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Sophie Gay attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Hugo attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Stendhal (Henri Beyle)",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Stendhal attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Juliette Récamier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Récamier attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Alphonse de Lamartine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Lamartine attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Mérimée attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Delacroix attended Ancelot's salon"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Alfred de Musset",
+      "connection_level": "direct",
+      "relationship type": "acquaintances. Musset attended Ancelot's salon"
     },
     {
       "from": "Amable Tastu",
