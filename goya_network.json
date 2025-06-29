@@ -1848,6 +1848,42 @@
       "image source": "Nadar photograph, 1870"
     },
     {
+      "id": "Auguste Renoir",
+      "full name": "Pierre-Auguste Renoir",
+      "label": "Renoir",
+      "life dates": "1841-1919",
+      "nationality": "French",
+      "born in": "Limoges",
+      "lives in": "Limoges (1841-1844); Paris (from 1844); Cagnes-sur-Mer (from 1903)",
+      "profession": "painter, draughtsman, graphic artist, engraver, sculptor, illustrator, porcelain painter", 
+      "studies in": "École nationale supérieure des beaux-arts (1862-1864): he meets Frédéric Bazille, Claude Monet and Alfred Sisley; Académie Suisse",
+      "married ot": "Aline Charigot (1890)",
+      "children": "Jeanne Tréhot, Lucienne Bisson, Pierre Renoir, Jean Renoir, Claude Renoir",
+      "member of ": "Ligue de la patrie française: nationalist and anti-Dreyfus",
+      "patrons": "Paul Bérard, Charles Le Cœur, Paul Durand-Ruel (they meet 1872), Gustave Caillebotte, Chocquet, Ambroise Vollard, Bernheim-Jeune",
+      "masters": "Charles Gleyre",
+      "friends": "Bazille and Monet (with whom Renoir shares a workshop from c.1867)",
+      "participates in": [
+        "The Salon: from 1864 (<i>Esméralda</i>: Renoir destroyed it); <i>Lise à l'ombrelle</i> (1868): praised by Émile Zola",
+        "1870 Franco-Prussian War",
+        "1874 1st Impressionist Exhibition"
+       ],
+      "students": "Jeanne Baudot",
+      "influenced by": "Fragonard; Boucher; Manet (c.1871); Velázquez; Delacroix (early 1870s); Ingres; Courbet; Monet; Raphael",
+      "address": "workshops: rue Notre-Dame-des-Champs; rue Saint-Georges (from 1873)",
+      "in Spain": "1892 (with his friend Paul Gallimard)",
+      "mentions of Goya": "Regarding his (1892) trip to Spain: 'Et en laissant ses personnages tel qu’ils sont, on peut encore donner à une peinture un agrément indéfinissable, si l’on n’a pas soi-même une âme de croque-mort. Ainsi, la <i>Famille Royale</i> de Goya, qui, à elle seule, vaut le voyage de Madrid ! Quand on est devant ça, est-ce qu’on remarque seulement que le roi a l’air d’un marchand de cochons ; et que la reine semble échappée de chez un mastroquet, pour ne pas dire plus ! Les diamants dont elle est couverte ! Personne n’a rendu les diamants comme Goya !' (Vollard 1919, p.141)",
+      "trips": "Italy (late 1881); Spain (1892)",
+      "author of": "<i>Lise (Trhéhot) cousant</i> (1866, Dallas); <i>Lise à l'ombrelle</i> (1867); <i>Femme à la perruche</i> (1871, Guggenheim NY); <i>Nature morte au bouquet</i> (1871, Houston)): on the wall, it shows a print by Manet after Velázquez (<i>Petits Cavaliers</i>); <i>Portrait de Claude Monet</i> (1872, NGA); <i>Bail du moulin de la Galette</i> (1876); <i>Portrait de Victor Chocquet</i> (1876, Cambridge MA, Fogg Art Museum); <i>Madame Georges Charpentier et ses enfants</i> (1878, Met): Mme Charpentier also frequented Flaubert, the Goncourt and Zola; <i>La Fin du déjeuner</i> (1879, Städel); <i>Rose et bleu (Alice et Élisabeth Cahen d'Anvers)</i> (1881, Sao Paulo); <i>Jeune Fille algérienne</i> (1881, Boston); <i>Le Déjenuner des canotiers</i> (1881, Washingotn, Phillips Collection); <i>Les Grandes Baidneuses</i> (1887, Philadelphia); <i>Jeunes filles au piano</i> (1892)",
+      "decorations/awards": "Chevalier de la Légion d'honneur (1901); Officier de la Légion d'honneur(1911); Commandeur de la Légion d'honneur (1919)",
+      "portrayed by": "Frédéric Bazille, 1867, oil painting, Musée d'Orsay (DL 1970 3); anonymous, c.1875, photograph, Musée d'Orsay; self-portrait, 1876, Fogg Art Museum; unknown, 1900, photograph; Dornac, c.1910, photograph; Marie-Félix Hippolyte-Lucas, 1919, oil painting (location unknown)",
+      "bibliography": "John House, <i>Pasión por Renoir. La colección del Sterling and Francine Clark Art Institute</i>, 2010, Prado (exh. cat.); Anne Distel, <i>Renoir</i>, 2009; Henri Perruchot, <i>La vie de Renoir</i>, 1964; François Fosca, <i>Renoir</i>, 1923; Ambroise Vollard, <i>Pierre-Auguste Renoir (1841-1919): Sa vie et son œuvre</i>, 1919, reedited 2015 (VisiMuZ Éditions), previously published in 'Entretiens avec Renoir sur la peinture', <i>L’Art et les artistes</i>, vol. 23, 1919, pp.28–43",
+      "curiosities": "he studies music with Charles Gounod c.1862",
+      "archives": "Archives départementales des Yvelines (166J, Ms 9276, 13283-13289, 8s, 1897-1914)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Renoir.jpg",
+      "image source": "anonymous photograph, c.1875"
+    },
+    {
       "id": "Alphonse de Lamartine",
       "label": "Lamartine",
       "life dates": "1790-1869",
@@ -3690,6 +3726,18 @@
       "relationship type": "friends; colleagues",
       "collaborations": "Manet made <i>Fleur exotique</i> (1868), a print inspired by Goya, for a sonnet by Armand Renaud, published by Burty, [Metropolitan 64.649.1](https://www.metmuseum.org/art/collection/search/337433)]",
       "collection": "the Metropolitan Museum holds several prints by Manet from the Burty collection, such as <i>Dead Christ with Angels</i> (1866-67) [70.588](https://www.metmuseum.org/art/collection/search/844693), <i>The Infanta Margarita, after Velázquez</i> (1861-62) [NMG 310/1924](https://www.metmuseum.org/art/collection/search/851751), <i>Charles Baudelaire, Full Face, after Nadar, III</i> (1869) [NMG 313/1924](https://www.metmuseum.org/art/collection/search/857998), <i>Plainte Moresque (Moorish Lament)</i> (1866), <i>Monsieur Manet (The Artist's Father) I</i> (1860), <i>Hat and Guitar, Frontispiece for an Edition of Fourteen Etchings</i> (1862-63). A substantial part of Burty's collection of Manet's prints was acquired by Edgar Degas (with the help of Michel Manzi)"    
+    },
+    {
+      "from": "Édouard Manet",
+      "to": "Auguste Renoir",
+      "connection_level": "direct",
+      "relationship type": "colleagues. Renoir was influenced by Manet"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Auguste Renoir",
+      "connection_level": "secondary",
+      "relationship type": "Renoir was influenced by Delacroix, particularly in the use of colour"
     },
     {
       "from": "Édouard Manet",
