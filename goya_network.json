@@ -2475,7 +2475,7 @@
       "member of": "Académie des sciences, belles-lettres et arts de Rouen (1846); Société des amis des arts de Rouen; Société française de gravure",
       "works as": "deputy mayor of Rouen 1846-1874",
       "author of": "<i>Manuel de l'amateur de d'estampes</i> (started in 1877; unfinished); <i>Œuvre complet de Rembrandt</i>",
-      "bibliography": "Joëlle Raineau-Lehuédé 2025; Fayos Pérez 2024; Los LLanos & Assante di Panzillo 2008; Chazal 2008",
+      "bibliography": "Joëlle Raineau-Lehuédé 2025; Fayos Pérez 2024; Los Llanos & Assante di Panzillo 2008; Chazal 2008",
       "websites": "Petit Palais [https://www.petitpalais.paris.fr/en/content/catalogues-des-collections-de-1897-1936]",
       "archives": "Rouen Bibliothèques",
       "portrayed by": "Fix-Masseau, 1904, sculpture, Petit Palais (SDUT1340)",
@@ -4982,7 +4982,8 @@
       "from": "Eugène Dutuit",
       "to": "Giandomenico Tiepolo",
       "connection_level": "secondary",
-      "relationship type": "Dutuit acquired a print by Goya after Velázquez in the Tiepolo sale (Paris, 10-12 Nov 1845)"
+      "relationship type": "Dutuit acquired a print by Goya after Velázquez (<i>Las Meninas</i>) in the Tiepolo sale (Paris, 10-12 Nov 1845) (Fayos Pérez 2024)",
+      "bibliography": "Fayos Pérez 2024"
     },
     {
       "from": "Eugène Dutuit",
