@@ -2436,6 +2436,53 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
     },
     {
+      "id": "Auguste Dutuit",
+      "label": "A. Dutuit",
+      "life dates": "1812-1902",
+      "nationality": "French",
+      "siblings": "Eugène and Héloïse",
+      "profession": "art collector, art historian",
+      "art collection": "The brothers' collection was bequeathed to the City of Paris and is now the core of the Petit Palais [https://www.petitpalais.paris.fr/en/content/dutuit-bequest]",
+      "collection of Goya's works": "the Dutuit collection includes a trial-proof set of the <i>Caprichos</i> (Petit Palais LDUT182); the provenance is uncertain although the cover seems to read 'de Don Mariano Gil y Alcayde', a collector from Aragon (Los Llanos & Assante di Panzillo 2008, p.157). The binding is identical to the Ceán Bermúdez copy at the BM. It's possible that the purchase took place through Carderera since he was the foremost owner of Goya works dealing in Paris at that time, and the Dutuits didn't buy any artworks in Spain. Another possibility is that this was the <i>Caprichos</i> set from the Tiepolo collection (Fayos Pérez 2024, fig.I.14). The <i>Caprichos</i> match Auguste's anticlerical taste, who was in contact with Piot, himself connected to Carderera",
+      "sales": "1864; 1875",
+      "lives in": "Rome",
+      "portrayed by": "Pasquale Fosca, 1884, sculpture, Petit Palais (SDUT1339); 'Auguste Dutuit, French painter and collector, with his wife', photograph, <i>L'Illustrazione Italiana</i>, XXX, no.2, 11 Jan 1903 (Biblioteca Ambrosiana)",
+      "bibliography": "Joëlle Raineau-Lehuédé 2025; Fayos Pérez 2024; Griffits 2009; Los Llanos & Assante di Panzillo 2008",
+      "websites": "Petit Palais [https://www.petitpalais.paris.fr/en/content/dutuit-bequest]",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dutuit_Auguste.jpg"
+    },
+    {
+      "id": "Eugène Dutuit",
+      "label": "E. Dutuit",
+      "life dates": "1807-1886",
+      "born in": "Marseille. Grows up in Rouen",
+      "nationality": "French",
+      "siblings": "Auguste and Héloïse",
+      "profession": "art collector, politician, art historian",
+      "trips": "Netherlands (1826)",
+      "art collection": [
+        "Starts collecting prints c.1826",
+        "He donates 600 prints to the Rouen Library in 1845",
+        "His collection includes La Fontaine's <i>Tales</i> illustrated by Fragonard, Corot's <i>Marietta</i>, Delacroix's <i>Combat du Giaour et du Pacha</i> (1835), and Fragonard's <i>Portrait of Jérôme de La Lande</i>",
+        "The brothers' collection was bequeathed to the City of Paris and is now the core of the Petit Palais [https://www.petitpalais.paris.fr/en/content/dutuit-bequest]"
+        ],
+      "collection of Goya's works": [
+        "the Dutuit collection includes a trial-proof set of the <i>Caprichos</i> (LDUT182) (Fayos Pérez 2024, fig.I.14); ; the provenance is uncertain although the cover seems to read 'de Don Mariano Gil y Alcayde', a collector from Aragon (Los Llanos & Assante di Panzillo 2008, p.157). The binding is identical to the Ceán Bermúdez copy at the BM. It's possible that the purchase took place through Carderera since he was the foremost owner of Goya works dealing in Paris at that time, and the Dutuits didn't buy any artworks in Spain. Another possibility is that this was the <i>Caprichos</i> set from the Tiepolo collection (Fayos Pérez 2024, fig.I.14).",
+        "Dutuit also acquired 9 state proofs of the <i>Tauromaquia</i> from the collection of Emile Galichon (Griffiths 2009, p.188), although they do not appear in either of the sale catalogues (1864 and 1875) (Los Llanos & Assante di Panzillo 2008, p.154).",
+        "Dutuit might also have acquired a 1st-edition <i>Tauromaquia</i> from the Lefort sale (28-29 Jan 1869, lot 411) (Fayos Pérez 2024)"
+        ],
+      "sales": "1864; 1875",
+      "member of": "Académie des sciences, belles-lettres et arts de Rouen (1846); Société des amis des arts de Rouen; Société française de gravure",
+      "works as": "deputy mayor of Rouen 1846-1874",
+      "author of": "<i>Manuel de l'amateur de d'estampes</i> (started in 1877; unfinished); <i>Œuvre complet de Rembrandt</i>",
+      "bibliography": "Joëlle Raineau-Lehuédé 2025; Fayos Pérez 2024; Los LLanos & Assante di Panzillo 2008; Chazal 2008",
+      "websites": "Petit Palais [https://www.petitpalais.paris.fr/en/content/catalogues-des-collections-de-1897-1936]",
+      "archives": "Rouen Bibliothèques",
+      "portrayed by": "Fix-Masseau, 1904, sculpture, Petit Palais (SDUT1340)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dutuit_Eugene.jpg",
+      "image source": "Fix-Masseau sculpture"
+    },
+    {
       "id": "Jacques Galos",
       "label": "Galos",
       "life dates": "1774-1830", 
@@ -3963,6 +4010,13 @@
       "collaborations": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> (1869) by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt"
     },
     {
+      "from": "Paul Lefort",
+      "to": "Eugène Dutuit",
+      "connection_level": "secondary?",
+      "relationship type": "Dutuit might have acquired a 1st-edition <i>Tauromaquia</i> from the Lefort sale (28-29 Jan 1869, lot 411) (Fayos Pérez 2024)",
+      "bibliography": "Fayos Pérez 2024"
+    },
+    {
       "from": "Charles Blanc",
       "to": "Paul Mantz",
       "connection_level": "direct",
@@ -4916,8 +4970,34 @@
     {
       "from": "Agustín Esteve",
       "to": "Eugène Piot",
+      "connection_level": "secondary?"
+    },
+    {
+      "from": "Eugène Dutuit",
+      "to": "Auguste Dutuit",
+      "connection_level": "direct",
+      "relationship type": "siblings; brothers"
+    },
+    {
+      "from": "Eugène Dutuit",
+      "to": "Giandomenico Tiepolo",
+      "connection_level": "secondary",
+      "relationship type": "Dutuit acquired a print by Goya after Velázquez in the Tiepolo sale (Paris, 10-12 Nov 1845)"
+    },
+    {
+      "from": "Eugène Dutuit",
+      "to": "Eugène Piot",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; colleagues?",
+      "link to Goya's work": "Dutuit acquired Goya's print after Velázquez (<i>Las Meninas</i>) because he had read about it in Piot's 1842 catalogue raisonné (Fayos Pérez 2024; Los Llanos & Assante di Panzillo 2008, p.152)",
+      "correspondence": "23 and 24-X-1885 Dutuit to Piot (Snr-1 Piot) (Raineau-Lehuédé 2025)",
+      "bibliography": "Raineau-Lehuédé 2025; Fayos Pérez 2024; Los Llanos & Assante di Panzillo 2008"
+    },
+    {
+      "from": "Eugène Dutuit",
+      "to": "Eugène Delacroix",
       "connection_level": "secondary?",
-      "mentions": "Piot mentions Esteve as the author of the 2nd 'tirage'; from the <i>Caprichos</i> (Catalogue raisonné, <i>Cabinet de l'Amateur</i>, 1842, p.355)"
+      "relationship type": "the Dutuit collection included works by Delacroix, such as <i>Combat du Giaour et du Pacha</i> (1835) (Petit Palais PDUT1162)"
     },
     {
       "from": "Frédéric Villot",
