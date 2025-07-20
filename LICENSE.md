@@ -15,4 +15,4 @@ Under the following terms:
 More information: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 © Paula Fayos Pérez, 2025.  
-Notarial registration of the creative-academic process (Madrid, 2018–2025).
+Notarial registration of the creative-academic process (Cambridge-Madrid, 2018–2025).
