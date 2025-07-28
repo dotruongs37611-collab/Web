@@ -493,6 +493,47 @@
       "image source": "Winterhalter portrait, 1854"
     },
     {
+      "id": "Nadar",
+      "label": "Nadar",
+      "full name": "Félix Tournachon",
+      "pseudonyms": "Nadar",
+      "life dates": "1820-1910",
+      "profession": "photographer (from 1854), caricaturist (from c.1838), writer, aeronaut",
+      "born in": "Paris",
+      "address": "workshop in 113, rue Saint-Lazare (c.1854); 35 boulevard des Capucines (1860) (where takes place the first Impressionist Exhibition in 1874)",
+      "nationality": "French",
+      "studies in": "Lycée Condorcet (formerly collège Bourbon). Starts to study Medicine in Lyon but stops to take care of his family after his father's death",
+      "parents": "Victor Tournachon-Molin & Thérèse Maillet",
+      "siblings": "Adrien",
+      "married to": "Ernestine Constance Lefèbvre (1854)",
+      "children": "Paul Nadar (Paul Tournachon)",
+      "works in": "<i>Le Charivari</i> (from 1848); <i>La Revue comique à l'usage des gens sérieux</i> (founded by Hetzel); <i>Journal pour rire</i>; <i>Petit journal pour rire</i> (chief editor); <i>Le Journal illustré</i>.",
+      "participates in": [
+        "1848 The légion polonaise (French army in Poland) with his brother.",
+        "1850-51 <i>Musée des gloires contemporaines</i>: <300 figures of his time, with >1,000 drawings, known as <i>Panthéon Nadar</i> (4 lithographic plates 1854)",
+        "1900 retrospective exhibition at the Exposition universelle de Paris, organised by his son Paul Nadar."
+        ],
+      "founder of": "<i>Le Livre d'Or</i> (1839), with collaborators such as Balzac, Dumas, Gautier, Nerval, Gavarni and Daumier (it stops after 3 issues)",
+      "curiosities": [
+        "Young Nadar defined himself as 'un vrai casse-cou, un touche-à-tout, mal élevé jusqu'à appeler les choses par leur nom, et les gens aussi'.",
+        "His pseudonym comes from a trend around 1840 of adding 'dar' after some words ('Tournadar' > 'Nadar').",
+        "When enlisted in the légion polonaise in 1848, he is made a prisoner, refuses to be sent back for free and returns to France by foot. Two months later he returns to Paris and starts to work for Jules Hetzel, then Chief of the Cabinet of the Ministry of Foreign Affairs (temporary government), as secret agent to find out about Russian troops at the Prussian border.",
+        "He is a pioneer in aerial photography, with the views of Petit Bicêtre in 1858.",
+        "He goes broke during the Paris Commune in 1871.",
+        "His workshop at 35 Boulevard des Capucines holds the <i>première exposition des peintres impressionnistesa</i> in 1874.",
+        "He produced the first photographic <i>reportage</i>, illustrating his son's interview to the chemist Eugène Chevreul in <i>Le Journal illustré</i> (1886)."
+        ],
+      "author of": [
+        "Essay: <i>La Robe de Déjanire</i>, 1845 (reedited 1862, 1882); <i>Le Miroir aux alouettes</i>, 1859; <i>Quand j'étais étudiant</i>, 1861; <i>À terre et en l'air. Mémoires du 'Géant'</i>, 1864; <i>Le Droit au vol</i>, 1865 (Hetzel); <i>La Grande Symphonie héroïque des punaises</i>, 1877; <i>Sous l'incendie</i>, 1882; <i>Le monde où on patauge</i>, 1883; <i>Quand j'étais photographe</i>, 1899 (reedited in 1993 and 2017), [online] (https://cnum.cnam.fr/pgi/redir.php?onglet=e&ident=12KE639)",
+        "Photography: André Barret, <i>Nadar. 50 photographies de ses illustres contemporains</i>, éd. Julliard, 1994; Barret, <i>Nadar</i>"
+        ],
+      "member of": "Société d'encouragement de la locomotion aérienne au moyen du plus lourd que l'air",
+      "bibliography": "Nadar, <i>Correspondance, 1820-1851</i>, tome 1, ed. André Rouillé, 1998.",
+      "archives": "Bibliothèque historique de la ville de Paris and Musée Carnavalet (related to aerial photography)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nadar.jpg",
+      "image source": "Self-portrait c.1900"
+    },
+    {
       "id": "Rosa Bonheur",
       "label": "Bonheur",
       "full name": "Marie-Rosalie Bonheur",
@@ -1867,7 +1908,7 @@
       "lives in": "Limoges (1841-1844); Paris (from 1844); Cagnes-sur-Mer (from 1903)",
       "profession": "painter, draughtsman, graphic artist, engraver, sculptor, illustrator, porcelain painter", 
       "studies in": "École nationale supérieure des beaux-arts (1862-1864): he meets Frédéric Bazille, Claude Monet and Alfred Sisley; Académie Suisse",
-      "married ot": "Aline Charigot (1890)",
+      "married to": "Aline Charigot (1890)",
       "children": "Jeanne Tréhot, Lucienne Bisson, Pierre Renoir, Jean Renoir, Claude Renoir",
       "member of ": "Ligue de la patrie française: nationalist and anti-Dreyfus",
       "patrons": "Paul Bérard, Charles Le Cœur, Paul Durand-Ruel (they meet 1872), Gustave Caillebotte, Chocquet, Ambroise Vollard, Bernheim-Jeune",
@@ -1953,7 +1994,7 @@
       "political views": "participated in the Revolution of 1830. Disappointed at Louis-Philippe's government; he promotes the 1848 Revolution; he runs for the Assemblée constituante in 1848, against Louis Bonaparte (future Napoleon III); on 15 May 1849, he encourages the popular movement to take the Assemblée and Hôtel de Ville, which leads to Thoré being condemned to death and he flees into exile in Brussels (where he takes the pseudonym William Bürger). In exile 1849-1860 (amnesty)",
       "mentions": "Émile de Girardin stated: 'Je ne connais guère en France que deux hommes qui soient restés incorruptibles : Proudhon et Thoré'",
       "pseudonyms": "William Bürger; Jacques Van Damme",
-      "bibliography": "Fayos Pérez 2024, Appendix II; Magali Charreire, 'Vermeer à l’Arsenal: la bibliothèque-musée de Paul Lacroix', <i>Littératures</i>, vol.75,‎ 2016, pp.45–56; Frances Suzman Jowell, 'Thoré-Bürger's Art Collection: A Rather Unusual Gallery of Bric-à-Brac', <i>Simiolus: Netherlands Quarterly for the History of Art</i>, vol.30, no.1/2,‎ 2003, pp.54–119",
+      "bibliography": "Fayos Pérez 2024, Appendix II; Magali Charreire, 'Vermeer à l’Arsenal: la bibliothèque-musée de Paul Lacroix', <i>Littératures</i>, vol.75, 2016, pp.45–56; Frances Suzman Jowell, 'Thoré-Bürger's Art Collection: A Rather Unusual Gallery of Bric-à-Brac', <i>Simiolus: Netherlands Quarterly for the History of Art</i>, vol.30, no.1/2, 2003, pp.54–119",
       "portrayed by": "Nadar, 1865, caricature; Nadar, 1865, photograph; Léopold Flameng, 1870, lithography",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Thore.jpg",
       "image source": "Nadar, 1865, photograph"
@@ -4161,6 +4202,20 @@
       "correspondence": "1794-I-4 Goya to Iriarte: the famous letter where Goya announces his small cabinet paintings out of commission, on topics drawn from the 'capricho e invención' (Canellas p.314, no.188; also no.189, 1794-I-7)",
       "portraits": "Goya portrays Iriarte in 1797 (Strasbourg Museum). Copy at the Metropolitan Museum (50.145.19)",
       "they met": "in Paris, Carderera visits Aguado's art gallery on 17 May 1841 (Lanzarote Guiral 2016, p.LV)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Honoré Balzac",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "portraits": "Nadar's drawing of Balzac, 1850, [Wikipedia] (https://fr.wikipedia.org/wiki/Nadar#/media/Fichier:Charles_Baudelaire.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "portraits": "Nadar's photograph of Baudelaire, 1855"
     },
     {
       "from": "Honoré Balzac",
