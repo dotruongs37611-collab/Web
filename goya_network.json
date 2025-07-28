@@ -330,7 +330,10 @@
       "author of": "<i>Voyage pittoresque en Espagne, en Portugal et sur la côte d’Afrique, de Tanger a Tétuan</i> (1826); <i>Voyages pittoresques et romantiques dans l'ancienne France</i>, in collaboration with Charles Nodier and Alphonse de Cailleux (started in 1818; published 1820-1878)",
       "founder of": "Societés des peintres et sculpteurs; des musiciens; des inventeurs industriels; des professeurs (Challamel 1885, p.336)",
       "member of": "Académie Française, Académie des beaux-arts (1847); Société des gens de lettres; Fondation Taylor",
-      "portrayed by": "Federico Madrazo, 1833, oil painting, Musée National du Château de Versailles; Nadar, 1877, photograph",
+      "portrayed by": [
+        "Federico Madrazo: 1833, oil painting, Musée National du Château de Versailles",
+        "Nadar: 1877, photograph; 1872-75, [MoMA](https://www.moma.org/collection/works/44376) 35.1964; caricatures: (<i>Portrait charge du baron Taylor), [Louvre](https://collections.louvre.fr/en/ark:/53355/cl020503287) RF 43361, Recto, and another one, charcoal heightened with gouache, 23.5 x 15 cm, [Artnet](https://www.artnet.com/artists/nadar/isidore-justin-s%C3%A9verin-baron-taylor-2vDIG4UNfoRw8E-JsSPruQ2)"
+        ],
       "participates in": "l'Expédition d'Espagne (1823), also known as los Cien Mil Hijos de San Luis: campaign to restore the Bourbon dinasty in Spain",
       "aristocratic titles": "baron",
       "decorations/awards": "Chevalier (1822), Officier (1834), Commandeur (1837) et Grand officer (1877) de la Légion d'Honneur",
@@ -519,12 +522,13 @@
         "His pseudonym comes from a trend around 1840 of adding 'dar' after some words ('Tournadar' > 'Nadar').",
         "When enlisted in the légion polonaise in 1848, he is made a prisoner, refuses to be sent back for free and returns to France by foot. Two months later he returns to Paris and starts to work for Jules Hetzel, then Chief of the Cabinet of the Ministry of Foreign Affairs (temporary government), as secret agent to find out about Russian troops at the Prussian border.",
         "He is a pioneer in aerial photography, with the views of Petit Bicêtre in 1858.",
+        "His adventures as aeronaut inspired Jules Verne's <i>Cinq semaines en ballon</i> (1862), as well as some characters in <i>De la Terre à la Lune</i> (1865) and <i>Autour de la Lune</i> (1869), where Michel Ardan is an anagram of Nadar.",
         "He goes broke during the Paris Commune in 1871.",
         "His workshop at 35 Boulevard des Capucines holds the <i>première exposition des peintres impressionnistesa</i> in 1874.",
         "He produced the first photographic <i>reportage</i>, illustrating his son's interview to the chemist Eugène Chevreul in <i>Le Journal illustré</i> (1886)."
         ],
       "author of": [
-        "Essay: <i>La Robe de Déjanire</i>, 1845 (reedited 1862, 1882); <i>Le Miroir aux alouettes</i>, 1859; <i>Quand j'étais étudiant</i>, 1861; <i>À terre et en l'air. Mémoires du 'Géant'</i>, 1864; <i>Le Droit au vol</i>, 1865 (Hetzel); <i>La Grande Symphonie héroïque des punaises</i>, 1877; <i>Sous l'incendie</i>, 1882; <i>Le monde où on patauge</i>, 1883; <i>Quand j'étais photographe</i>, 1899 (reedited in 1993 and 2017), [online] (https://cnum.cnam.fr/pgi/redir.php?onglet=e&ident=12KE639)",
+        "Essay: <i>La Robe de Déjanire</i>, 1845 (reedited 1862, 1882); <i>Le Miroir aux alouettes</i>, 1859; <i>Quand j'étais étudiant</i>, 1861; <i>À terre et en l'air. Mémoires du 'Géant'</i>, 1864; <i>Le Droit au vol</i>, 1865 (Hetzel); <i>La Grande Symphonie héroïque des punaises</i>, 1877; <i>Sous l'incendie</i>, 1882; <i>Le monde où on patauge</i>, 1883; <i>Quand j'étais photographe</i>, 1899 (reedited in 1993 and 2017), [online](https://cnum.cnam.fr/pgi/redir.php?onglet=e&ident=12KE639)",
         "Photography: André Barret, <i>Nadar. 50 photographies de ses illustres contemporains</i>, éd. Julliard, 1994; Barret, <i>Nadar</i>"
         ],
       "member of": "Société d'encouragement de la locomotion aérienne au moyen du plus lourd que l'air",
@@ -972,7 +976,7 @@
       "portrayed by": "Nadar, 1873 (photograph)",
       "bibliography": "Henri Béraldi, 1890, 'Les graveurs du XIXe siècle : guide de l'amateur d'estampes modernes', Paris, L. Conquet",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nanteuil.jpg",
-      "image source": "Nadar portrait 1873"
+      "image source": "Nadar portrait 1873" 
     },
     {
       "id": "Louis Boulanger",
@@ -1026,7 +1030,7 @@
       "in Spain": "In 1811 (at 9 years old)",
       "address": "90 rue Vaugirard (later no.88); 11 rue Notre-Dame-des-Champs (later no.27), very close to Achille Devéria",
       "influenced by": "Chateaubriand",
-      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875",
+      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875; Nadar, photograph, c.1884",
       "studies in": "Real Colegio de San Antonio de Abad (Madrid); Lycée Louis le Grand (Paris)",
       "editor of": "<i>Le Conservateur littéraire</i> (1819)",
       "married to": "Adèle Foucher (1822)",
@@ -1090,7 +1094,7 @@
         "<i>Disasters of War</i>: at least since 1842 (<i>Cabinet de l'Amateur</i>, with Eugène Piot and Frédéric Villot). He regains interest in this series in 1871 when he writes a necrological piece on Regnault, and he borrows Burty's working-proof set (through Asselineau)"
         ],
       "collector of Goya's works": "<i>Bulls of Bordeaux</i>; <i>Tauromaquia</i> (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier); <i>Tauromaquia</i> set given by Valentín Carderera on 13 Nov 1859 (Lanzarote Guiral 2016, p.431)",
-      "portrayed by": "Auguste de Châtillon, 1839, Musée Carnavalet (oil painting); Bertall, 1850 (photograph); Amédée Bodin after Théodore Chassériau, 1850 (drawing); Nadar, 1850 (photograph); Nadar, 1854-55, Getty (photograph); Nadar, 1855 (photograph); Nadar, 1856 (photograph); Albert-Ernest Carrier-Belleuse, 1862 (sculpture: bust); Hippolite Mailly, 1862 (caricature); André Gill, 1869, <i>L'éclipse</i> (caricature)",
+      "portrayed by": "Auguste de Châtillon, 1839, Musée Carnavalet (oil painting); Bertall, 1850 (photograph); Amédée Bodin after Théodore Chassériau, 1850 (drawing); Nadar, photographs, 1850, 1854-55 (Getty), 1855, 1856; Albert-Ernest Carrier-Belleuse, 1862 (sculpture: bust); Hippolite Mailly, 1862 (caricature); André Gill, 1869, <i>L'éclipse</i> (caricature)",
       "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Lacoste-Veysseyre 2014; Hovasse 2001; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg",
       "image source": "Nadar photograph, 1854-55, Getty 84.XM.436.7"
@@ -1240,7 +1244,7 @@
       "websites": "[Société des études Marceline Desbordes-Valmore](https://www.societedesetudesmarcelinedesbordesvalmore.fr/); [Wikipedia](https://fr.wikipedia.org/wiki/Marceline_Desbordes-Valmore)",
       "bibliography": "Aimée Boutin & Catherine Witt, upcoming article in <i>J'écris pourtant</i>, 2025; Michel Suffran, <i>Un chemin jusqu'à toi: Rencontre entre Goya et Marceline Desbordes-Valmore (1823-1827)</i>, 2013.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Desbordes_Valmore.jpg",
-      "image source": "Desbordes portrait, c.1811"
+      "image source": "Desbordes portrait, c.1811" 
     },
     {
       "id": "Hortense Allart",
@@ -1463,7 +1467,7 @@
       "websites": "[Salon des Beaux-arts](https://www.salondesbeauxarts.com)",
       "curiosities": "Bracquemond learnt most of his technical knowledge from the <i>Encyclopédie</i> by Diderot and d'Alembert",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Bracquemond.jpg",
-      "image source": "Nadar 1865"
+      "image source": "Nadar 1865" 
     },
     {
       "id": "Paul Mantz",
@@ -1833,9 +1837,9 @@
       "member of": "Société des gens de lettres",
       "author of": "<i>La double vie</i> (1858), <i>L’enfer du bibliophile</i> (1860), <i>Le paradis des gens de lettres</i> (1862), <i>Mélanges tirés d’une petite bibliothèque romantique</i> (1866), <i>L'Italie et Constantinople</i> (1869), <i>Charles Baudelaire, sa vie et son œuvre</i> (1869), <i>André Boulle, ébéniste de Louis XIV</i> (1872), <i>Bibliographie romantique</i> (1872)",
       "studies in": "Collège Bourbon (current Lycée Condorcet), with Nadar",
-      "portrayed by": "Baudelaire, 1850, pen drawing; Nadar, c.1860, photograph",
+      "portrayed by": "Baudelaire, 1850, pen drawing; Nadar, photographs, c.1856, [Orsay](https://www.musee-orsay.fr/es/obras/portrait-de-charles-asselineau-29335) PHO 1985 224, and c.1860",
       "websites": "Fernand Chaffiol-Debillemont, [<i>Charles Asselineau</i>](http://www.miscellanees.com/a/asselino.htm), 1952",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau.jpg" 
     },
     {
       "id": "Henri Regnault",
@@ -1892,7 +1896,7 @@
         "Frans Hals"
         ],
       "decorations/awards": "chevalier de la Légion d'honneur (1882)",
-      "portrayed by": "Nadar, 1870 (photograph); Carolus-Duran, 1876, Rhode Island School of Design Museum (oil painting)",
+      "portrayed by": "Nadar, photographs, from c.1867 to c.1870-80 [Wikipedia](https://commons.wikimedia.org/wiki/Category:Photographs_of_%C3%89douard_Manet_by_Nadar); Carolus-Duran, 1876, Rhode Island School of Design Museum (oil painting)",
       "bibliography": "Fayos-Pérez 2024; Tinterow 2003; Wilson-Bareau 1992; Monneret 1987; Cachin, Moffett & Wilson-Bareau 1983",
       "websites": "[Salon des Beaux-arts](https://www.salondesbeauxarts.com/160-ans/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Manet.jpg",
@@ -4208,14 +4212,115 @@
       "to": "Honoré Balzac",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "portraits": "Nadar's drawing of Balzac, 1850, [Wikipedia] (https://fr.wikipedia.org/wiki/Nadar#/media/Fichier:Charles_Baudelaire.jpg)"
+      "collaborations": "Balzac participated in Nadar's <i>Le Livre d'Or (1839)",
+      "portraits": "Nadar's drawing of Balzac, 1850"
     },
     {
       "from": "Nadar",
       "to": "Charles Baudelaire",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "portraits": "Nadar's photograph of Baudelaire, 1855"
+      "portraits": "Nadar's photograph of Baudelaire, 1855 [Wikipedia](https://fr.wikipedia.org/wiki/Nadar#/media/Fichier:Charles_Baudelaire.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "collaborations": "Dumas participated in Nadar's <i>Le Livre d'Or (1839)",
+      "portraits": "Nadar's photograph of Dumas, 1855 [Wikipedia](https://fr.wikipedia.org/wiki/Alexandre_Dumas#/media/Fichier:Nadar_-_Alexander_Dumas_p%C3%A8re_(1802-1870)_-_Google_Art_Project_2.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "collaborations": "Gautier participated in Nadar's <i>Le Livre d'Or (1839)",
+      "portraits": "Nadar's photographs of Gautier, 1850 [Wikipedia](https://fr.wikipedia.org/wiki/Th%C3%A9ophile_Gautier#/media/Fichier:Th%C3%A9ophile_Gautier_by_Nadar.png), 1854-55 (Getty), 1855, 1856"
+    },
+    {
+      "from": "Nadar",
+      "to": "Honoré Daumier",
+      "connection_level": "direct",
+      "relationship type": "colleagues", 
+      "collaborations": "Daumier participated in Nadar's <i>Le Livre d'Or (1839)",
+      "portraits": "Daumier famously depicted Nadar using a photographic camera in an aerostatic balloon in the lithograph 'Nadar, élevant la photographie à la hauteur de l'Art', in <i>Le Boulevard</i> (25 May 1862) [Wikipedia](https://fr.wikipedia.org/wiki/Nadar#/media/Fichier:Honor%C3%A9_Daumier,_Nadar_%C3%A9levant_la_Photographie_%C3%A0_la_hauteur_de_l'Art,_1862,_NGA_42966.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Victor Hugo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's photograph of Hugo, c.1884 [Wikipedia](https://es.wikipedia.org/wiki/Archivo:Victor_Hugo_001.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Édouard Manet",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's photographs of Manet, from c.1867 to c.1870-80 [Wikipedia](https://commons.wikimedia.org/wiki/Category:Photographs_of_%C3%89douard_Manet_by_Nadar)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Théophile Thoré",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's caricature of Thoré, 1865; photograph, 1865"
+    },
+    {
+      "from": "Nadar",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's caricature of Mérimée, BnF RESERVE BOITE ECU-NA-88, [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8540006w.item)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Baron Taylor",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": [
+        "Nadar's photograph of Taylor, 1877; 1872-75, [MoMA](https://www.moma.org/collection/works/44376) 35.1964",
+        "Nadar's caricature of Taylor (<i>Portrait charge du baron Taylor), [Louvre](https://collections.louvre.fr/en/ark:/53355/cl020503287) RF 43361, Recto; another caricature, charcoal heightened with gouache, 23.5 x 15 cm, [Artnet](https://www.artnet.com/artists/nadar/isidore-justin-s%C3%A9verin-baron-taylor-2vDIG4UNfoRw8E-JsSPruQ2)"
+      ]
+    },
+    {
+      "from": "Nadar",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's photograph of Delacroix, 1858 [Wikipedia](https://es.wikipedia.org/wiki/Archivo:F%C3%A9lix_Nadar_1820-1910_portraits_Eug%C3%A8ne_Delacroix.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Célestin Nanteuil",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's photograph of Nanteuil, c.1873 [Wikipedia](https://es.wikipedia.org/wiki/Archivo:C%C3%A9lestin_Nanteuil_by_Nadar.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Marceline Desbordes-Valmore",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "Nadar's photograph of Desbordes-Valmore, 1854 [Wikipedia](https://fr.wikipedia.org/wiki/Marceline_Desbordes-Valmore#/media/Fichier:Marceline_Desbordes-Valmore_1.jpg)" 
+    },
+    {
+      "from": "Nadar",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "collaborations": "Bracquemond participates in the <i>Première exposition des peintres impressionnistes</i> (1874) at Nadar's workshop",
+      "portraits": "Nadar's photograph of Bracquemond, 1865 [Wikipedia](https://es.wikipedia.org/wiki/Archivo:F%C3%A9lix_Bracquemonde_by_Nadar.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Charles Asselineau",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "they share": "they both study at the Collège Bourbon (current Lycée Condorcet)",
+      "collaborations": "Bracquemond participates in the <i>Première exposition des peintres impressionnistes</i> (1874) at Nadar's workshop",
+      "portraits": "Nadar's photograph of Asselineau, c.1856, [Orsay](https://www.musee-orsay.fr/es/obras/portrait-de-charles-asselineau-29335) PHO 1985 224; c.1860 [Wikipedia](https://es.wikipedia.org/wiki/Archivo:Charles_Asselineau_Nadar_vers_1860.jpg)"
     },
     {
       "from": "Honoré Balzac",
