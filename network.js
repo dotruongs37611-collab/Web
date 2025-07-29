@@ -1,3 +1,5 @@
+let nodes, edges; // 👈 Hacemos estas variables globales
+
 function autoLinkNames(text, nodesMap) {
   if (!text || typeof text !== "string") return text;
 
@@ -147,7 +149,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const nodesMap = {};
         const labelToId = {};
         // Ajustes de nodos
-        const nodes = new vis.DataSet(data.nodes.map(node => {
+        nodes = new vis.DataSet(data.nodes.map(node => {
           labelToId[node.label] = node.id;
           const degree = edgeCount[node.id] || 1;
           const config = {
@@ -666,17 +668,16 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         });
 
-        if (edge.portraits && edge.portraits.length > 0) {
-          html += `<h3>Related artworks or portraits</h3>`;
+        if (Array.isArray(edge.portraits)) {
           edge.portraits.forEach(entry => {
             const url = typeof entry === "string" ? entry : entry.url;
-            const caption = typeof entry === "object" && entry.caption ? entry.caption : "";
+            const caption = typeof entry === "object" && entry.caption ? processMarkdownLinks(entry.caption) : "";
 
             if (url) {
               html += `<div style="margin-bottom: 15px;">`;
               html += `<img src="${url}" alt="Related portrait" style="max-width:100%; display: block; margin-bottom: 5px;">`;
               if (caption) {
-                html += `<div style="font-size: 0.85rem; color: #888; font-style: italic;">${caption}</div>`;
+                html += `<div style="font-size: 1rem; color: #ccc; font-style: italic;">${caption}</div>`;
               }
               html += `</div>`;
             }
@@ -839,11 +840,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       // 5. Si aún no hay nodo, buscar en los edges
       if (!found) {
         const matchingEdge = data.edges.find(edge =>
-          Object.entries(edge).some(([key, value]) =>
-            typeof value === 'string' &&
-            !key.includes('image') &&
-            value.toLowerCase().includes(query)
-          )
+          Object.entries(edge).some(([key, value]) => {
+            if (key === "from" || key === "to" || key === "portraits") return false;
+            return typeof value === 'string' &&
+                  !key.includes('image') &&
+                  value.toLowerCase().includes(query);
+          })
         );
       
         if (matchingEdge) {
