@@ -654,12 +654,27 @@ document.addEventListener('DOMContentLoaded', async function () {
         
             if (Array.isArray(value)) {
               const processedItems = value.map(item => {
-                return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
+                if (typeof item === "string") {
+                  return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
+                } else if (typeof item === "object") {
+                  const caption = item.caption
+                    ? autoLinkNames(processMarkdownLinks(item.caption), nodesMap)
+                    : "";
+                  const url = item.url ? item.url : "";
+                  return `
+                    <li>
+                      ${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; margin-top: 0.5rem;">` : ""}
+                      ${caption ? `<div style="font-size: 1rem; color: #ccc; font-style: italic;">${caption}</div>` : ""}
+                    </li>`;
+                } else {
+                  return `<li>${item}</li>`; // fallback por si acaso
+                }
               });
+
               htmlText = `<ul>${processedItems.join("")}</ul>`;
             } else {
               htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
-            }
+            }Lo 
 
             // Debugging: Check the processed HTML
             console.log("Processed HTML:", htmlText);
