@@ -185,6 +185,27 @@ document.addEventListener('DOMContentLoaded', async function () {
       };
     }));
 
+    // Opciones de visualización PARA MOSTRAR IMÁGENES
+    const options = {
+      edges: {
+        smooth: false,
+        arrows: { to: { enabled: false } },
+        color: { inherit: false },
+        // --- NUEVO: IMÁGENES EN EDGES ---
+        image: {
+          unselected: (edge) => edge.portraits ? edge.portraits[0] : undefined,
+          selected: (edge) => edge.portraits ? edge.portraits[0] : undefined,
+          size: 25,
+          position: 'bottom'
+        },
+        // --------------------------------
+        font: { align: 'top' }
+      },
+      nodes: { 
+        /* ... (tus opciones existentes de nodes) ... */ 
+      }
+    };
+
     const today = new Date();
     const day = today.getDate();
     const month = today.toLocaleString('en-US', { month: 'long' });

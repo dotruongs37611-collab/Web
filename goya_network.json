@@ -4215,7 +4215,13 @@
       "to": "George Sand",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "portraits": "Nadar's photograph of Sand, c.1864, [Getty](https://www.getty.edu/art/collection/object/1098NS)"
+      "portraits": [
+        {
+          "title": "Portrait of George Sand by Nadar, photograph, c.1864", 
+          "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg",
+          "source": "[Getty](https://www.getty.edu/art/collection/object/1098NS) 2005.96"
+        }
+      ]
     },
     {
       "from": "Nadar",
