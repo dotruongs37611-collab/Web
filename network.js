@@ -26,7 +26,7 @@ function autoLinkNames(text, nodesMap) {
 }
 
 function processMarkdownLinks(text) {
-  if (!text) return text;
+  if (!text || typeof text !== "string") return text;
   
   // Preserve italics
   text = text.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
@@ -185,12 +185,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       };
     }));
 
-    const today = new Date();
-    const day = today.getDate();
-    const month = today.toLocaleString('en-US', { month: 'long' });
-    const year = today.getFullYear();
-    const formattedDate = `${day} ${month} ${year}`;
-    document.getElementById("networkStats").innerHTML = `Nodes: ${nodes.length} | Connections: ${edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: ${formattedDate}</span>`;
+    const lastModified = response.headers.get("Last-Modified");
+
+    const formattedUpdate = lastModified
+      ? new Date(lastModified).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+      : 'unknown';
+
+    document.getElementById("networkStats").innerHTML = `Nodes: ${data.nodes.length} | Connections: ${data.edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: ${formattedUpdate}</span>`;
+
 
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
@@ -663,6 +665,13 @@ document.addEventListener('DOMContentLoaded', async function () {
             html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
           }
         });
+
+        if (edge.portraits && edge.portraits.length > 0) {
+          html += `<h3>Related artworks or portraits</h3>`;
+          edge.portraits.forEach(url => {
+            html += `<img src="${url}" alt="Related portrait" style="max-width:100%; margin-bottom: 10px;">`;
+          });
+        }
 
         document.getElementById("nodeInfo").innerHTML = html;
       }
