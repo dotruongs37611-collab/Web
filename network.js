@@ -531,11 +531,19 @@ document.addEventListener('DOMContentLoaded', async function () {
       
           if (Array.isArray(value)) {
             const processedItems = value.map(item => {
-              return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMapByLabel)}</li>`;
+              if (typeof item === 'string' && (item.includes('<img') || item.includes('<div'))) {
+                return `<li>${item}</li>`; // Ya es HTML, no volver a procesar
+              } else {
+                return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
+              }
             });
-            htmlText = `<ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.2rem;">${processedItems.join("")}</ul>`;
+            htmlText = `<ul>${processedItems.join("")}</ul>`;
           } else {
-            htmlText = autoLinkNames(processMarkdownLinks(value), nodesMapByLabel);
+            if (typeof value === 'string' && (value.includes('<img') || value.includes('<div'))) {
+              htmlText = value; // Ya es HTML
+            } else {
+              htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
+            }
           }
           html += `<p style="margin-top:0.3rem;"><strong>${field.label}:</strong> ${htmlText}</p>`;
         }
