@@ -691,22 +691,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         });
 
-        if (Array.isArray(edge.portraits)) {
-          edge.portraits.forEach(entry => {
-            const url = typeof entry === "string" ? entry : entry.url;
-            const caption = typeof entry === "object" && entry.caption ? processMarkdownLinks(entry.caption) : "";
-
-            if (url) {
-              html += `<div style="margin-bottom: 15px;">`;
-              html += `<img src="${url}" alt="Related portrait" style="max-width:100%; display: block; margin-bottom: 5px;">`;
-              if (caption) {
-                html += `<div style="font-size: 1rem; color: #ccc; font-style: italic;">${caption}</div>`;
-              }
-              html += `</div>`;
-            }
-          });
-        }
-
         document.getElementById("nodeInfo").innerHTML = html;
       }
 
