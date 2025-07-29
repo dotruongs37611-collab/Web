@@ -513,7 +513,7 @@
       "works in": "<i>Le Charivari</i> (from 1848); <i>La Revue comique à l'usage des gens sérieux</i> (founded by Hetzel); <i>Journal pour rire</i>; <i>Petit journal pour rire</i> (chief editor); <i>Le Journal illustré</i>.",
       "participates in": [
         "1848 The légion polonaise (French army in Poland) with his brother.",
-        "1850-51 <i>Musée des gloires contemporaines</i>: <300 figures of his time, with >1,000 drawings, known as <i>Panthéon Nadar</i> (4 lithographic plates 1854)",
+        "1850-51 <i>Musée des gloires contemporaines</i>: <300 figures of his time, with >1,000 drawings. Later printed as [<i>Panthéon Nadar</i>](https://www.metmuseum.org/art/collection/search/366762) (4 lithographic plates 1854)",
         "1900 retrospective exhibition at the Exposition universelle de Paris, organised by his son Paul Nadar."
         ],
       "founder of": "<i>Le Livre d'Or</i> (1839), with collaborators such as Balzac, Dumas, Gautier, Nerval, Gavarni and Daumier (it stops after 3 issues)",
@@ -1108,14 +1108,17 @@
       "author of": "<i>La Comédie humaine</i> (1831-50), including <i>La peau du chagrin</i> (1831), which mentions Murillo and Velázquez;  <i>Le Chef-d'œuvre inconnu</i> (1831); <i>Les Cent Contes drolatiques</i> (1832-37); <i>Eugénie Grandet</i> (1834); <i>Le Père Goriot</i> (1835).",
       "participates in": "<i>Les français peints par eux-mêmes</i> (1840) (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas, J. J. Grandville, Honoré Daumier and Paul Gavarni; J. J. Grandville's <i>Scènes de la vie privée et publique des animaux</i> (1842), alongside Charles Nodier and George Sand.",
       "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and George Sand",
-      "works as": "President of the Société des gens de lettres (1839-1840)",
+      "works as": [
+        "New owner of <i>La Chronique de Paris, journal politique et littéraire</i> in 1835, published from January to July 1836, with important names like Hugo and Gautier. Illustrations by Henry Monnier, Grandville and Daumier.", 
+        "President of the Société des gens de lettres (1839-1840)"
+      ],
       "masters": "François Guizot; Abel-François Villemain; Victor Cousin",
       "influenced by": "Walter Scott; Buffon", 
-      "political views": "ambiguous. A legitimist during the July Revolution (1830). He declares himself a liberal. Defends the working class. While expressing some conservative ideas, his work was admired by Marx and Engels, and reflects some elements close to Anarchism.",
+      "political views": "ambiguous. A legitimist during the July Revolution (1830). He declares himself a liberal. Defends the working class. While expressing some conservative ideas, his work was admired by Marx and Engels, and reflects some elements close to Anarchism. Inspired by Saint-Simon.",
       "writes in": "<i>Revue des Deux Mondes</i>, <i>La Presse</i>, <i>Le Constitutionnel</i>, <i>Le Siècle</i>, <i>La Caricature</i>",
       "studies in": "Lycée Charlemagne (1814-18); Sorbonne Université (from 1816); Faculté de Droit (1816-19)",
       "pseudonyms": "Horace de Saint-Aubin, Lord R’Hoone, Viellerglé, Saint Aubin",
-      "portrayed by": "Louis-Auguste Bisson, 1842, daguerrotype",
+      "portrayed by": "Achille Devéria (attributed), c.1825, wash drawing, [Maison de Balzac](https://www.parismuseescollections.paris.fr/fr/maison-de-balzac/oeuvres/portrait-de-balzac-17#infos-principales) BAL 780; Achille Devéria, c.1829, [drawing](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Achille_Dev%C3%A9ria_-_Portrait_de_Balzac.jpg); Louis Boulanger, 1836, oil painting, [Louvre-Tours](https://commons.wikimedia.org/wiki/File:Balzac_(par_Boulanger).jpg); Louis-Auguste Bisson, 1842, daguerrotype; Nadar, drawing, 1850, [BnF](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Dessin_de_Nadar_1850.jpg); Eugène Giraud, 1850, <i>Balzac in his death bed</i>, Besançon.",
       "married to": "Madame Ewelina Hanska (in 1850)",
       "partners/lovers": "Henirette de Maillé de La Tour-Landry; Laure de Berny (1823-1833); Olympe Pélissier; Maria du Fresnay (desde 1833); Caroline Marbouty (1833-1839)",
       "parents": "Bernard-François Balzac and Anne-Charlotte-Laure Sallambier",
@@ -4227,8 +4230,13 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "collaborations": "Balzac participated in Nadar's <i>Le Livre d'Or (1839)",
-      "portraits": "Nadar's drawing of Balzac, 1850"
+      "collaborations": "Balzac participated in Nadar's <i>Le Livre d'Or</i> (1839)",
+      "portraits":[
+        {
+          "url": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nadar_Balzac.jpg",
+          "caption": "Portrait of Balzac by Nadar, drawing (caricature), 1850, [BnF](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Dessin_de_Nadar_1850.jpg)"
+        }
+      ]
     },
     {
       "from": "Nadar",
@@ -4343,6 +4351,13 @@
       "connection_level": "direct",
       "relationship type": "acquaintances", 
       "they shared": "artists and writers like Balzac, Rossini and Nerval participated in the meetings at the Aguado residence in Paris"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Louis Boulanger",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "portraits": "portrait of Balzac by Louis Boulanger, 1836, oil painting, [Louvre-Tours](https://commons.wikimedia.org/wiki/File:Balzac_(par_Boulanger).jpg)"
     },
     {
       "from": "Valentín Carderera",
@@ -5240,8 +5255,15 @@
       "from": "Achille Devéria",
       "to": "Honoré de Balzac",
       "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "portraits of Balzac by Achille Devéria (attributed):  c.1825, wash drawing, [Maison de Balzac](https://www.parismuseescollections.paris.fr/fr/maison-de-balzac/oeuvres/portrait-de-balzac-17#infos-principales) BAL 780; c.1829, [drawing](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Achille_Dev%C3%A9ria_-_Portrait_de_Balzac.jpg)"
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct?",
       "relationship type": "acquaintances?",
-      "portraits": "Devéria portrayed Balzac in 1825 (attributed)"
+      "portraits": "Daumier made an illustration of Balzac's character [Le père Goriot](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Father_Goriot_by_H._Daumier_(1842).JPG) (1842)"
     },
     {
       "from": "Achille Devéria",
@@ -5562,7 +5584,7 @@
       "to": "Honoré de Balzac",
       "relationship type": "friends", 
       "know each other since": "at least 1835",
-      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840); Balzac suggests Gautier collaborate in <i>La Chronique de Paris</i>; Gautier is the author of one of the 1st biographies of Balzac",
+      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840); Balzac suggests Gautier collaborates in <i>La Chronique de Paris</i>; Gautier is the author of one of the 1st biographies of Balzac",
       "mentions": "Gautier: 'Je travaille à <i>La Chronique de Paris</i> qui est maintenant dirigée par Balzac qui est un bon gros porc très plein d’esprit et très agréable à vivre' (letter of Gautier to  E. de Nully, 1836)",
       "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee. [Wikipedia](https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)"
     },
@@ -5631,7 +5653,12 @@
       "from": "Honoré de Balzac",
       "to": "George Sand",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "know each other since": "1831",
+      "collaborations": [
+        "Sand inspired Balzac for his character Félicité des Touches in <i>Béatrix</i> (1839).",
+        "Balzac's dedicates to her <i>Mémoires de deux jeunes mariées</i> (1841)."
+      ]
     },
     {
       "from": "Honoré de Balzac",
@@ -6512,7 +6539,7 @@
       "to": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840)"
+      "collaborations": "they both collaborated in Balzac's <i>La Chronique de Paris</i> (c.1836), and in <i>Les Français peints par eux-mêmes</i> (1840)"
     },
     {
       "from": "Antoine-Jean Gros",
@@ -6564,7 +6591,26 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "colleagues; acquaintances",
-      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840); Balzac collaborated in <i>Scènes de la vie privée et publique des animaux</i> (1842), alongside George Sand and Charles Nodier."
+      "collaborations": [
+        "Grandville made illustrations for Balzac's <i>La Chronique de Paris</i> (c.1836).",
+        "They both collaborated in <i>Les Français peints par eux-mêmes</i> (1840).",
+        "Balzac collaborated in <i>Scènes de la vie privée et publique des animaux</i> (1842), alongside George Sand and Charles Nodier."
+      ],
+      "portraits": "Caricature of Balzac by Grandville in the <i>Grande course au clocher académique</i> [1839](https://commons.wikimedia.org/wiki/File:Honor%C3%A9_de_Balzac_caricatur%C3%A9_par_Grandville_-_Grande_course_au_clocher_acad%C3%A9mique_(d%C3%A9tail).jpg)"
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "Théophile Gautier",
+      "connection_level": "direct?",
+      "relationship type": "colleagues?; acquaintances?",
+      "collaborations": "they both participated in Balzac's <i>La Chronique de Paris</i> (1836)."
+    },
+    {
+      "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "to": "Victor Hugo",
+      "connection_level": "direct?",
+      "relationship type": "colleagues?; acquaintances?",
+      "collaborations": "they both participated in Balzac's <i>La Chronique de Paris</i> (1836)."
     },
     {
       "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
