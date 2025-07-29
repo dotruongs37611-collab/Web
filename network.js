@@ -674,7 +674,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               htmlText = `<ul>${processedItems.join("")}</ul>`;
             } else {
               htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
-            }Lo 
+            }
 
             // Debugging: Check the processed HTML
             console.log("Processed HTML:", htmlText);
