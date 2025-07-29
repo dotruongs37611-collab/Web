@@ -4145,7 +4145,7 @@
       "from": "Count of Floridablanca",
       "to": "Francisco de Goya",
       "connection_level": "direct",
-      "relationship type": "patronage; model-sitter",
+      "relationship type": "patronage; portraitist-sitter",
       "know each other since": "by 1783",
       "portraits": "1783, Prado (P003255)"
     },
@@ -4159,7 +4159,7 @@
       "from": "Gaspar Melchor de Jovellanos",
       "to": "Francisco de Goya",
       "connection_level": "direct",
-      "relationship type": "patronage; model-sitter",
+      "relationship type": "patronage; portraitist-sitter",
       "know each other since": "at least 1798",
       "portraits": "1798, Prado"
     },
@@ -4185,7 +4185,7 @@
       "from": "Francisco Cabarrús",
       "to": "Francisco de Goya",
       "connection_level": "direct",
-      "relationship type": "patronage; model-sitter",
+      "relationship type": "patronage; portraitist-sitter",
       "know each other since": "at least 1788",
       "portraits": "1788, Banco de España"
     },
@@ -4199,7 +4199,7 @@
       "from": "XI Count of Altamira",
       "to": "Francisco de Goya",
       "connection_level": "direct",
-      "relationship type": "patronage; model-sitter",
+      "relationship type": "patronage; portraitist-sitter",
       "know each other since": "at least 1787",
       "portraits": "1787, Banco de España"
     },
@@ -6152,7 +6152,7 @@
     {
       "from": "Carlos IV",
       "to": "Isabel II",
-      "connection_level": "direct",
+      "connection_level": "secondary",
       "relationship type": "relatives; grandfather-granddaughter"
     },
     {
@@ -6407,7 +6407,7 @@
       "from": "Juliette Récamier",
       "to": "Jacques-Louis David",
       "connection_level": "direct",
-      "relationship type": "model/sitter",
+      "relationship type": "patronage; portraitist-sitter",
       "know each other since": "at least 1800",
       "portraits": "1800, Louvre"
     },
