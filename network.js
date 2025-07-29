@@ -668,8 +668,18 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         if (edge.portraits && edge.portraits.length > 0) {
           html += `<h3>Related artworks or portraits</h3>`;
-          edge.portraits.forEach(url => {
-            html += `<img src="${url}" alt="Related portrait" style="max-width:100%; margin-bottom: 10px;">`;
+          edge.portraits.forEach(entry => {
+            const url = typeof entry === "string" ? entry : entry.url;
+            const caption = typeof entry === "object" && entry.caption ? entry.caption : "";
+
+            if (url) {
+              html += `<div style="margin-bottom: 15px;">`;
+              html += `<img src="${url}" alt="Related portrait" style="max-width:100%; display: block; margin-bottom: 5px;">`;
+              if (caption) {
+                html += `<div style="font-size: 0.85rem; color: #888; font-style: italic;">${caption}</div>`;
+              }
+              html += `</div>`;
+            }
           });
         }
 
