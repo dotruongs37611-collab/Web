@@ -1030,7 +1030,7 @@
       "in Spain": "In 1811 (at 9 years old)",
       "address": "90 rue Vaugirard (later no.88); 11 rue Notre-Dame-des-Champs (later no.27), very close to Achille Devéria",
       "influenced by": "Chateaubriand",
-      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with Dumas, George Sand, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42; Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875; Nadar, photograph, c.1884",
+      "portrayed by": "Jean Alaux (1825; Maison Victor Hugo 253); Achille Devéria, lithograph (1829); Charles Hugo, photograph (c.1853-55); Étienne Carjat, photograph, 1875; Nadar, photograph, c.1884",
       "studies in": "Real Colegio de San Antonio de Abad (Madrid); Lycée Louis le Grand (Paris)",
       "editor of": "<i>Le Conservateur littéraire</i> (1819)",
       "married to": "Adèle Foucher (1822)",
@@ -1140,7 +1140,7 @@
         "1849-V-3 ‘On dirait une de ces gravures de Goya, où, dans la demi-teinte, des arracheurs de dents font la chasse aux pendus’ (‘Feuilleton: Les mille et un fantomes’, <i>Le Constitutionnel</i>, p.1) [digitised in Gallica] (see Fayos Pérez 2024)."
         ],
       "in Spain": "October 1846 to January 1847, accompanied by his son Alexandre and his collaborator Auguste Maquet. In the same trip he goes to Algeria",
-      "portrayed by": "Joseph Guichard, 1828 (Louvre); Achille Devéria, c.1829; Achille Devéria, c.1832 (lithography published by Charles Motte); Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with George Sand, Hugo, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42; Cham, 1846 (caricature); Gouin, 1852 (photograph); Nadar, 1855 (photograph); William Henry Powell, 1855 (oil); Gustave Le Gray, c.1859 (photograph); Cham, 1860 (caricature); André Gill, 2 Dec 1866 (caricature); Alphonse Liébert, 1867 (photograph).",
+      "portrayed by": "Joseph Guichard, 1828 (Louvre); Achille Devéria, c.1829; Achille Devéria, c.1832 (lithography published by Charles Motte); Cham, 1846 (caricature); Gouin, 1852 (photograph); Nadar, 1855 (photograph); William Henry Powell, 1855 (oil); Gustave Le Gray, c.1859 (photograph); Cham, 1860 (caricature); André Gill, 2 Dec 1866 (caricature); Alphonse Liébert, 1867 (photograph).",
       "parents": "Marie-Louise Labouret and Thomas Alexandre Davy de La Pailleterie",
       "children": "Alexandre Dumas fils; Henry Bauër",
       "curiosities": "despite having all the merits for it, Dumas père was never accepted as a member of the Académie française, most likely due to racism. Only his son Alexandre Dumas (fils) was accepted in 1874",
@@ -1355,8 +1355,6 @@
       "life dates": "1804-1876", 
       "nationality": "French",
       "profession": "writer, novelist, journalist, salonnière, art critic, playwright, libretist, composer", 
-      "salon": "in Nohant",
-      "works in": "<i>Revue des Deux Mondes</i>, <i>La Revue indépendante</i>, <i>Revue de Paris</i>, <i>Le Figaro</i>, <i>La Mode</i>, <i>Le Temps</i>",
       "in Spain": "1808-1809 her family lived in Spain at the palace of Manuel Godoy when this one was exiled in Paris",
       "knows Goya's works": "by 1834",
       "mentions of Goya": "Journal intime, 25 Nov 1834 (jealousy over Goya's women regarding Alfred de Musset)",
@@ -1368,9 +1366,8 @@
       "partners/lovers": "Prosper Mérimée; Jules Sandeau; Alfred de Musset (1833-35); Félicien Mallefille; Hortense Allart?; Marie Dorval?; Frédéric Chopin; Victor Borie (1848-49); Alexandre Manceau (1849-64)",
       "children": "Maurice Sand; Solange Sand",
       "pseudonyms": "George Sand; Amandine; Amantine",
-      "portrayed by": "Marie-Aurore de Saxe (her grandmother), pastel drawing, 1810, Musée de la vie romantique; François-Auguste Biard, <i>Portrait de Goerge Sand et de son époux, le baron François Casimir Dudevant</i>, c.1823, oil on canvas, Musée George Sand; Thomas Sully, oil on canvas?, 1826, Johnson Collection, Spartanburg, South Caroline; self-portrait, c.1830, Musée Carnavalet; Alfred de Musset, 1833, drawings, Bibliotèque de l'Institut de France (MsE956-fol.4, fol.7, fol.14, fol.16, fol.17, fol.20); Delacroix, 1834, oil on panel, Musée Delacroix; Jean-Baptiste Isabey, c.1835; Charles Louis Gratia, pastel drawing, c.1835, private collection; François Théodore Rochard, c.1835; Auguste Charpentier, oil painting, 1838, Musée de la Vie romantique; Delacroix, oil sketch, 1838, Copenhague; Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with Dumas, Hugo, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42; Thomas Couture, 1850, drawing; Nadar, photograph, c.1864, [Getty](https://www.getty.edu/art/collection/object/1098NS)",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg",
-      "image source": "Charpentier portrait 1838"
+      "portraits": "Eugène Delacroix, 1838; Auguste Charpentier, 1838",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/George_Sand.jpg"
     },
     {
       "id": "Alfred de Musset",
@@ -4212,19 +4209,6 @@
     },
     {
       "from": "Nadar",
-      "to": "George Sand",
-      "connection_level": "direct",
-      "relationship type": "acquaintances", 
-      "portraits": [
-        {
-          "title": "Portrait of George Sand by Nadar, photograph, c.1864", 
-          "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sebastian_Martinez.jpg",
-          "source": "[Getty](https://www.getty.edu/art/collection/object/1098NS) 2005.96"
-        }
-      ]
-    },
-    {
-      "from": "Nadar",
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
@@ -5375,7 +5359,6 @@
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "portraits": "Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with George Sand, Dumas, Hugo, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42;",
       "curiosities": "Hugo was the one to introduce Chopin to George Sand"
     },
     {
@@ -5454,10 +5437,7 @@
       "know each other since": "1829",
       "they share": "Dumas goes into exile to Brussels with Hugo (December 1851), threatened with bankruptcy and as a protest against Napoleon III's coup",
       "they meet": "Dumas visits Hugo in Guernesey, 1857",
-      "portraits": [
-        "Drawing by Frédéric Lix (c.1893), Hugo about to go into exile in 1852, saying farewell to Dumas and other friends and followers",
-        "Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with George Sand, Dumas, Hugo, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42"
-        ],
+      "portraits": "drawing by Frédéric Lix (c.1893), Hugo about to go into exile in 1852, saying farewell to Dumas and other friends and followers",
       "bibliography": "Schopp 2015"
     },
     {
@@ -5844,8 +5824,7 @@
       "from": "George Sand",
       "to": "Alfred de Musset",
       "connection_level": "direct",
-      "relationship type": "lovers (1833-1835)",
-      "portraits": "Bibliothèque de l'Institut de France"
+      "relationship type": "lovers (1833-1835)"
     },
     {
       "from": "George Sand",
@@ -5864,13 +5843,6 @@
       "to": "Prosper Mérimée",
       "connection_level": "direct",
       "relationship type": "lovers"
-    },
-    {
-      "from": "George Sand",
-      "to": "Alexandre Dumas père",
-      "connection_level": "direct",
-      "relationship type": "acquaintances",
-      "portraits": "Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with George Sand, Dumas, Hugo, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42"
     },
     {
       "from": "Philippe Burty",

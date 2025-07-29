@@ -4,9 +4,6 @@ function autoLinkNames(text, nodesMap) {
   // Sustituye saltos de línea invisibles por espacio
   text = text.replace(/\r?\n|\r/g, " ");
 
-  // Añade esto al inicio de tu archivo network.js:
-  const nodes = new vis.DataSet(data.nodes);
-
   // Divide el texto en partes: enlaces HTML intactos y el resto
   const splitParts = text.split(/(<a [^>]+>.*?<\/a>)/g);
 
@@ -29,14 +26,8 @@ function autoLinkNames(text, nodesMap) {
 }
 
 function processMarkdownLinks(text) {
-  // Añade esta verificación al inicio de la función
-  if (typeof text !== 'string') {
-    if (Array.isArray(text)) {
-      return text.map(item => typeof item === 'string' ? processMarkdownLinks(item) : item);
-    }
-    return text; // Devuelve el valor original si no es string ni array
-  }
-
+  if (!text) return text;
+  
   // Preserve italics
   text = text.replace(/<i>/g, '%%%ITALIC_OPEN%%%').replace(/<\/i>/g, '%%%ITALIC_CLOSE%%%');
   
@@ -193,37 +184,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         width: 1.5
       };
     }));
-
-    // Opciones de visualización PARA MOSTRAR IMÁGENES
-    const options = {
-      edges: {
-        smooth: false,
-        arrows: { to: { enabled: false } },
-        color: { inherit: false },
-        // --- NUEVO: IMÁGENES EN EDGES ---
-        image: {
-          unselected: (edge) => {
-            if (!edge.portraits?.[0]) return undefined;
-            return typeof edge.portraits[0] === 'string' 
-              ? edge.portraits[0] 
-              : edge.portraits[0].image;
-          },
-          selected: (edge) => {
-            if (!edge.portraits?.[0]) return undefined;
-            return typeof edge.portraits[0] === 'string' 
-              ? edge.portraits[0] 
-              : edge.portraits[0].image;
-          },
-          size: 25,
-          position: 'bottom'
-        },
-        // --------------------------------
-        font: { align: 'top' }
-      },
-      nodes: { 
-        /* ... (tus opciones existentes de nodes) ... */ 
-      }
-    };
 
     const today = new Date();
     const day = today.getDate();
