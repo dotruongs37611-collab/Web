@@ -672,8 +672,8 @@ document.addEventListener('DOMContentLoaded', async function () {
                   const url = item.url ? item.url : "";
                   return `
                     <div style="margin-bottom: 1rem;">
-                      ${caption ? `<div style="font-size: 1rem; color: #ccc; font-style: italic; margin-bottom: 0.3rem;">${caption}</div>` : ""}
                       ${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; display:block;">` : ""}
+                      ${caption ? `<span style="margin-left: 0.5rem;">${caption}</span>` : ""}
                     </div>
                   `;
                 } else {
