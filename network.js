@@ -663,21 +663,16 @@ document.addEventListener('DOMContentLoaded', async function () {
         
             if (Array.isArray(value)) {
               const processedItems = value.map(item => {
-                if (typeof item === "string") {
-                  return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
-                } else if (typeof item === "object") {
+                if (typeof item === "object") {
                   const caption = item.caption
                     ? autoLinkNames(processMarkdownLinks(item.caption), nodesMap)
                     : "";
                   const url = item.url ? item.url : "";
-                  return `
-                    <div style="margin-bottom: 1rem;">
-                      ${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; display:block;">` : ""}
-                      ${caption ? `<span style="margin-left: 0.5rem;">${caption}</span>` : ""}
-                    </div>
-                  `;
+
+                  return `${caption}${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; margin-left: 0.5rem; vertical-align: middle;">` : ""}`;
+
                 } else {
-                  return `<li>${item}</li>`; // fallback por si acaso
+                  return autoLinkNames(processMarkdownLinks(item), nodesMap);
                 }
               });
 
