@@ -537,7 +537,8 @@ document.addEventListener('DOMContentLoaded', async function () {
                 return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
               }
             });
-            htmlText = `<ul>${processedItems.join("")}</ul>`;
+            htmlText = `${processedItems.join("")}`; // sin <ul> ni <li>
+
           } else {
             if (typeof value === 'string' && (value.includes('<img') || value.includes('<div'))) {
               htmlText = value; // Ya es HTML
@@ -670,16 +671,17 @@ document.addEventListener('DOMContentLoaded', async function () {
                     : "";
                   const url = item.url ? item.url : "";
                   return `
-                    <li>
-                      ${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; margin-top: 0.5rem;">` : ""}
-                      ${caption ? `<div style="font-size: 1rem; color: #ccc; font-style: italic;">${caption}</div>` : ""}
-                    </li>`;
+                    <div style="margin-bottom: 1rem;">
+                      ${caption ? `<div style="font-size: 1rem; color: #ccc; font-style: italic; margin-bottom: 0.3rem;">${caption}</div>` : ""}
+                      ${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; display:block;">` : ""}
+                    </div>
+                  `;
                 } else {
                   return `<li>${item}</li>`; // fallback por si acaso
                 }
               });
 
-              htmlText = `<ul>${processedItems.join("")}</ul>`;
+              htmlText = processedItems.join("");
             } else {
               htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
             }
