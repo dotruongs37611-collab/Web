@@ -532,7 +532,9 @@
         "Photography: André Barret, <i>Nadar. 50 photographies de ses illustres contemporains</i>, éd. Julliard, 1994; Barret, <i>Nadar</i>"
         ],
       "member of": "Société d'encouragement de la locomotion aérienne au moyen du plus lourd que l'air",
-      "bibliography": "Nadar, <i>Correspondance, 1820-1851</i>, tome 1, ed. André Rouillé, 1998.",
+      "mentions of Goya": "in the <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849)'(…) je me trouvai tout d’un coup installé à une table de marbre, en face d’un monsieur barbu qui ressemblait à un ermite décroché d’un cadre de Goya. Il fumait gravement dans une énorme pipe en bois sculpté, dont le fourneau représentait à s’y méprendre la tête de M. Dupin' (p.73)",
+      "link to Goya's work": "in the <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849), Nadar made several Goyaesque illustrations, such as those in pp.74-75 [archive.org](https://archive.org/details/revuecomiquelu00pari/page/74/), 83, 104, 105, 117.",
+      "bibliography": "Nadar, <i>Correspondance, 1820-1851</i>, tome 1, ed. André Rouillé, 1998; <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849)",
       "archives": "Bibliothèque historique de la ville de Paris and Musée Carnavalet (related to aerial photography)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nadar.jpg",
       "image source": "Self-portrait c.1900"
@@ -2702,17 +2704,39 @@
     },
     {
       "id": "Honoré Daumier",
+      "full name": "Honoré Victorin Daumier",
       "label": "Daumier",
       "life dates": "1808-1879", 
       "nationality": "French",
-      "profession": "lithographer, caricaturist, painter, sculptor",
-      "author of": "4,000 lithographs, 1,000 woodcuts",
-      "masters": "Alexandre Lenoir",
-      "works in": "<i>Le Charivari</i>, <i>La Silhouette</i>, <i>La Caricature</i>",
+      "born in": "Marseille",
+      "address": "Île de Saint-Louis (1846-1863); Montmartre (from 1863)",
+      "friends": "Baudelaire, Corot, Courbet, Delacroix",
+      "profession": "lithographer, printmaker, caricaturist, painter, sculptor, draughtsman",
+      "participates in": "the Salon: first time in 1849 (<i>The Miller, his Son and the Ass</i>)",
+      "author of": "4,000 lithographs, 1,000 woodcuts, 1,000 drawings, 500 paintings and 100 sculptures. From 1850 and then in c.1867 he portrayed the recurring theme of Don Quixote (Don Quijote).",
+      "masters": "Alexandre Lenoir (from 1822)",
+      "influenced by": "Nicolas-Toussaint Charlet; Francisco de Goya",
+      "works in": "<i>La Silhouette</i> (from 1829, for Charles Philipon), <i>La Caricature</i> (from 1830), <i>Le Charivari</i> (from 1832)",
       "patrons": "Adolphe Beugniet, Paul Durand-Ruel",
-      "curiosities": "he was detained in the prison of Sainte-Pélagie (Paris) for the caricature 'Gargantua' (1831).",
+      "parents": "Jean-Baptiste Louis Daumier and Cécile-Catherine Philip",
+      "married to": "Alexandrine Dassy",
+      "studies in": "Académie Suisse (from 1823)",
+      "political views": "strongly anti-monarchist and anticlerical",
+      "curiosities": [
+        "In 1832 he was detained in the prison of Sainte-Pélagie (Paris) for the caricature 'Gargantua' (1831).",
+        "The Second Empire and the Third Republic intended to award him the Légion d'Honneur, but he declined as it was inconsistent with his political ideals and oeuvre."
+      ],
       "pseudonyms": "Rogelin",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg"
+      "link to Goya's work": [
+        "Daumier's pl.9 from <i>Imagination</i>, 'Headache', 1833, is probably inspired by Cruikshank0s <i>The head Ache</i> (1819), but also resembles Goya's <i>Capricho</i> 43, 'El sueño de la razón produce monstruos' (Fayos Pérez 2024, p. 133)",
+        "Daumier's 'Que de fois... n'a-t-il pas arraché... Un perroquet humain' in <i>Némésis médicale illustrée</i> (vol.1, 1840), might have been inspired by Goya's <i>Capricho</i> 53, 'Qué pico de oro!'",
+        "Many anticlerical prints by Daumier might remind of Goya's. Examples are the depiction of Jesuits in <i>Basile a peur</i> (1872) and <i>En Espagne, charité chrétienne</i> (1872), which might remind of Goya's <i>A Scene from 'The Forcibly Bewitched'</i> (1798, NG), or the Inquisition scene in <i>Auto-da-fé au XIXe siècle</i> (1851) (Fayos Pérez 2024, pp.231-36)."
+      ],
+      "portrayed by": "Victor Laisné, photograph, c.1850; Nadar, photograph, 1856-58 (BnF); self-portrait, bronze scultpure (Chicago); Albert-Ernest Carrier-Belleuse, bust, 1862 (Versailles)",
+      "bibliography": "Fayos-Pérez 2024; Le Men 2008; Delteil 1904 [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k63555863)",
+      "websites": "[Daumier.org](https://www.daumier.org/); [Wikipedia](https://fr.wikipedia.org/wiki/Honor%C3%A9_Daumier)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Daumier.jpg",
+      "image source": "Nadar portrait"
     },
     {
       "id": "J. J. Grandville (Jean Ignace Isidore Gérard)",
@@ -4271,6 +4295,29 @@
     },
     {
       "from": "Nadar",
+      "to": "Francisco de Goya",
+      "connection_level": "secondary",
+      "relationship type": "Nadar most likely knew Goya's work", 
+      "link to Goya's work": "in <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849), Nadar mentioned Goya and also made several Goyaesque illustrations, such as those in pp.74-75 [archive.org](https://archive.org/details/revuecomiquelu00pari/page/74/), 83, 104, 105, 117 (see Nadar's node)",
+      "bibliography": "i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849)"
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "collaborations": "Baudelaire wrote about Daumier: 'l'un des hommes les plus importants, je ne dirai pas seulement de la caricature, mais encore de l'art moderne'.",
+      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Honor%C3%A9_Daumier)"
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "Achille Devéria",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; colleagues", 
+      "collaborations": "they both worked at <i>La Caricature</i>"
+    },
+    {
+      "from": "Nadar",
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "acquaintances",
@@ -5261,9 +5308,18 @@
     {
       "from": "Honoré Daumier",
       "to": "Honoré de Balzac",
-      "connection_level": "direct?",
-      "relationship type": "acquaintances?",
-      "portraits": "Daumier made an illustration of Balzac's character [Le père Goriot](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Father_Goriot_by_H._Daumier_(1842).JPG) (1842)"
+      "connection_level": "direct",
+      "relationship type": "colleagues; friends",
+      "collaborations": "Daumier made illustrations for Balzac's <i>La Comédie humaine</i>, including for <i>Le Père Goriot</i> (1834-35) and <i>Ferragus</i> (1833-34). See the 1842 drawing [<i>Le père Goriot</i>](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac#/media/Fichier:Father_Goriot_by_H._Daumier_(1842).JPG) (1842)",
+      "mentions": "Balzac allegedly said of Daumier's lithographs 'Why, this fellow's got Michelangelo in his blood!' (Melot 1984, pp.156-157)",
+      "bibliography": "Melot 1984",
+      "websistes": "[Wikipedia](https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier)"
+    },
+    {
+      "from": "Honoré Daumier",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
     },
     {
       "from": "Achille Devéria",
@@ -6539,7 +6595,10 @@
       "to": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "collaborations": "they both collaborated in Balzac's <i>La Chronique de Paris</i> (c.1836), and in <i>Les Français peints par eux-mêmes</i> (1840)"
+      "collaborations": [
+        "They both worked at <i>La Caricature</i>.",
+        "They both collaborated in Balzac's <i>La Chronique de Paris</i> (c.1836), and in <i>Les Français peints par eux-mêmes</i> (1840)"
+      ]
     },
     {
       "from": "Antoine-Jean Gros",
@@ -6630,7 +6689,9 @@
       "from": "Honoré Daumier",
       "to": "Francisco de Goya",
       "connection_level": "secondary",
-      "relationship type": "influenced by Goya" 
+      "relationship type": "influenced by Goya (see Daumier's node)",
+      "mentions": "Champfleury (1865) compared both artists, stating they shared the 'same interior flame, same political ardour, same improvisation', both passionately fighting against tradition, 'devouring all (its) rules'. Champfleury even found certain 'physiognomic analogies' in the way they depicted the upper lip, 'bourgeois on first sight' and typical of satirists, as in Goya's self-portrait in the <i>Caprichos</i> (Champfleury 1885, p.57; Fayos Pérez 2024, p.133).",
+      "bibliography": "Fayos Pérez 2024; Champfleury 1885"
     },
     {
       "from": "Victor Hugo",
