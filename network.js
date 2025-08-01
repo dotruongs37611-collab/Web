@@ -432,8 +432,9 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "born in", label: "Born in" },
           { type: "field", key: "considered as", label: "Considered as" },
           { type: "field", key: "political views", label: "Political views" },
-          { type: "field", key: "curiosities", label: "Curiosities" },
+          { type: "field", key: "military activity", label: "Military activity" },
           { type: "field", key: "aristocratic titles", label: "Aristocratic titles" },
+          { type: "field", key: "curiosities", label: "Curiosities" },
         
           { type: "section", label: "Family and Personal Relationships" },
           { type: "field", key: "parents", label: "Parents" },
