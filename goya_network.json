@@ -1898,15 +1898,21 @@
       "married to": "Suzanne Manet (1863-1883)",
       "children": "Léon Koelin-Leenhoff",
       "collector of Goya's works": "<i>La tauromaquia</i> (Cachin, Moffett & Wilson-Bareau 1983, p.239)",
-      "author of": "<i>Le Buveur d'absinthe</i> (1859: rejected at the Salon; Copenhague, Ny Carlsberg Glyptotek); <i>Chanteur espagnol</i> (1860; Salon 1861; Metropolitan); <i>Portrait de M. et Mme Auguste Manet</i> (1860, Orsay); <i>Le Déjeuner su l'herbe</i> (1862); <i>Lola de Valence</i> (painting: 1862; Orsay); <i>Olympia</i> (1863); <i>Le Christ mort et les anges</i> (1864, Metropolitan); <i>L'Homme mort</i> (1864-65, Washington, National Gallery of Art): badly criticized by Théophile Thoré; <i>Combat de taureaux</i> (1865); <i>Le Joueur de fifre</i> (1866); <i>Le Matador saluant</i> (1866-67); <i>L'Exécution de Maximilien</i> (1867); <i>Eva Gonzalès</i> (1869-70, London NG)",
+      "author of": "<i>Le Buveur d'absinthe</i> (1859: rejected at the Salon; Copenhague, Ny Carlsberg Glyptotek); <i>Monsieur and Madame Auguste Manet</i> (painting, 1860); <i>Monsieur Manet (The Artist's Father)</i> (print, 1860); <i>Chanteur espagnol</i> (1860; Salon 1861; Metropolitan); <i>Portrait de M. et Mme Auguste Manet</i> (1860, Orsay); <i>Boy with a Sword</i> (1861); <i>Le Déjeuner su l'herbe</i> (1862); <i>Lola de Valence</i> (painting: 1862; Orsay); <i>Olympia</i> (1863); <i>The Dead Toreador/<i> (c.1864); <i>Le Christ mort et les anges</i> (1864, Metropolitan); <i>L'Homme mort</i> (1864-65, Washington, National Gallery of Art): badly criticized by Théophile Thoré; <i>Combat de taureaux</i> (1865); <i>Reading</i> (c.1866-73); <i>Le Joueur de fifre</i> (1866); <i>Le Matador saluant</i> (1866-67); <i>L'Exécution de Maximilien</i> (1867); <i>Émile Zola</i> (1868); <i>The Balcony</i> (1868-69); <i>Eva Gonzalès</i> (1869-70, London NG); <i>Music Lesson</i> (1870); <i>Repose</i> (c.1871); <i>Berthe Morisot with a Bouquet of Violets</i> (painting and print, 1872); <i>Boating</i> (1874); <i>The Artist (Marcellin Desboutin)</i> (1875); <i>Stéphane Mallarmé</i> (1876)",
       "influences": [
         "Francisco de Goya: as proposed by Juliet Wilson-Bareau, <i>El 3 de mayo de 1808 en Madrid</i> (<i>Los fusilamientos</i>) (1814) inspired Manet's <i>L'Exécution de Maximilien</i> (1867) (Wilson-Bareau 1992)",
         "Diego Velázquez: 'j'ai, dit-il essayé de faire un type de Paris en mettant dans l'exécution la naïveté du métier que j'ai trouvée chez Vélasquez' (Monneret 1987, p.478)",
+        "Italian painters such as Titian (copy after <i>The Madonna of the Rabbit</i>, c.1850-60), Filippino Lippi (copy after <i>Portrait of the Artist</i>, c.1857), Andrea del Sarto (copy after <i>Standing Man</i>, c.1853-57)",
         "Frans Hals"
         ],
+      "interest in Spanish art": [
+        "Great admirer of El Greco, Velázquez and Goya",
+        "After Velázquez: <i>Spanish Cavaliers</i> (1859, Lyon), [Met](https://www.metmuseum.org/art/collection/search/892130); <i>The Infanta Margarita</i> (1861-62) [Nationalmuseum Stockholm NMG 310/1924](https://www.metmuseum.org/art/collection/search/851751), whose copperplate is at the INHA (EM Manet 22).(Wolohojian & Dunn 2023, and Tinterow 2003).",
+        "Manet produced many paintings and prints with Spanish-related topics, such as <i>Lola de Valence</i> and <i>Le Chanteur espagnol</i> (with painting and print versions)."
+      ],
       "decorations/awards": "chevalier de la Légion d'honneur (1882)",
       "portrayed by": "Nadar, photographs, from c.1867 to c.1870-80 [Wikipedia](https://commons.wikimedia.org/wiki/Category:Photographs_of_%C3%89douard_Manet_by_Nadar); Carolus-Duran, 1876, Rhode Island School of Design Museum (oil painting)",
-      "bibliography": "Fayos-Pérez 2024; Tinterow 2003; Wilson-Bareau 1992; Monneret 1987; Cachin, Moffett & Wilson-Bareau 1983",
+      "bibliography": "Fayos-Pérez 2024; Wolohojian & Dunn 2023; Tinterow 2003; Wilson-Bareau 1992; Monneret 1987; Cachin, Moffett & Wilson-Bareau 1983",
       "websites": "[Salon des Beaux-arts](https://www.salondesbeauxarts.com/160-ans/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Manet.jpg",
       "image source": "Nadar photograph, 1870"
@@ -1941,7 +1947,7 @@
       ],
       "collector of": "Manet (3 artworks in 1884); Ingres; Delacroix (including drawings after Goya); Cézanne; Daumier (1,800 lithographs); Paul Gavarni; Corot; Sisley; Pissarro; Suzanne Valadon; Japanese printmakers (Kiyonaga, Sukenobu, Itamaro, Hokusai)",
       "interest in Spanish art": [
-        "He copies works by Goya and Velázquez.",
+        "He copies works by Goya and Velázquez, such as <i>The Infanta Margarita</i> (c.1861-62, etching, Met 1997.240). This painting by Velázquez was also copied by Manet, Renoir, Bracquemond and George Sand. See also <i>Memory of Velázquez</i> (c.1858, Neue Pinakothek Munich), [Met](https://www.metmuseum.org/art/collection/search/844730) (Wolohojian & Dunn 2023).",
         "He also collects works by El Greco.",
         "He produced the sculpture <i>La Danse espagnole</i> (1885-1921, Ackland Art Museum, North Carolina)."
       ],
@@ -1989,6 +1995,7 @@
         "Spanish: Velázquez: Renoir considered that in Velázquez's <i>Infanta Margarita</i> (1653, Louvre), her ribbons reconciled ‘all of painting’ (<i>tout l'art de la peinture est là</i>) (Tinterow 2003, p.457; quoted from García Felguera 1991, p.143)",
         "Italian: Raphael"
         ],
+      "interest in Spanish art": "Renoir considered that in Velázquez's <i>Infanta Margarita</i> (1653, Louvre), her ribbons reconciled ‘all of painting’ (<i>tout l'art de la peinture est là</i>) (Tinterow 2003, p.457; quoted from García Felguera 1991, p.143)",
       "address": "workshops: rue Notre-Dame-des-Champs; rue Saint-Georges (from 1873)",
       "in Spain": "1892 (with his friend Paul Gallimard)",
       "mentions of Goya": [
@@ -3927,37 +3934,42 @@
       "from": "Edgar Degas",
       "to": "Jean-Auguste-Dominique Ingres",
       "connection_level": "direct",
+      "relationship type": "Degas was influenced by Ingres.", 
       "know each other since": "1855",
       "they met": "in 1855, and Ingres told Degas: 'Draw lines, young man, and still more lines, both from life and from memory, and you will become a good artist' (Werner 1969, p.14)",
-      "relationship type": "Degas was influenced by Ingres.", 
-      "exchanges": "Degas showed his drawings to Ingres in 1855 (depicted in Paul Valéry's <i>Degas, Danse, Dessin</i>, published in 1936 by Ambroise Vollard)."
+      "exchanges": "Degas showed his drawings to Ingres in 1855 (depicted in Paul Valéry's <i>Degas, Danse, Dessin</i>, published in 1936 by Ambroise Vollard).",
+      "bibliography": "Werner 1969"
     },
     {
       "from": "Edgar Degas",
       "to": "Eugène Delacroix",
       "connection_level": "direct?",
       "relationship type": "Degas was influenced by Delacroix. He admired Delacroix's work at the 1859 Salon. He also made a trip to Tanger to follow his steps.",
-      "copies": "Degas made a copy after <i>Entrée des Croisés à Constantinople</i> (1840).",
-      "collection": "Degas had several works by Delacroix in his collection, including some drawings after Goya."
+      "copies": "Degas made a copy after <i>Entrée des Croisés à Constantinople</i> from 1840 (c.1860, Kunsthaus Zürich) [Met](https://www.metmuseum.org/art/collection/search/844793), and <i>Bark of Dante</i> (c.1859, Met 29.100.114) [Met](https://www.metmuseum.org/art/collection/search/436949).",
+      "collection": "Degas had several works by Delacroix in his collection, including some drawings after Goya (see Degas node)."
     },
     {
       "from": "Edgar Degas",
       "to": "Honoré Daumier",
-      "connection_level": "seconary?",
+      "connection_level": "direct?",
       "relationship type": "Degas gathered 1,800 lithographies by Daumier in his collection"
     },
     {
       "from": "Edgar Degas",
       "to": "Francisco de Goya",
       "connection_level": "seconary",
-      "relationship type": "Degas admired Goya and copied his works at the BnF"
+      "relationship type": "Degas admired Goya and copied his works at the BnF", 
+      "link to Goya's work": "the Degas collection included a Delacroix drawing after Goya (D21 and possibly D38 in Fayos Pérez 2024, pp.433 and 467)", 
+      "bibliography": "Fayos Pérez 2024; Dumas et al. 1997"
     },
     {
       "from": "Edgar Degas",
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "knew each other since": "1862, at the Louvre"
+      "knew each other since": "1864, at the Louvre", 
+      "they met": "Degas allegedly met Manet for the first time in 1864 when they were both copying Velázquez's <i>Infanta Margarita</i> at the Louvre (Gordon and Forge 1988, p.23)",
+      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Gordon and Forge 1988"
     },
     {
       "from": "Édouard Manet",
@@ -5213,7 +5225,7 @@
       "to": "Édouard Manet",
       "connection_level": "secondary",
       "relationship type": "Manet was a great admirer of Goya (as well as Velázquez)",
-      "influence of Goya": "<i>El 3 de mayo de 1808 en Madrid</i> (<i>Los fusilamientos</i>) (1814) inspired Manet's <i>L'Exécution de Maximilien</i> (1867) (Wilson-Bareau 1992). Manet produced many paintings and prints with Spanish-related topics, such as <i>Lola de Valence</i> and <i>Le Chanteur espagnol</i>",
+      "influence of Goya": "<i>El 3 de mayo de 1808 en Madrid</i> (<i>Los fusilamientos</i>) (1814) inspired Manet's <i>L'Exécution de Maximilien</i> (1867) (Wilson-Bareau 1992).",
       "bibliography": "Wilson-Bareau 1992"
     },
     {
