@@ -200,6 +200,7 @@
       "profession": "painter, engraver",
       "parents": "Giambattista Tiepolo and Maria Cecilia Guardi",
       "collector of Goya's works": "at the time of his death in Venice in 1804, he owned proofs of most of Goya's etchings executed bfore that date, including a set of the <i>Caprichos</i> (Harris 1964, vol.I, p.7)",
+      "link to Goya's work": "Goya's early prints such as <i>Saint Francis of Paola</i> (c.1776-78) were clearly influenced by G.D. Tiepolo's series of <i>Raccolta di Teste</i> (c.1757-70) (McDonald, 2012, p.236).",
       "sales": "Paris, 10-12 November 1845: Goya works lots 76-81, including a 1st-edition set of the <i>Caprichos</i>, <i>Blind guitarist on the horns of a bull</i> and plates after Velázquez (see Harris 1964, vol.I, p.13; Wilson Bareau 2016, p.38, note 22). The catalogue was distributed by the print dealer Pierre Defer, who was in contact with Carderera from 1841, with whom he 'talked about Goya' in 1855 (Lanzarote Guiral 2016, p.314)",
       "author of": [
         "Paintings: <i>The Minuet or Carnival Scene</i>, 1754-55, Louvre; <i>The Minuet</i>, 1756, MNAC; <i>The Tiepolo Family</i>, private collection (unfinished); <i>Patron Saints of thee Crotta Family</i>, 1750, Städel Museum; <i>Christ and the Woman Taken in Adultery</i>, 1752, LACMA; <i>The Charlatan (The Tooth-Puller)</i>, 1754-55, Louvre; <i>The Triumph of Pulcinella</i>, 1760-70, Statens Museum for Kunst (Copenhagen); <i>El mundo nuevo</i>, c.1765, Prado; <i>The Immaculate Conception with Saint Lawrence and Saint Francis of Padua</i>, 1770s, Strasbourg; <i>Pulcinella in love</i>, 1793, Ca' Rezzonico; <i>The swing of the polichinelles</i>, 1793, Ca' Rezzonico",
@@ -207,7 +208,7 @@
         ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/GD_Tiepolo.jpg",
       "portrayed by": "Giambattista Tiepolo-Giandomenico Tiepolo (self-portrait), <i>Apotheosis Of The Prince Bishop</i> fresco, Wurzburg, 1750-53",
-      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Wilson Bareau 2016; Harris 1964, vol.I", 
+      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; McDonald 2012; Wilson Bareau 2016; Harris 1964, vol.I", 
       "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/tiepolo-giandomenico/1c2f6bf5-ebe2-4cb8-b79e-d898b6941831)",
       "image source": "self-portrait, 1750-53, Wurzburg"
     },
