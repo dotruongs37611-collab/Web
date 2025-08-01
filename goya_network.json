@@ -2973,8 +2973,9 @@
       "to": "Giandomenico Tiepolo",
       "connection_level": "direct",
       "relationship type": "acquaintances; colleagues",
-      "exchanges": "Tiepolo acquired a set of the <i>Caprichos</i>, among other prints by Goya. His 1845 sale included several lots of Goya's works (see Giandomenico's node)",
-      "bibliography": "Harris 1964"
+      "exchanges": "Goya's early prints such as <i>Saint Francis of Paola</i> (c.1776-78) were clearly influenced by G.D. Tiepolo's series of <i>Raccolta di Teste</i> (c.1757-70) (McDonald, 2012, p.236).",
+      "collector of Goya's works": "Tiepolo acquired a set of the <i>Caprichos</i>, among other prints by Goya. His 1845 sale included several lots of Goya's works (see Giandomenico's node)",
+      "bibliography": "McDonald 2012; Harris 1964"
     },
     {
       "from": "Giambattista Tiepolo",
