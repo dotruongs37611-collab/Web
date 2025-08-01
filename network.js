@@ -476,6 +476,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "collection", label: "Collection" },
           { type: "field", key: "art collection", label: "Art collection" },
           { type: "field", key: "collector of", label: "Collector of" },
+          { type: "field", key: "exhibitions", label: "Exhibitions" },
           { type: "field", key: "sales", label: "Sales" },
 
           { type: "section", label: "Geographic Presence and Movement" },
