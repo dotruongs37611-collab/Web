@@ -501,6 +501,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "disseminates Goya's works", label: "Disseminates Goya's works" },
           { type: "field", key: "shows Goya", label: "Shows Goya" },
           { type: "field", key: "mentions the Prado commentaries", label: "Mentions the Prado commentaries" },
+          { type: "field", key: "interest in Spanish art", label: "Interest in Spanish art" },
+          { type: "field", key: "copies after Spanish artworks", label: "Copies after Spanish artworks" },
         
           { type: "section", label: "Sources and Documentation" },
           { type: "field", key: "archives", label: "Archives" },
@@ -638,6 +640,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "mentions the Prado commentaries", label: "Mentions the Prado commentaries" },
           { key: "shows Goya", label: "Shows Goya" },
           { key: "artworks influenced by Goya", label: "Artworks influenced by Goya" },
+          { key: "interest in Spanish art", label: "Interest in Spanish art" },
           { key: "artworks bought/sold/given", label: "Artworks bought/sold/given" },
           { key: "comparisons", label: "Comparisons" },
           { key: "criticism", label: "Criticism" },
