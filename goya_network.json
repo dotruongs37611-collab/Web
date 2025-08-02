@@ -2226,6 +2226,32 @@
       "image source": "Goya portrait, c.1798, Frick Collection"
     },
     {
+      "id": "Duchess of Abrantes",
+      "label": "Abrantes VIII",
+      "full name": "Manuela Isidra Téllez-Girón y Alonso de Pimentel",
+      "life dates": "1793-1838", 
+      "nationality": "Spanish",
+      "parents": "Pedro de Alcántara Téllez Girón y Pacheco (IX Duke of Osuna) and María Josefa de Borja Pimentel y Téllez-Girón (XII Countess-Duchess of Benavente and Duchess of Osuna)",
+      "married to": "Ángel María de Carvajal y Fernández de Córdoba y Gonzaga (1813), future Duke of Abrantes",
+      "portrayed by": "Francisco de Goya, <i>La duquesa de Abrantes</i>, 1816, Prado [P007713](https://www.museodelprado.es/coleccion/obra-de-arte/la-duquesa-de-abrantes/3c02bff5-aa5e-40b8-919c-45ec87a9074e)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Abrantes_VIII.jpg",
+      "image source": "Goya portrait, 1816, Prado"
+    },
+    {
+      "id": "Marchioness of Santa Cruz",
+      "label": "Santa Cruz X",
+      "full name": "Joaquina Téllez-Girón y Pimentel",
+      "life dates": "1784-1851", 
+      "nationality": "Spanish",
+      "parents": "Pedro de Alcántara Téllez Girón y Pacheco (IX Duke of Osuna) and María Josefa de Borja Pimentel y Téllez-Girón (XII Countess-Duchess of Benavente and Duchess of Osuna)",
+      "married to": "José Gabriel de Silva Bazán y Waldstein, X Marquis of Santa Cruz",
+      "member of": "Orden de Damas Nobles de la Reina María Luisa (1830)",
+      "works as": "<i>aya</i> of Queen Isabel II and infanta Luisa Fernanda",
+      "portrayed by": "Francisco de Goya, <i>Los duques de Osuna y sus hijos</i>, 1787-88 (when she was 3-4 years old), Prado [P000739](https://www.museodelprado.es/coleccion/obra-de-arte/los-duques-de-osuna-y-sus-hijos/09085b96-441d-40e3-9092-9230bbe1fa99?searchMeta=los%20duques%20de%20osuna), and <i>La marquesa de Santa Cruz</i>, 1805 (when she was 20 years old), Prado [P007070](https://www.museodelprado.es/coleccion/obra-de-arte/la-marquesa-de-santa-cruz/e1d2cbc6-8549-4ade-9383-2dde4ee6dfeb)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Santa_Cruz_X.jpg",
+      "image source": "Goya portrait, 1805, Prado"
+    },
+    {
       "id": "XII Countess-Duchess of Benavente and Duchess of Osuna",
       "label": "Benavente",
       "full name": "María Josefa de Borja Pimentel y Téllez-Girón",
@@ -6148,6 +6174,64 @@
       "to": "IX Duke of Osuna",
       "connection_level": "direct",
       "relationship type": "Spouses: husband-wife. Relatives: first cousins"
+    },
+    {
+      "from": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "to": "Marchioness of Santa Cruz",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "to": "Duchess of Abrantes",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "IX Duke of Osuna",
+      "to": "Duchess of Abrantes",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
+    },
+    {
+      "from": "IX Duke of Osuna",
+      "to": "Marchioness of Santa Cruz",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
+    },
+    {
+      "from": "Duchess of Abrantes",
+      "to": "Marchioness of Santa Cruz",
+      "connection_level": "direct",
+      "relationship type": "relatives; sisters"
+    },
+    {
+      "from": "Duchess of Abrantes",
+      "to": "X Duke of Osuna",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-sister"
+    },
+    {
+      "from": "Marchioness of Santa Cruz",
+      "to": "X Duke of Osuna",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-sister"
+    },
+    {
+      "from": "Marchioness of Santa Cruz",
+      "to": "Francisco de Goya",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "knew each other since": "at least 1786-87",
+      "portraits": "family portrait (1786-87, Prado), and individual portrait (1805, Prado)"
+    },
+    {
+      "from": "Marchioness of Santa Cruz",
+      "to": "Francisco de Goya",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "knew each other since": "at least 1816",
+      "portraits": "individual portrait (1816, Prado)"
     },
     {
       "from": "X Duke of Osuna",
