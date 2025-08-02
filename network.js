@@ -465,10 +465,10 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "mentions", label: "Mentions" },
           { type: "field", key: "mentioned in the French press", label: "Mentioned in the French press" },
           { type: "field", key: "decorations/awards", label: "Decorations/awards" },
-          { type: "field", key: "salon", label: "Salon" },
           { type: "field", key: "tertulia", label: "Tertulia" },
 
           { type: "section", label: "Artistic Activity, Art Collecting and Patronage" },
+          { type: "field", key: "salon", label: "Salon" },
           { type: "field", key: "author of", label: "Author of" },
           { type: "field", key: "patrons", label: "Patrons" },
           { type: "field", key: "patronage", label: "Patronage" },
