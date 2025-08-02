@@ -6203,6 +6203,12 @@
       "relationship type": "relatives; father-daughter"
     },
     {
+      "from": "Isabel II",
+      "to": "Marchioness of Santa Cruz",
+      "connection_level": "direct",
+      "relationship type": "Santa Cruz was the <i>aya</i> of Queen Isabel II and infanta Luisa Fernanda"
+    },
+    {
       "from": "Duchess of Abrantes",
       "to": "Marchioness of Santa Cruz",
       "connection_level": "direct",
