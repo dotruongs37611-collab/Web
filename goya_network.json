@@ -2226,12 +2226,32 @@
       "image source": "Goya portrait, c.1798, Frick Collection"
     },
     {
+      "id": "XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "label": "Benavente",
+      "full name": "María Josefa de Borja Pimentel y Téllez-Girón",
+      "life dates": "1752-1834", 
+      "nationality": "Spanish",
+      "profession": "salonnière; art patron",
+      "married to": "Pedro de Alcántara Téllez Girón y Pacheco, IX Duke of Osuna (by marriage)",
+      "aristocratic titles": [
+        "By inheritance: Princedom of Anglona, Princedom of Esquilache, Dukedom of Arcos, Béjar, Benavente (XII), Gandía, and others",
+        "By marriage: Duchess of Osuna, Marchioness of Peñafiel, Earldom of Fontanar and Ureña"
+        ],
+      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, Marchioness of Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, future Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, future Duchess of Abrantes (portrayed by Goya)",
+      "parents": "Francisco Alfonso-Pimentel y Borja and María Faustina Téllez-Girón y Pérez de Guzmán",
+      "member of": "Junta de Damas de Honor y Mérito (1787: President); Real Sociedad Económica Matritense (one of the first two women to be admitted)",
+      "portrayed by": "Goya, c.1785, Fundación Bartolomé March (Palma de Mallorca); Goya, 1788, family portrait, Prado",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Benavente.jpg",
+      "image source": "Goya portrait, c.1785, Fundación Bartolomé March"
+    },
+        {
       "id": "Duchess of Abrantes",
       "label": "Abrantes VIII",
       "full name": "Manuela Isidra Téllez-Girón y Alonso de Pimentel",
       "life dates": "1793-1838", 
       "nationality": "Spanish",
       "parents": "Pedro de Alcántara Téllez Girón y Pacheco (IX Duke of Osuna) and María Josefa de Borja Pimentel y Téllez-Girón (XII Countess-Duchess of Benavente and Duchess of Osuna)",
+      "siblings": "include Josefa Manuela Téllez-Girón, Marchioness of Marchini and of Camarasa; Joaquina Téllez-Girón y Pimentel, Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto",
       "married to": "Ángel María de Carvajal y Fernández de Córdoba y Gonzaga (1813), future Duke of Abrantes",
       "portrayed by": "Francisco de Goya, <i>La duquesa de Abrantes</i>, 1816, Prado [P007713](https://www.museodelprado.es/coleccion/obra-de-arte/la-duquesa-de-abrantes/3c02bff5-aa5e-40b8-919c-45ec87a9074e)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Abrantes_VIII.jpg",
@@ -2244,6 +2264,7 @@
       "life dates": "1784-1851", 
       "nationality": "Spanish",
       "parents": "Pedro de Alcántara Téllez Girón y Pacheco (IX Duke of Osuna) and María Josefa de Borja Pimentel y Téllez-Girón (XII Countess-Duchess of Benavente and Duchess of Osuna)",
+      "siblings": "include Josefa Manuela Téllez-Girón, Marchioness of Marchini and of Camarasa; Manuela Isidra Téllez-Girón y Alonso de Pimentel (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto",
       "married to": "José Gabriel de Silva Bazán y Waldstein, X Marquis of Santa Cruz",
       "member of": "Orden de Damas Nobles de la Reina María Luisa (1830)",
       "works as": "<i>aya</i> of Queen Isabel II and infanta Luisa Fernanda",
@@ -2252,31 +2273,13 @@
       "image source": "Goya portrait, 1805, Prado"
     },
     {
-      "id": "XII Countess-Duchess of Benavente and Duchess of Osuna",
-      "label": "Benavente",
-      "full name": "María Josefa de Borja Pimentel y Téllez-Girón",
-      "life dates": "1752-1834", 
-      "nationality": "Spanish",
-      "profession": "salonnière; art patron",
-      "married to": "Pedro de Alcántara Téllez Girón y Pacheco, IX Duke of Osuna (by marriage)",
-      "aristocratic titles": [
-        "By inheritance: Princedom of Anglona, Princedom of Esquilache, Dukedom of Arcos, Béjar, Benavente (XII), Gandía, and others",
-        "By marriage: Duchess of Osuna, Marchioness of Peñafiel, Earldom of Fontanar and Ureña"
-        ],
-      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, marquesa de Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, future Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, future Duchess of Abrantes (portrayed by Goya)",
-      "parents": "Francisco Alfonso-Pimentel y Borja and María Faustina Téllez-Girón y Pérez de Guzmán",
-      "member of": "Junta de Damas de Honor y Mérito (1787: President); Real Sociedad Económica Matritense (one of the first two women to be admitted)",
-      "portrayed by": "Goya, c.1785, Fundación Bartolomé March (Palma de Mallorca); Goya, 1788, family portrait, Prado",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Benavente.jpg",
-      "image source": "Goya portrait, c.1785, Fundación Bartolomé March"
-    },
-    {
       "id": "X Duke of Osuna",
       "label": "Osuna X",
       "full name": "Francisco de Borja Téllez-Girón y Pimentel",
       "life dates": "1785-1820", 
       "aristocratic titles": "X Duke of Osuna, XI Marquis of Peñafiel, II Duke of Monteagudo, XVII Marquis of Zahara, XVI Marquis of Lombay, XIV Count of Ureña, XXIII Count of Mayorga, XVIII Count of Belalcázar, VI Count of Fontanar",
       "parents": "Pedro de Alcántara Téllez-Girón y Pacheco, IX Duke of Osuna, and María Josefa Pimentel y Téllez-Girón, XII Countess-Duchess of Benavente and Duchess of Osuna",
+      "siblings": "include Josefa Manuela Téllez-Girón, Marchioness of Marchini and of Camarasa; Manuela Isidra Téllez-Girón y Alonso de Pimentel (portrayed by Goya); Joaquina Téllez-Girón y Pimentel, Marchioness of Santa Cruz (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto",
       "married to": "María Francisca Felipa Tomasa Leopolda de Beaufort y Toledo, Countess of Beaufort and of the Holy Roman Empire",
       "children": "Pedro de Alcántara María Tomás Téllez Girón y Beaufort (future XI Duke of Osuna); Mariano Francisco de Borja José Justo Téllez-Girón y Beaufort-Spontin, who succeeded his brother in 1844",
       "political views": "he was declared a traitor by Joseph Bonaparte, who confiscated his estates on 12 November 1808",
