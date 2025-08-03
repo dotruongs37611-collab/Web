@@ -2504,10 +2504,87 @@
       "founder of": "Sociedad Patriótica de Señoras de Fernando VII (Cádiz, 1811)",
       "decorations/awards": "Orden de las Damas Nobles de la Reina María Luisa (1830)",
       "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "siblings": "include María Gabriela de Palafox, Marchioness of Lazán; Eugenio Eulalio Palafox, VII Count of Montijo (Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
       "children": "9 children, including Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867) (future XIII Marquis of Villafranca), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)", 
       "married to": "Francisco de Borja Álvarez de Toledo, XII Marquis of Villafranca, Duke of Medina Sidonia, Grandee of Spain",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca.jpg",
       "image source": "Goya portrait 1804, Prado"
+    },
+    {
+      "id": "María Gabriela de Palafox, Marchioness of Lazán",
+      "label": "Lazán",
+      "full name": "María Gabriela de Palafox y Portocarrero",
+      "life dates": "1779-1823", 
+      "nationality": "Spanish",
+      "aristocratic titles": "marquesa de Lazán",
+      "political views": "she was prosecuted by the Inquisition, accused of being a Jansenist like her mother; imprisoned in 1821, and freed a few days later when proved her innocence",
+      "portrayed by": "Goya, c.1790, coll. Hidalgo de Rivas, Málaga (stolen); Goya, 1800-04, Palacio de Liria (Fundación Casa de Alba); José Alonso del Rivero, c.1805, gouache, Prado",
+      "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "siblings": "María Tomasa Palafox, Marchioness of Villafranca; Eugenio Eulalio Palafox, VII Count of Montijo (Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
+      "married to": "his cousin Luis Rebolledo de Palafox y Melzi, IV Marquis of Lazán (1797: at 14 years old)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lazan.jpg",
+      "image source": "Goya portrait 1800-04, Palacio de Liria"
+    },
+    {
+      "id": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "label": "Montijo VII",
+      "full name": "Eugenio Eulalio Palafox Portocarrero",
+      "life dates": "1773-1834", 
+      "nationality": "Spanish",
+      "profession": "military member",
+      "aristocratic titles": "XVII Count of Teba; VII Count of Montijo (from 1808)",
+      "portrayed by": "Goya, c.1804, Frick Collection",
+      "military activity": "After 1794, in Granada: Regimiento de Milicias Provinciales, teniente-coronel; Primera Divisón de Granaderos de Cádiz. 1808 in Madrid: general en jefe de las fuerzas de Aragón (he makes a call to Spanish civilians to end the French occupation in Zaragoza). In 1809 imprisoned in Badajoz, then escaped. 1811 brigadier; in charge of the Primera División del III Ejército (Murcia). 1812 Field Marshal. 1814 Captain-General. 1819 Capitán del reino y costa de Granada. 1820 Captain-General of Castilla la Vieja (when imprisoned by the Inquisition in Santiago).",
+      "rivals": "Godoy",
+      "member of": [
+        "Honorary academic of the Real Academia de la Lengua and Real Academia de Historia (1794)",
+        "Freemasonry: <i>Gran Maestre del Grande Oriente español</i>"
+      ],
+      "curiosities": "he participated in the <i>Motín de Aranjuez</i> (1808) agasint Manuel Godoy disguised as a farmer under the pseudonym 'Tío Pedro' (Uncle Peter).",
+      "political views": "against Absolutist Monarchy. After reading his <i>Discurso sobre la autoridad de los ricos hombres sobre el rey</i> (1794), Manuel Godoy exiled him to Toledo and then Granada. He blamed Godoy for the ruin of his family and the exile of his mother.",
+      "works for": "Ferdinand VII",
+      "author of": [
+        "<i>Discurso sobre la autoridad de los ricos hombres sobre el rey</i> (1794)",
+        "Translation of Voltaire's <i>Brute</i> (1805)",
+        "<i>Manifiesto de lo que no ha hecho el Conde del Montijo, escrito para desengaño ú confusión de los que de buena ó mala fé le dicen autor de sediciones que no ha hecho ni podido hacer</i> (1810)"
+      ],
+      "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "siblings": "María Tomasa Palafox, Marchioness of Villafranca; María Gabriela de Palafox, Marchioness of Lazán; Cipriano Palafox, VIII Count of Montijo",
+      "married to": "Ignacia Idiáquez; Magdalena Lázaro",
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Eugenio_Eulalio_Palafox_Portocarrero)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montijo_VII.jpg",
+      "image source": "Goya portrait c.1804, Frick"
+    },
+    {
+      "id": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "label": "Montijo VI",
+      "full name": "María Francisca de Sales Portocarrero de Guzmán y Zúñig",
+      "life dates": "1754-1808", 
+      "nationality": "Spanish",
+      "profession": "salonnière, socialite",
+      "salon": "<i>tertulia</i>",
+      "aristocratic titles": "VI condesa de Montijo y IX de Baños, dos veces grande de España; XI marquesa de Villanueva del Fresno, X de la Algaba, VII de Valderrábano, V de Castañeda y VI de Osera; XVI condesa de Teba, V de Fuentidueña, X de Casarrubios del Monte y VI de Ablitas; XVII vizcondesa de los Palacios de la Valduerna y VII de la Calzada.",
+      "political views": "reformist and enlightened (<i>ilustrada</i>); accused of Jansenism and therefore exiled",
+      "correspondence": "she had correspondence with writers from all over Europe (Franco Rubio 2011; Pérez Cantó & Mó Romero 2007)",
+      "founder of": "co-founder of the <i>Junta de Damas de Honor y Mérito</i> (1787), adscribed to the <i>Sociedad Económica Matritense de Amigos del País</i> (1775); co-founder of an <i>Asociación de Presas de la Galera</i>, to teach skills to female prisoners",
+      "member of": "<i>Comisión de Educación Moral</i> (founded in 1794)",
+      "curiosities": "when the Count of Floridablanca tried to impose a national dress for women to control the expenses of female fashion, it was her  to rejected the proposition (from the <i>Junta de Damas</i>), arguing that the only answer was education (Trueba 2003).",
+      "works as": "Director of the <i>Escuela Patriótica de San Andrés</i>, with 96 students; she reforms the <i>Inclusa</i> of Madrid (institution for abandoned babies), reducing the death rate from 80% to 46% in one year.",
+      "works for": "Queen María Luisa de Parma as <i>dama noble</i>",
+      "portrayed by": "Andrés de la Calleja (attributed), 1765, Dukes of Alba collection; anonymous, c.1785, private collection",
+      "parents": "Christophe de Portocarrero y Fernández de Córdova, VI Marquis of Valderrábano and Maria-Josepha López de Zúñiga y Téllez-Girón, XVI Viscountess of la Valduerna",
+      "children": "6 children, including Eugenio Eulalio Palafox Portocarrero (VII Count of Montijo; no heirs); María Ramona Palafox y Portocarrero (married to the VI Count of Parcent); María Gabriela Palafox y Portocarrero (married to his cousin the IV Marquis of Lazán; portrayed by Goya); María Tomasa Palafox, Marchioness of Villafranca (married to the XII Marquis of Villafranca); María Benita de los Dolores Palafox y Portocarrero (married to the XVI Marquis of Mondéjar); Cipriano Portocarrero (VIII Count of Montijo)", 
+      "married to": "Felipe de Palafox y Croy; Estanislao de Lugo y Molina",
+      "patronage": "she was a protector of the journal <i>El Censor</i>",
+      "freinds": "Marchioness of Fuerte Híjar, who was also a salonnière",
+      "bibliography": [
+        "Gloria Ángeles Franco Rubio, 'Una vida poco convencional en la España de las Luces: la Condesa de Montijo (1754-1808)', in J. Álvarez Barrientos & J. Herrera Navarro, <i>Para Emilio Palacios Fernández: 26 estudios sobre el siglo XVIII español</i>, 2011, pp.79-98.",
+        "Pilar Pérez Cantó & Esperanza Mó Romero, 'Las mujeres en los espacios ilustrados madrileños', <i>El Madrid de las mujeres. Aproximación a una presencia invisible</i>, 2007, pp.145-172.",
+        "Virginia Trueba, <i>Por mi alma os digo</i>, ed. Anna Caballé, 2003."
+      ],
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Mar%C3%ADa_Francisca_de_Sales_Portocarrero_(VI_condesa_de_Montijo)#cite_note-franco-1)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montijo_VI.jpg",
+      "image source": "anonymous portrait c.1785"
     },
     {
       "id": "Juan Madrazo",
@@ -6690,10 +6767,93 @@
       "portraits": "1804 [Prado P002448](https://www.museodelprado.es/coleccion/obra-de-arte/la-xii-marquesa-de-villafranca-pintando-a-su/1fff2174-3bfc-4d3e-b190-ff7cd09187d6)"
     },
     {
+      "from": "Francisco de Goya",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "commissions": "portrait",
+      "portraits": "c.1804, Frick Collection"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "rivals"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "María Gabriela de Palafox, Marchioness of Lazán",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; sisters"
+    },
+    {
+      "from": "María Tomasa Palafox, Marchioness of Villafranca",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-sister"
+    },
+    {
+      "from": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "María Gabriela de Palafox, Marchioness of Lazán",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-sister"
+    },
+    {
+      "from": "María Gabriela de Palafox, Marchioness of Lazán",
+      "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "María Gabriela de Palafox, Marchioness of Lazán",
+      "to": "Francisco de Goya",
+      "connection_level": "direct",
+      "relationship type": "patronage", 
+      "portraits":
+      [
+        {
+          "url": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goya_Lazan.jpg",
+          "caption": "c.1790, coll. Hidalgo de Rivas, Málaga (stolen); 1800-04, [Palacio de Liria](https://es.wikipedia.org/wiki/La_marquesa_de_Laz%C3%A1n#/media/Archivo:Marquesa_de_lazan_-Liria.jpg) (Fundación Casa de Alba) (image below)"
+        }
+      ]
+    },
+    {
+      "from": "María Gabriela de Palafox, Marchioness of Lazán",
+      "to": "Prosper Mérimée",
+      "connection_level": "secondary",
+      "relationship type": "Mérimée copied Goya's portrait of the Marchioness of Lazán",
+      "mentions": "1847-X-22 letter from Mérimée to Eugenia de Montijo: 'Était-ce le mari de cette belle femme en robe de satin peinte par Goya, dont le portrait est dans votre salon attenant à ma chambre ?' (i.e. Portrait of the Marchioness of Lazán, Palacio de Liria, Madrid) (Canavaggio 2016, p.340)",
+      "bibliography": "Fayos Pérez 2024; Canavaggio 2016"
+    },
+    {
       "from": "José Álvarez de Toledo, Duke of Alba",
       "to": "María Tomasa Palafox, Marchioness of Villafranca",
       "connection_level": "direct",
       "relationship type": "relatives; brother-in-law, sister-in-law"
+    },
+    {
+      "from": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "to": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-in-law, son-in-law"
     },
     {
       "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
