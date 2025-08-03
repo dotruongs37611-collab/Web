@@ -6690,6 +6690,12 @@
       "portraits": "1804 [Prado P002448](https://www.museodelprado.es/coleccion/obra-de-arte/la-xii-marquesa-de-villafranca-pintando-a-su/1fff2174-3bfc-4d3e-b190-ff7cd09187d6)"
     },
     {
+      "from": "José Álvarez de Toledo, Duke of Alba",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-in-law, sister-in-law"
+    },
+    {
       "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
       "to": "María Tomasa Palafox, Marchioness of Villafranca",
       "connection_level": "direct",
