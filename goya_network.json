@@ -2232,6 +2232,7 @@
       "life dates": "1752-1834", 
       "nationality": "Spanish",
       "profession": "salonnière; art patron",
+      "salon": "her <i>tertulia</i> was one of the most important in Madrid",
       "married to": "Pedro de Alcántara Téllez Girón y Pacheco, IX Duke of Osuna (by marriage)",
       "aristocratic titles": [
         "By inheritance: Princedom of Anglona, Princedom of Esquilache, Dukedom of Arcos, Béjar, Benavente (XII), Gandía, and others",
@@ -2264,6 +2265,7 @@
       "full name": "Joaquina Téllez-Girón y Pimentel",
       "life dates": "1784-1851", 
       "nationality": "Spanish",
+      "profession": "salonnière; art patron",
       "salon": "she had an important literary <i>tertulia</i> and was a protector/patron of the arts (Álvarez Barrientos 2002, p.151)",
       "aristocratic titles": "II condesa de Osilo (by heritage); X marquesa de Santa Cruz (by marriage); Grandee of Spain",
       "parents": "Pedro de Alcántara Téllez Girón y Pacheco (IX Duke of Osuna) and María Josefa de Borja Pimentel y Téllez-Girón (XII Countess-Duchess of Benavente and Duchess of Osuna)",
@@ -2422,9 +2424,10 @@
       "label": "Duchess of Alba",
       "full name": "María del Pilar Teresa Cayetana Manuela Margarita Leonor Sebastiana Bárbara Ana Joaquina Josefa Francisca de Paula Javiera de Asís de Borja y de Sales Andrea Abelina Sinforosa Benita Bernarda Petronila de Alcántara Dominga Micaela Rafaela Gabriela Venancia Antonia Fernanda Bibiana Vicenta Catalina de Silva Álvarez de Toledo y Silva-Bazán",
       "life dates": "1762-1802", 
+      "profession": "salonnière; art patron",
       "nationality": "Spanish",
-      "aristocratic titles": "XIII Duchess of Alba de Tormes, VIII Countess-Duchess of Olivares, XI Marchioness del Carpio and Grandee of España (Grande de España), among many others", 
-      "portrayed by": "Goya, 1795, Palacio de Liria, Madrid; Goya 1797, Hispanic Society of America, New York",
+      "aristocratic titles": "XIII Duchess of Alba de Tormes, VIII Countess-Duchess of Olivares, XI Marchioness del Carpio and Grandee of Spain (Grande de España), among many others", 
+      "portrayed by": "Goya, 1795, Palacio de Liria, Madrid; Goya 1797, Hispanic Society of America, New York; José Alonso del Rivero (attributed), after Guillermo Ducker, c.1805, miniature (Prado)",
       "children": "she adopted a girl she named María de la Luz, who Goya portrayed in the arms of the Duchess in his drawing albums, c.1794-95 (A.f), [Prado D004183](https://www.museodelprado.es/coleccion/obra-de-arte/la-duquesa-de-alba-teniendo-en-sus-brazos-a-maria/eeee25da-d6fd-493f-af37-c6eeb6518e50)",
       "parents": "Francisco de Paula de Silva y Álvarez de Toledo and Mariana de Silva Bazán y Sarmiento",
       "married to": "José Álvarez de Toledo, XI Marquis of Villafranca del Bierzo and XV Duke of Medina Sidonia, in 1775 (when she was 12 years old)",
@@ -2466,21 +2469,41 @@
       "image source": "Goya portrait 1795, Prado"
     },
     {
+      "id": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "label": "Villafranca XII",
+      "full name": "Francisco de Borja Álvarez de Toledo Osorio y Gonzaga",
+      "life dates": "1763-1821", 
+      "nationality": "Spanish",
+      "military activity": "1782 sargent of the <i>Reales Guardias</i>; 1797 Colonel of the <i>brigada del Regimiento de la Princesa</i>; 1798 Field Marshal; 1816 Lieutenant-General of the Royal Army; 1817 Captain-General of Murcia",
+      "works as": "General commander and Gobernor of the Kingdom of Murcia (1809-1814); <i>procurador en Corte</i> and Deputee (General Elections 1810)",
+      "participates in": "first session of the <i>Cortes de Cádiz</i>, representing the <i>Junta Superior de Observación y Defensa de Murcia</i>",
+      "profession": "military member and politician",
+      "works for": "Carlos IV and Queen María Luisa; Ferdinand VII",
+      "portrayed by": "anonymous, c.1800, Museo Lázaro Galdiano; his portrait is included in Goya's portrait of the Marchioness of Villafranca, as being painted by the Marchioness herself (1804, Prado)",
+      "parents": "Antonio Álvarez de Toledo, X Marquis of Villafranca and María Antonia Gonzaga, X Marchioness of Villafranca",
+      "decorations/awards": "Gran Cruz de la Orden de Carlos III; caballero de la Orden del Toisón de Oro; Medalla de Sufrimientos por la Patria (1819)",
+      "children": "9 children, including Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867) (future XIII Marquis of Villafranca), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)",
+      "married to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca_XII.jpg",
+      "image source": "Goya portrait 1795, Prado"
+    },
+    {
       "id": "María Tomasa Palafox, Marchioness of Villafranca",
       "label": "Villafranca",
       "full name": "María Tomasa Palafox y Portocarrero",
       "life dates": "1780-1835", 
       "nationality": "Spanish",
       "works as": "painter; President of the Junta de Damas de Honor y Mérito (1818-1824), which was the first association of women founded in Spain (since 1787)",
-      "profession": "artist; painter; intellectual; writer; salonnière (<i>tertulia</i>); socialite",
+      "profession": "artist, painter, intellectual, writer, salonnière, socialite",
+      "salon": "<i>tertulia</i>",
       "author of": "<i>Elogio a la reina Isabel de Braganza</i> (1819); <i>Memorias</i> of her work as President of the Junta de Damas",
       "aristocratic titles": "Marchioness of Villafranca, Grandee of Spain (Grande de España)",
-      "portrayed by": "Goya, 1804, Prado: as a painter, in the act of portraying her husband; José Alonso del Rivero, c.1805",
-      "member of": "RABASF: miembro de honor (1805)",
-      "founder of": "Sociedad Patriótica de Señoras de  (Cádiz, 1811)",
+      "portrayed by": "Goya, 1804, Prado (as a painter), in the act of portraying her husband; José Alonso del Rivero, c.1805",
+      "member of": "RABASF: miembro de honor (1805); President of the Junta de Damas de Honor y Mérito (1818-1824)",
+      "founder of": "Sociedad Patriótica de Señoras de Fernando VII (Cádiz, 1811)",
       "decorations/awards": "Orden de las Damas Nobles de la Reina María Luisa (1830)",
       "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
-      "children": "6 children: Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)", 
+      "children": "9 children, including Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867) (future XIII Marquis of Villafranca), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)", 
       "married to": "Francisco de Borja Álvarez de Toledo, XII Marquis of Villafranca, Duke of Medina Sidonia, Grandee of Spain",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca.jpg",
       "image source": "Goya portrait 1804, Prado"
@@ -6409,6 +6432,12 @@
       "relationship type": "acquaintances; rivals"
     },
     {
+      "from": "María Teresa de Silva, XIII Duchess of Alba",
+      "to": "Gaspar Melchor de Jovellanos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
       "from": "Fernando VII",
       "to": "Isabel II",
       "connection_level": "direct",
@@ -6658,6 +6687,62 @@
       "relationship type": "patronage",
       "commissions": "portrait",
       "portraits": "1804 [Prado P002448](https://www.museodelprado.es/coleccion/obra-de-arte/la-xii-marquesa-de-villafranca-pintando-a-su/1fff2174-3bfc-4d3e-b190-ff7cd09187d6)"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife",
+      "children": "9"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "Francisco de Goya",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "Villafranca's portrait is included in Goya's portrait of the Marchioness of Villafranca, as being painted by the Marchioness herself (1804, Prado)"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "José Álvarez de Toledo, Duke of Alba",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "María Teresa de Silva, XIII Duchess of Alba",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-in-law, sister-in-law"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. Villafranca was named <i>Gentilhombre</i> in the King's court"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "María Luisa de Parma",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. Villafranca was named the Queen's <i>Caballerizo Mayor</i>"
+    },
+    {
+      "from": "Francisco Álvarez de Toledo, XII Marquis of Villafranca",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. Villafranca was named <i>teniente general</i> in the Royal Army (1816) and <i>capitán general</i> of Murcia (1817)"
+    },
+    {
+      "from": "María Tomasa Palafox, Marchioness of Villafranca",
+      "to": "María Antonia Gonzaga, Marchioness of Villafranca (widow)",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-in-law, daughter-in-law"
     },
     {
       "from": "IX Duke of Osuna",
