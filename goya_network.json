@@ -476,8 +476,8 @@
       "image source": "Reutlinger photograph, 1850"
     },
     {
-      "id": "Eugénie de Montijo",
-      "label": "Montijo",
+      "id": "Eugenia de Montijo",
+      "label": "Eugenia M.",
       "full name": "María Eugenia Ignacia Agustina de Palafox y Kirkpatrick",
       "life dates": "1826-1920",
       "born in": "Granada",
@@ -2504,7 +2504,7 @@
       "founder of": "Sociedad Patriótica de Señoras de Fernando VII (Cádiz, 1811)",
       "decorations/awards": "Orden de las Damas Nobles de la Reina María Luisa (1830)",
       "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
-      "siblings": "include María Gabriela de Palafox, Marchioness of Lazán; Eugenio Eulalio Palafox, VII Count of Montijo (Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
+      "siblings": "include María Gabriela de Palafox, Marchioness of Lazán; Eugenio Eulalio Palafox, VII Count of Montijo (XVII Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
       "children": "9 children, including Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867) (future XIII Marquis of Villafranca), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)", 
       "married to": "Francisco de Borja Álvarez de Toledo, XII Marquis of Villafranca, Duke of Medina Sidonia, Grandee of Spain",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca.jpg",
@@ -2520,7 +2520,7 @@
       "political views": "she was prosecuted by the Inquisition, accused of being a Jansenist like her mother; imprisoned in 1821, and freed a few days later when proved her innocence",
       "portrayed by": "Goya, c.1790, coll. Hidalgo de Rivas, Málaga (stolen); Goya, 1800-04, Palacio de Liria (Fundación Casa de Alba); José Alonso del Rivero, c.1805, gouache, Prado",
       "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
-      "siblings": "María Tomasa Palafox, Marchioness of Villafranca; Eugenio Eulalio Palafox, VII Count of Montijo (Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
+      "siblings": "María Tomasa Palafox, Marchioness of Villafranca; Eugenio Eulalio Palafox, VII Count of Montijo (XVII Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
       "married to": "his cousin Luis Rebolledo de Palafox y Melzi, IV Marquis of Lazán (1797: at 14 years old)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lazan.jpg",
       "image source": "Goya portrait 1800-04, Palacio de Liria"
@@ -2556,15 +2556,43 @@
       "image source": "Goya portrait c.1804, Frick"
     },
     {
+      "id": "Cipriano Portocarrero, VIII Count of Montijo",
+      "label": "Montijo VIII",
+      "full name": "Cipriano Portocarrero",
+      "life dates": "1784-1839", 
+      "nationality": "Spanish",
+      "born in": "Madrid",
+      "profession": "military member and politician",
+      "aristocratic titles": "XVIII Count of Teba; VIII Count of Montijo (from 1838); Duke of Peñaranda de Duero; Count of Miranda y Baños",
+      "military activity": "1805 subteniente; 1807 teniente coronel. 1813 in France he joins the Imperial Army",
+      "studies in": "Academia de Artillería",
+      "works as": "in 1834 he inherits the titles from his brother. He becomes <i>prócer del Reino nato</i> (unelected) and elected senator in Badajoz (1837-38)",
+      "political views": "liberal, <i>afrancesado</i>, Freemason. He fought in the Peninsular War in the Napoleonic side. Supporter of José Bonaparte. After the Bourbon Restoration, he was imprisoned and then he lived in Paris under Police surveillance. When back in Spain, he supports the Pronunciamiento de Riego (1820) for a liberal government. After the fall of the Trienio Liberal (1820-23) he is imprisoned and then put under home arrest in Santiago. c.1830 he was imprisoned again for conspiracy agasint Ferdinand VII.",
+      "participates in": "Peninsular War (Napoleonic side); Pronunciamiento de Riego (1820)",
+      "curiosities": [
+        "In the Battle of Salamanca (1812) he lost his right eye and movility of a leg"
+      ],
+      "lives in": "Spain; France (Paris) from 1813; back to Spain in 1817 (Málaga, Santiago, Granada, Madrid, Badajoz).",
+      "portrayed by": "Vicente López, c.1820, oil painting",
+      "decorations/awards": "Légion d'honneur (1814): awarded by Napoleon.",
+      "parents": "Felipe de Palafox y Cröy and María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "siblings": "María Tomasa Palafox, Marchioness of Villafranca; María Gabriela de Palafox, Marchioness of Lazán; Cipriano Palafox, VIII Count of Montijo",
+      "married to": "María Manuela Kirkpatrick",
+      "children": "María Francisca de Sales Portocarrero Palafox y Kirkpatrick, IX Countess of Montijo, known as Paca Alba, (married to the Duke of Alba), and María Eugenia de Guzmán, known as Eugenia de Montijo, Countess of Teba, Empress of the French (married to Napoleon III)",
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Cipriano_Portocarrero)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montijo_VIII.jpg",
+      "image source": "Vicente López portrait c.1820"
+    },
+    {
       "id": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
       "label": "Montijo VI",
       "full name": "María Francisca de Sales Portocarrero de Guzmán y Zúñig",
       "life dates": "1754-1808", 
       "nationality": "Spanish",
-      "profession": "salonnière, socialite",
+      "profession": "salonnière, socialite, translator",
       "salon": "<i>tertulia</i>",
       "aristocratic titles": "VI condesa de Montijo y IX de Baños, dos veces grande de España; XI marquesa de Villanueva del Fresno, X de la Algaba, VII de Valderrábano, V de Castañeda y VI de Osera; XVI condesa de Teba, V de Fuentidueña, X de Casarrubios del Monte y VI de Ablitas; XVII vizcondesa de los Palacios de la Valduerna y VII de la Calzada.",
-      "political views": "reformist and enlightened (<i>ilustrada</i>); accused of Jansenism and therefore exiled",
+      "political views": "reformist and enlightened (<i>ilustrada</i>); accused of Jansenism and therefore exiled (because she translated the work of Nicolas Letourneux).",
       "correspondence": "she had correspondence with writers from all over Europe (Franco Rubio 2011; Pérez Cantó & Mó Romero 2007)",
       "founder of": "co-founder of the <i>Junta de Damas de Honor y Mérito</i> (1787), adscribed to the <i>Sociedad Económica Matritense de Amigos del País</i> (1775); co-founder of an <i>Asociación de Presas de la Galera</i>, to teach skills to female prisoners",
       "member of": "<i>Comisión de Educación Moral</i> (founded in 1794)",
@@ -3727,12 +3755,12 @@
       "relationship type": "friends/acquaintances"
     },
     {
-      "from": "Eugénie de Montijo",
+      "from": "Eugenia de Montijo",
       "to": "Rosa Bonheur",
       "connection_level": "direct",
       "relationship type": "acquaintances; protegée",
-      "they met": "in 1864, Eugénie pays a surprise visit to Bonheur and invites her for lunch at Fontainebleau with Napoleon III (this visit is portrayed in a print by Auguste Victor Deroy: <i>L'impératrice Eugénie rendant visite à Rosa Bonheur</i>). The following year, 1865, Eugénie visits Bonheur again to name her Chevalier de la Légion d'honneur, making her the first female artist and the 9th woman to receive it. At this moment, Eugénie is said to have said: 'Enfin, vous voilà chevalier. Je suis tout heureuse d’être la marraine de la première femme artiste qui reçoive cette haute distinction. J’ai voulu que le dernier acte de ma régence fût consacré à montrer qu’à mes yeux le génie n’a pas de sexe",
-      "interactions": "Eugénie intervened for the award of the Légion d'honneur to painter Rosa Bonheur",
+      "they met": "in 1864, Eugenia pays a surprise visit to Bonheur and invites her for lunch at Fontainebleau with Napoleon III (this visit is portrayed in a print by Auguste Victor Deroy: <i>L'impératrice Eugenia rendant visite à Rosa Bonheur</i>). The following year, 1865, Eugenia visits Bonheur again to name her Chevalier de la Légion d'honneur, making her the first female artist and the 9th woman to receive it. At this moment, Eugenia is said to have said: 'Enfin, vous voilà chevalier. Je suis tout heureuse d’être la marraine de la première femme artiste qui reçoive cette haute distinction. J’ai voulu que le dernier acte de ma régence fût consacré à montrer qu’à mes yeux le génie n’a pas de sexe",
+      "interactions": "Eugenia intervened for the award of the Légion d'honneur to painter Rosa Bonheur",
       "websites": "Visite de l'impératrice Eugénie à l'artiste Rosa Bonheur decorée de la Légion d'honneur (1865), [Napoleon.org](https://www.napoleon.org/histoire-des-2-empires/articles/la-famille-imperiale-et-rosa-bonheur/)"
     },
     {
@@ -3749,13 +3777,13 @@
       "mentions": "Gautier says: 'Nous avons toujours professé une sincère estime pour le talent de mademoiselle Rosa Bonheur. Avec elle, il n'y a pas besoin de galanterie ; elle fait de l'art sérieusement, et on peut la traiter en homme. La peinture n'est pas pour elle une variété de broderie au petit point' (<i>Les beaux-Arts en Europe</i>, 1855, p.120)"
     },
     {
-      "from": "Eugénie de Montijo",
+      "from": "Eugenia de Montijo",
       "to": "Prosper Mérimée",
       "connection_level": "direct",
       "relationship type": "friends; master-student",
       "know each other since": "c.1839, when Mérimée became her French teacher",
       "correspondence": "<i>Lettres à Madame de Montijo</i>. Mentions of Goya: 1843-III-25, 1847-X-22 (Canavaggio 2016, p.340; see Mérimée's node)",
-      "collaborations": "Eugénie told Mérimée about the story of a love between a bullfighter and a cigar vendor, which would inspire him to write his famous novella <i>Carmen</i>",
+      "collaborations": "Eugenia told Mérimée about the story of a love between a bullfighter and a cigar vendor, which would inspire him to write his famous novella <i>Carmen</i>",
       "bibliography": "Canavaggio 2016"
     },
     {
@@ -3764,7 +3792,7 @@
       "connection_level": "direct",
       "relationship type": "colleagues",
       "know each other since": "at least 1839",
-      "they shared": "they were both teachers of Empress Eugénie de Montijo",
+      "they shared": "they were both teachers of Empress Eugenia de Montijo",
       "collaborations": "<i>Correspondance inédite [de] Stendhal. Précédée d'une introduction par Prosper Mérimée</i>, Paris, Michel Lévy, 1855"
     },
     {
@@ -3777,18 +3805,18 @@
       "bibliography": "Challamel 1885"
     },
     {
-      "from": "Eugénie de Montijo",
+      "from": "Eugenia de Montijo",
       "to": "Stendhal (Henri Beyle)",
       "connection_level": "direct",
       "relationship type": "friends; master-student",
       "know each other since": "c.1839, when Stendhal became her History teacher"
     },
     {
-      "from": "Eugénie de Montijo",
+      "from": "Eugenia de Montijo",
       "to": "George Sand",
       "connection_level": "direct",
       "relationship type": "acquaintances; protegée?",
-      "interactions": "Eugénie tried (unsuccessfully) to convince the Académie Française to accept Sand as its first female member"
+      "interactions": "Eugenia tried (unsuccessfully) to convince the Académie Française to accept Sand as its first female member"
     },
     {
       "from": "Marcello (Adèle d'Affry)",
@@ -5347,7 +5375,7 @@
     },
     {
       "from": "Charles Baudelaire",
-      "to": "Eugénie de Montijo",
+      "to": "Eugenia de Montijo",
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "collaborations": "Eugenia de Montijo helped Baudelaire to reduce the fee he was sentenced to pay for the publication of <i>Les Fleurs du mal</i>"
@@ -6540,7 +6568,7 @@
       "relationship type": "relatives; great-grandfather, great-granddaughter"
     },
     {
-      "from": "Eugénie de Montijo",
+      "from": "Eugenia de Montijo",
       "to": "Isabel II",
       "connection_level": "direct",
       "relationship type": "acquaintances"
@@ -6803,6 +6831,57 @@
       "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
       "connection_level": "direct",
       "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "María Gabriela de Palafox, Marchioness of Lazán",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-sister"
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-sister"
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "Vicente López",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "c.1820, oil painting"
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "Joseph Bonaparte",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "interactions": "Cipriano fought in the Peninsular War in the Napoleonic side, and defended Napoleon and his brother in France."
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "rivals",
+      "interactions": "Cipriano fought in the Peninsular War in the Napoleonic side and actively conspired against Ferdinand VII. He was pardoned in 1817."
+    },
+    {
+      "from": "Cipriano Portocarrero, VIII Count of Montijo",
+      "to": "Eugenia de Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
     },
     {
       "from": "María Gabriela de Palafox, Marchioness of Lazán",
