@@ -270,10 +270,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 230,         // Antes tenías 200 (excesivo), ahora es más compacto
+          nodeDistance: 260,         // antes: 230 — esto separa más los nodos
           centralGravity: 0.2,       // Más atracción hacia el centro
           springLength: 80,         // Menos distancia ideal entre nodos
-          springConstant: 0.04,      // Más elasticidad (menos rigidez)
+          springConstant: 0.03,      // antes: 0.04 — esto afloja los "muelles"
           damping: 0.5               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
