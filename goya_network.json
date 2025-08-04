@@ -497,6 +497,41 @@
       "image source": "Winterhalter portrait, 1854"
     },
     {
+      "id": "María Manuela Kirkpatrick",
+      "label": "Kirkpatrick",
+      "full name": "María Manuela Kirkpatrick de Closeburn y de Grévignée ",
+      "life dates": "1794-1879",
+      "born in": "Granada",
+      "nationality": "Spanish",
+      "lives in": "Málaga; Paris",
+      "trips": "London 1837 (friendship with George Villiers, later Lord Clarendon, ambassador in Spain)",
+      "in Paris": [
+        "She received a francophile education and she her adolescence she travelled to Paris, where she stayed at her aunt's Catalina, married to a French diplomat Mathieu de Lesseps.", 
+        "Her cousin Ferdinand, Viscount of Lesseps, would introduce her in the high society of Paris in the 1830s and 1840s.",
+        "In 1816 she met her future husband in Paris.",
+        "When her husband was imprisoned for conspiring agains Ferdinand VII in the early 1830s, she went to Paris with her daughters to complete their education. In 1834, her husband inherited the title of VIII Count of Montijo and moved to Madrid, but she stayed in Paris.",
+        "c.1849 Manuela and Eugenia move back to Paris. In 1853, Eugenia marries the Emperor Napoleon III at the Notre Dame cathedral."
+      ],
+      "in Madrid": [
+        "c.1843 she moves to Madrid with her daughters, and actively participates in the high society with balls and concerts in her palace at Plaza del Ángel and her countryside residence in Carabanchel",
+        "In 1847 she starts work as <i>dama de la reina</i> for Queen Isabel II, and then <i>camarera mayor</i> (highest rank).",
+        "In 1848 her daughter Paca marries the Duke of Alba.",
+        "She leaves the court after a feud with the Marquis of Miraflores, president of the Senate and governor of the Palace.",
+        "She returns to Madrid after the marriage of Eugenia in Paris."
+      ],
+      "works for": "Queen Isabel II as <i>dama de la reina</i> and <i>camarera mayor</i>",
+      "aristocratic titles": "Countess of Teba (1817-34), Countess of Montijo (1834-1839), Countess widow of Montijo (1839-79)",
+      "decorations/awards": "<i>Dama noble</i> de la Orden de la Reina María Luisa (from 1845); <i>Dama gran cruz de la Imperial Orden de San Carlos</i> (2nd Mexican Empire).",
+      "parents": "Guillermo Kirkpatrick and María Francisca de Grévignée",
+      "married to": "Cipriano Portocarrero, VIII Count of Montijo: they met in Paris in 1816 and married in 1817.",
+      "children": "María Francisca de Sales Portocarrero Palafox y Kirkpatrick, IX Countess of Montijo, known as Paca Alba, (married to the Duke of Alba), and María Eugenia de Guzmán, known as Eugenia de Montijo, Countess of Teba, Empress of the French (married to Napoleon III)",
+      "portrayed by": "Federico de Madrazo, 1830s?, oil painting, Palacio de las Dueñas; Disdéri, 1860s, Paris, 'Duchesse d'Albe mère'; unknown, photograph, c.1850-70; Jean Laurent, photograph, 1879 (post-mortem), and subsequent print.",
+      "bibliography": "Soledad Maura, <i>Os escribo a todos</i>, Esfera de los Libros, 2025; Charlez Dantzig, <i>Lettres de Prosper Mérimée à Madame de Montijo</i>, Paris, Mercure de France, 1995.",
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Mar%C3%ADa_Manuela_Kirkpatrick); [Real Academia de Historia(https://historia-hispanica.rah.es/biografias/24651-maria-manuela-kirkpatrick-de-closeburn-y-grevigne)]; [merimee.culture.fr](https://web.archive.org/web/20181214095917/http://www.merimee.culture.fr/fr/html/bio/entourage/femmes/montijo.html)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Kirkpatrick.jpg",
+      "image source": "Disdéri photograph"
+    },
+    {
       "id": "Nadar",
       "label": "Nadar",
       "full name": "Félix Tournachon",
@@ -3812,6 +3847,71 @@
       "know each other since": "c.1839, when Stendhal became her History teacher"
     },
     {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Stendhal (Henri Beyle)",
+      "connection_level": "direct",
+      "relationship type": "acquaintance",
+      "know each other since": "c.1839, when Stendhal became Eugenia's History teacher"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1830s?, oil painting, Palacio de las Dueñas"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Prosper Mérimée",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "1830, during Mérimée's first stay in Spain.",
+      "interactions": "c.1839 Mérimée became her daughter Eugenia's History teacher",
+      "correspondence": "1839-1870. A large part of their correspondence was lost in the fire at Mérimée's residence in 1870, and also that at the Palacio de Liria during the Spanish Civil War (1936)."
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Eugenia de Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Cipriano Portocarrero, VIII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-in-law, daughter-in-law"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "María Gabriela de Palafox, Marchioness of Lazán",
+      "connection_level": "direct",
+      "relationship type": "relatives; sisters-in-law"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; sisters-in-law"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-in-law, sister-in-law"
+    },
+    {
+      "from": "María Manuela Kirkpatrick",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. <i>Dama de la reina</i> and <i>camarera mayor</i>"
+    },
+    {
       "from": "Eugenia de Montijo",
       "to": "George Sand",
       "connection_level": "direct",
@@ -6831,6 +6931,38 @@
       "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
       "connection_level": "direct",
       "relationship type": "relatives; mother-son"
+    },
+    {
+      "from": "Eugenia de Montijo",
+      "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; grandmother-granddaughter"
+    },
+    {
+      "from": "Count of Floridablanca",
+      "to": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "interactions": "when the Count of Floridablanca tried to impose a national dress for women to control the expenses of female fashion, it was her  to rejected the proposition (from the <i>Junta de Damas</i>), arguing that the only answer was education (Trueba 2003).",
+      "bibliography": "Trueba 2003"
+    },
+    {
+      "from": "Eugenia de Montijo",
+      "to": "María Tomasa Palafox, Marchioness of Villafranca",
+      "connection_level": "direct",
+      "relationship type": "relatives; aunt-niece"
+    },
+    {
+      "from": "Eugenia de Montijo",
+      "to": "María Gabriela de Palafox, Marchioness of Lazán",
+      "connection_level": "direct",
+      "relationship type": "relatives; aunt-niece"
+    },
+    {
+      "from": "Eugenia de Montijo",
+      "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
     },
     {
       "from": "Cipriano Portocarrero, VIII Count of Montijo",
