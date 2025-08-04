@@ -503,7 +503,7 @@
       "life dates": "1794-1879",
       "born in": "Granada",
       "nationality": "Spanish",
-      "lives in": "Málaga; Paris",
+      "lives in": "Málaga; Paris; Madrid",
       "trips": "London 1837 (friendship with George Villiers, later Lord Clarendon, ambassador in Spain)",
       "in Paris": [
         "She received a francophile education and she her adolescence she travelled to Paris, where she stayed at her aunt's Catalina, married to a French diplomat Mathieu de Lesseps.", 
@@ -574,6 +574,25 @@
       "archives": "Bibliothèque historique de la ville de Paris and Musée Carnavalet (related to aerial photography)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nadar.jpg",
       "image source": "Self-portrait c.1900"
+    },
+    {
+      "id": "Jean Laurent",
+      "label": "Laurent",
+      "life dates": "1816-1886",
+      "profession": "photographer",
+      "in Madrid": "from 1843. He installs a photographic workshop in 1856. His photographic company <iJ. Laurent y Compañía</i> becomes the most important one in Spain.",
+      "in Paris": "in 1868, he opens a photographic establishment in 27 rue Richelieu, to sell his photographs of Spain and Protugal",
+      "author of": [
+        ">12,000 photographs, including portraits of the royal family, images of Spanish monuments (1857-82), and of artworks (including Goya's)",
+        "The journal <iL'Illustration</i> publishes some of his works (12 June 1858).",
+        "Laurent, <i>Catalogue illustré des tableaux du Musée du Prado à Madrid</i>, J. Laurent et Cie, 1899."
+      ],
+      "exhibitions": "Exposition universelle de 1867, Paris (<i>Vues, musées et costumes d'Espagne et du Portugal</i>; 1996 Paris; 2007 PHotoEspaña; 2008 Sevilla; 2015 Madrid, Museo Arqueológico Nacional (<i>Una visión inédita de la Alhambra: Jean Laurent, Fernando Manso</i>).",
+      "portrayed by": "unknown, caricature, 1862, Colección Fernández Rivero de fotografía histórica, Málaga; unknwon, 1887, <i>La Ilustración Nacional</i>",
+      "bibliography": "Maite Díaz Francés, <i>J. Laurent 1816-1886: Un fotógrafo entre el negocio y el arte</i>, 2016; Carlos Teixidor, 'Fotografías de Laurent en la Quinta de Goya', <i>Descubrir el Arte</i>, no 154, Dec 2011, pp.48-54",
+      "archives": "IPCE and INHA",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Laurent.jpg",
+      "image source": "1887 <i>La Ilustración Nacional</i>"
     },
     {
       "id": "Rosa Bonheur",
@@ -3910,6 +3929,28 @@
       "to": "Isabel II",
       "connection_level": "direct",
       "relationship type": "employer-employee. <i>Dama de la reina</i> and <i>camarera mayor</i>"
+    },
+    {
+      "from": "Jean Laurent",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "c.1860"
+    },
+    {
+      "from": "Jean Laurent",
+      "to": "María Manuela Kirkpatrick",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "1879"
+    },
+    {
+      "from": "Jean Laurent",
+      "to": "Francisco de Goya",
+      "connection_level": "secondary",
+      "relationship type": "artistic influence",
+      "interactions": "Laurent photographed many works by Goya, including the <i>Maja vestida</i> (1867-68), the Black Paintings in 1874 when they were at the Quinta del Sordo, and tapestry cartoons. The original negatives are kept at the IPCE (Archivo Ruiz Vernacci).",
+      "bibliography": "Teixidor 2011"
     },
     {
       "from": "Eugenia de Montijo",
