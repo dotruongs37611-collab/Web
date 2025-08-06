@@ -1924,11 +1924,39 @@
         "1838 <i>Le Moyen Âge pittoresque</i>.",
         "1838-39 lithographs in <i>Le vieux Paris. Reproduction des monumens qui n'existent plus dans la capitale</i> (Gihaut)",
         "1840 <i>Meubles et armes du Moyen-Âge</i> (Jules Gagniet).",
-        "1842-44 lithographs for Genaro Pérez Villaamil's <i>España artística y monumental</i>.",
+        "1842-44 lithographs for Jenaro Pérez Villaamil's <i>España artística y monumental</i>.",
         "c.1864-66 <i>La France de nos jours</i> (lithographic album directed by F. Sinnett)."
       ],
       "bibliography": "Jesusa Vega, Museo del Prado, Catálogo de Estampas, 1992; <i>Journal de Rouen</i>, 27 March 1889, p.2.",
       "websites": "[Prado profile](https://www.museodelprado.es/coleccion/artista/asselineau-leon-auguste/f0b2a4b8-99f1-4edd-9467-77fe6f7abf83)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau_LeonAuguste.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Jenaro Pérez Villaamil",
+      "full name": "Jenaro Pérez de Villaamil y d'Huguet",
+      "label": "Pérez Villaamil",
+      "life dates": "1807-1854",
+      "nationality": "Spanish",
+      "born in": "Ferrol",
+      "profession": "painter, lithographer", 
+      "parents": "Manuel Pérez de Villaamil",
+      "lives in": "Madrid; France and Belgium.",
+      "works for": "Isabel II (from 1844)",
+      "works as": [
+        "<i>Académico de mérito</i> (from 1835) and professor of landscape (from 1845) at the RABASF", 
+        "Honorary <i>Pintor de cámara</i> of Isabel II (1840)"
+      ],
+      "in Madrid": "from 1820; 1834-1840; 1844 (he meets Isabel II via the Marchioness of Santa Cruz).",
+      "in France": "1840-44 (during the Espartero regency). In 1843 he meets King Louis-Philippe.",
+      "influenced by": "David Roberts (whom he meets in Sevilla in 1833)",
+      "military activity": "he enlists in the liberal army in 1823 to fight the French army (<i>Cien Mil Hijos de San Luis</i>).",
+      "studies in": "Real Colegio Militar de Santiago de Compostela (from 1812); Reales Estudios de San Isidro (from 1820); Escuela de Bellas Artes.",
+      "trips": "Puerto Rico 1830",
+      "author of": "1842-1850 <i>España artística y monumental</i> (Paris).",
+      "portrayed by": "Louis-Joseph Ghémar, drawing, 1850; Eugenio Lucas Velázquez, oil sketch.",
+      "bibliography": "Hopkins 2021",
+      "decorations/awards": "Caballero de la Orden de Isabel la Católica (1838); Encomienda de la Orden de Isabel la Católica (1840); Caballero de la Orden Nacional de la Legión de Honor (1844); Cruz de la Orden de Carlos III (1844); Caballero de La Orden de Leopoldo (1845)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau_LeonAuguste.jpg",
       "image source": "AI generated (DeepAI) because there is no known portrait"
     },
@@ -4360,7 +4388,10 @@
       "to": "Félix Bracquemond",
       "connection_level": "direct",
       "relationship type": "friends",
-      "portraits": "Bracquemond, <i>Charles Baudelaire</i>, 1874, etching (presented at the 1st Exposition des peintres impressionnistes)"
+      "portraits": [
+        "Bracquemond, portrait of Baudelaire, etching, 1861 (BM 1865,1209.693): intended for the 2nd edition of <i>Fleurs du Mal</i>. ",
+        "Bracquemond, portrait of Baudelaire, etching, 1874 (presented at the 1st Exposition des peintres impressionnistes)."
+      ]
     },
     {
       "from": "Henri Regnault",
@@ -4406,6 +4437,27 @@
       "collaborations": "Asselineau writes Baudelaire's first biography: <i>Charles Baudelaire, sa vie et son œuvre</i> (1869)",
       "websites": "[Baudelaire.litteratura](http://baudelaire.litteratura.com/charlesasselineau.php)",
       "bibliography": "Jacques Crépet et Claude Pichois, <i>Baudelaire et Asselineau, textes recueillis et commentés</i>, Nizet, 1953"
+    },
+    {
+      "from": "Jenaro Pérez Villaamil",
+      "to": "Léon Auguste Asselineau",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "Asselineau produced lithographs for Jenaro Pérez Villaamil's <i>España artística y monumental</i> (1842-44)."
+    },
+    {
+      "from": "Jenaro Pérez Villaamil",
+      "to": "X Marchioness of Santa Cruz",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "collaborations": "Santa Cruz introduced Pérez Villaamil to Isabel II in 1844"
+    },
+    {
+      "from": "Jenaro Pérez Villaamil",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; employer-employee",
+      "employment/patronage": "Pérez Villaamil became honorary <i>Pintor de cámara</i> of Isabel II in 1840"
     },
     {
       "from": "Léon Auguste Asselineau",
