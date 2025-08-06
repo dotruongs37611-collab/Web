@@ -1889,7 +1889,7 @@
     },
     {
       "id": "Charles Asselineau",
-      "label": "Asselineau",
+      "label": "Ch. Asselineau",
       "full name": "François Charles Alexandre Asselineau",
       "life dates": "1820-1874",
       "nationality": "French",
@@ -1903,7 +1903,34 @@
       "studies in": "Collège Bourbon (current Lycée Condorcet), with Nadar",
       "portrayed by": "Baudelaire, 1850, pen drawing; Nadar, photographs, c.1856, [Orsay](https://www.musee-orsay.fr/es/obras/portrait-de-charles-asselineau-29335) PHO 1985 224, and c.1860",
       "websites": "Fernand Chaffiol-Debillemont, [<i>Charles Asselineau</i>](http://www.miscellanees.com/a/asselino.htm), 1952",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau.jpg" 
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau_Charles.jpg" 
+    },
+    {
+      "id": "Léon Auguste Asselineau",
+      "label": "L.A. Asselineau",
+      "life dates": "1808-1889",
+      "nationality": "French",
+      "born in": "Hambourg",
+      "profession": "lithographer, draughtsman, painter", 
+      "masters": "Adolphe Roehn",
+      "works for": "José Madrazo (1829-1836)",
+      "works in": "Real Establecimiento Litográfico, created by José Madrazo, producing landscapes and 'views'. He worked translating into the lithographic stone most of the prints in <i>Colección de vistas de sitios reales</i> and the paintings in <i>Colección litográfica de los cuadros del rey de España</i> (BMP 18.148-18.450) (Vega 1992, pp.11-12).", 
+      "lives in": "Madrid (1829-1836); Paris (from 1836)",
+      "exhibitions": "Salon 1836, 1838, 1840, 1846, 1847 (landscapes)",
+      "siblings": "Antoinette Asselineau (portrat painter)",
+      "author of": [
+        "1828-31 illustrations for <i>Vues pittoresques des châteaux de France</i>: 'Château de Chantilly', 'Château de Morfontaine', 'Grand Trianon Versailles', 'Château de la Bourgonière' (Charles Motte after Asselineau).",
+        "c.1833 <i>Vista del Real Museo de Pintura de Madrid</i>, lithograph: draughtsman Fernando Brambila, lithographer Léon-Auguste Asselineau, director José de Madrazo y Agudo. [Prado](https://www.museodelprado.es/coleccion/obra-de-arte/vista-del-real-museo-de-pintura-de-madrid/fb8c3cef-c9ab-4524-ac9b-475b69972b3d).",
+        "1838 <i>Le Moyen Âge pittoresque</i>.",
+        "1838-39 lithographs in <i>Le vieux Paris. Reproduction des monumens qui n'existent plus dans la capitale</i> (Gihaut)",
+        "1840 <i>Meubles et armes du Moyen-Âge</i> (Jules Gagniet).",
+        "1842-44 lithographs for Genaro Pérez Villaamil's <i>España artística y monumental</i>.",
+        "c.1864-66 <i>La France de nos jours</i> (lithographic album directed by F. Sinnett)."
+      ],
+      "bibliography": "Jesusa Vega, Museo del Prado, Catálogo de Estampas, 1992; <i>Journal de Rouen</i>, 27 March 1889, p.2.",
+      "websites": "[Prado profile](https://www.museodelprado.es/coleccion/artista/asselineau-leon-auguste/f0b2a4b8-99f1-4edd-9467-77fe6f7abf83)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau_LeonAuguste.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
     },
     {
       "id": "Henri Regnault",
@@ -4379,6 +4406,29 @@
       "collaborations": "Asselineau writes Baudelaire's first biography: <i>Charles Baudelaire, sa vie et son œuvre</i> (1869)",
       "websites": "[Baudelaire.litteratura](http://baudelaire.litteratura.com/charlesasselineau.php)",
       "bibliography": "Jacques Crépet et Claude Pichois, <i>Baudelaire et Asselineau, textes recueillis et commentés</i>, Nizet, 1953"
+    },
+    {
+      "from": "Léon Auguste Asselineau",
+      "to": "Charles Asselineau",
+      "connection_level": "direct",
+      "relationship type": "relatives; cousins"
+    },
+    {
+      "from": "Léon Auguste Asselineau",
+      "to": "Charles Motte",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "collaborations": "1828-31 Motte made lithographs after Asselineau's drawings in <i>Vues pittoresques des châteaux de France</i>: 'Château de Chantilly', 'Château de Morfontaine', 'Grand Trianon Versailles', 'Château de la Bourgonière', among others."
+    },
+    {
+      "from": "Léon Auguste Asselineau",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "know each other since": "at least 1829",
+      "collaborations": "1829-1836 Asselineau was hired by José Madrazo at the Real Establecimiento Litográfico in Madrid to produce landscapes and 'views'. Asselineau worked translating into the lithographic stone most of the prints in <i>Colección de vistas de sitios reales</i> and the paintings in <i>Colección litográfica de los cuadros del rey de España</i> (BMP 18.148-18.450) (Vega 1992, pp.11-12).",
+      "bibliography": "Jesusa Vega, Museo del Prado, Catálogo de Estampas, 1992; <i>Journal de Rouen</i>, 27 March 1889, p.2.",
+      "websites": "[Prado profile](https://www.museodelprado.es/coleccion/artista/asselineau-leon-auguste/f0b2a4b8-99f1-4edd-9467-77fe6f7abf83)"
     },
     {
       "from": "Philippe Burty",
