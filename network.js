@@ -656,6 +656,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "patronage", label: "Patronage" },
           { key: "portraits", label: "Portraits" },
           { key: "bibliography", label: "Bibliography" },
+          { key: "websites", label: "Websites" },
           { key: "archives", label: "Archives" }
         ];
 
