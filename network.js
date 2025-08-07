@@ -669,6 +669,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             console.log("Raw value:", value);
         
             if (Array.isArray(value)) {
+              // ✅ Si es un array de strings u objetos con imagen
               const processedItems = value.map(item => {
                 if (typeof item === "object") {
                   const caption = item.caption
@@ -676,15 +677,19 @@ document.addEventListener('DOMContentLoaded', async function () {
                     : "";
                   const url = item.url ? item.url : "";
 
-                  return `${caption}${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; margin-left: 0.5rem; vertical-align: middle;">` : ""}`;
-
+                  return `<li>${caption}${url ? `<img src="${url}" alt="Portrait" style="max-width:100%; margin-left: 0.5rem; vertical-align: middle;">` : ""}</li>`;
                 } else {
-                  return autoLinkNames(processMarkdownLinks(item), nodesMap);
+                  return `<li>${autoLinkNames(processMarkdownLinks(item), nodesMap)}</li>`;
                 }
               });
 
-              htmlText = processedItems.join("");
+              htmlText = `<ul>${processedItems.join("")}</ul>`;
+            } else if (typeof value === "string" && value.includes(";")) {
+              // ✅ Si es un string separado por punto y coma, lo tratamos como lista
+              const items = value.split(";").map(v => `<li>${autoLinkNames(processMarkdownLinks(v.trim()), nodesMap)}</li>`);
+              htmlText = `<ul>${items.join("")}</ul>`;
             } else {
+              // ✅ Si es string normal
               htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
             }
 
