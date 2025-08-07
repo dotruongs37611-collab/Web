@@ -219,7 +219,11 @@
       "life dates": "1815-1894",
       "nationality": "Spanish",
       "profession": "painter, collector, art dealer",
-      "in Paris": "1833 (1st trip; with Vicente Masarnau): he meets Baron Taylor and Adrien Dauzats; 1837-1839 (portrays Adrien Dauzats 1837): he benefits from contacts with Baron Taylor; 1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles",
+      "in Paris": [
+        "1833 (1st trip; with Vicente Masarnau): he meets Baron Taylor and Adrien Dauzats.",
+        "1837-1839 (portrays Adrien Dauzats 1837): he benefits from contacts with Baron Taylor. During these two years, he writes in his correspondence about the relationships he is establisthing with French painters (Romero Tobar 1997, p.217; González López 1994, pp.28-36).",
+        "1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles."
+      ],
       "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Adrien Dauzat's)",
       "author of": "illustrations in <i>El Artista</i>; <i>Godofredo de Bouillon proclamado rey de Jerusalén</i> (1838, Galerie Batailles, Palais Versailles); <i>Isabel II de España</i> (1850); <i>Doña Amalia de Llano y Dotres, Condesa de Vilches</i> (1853); <i>Carolina Coronado</i> (c.1855); <i>Eduardo Rosales</i> (1867); <i>El pintor Perugino Sensi</i> (1873, Prado)",
       "editor of": "<i>El Artista</i>",
@@ -232,7 +236,7 @@
       "children": "Cecilia, Raimundo, Ricardo, Isabel",
       "parents": "José Madrazo and Isabel Kuntz y Valentini",
       "collector of Goya's works": "Madrazo acquired a substantial group of Goya's prints and drawings, probably through Carderera. This includes [156 drawings](https://www.museodelprado.es/coleccion/obras-de-arte?searchObras=goya%20madrazo&cidoc:p14_carried_out_by@@@pm:author@@@ecidoc:p131_E82_p102_has_title=Goya%20y%20Lucientes,%20Francisco%20de@es&cidoc:p2_has_type@@@pm:objectTypeNode=http://museodelprado.es/items/objecttype_6) now at the Prado from the collection of 'Federico de Madrazo y/o Román Garreta, Madrid, c.1855-1860', such as <i>Buena muger, parece</i> (C.9) (1814-1823, [Prado D003913](https://www.museodelprado.es/coleccion/obra-de-arte/buena-muger-parece/4635b978-3c08-4895-9e0d-32c909f5aeb9))",
-      "bibliography": "Gilarranz Ibáñez 2020; Martínez Plaza 2017; G. Navarro 2007 (in <i>El siglo XIX en el Prado</i>); Martí 2007; González López 1994; Díez 1994; Harris 1964",
+      "bibliography": "Gilarranz Ibáñez 2020; Martínez Plaza 2017; G. Navarro 2007 (in <i>El siglo XIX en el Prado</i>); Martí 2007; Romero Tobar 1997; González López 1994; Díez 1994; Harris 1964",
       "websites": "[Prado website](https://www.museodelprado.es/coleccion/artista/madrazo-y-kuntz-federico-de/9bdb1678-fdd4-47bb-92e3-6833fadc8a50), Carlos G. Navarro",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
       "image source": "portrait by Raimundo Madrazo, 1875, Museo de Bellas Artes de Bilbao"
@@ -409,7 +413,7 @@
         "Translations of French Romantic works: Victor Hugo's <i>Hernani</i> (watched by Théophile Gautier in 1840 in Valladolid); George Sand; Honoré de Balzac; Jules Janin; Jules Sandeau; Alexandre Dumas; Frédéric Soulié",
         "Translations from English: David Hume (<i>Historia de Inglaterra</i>; Walter Scott",
         "1844 <i>Catálogo razonado de los manuscritos españoles existentes en la Biblioteca Real de París: seguido de un suplemento que contiene los de las otras tres bibliotecas públicas</i> (Arsenal, Ste Geneviève and Mazarine), París, Imprenta Real",
-        "1861 <i>Paris, Londres y Madrid</i>: he mentions Dumas, Balzac, Gautier, Delacroix, Dauzats, Nodier, Lamartine, Ingres, Vernet, Decamps, Delaroche, Eugène Sue, Feuillet, Houssaye and others. He does not mention Goya, Taylor, Javier Goya or Mariano Goya. HathiTrust [https://babel.hathitrust.org/cgi/pt?id=hvd.32044014808356&seq=203&q1=Sand]"
+        "1861 <i>París, Londres y Madrid</i>: he mentions Dumas, Balzac, Gautier, Delacroix, Dauzats, Nodier, Lamartine, Ingres, Vernet, Decamps, Delaroche, Eugène Sue, Feuillet, Houssaye and others. He does not mention Goya, Taylor, Javier Goya or Mariano Goya. HathiTrust [https://babel.hathitrust.org/cgi/pt?id=hvd.32044014808356&seq=203&q1=Sand]"
         ],
       "editor of": [
         "<i>El Artista</i> (1835) con Federico Madrazo: spreads Romanticism in Spain and imitates the French journal <i>L'Artiste</i>",
@@ -420,7 +424,7 @@
       "works for": "Baudry & Rosa, Paris 1837: volumes of Spanish literature and translations; <i>Colección de los mejores autores españoles</i>; <i>Catálogo razonado de los manuscrito españoles existentes en la Biblioteca Real de París</i> (Paris, 1844)",
       "works as": "editor; librarian (bibliotecario segundo de la Biblioteca Nacional); politician (jefe político de Huesca; diputado); Administrator of the Imprenta Nacional; Director General de Instrucción Pública",
       "married to": "Carlota Madrazo (1835)",
-      "bibliography": "Raquel Sánchez, 'Busto de Eugenio Ochoa por Ponciano Ponzano (Pieza del trimestre julio-septiembre 2018)', Ministerio de Cultura",
+      "bibliography": "Raquel Sánchez, 'Busto de Eugenio Ochoa por Ponciano Ponzano (Pieza del trimestre julio-septiembre 2018)', Ministerio de Cultura; Romero Tobar 1997; Ochoa 1861",
       "member of": "Real Academia Española: honorary member, then miembro titular in 1847 (for the letter 'H')",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
     },
@@ -803,7 +807,8 @@
         "In 1787, in a trip accompanying Cabarrús to Paris in a diplomatic mission to advise Louis XVI on counter-revolutionary measures", 
         "In his 1792-1797 European tour, he witnessed the assault on the Tuileries on 10 August 1792, and being scared, went to England", 
         "1817-1820: fears of the newly restored Inquisition led him back to France on the pretext of taking the waters in Aix-en-Provence; he then went to Montpellier, Paris and Bologna",
-        "In 1821 he flees to Bayonne after the plague is declared in Barcelona. He would never return to Spain again. He settles in Bordeaux with his friend Manuel Silvela (also portrayed by Goya). In Bordeaux, he meets Goya again (who makes his second portrait in 1824). He dies in Paris in 1825."
+        "In 1821 he flees to Bayonne after the plague is declared in Barcelona. He would never return to Spain again. He settles in Bordeaux with his friend Manuel Silvela (also portrayed by Goya). In Bordeaux, he meets Goya again (who makes his second portrait in 1824)",
+        "He makes his last trip to Paris in 1828. He dies there that year."
         ],
       "writes in": "<i>Diario de Valencia</i> in 1812",
       "trips": "1792-1797 European tour (funded by Godoy): France, England, Belgium, Germany, Switzerland, Italy",
@@ -5286,7 +5291,8 @@
       "from": "Adrien Dauzats",
       "to": "Eugenio Ochoa",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "know each other since": "at least 1837. Dauzats introduces Ochoa to Hugo."
     },
     {
       "from": "Adrien Dauzats",
@@ -5367,7 +5373,11 @@
       "to": "Théophile Gautier",
       "connection_level": "direct? and secondary",
       "relationship type": "acquaintances",
-      "mentions": "Eugenio Ochoa criticizes Gautier: “la vergonzosa tutela literaria en que nos tienen hace tanto tiempo los novelistas de Tras-os-Montes”, y en una nota: “Así titula M. Th. Gautier su llamado Viaje a España, libro tan verídico, tan chusco como las flamantes cartas de M. Alejandro Dumas” (Eugenio Ochoa, 'Doña Blanca de Navarra, crónica del siglo XV por D. F. Navarro Villoslada, Art. II', Renacimiento, 1847, p.79) (Randolph 1966, p.55)"
+      "mentions": [
+        "In 1840, Gautier and Eugène Piot watch Hugo's <i>Hernani</i> in Spain, translated by Eugenio Ochoa. Gautier praises the translation.",
+        "Eugenio Ochoa criticizes Gautier: “la vergonzosa tutela literaria en que nos tienen hace tanto tiempo los novelistas de Tras-os-Montes”, y en una nota: “Así titula M. Th. Gautier su llamado Viaje a España, libro tan verídico, tan chusco como las flamantes cartas de M. Alejandro Dumas” (Eugenio Ochoa, 'Doña Blanca de Navarra, crónica del siglo XV por D. F. Navarro Villoslada, Art. II', Renacimiento, 1847, p.79) (Randolph 1966, p.55)."
+      ],
+      "bibliography": "Randolph 1966"
     },
     {
       "from": "Eugenio Ochoa",
@@ -5384,8 +5394,13 @@
     {
       "from": "Eugenio Ochoa",
       "to": "Victor Hugo",
-      "connection_level": "direct? and secondary",
-      "relationship type": "acquaintances"
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "knew each other since": "1837",
+      "mentions": "Ochoa describes his visit to Hugo (introduced by Adrien Dauzats) in 1837: 'Un padre rodeado de sus hijos, un monarca rodeado de su corte, no reciben más señales, aquel de cariño, este de respeto, que Victor Hugo en medio de sus habituales tertulianos, la mayor parte dscípulos suyos, imitadores de sus <i>formas</i> literarias, exageradores de sus extravíos, fanáticos de su gloria' (among this group of followers he mentions Vacqueria, Viardot, Nodier, Féval, Lucas, Feuillet, Gautier, Houssaye: 'jóvenes poetas y novelistas en la aurora de una brillante reputación') (Romero Tobar 1997, p. 222).",
+      "collaborations": "in 1836, Ochoa makes the translation of Hugo's <i>Hernani</i> (1830; set in 16th-century Spain). It first plays in Spain on 24 August 1836 at the Teatro del Príncipe in Madrid.This translation is praised by Gautier when he sees a representation in Spain with Piot in 1840. However, Ochoa made considerable changes from the original, removing any criticism towards the Church and elements perceived as 'immoral'. He also downplayed the 'diavolical and pathetic' nature of King Carlos, who was considered a historic hero of Carlism in the conservative sectors of 1830s Spain (Wikipedia). Dengler Gassin (1991, p.338-339) argues instead that Ochoa's translation is very close to the original, althoug he discusses some differences (such as translating 'baiser' as 'hug' instead of 'kiss' and ommitting a passage from Don Carlos) and says Ochoa falls into 'self-censorship'. Avrett (1954) did think that Ochoa's translation took far too many liberties, partly due to 'deep-rooted national and racial ideologies' and Spanish prudishness (p.362).",
+      "bibliography": "Ozaeta 2002; Romero Tobar 1997; Dengler Gassin 1991; Avrett 1954; Ochoa, 1861, <i>París, Londres y Madrid</i>",
+      "websistes": "[Wikipedia]https://es.wikipedia.org/wiki/Hernani_(obra_de_teatro)"
     },
     {
       "from": "Eugenio Ochoa",
