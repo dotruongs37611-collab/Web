@@ -684,10 +684,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               });
 
               htmlText = `<ul>${processedItems.join("")}</ul>`;
-            } else if (typeof value === "string" && value.includes(";")) {
-              // ✅ Si es un string separado por punto y coma, lo tratamos como lista
-              const items = value.split(";").map(v => `<li>${autoLinkNames(processMarkdownLinks(v.trim()), nodesMap)}</li>`);
-              htmlText = `<ul>${items.join("")}</ul>`;
+            
             } else {
               // ✅ Si es string normal
               htmlText = autoLinkNames(processMarkdownLinks(value), nodesMap);
