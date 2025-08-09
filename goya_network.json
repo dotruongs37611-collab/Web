@@ -2931,6 +2931,7 @@
         "Recent years: <i>Zamacois, Fortuny, Meissonier</i>, 2006-07, [Museo de Bellas Artes de Bilbao](https://bilbaomuseoa.eus/exposiciones/zamacois-fortuny-meissonier/); <i>Ernest Meissonier. rétrospective</i>, 1993, Musée des beaux-arts de Lyon."
       ],
       "bibliography": "Iñaki Moreno Ruiz de Eguino, <i>Artistas vascos en Roma (1865-1915)</i>, San Sebastián, 1995; Manuel Ossorio y Bernard, <i>Galería biográfica de artistas españoles del siglo xix [1883-1884]</i>, Madrid, 1975; J. Nombrela, «Eduardo Zamacois», <i>La Ilustración Española y Americana</i>, Madrid, 25 Jan 1871.",
+      "archives": "a large part of his documental collection was recently acquired by the Bilbao Museum (formerly in Paris), including correspondence (with Meissonier, Fortuny, J. G. Vibert, Édouard Detaille, Jules Worms), and drawings.",
       "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Eduardo_Zamacois_y_Zabala); [Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/zamacois-y-zabala-eduardo/49ca3919-7e82-4b6b-8b4e-771a7582a7f9)",
       "podcasts": "<i>Cualquier tiempo pasado fue anterior</i>, 'Anticlericalismo y pederastia' (29 Oct 2023).",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Zamacois.jpg",
@@ -4115,7 +4116,8 @@
       "to": "Eduardo Zamacois",
       "connection_level": "direct", 
       "relationship type": "master-student",
-      "knew each other since": "c.1860"
+      "knew each other since": "c.1860",
+      "correspondence": "part of the documental collection recently acquired by the Bilbao Museum (formerly in Paris)."
     },
     {
       "from": "Federico Madrazo",
@@ -4130,6 +4132,7 @@
       "connection_level": "direct", 
       "relationship type": "friends; colleagues",
       "knew each other since": "1866",
+      "correspondence": "part of the documental collection recently acquired by the Bilbao Museum (formerly in Paris).",
       "portraits": "Fortuny portrayed Zamacois in 1869 (etching, Met).",
       "collaborations": "Zamacois modelled as a bullfighter for Fortuny's famous painting <i>La Vicaría</i> (1870, Prado).",
       "interactions": "Zamacois introduced Fortuny to Goupil.",
