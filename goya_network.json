@@ -2882,7 +2882,7 @@
       "link to Goya's work": [
         "The print <i>Un cauchemar</i> (A nightmare) (1834), ridiculing King Louis-Philippe, possibly made by Meissonier, is clearly inspired by Goya's <i>Capricho</i> 43, 'El sueño de la razón produce monstruos' (Fayos Pérez 2024, pp.217-218).",
         "Meisonnier was inscribed as a reader at the Cabinet de Estampes of the Bibliothèque Royale (future BnF), where many artists of his generation were examining and copying the set of Goya's <i>Caprichos</i> (Fayos Pérez 2024, p.133; Lethève 1968, p.109).",
-        "1879 22 March, F.B. writes in <i>L'Univers Illustré</i> ('Le Malandrin, aquarelle de Fortuny'): 'Tout le tempérament du fougueux coloriste se retrouve ici. C'est bien là l'œuvre de celui dont notre maître Théophile Gautier a pu dire que chacune de ses toile 'semblait une écauche d eGoya, reprise et retouchée par Meissonier'' (p.189) (Fayos Pérez 2024, Appendix II)."
+        "1879 22 March, F.B. writes in <i>L'Univers Illustré</i> ('Le Malandrin, aquarelle de Fortuny'): 'Tout le tempérament du fougueux coloriste se retrouve ici. C'est bien là l'œuvre de celui dont notre maître Théophile Gautier a pu dire que chacune de ses toile 'semblait une ébauche de Goya, reprise et retouchée par Meissonier'' (p.189) (Fayos Pérez 2024, Appendix II)."
       ],
       "decorations/awards": "Chevalier de la Légion d'honneur (1846); Officier de la Légion d'honneur (1856); Commandeur de la Légion d'honneur (1867); Grand officier de la Légion d'honneur (1880); Grand-croix de la Légion d'honneur (1889).",
       "author of": "<i>Partie de piquet</i> (1845, Cardiff); <i<La barricade, rue de la Mortellerie, juin 1848</i> (Souvenir de la guerre civile) (1850, Louvre); <i>Man Reading</i> (1851, Clark); <i>Polichinelle</i> (1860, Wallace); <i>La Campagne de France, 1814</i> (1864); <i>Cuirassier sabre au clair</i> (c.1872, sculpture, Chicago AI); <i>Étude de cheval</i> (c.1880, Musée Bonnat-Helleu); <i>Le Siège de Paris</i> (c.1884, Orsay RF 1249).",
@@ -4185,7 +4185,11 @@
       "to": "Théophile Gautier",
       "connection_level": "direct?", 
       "relationship type": "acquaintances?",
-      "mentions": "Gautier compares Meissonier with the 17th-century Flemish masters like Gerard ter Borch, Gabriel Metsu, Pieter de Hooch and Vermeer.",
+      "mentions": [
+        "Gautier compares Meissonier with the 17th-century Flemish masters like Gerard ter Borch, Gabriel Metsu, Pieter de Hooch and Vermeer.",
+        "1879 22 March, F.B. writes in <i>L'Univers Illustré</i> ('Le Malandrin, aquarelle de Fortuny'): 'Tout le tempérament du fougueux coloriste se retrouve ici. C'est bien là l'œuvre de celui dont notre maître Théophile Gautier a pu dire que chacune de ses toile 'semblait une ébauche de Goya, reprise et retouchée par Meissonier'' (p.189) (Fayos Pérez 2024, Appendix II)."
+      ],
+      "bibliography": "Fayos Pérez 2024",
       "websistes": "[Wikipedia](https://fr.wikipedia.org/wiki/Ernest_Meissonier)"
     },
     {
