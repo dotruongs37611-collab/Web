@@ -510,6 +510,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "archives", label: "Archives" },
           { type: "field", key: "bibliography", label: "Bibliography" },
           { type: "field", key: "websites", label: "Websites" },
+          { type: "field", key: "podcasts", label: "Podcasts" },
           { type: "field", key: "image source", label: "Image source" },
         ];
 
@@ -657,6 +658,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "portraits", label: "Portraits" },
           { key: "bibliography", label: "Bibliography" },
           { key: "websites", label: "Websites" },
+          { key: "podcasts", label: "Podcasts" },
           { key: "archives", label: "Archives" }
         ];
 
