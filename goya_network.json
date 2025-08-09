@@ -2864,6 +2864,27 @@
       "image source": "Fosca 1884 sculpture"
     },
     {
+      "id": "Ernest Meissonier",
+      "label": "Meissonier",
+      "full name": "Jean-Louis Ernest Meissonier",
+      "life dates": "1815-1891",
+      "born in": "Lyon",
+      "nationality": "French",
+      "profession": "painter and sculptor",
+      "military activity": "<i>capitaine d'artillerie</i> in the Garde Nationale during the 1848 Revolution (which spurs the creation of <i>Barricade</i> or <i>Souvenir de la guerre civile</i>).",
+      "married to": "Élisa Meissonier; Emma Steinheil",
+      "children": "Charles Meissonier",
+      "member of": "Société héliographique; Société nationale des beaux-arts; Académie royale suédoise des Beaux-Arts; Royal Academy; Académie des beaux-arts",
+      "masters": "Léon Cogniet",
+      "students": "Édouard Detaille, Alphonse Moutte, Daniel Ridgway Knight, Louis Monziès, Charles Meissonier, Lucien Gros, Eduardo Zamacois",
+      "decorations/awards": "Chevalier de la Légion d'honneur (1846); Officier de la Légion d'honneur (1856); Commandeur de la Légion d'honneur (1867); Grand officier de la Légion d'honneur (1880); Grand-croix de la Légion d'honneur (1889).",
+      "author of": "<i<La barricade, rue de la Mortellerie, juin 1848</i> (Souvenir de la guerre civile) (1850, Louvre); <i>La Campagne de France, 1814</i> (1864); <i>Le Siège de Paris</i> (c.1884, Orsay RF 1249).",
+      "portrayed by": "Robert Jefferson Bingham, photograph, 1865",
+      "exhibitions": "<i>Zamacois, Fortuny, Meissonier</i>, 2006-07, [Museo de Bellas Artes de Bilbao](https://bilbaomuseoa.eus/exposiciones/zamacois-fortuny-meissonier/); <i>Ernest Meissonier. rétrospective</i>, 1993, Musée des beaux-arts de Lyon.",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Meissonier.jpg",
+      "image source": "Jefferson Bingham's portrait 1865"
+    },
+    {
       "id": "Eugène Dutuit",
       "label": "E. Dutuit",
       "life dates": "1807-1886",
@@ -4036,6 +4057,41 @@
       "connection_level": "direct",
       "relationship type": "acquaintances. Marcello made 9 etchings and some lithographs inspired by Eugène Delacroix (1873)",
       "they met": "on 6 September 1860"
+    },
+    {
+      "from": "Ernest Meissonier",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances. Delacroix admired Meissonier.",
+      "interactions": "Delacroix saw Meisonnier's drawing <i>La Barricade</i> (1848, Louvre RF 51769 Recto) in his workshop and liked it so much that he author gave it to him. It was then sold in the 1864 Delacroix sale to Louis Steinheil.",
+      "mentions": "'La finesse chez nous est ce qu’il y a de plus rare : tout a l’air d’être fait avec de gros outils et, qui pis est, par des esprits obtus et vulgaires. Otez Meissonier, Decamps, un ou deux autres encore, quelques tableaux de la jeunesse d’Ingres, tout est banal, émoussé, sans intention, sans chaleur' (Flat & Piot 1894, pp.36-37).",
+      "bibliography": "Paul Flat & René Piot, <i>Journal de Delacroix (1855-1863)</i>, 1893.",
+      "websistes": "<i>La Barricade</i>, [Louvre](https://collections.louvre.fr/en/ark:/53355/cl020507673)"
+    },
+    {
+      "from": "Ernest Meissonier",
+      "to": "Édouard Manet",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; former military colleagues",
+      "mentions": "Manet criticised one of Meissonier's battle paintings: 'Tout est en acier, excepté les cuirasses' (Perruchot 1965?).",
+      "interactions": "Manet and Degas served under the orders of Meissonier in the National Guard",
+      "bibliography": "Henri Perruchot, <i>La peinture</i>, 1965, p.?."
+    },
+    {
+      "from": "Ernest Meissonier",
+      "to": "Edgar Degas",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; former military colleagues",
+      "mentions": "Degas allegedly criticised Meissonier as 'le géant des nains' (the giant of dwarves) (Peduzzi 1988, p.124; Meissonier exhibition catalogue 1993, p.25).",
+      "interactions": "Degas and Manet served under the orders of Meissonier in the National Guard",
+      "bibliography": "Meissonier exhibition catalogue, Musée des beaux-arts de Lyon, 1993; Richard Peduzzi, <i>Degas. Galeries nationales du Grand Palais, 1988</i>."
+    },
+    {
+      "from": "Ernest Meissonier",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances?",
+      "collaborations": "Bracquemond produced copies after Meissonier."
     },
     {
       "from": "Marcello (Adèle d'Affry)",
