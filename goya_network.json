@@ -4196,6 +4196,14 @@
       "websistes": "[Wikipedia](https://fr.wikipedia.org/wiki/Ernest_Meissonier)"
     },
     {
+      "from": "Raimundo Madrazo",
+      "to": "Théophile Gautier",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances?",
+      "mentions": "1879 22 March, F.B. writes in <i>L'Univers Illustré</i> ('Le Malandrin, aquarelle de Fortuny'): 'Tout le tempérament du fougueux coloriste se retrouve ici. C'est bien là l'œuvre de celui dont notre maître Théophile Gautier a pu dire que chacune de ses toile 'semblait une ébauche de Goya, reprise et retouchée par Meissonier'' (p.189) (Fayos Pérez 2024, Appendix II).",
+      "bibliography": "Fayos Pérez 2024"
+    },
+    {
       "from": "Ernest Meissonier",
       "to": "Charles Blanc",
       "connection_level": "direct?", 
