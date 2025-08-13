@@ -921,7 +921,7 @@
       "born in": "Zaragoza",
       "nationality": "Spanish",
       "parents": "José Ignacio de Vallabriga y Español and Josefa de Rozas y Drummond de Melfort",
-      "married to": "Luis de Borbón (1776-1820)",
+      "married to": "Luis de Borbón (1776-1820), 32 years older",
       "children": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
       "aristocratic titles": "Dama de la Orden de las Damas Nobles de la reina María Luisa",
       "portrayed by": "Goya, 1783, Galleria degli Uffizi (equestrian portrait); Goya, 1783, bust portrait (profile), Pardo; Goya, 1783, Neue Pinakothek Munich; Goya, c.1783, private collection",
@@ -938,7 +938,7 @@
       "nationality": "Spanish",
       "parents": "Felipe V and Isabel de Farnesio",
       "profession": "clergyman (cardinal); aristocrat",
-      "married to": "María Teresa de Vallabriga",
+      "married to": "María Teresa de Vallabriga (1776-1820), 32 years younger",
       "children": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
       "aristocratic titles": "Infante de España; XIII Count of Chinchón (1761)",
       "works as": "archbishop of Seville; cardinal-archibishop of Toledo and Primado de España",
@@ -3701,6 +3701,13 @@
       "connection_level": "direct",
       "relationship type": "patronage; portraitist-sitter",
       "portraits": "1783 individual portrait; 1784 group portrait (<i>La familia del infante Don Luis de Borbón</i>)"
+    },
+    {
+      "from": "Anton Raphael Mengs",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "patronage; portraitist-sitter",
+      "portraits": "1767, San Diego Museum"
     },
     {
       "from": "Manuel Godoy",
