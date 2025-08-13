@@ -3648,6 +3648,24 @@
     },
     {
       "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Carlos III",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "relatives; first cousins"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "María Luisa de Parma",
+      "connection_level": "direct",
+      "relationship type": "relatives; first cousins"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
       "to": "Josefa Tudó",
       "connection_level": "direct",
       "relationship type": "Tudó was Godoy's lover while he was married to the Countess of Chinchón until her death in 1828.",
