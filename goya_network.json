@@ -951,6 +951,28 @@
       "image source": "Mengs, 1767, San Diego Museum"
     },
     {
+      "id": "Luis Paret",
+      "label": "Paret",
+      "full name": "Luis Paret y Alcázar",
+      "life dates": "1746-1799", 
+      "profession": "painter, draughtsman, printmaker",
+      "born in": "Madrid",
+      "nationality": "Spanish",
+      "studies in": "RABASF",
+      "member of": "RABASF since 1780 (same year as Goya)",
+      "lives in": "Madrid, Puerto Rico, Bilbao, Navarra (Viana)",
+      "married to": "Micaela Fourdinier",
+      "portrayed by": "self-portrait, c.1779, Abelló collection, Madrid",
+      "curiosities": "from 1775 to 1778, he is banned by Carlos III due to his promiscuous life, and exiled to Puerto Rico",
+      "worked for": "Luis de Borbón (from 1774)",
+      "works as": "vice-secretary of the RABASF (1792)",
+      "author of": "<i>La tienda de Geniani</i> (1772, Lázaro Galdiano); <i>La Puerta del Sol en Madrid</iZ (1773, Museo Nacional de Cuba); <i>Carlos III comiendo ante su corte</i> (c.1775, Prado); <i>La Circunspección de Diógenes</i> (1780, RABASF); <i>Una celestina y dos amantes</i>, watercolor (1784, Prado); <i>El rezo del rosario</i> (c.1784-95, Palacio Real Madrid); <i>Jura de Fernando VII como príncipe de Asturias</i> (1791, Prado)",
+      "exhibitions": "2022, <i>Paret</i>, Prado (Gudrun Maurer); 2021, Museo de Bellas Artes de Bilbao; 2018, Paret's prints and drawings, BNE.",
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Luis_Paret_y_Alc%C3%A1zar)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Paret.jpg",
+      "image source": "self-portrait c.1779"
+    },
+    {
       "id": "Cyprien Gaulon",
       "label": "Gaulon",
       "life dates": "1777-1858", 
@@ -3722,6 +3744,41 @@
       "connection_level": "direct",
       "relationship type": "patronage; portraitist-sitter",
       "portraits": "1783 individual portrait; 1784 group portrait (<i>La familia del infante Don Luis de Borbón</i>)"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Luis Paret",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "portraits": "<i>Carlos III comiendo ante su corte</i> (c.1775, Prado)",
+      "interactions": "from 1775-1778 Carlos III bans Paret to Puerto Rico as punishment for his promiscuous life."
+    },
+    {
+      "from": "Carlos IV",
+      "to": "Luis Paret",
+      "connection_level": "direct",
+      "relationship type": "patronage"
+    },
+    {
+      "from": "Count of Floridablanca",
+      "to": "Luis Paret",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "interactions": "Floridablanca provides Paret with royal licence to continue his work in Viana (Navarra) in 1786"
+    },
+    {
+      "from": "Luis de Borbón",
+      "to": "Luis Paret",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "knew each other since": "at least 1774"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Luis Paret",
+      "connection_level": "direct",
+      "relationship type": "patronage",
+      "patronage": "<i>Jura de Fernando VII como príncipe de Asturias</i> (1791, Prado)"
     },
     {
       "from": "Anton Raphael Mengs",
