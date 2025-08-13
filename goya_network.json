@@ -870,6 +870,7 @@
     {
       "id": "Josefa Tudó",
       "label": "P. Tudó",
+      "also known as": "Pepita Tudó",
       "full name": "Josefa Petra Francisca de Paula de Tudó y Catalán, Alemany y Luesia",
       "life dates": "1779-1869",
       "nationality": "Spanish",
@@ -911,6 +912,41 @@
       "portrayed by": "Goya, 1783, National Gallery, Washington; Goya, 1784, in Retrato del Infante Don Luis (Fundación Magnani-Rocca, Italy); Goya, 1800, Prado",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Chinchon.jpg",
       "image source": "Goya portrait, 1800, Prado"
+    },
+    {
+      "id": "María Teresa de Vallabriga",
+      "label": "Vallabriga",
+      "full name": "María Teresa de Vallabriga y Rozas",
+      "life dates": "1759-1820", 
+      "born in": "Zaragoza",
+      "nationality": "Spanish",
+      "parents": "José Ignacio de Vallabriga y Español and Josefa de Rozas y Drummond de Melfort",
+      "married to": "Luis de Borbón (1776-1820)",
+      "children": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
+      "aristocratic titles": "Dama de la Orden de las Damas Nobles de la reina María Luisa",
+      "portrayed by": "Goya, 1783, Galleria degli Uffizi (equestrian portrait); Goya, 1783, bust portrait (profile), Pardo; Goya, 1783, Neue Pinakothek Munich; Goya, c.1783, private collection",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vallabriga.jpg",
+      "image source": "Goya portrait, 1783, Neue Pinakothek Munich"
+    },
+    {
+      "id": "Luis de Borbón",
+      "label": "Infante D.Luis",
+      "full name": "Luis Antonio Jaime de Borbón y Farnesio",
+      "life dates": "1727-1785", 
+      "born in": "Madrid (Palacio del Buen Retiro)",
+      "address": "Palacio de la Mosquera (Arenas de San Pedro, Ávila)",
+      "nationality": "Spanish",
+      "parents": "Felipe V and Isabel de Farnesio",
+      "profession": "clergyman (cardinal); aristocrat",
+      "married to": "María Teresa de Vallabriga",
+      "children": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
+      "aristocratic titles": "Infante de España; XIII Count of Chinchón (1761)",
+      "works as": "archbishop of Seville; cardinal-archibishop of Toledo and Primado de España",
+      "patronage": "Francisco de Goya; Luis Paret; Luigi Boccherini",
+      "portrayed by": "Van Loo, c.1737, Prado; Mengs, 1767, San Diego Museum; Goya (attributed), 1783, private collection; Goya, 1784, <i>La familia del infante don Luis de Borbón</i>, Fondazione Magnani-Rocca",
+      "exhibitions": "2012-13, <i>Goya y el Infante Don Luis: el exilio y el reino</i>, [Patrimonio Nacional](https://www.patrimonionacional.es/microsites/goya/)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Borbon.jpg",
+      "image source": "Mengs, 1767, San Diego Museum"
     },
     {
       "id": "Cyprien Gaulon",
@@ -3645,6 +3681,68 @@
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "María Teresa de Vallabriga",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "Francisco de Goya",
+      "to": "María Teresa de Vallabriga",
+      "connection_level": "direct",
+      "relationship type": "patronage; portraitist-sitter",
+      "portraits": "several portraits in 1783"
+    },
+    {
+      "from": "Francisco de Goya",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "patronage; portraitist-sitter",
+      "portraits": "1783 individual portrait; 1784 group portrait (<i>La familia del infante Don Luis de Borbón</i>)"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-in-law, son-in-law"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "María Teresa de Vallabriga",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-in-law, son-in-law"
+    },
+    {
+      "from": "Carlos III",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers"
+    },
+    {
+      "from": "Carlos IV",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-nephew"
+    },
+    {
+      "from": "María Luisa de Parma",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "relatives; uncle-niece"
+    },
+    {
+      "from": "Fernando VII",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "relatives; great-uncle, great-nephew"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Luis de Borbón",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-daughter"
     },
     {
       "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
