@@ -307,6 +307,7 @@
       "mentioned in the French press": "in 1826, 9 Nov (<i>Le Moniteur universel</i>)",
       "married to": "Isabel Kuntz y Valentini (1809)", 
       "children": "Federico Madrazo, Pedro Madrazo, Luis Madrazo, Juan Madrazo, Carlota Madrazo",
+      "podcasts": "<i>Arte compacto</i> 27 April 2025, ['José de Madrazo'](https://creators.spotify.com/pod/profile/arte-compacto/episodes/85--Jos-de-Madrazo--apoltico-y-padrazo--con-Carlos-G--Navarro-e3227l8), ft. Carlos G. Navarro",
       "bibliography": "Sánchez 2024; González Navarro 2023; Guinard 1967-A, p.85",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
     },
@@ -884,6 +885,7 @@
         "In the 1820s she is in contact with many famous Spaniards exiled in Paris, such as the Count of Toreno, the Marquis of Pontejos, the Duchess of Híjar and the Duke of San Carlos. She attends the <i>soirées</i> organised by Madame Salazar (La Parra López 1997, p.81).",
         "1831-1834: she lives with Godoy in Paris (9 rue des Mathurins)."
       ],
+      "link to Goya's work": "Pedro Madrazo created the myth of Josefa Tudó being the model of Goya's naked and clothed <i>Majas</i>, but this is a fabricated story, as explained by Carlos G. Navarro (see <i>Arte compacto</i>, [27 April 2025](https://www.youtube.com/shorts/2HRbEYmYGWY), 'José de Madrazo').",
       "in Madrid": "1834: she returns from Paris to rehabilitate Godoy's image in Spain and recover the confiscated properties by Fernando VII (dead in 1833).",
       "in Italy": [
         "1812-c.1819: she lives with Godoy in Rome, who accompanies Carlos IV and María Luisa de Parma in their exile.",
@@ -3645,7 +3647,26 @@
       "connection_level": "direct",
       "relationship type": "patronage; portraitist-sitter",
       "know each other since": "at least 1810",
-      "portraits": "c.1810-15, c.1812 (Prado), 1813 (RABASF)"
+      "portraits": "c.1810-15; c.1812, <i>Josefa Tudó con sus hijos Manuel y Luis Godoy, en un jardín</i>, Prado; 1813, RABASF",
+      "websistes": "[Prado](https://www.museodelprado.es/coleccion/obra-de-arte/josefa-tudo-con-sus-hijos-manuel-y-luis-godoy-en/19ba4e46-4509-4ae0-80d8-894541c9a8e4)",
+      "podcasts": "<i>Arte compacto</i>, [27 April 2025](https://www.youtube.com/shorts/2HRbEYmYGWY), 'José de Madrazo', ft. Carlos G. Navarro"
+    },
+    {
+      "from": "Josefa Tudó",
+      "to": "Pedro Madrazo",
+      "connection_level": "direct?",
+      "relationship type": "acquaintances?",
+      "interactions": "Pedro Madrazo created the myth of Josefa Tudó being the model of Goya's naked and clothed <i>Majas</i>",
+      "websistes": "[Prado](https://www.museodelprado.es/coleccion/obra-de-arte/josefa-tudo-con-sus-hijos-manuel-y-luis-godoy-en/19ba4e46-4509-4ae0-80d8-894541c9a8e4)",
+      "podcasts": "<i>Arte compacto</i> [27 April 2025](https://www.youtube.com/shorts/2HRbEYmYGWY), 'José de Madrazo', ft. Carlos G. Navarro"
+    },
+    {
+      "from": "Francisco de Goya",
+      "to": "Pedro Madrazo",
+      "connection_level": "seconary?",
+      "interactions": "Pedro Madrazo created the myth of Josefa Tudó being the model of Goya's naked and clothed <i>Majas</i>",
+      "websistes": "[Prado](https://www.museodelprado.es/coleccion/obra-de-arte/josefa-tudo-con-sus-hijos-manuel-y-luis-godoy-en/19ba4e46-4509-4ae0-80d8-894541c9a8e4)",
+      "podcasts": "<i>Arte compacto</i> [27 April 2025](https://www.youtube.com/shorts/2HRbEYmYGWY), 'José de Madrazo', ft. Carlos G. Navarro"
     },
     {
       "from": "Josefa Tudó",
