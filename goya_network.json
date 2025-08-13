@@ -960,15 +960,23 @@
       "nationality": "Spanish",
       "studies in": "RABASF",
       "member of": "RABASF since 1780 (same year as Goya)",
-      "lives in": "Madrid, Puerto Rico, Bilbao, Navarra (Viana)",
+      "lives in": "Madrid, Puerto Rico, Bilbao (1778-89), Navarra (Viana), Madrid (1789)",
+      "parents": "French father and Spanish mother",
+      "masters": "Antonio González Velázquez (follower of Corrado Giaquinto); Charles François de la Traverse (1766)",
+      "trips": "Rome",
       "married to": "Micaela Fourdinier",
       "portrayed by": "self-portrait, c.1779, Abelló collection, Madrid",
-      "curiosities": "from 1775 to 1778, he is banned by Carlos III due to his promiscuous life, and exiled to Puerto Rico",
+      "curiosities": [
+        "From 1775 to 1778, he is banned by Carlos III (accused of acting as Luis de Borbón's pimp), and exiled to Puerto Rico",
+        "He has been called 'the Spanish Watteau'."
+      ],
       "worked for": "Luis de Borbón (from 1774)",
       "works as": "vice-secretary of the RABASF (1792)",
-      "author of": "<i>La tienda de Geniani</i> (1772, Lázaro Galdiano); <i>La Puerta del Sol en Madrid</iZ (1773, Museo Nacional de Cuba); <i>Carlos III comiendo ante su corte</i> (c.1775, Prado); <i>La Circunspección de Diógenes</i> (1780, RABASF); <i>Una celestina y dos amantes</i>, watercolor (1784, Prado); <i>El rezo del rosario</i> (c.1784-95, Palacio Real Madrid); <i>Jura de Fernando VII como príncipe de Asturias</i> (1791, Prado)",
+      "author of": "<i>La tienda de Geniani</i> (1772, Lázaro Galdiano); <i>La Puerta del Sol en Madrid</iZ (1773, Museo Nacional de Cuba); <i>Carlos III comiendo ante su corte</i> (c.1775, Prado); <i>Autorretrato en el estudio</i> (1777, Prado); <i>Joven dormida en una hamaca</i> (1780-81, Prado); <i>La Circunspección de Diógenes</i> (1780, RABASF); <i>Una celestina y dos amantes</i>, watercolor (1784, Prado); <i>El rezo del rosario</i> (c.1784-95, Palacio Real Madrid); <i>Jura de Fernando VII como príncipe de Asturias</i> (1791, Prado)",
       "exhibitions": "2022, <i>Paret</i>, Prado (Gudrun Maurer); 2021, Museo de Bellas Artes de Bilbao; 2018, Paret's prints and drawings, BNE.",
-      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Luis_Paret_y_Alc%C3%A1zar)",
+      "art collection": "he had a rich library that included prints by Hogarth, Bourdon, Stubbs, Vernet and Guercino",
+      "newspaper archive": "Ángeles García, 'Luis Paret, el pintor que tuvo la mala suerte de coincidir con Goya', <i>El País</i>, [23 May 2022](https://elpais.com/cultura/2022-05-23/luis-paret-el-pintor-que-tuvo-la-mala-suerte-de-coincidir-con-goya.html)",
+      "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/paret-y-alcazar-luis/9feac181-c1c4-4d8d-a91e-ab47d081213e), Xavier Bray; [Wikipedia](https://es.wikipedia.org/wiki/Luis_Paret_y_Alc%C3%A1zar)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Paret.jpg",
       "image source": "self-portrait c.1779"
     },
@@ -3751,7 +3759,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "portraits": "<i>Carlos III comiendo ante su corte</i> (c.1775, Prado)",
-      "interactions": "from 1775-1778 Carlos III bans Paret to Puerto Rico as punishment for his promiscuous life."
+      "interactions": "from 1775-1778 Carlos III bans Paret to Puerto Rico (accused of acting as Luis de Borbón's pimp)."
     },
     {
       "from": "Carlos IV",

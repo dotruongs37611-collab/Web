@@ -509,6 +509,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "section", label: "Sources and Documentation" },
           { type: "field", key: "archives", label: "Archives" },
           { type: "field", key: "bibliography", label: "Bibliography" },
+          { type: "field", key: "newspaper archive", label: "Newspaper archive" },
           { type: "field", key: "websites", label: "Websites" },
           { type: "field", key: "podcasts", label: "Podcasts" },
           { type: "field", key: "image source", label: "Image source" },
@@ -660,6 +661,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "bibliography", label: "Bibliography" },
           { key: "websites", label: "Websites" },
           { key: "podcasts", label: "Podcasts" },
+          { key: "newspaper archive", label: "Newspaper archive" },
           { key: "archives", label: "Archives" }
         ];
 
