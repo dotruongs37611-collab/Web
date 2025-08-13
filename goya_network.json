@@ -3743,6 +3743,12 @@
       "relationship type": "relatives; mother-in-law, son-in-law"
     },
     {
+      "from": "Luis de Borbón",
+      "to": "María Teresa de Vallabriga",
+      "connection_level": "direct",
+      "relationship type": "spouses; husband-wife"
+    },
+    {
       "from": "Carlos III",
       "to": "Luis de Borbón",
       "connection_level": "direct",
