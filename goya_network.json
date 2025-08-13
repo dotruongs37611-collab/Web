@@ -831,33 +831,67 @@
       "label": "Godoy",
       "life dates": "1767-1851",
       "nationality": "Spanish",
+      "born in": "Badajoz",
       "profession": "military member; politician",
       "full name": "Manuel Godoy y Álvarez de Faria Ríos",
       "aristocratic titles": "Príncipe de la Paz, I Marquis and Duke of Alcudia (Grandee of Spain), I Duke of Sueca (Grandee of Spain), I Baron of Mascalbó, VII Prince of Bassano, I Count of Évoramonte, Count of Chinchón (by marriage; Grandee of Spain), and others",
       "parents": "José Alfonso Godoy Cáceres Ovando y Ríos and Antonia Justa Álvarez de Faria y Sánchez Zarzoza",
-      "married to": "María Teresa de Borbón y Vallabriga (Condesa de Chinchón); Josefa Tudó y Catalán",
+      "married to": "María Teresa de Borbón y Vallabriga (Condesa de Chinchón); Josefa Tudó y Catalán (1829)",
       "children": "Carlota Luisa de Godoy y Borbón; Manuel Luis de Godoy y Tudó; Luis Carlos de Godoy y Tudó",
       "author of": "<i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1836-1838. He wrote them in Paris and they were translated into French by Jean-Baptiste Esménard",
-      "mentions of Goya": "in his <i>Memorias</i>, Madrid, Imprenta de I. Sancha: t.II, 1836, p.233 (mention of Goya among other artists); t.III, 1836, p.375 ('La calcografia real publicaba la coleccion de vistas del Escorial y las ochenta estampas de los bellos caprichos de don Francisco Goya, dibujados por él mismo'); t.IV, 1837, p.238 (mention of Goya's portrait)",
-      "in France": "Carlos IV, María Luisa de Parma and Godoy were first in exile in 1808 in Compiègne, close to Paris",
-      "in Italy": "from 1812, Carlos IV, María Luisa de Parma and Godoy were in exile in Rome, first at the Palazzo Borghese, then at the Palazzo Barberini (where María Luisa died in 1819)",
-      "in Paris": "after the death of Carlos IV and María Luisa de Parma in Italy, Godoy continued his exile in Paris from 1832, where King Louis-Philippe gave him a modest pension, and he focused on the writing of his autobiography. In 1844 and 1847, Queen Isabel II gave him back his titles and properties, but he did not return to Spain. In 1848, he witnessed the revolution in Paris, and the exaltation of Napoleon III",
+      "in France": [
+        "1808: in exile with Carlos IV and María Luisa de Parma, in Compiègne, close to Paris. Then Marseille.",
+        "1831-1851."
+      ],
+      "in Paris": "From 1831 Godoy lives in Paris with his second wife Josefa Tudó (9 rue des Mathurins). King Louis-Philippe gave him a modest pension, and he focused on the writing of his autobiography. His wife focused on real state investments (La Parra López 1997). In 1844 and 1847, Queen Isabel II gave him back his titles and properties, but he did not return to Spain. In 1848, he witnessed the revolution in Paris, and the exaltation of Napoleon III",
+      "in Italy": [
+        "1812: Godoy accompanies Carlos IV and María Luisa de Parma in their exile in Rome, first at the Palazzo Borghese, then at the Palazzo Barberini (where María Luisa died in 1819). The King dies in Naples.",
+        "Godoy and Josefa Tudó had a residence in Rome in Via del Corso, 255. They get married in 1829."
+      ],
       "art collection": "his collection included works by Zurbarán, Ribera, Murillo, Rubens, Teniers, Tiziano, Goya and Velázquez (including the famous <i>Venus del espejo</i>, known as the 'Rokeby Venus', now at the London National Gallery). His estates, titles and art collection were expropriated when Godoy went into exile, and there are unanswered questions about, for instance, the dubious ways in which the 'Rokeby Venus' ended up in England",
       "patronage": "he commissioned portraits from all the main artists of the moment, including Goya",
       "collector of Goya's works": "Godoy commissioned Goya with a portrait (1801) and the two celebrated 'Majas': the <i>Maja vestida</i> and the <i>Maja desnuda</i>, both paintings now at the Prado (see Goya-Godoy edge).",
+      "mentions of Goya": "in his <i>Memorias</i>, Madrid, Imprenta de I. Sancha: t.II, 1836, p.233 (mention of Goya among other artists); t.III, 1836, p.375 ('La calcografia real publicaba la coleccion de vistas del Escorial y las ochenta estampas de los bellos caprichos de don Francisco Goya, dibujados por él mismo'); t.IV, 1837, p.238 (mention of Goya's portrait)",
       "rivals": "Count of Floridablanca; Count of Aranda; Ferdinand VII",
-      "bibliography": "José Belmonte Díaz & Pilar Leseduarte, <i>Godoy: historia documentada de un expolio</i>, 2004; <i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1839-1841",
-      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Manuel_Godoy)",
       "works for": "Carlos III; Carlos IV",
-      "works as": "Guardia de Corps (1784), for Carlos III; Mariscal de campo (Field Marshal) (Feb 1791), teniente general (July 1791), Generalísimo (1801) and Gran almirante (1807) of the Reales Ejércitos; Primer Secretario de Estado (1792-1798) and President of the Consejo de Estado; Almirante general de España e Indias (1807) (Alteza Serenísima); Primer Ministro; Jefe superior de los Reales Cuerpos de Artillería e Ingenieros; Ayudante general del Real Cuerpo de Guardias de Corps; Coronel general de la Guardia Suiza Pontificia; Gentilhombre de la Cámara del Rey con ejercicio; Superintendente general de la Renta de Correos (1792-1798)",
+      "military activity": "Guardia de Corps (1784), for Carlos III; Mariscal de campo (Field Marshal) (Feb 1791), teniente general (July 1791), Generalísimo (1801) and Gran almirante (1807) of the Reales Ejércitos; Almirante general de España e Indias (1807) (Alteza Serenísima); Jefe superior de los Reales Cuerpos de Artillería e Ingenieros; Ayudante general del Real Cuerpo de Guardias de Corps; Coronel general de la Guardia Suiza Pontificia.",
+      "works as": "military man; Primer Secretario de Estado (1792-1798) and President of the Consejo de Estado; Primer Ministro; Gentilhombre de la Cámara del Rey con ejercicio; Superintendente general de la Renta de Correos (1792-1798).",
       "decorations/awards": [
         "Spain: Caballero de la Orden del Toisón de Oro; Gran Cruz de la Orden de Cristo; Caballero de la Orden de Carlos III; Caballero de la Real y Militar Orden de San Hermenegildo; Caballero (1789) y comendador (1790) de la Orden de Santiago. Also he was named protector of the Real Academia de Nobles Artes y de los Reales Institutos de Historia Natural, Jardín Botánico, Laboratorio Químico and the Observatory",
         "Foreign: Bailío gran cruz de la Orden de San Juan de Jerusalén; Caballero de la Orden de la Legión de Honor; Caballero de la Suprema Orden de Cristo (Reino de Portugal); Caballero de la Suprema Orden de Cristo (Estados Pontificios); Caballero de la Orden de San Jenaro (Reino de las Dos Sicilias); Caballero de la Orden de San Fernando y el Mérito (Reino de las Dos Sicilias)"
         ],
       "political views": "extremely loyal to Carlos IV and María Luisa de Parma, who gave him countless decorations and aristocratic titles. He limited the power of the high aristocracy. In 1797, he formed a government considered <i>ilustrado</i>: Jovellanos (Secretary of Justice), Francisco de Saavedra (Hacienda), Cabarrús (creator of Banco de San Carlos): sent to Paris as ambassador; he also included Meléndez Valdés and Mariano Luis de Urquijo. Most of these politicians were portrayed by Goya, and many were also his friends.",
       "portrayed by": "Francisco Folch de Cardona, 1788, RABASF; Francisco Bayeu, 1792, RABASF; Juan Adán, 1794, RABASF (sculpture: bust); Francisco de Goya, 1794, private collection (equestrian portrait); Agustín Esteve, 1800, Chicago Art Institute; Francisco de Goya, 1801, RABASF; Agustín Esteve, c.1806, portrait as founder of the Instituto Pestalozzi, Museo de Bellas Artes de Valencia; Antonio Carnicero, c.1807-1808, RABASF; José de Madrazo, c.1816, RABASF",
+      "bibliography": "José Belmonte Díaz & Pilar Leseduarte, <i>Godoy: historia documentada de un expolio</i>, 2004; Emilio La Parra López, 'Godoy en el París de Luis Felipe. La atracción de una imagen de prosperidad', <i>La imagen de Francia en España (1808-1850)</i>, pp.79-86; <i>Memorias de don Manuel Godoy, Príncipe de la Paz, ó sea cuenta dada de su vida política, para servir a la historia del reinado del señor don Carlos IV de Borbón</i>, 6 volumes, 1839-1841",
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Manuel_Godoy)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Godoy.jpg",
       "image source": "Goya portrait, 1801, RABASF"
+    },
+    {
+      "id": "Josefa Tudó",
+      "label": "P. Tudó",
+      "full name": "Josefa Petra Francisca de Paula de Tudó y Catalán, Alemany y Luesia",
+      "life dates": "1779-1869",
+      "nationality": "Spanish",
+      "aristocratic titles": "I Condesa de Castillo Fiel (1807), I Vizcondesa de Rocafuerte y Princesa de Bassano",
+      "born in": "Cádiz",
+      "parents": "Antonio de Tudó y Alemany and Catalina de Catalán y Luesia",
+      "married to": "Manuel Godoy in 1829 (Rome). They were lovers since c.1797.",
+      "children": "Manuel Luis de Godoy y Tudó; Luis Carlos de Godoy y Tudó",
+      "in Paris": [
+        "From 1819, she lives in Paris while Godoy stays in Rome. Her and Godoy make several real state investments.",
+        "In the 1820s she is in contact with many famous Spaniards exiled in Paris, such as the Count of Toreno, the Marquis of Pontejos, the Duchess of Híjar and the Duke of San Carlos. She attends the <i>soirées</i> organised by Madame Salazar (La Parra López 1997, p.81).",
+        "1831-1834: she lives with Godoy in Paris (9 rue des Mathurins)."
+      ],
+      "in Madrid": "1834: she returns from Paris to rehabilitate Godoy's image in Spain and recover the confiscated properties by Fernando VII (dead in 1833).",
+      "in Italy": [
+        "1812-c.1819: she lives with Godoy in Rome, who accompanies Carlos IV and María Luisa de Parma in their exile.",
+        "Godoy and Josefa Tudó had a residence in Rome in Via del Corso, 255. They get married in 1829."
+      ],
+      "portrayed by": "José Madrazo, c.1810-15; José Madrazo, c.1812, Prado; José Madrazo, 1813, RABASF",
+      "bibliography": "Emilio La Parra López, 'Godoy en el París de Luis Felipe. La atracción de una imagen de prosperidad', <i>La imagen de Francia en España (1808-1850)</i>, pp.79-86",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Tudo.jpg",
+      "image source": "Madrazo portrait, c.1812, Prado"
     },
     {
       "id": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
@@ -3562,10 +3596,68 @@
       "relationship type": "colleagues; rivals"
     },
     {
+      "from": "Josefa Tudó",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "know each other since": "at least 1797",
+      "relationship type": "lovers (c.1797); spouses: husband-wife (1829)",
+      "children": "Manuel Luis de Godoy y Tudó; Luis Carlos de Godoy y Tudó"
+    },
+    {
+      "from": "Josefa Tudó",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "patronage; portraitist-sitter",
+      "know each other since": "at least 1810",
+      "portraits": "c.1810-15, c.1812 (Prado), 1813 (RABASF)"
+    },
+    {
+      "from": "Josefa Tudó",
+      "to": "María Luisa de Parma",
+      "connection_level": "direct",
+      "relationship type": "employer-employee. Tudó was a <i>Dama de la Orden de las Damas Nobles de la Reina María Luisa</i>",
+      "know each other since": "at least 1800"
+    },
+    {
+      "from": "Josefa Tudó",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1800"
+    },
+    {
+      "from": "Josefa Tudó",
+      "to": "Gaspar Melchor de Jovellanos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
+    },
+    {
+      "from": "Manuel Godoy",
+      "to": "Gaspar Melchor de Jovellanos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Gaspar Melchor de Jovellanos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "Josefa Tudó",
+      "connection_level": "direct",
+      "relationship type": "Tudó was Godoy's lover while he was married to the Countess of Chinchón until her death in 1828.",
+      "curiosities": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
+    },
+    {
       "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
       "to": "Manuel Godoy",
       "connection_level": "direct",
-      "relationship type": "spouses; husband-wife"
+      "relationship type": "spouses; husband-wife (1797-1828)"
     },
     {
       "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
