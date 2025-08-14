@@ -1351,8 +1351,9 @@
       "profession": "aristocrat, writer, socialite", 
       "in Spain": "in 1828?; in 1831",
       "author of": "1838, 17 June (<i>Le Temps</i>) essay on Goya's works (signed as 'A. de C.')",
-      "mentions of Goya": "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d’être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l’école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'; 1838 essay ('A. de C.'): Goya's <i>Caprichos</i>, <i>Disasters of War</i>, <i>Bulls of Bordeaux</i>, Familia Carlos IV, frescoes and Black paintings (Fayos Pérez 2025: publication pending)",
+      "mentions of Goya": "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d’être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l’école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'; 1838 essay ('A. de C.'): Goya's <i>Caprichos</i>, <i>Disasters of War</i>, <i>Bulls of Bordeaux</i>, Familia Carlos IV, frescoes and Black paintings.",
       "knows Goya's works": "by 1831",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
     },
     {
@@ -1678,8 +1679,11 @@
       "label": "Blanc",
       "life dates": "1813-1882",
       "nationality": "French",
-      "profession": "art critic",
-      "writes about Goya": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp. 1–12 (Lefort) and 17 (Blanc)",
+      "profession": "art critic, artist, historian",
+      "works as": "chief editor of the <i>Gazette des Beaux-arts</i>; director of Beaux-arts (1848-52, 1870-73).",
+      "writes about Goya": "<i>Histoire des peintres de toutes les écoles. Tome 2. École espagnole</i> by Charles Blanc, W. Bürger (Thoré), Paul Mantz, Louis Viardot and Paul Lefort (Paris, Vve Jules Renouard), with illustrations by Bocourt. Goya is discussed on pp.1–12 (Lefort) and 17 (Blanc)",
+      "collector of Goya's works": "he acquires several Goya artworks (probably prints and/or drawings) from Carderera (Paris, 1861). He also borrowed a 'small portrait of/by Goya' ('retratito de Goya') from Carderera, via Burty.",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Blanc.jpg"
     },
     {
@@ -4553,7 +4557,8 @@
     {
       "from": "Federico Madrazo",
       "to": "Alexandre Dumas père",
-      "label": ""
+      "label": "direct?",
+      "relationship type": "acquaintances?"
     },
     {
       "from": "Federico Madrazo",
@@ -4564,9 +4569,10 @@
       "portraits": "Madrazo portrays Adrien Dauzats in 1837",
       "correspondence": [
         "1834-IX-29, Dauzats to Madrazo: 'Je m'occupe d'une notice sur la vie et les ouvrages de Goya. C'est un hommage que nous voulons rendre à l'un des peintres les plus célèbres de l'Espagne' (Archivo Madrazo). Quoted in Guinard 1967-B, p.323 (Guinard thinks Dauzats could be the author of the article on Goya in 1834 in <i>Le Magasin pittoresque</i>); Fayos Pérez 2024, p.50.",
+        "1835-III-24, Madrazo to Dauzats (INHA). Pending publication. Mentions Taylor, Carderera, Ochoa and Masarnau.",
         "1837-VI-17, Dauzats to Madrazo (Archivo Madriazo) (Guinard 1967-B, p.269)."  
       ],
-        "bibliography": "Guinard 1967-B; Fayos Pérez 2024"
+        "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Guinard 1967-B."
     },
     {
       "from": "Federico Madrazo",
@@ -4736,7 +4742,17 @@
       "to": "Adrien Dauzats",
       "connection_level": "direct",
       "relationship type": "friends",
-      "correspondence": "non-dated (BNE, MSS/23291/39)"
+      "knew each other since": "at least 1845",
+      "interactions": [
+        "1856, 1 Oct (Paris): Carderera shows Dauzats hiw own drawings and also Goya's. Dauzats copies or traces some of them (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.352).",
+        "1859, 12 Nov (Paris): Carderera takes single sheets from the <i>Caprichos</i> and gives some of the prints to Dauzats: 'le regalé las estampas de Goya (29). Parece quedó content y quería pagármelas' (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.430)."
+      ],
+      "correspondence": [
+        "BNE (MSS/23291/39). Pending publication (Fayos Pérez 2025-2026).",
+        "Archivo familiar Carderera: at least two letters. No apparent mentions of Goya."
+      ],
+      "archives": "BNE; Archivo familiar Carderera (Madrid).",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
@@ -4777,10 +4793,19 @@
       "to": "Philippe Burty",
       "connection_level": "direct",
       "relationship type": "colleagues; friends",
-      "know each other since": "at least 1860",
+      "know each other since": "at least 1859",
       "discovers Goya's works": "Burty probably acquired his working-proof set of Goya's <i>Disasters of War</i> (now at the British Museum), among other Goya prints, through Carderera",
-      "correspondence": "from at least 1860 (BNE MSS/23291/19)",
-      "bibliography": "Fayos Pérez (upcoming)"
+      "collaborations": "at the <i>Gazette des Beaux-arts</i> c.1859-1861.",
+      "interactions": [
+        "1859, 5 Nov (Paris): Carderera shows Burty Goya’s drawings and some prints. He then gives him 5 prints from the <i>Disparates</i>: [le enseñé] 'mis dibujos, los de Goya, y varias estampas. Le regalé cinco de Los Proverbios. Dile las notas y la carta para Blanc' (Lanzarote Guiral 2016, p.425).",
+        "1861, 3 July: Carderera meets Burty and other librarians (LG 2016, p.449)",
+        "1861, 16 July: Carderera meets Burty (LG 2016, p.455)",
+        "1861, 23 July: Carderera meets Burty and helps him with an article (LG 2016, p.458)",
+        "1861, 2 Oct (Paris): Carderera asks Blanc for the 'small portrait of Goya'. Blanc and Houssaye gave him the 'entregas' from the Gazette. 'I warned them about the article of Goya given to Burty, etc.' (Lanzarote Guiral 2016, p.508)."
+      ],
+      "correspondence": "from at least 1860. BNE: 1860-1861; pending publication (Fayos Pérez 2025-2026).",
+      "archives": "BNE (MSS/23291/19)",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
     },
     {
       "from": "Eugène Delacroix",
@@ -5051,10 +5076,18 @@
       "from": "Valentín Carderera",
       "to": "Charles Blanc",
       "connection_level": "direct",
-      "know each other since": "at least 1861",
-      "they met": "1861 in Paris (Lanzarote Guiral 2016, p.536)",
-      "link to Goya's work": "1861 in Paris, Carderera gives Blanc Goya prints (Lanzarote Guiral 2016, p.536)",
-      "bibliography": "Lanzarote Guiral 2016"
+      "know each other since": "at least 1859",
+      "collaborations": "at the <i>Gazette des Beaux-arts</i> c.1859-1861.",
+      "interactions": [
+        "1859, 15 Oct: Blanc asks Carderera to collaborate in the <i>Gazette des Beaux-arts</i>. They are with Aznárez. Carderera shows him Goya works (prints? drawings?) (Lanzarote Guiral 2016, p.411).",
+        "1859, 3 Nov: Carderera gives Blanc 'some Goyas' and 'lent him two original drawings, etc.' (LG 2016, p.424).",
+        "1861, 20 Sept: they meet (LG 2016, p.500)",
+        "1861, 2 Oct: they meet. Carderera asks Blanc for his small portrait of/by Goya ('retratito de Goya'). He tells Blanc and Houssaye about 'the article of Goya given to Burty' (LG 2016, p.508)",
+        "1861, 7 Oct: they meet (LG 2016, p.511)",
+        "1861, 9 Oct (Paris): Carderera takes a 'package of Goyas for Charles Blanc' to the <i>Gazette</i>'s offices ('omé paquete de goyas para Charles Blanc, que entregué en el <i>bureau</i> de la Gaceta') (LG 2016, p.513)"
+      ],
+      "link to Goya's work": "Carderera gives/sells Goya prints to Blanc (Paris, 1861).",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
@@ -5155,7 +5188,8 @@
       "relationship type": "colleagues",
       "collaborations": "in the <i>Gazette des Beaux-arts</i> (see Correspondence 1866-69, BNE)",
       "correspondence": "at least 1866-1869",
-      "archives": "BNE, MSS/23291/74: 9 letters from Lefort and a sketch from Carderera referring to their collaboration in the <i>Gazette des Beaux-arts</i>"
+      "archives": "BNE, MSS/23291/74: 9 letters from Lefort and a sketch from Carderera referring to their collaboration in the <i>Gazette des Beaux-arts</i>. Pending publication (Fayos Pérez 2025-2026).",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming)"
     },
     {
       "from": "Valentín Carderera",
@@ -6724,7 +6758,8 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "know each other since": "the early 1830s; in 1835 in Vienna (Custine meets Mme Hanska)", 
-      "correspondence": "since at least 1838; Balzac attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine); Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's Disparates) (Fayos Pérez 2025, publication pending)"
+      "correspondence": "since at least 1838; Balzac attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine); Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's Disparates) (Fayos Pérez 2025-2026, pending publication)",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming)"
     },
     {
       "from": "Honoré de Balzac",
