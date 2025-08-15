@@ -2523,6 +2523,7 @@
       "id": "Pedro Madrazo",
       "label": "Pedro Madrazo",
       "full name": "Pedro de Madrazo y Kuntz",
+      "also known as": "Perico",
       "life dates": "1816-1898", 
       "nationality": "Spanish",
       "parents": "José Madrazo and Isabel Kuntz y Valentini",
@@ -4232,15 +4233,6 @@
     },
     {
       "from": "Federico Madrazo",
-      "to": "Valentín Carderera",
-      "connection_level": "direct",
-      "relationship type": "friends",
-      "know each other since": "at least 1837", 
-      "they met": "19 Aug 1861 (Paris): with Baron Taylor and Eugenio Ochoa",
-      "correspondence": "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París' (Bib: Lanzarote Guiral 2016 p.XXIII; Díez 1994, no.528, pp.988-89)"
-    },
-    {
-      "from": "Federico Madrazo",
       "to": "José Madrazo",
       "connection_level": "direct",
       "relationship type": "relatives; father-son"
@@ -4248,8 +4240,9 @@
       {
       "from": "Federico Madrazo",
       "to": "Eugenio Ochoa",
-        "connection_level": "direct",
-      "relationship type": "close friends"
+      "connection_level": "direct",
+      "relationship type": "close friends",
+      "collaborations": "the found the journal <i>El Artista</i> in 1835 in Madrid."
     },
     {
       "from": "Federico Madrazo",
@@ -5518,7 +5511,8 @@
       "to": "Baron Taylor",
       "connection_level": "direct",
       "relationship type": "friends",
-      "know each other since": "at least 1837",
+      "know each other since": "c.1835",
+      "collaborations": "during his mission to acquire artworks for the Galerie espagnole in 1835-36, Taylor y assisted by Dauzats and Blanchard, and also by the Madrazo family and Carderera",
       "they met": [
         "1837-X-2 Carderera offers Taylor to sell 2 Morales paintings, via Federico Madrazo (letter from Federico Madrazo to Baron Taylor, Bordeaux, 2 Oct 1837: Lanzarote Guiral 2016 p. XXIII; Porée 1907, p.296)",
         "1841-V-5, Paris: Taylor invites him to the Comédie Française (Lanzarote Guiral 2016, p.XLIX, p.11); 1841 V 7, 9, 21; 1841 XI 21 (he introduces Ferdinand Denis); 1841 XII 19",
@@ -5530,31 +5524,56 @@
         "1861 VII 19, 29, 31, VIII 7, 19, 20, 21, IX 21; in Antwerp"
         ],
       "artworks bought/sold": "1839: Taylor offers Carderera a deal to buy his drawings and texts (Adrien Dauzats as middleman)",
-      "bibliography": "Lanzarote Guiral 2016"
+      "bibliography": "Lanzarote Guiral 2016, p.573"
     },
     {
       "from": "Valentín Carderera",
       "to": "Eugenio Ochoa",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "knew each other since": "at least 1835",
+      "they meet": "they coincide in Paris (Ochoa lives there 1837-1843).",
+      "collaborations": "Carderera published his first article on Goya in 1835 in <i>El Artista</i>, founded by Madrazo and Ochoa.",
+      "bibliography": "Lanzarote Guiral 2016, p.563"
     },
     {
       "from": "Valentín Carderera",
       "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances",
+      "correspondence": "yes (Archivo Familiar Carderera)"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1835",
+      "collaborations": "Carderera published his first article on Goya in 1835 in <i>El Artista</i>, founded by Madrazo and Ochoa.", 
+      "they met": [
+        "On many occasions. Some of them are:",
+        "In Paris in 1855: 5, 9, 16, 19, 21 and 29 September, 11, 17, 19 October, 11 and 27 November.",
+        "1861 they both participate in the Artistic Conference (Congreso Artístico) in Amberes.",
+        "19 Aug 1861 (Paris), with Baron Taylor and Eugenio Ochoa"
+      ],
+      "correspondence": "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París'.",
+      "bibliography": "Lanzarote Guiral 2016, pp.XXIII, 558; Díez 1994, no.528, pp.988-89."
     },
     {
       "from": "Valentín Carderera",
       "to": "Pedro Madrazo",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "friends",
+      "they meet": "in Paris in 1859 (6, 7, 8, 10 September).",
+      "bibliography": "Lanzarote Guiral 2016, p.558"
     },
     {
       "from": "Valentín Carderera",
       "to": "Luis Madrazo",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances",
+      "they meet": "during the Madrazo brothers' trip to Paris in 1855 (4 September and other dates).",
+      "bibliography": "Lanzarote Guiral 2016, p.558"
     },
     {
       "from": "Valentín Carderera",
@@ -5584,6 +5603,7 @@
       "connection_level": "direct",
       "relationship type": "acquaintances; patronage",
       "know each other since": "at least 1833 (via Blanchard, in Madrid)",
+      "collaborations": "during his mission to acquire artworks for the Galerie espagnole in 1835-36, Taylor y assisted by Dauzats and Blanchard, and also by the Madrazo family and Carderera",
       "correspondence": "2 Oct 1837: Carderera offers Taylor to sell 2 Morales paintings, via Madrazo (Lanzarote Guiral 2016, p.XXIII; Porée 1907, p.296)",
       "portraits": "1833 (Madrazo portrays Taylor)"
     },
