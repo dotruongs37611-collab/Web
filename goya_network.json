@@ -430,6 +430,50 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ochoa.jpg"
     },
     {
+      "id": "Santiago Masarnau",
+      "label": "S. Masarnau",
+      "full name": "Santiago Masarnau Fernández",
+      "life dates": "1805-1882",
+      "born in": "Madrid",
+      "nationality": "Spanish",
+      "founder of": "Colegio de Massarnau (with his brother Vicente, in 1841, Madrid).",
+      "parents": "Santiago de Masarnau y Torres and Beatriz Fernández y Carredano",
+      "siblings": "Vicente Masarnau",
+      "partners/lovers": "Charles-Valentin Alkan?",
+      "profession": "musician (pianist, composer), Catholic militant",
+      "works as": "gentilhombre de casa y boca (Fernando VII); Catholic militant (Conferencias de San Vicente de Paúl).",
+      "works for": "Fernando VII",
+      "portrayed by": "Federico Madrazo, 1836, drawing (BNE)",
+      "in Paris": [
+        "1825-1829",
+        "1833"
+      ],
+      "websites": "[BNE](https://datos.bne.es/persona/XX1059203.html); [Real Academia de la Historia](https://historia-hispanica.rah.es/biografias/29400-santiago-de-masarnau-fernandez)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Masarnau_Santiago.jpg",
+      "image source": "Madrazo portrait 1836"
+    },
+    {
+      "id": "Vicente Masarnau",
+      "label": "V. Masarnau",
+      "full name": "Vicente Santiago Masarnau Fernández",
+      "life dates": "1803-1879",
+      "born in": "Vizcaya",
+      "nationality": "Spanish",
+      "studies in": "Seminario de Vergara; Instituto de San Isidro",
+      "curiosities": "he is mentioned by the writer Benito Pérez Galdós in <i>Fortunata y Jacinta</i> and <i>El doctor Centeno</i>.",
+      "profession": "scientist (Doctor in Sciences and Pharmacy); teacher",
+      "member of": "Real Academia de Ciencias Exactas, Físicas y Naturales (1847-1879) (founding member); Real Academia Nacional de Medicina (1861-1879).",
+      "founder of": "Colegio de Massarnau (with his brother Santiago, in 1841, Madrid).",
+      "parents": "Santiago de Masarnau y Torres and Beatriz Fernández y Carredano",
+      "siblings": "Santiago Masarnau",
+      "works as": "Professor of Pharmacy, Chemistry and Physics at the University of Madrid; Treasurer of the Real Academia de Ciencias Exactas, Físicas y Naturales; Inspector General de Instrucción pública (1857).",
+      "works for": "Fernando VII",
+      "portrayed by": "Federico Madrazo, 1834, drawing (Prado); Federico Madrazo, 1836, drawing (BNE)",
+      "websites": "[Real Academia de la Historia](https://historia-hispanica.rah.es/biografias/29402-vicente-santiago-masarnau-fernandez); [Prado](https://www.museodelprado.es/coleccion/obra-de-arte/vicente-masarnau/e528ccc5-5a14-48a5-be1f-e6f6ed1dfac8); [Wikipedia](https://es.wikipedia.org/wiki/Vicente_Santiago_Masarn%C3%A1u_Fern%C3%A1ndez)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Masarnau_Vicente.jpg",
+      "image source": "Madrazo portrait 1836"
+    },
+    {
       "id": "Prosper Mérimée",
       "label": "Mérimée",
       "life dates": "1803-1870",
@@ -3599,6 +3643,66 @@
       "to": "José Madrazo",
       "connection_level": "direct",
       "relationship type": "colleagues (RABASF)"
+    },
+    {
+      "from": "Santiago Masarnau",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Vicente Masarnau",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "Valentín Carderera",
+      "to": "Santiago Masarnau",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1841",
+      "they met": "in Paris, where Santiago lives 1837-1843. There are several references in Carderera's diaries from 14 Nov 1841 until 1843 (Lanzarote Guiral 2016, p.71)",
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Eugenio Ochoa",
+      "to": "Santiago Masarnau",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "collaborations": "Santiago collaborates as music critic in <i>El Artista</i>, a journal founded by Madrazo and Ochoa in 1835.",
+      "know each other since": "at least 1835"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Santiago Masarnau",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "collaborations": "Santiago collaborates as music critic in <i>El Artista</i>, a journal founded by Madrazo and Ochoa in 1835.",
+      "know each other since": "at least 1834",
+      "portraits": "1834, drawing (Prado); 1836, drawing (BNE)"
+    },
+    {
+      "from": "Pedro Madrazo",
+      "to": "Santiago Masarnau",
+      "connection_level": "direct",
+      "relationship type": "friends?",
+      "mentions": "Pedro Madrazo, 'Galería de ingenios contemporáneos. Don Santiago de Masarnau', <i>El artista</i>, III, 1836."
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Vicente Masarnau",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1834",
+      "portraits": "1834, drawing (Prado); 1836, drawing (BNE)"
+    },
+    {
+      "from": "Vicente Masarnau",
+      "to": "Santiago Masarnau",
+      "connection_level": "direct",
+      "relationship type": "relatives; brothers",
+      "collaborations": "they found the Colegio de Massarnau in 1841 in Madrid."
     },
     {
       "from": "Francisco de Goya",
