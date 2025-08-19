@@ -2387,11 +2387,20 @@
     {
       "id": "Émile Zola",
       "label": "Zola",
-      "life dates": "18",
+      "full name": "Émile Édouard Charles Antoine Zola",
+      "life dates": "1840-1902",
       "nationality": "French",
-      "born in": "",
-      "portrayed by": "Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>)",
+      "born in": "Paris",
+      "profession": "writer, journalist",
+      "parents": "François Zola and Émilie Aubert",
+      "married to": "Alexandrine Zola (1870)",
+      "children": "Denise Émile-Zola; Jacques Émile-Zola",
+      "portrayed by": "anonymous, photograph, 1870; Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>); Gill, caricature, 16 April 1876 (<i>L'Eclipse</i>); Nadar, photograph, before 1880; Lepetit, caricature, 1887 (<i>Le Contemporain</i>); self-portrait with béret, photograph, 1902",
+      "influenced by": "Honoré de Balzac",
+      "friends": "Édouard Manet, Auguste Renoir, Alfred Sisley, John Barhtold Jongkind", 
       "member of": "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
+      "author of": "<i>Thérèse Raquin</i> (1867); <i>Les Rougon-Macquart</i>: L'Assommoir (1876), Nana (1879), Germinal (1885), La Bête humaine (1890); <i>Le Roman expérimental</i> (1880).",
+      "archives": "Brown University Library; Syracuse University Libraries",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Zola.jpg",
       "image source": ""
     },
@@ -2427,7 +2436,7 @@
         "1862 Royal Academy London: a still life.",
         "1899 Exposition des maîtres vivants (Amsterdam)."
       ],
-      "mentions": "Gustave Geffroy: 'La Nuit : jamais corps de femme ne reposa plus doucement dans un ciel de peinture sur les nuées souples et enroulées comme des vagues['.",
+      "mentions": "Gustave Geffroy: 'La Nuit : jamais corps de femme ne reposa plus doucement dans un ciel de peinture sur les nuées souples et enroulées comme des vagues'.",
       "portrayed by": "self-portraits: 1859, Grenoble Museum; 1859, Lyon Museum; 1860, Fondation Bemberg, Toulouse; c.1860, drawing, Louvre; 1861, NGA; 1883 (Florence). Carolus-Duran, 1861, Met; Dornac, c.1890, photograph",
       "websites": "[Orsay, <i>La Nuit</i>](https://www.musee-orsay.fr/fr/oeuvres/la-nuit-216)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fantin_Latour.jpg",
@@ -2461,9 +2470,9 @@
       "founder of": "Société japonaise du Jinglar (1867), with 9 other artists.",
       "portrayed by": "Bracquemond, etching, c.1865; Édouard Manet, 1866 (Bremen Kunsthalle), which follows the model established by Velázquez and the Flemish painters, and in <i>Music Lesson</i>, 1870s, as the music teacher; Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>).",
       "decorations/awards": "Chevalier de la Légion d'honneur",
-      "newspaper archive": "John Russel, 'Seeing The Art Of El Greco As Never Before', <i>The New York Times</i>, 18 July 1982 (a review of the NGA exhibition).",
+      "newspaper archive": "John Russel, 'Seeing The Art of El Greco as Never Before', <i>The New York Times</i>, 18 July 1982 (a review of the NGA exhibition).",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Astruc.jpg",
-      "image source": "Bracquemond etchingc.1865"
+      "image source": "Bracquemond etching c.1865"
     },
     {
       "id": "Auguste Renoir",
@@ -4799,8 +4808,19 @@
         "Zola actively defended Manet's painting, often rejected at the Paris Salon. In 1866, Zola defended him in his critique of the Salon, published in <i>L'Événement</i>, drawing thunderous objections from the paper's readers that prompt him to resign (Wolohojian & Dunn 2023, p.278).",
         "Zola said about Manet: 'Autour du peintre vilipendé par le public s'est créé un front commun de peintres et d'écrivains le revendiquant comme un maître'."
       ],
-      "interactions": "",
+      "interactions": "They both appear in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870).",
+      "portraits": "Manet portrays Zola in 1868",
       "bibliography": "Wolohojian & Dunn 2023."
+    },
+    {
+      "from": "Émile Zola",
+      "to": "Auguste Renoir",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "interactions": [
+        "Zola praises Renoir's <i>Lise à l'ombrelle</i> (1868)",
+        "They both appear in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870)."
+      ]
     },
     {
       "from": "Zacharie Astruc",
@@ -5867,6 +5887,13 @@
       "connection_level": "direct",
       "relationship type": "acquaintances", 
       "portraits": "Nadar's photograph of Baudelaire, 1855 [Wikipedia](https://fr.wikipedia.org/wiki/Nadar#/media/Fichier:Charles_Baudelaire.jpg)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Émile Zola",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "portraits": "Zola's portrait by Nadar, photograph, before 1880"
     },
     {
       "from": "Nadar",
