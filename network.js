@@ -481,14 +481,14 @@ document.addEventListener('DOMContentLoaded', async function () {
 
           { type: "section", label: "Geographic Presence and Movement" },
           { type: "field", key: "lives in", label: "Lives in" },
+          { type: "field", key: "address", label: "Address" },
+          { type: "field", key: "trips", label: "Trips" },
           { type: "field", key: "in Spain", label: "In Spain" },
           { type: "field", key: "in Madrid", label: "In Madrid" },
           { type: "field", key: "visits the Prado Museum", label: "Visits the Prado Museum" },
           { type: "field", key: "in France", label: "In France" },
           { type: "field", key: "in Paris", label: "In Paris" },
           { type: "field", key: "in Italy", label: "In Italy" },
-          { type: "field", key: "address", label: "Address" },
-          { type: "field", key: "trips", label: "Trips" },
         
           { type: "section", label: "Relationship to Goya and His Work" },
           { type: "field", key: "link to Goya's work", label: "Link to Goya's work" },
