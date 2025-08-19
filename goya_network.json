@@ -2147,14 +2147,14 @@
       "image source": "Couture, c.1865, drawing"
     },
     {
-      "id": "Édouard Manet", supercali
+      "id": "Édouard Manet",
       "label": "Manet",
       "life dates": "1832-1883",
       "nationality": "French",
       "profession": "painter, engraver", 
       "studies in": [
         "Lycée Jacques-Decour",
-        "1858, 25 Nov, he requests a <i>carte de travail</i> for the Bibliothèque Impériale (BnF), where many artists had copied Goya's </i>Caprichos</i> since the acquisition of the first set in 1827. By 1858 the Bibliothèque also had the other print series by Goya, acquired by Achille Devéria probably via Carderera (Fayos Pérez 2024, p...)." supercali
+        "1858, 25 Nov, he requests a <i>carte de travail</i> for the Bibliothèque Impériale (BnF), where many artists had copied Goya's </i>Caprichos</i> since the acquisition of the first set in 1827. By 1858 the Bibliothèque also had the other print series by Goya, acquired by Achille Devéria probably via Carderera (Fayos Pérez 2024, p...)."
       ],
       "curiosities": "Manet contracted syphilis",
       "military activity": "1870 Franco-Prussian war: Manet (38), alongside Degas (36), is drafted into the Garde Nationale Sédentaire. They are both under the orders of Ernest Meissonier. November: he joins the artillery, following Degas. They have a conflict about the defence strategy of Paris.",
@@ -2305,7 +2305,7 @@
       "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Dumas et al. 1997; Gordon and Forge, <i>Degas</i>, 1988; Werner, <i>Degas Pastels</i>, 1969.",
       "archives": "Musée des beaux-arts du Canada",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Degas.jpg",
-      "image source": "self-portrait, photograph, 1895 (Harvard)" supercali
+      "image source": "self-portrait, photograph, 1895 (Harvard)"
     },
     {
       "id": "Auguste Renoir",
@@ -5095,7 +5095,7 @@
       "bibliography": "Fayos Pérez 2024; Dumas et al. 1997"
     },
     {
-      "from": "Edgar Degas", supercali
+      "from": "Edgar Degas",
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "colleagues, friends, rivals",
