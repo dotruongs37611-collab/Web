@@ -623,6 +623,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "shared", label: "Shared" },
           { key: "they shared", label: "They shared" },
           { key: "interactions", label: "Interactions" },
+          { key: "feuds", label: "Feuds" },
           { key: "mentions", label: "Mentions" },
           { key: "exhibitions", label: "Exhibitions" },
           { key: "collaborations", label: "Collaborations" },
