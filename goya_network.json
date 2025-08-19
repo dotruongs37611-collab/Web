@@ -617,7 +617,10 @@
         "Essay: <i>La Robe de Déjanire</i>, 1845 (reedited 1862, 1882); <i>Le Miroir aux alouettes</i>, 1859; <i>Quand j'étais étudiant</i>, 1861; <i>À terre et en l'air. Mémoires du 'Géant'</i>, 1864; <i>Le Droit au vol</i>, 1865 (Hetzel); <i>La Grande Symphonie héroïque des punaises</i>, 1877; <i>Sous l'incendie</i>, 1882; <i>Le monde où on patauge</i>, 1883; <i>Quand j'étais photographe</i>, 1899 (reedited in 1993 and 2017), [online](https://cnum.cnam.fr/pgi/redir.php?onglet=e&ident=12KE639)",
         "Photography: André Barret, <i>Nadar. 50 photographies de ses illustres contemporains</i>, éd. Julliard, 1994; Barret, <i>Nadar</i>"
         ],
-      "member of": "Société d'encouragement de la locomotion aérienne au moyen du plus lourd que l'air",
+      "member of": [
+        "<i>Cénacle des Batignolles</i> (from 1863), from which emerges the Impressionist movement",
+        "Société d'encouragement de la locomotion aérienne au moyen du plus lourd que l'air"
+      ],
       "mentions of Goya": "in the <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849)'(…) je me trouvai tout d’un coup installé à une table de marbre, en face d’un monsieur barbu qui ressemblait à un ermite décroché d’un cadre de Goya. Il fumait gravement dans une énorme pipe en bois sculpté, dont le fourneau représentait à s’y méprendre la tête de M. Dupin' (p.73)",
       "link to Goya's work": "in the <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849), Nadar made several Goyaesque illustrations, such as those in pp.74-75 [archive.org](https://archive.org/details/revuecomiquelu00pari/page/74/), 83, 104, 105, 117.",
       "bibliography": "Nadar, <i>Correspondance, 1820-1851</i>, tome 1, ed. André Rouillé, 1998; <i>Revue comique à l’usage des gens sérieux</i> (May-Dec 1849)",
@@ -1601,7 +1604,11 @@
       "nationality": "French",
       "profession": "art critic, art collector, artist, lithographer, draughtsman",
       "works as": "art critic in different journals; inspector at the Académie des Beaux-Arts (1881); art dealer and advisor for art dealers such as Frederick Keppel",
-      "member of": "Société des aquafortistes (founded in 1862), directed by Alfred Cadart; Union centrale des beaux-arts appliqués à l’industrie",
+      "member of": [
+        "Société des aquafortistes (founded in 1862), directed by Alfred Cadart",
+        "Société japonaise du Jinglar (1867)",
+        "Union centrale des beaux-arts appliqués à l’industrie"
+      ],
       "parents": "father: Marin Burty, silk merchant and owner of fashion business during the Restoration",
       "masters": "Chabal Dussurgey, painter of flowers at the Gobelins manufactory",
       "children": "Madeleine (who marries the porcelain maker Charles Edward Haviland)",
@@ -2161,7 +2168,10 @@
       "masters": "Thomas Couture (from 1850 to 1856)",
       "students": "Eva Gonzalès",
       "salon": "attended by the Morisots and Degas, among others.",
-      "member of": "founding member of the Société des Aquafortistes, established by Alfred Cadart and Félix Chevalier; also joined by Fantin-Latour, Félix Bracquemond, Johan Jongkind and Alphonse Legros (Wolohojian & Dunn 2023, p.277).",
+      "member of": [
+        "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
+        "Founding member of the Société des Aquafortistes, established by Alfred Cadart and Félix Chevalier; also joined by Fantin-Latour, Félix Bracquemond, Johan Jongkind and Alphonse Legros (Wolohojian & Dunn 2023, p.277)."
+      ],
       "trips": [
         "1848 Rio de Janeiro. In the boat he draws caricatures of the crew, including his earliest surviving drawing <i>Pierrot</i> (Wolohojian & Dunn 2023, p.276).",
         "1852 Holland: he visits the Rijksmuseum.",
@@ -2210,6 +2220,7 @@
         "Italian painters such as Titian (copy after <i>The Madonna of the Rabbit</i>, c.1850-60), Filippino Lippi (copy after <i>Portrait of the Artist</i>, c.1857), Andrea del Sarto (copy after <i>Standing Man</i>, c.1853-57)",
         "Frans Hals"
         ],
+      "mentions": "Edmond de Goncourt says about him that he was 'le distributeur de gloire aux génies de brasserie'.",
       "link to Goya's work": [
         "1863 Philippe Burty wrote in the <i>Gazette des Beaux-arts</i> that Manet's print <i>Gitanos</i> (Gipsies) (1862) gave the impression of 'seeking out Goya, at least in its general appearance' (Fayos Pérez 2024, p.188).",
         "Paul Mantz called Manet 'a Spaniard in Paris' linked by 'a mysterious kinship [...] to the Goya tradition' (1863) (Fayos Pérez 2024, p. 188).",
@@ -2220,10 +2231,11 @@
       "interest in Spanish art": [
         "VELÁZQUEZ: upon his 1865 trip to Spain, Manet writes about Velázquez: 'all by himself makes the journey worthwhile... He is the supreme artist' (letter to Fantin-Latour, 3 Sept 1865). Copies after Velázquez: <i>Spanish Cavaliers</i> (1859, Lyon), [Met](https://www.metmuseum.org/art/collection/search/892130); <i>Spanish Studio Scene (Velázquez Painting)</i> (c.1860, private coll.); <i>The Infanta Margarita</i> (1861-62) [Nationalmuseum Stockholm NMG 310/1924](https://www.metmuseum.org/art/collection/search/851751), whose copperplate is at the INHA (EM Manet 22).(Wolohojian & Dunn 2023, p.277; Tinterow 2003).",
         "Manet produced many paintings and prints with Spanish-related topics: <i>Le Chanteur espagnol</i> (1860 painting; Salon 1861; 1861-62 print); <i>Gitanos</i> (1863 print); <i>Lola de Valence</i> (1862 painting and 1863 print), to illustrate a poem by Zacharie Astruc; <i>An Incident in the Bullring</i> (Salon 1864): later divided into <i>The Dead Toreador</i> and <i>The Bullfight</i> (Frick); <i>Plainte Moresque: Portrait of Jaime Bosch</i> (c.1866, lithograph); <i>Le Matador saluant</i> (1866-67); <i>Woman with a Cigarette</i> (c.1878-80, Princeton) [Met](https://www.metmuseum.org/art/collection/search/844738): probably inspired by Mérimée's <i>Carmen</i> and the 1875 homonymous opera by Georges Bizet.",
+        "Manet's portrait of Zacharie Astruc (1866, Bremen Kunsthalle), seems to follow the model established by Velázquez and the Flemish painters, with a clear division into two parts, and a double scene potraying a scene on the foreground (Astruc) and one on the background (showing a woman). It particularly reminds of Velázquez's <i>Christ in the house of Martha and Mary</i> (c.1618) at the London National Gallery.",
         "Manet is also an admirer of El Greco."
       ],
       "decorations/awards": "chevalier de la Légion d'honneur (1882)",
-      "portrayed by": "Nadar, photographs, from c.1867 to c.1870-80 [Wikipedia](https://commons.wikimedia.org/wiki/Category:Photographs_of_%C3%89douard_Manet_by_Nadar); Edgar Degas, drawings and prints c.1868-69 and <i>Monsieur and Madame Édouard Manet</i> (1869) (disliked by Manet); Carolus-Duran, 1876, Rhode Island School of Design Museum (oil painting)",
+      "portrayed by": "Nadar, photographs, from c.1867 to c.1870-80 [Wikipedia](https://commons.wikimedia.org/wiki/Category:Photographs_of_%C3%89douard_Manet_by_Nadar); Edgar Degas, drawings and prints c.1868-69 and <i>Monsieur and Madame Édouard Manet</i> (1869) (disliked by Manet); Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>); Carolus-Duran, 1876, Rhode Island School of Design Museum (oil painting)",
       "bibliography": "Fayos-Pérez 2024; Wolohojian & Dunn 2023 (<i>Manet/Degas</i>); Tinterow 2003 (<i>Manet/Velázquez</i>); Wilson-Bareau 1992; Monneret 1987; Cachin, Moffett & Wilson-Bareau 1983; Adhémar 1935; Blanche 1925, <i>Manet</i>; Proust 1897, <i>Edouard Manet (Souvenirs)</i>.",
       "websites": "[Salon des Beaux-arts](https://www.salondesbeauxarts.com/160-ans/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Manet.jpg",
@@ -2253,7 +2265,10 @@
       "students": "Ernest Rouart; Walter Sickert; Suzanne Valadon",
       "patrons": "Gustave Caillebotte; Paul Durand-Ruel: he acquires artworks by Degas for the first time in 1872 (3 paintings).",
       "influenced by": "Dominique Ingres; Eugène Delacroix. At the BnF he copies works by Dürer,  Mantegna, Veronese, Francisco de Goya and Rembrandt. He is also a copyist at the Louvre from 1853.",
-      "member of": "Ligue de la patrie française (moderate, anti-Dreyfus)",
+      "member of": [
+        "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
+        "Ligue de la patrie française (moderate, anti-Dreyfus)"
+      ],
       "political views": "antisemitic (he broke up with his Jewish friends during the Dreyfus affair)",
       "trips": [
         "1856-59 Italy: Naples, Rome (1856-57), Florence, where he copies works by Michelangelo, Raphael and Titian. In Rome (Villa Medici) in 1858, he befriends Gustave Moreau.",
@@ -2321,7 +2336,10 @@
       "children": "Julie Manet",
       "salon": "Morisot held <i>soirées</i> at her villa at 40, Rue de Villejust, attended by Caillebotte, Degas, Monet, Pissarro, Renoir, Duret, Malalrmé, Puvis de Chavannes, Fantin-Latour, Astruc, Corot, Manet, Whistler and Jules Ferry.",
       "masters": "Joseph Benoît Guichard, Édouard Manet, Camille Corot, Achille Oudinot",
-      "member of": "<i>Société anonyme des artistes peintres, sculpteurs et graveurs</i>, founded in 1873 by Claude Monet, Auguste Renoir, Alfred Sisley, Camille Pissarro and Edgar Degas.",
+      "member of": [
+        "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
+        "<i>Société anonyme des artistes peintres, sculpteurs et graveurs</i>, founded in 1873 by Claude Monet, Auguste Renoir, Alfred Sisley, Camille Pissarro and Edgar Degas."
+      ],
       "curiosities": [
         "Auguste Renoir recounted that a detractor of Morisot had called her a prostitute and that Camille Pissarro had punched him in the face, sparking a brawl.",
         "Despite her prolific artistic output, her death certificate stated: ‘no occupation’.",
@@ -2362,7 +2380,7 @@
       "mentions of Goya": "c.1872-73: 'We are going to Madrid, at least we think we are. I have written to Manet asking him for the address of Astruc who, I know, has been there for a fairly long time. He will be of great help to me, since he speaks Spanish aknows Madrid throughly, and he certainly will be able to point out to us the things worth seeing. He must feel about the Museum pretty much as I do. [...] We should give ourselves plenty of time to admire Velasquez and the Goyas. That is for me about the only interest in going...' [...] 'So far we have seen only the museum, which is magnificente, as you know. The city has no character [...] I have found the handsome Astruc; he has put himself entirely at our disposal for visiting the city, which he knows well. [...] I have no intention of exerting myself to see anything but paintings. Perhaps we'll go to Toledo, and come back here to see the bullfights, if we feel stouthearted enough' (Rouart 1959, pp.76-77).",
       "portrayed by": "Édouard Manet, <i>Berthe Morisot</i> (1872); <i>Berthe Morisot au chapeau noir</i> (1872, private coll.); anonymous, photograph, c.1877",
       "bibliography": "Mathieu & Neveu 2012, <i>Berthe Morisot 1841-1895</i>; Pfeiffer & Hollein 2007-2008, <i>Women impressionists: Berthe Morisot, Mary Cassatt, Eva Gonzalès, Marie Bracquemond</i>; Anne Higonnet 1989 (translated into English 1995), <i>Berthe Morisot</i>; Clairet, Montlant & Rouart 1997, <i>Berthe Morisot, 1841-1895: Catalogue Raisonné de l’oeuvre peint</i>; Charles F. Stuckey, Suzanne G. Lindsay et al., <i>Berthe Morisot: rétrospective au Mount Holyoke College Art Museum et National Gallery of art Washington</i>, 1987; <i>The diary of Julie Manet</i> 1987/1990; Sophie Monneret, <i>L'Impressionnisme et son époque</i>, 1987; Jean Dominique Rey 1982, <i>Berthe Morisot</i>; Marie-Louise Bataille & Guy Wildenstein 1961, <i>Berthe Morisot, Catalogue des peintures, pastels et aquarelles</i>; Denis Rouart 1959, <i>The Correspondence of Berthe Morisot</i>.",
-      "websites": "[impressionism.nl](https://www.impressionism.nl/morisot-berthe/); [Giverny News] (https://givernews.com/2024/02/20/berthe-morisot-et-le-xviiie-siecle/)",
+      "websites": "[impressionism.nl](https://www.impressionism.nl/morisot-berthe/); [Giverny News] (https://givernews.com/2024/02/20/berthe-morisot-et-le-xviiie-siecle/); [Wikipedia](https://fr.wikipedia.org/wiki/Berthe_Morisot#)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Morisot.jpg",
       "image source": "anonymous photograph, c.1877"
     },
@@ -2372,26 +2390,80 @@
       "life dates": "18",
       "nationality": "French",
       "born in": "",
+      "portrayed by": "Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>)",
+      "member of": "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Zola.jpg",
       "image source": ""
     },
     {
       "id": "Henri Fantin-Latour",
       "label": "Fantin-Latour",
-      "life dates": "18",
+      "full name": "Ignace Henri Jean Théodore Fantin-Latour",
+      "pseudonyms": "Fantin-Latour; Ignace Henri Jean Theodore",
+      "life dates": "1836-1904",
       "nationality": "French",
-      "born in": "",
+      "born in": "Grenoble",
+      "profession": "painter, lithographer",
+      "curiosities": "he was deeply interested in music (Berlioz, Schumann, Wagner), and sought to transcribe it into painting and lithography.",
+      "parents": "father: Théodore Fantin-Latour",
+      "married to": "Victoria Dubourg (painter) (1876)",
+      "trips": "London (several trips 1859-1881), encouraged by Whistler",
+      "author of": [
+        "Paintings: <i>Verre, gobelet en argent et coupe de champagne</i> (1860, private coll.); <i>La Liseuse</i> (1861); <i>Hommage à Delacroix</i> (1864, Orsay); <i>Asters et fruits</i> (1868, Met); <i>Un atelier aux Batignolles</i> (1870, Orsay); <i>Un coin de table</i> (1872); <i>Mr et Mrs Edwin Edwards</i> (1875); <i>La Lecture</i> (1877, Lyon); <i>Trois filles du Rhin</i> (1876): transcribing music; <i>Hommage à Hector Berlioz</i> (1878, Grenoble); <i>Portrait de Charlotte Dubourg</i> (1882, Orsay); <i>La Nuit</i> (1897, Orsay).",
+        "Prints: >150 images of fantasy/oneiric nature, influenced by Symbolism."
+      ],
+      "member of": [
+        "<i>Cénacle des Batignolles</i> (from 1863), from which emerges the Impressionist movement",
+        "Société japonaise du Jinglar (from 1867): with Carolus-Duran, Bracquemond and Solon.",
+        "Société des peintres-lithographes (from 1896)."
+      ],
+      "studies in": "Petite école de dessin de Paris from 1850 (Péron and Lecoq de Boibaudran); École des beaux-arts from 1854: with Degas Degas, Alphonse Legros and Jean-Charles Cazin",
+      "masters": "Louis-Alexandre Péron, Horace Lecoq de Boisbaudran; Théodore Fantin-Latour, Horace Lecoq de Boisbaudran",
+      "influenced by": "Rembrandt; Veronese",
+      "decorations/awards": "Officier de l'ordre de Léopold (Belgium), 1894",
+      "art collection": "erotic photography",
+      "exhibitions": [
+        "Paris Salon: 1859 rejection of a self-portrait; 1861 <i>La Liseuse</i>; 1864 <i>Hommage à Delacroix</i>; 1866 still life; 1872 <i>Un coin de table</i>; 1880-87: portraits; 1897 <i>La Nuit</i>: success, acquired by the State.",
+        "1862 Royal Academy London: a still life.",
+        "1899 Exposition des maîtres vivants (Amsterdam)."
+      ],
+      "mentions": "Gustave Geffroy: 'La Nuit : jamais corps de femme ne reposa plus doucement dans un ciel de peinture sur les nuées souples et enroulées comme des vagues['.",
+      "portrayed by": "self-portraits: 1859, Grenoble Museum; 1859, Lyon Museum; 1860, Fondation Bemberg, Toulouse; c.1860, drawing, Louvre; 1861, NGA; 1883 (Florence). Carolus-Duran, 1861, Met; Dornac, c.1890, photograph",
+      "websites": "[Orsay, <i>La Nuit</i>](https://www.musee-orsay.fr/fr/oeuvres/la-nuit-216)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fantin_Latour.jpg",
-      "image source": ""
+      "image source": "1860 self-portrait, Toulouse"
     },
     {
       "id": "Zacharie Astruc",
       "label": "Astruc",
-      "life dates": "18",
+      "life dates": "1835-1907",
       "nationality": "French",
-      "born in": "",
+      "profession": "art critic, poet, painter (from late 1860s), sculptor, art collector",
+      "born in": "Angers",
+      "in Spain": "1864. He helped Manet with his trip to Spain in 1865, and met Berthe Morisot during hers in 1872-73.",
+      "interest in Spanish art": [
+        "He contributed to a revival of El Greco (Russel 1982)",
+        "He wrote a song dedicated to the Spanish dancer Lola de Valence in 1863, printed with a reproduction of a painting by Édouard Manet (1862)."
+      ],
+      "author of": [
+        "Painting and drawing: <i>Scène de rue à Cuenca</i>, watercolor (1873, Pau); <i>Intérieur parisien</i> (1874, Évreux); <i>Fleurs dans un vase</i>, watercolor (1884-1904, Met); <i>Roses négligemment jetées sur un vase</i>.",
+        "Sculpture: <i>Isabelle Astruc</i> (bronze, 1877); <i>François Rabelais</i>; <i>Madame Astruc en espagnole</i> (c.1878); <i>Portrait en buste de Manet</i> (c.1883); <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg): representing the faces-masks of Victor Hugo, Corot, Dumas, Berlioz, Carpeaux, Faure, Delacroix, Balzac and Barbey d'Aurevilly; sculpture of Blanca de Castilla (Musée Chartreuse).",
+        "Writing: <i>Les Quatorze Stations du Salon</i> (1859), with a preface by George Sand and an epilogue by Victor Hugo; <i>Le Salon intime : Exposition au boulevard des italiens</i>, Paris, 1860; <i>Les Alhambras</i>, Paris, 1908."
+      ],
+      "friends": "Carolus-Duran; Édouard Manet; Henri Fantin-Latour; Alphonse Legros",
+      "member of": "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
+      "exhibitions": [
+        "Paris Salon: from 1869",
+        "Impressionist exhibitions: 1st one 1874"
+      ],
+      "art collection": "he acquires artworks since the 1850s",
+      "sale": "Hôtel Drouot 1878: French, Spanish, English, Flemish and Dutch schools; contemporary pieces, Japanese art, sculpture, furniture.",
+      "founder of": "Société japonaise du Jinglar (1867), with 9 other artists.",
+      "portrayed by": "Bracquemond, etching, c.1865; Édouard Manet, 1866 (Bremen Kunsthalle), which follows the model established by Velázquez and the Flemish painters, and in <i>Music Lesson</i>, 1870s, as the music teacher; Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>).",
+      "decorations/awards": "Chevalier de la Légion d'honneur",
+      "newspaper archive": "John Russel, 'Seeing The Art Of El Greco As Never Before', <i>The New York Times</i>, 18 July 1982 (a review of the NGA exhibition).",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Astruc.jpg",
-      "image source": ""
+      "image source": "Bracquemond etchingc.1865"
     },
     {
       "id": "Auguste Renoir",
@@ -2402,6 +2474,7 @@
       "born in": "Limoges",
       "lives in": "Limoges (1841-1844); Paris (from 1844); Cagnes-sur-Mer (from 1903)",
       "profession": "painter, draughtsman, graphic artist, engraver, sculptor, illustrator, porcelain painter", 
+      "member of": "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
       "studies in": "École nationale supérieure des beaux-arts (1862-1864): he meets Frédéric Bazille, Claude Monet and Alfred Sisley; Académie Suisse",
       "married to": "Aline Charigot (1890)",
       "children": "Jeanne Tréhot, Lucienne Bisson, Pierre Renoir, Jean Renoir, Claude Renoir",
@@ -2430,7 +2503,7 @@
       "trips": "Italy (late 1881); Spain (1892)",
       "author of": "<i>Lise (Tréhot) cousant</i> (1866, Dallas); <i>Lise à l'ombrelle</i> (1867); <i>Femme à la perruche</i> (1871, Guggenheim NY); <i>Nature morte au bouquet</i> (1871, Houston)): on the wall, it shows a print by Manet after a painting formerly attributed to Velázquez (<i>Petits Cavaliers</i>); <i>Portrait de Claude Monet</i> (1872, NGA); <i>Bal du moulin de la Galette</i> (1876); <i>Portrait de Victor Chocquet</i> (1876, Cambridge MA, Fogg Art Museum); <i>Madame Georges Charpentier et ses enfants</i> (1878, Met): Mme Charpentier also frequented Flaubert, the Goncourt and Zola; <i>La Fin du déjeuner</i> (1879, Städel); <i>Rose et bleu (Alice et Élisabeth Cahen d'Anvers)</i> (1881, Sao Paulo); <i>Jeune Fille algérienne</i> (1881, Boston); <i>Le Déjenuner des canotiers</i> (1881, Washingotn, Phillips Collection); <i>Les Grandes Baidneuses</i> (1887, Philadelphia); <i>Jeunes filles au piano</i> (1892)",
       "decorations/awards": "Chevalier de la Légion d'honneur (1901); Officier de la Légion d'honneur (1911); Commandeur de la Légion d'honneur (1919)",
-      "portrayed by": "Frédéric Bazille, 1867, oil painting, Musée d'Orsay (DL 1970 3); anonymous, c.1875, photograph, Musée d'Orsay; self-portrait, 1876, Fogg Art Museum; unknown, 1900, photograph; Dornac, c.1910, photograph; Marie-Félix Hippolyte-Lucas, 1919, oil painting (location unknown)",
+      "portrayed by": "Frédéric Bazille, 1867, oil painting, Musée d'Orsay (DL 1970 3); Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>); anonymous, c.1875, photograph, Musée d'Orsay; self-portrait, 1876, Fogg Art Museum; unknown, 1900, photograph; Dornac, c.1910, photograph; Marie-Félix Hippolyte-Lucas, 1919, oil painting (location unknown)",
       "bibliography": "Fayos-Pérez c.2025 (forthcoming); Pereda 2024; John House, <i>Pasión por Renoir. La colección del Sterling and Francine Clark Art Institute</i>, 2010, Prado (exh. cat.); Anne Distel, <i>Renoir</i>, 2009; Tinterow 2003; García Felguera 1991; Henri Perruchot, <i>La vie de Renoir</i>, 1964; François Fosca, <i>Renoir</i>, 1923; Ambroise Vollard, <i>Pierre-Auguste Renoir (1841-1919): Sa vie et son œuvre</i>, 1919, previously published in 'Entretiens avec Renoir sur la peinture', <i>L’Art et les artistes</i>, vol. 23, 1919, pp.28–43",
       "websites": "Anne Distel, <i>Pierre-Auguste Renoir ¿un viaje a España?</i> (in French), 2013-2014 conference cycle at the Prado Museum, [YouTube](https://www.youtube.com/watch?v=hc8tZm9pfk0&t=263s)",
       "curiosities": "he studies music with Charles Gounod c.1862",
@@ -4722,7 +4795,10 @@
       "to": "Édouard Manet",
       "connection_level": "direct", 
       "relationship type": "friends",
-      "mentions": "Zola actively defended Manet's painting, often rejected at the Paris Salon. In 1866, Zola defended him in his critique of the Salon, published in <i>L'Événement</i>, drawing thunderous objections from the paper's readers that prompt him to resign (Wolohojian & Dunn 2023, p.278).",
+      "mentions": [
+        "Zola actively defended Manet's painting, often rejected at the Paris Salon. In 1866, Zola defended him in his critique of the Salon, published in <i>L'Événement</i>, drawing thunderous objections from the paper's readers that prompt him to resign (Wolohojian & Dunn 2023, p.278).",
+        "Zola said about Manet: 'Autour du peintre vilipendé par le public s'est créé un front commun de peintres et d'écrivains le revendiquant comme un maître'."
+      ],
       "interactions": "",
       "bibliography": "Wolohojian & Dunn 2023."
     },
@@ -4732,8 +4808,46 @@
       "connection_level": "direct", 
       "relationship type": "friends",
       "interactions": "Manet followed Astruc's itinerary for his 1865 trip to Spain",
+      "collaborations": "Astruc wrote a song dedicated to the Spanish dancer Lola de Valence in 1863, printed with a reproduction of a painting by Édouard Manet (1862).",
+      "portraits": "Astruc's portrait by Manet, 1866 (Bremen Kunsthalle); <i>Music Lesson</i>, 1870s (Astruc as the music teacher).",
       "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023"
     },
+    {
+      "from": "Zacharie Astruc",
+      "to": "Victor Hugo",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; colleagues",
+      "portraits": "Hugo's face-mask is depicted by Astruc in his sculpture <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg), also representing Corot, Dumas, Berlioz, Carpeaux, Faure, Delacroix, Balzac and Barbey d'Aurevilly.",
+      "collaborations": "Hugo wrote the epilogue for Astruc's <i>Les Quatorze Stations du Salon</i> (1859), with a preface by George Sand."
+    }, 
+    {
+      "from": "Zacharie Astruc",
+      "to": "George Sand",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; colleagues",
+      "collaborations": "Sand wrote the preface for Astruc's <i>Les Quatorze Stations du Salon</i> (1859), with an epilogue by Victor Hugo."
+    }, 
+    {
+      "from": "Zacharie Astruc",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances?",
+      "portraits": "Delacroix's face-mask is depicted by Astruc in his sculpture <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg), also representing Corot, Dumas, Berlioz, Carpeaux, Faure, Victor Hugo, Balzac and Barbey d'Aurevilly."
+    }, 
+    {
+      "from": "Zacharie Astruc",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances?",
+      "portraits": "Dumas's face-mask is depicted by Astruc in his sculpture <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg), also representing Corot, Delacroix, Berlioz, Carpeaux, Faure, Victor Hugo, Balzac and Barbey d'Aurevilly."
+    }, 
+    {
+      "from": "Zacharie Astruc",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances?",
+      "portraits": "Balzac's face-mask is depicted by Astruc in his sculpture <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg), also representing Corot, Delacroix, Berlioz, Carpeaux, Faure, Victor Hugo, Dumas and Barbey d'Aurevilly."
+    }, 
     {
       "from": "Henri Fantin-Latour",
       "to": "Édouard Manet",
@@ -4744,7 +4858,53 @@
         "1868, 10 Aug, from Manet to Fantin-Latour: 'De Gas was really silly not to have come with me [to the trip to England]'.",
         "1868, 26 Aug, from Manet to Fantin-Latour: 'I envy your being able to discuss with that famous aesthetician Degas the question of whether or not it is advisable to put art within reach of the lower classes, by turning out pictures for sixpence apiece'. And 'Tell Degas it's about time he wrote to me, I gather form Duranty he's becoming a painter of high life; why not? It's too bad he didn't come to London, those well-trained horses would have inspired a few pictures' (Wolohojian & Dunn 2023, p.279)."
       ],
+      "portraits": [
+        "Manet is included in the group portrait in Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), alongside Louis Edmond Duranty, Fantin-Latour, Champfleury, Charles Baudelaire, Louis Cordier, Alphonse Legros, James Whistler, Félix Bracquemond, and Albert de Balleroy.",
+        "Manet is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Zacharie Astruc, Otto Scholderer, Pierre-Auguste Renoir, Émile Zola, Edmond Maître, Frédéric Bazille and Claude Monet."
+      ],
       "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Wilson Bareau 1991"
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Zacharie Astruc",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; friends?",
+      "portraits": "Astruc is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Pierre-Auguste Renoir, Émile Zola, Edmond Maître, Frédéric Bazille and Claude Monet."
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Émile Zola",
+      "connection_level": "direct", 
+      "relationship type": "friends",
+      "portraits": "Zola is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Pierre-Auguste Renoir, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet."
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Auguste Renoir",
+      "connection_level": "direct", 
+      "relationship type": "friends",
+      "portraits": "Renoir is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Émile Zola, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet."
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances",
+      "portraits": "Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), with Delacroix's portrait and depicting Fantin-Latour himself, Édouard Manet, Louis Edmond Duranty, Champfleury, Charles Baudelaire, Louis Cordier, Alphonse Legros, James Whistler, Félix Bracquemond, and Albert de Balleroy."
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; friends?",
+      "portraits": "Baudelaire is portrayed in Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), with Delacroix's portrait, depicting Fantin-Latour himself, Édouard Manet, Louis Edmond Duranty, Champfleury, Louis Cordier, Alphonse Legros, James Whistler, Félix Bracquemond, and Albert de Balleroy."
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; friends?",
+      "portraits": "Bracquemond is portrayed in Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), with Delacroix's portrait, depicting Fantin-Latour himself, Édouard Manet, Louis Edmond Duranty, Champfleury, Louis Cordier, Alphonse Legros, James Whistler, Charles Baudelaire and Albert de Balleroy."
     },
     {
       "from": "Berthe Morisot",
@@ -4782,6 +4942,13 @@
       "relationship type": "friends; colleagues. Degas admired Morisot's painting (Monneret 1987, p.597).",
       "knew each other since": "1868? (introduced by Manet)",
       "bibliography": "Wolohojian & Dunn 2023; Monneret 1987"
+    },
+    {
+      "from": "Berthe Morisot",
+      "to": "Honoré Daumier",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "know each other since": "c.1864"
     },
     {
       "from": "Ernest Meissonier",
