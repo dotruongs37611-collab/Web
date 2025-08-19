@@ -4939,6 +4939,14 @@
     },
     {
       "from": "Berthe Morisot",
+      "to": "Zacharie Astruc",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "interactions": "in Spain, during Morisot's trip in 1872-73",
+      "mentions": "Morisot mentions Astruc as thei middleman in Madrid because he speaks Spanish and knows Madrid well"
+    },
+    {
+      "from": "Berthe Morisot",
       "to": "Henri Fantin-Latour",
       "connection_level": "direct", 
       "relationship type": "friends; colleagues",
