@@ -2455,7 +2455,7 @@
       "visits the Prado Museum": "in 1864 for the first time",
       "copies after Goya": "on his first visit to Spain in 1864, Astruc makes a small copy of <i>The Clothed Maja</i> at the RABASF (the <i>Naked Maja</i> was not on public display) (Maurer 2021, p.37).",
       "in Spain": [
-        "1864 (3 months): influenced by the writings by Théophile Gautier and Victor Hugo ('forgèrent dans son esprit l’image d’une Espagne aux allures romantiques' [...] 'cette vision fantasmée, entre pittoresque et romantique, ne le quitta jamais'). On his first trip, 'il fut un peu déçu de constater le décalage entre la réalité et le songe hispanique qu’il avait à l’esprit. Il ne se démoralisa pas pour autant et visita minutieusement l’Espagne pendant trois mois. Il prit durant son séjour, et pendant tous les autres à la suite, quantité de notes et de dessins qui devaient servir un jour à écrire un livre sur l’Espagne' (Cantenont 2017, abstract). He visits the Prado, the RABASF, and probably the Alameda de Osuna (with Goya paintings), as he recommended Manet to visit it.",
+        "1864 (3 months): influenced by the writings of Théophile Gautier and Victor Hugo ('forgèrent dans son esprit l’image d’une Espagne aux allures romantiques' [...] 'cette vision fantasmée, entre pittoresque et romantique, ne le quitta jamais'). On his first trip, 'il fut un peu déçu de constater le décalage entre la réalité et le songe hispanique qu’il avait à l’esprit. Il ne se démoralisa pas pour autant et visita minutieusement l’Espagne pendant trois mois. Il prit durant son séjour, et pendant tous les autres à la suite, quantité de notes et de dessins qui devaient servir un jour à écrire un livre sur l’Espagne' (Cantenot 2017, abstract). He visits the Prado, the RABASF, and probably the Alameda de Osuna (with Goya paintings), as he recommended Manet to visit it.",
         "He helped Manet with his trip to Spain in 1865 (recommending him to go to Toledo, Segovia, El Escorial and the Alameda de Osuna among other places).",
         "After the 1870 war, he spends long stays in Spain, accompanied by his family (in Madrid 1872-1873). He founds the journal <i>L'Espagne nouvelle</i> (1872) and makes a bronze copy of the sculpture of St. Francis of Assisi at the Toledo Cathedral (attributed to Pedro de Mena).",
         "He meets Berthe Morisot during her 1872-73 trip to Madrid.",
@@ -4874,8 +4874,8 @@
       "connection_level": "direct", 
       "relationship type": "friends?",
       "knew each other since": "c.1866",
-      "exchanges": "Astruc sold to Degas an artwork attributed to El Greco in Nov 1896, <i>Saint Dominiquez/iZ (c.1605), for 3,000 francs, now at the Boston MFA (23.272).",
-      "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
+      "exchanges": "Astruc sold to Degas an artwork attributed to El Greco in Nov 1896, <i>Saint Dominique</i> (c.1605), for 3,000 francs, now at the Boston MFA (23.272).",
+      "interactions": "c.1866-1877 at Café Gerbois (avenue de Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
       "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
     },
     {
@@ -4883,8 +4883,17 @@
       "to": "Victor Hugo",
       "connection_level": "direct", 
       "relationship type": "acquaintances; colleagues",
+      "influence": "Astruc travelled to Spain carrying the influence of the writings of Hugo and Gautier, which 'forgèrent dans son esprit l’image d’une Espagne aux allures romantiques' [...] 'cette vision fantasmée, entre pittoresque et romantique, ne le quitta jamais' (Cantenot 2017, abstract).", 
       "portraits": "Hugo's face-mask is depicted by Astruc in his sculpture <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg), also representing Corot, Dumas, Berlioz, Carpeaux, Faure, Delacroix, Balzac and Barbey d'Aurevilly.",
-      "collaborations": "Hugo wrote the epilogue for Astruc's <i>Les Quatorze Stations du Salon</i> (1859), with a preface by George Sand."
+      "collaborations": "Hugo wrote the epilogue for Astruc's <i>Les Quatorze Stations du Salon</i> (1859), with a preface by George Sand.",
+      "bibliography": "Mathilde Cantenot 2017, <i>Zacharie Astruc (1833-1907) et l'Espagne : à la rencontre d'un idéal, à l'épreuve du réel</i>, École du Louvre, thèse"
+    }, 
+    {
+      "from": "Zacharie Astruc",
+      "to": "Théophile Gautier",
+      "connection_level": "secondary; direct?", 
+      "influence": "Astruc travelled to Spain carrying the influence of the writings of Hugo and Gautier, which 'forgèrent dans son esprit l’image d’une Espagne aux allures romantiques' [...] 'cette vision fantasmée, entre pittoresque et romantique, ne le quitta jamais' (Cantenot 2017, abstract).", 
+      "bibliography": "Mathilde Cantenot 2017, <i>Zacharie Astruc (1833-1907) et l'Espagne : à la rencontre d'un idéal, à l'épreuve du réel</i>, École du Louvre, thèse"
     }, 
     {
       "from": "Zacharie Astruc",
