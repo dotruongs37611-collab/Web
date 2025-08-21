@@ -2450,15 +2450,15 @@
       "nationality": "French",
       "profession": "art critic, poet, painter (from late 1860s), sculptor, art collector",
       "born in": "Angers",
-      "in Spain": "1864. He helped Manet with his trip to Spain in 1865, and met Berthe Morisot during hers in 1872-73.",
-      "interest in Spanish art": [
-        "He contributed to a revival of El Greco (Russel 1982)",
-        "He wrote a song dedicated to the Spanish dancer Lola de Valence in 1863, printed with a reproduction of a painting by Édouard Manet (1862)."
+      "trips": "England, Flanders, Spain",
+      "in Spain": [
+        "1864. He helped Manet with his trip to Spain in 1865, and met Berthe Morisot during hers in 1872-73.",
+        "His 1878 sale catalogue (by Ernest Chesneau) says that his collection was formed not only in Paris but also during his frequent trips to England and Flanders, and during his long stays in Spain' (p.57)."
       ],
       "author of": [
         "Painting and drawing: <i>Scène de rue à Cuenca</i>, watercolor (1873, Pau); <i>Intérieur parisien</i> (1874, Évreux); <i>Fleurs dans un vase</i>, watercolor (1884-1904, Met); <i>Roses négligemment jetées sur un vase</i>.",
         "Sculpture: <i>Isabelle Astruc</i> (bronze, 1877); <i>François Rabelais</i>; <i>Madame Astruc en espagnole</i> (c.1878); <i>Portrait en buste de Manet</i> (c.1883); <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg): representing the faces-masks of Victor Hugo, Corot, Dumas, Berlioz, Carpeaux, Faure, Delacroix, Balzac and Barbey d'Aurevilly; sculpture of Blanca de Castilla (Musée Chartreuse).",
-        "Writing: <i>Les Quatorze Stations du Salon</i> (1859), with a preface by George Sand and an epilogue by Victor Hugo; <i>Le Salon intime : Exposition au boulevard des italiens</i>, Paris, 1860; <i>Les Alhambras</i>, Paris, 1908."
+        "Writing: <i>Les Quatorze Stations du Salon</i> (1859), with a preface by George Sand and an epilogue by Victor Hugo; <i>Le Salon intime : Exposition au boulevard des italiens</i>, Paris, 1860; a census of Japanese art collectors: Stevens, Villot (Louvre), Favard, Legros, Chesneau, Chempfleury, Solon, Bracquemond, Fantin-Latour, Burty, the Goncourt brothers, Manet, Lambron, Monet (26 May 1868); <i>Les Alhambras</i>, Paris, 1908."
       ],
       "friends": "Carolus-Duran; Édouard Manet; Henri Fantin-Latour; Alphonse Legros",
       "member of": "<i>Cénacle des Batignolles</i>, from which emerges the Impressionist movement",
@@ -2466,12 +2466,19 @@
         "Paris Salon: from 1869",
         "Impressionist exhibitions: 1st one 1874"
       ],
-      "art collection": "he acquires artworks since the 1850s",
-      "sale": "Hôtel Drouot 1878: French, Spanish, English, Flemish and Dutch schools; contemporary pieces, Japanese art, sculpture, furniture.",
+      "art collection": "he acquires artworks since the 1850s. French (Oudry, Fragonard, Millet, Rousseau, Corot, Troyon, Prud'hon, Géricault, Monet), Spanish, English, Flemish and Dutch schools; contemporary pieces, Japanese art, sculpture, furniture.",
+      "interest in Spanish art": [
+        "His 1878 sale included several works from the Spanish school: 4 artworks attributed to Goya, 4 to El Greco (<i>Le Rier</i>, <i>La Vierge et l'Enfant-Jésus</i>, <i>Adoration des bergers</i> and <i>Saint François d'Assise recevant les stigmates</i>), and a sketch attributed to Velázquez (<i>Procession de la Vierge d'Atocha</i>).",
+        "He contributed to a revival of El Greco (Russel 1982)",
+        "He wrote a song dedicated to the Spanish dancer Lola de Valence in 1863, printed with a reproduction of a painting by Édouard Manet (1862)."
+      ],
+      "collector of Goya's works": "works attributed to Goya in his 1878 sale: <i>Enfant jouant au moine</i>, <i>Enfant jouant au soldat</i>, <i>Petite-fille de l'auteur</i> and <i>Nature morte</i>.",
+      "sale": "Hôtel Drouot, 11-12 April 1878 (catalogue by Ernest Chesneau).",
       "founder of": "Société japonaise du Jinglar (1867), with 9 other artists.",
-      "portrayed by": "Bracquemond, etching, c.1865; Édouard Manet, 1866 (Bremen Kunsthalle), which follows the model established by Velázquez and the Flemish painters, and in <i>Music Lesson</i>, 1870s, as the music teacher; Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>).",
+      "portrayed by": "Bracquemond, etching, c.1865; Édouard Manet, 1866 (Bremen Kunsthalle), which follows the model established by Velázquez and the Flemish painters; Manet, in <i>Music Lesson</i>, 1870s, as the music teacher; Fantin-Latour, 1870 (<i>Un atelier aux Batignolles</i>).",
       "decorations/awards": "Chevalier de la Légion d'honneur",
       "newspaper archive": "John Russel, 'Seeing The Art of El Greco as Never Before', <i>The New York Times</i>, 18 July 1982 (a review of the NGA exhibition).",
+      "websites": "[AGORHA](https://agorha.inha.fr/detail/569); [impressionism.nl](https://www.impressionism.nl/astruc-zacharie/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Astruc.jpg",
       "image source": "Bracquemond etching c.1865"
     },
@@ -4828,10 +4835,25 @@
       "to": "Édouard Manet",
       "connection_level": "direct", 
       "relationship type": "friends",
-      "interactions": "Manet followed Astruc's itinerary for his 1865 trip to Spain",
+      "knew each other since": "at least 1865",
+      "interactions": [
+        "Manet followed Astruc's itinerary for his 1865 trip to Spain",
+        "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir."
+      ],
       "collaborations": "Astruc wrote a song dedicated to the Spanish dancer Lola de Valence in 1863, printed with a reproduction of a painting by Édouard Manet (1862).",
       "portraits": "Astruc's portrait by Manet, 1866 (Bremen Kunsthalle); <i>Music Lesson</i>, 1870s (Astruc as the music teacher).",
-      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023"
+      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Hansen 2021, <i>Manet and Astruc. Friendship and Inspiration</i>.",
+      "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
+    },
+    {
+      "from": "Zacharie Astruc",
+      "to": "Edgar Degas",
+      "connection_level": "direct", 
+      "relationship type": "friends?",
+      "knew each other since": "c.1866",
+      "exchanges": "Astruc sold to Degas an artwork attributed to El Greco in Nov 1896, <i>Saint Dominiquez/iZ (c.1605), for 3,000 francs, now at the Boston MFA (23.272).",
+      "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
+      "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
     },
     {
       "from": "Zacharie Astruc",
@@ -4870,6 +4892,13 @@
       "portraits": "Balzac's face-mask is depicted by Astruc in his sculpture <i>Le Marchand de masques</i> (1883, Jardin Luxenbourg), also representing Corot, Delacroix, Berlioz, Carpeaux, Faure, Victor Hugo, Dumas and Barbey d'Aurevilly."
     }, 
     {
+      "from": "Zacharie Astruc",
+      "to": "Félix Bracquemond",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances?",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar"
+    }, 
+    {
       "from": "Henri Fantin-Latour",
       "to": "Édouard Manet",
       "connection_level": "direct", 
@@ -4890,14 +4919,19 @@
       "to": "Zacharie Astruc",
       "connection_level": "direct", 
       "relationship type": "acquaintances; friends?",
-      "portraits": "Astruc is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Pierre-Auguste Renoir, Émile Zola, Edmond Maître, Frédéric Bazille and Claude Monet."
+      "portraits": "Astruc is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Pierre-Auguste Renoir, Émile Zola, Edmond Maître, Frédéric Bazille and Claude Monet.",
+      "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar",
+      "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
     },
     {
       "from": "Henri Fantin-Latour",
       "to": "Émile Zola",
       "connection_level": "direct", 
       "relationship type": "friends",
-      "portraits": "Zola is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Pierre-Auguste Renoir, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet."
+      "portraits": "Zola is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Pierre-Auguste Renoir, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet.",
+      "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
+      "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
     },
     {
       "from": "Henri Fantin-Latour",
@@ -4945,6 +4979,23 @@
       "relationship type": "acquaintances",
       "interactions": "in Spain, during Morisot's trip in 1872-73",
       "mentions": "Morisot mentions Astruc as thei middleman in Madrid because he speaks Spanish and knows Madrid well"
+    },
+    {
+      "from": "Philippe Burty",
+      "to": "Zacharie Astruc",
+      "connection_level": "direct", 
+      "relationship type": "friends?",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar",
+      "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
+      "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
+    },
+    {
+      "from": "Auguste Renoir",
+      "to": "Zacharie Astruc",
+      "connection_level": "direct", 
+      "relationship type": "friends?",
+      "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
+      "websistes": "[AGORHA](https://agorha.inha.fr/detail/569)"
     },
     {
       "from": "Berthe Morisot",
@@ -7061,7 +7112,7 @@
       "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
       "collaborations": "Boulanger illustrates <i>Les orientales (1829)</i>: 'Les Fantômes'",
       "mentions": "Hugo probably dedicated to him (and Sainte-Beuve) a poem from <i>Feuilles d'Automne</i> (1830), mentioning Goya.",
-      "they sared": "Boulanger was part of Hugo's 'Cénacle'"
+      "they shared": "Boulanger was part of Hugo's 'Cénacle'"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
