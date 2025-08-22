@@ -180,8 +180,23 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Edges más transparentes (general)
     const edges = new vis.DataSet(data.edges.map(edge => {
       const level = edge.connection_level || "direct";
+
+      // Muestra etiqueta solo si es “direct” o “secondary”.
+      // Si termina en “?” (p. ej. “direct?”) NO la pintamos y la ponemos como tooltip.
+      const label =
+        edge.label === 'direct' || edge.label === 'secondary'
+          ? edge.label
+          : undefined;
+
+      const title =
+        edge.label && /\?$/.test(edge.label)
+          ? edge.label  // aparecerá al pasar el ratón
+          : edge.title;
+
       return {
         ...edge,
+        label,
+        title,
         color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
         width: 1.5
       };
