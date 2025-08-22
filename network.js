@@ -625,7 +625,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "interactions", label: "Interactions" },
           { key: "feuds", label: "Feuds" },
           { key: "mentions", label: "Mentions" },
-          { key: "exhibitions", label: "Exhibitions" },
           { key: "collaborations", label: "Collaborations" },
           { key: "curiosities", label: "Curiosities" },
           { key: "children", label: "Children" },
