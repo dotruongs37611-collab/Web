@@ -706,11 +706,21 @@
       "label": "Iriarte",
       "life dates": "1735-1814", 
       "nationality": "Spanish",
+      "born in": "Puerto de la Cruz (Tenerife)",
+      "dies in": "Bordeaux",
+      "in France": "1814 with the return of Fernando VII",
       "profession": "politician, diplomat, collector",
+      "works as": "1780 Consejero de Indias (colonies); 1792 member of the Consejo de Ecomercio; 1792 vice-protector of the RABASF; 1797 Minister of Agriculture, Commerce and Navigation; 1809 Diputado de Madrid and Consejero de Estado de la Corona (Joseph I).",
       "works for": "Fernando VI, Carlos III, Carlos IV, Joseph I (Joseph Bonaparte)",
+      "author of": "a translation of Voltaire's <i>Tancrède</i> (1765), in connection to the French ambassador Pierre-Paul d'Ossun (<i>Tragedia. El Tancredo</i>).",
       "member of": "Real Academia Española; Real Academia de Ciencias y Artes de Barcelona",
+      "link to Goya's work": "it is to Iriarte that Goya sends a letter on 7 Jan 1794 accompanying the series of 14 small paintings that he produced after his disease, with topics of 'capricho e invención'.",
       "portrayed by": "Francisco de Goya, 1797, Strasbourg Museum of Fine Arts",
-      "siblings": "Tomás de Iriarte",
+      "art collection": "started by his uncle Juan de Iriarte (LG 2016, p.98). It included works attributed to Velázquez, Murillo, Titian, Van Dyck and Mengs.",
+      "sales": "London (date?). Paris, 15 and 17 Feb 1841, and 21 Jan 1842. Attended by Carderera, who saw a portrait attributed to Velázquez being sold for 100 fr., and a Murillo for 55 fr. (LG 2016, p.98).",
+      "siblings": "Tomás de Iriarte (famous fabulist) and Domingo de Iriarte (diplomat)",
+      "bibliography": "Lanzarote Guiral 2016",
+      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Bernardo_de_Iriarte)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Iriarte.jpg",
       "image source": "Goya portrait, 1797, Strasbourg"
     },
@@ -1311,6 +1321,70 @@
       "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Lacoste-Veysseyre 2014; Hovasse 2001; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg",
       "image source": "Nadar photograph, 1854-55, Getty 84.XM.436.7"
+    },
+    {
+      "id": "José de Espronceda",
+      "label": "Espronceda",
+      "life dates": "1808-1842", 
+      "nationality": "Spanish",
+      "born in": "Almendralejo",
+      "profession": "writer, poet, politician",
+      "works as": "secretario de la Legación española en La Haya (1836); dputado por Almería; member of the Cortes Generales with the Partido Progresista (1842)",
+      "trips": "Portugal (1827); England; Brussels; Paris (until 1833)",
+      "in Paris": [
+        "In 1830, where he participated in the Revolution.",
+        "In 1841-1842, at least 27 Dec-18 Jan (he meets Carderera) (Lanzarote Guiral 2016, pp.91-93)."
+      ],
+      "political views": "liberal",
+      "portrayed by": "José María Esquivel, oil painting, 1842, Prado",
+      "bibliography": "Lanzarote Guiral 2016",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Espronceda.jpg",
+      "image source": "Esquivel 1842"
+    },
+    {
+      "id": "Arsène Houssaye",
+      "label": "Houssaye",
+      "full name": "François Arsène Housset",
+      "pseudonyms": "Alfred Mousse",
+      "life dates": "1814-1896", 
+      "nationality": "French",
+      "profession": "homme de lettres, writer, journalist, literary critic, poet, art collector",
+      "salon": "'mardis' (Tuesdays) at Av. de Friedland, attended by Zola among others.",
+      "curiosities": "he leaves his parents home in 1832 to leave the 'Bohemian life' in Paris (with Gautier, Nerval, Jules Janin and Alphones Esquiros)",
+      "writes in": "<i>L'Artiste</i> (director in 1843): with Champfleury, Baudelaire and others; <i>La Presse</i> (director); <i>La Revue des Deux Mondes</i>; <i>La Revue de Paris</i>; <i>Revue du XIXe siècle</i> (director in 1866); <i>La Gazette de Paris</i> (1870)",
+      "founder of": "<i>La Gazette de Paris</i> (1870); <i>La Revue de Paris et de Saint-Pétersbourg</i> (1887)",
+      "married to": "Anne-Stéphanie Bourgeois (1842); Marie-Jeanne-Nathalie Belloc (1862)",
+      "children": "Edmée Houssaye; Henry Houssaye; Albert Houssaye",
+      "works as": "Administrateur général de la Comédie-Française (1849-56); inspecteur des musées de province (1857); inspecteur général des beaux-arts (1863); Président de la Société des gens de lettres (1884-85)",
+      "portrayed by": "Gill, caricature, 28 June 1868; Étienne Carjat, photograph, c.1878",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Houssaye.jpg",
+      "image source": "Carjat c.1878"
+    },
+    {
+      "id": "Stéphane Mallarmé",
+      "label": "Mallarmé",
+      "full name": "Étienne Mallarmé",
+      "life dates": "1842-1898", 
+      "nationality": "French",
+      "profession": "poet, translator, art critic, lecturer",
+      "writes in": "<i>Chimère</i>",
+      "married to": "Maria Gerhard (1863)",
+      "children": "Geneviève Mallarmé-Bonniot; Anatole Mallarmé",
+      "influenced by": "Théophile Gautier; Victor Hugo; Théodore de Banville; Charles Baudelaire (<i>Les fleurs du mal</i>)",
+      "curiosities": [
+        "His <i>L'Après-midi d'un faune</i> (1865-76) would inspire Claude Debussy for his symphonic piece (1894). Maurice Ravel was also inspired by Mallarmé (<i>Trois poèmes de Mallarmé</i> (1913).",
+        "He meets Oscar Wilde and Paul Valéry in 1891 in pont de Valvins"
+      ],
+      "works as": "teacher at Lycée Condorcet, Lycée Janson-de-Sailly, Lycée Jacques-Decour, Lycée Rollin (1885-93)",
+      "in Paris": "from 1871",
+      "trips": "London (1863): 6, Brompton Square",
+      "decorations/awards": "he gives conferences at Cambridge and Oxford in 1894. Then holds the Taylorian Lecture.",
+      "considered as": "part of the <i>Cursed poets</i> (Verlaine's <i>Poètes maudits</i>, 1884).",
+      "portrayed by": "Manuel Luque, caricature as a faun in <i>Les hommes d'aujourd'hui</i>, 1887; Nadar, photograph, c.1890 and 1896",
+      "author of": "first poems published in 1862; a translation of Edgar A. Poe's 1845 <i>The Raven</i> (<i>Corbeau</i>) in 1875, illustrated by Édouard Manet; 1888 translation of Poe's poems",
+      "archives": "Archives départementales des Yvelines (166J, Ms 11890-11891, 13238, 3s, 1890-1890); Bibliothèque littéraire Jacques-Doucet",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mallarme.jpg",
+      "image source": "Nadar c.1890"
     },
     {
       "id": "Honoré de Balzac",
@@ -3772,6 +3846,14 @@
       "relationship type": "master-student"
     },
     {
+      "from": "Valentín Carderera",
+      "to": "José de Espronceda",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they met": "in Paris, 1841, 30 Dec, and 1842, 6, 15 and 18 Jan. (LG 2016, pp.91-93).",
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
       "from": "Mariano Salvador Maella",
       "to": "Agustín Esteve",
       "connection_level": "direct",
@@ -4501,6 +4583,129 @@
       "to": "Théophile Gautier",
       "connection_level": "secondary",
       "relationship type": "Gautier writes extensively about Goya (see Gautier's node). He also collects some works"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "friends? Mallarmé admired Gautier"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Berthe Morisot",
+      "connection_level": "direct",
+      "relationship type": "friends"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Émile Zola",
+      "connection_level": "direct",
+      "relationship type": "friends?",
+      "knew each other since": "c.1871"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Édouard Manet",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "knew each other since": "at least 1876",
+      "portraits": "Manet makes Mallarmé's portrait in 1876"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "friends? Mallarmé admired Baudelaire"
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "friends; colleagues",
+      "knew each other since": "c.1832",
+      "interactions": [
+        "Houssaye left her parents home in 1832 to leave the 'Bohemian life' in Paris, with Gautier, Nerval, Jules Janin and Alphones Esquiros. They also lived close to one another on the impasse du Doyenné (current Place du Carrousel).",
+        "Gautier was a witness in Houssaye's 2nd marriage, to Marie-Jeanne-Nathalie Belloc, in 1862."
+      ],
+      "collaborations": "Houssate and Gautier publish <i>Les Peintres vivants</i> (1858) with Paul Mantz"
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Eugenio Ochoa",
+      "connection_level": "direct?",
+      "relationship type": "acquaintances?",
+      "knew each other since": "1837",
+      "interactions": "when Ochoa visits Hugo in 1837, he mentions Houssaye among the artists and writers who followed him, as 'jóvenes poetas y novelistas en la aurora de una brillante reputación') (Romero Tobar 1997, p. 222).",
+      "bibliography": "Romero Tobar 1997"
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "interactions": "Delacroix was a witness in Houssaye's 2nd marriage, to Marie-Jeanne-Nathalie Belloc, in 1862."
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Émile Zola",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "interactions": [
+        "Zola often attended Houssaye's soirées ('mardis': Tuesdays) at Av. de Friedland.",
+        "In Houssaye's funeral in 1896, Zola said he had been 'un des derniers grands chênes de la forêt romantique'."
+      ]
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Charles Baudelaire",
+      "connection_level": "direct",
+      "relationship type": "friends?; colleagues",
+      "knew each other since": "at least 1843",
+      "interactions": "Baudelaire dedicates to Houssaye the poems in <i>Spleen de Paris</i>",
+      "collaborations": [
+        "Houssaye becomes director of <i>L'Artiste</i> in 1843, where he publishes the work of Baudelaire.",
+        "Houssaye, as director of <i>La Presse</i>, delays the publication of Baudelaire's <i>Spleen de Paris</i> in 1862 because he wanted to censor some poems that could 'shock' the readers. It ends up in a breach of contract that deeply affects Baudelaire, who was in urgent need of money."
+      ]
+    },
+    {
+      "from": "Paul Mantz",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "knew each other since": "at least 1858",
+      "collaborations": "Mantz and Gautier publish <i>Les Peintres vivants</i> (1858) with Arsène Houssaye"
+    },
+    {
+      "from": "Paul Mantz",
+      "to": "Arsène Houssaye",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "knew each other since": "at least 1858",
+      "collaborations": "Mantz and Houssaye publish <i>Les Peintres vivants</i> (1858) with Théophile Gautier"
+    },
+    {
+      "from": "Alfred de Musset",
+      "to": "Arsène Houssaye",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "knew each other since": "c.1849",
+      "collaborations": "as Administrateur général of the Comédie-Française, Houssaye presents Musset's works."
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Arsène Houssaye",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "knew each other since": "c.1849",
+      "collaborations": "as Administrateur général of the Comédie-Française, Houssaye presents Hugo's works."
+    },
+    {
+      "from": "Alexandre Dumas père",
+      "to": "Arsène Houssaye",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "knew each other since": "c.1849",
+      "collaborations": "as Administrateur général of the Comédie-Française, Houssaye presents Dumas's works."
     },
     {
       "from": "Javier Goya",
@@ -5374,9 +5579,11 @@
       "to": "Adrien Dauzats",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1845",
+      "knew each other since": "at least 1841",
       "interactions": [
-        "1856, 1 Oct (Paris): Carderera shows Dauzats hiw own drawings and also Goya's. Dauzats copies or traces some of them (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.352).",
+        "1841, May 4, 7 (with Blanchard and Taylor), 9 (Dauzats saw his drawings), Dec 2, 15 (Carderera gives him the drawing he asked for), 16, 30 (Paris): they meet (LG 2016, pp.10, 11, 12, 87, 92).",
+        "1842, 27 Jan (Paris): Carderera goes to Dauzats's and leaves a letter for him (Lanzarote Guiral 2016, p.100).",
+        "1856, 1 Oct (Paris): Carderera shows Dauzats hiw own drawings and also Goya's. Dauzats copies or traces some of them (Fayos Pérez 2024, p.51; LG 2016, p.352).",
         "1859, 12 Nov (Paris): Carderera takes single sheets from the <i>Caprichos</i> and gives some of the prints to Dauzats: 'le regalé las estampas de Goya (29). Parece quedó content y quería pagármelas' (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.430)."
       ],
       "correspondence": [
@@ -5415,7 +5622,7 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "acquaintance", 
-      "know each other since": "at least 13 May 1841, in Paris. Carderera's diary: 'Por la mañana estuve a almorzar con Mr. Piot y con Mr. Teófilo Gautier” (Lanzarote Guiral 2016, p.12)",
+      "know each other since": "at least 13 May 1841, in Paris. Carderera's diary: 'Por la mañana estuve a almorzar con Mr. Piot y con Mr. Teófilo Gautier' (Lanzarote Guiral 2016, p.12). Carderera helped Gautier with 1842 article in <i>Le Cabinet de l'amateur</i> (LG 2016, p.550)",
       "they met": "Paris, 1859-XI-13: 'Fuime al quai Voltaire, redacción del Monitor (sic) [<i>Le Moniteur universel</i>] y pude entrar en el gabinete de Théophile Gautier, que estuvo amable. Vio la serie de toros, que le regalé y después mis entregas [...]' (Lanzarote Guiral 2016, p.431)",
       "artworks bought/sold/given": "on 1859-XI-13, Carderera showed Gautier Goya's <i>Tauromaquia</i> and then gave it to him. This is most likely the <i>Tauromaquia</i> set that was sold in Sotheby's Paris, 14 Dec 2022 (Library of Jorge Ortiz Linares), lot 37, for 132,300€. [Sotheby's](https://www.sothebys.com/en/buy/auction/2022/de-la-precieuse-bibliotheque-jorge-ortiz-linares/madrid-1816-33-eaux-fortes-envoi-de-valentin?locale=en). [YouTube video](https://www.youtube.com/watch?v=6A2iC0fEZxs) of Jean-Baptiste de Proyart discussing the <i>Tauromaquia</i> set (min 2:10)",
       "bibliography": "Fayos Pérez 2020; Lanzarote Guiral 2016"
@@ -5807,6 +6014,24 @@
       "relationship type": "colleagues",
       "collaborations": "they both participate in <i>Les Peintres vivants</i> (1858), alongside Arsène Houssaye",
       "influence": "In his early years, Mantz was inspired by Gautier's writings"
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "knew each other since": "at least 1861",
+      "interactions": "1861, 2 Oct (Paris): Blanc and Houssaye gave Carderera the 'entregas' from the <i>Gazette des Beaux-arts</i>. 'I warned them about the article of Goya given to Burty, etc.' (Lanzarote Guiral 2016, p.508).",
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Arsène Houssaye",
+      "to": "Charles Blanc",
+      "connection_level": "direct",
+      "relationship type": "colleagues?",
+      "knew each other since": "at least 1861",
+      "interactions": "1861, 2 Oct (Paris): Blanc and Houssaye gave Carderera the 'entregas' from the <i>Gazette des Beaux-arts</i>. Carderera writes: 'I warned them about the article of Goya given to Burty, etc.' (Lanzarote Guiral 2016, p.508).",
+      "bibliography": "Lanzarote Guiral 2016"
     },
     {
       "from": "Victor Hugo",
