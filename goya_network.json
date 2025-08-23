@@ -2288,7 +2288,7 @@
       "author of": [
         "PAINTINGS:<i>Le Buveur d'absinthe</i> (1859: rejected at the Salon; Copenhague, Ny Carlsberg Glyptotek); <i>Monsieur and Madame Auguste Manet</i> (painting, 1860); <i>Monsieur Manet (The Artist's Father)</i> (print, 1860); <i>Chanteur espagnol</i> (1860; Salon 1861: honorable mention) (Metropolitan); <i>Portrait de M. et Mme Auguste Manet</i> (1860, Orsay); <i>Boy with a Sword</i> (1861); <i>Le Déjeuner su l'herbe</i> (1862); <i>Music in the Tuileries</i> (NG/Hugh Lane Gallery Dublin); <i>Lola de Valence</i> (painting: 1862; Orsay); <i>The Dead Toreador</i> (c.1864); <i>Le Christ mort et les anges</i> (1864, Metropolitan); <i>L'Homme mort</i> (1864-65, Washington, National Gallery of Art): badly criticized by Théophile Thoré; <i>Combat de taureaux</i> (1865); <i>Jesus Mocked by the Soldiers</i> (Salon 1865; Chicago); <i>Olympe</i> (1863; Salon 1865); <i>Reading</i> (c.1866-73); <i>Le Joueur de fifre</i> (1866); <i>Le Matador saluant</i> (1866-67); <i>L'Exécution de Maximilien</i> (1867); <i>Émile Zola</i> (1868); <i>The Balcony</i> (1868-69); <i>Eva Gonzalès</i> (1869-70, London NG); <i>Music Lesson</i> (1870); <i>Repose</i> (c.1871); <i>Berthe Morisot with a Bouquet of Violets</i> (painting and print, 1872); <i>Boating</i> (1874); <i>The Artist (Marcellin Desboutin)</i> (1875); <i>The Ham</i> (c.1875-80); <i>Stéphane Mallarmé</i> (1876); <i>Nana</i> (1877); <i>Woman with a Cigarette</i> (c.1878-80, acquired by Degas in 1896), probably inspired by Mérimée's <i>Carmen</i> and the 1875 homonymous opera by Georges Bizet.",
         "PRINTS:",
-        "ILLUSTRATIONS: <i>Lola de Valence</i> (1862 painting and 1863 print), to illustrate a poem by Zacharie Astruc; 1868 <i>Fleur exotique</i>, inspired by Goya, to illustrate a sonnet by Armand Renaud, published by Philippe Burty; 1875 illustrations for Poe's <i>The Raven</i>, translated by Mallarmé (<i>Le Corbeau</i>)."
+        "ILLUSTRATIONS: <i>Lola de Valence</i> (1862 painting and 1863 print), to illustrate a poem by Zacharie Astruc; 1868 <i>Fleur exotique</i>, inspired by Goya, to illustrate a sonnet by Armand Renaud, published by Philippe Burty; 1875 illustrations for Poe's 1845 <i>The Raven</i>, translated by Mallarmé (<i>Le Corbeau</i>)."
       ],
       "influences": [
         "Francisco de Goya. Example are <i>On the Prado II</i> (1863, etching and aquatint) (Tinterow 2003, p.393) and <i>Fleur exotique</i> (1868, etching and aquatint), an illustration for a sonnet by Armand Renaud, published by Philippe Burty, [Metropolitan 64.649.1](https://www.metmuseum.org/art/collection/search/337433)].",
@@ -4594,7 +4594,15 @@
       "from": "Stéphane Mallarmé",
       "to": "Berthe Morisot",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "interactions": "Mallarmé would be the tutor of her daughter, Julie Manet (Manet's niece)"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Nadar",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; portraitist-sitter",
+      "portraits": "Nadar took Mallarmé's photograph c.1890 and 1896"
     },
     {
       "from": "Stéphane Mallarmé",
@@ -4608,8 +4616,20 @@
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1876",
+      "knew each other since": "at least 1875",
+      "collaborations": "1875 Manet made illustrations for Mallarmé's translation of Poe's <i>The Raven</i> (<i>Le Corbeau</i>)",
+      "interactions": "Mallarmé would be the tutor of Manet's daughter, Julie Manet (Manet's niece)",
+      "mentions": "1876 Manet and Degas are praised in Mallarmé's <i>The Impressionists and Édouard Manet</i>.",
       "portraits": "Manet makes Mallarmé's portrait in 1876"
+    },
+    {
+      "from": "Stéphane Mallarmé",
+      "to": "Edgar Degas",
+      "connection_level": "direct",
+      "relationship type": "friends?",
+      "knew each other since": "at least 1876",
+      "mentions": "1876 Manet and Degas are praised in Mallarmé's <i>The Impressionists and Édouard Manet</i>.",
+      "portraits": "Degas photographed Mallarmé in 1895 (<i>Stéphane Mallarmé and Paule Gobillard in front of ‘Young Women in a Garden’ by Manet</i>)"
     },
     {
       "from": "Stéphane Mallarmé",
