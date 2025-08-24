@@ -3046,11 +3046,9 @@
         "Queen consort of Spain (1829-1833); Regent of the Kingdom (1833-1840).",
         "Businesswoman: salt, stock market, railroad, real state, slavery. She and her husband had commercial businesses in Madrid, Paris, London and La Habana, from 1835 to 1873, through the firm 'Agustín Sánchez & Cia' (created in 1844). Their involvment in the slave trade 1845-1849, through Julián Zulueta, continued even after it was declared illegal (1837); they owned two large ships for the trans-Atlantic transport of slaves."
       ],
-      "in Paris": [
-        "1840-1844 (where she conspired until her reestablishment as Queen Regent).",
-        "1854-1874 (with the 1854 Revolution; until her grandson Alfonso XII became King)."
-      ],
-      "in France": "she was in 3 exiles: 1840-44, 1854-56 and 1868",
+      "in Paris": "1840-1844. From Paris, she conspired until her reestablishment as Queen Regent.",
+      "in France": "she was in 3 exiles: 1840-44, 1854-56 (with the 1854 Revolution) and 1868-1878 (with the 1868 Revolution; her grandson Alfonso XII became King in 1874).",
+      "masters": "José Madrazo; Federico Madrazo",
       "married to": "Fernando VII (1829-1833); Fernando Muñoz, I Duke of Riánsares (1833-1873)",
       "children": [
         "With Fernando II (2): Isabel II and Infanta María Luisa.",
@@ -3058,11 +3056,12 @@
       ],
       "address": "Palace de la Malmaison, former residence of Napoleon and Josephine (acquired in 1842); Palacio de las Rejas, Madrid (destroyed in 1854). Real Quinta de Quitapesares, Segovia. Real Posesión de Vista Alegre (Carabanchel). Other residences in Tarancón, Riánsares and Señorío de Castillejo",
       "decorations/awards": "Dama de la Orden de las Damas Nobles de la Reina María Luisa (Spain 1833); Gran Maestre de la Orden de las Damas Nobles de la Reina María Luisa (Spain 1829-1833); Dama gran cruz de la Orden de Nuestra Señora de la Concepción de Villaviciosa (Portugal, 1833); Dama de la Orden de la Reina Santa Isabel (Portugal); Dama gran cruz de la Orden de Nuestra Señora de la Concepción de Villaviciosa (Portugal); Dama de primera clase de la Orden de la Cruz Estrellada (Austrian Empire 1830); Dama gran cruz de la Orden de Santa Catalina (Russian Empire).",
-      "portrayed by": "Luis de la Cruz, oil painting, 1815; Franz Xaver Winterhalter, oil painting, 1841 (Paris); Mayer & Pierson, photograph, c.1870",
+      "portrayed by": "Luis Carlos Legrand (lithography) after José Madrazo (original painting, lost), 1829-1832, Prado; Vicente López, oil painting, 1830, Prado P000865; Federico Madrazo, drawing, 1832, Prado D005367; Vicente López, oil painting, c.1832, Prado P007115; Luis de la Cruz, oil painting, 1833, Prado P008206; José Madrazo, <i>La reina gobernadora María Cristina de Borbón</i>, 1838, Madrazo collection Madrid; Franz Xaver Winterhalter, oil painting, 1841 (Paris); Mayer & Pierson, photograph, c.1870",
       "curiosities": "she was expelled from Spain in 1854 due to the massive corruption she was involved in, receiving bribes from Ministers and businessmen, and because of the looting of the royal heritage. Her lifetime pension was revoked.",
       "bibliography": "Miguel Á. López-Morell 2022, 'La estrategia de la corrupción. El patrimonio y los negocios de la reina María Cristina y Fernando Muñoz'; Paula Cifuentes 2020, <i>María Cristina. Reina gobernadora</i>; María Ángeles Casado 2018, 'María Cristina de Borbón dos Sicilias. Escándalos y corrupción', in Borja de Riquer et al. (eds.), <i>La corrupción política en la España contemporánea</i>, pp.279-92; José Antonio Piqueras 2011, <i>La esclavitud en las Españas: un lazo transatlántico</i>, pp.112-13; José Antonio Piqueras 2004, 'La Reina, los esclavos y Cuba', in Juan Pérez (ed.) <i>Isabel II. Los Espejos de la reina, Madrid, Marcial Pons Historia</i>, pp.91-110; Ángel Bahamonde Magro 1992, 'Entre España y el mercado mundial, el clan de los Zulueta (1823-1885)', in <i>Hacer las Américas: las élites coloniales españolas en el siglo XIX</i>, pp.242-55; Ángel Bahamonde & José G. Cayuela 1988, 'Entre La Habana, París y Madrid: Intereses antillanos y trasvase de capitales de María Cristina de Borbón y el duqe de Riansares (1835-1873)', in <i>Estudios de Historia Social</i>, pp.44-47.",
       "podcasts": "<i>Cualquier tiempo pasado fue anterior</i>, 'María Cristina de Borbón. Con ella empezó la fiesta' (18 June 2023), [Spotify](https://open.spotify.com/episode/5wjmQWtHTQPknQOr5NOTSj).",
       "newspaper archive": "'¿Qué tesoros se llevó de España la reina María Cristina?', <i>La Vanguardia</i> (21 April 2022); 'De la corrupta María Cristina de Borbón al aún presunto Juan Carlos I', <i>elDiario.e</i> (7 Sept 2021); 'María Cristina de Borbón, la vergonzosa ambición económica de una reina impune', <i>El Confidencial</i> (14 Nov 2020); 'María Cristina de Borbón: la reina de la corrupción', <i>El Nacional.cat</i> (22 March 2020).",
+      "websites": "<i>La esclavitud en España. El signo de la ignominia</i>, Ministerio de de Inclusión, Seguridad Social y Migraciones, [Ezequiel Paz](https://www.inclusion.gob.es/web/cartaespana/w/la-esclavitud-en-espana.-el-signo-de-la-ignominia)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Maria_Cristina.jpg",
       "image source": "c.1870 photograph"
     },
@@ -5086,6 +5085,30 @@
       "connection_level": "direct",
       "relationship type": "spouses: husband-wife (1829); relatives: uncle-niece",
       "children": "Isabel II and Infanta María Luisa"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "José Madrazo",
+      "connection_level": "direct",
+      "relationship type": "employer-employee; teacher-student",
+      "knew each other since": "at least 1829",
+      "portraits": "painting after which Luis Carlos Legrand made a lithography, 1829-1832, Prado; <i>La reina gobernadora María Cristina de Borbón</i>, 1838, Madrazo collection Madrid"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Federico Madrazo",
+      "connection_level": "direct",
+      "relationship type": "employer-employee; teacher-student",
+      "knew each other since": "at least 1832",
+      "portraits": "drawing, 1832, Prado D005367"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Vicente López",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "knew each other since": "at least 1830",
+      "portraits": "oil painting, 1830, Prado P000865; oil painting, c.1832, Prado P007115"
     },
     {
       "from": "María Cristina de Borbón-Dos Sicilias",
