@@ -1055,13 +1055,14 @@
     },
     {
       "id": "Bartolomé Sureda",
-      "label": "Sureda",
+      "label": "B. Sureda",
       "full name": "Bartolomé Sureda y Miserol",
       "life dates": "1769-1851", 
       "born in": "Palma de Mallorca",
       "nationality": "Spanish",
       "profession": "porcelain maker; engineer; painter",
       "in France": "1800-1803 (to study); in 1812, during the Peninsular War (after the Real Fábrica de Porcelana del Buen Retiro is destroyed by the Duke of Wellington)",
+      "in Paris": "1841-1842 where he meets with Carderera; he works with Viollet-le-Duc in the restoration of the Sainte Chapelle.",
       "in Madrid": "from October 1803. He gets portrayed by Goya",
       "married to": "Thérèse Louise Sureda (also portrayed by Goya) [Washington National Gallery of Art 1942.3.1](https://www.nga.gov/artworks/991-therese-louise-de-sureda)",
       "children": "Alejandro Sureda (architect)",
@@ -1071,6 +1072,40 @@
       "bibliography": "Sazatornil & Jiméno 2014",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sureda_Bartolome.jpg",
       "image source": "Goya portrait, c.1803-04, Washington"
+    },
+    {
+      "id": "Alejandro Sureda",
+      "label": "A. Sureda",
+      "full name": "Alexandre-Mathieu Sureda Chappron",
+      "life dates": "1815-1889", 
+      "born in": "Paris",
+      "nationality": "Spanish; French",
+      "profession": "architect",
+      "parents": "Bartolomé Sureda and Thérèse Louise de Sureda",
+      "married to": "Pauline-Alexandrine Guignon (1840)",
+      "children": "Luis Sureda Guignon (architect; worked at the Exposition Universelle de Paris 1878)",
+      "masters": "Henri Labrouste (1836-1840)",
+      "works for": "Queen María Cristina: Malmaison and Palace of Braganza in France (1843, 1845-46) and decoration of Palace of Las Rejas in Madrid (1847); Eugenia de Montijo: restoration of Palace of Belmonte, Cuenca (1857-71)",
+      "in Paris": "from 1836 to at least 1840",
+      "in Madrid": "from 1850",
+      "decorations/awards": "Cruz de caballero de la Real Orden de Isabel la Católica (1843), through Carderera",
+      "founder of": "the Société d'archéologie nationale, with Lassus and Viollet-le-Duc (1848)",
+      "member of": "Sociedad Central de Arquitectos",
+      "works as": "inspector of the works of the Sainte-Chapelle, Paris, alongside Viollet-le-Duc (1839); architect (RABASF) from 1850; 2nd architect of the palaces and Reales Sitios (1851-1868); architect at the Teatro Apolo (1871-73); first architect to do works at the Prado Museum (1874-84): refurbishments and interior reform, division of Flemish and Spanish schools, project of the Galería Jónica for sculpture; architect restoring the Belmonte Castle (Cuenca) for Eugenia de Montijo (1857-71); architect for the palace of the Marquis of Cerralbo (from 1883), later the Museo Cerralbo.",
+      "bibliography": "Lanzarote Guiral 2016",
+      "websites": "[RAH](https://historia-hispanica.rah.es/biografias/43327-alejandro-sureda-chappron), Nieves Panadero Peropadre; [Prado](https://www.museodelprado.es/museo/galeria-jonica), Galería Jónica",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sureda_Alejandro.jpg",
+      "image source": "AI generated (DeepAI) because there is no known portrait"
+    },
+    {
+      "id": "Alejandro Sureda",
+      "label": "A. Sureda",
+      "full name": "Alexandre-Mathieu Sureda Chappron",
+      "life dates": "1815-1889", 
+      "born in": "Paris",
+      "nationality": "Spanish; French",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sureda_Alejandro.jpg",
+      "image source": ""
     },
     {
       "id": "Laurent Matheron",
@@ -2824,7 +2859,7 @@
       "participated in": "Anglo-Spanish War (1779-1783)",
       "portrayed by": "Goya, 1785, private collection; Agustín Esteve, 1785, Museo Lázaro Galdiano (Madrid); Goya, 1788, family portrait, Prado; Goya, c.1798, Frick Collection (NY); Guillermo Ducker, 1805, Prado",
       "married to": "María Josefa de Borja Pimentel y Téllez-Girón, XII Countess-Duchess of Benavente and Duchess of Osuna",
-      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, marquesa de Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, X Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, VIII Duchess of Abrantes (portrayed by Goya)",
+      "children": "9, surviving 5. Josefa Manuela Téllez-Girón, Marchioness of Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, X Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, VIII Duchess of Abrantes (portrayed by Goya)",
       "parents": "Pedro Zoilo Téllez-Girón y Pérez de Guzmán and María Vicenta Pacheco y Téllez-Girón",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Osuna_IX.jpg",
       "image source": "Goya portrait, c.1798, Frick Collection"
@@ -3007,6 +3042,39 @@
       "curiosities": "an anonymous album of 107 drawings, <i>Los Borbones en pelota</i>, appeared showing sexually explicit images of the Queen with different men. Possible authors are the brothers Gustavo Adolfo and Valeriano Bécquer, or the draughtsman Francisco Ortego. It was in an unknown location until 1986 and is now held at the BNE. It was not officially published until 1991.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Isabel_II.jpg",
       "image source": "Jean Laurent, photograph, c.1860"
+    },
+    {
+      "id": "María Cristina de Borbón-Dos Sicilias",
+      "label": "Mª Cristina",
+      "full name": "María Cristina Fernanda de Borbón y Borbón",
+      "life dates": "1806-1878", 
+      "born in": "Palermo",
+      "dies in": "Sainte-Adresse",
+      "parents": "Francisco I de las Dos Sicilias and María Isabel de Borbón",
+      "nationality": "Spanish",
+      "works as": [
+        "Queen consort of Spain (1829-1833); Regent of the Kingdom (1833-1840).",
+        "Businesswoman: salt, stock market, railroad, real state, slavery. She and her husband had commercial businesses in Madrid, Paris, London and La Habana, from 1835 to 1873, through the firm 'Agustín Sánchez & Cia' (created in 1844). Their involvment in the slave trade 1845-1849, through Julián Zulueta, continued even after it was declared illegal (1837); they owned two large ships for the trans-Atlantic transport of slaves."
+      ],
+      "in Paris": [
+        "1840-1844 (where she conspired until her reestablishment as Queen Regent).",
+        "1854-1874 (with the 1854 Revolution; until her grandson Alfonso XII became King)."
+      ],
+      "in France": "she was in 3 exiles: 1840-44, 1854-56 and 1868",
+      "married to": "Fernando VII (1829-1833); Fernando Muñoz, I Duke of Riánsares (1833-1873)",
+      "children": [
+        "With Fernando II (2): Isabel II and Infanta María Luisa.",
+        "With Fernando Muñoz (8): María Amparo, condesa de Vista Alegre; Milagros, marquesa de Castillejo; Agustín, duque de Tarancón; Fernando, duque de Riansares; María Cristina, marquesa de la Isabela; Juan, conde del Recuerdo; Antonio Muñoz; José, conde de Gracia."
+      ],
+      "address": "Palace de la Malmaison, former residence of Napoleon and Josephine (acquired in 1842); Palacio de las Rejas, Madrid (destroyed in 1854). Real Quinta de Quitapesares, Segovia. Real Posesión de Vista Alegre (Carabanchel). Other residences in Tarancón, Riánsares and Señorío de Castillejo",
+      "decorations/awards": "Dama de la Orden de las Damas Nobles de la Reina María Luisa (Spain 1833); Gran Maestre de la Orden de las Damas Nobles de la Reina María Luisa (Spain 1829-1833); Dama gran cruz de la Orden de Nuestra Señora de la Concepción de Villaviciosa (Portugal, 1833); Dama de la Orden de la Reina Santa Isabel (Portugal); Dama gran cruz de la Orden de Nuestra Señora de la Concepción de Villaviciosa (Portugal); Dama de primera clase de la Orden de la Cruz Estrellada (Austrian Empire 1830); Dama gran cruz de la Orden de Santa Catalina (Russian Empire).",
+      "portrayed by": "Luis de la Cruz, oil painting, 1815; Franz Xaver Winterhalter, oil painting, 1841 (Paris); Mayer & Pierson, photograph, c.1870",
+      "curiosities": "she was expelled from Spain in 1854 due to the massive corruption she was involved in, receiving bribes from Ministers and businessmen, and because of the looting of the royal heritage. Her lifetime pension was revoked.",
+      "bibliography": "Miguel Á. López-Morell 2022, 'La estrategia de la corrupción. El patrimonio y los negocios de la reina María Cristina y Fernando Muñoz'; Paula Cifuentes 2020, <i>María Cristina. Reina gobernadora</i>; María Ángeles Casado 2018, 'María Cristina de Borbón dos Sicilias. Escándalos y corrupción', in Borja de Riquer et al. (eds.), <i>La corrupción política en la España contemporánea</i>, pp.279-92; José Antonio Piqueras 2011, <i>La esclavitud en las Españas: un lazo transatlántico</i>, pp.112-13; José Antonio Piqueras 2004, 'La Reina, los esclavos y Cuba', in Juan Pérez (ed.) <i>Isabel II. Los Espejos de la reina, Madrid, Marcial Pons Historia</i>, pp.91-110; Ángel Bahamonde Magro 1992, 'Entre España y el mercado mundial, el clan de los Zulueta (1823-1885)', in <i>Hacer las Américas: las élites coloniales españolas en el siglo XIX</i>, pp.242-55; Ángel Bahamonde & José G. Cayuela 1988, 'Entre La Habana, París y Madrid: Intereses antillanos y trasvase de capitales de María Cristina de Borbón y el duqe de Riansares (1835-1873)', in <i>Estudios de Historia Social</i>, pp.44-47.",
+      "podcasts": "<i>Cualquier tiempo pasado fue anterior</i>, 'María Cristina de Borbón. Con ella empezó la fiesta' (18 June 2023), [Spotify](https://open.spotify.com/episode/5wjmQWtHTQPknQOr5NOTSj).",
+      "newspaper archive": "'¿Qué tesoros se llevó de España la reina María Cristina?', <i>La Vanguardia</i> (21 April 2022); 'De la corrupta María Cristina de Borbón al aún presunto Juan Carlos I', <i>elDiario.e</i> (7 Sept 2021); 'María Cristina de Borbón, la vergonzosa ambición económica de una reina impune', <i>El Confidencial</i> (14 Nov 2020); 'María Cristina de Borbón: la reina de la corrupción', <i>El Nacional.cat</i> (22 March 2020).",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Maria_Cristina.jpg",
+      "image source": "c.1870 photograph"
     },
     {
       "id": "Joseph Bonaparte",
@@ -3989,7 +4057,9 @@
       "from": "Valentín Carderera",
       "to": "José Madrazo",
       "connection_level": "direct",
-      "relationship type": "colleagues (RABASF)"
+      "relationship type": "colleagues (RABASF)",
+      "correspondence": "yes. Letters mentioned in Carderera's diary (e.g. 18 Dec 1841) (LG 2016, p.87)",
+      "bibliography": "Lanzarote Guiral 2016"
     },
     {
       "from": "Santiago Masarnau",
@@ -4343,6 +4413,48 @@
       "connection_level": "direct",
       "relationship type": "patronage; colleagues",
       "portraits": "1803-04, Washington, [National Gallery of Art 1941.10.1](https://www.nga.gov/artworks/985-bartolome-sureda-y-miserol)"
+    },
+    {
+      "from": "Bartolomé Sureda",
+      "to": "Alejandro Sureda",
+      "connection_level": "direct",
+      "relationship type": "relatives; father-son"
+    },
+    {
+      "from": "Alejandro Sureda",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "knew each other since": "at least 1841",
+      "correspondence": "yes. Letters mentioned in Carderera's diary, 1841-1842 (LG 2016).",
+      "exchanges": "Sureda received the Cruz de caballero de la Real Orden de Isabel la Católica in 1843 thanks to Carderera.",
+      "interactions": [
+        "Many, in Paris, from 1841 to 1843.",
+        "1841 May 15, Nov 22, 25, Dec 10, 18",
+        "1842 Jan 2, 10, 16, Feb 10, 20, 26 (with Viollet-le-Duc), March 19, April 2, 5, 20, May 30, June 2, Aug 24, Dec 4, 7.",
+        "1843 Feb 3 (Sureda tells him that Thiers what to buy his drawings and see them at Viollet-le-Duc's), March 23, April 8, June 4, 20.",
+        "1845 May 2, 7, July 12, Sept 7, Oct 12, Nov 8, 10, 18, 27, Dec 10",
+        "1858 by Carderera's initiative, Sureda plans the restoration of the upper part of the tower of San Isidoro de León.",
+        "1863 Sureda asks Carderera to act as intermediary with the XII Duke of Osuna (Mariano Téllez-Girón) --who had been portrayed by Carderera in 1833-- to receive the commission of the restoration of the Palace del Infantado (Guadalajara)."
+      ],
+      "bibliography": "Lanzarote Guiral 2016",
+      "websites": "[RAH](https://historia-hispanica.rah.es/biografias/43327-alejandro-sureda-chappron)"
+    },
+    {
+      "from": "Eugenia de Montijo",
+      "to": "Alejandro Sureda",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "knew each other since": "at least 1857",
+      "collaborations": "restoration of the Belmonte Castle in Cuenca (1857-71)"
+    },
+    {
+      "from": "Federico Madrazo",
+      "to": "Alejandro Sureda",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "knew each other since": "at least from 1860",
+      "websites": "[RAH](https://historia-hispanica.rah.es/biografias/43327-alejandro-sureda-chappron)"
     },
     {
       "from": "Manuel Godoy",
@@ -4959,6 +5071,55 @@
       "to": "Eugenio Eulalio Palafox, VII Count of Montijo",
       "connection_level": "direct",
       "relationship type": "relatives; brother-in-law, sister-in-law"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "relatives; mother-daughter"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Carlos IV",
+      "connection_level": "secondary?",
+      "relationship type": "relatives: father-in-law, daughter-in-law"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "María Luisa de Parma",
+      "connection_level": "secondary?",
+      "relationship type": "relatives: mother-in-law, daughter-in-law"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "spouses: husband-wife (1829); relatives: uncle-niece",
+      "children": "Isabel II and Infanta María Luisa"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Alejandro Sureda",
+      "connection_level": "direct",
+      "relationship type": "acquantances; employer-employee",
+      "knew each other since": "at least 1843",
+      "collaborations": "Sureda works on the restoration of the Palaces of Malmaison and Braganza in France (1843, 1845-46), and on the decoration of Palace of Las Rejas in Madrid (1847)."
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "acquantances; employer-employee?",
+      "knew each other since": "at least 1843"
+    },
+    {
+      "from": "María Cristina de Borbón-Dos Sicilias",
+      "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
+      "connection_level": "direct",
+      "relationship type": "business partners",
+      "knew each other since": "1841",
+      "they met": "in Paris in 1841", 
+      "they share": "lucrative business deals, many of which were deeply corrupt"
     },
     {
       "from": "María Manuela Kirkpatrick",
@@ -5607,6 +5768,7 @@
         "1859, 12 Nov (Paris): Carderera takes single sheets from the <i>Caprichos</i> and gives some of the prints to Dauzats: 'le regalé las estampas de Goya (29). Parece quedó content y quería pagármelas' (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.430)."
       ],
       "correspondence": [
+        "At least from 1842: Carderera receives a letter from Dauzats 17 March 1842 in Paris (LG 2016, p.115).",
         "BNE (MSS/23291/39). Pending publication (Fayos Pérez 2025-2026).",
         "Archivo familiar Carderera: at least two letters. No apparent mentions of Goya."
       ],
