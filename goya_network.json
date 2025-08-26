@@ -1757,6 +1757,7 @@
       "registered in": "the Cabinet des estampes (BNF) as reader in 1849, alongside Henri Fantin-Latour and Gustave Doré (Lethève 1968, p.109)",
       "member of": [
         "Société des aquafortistes: from 1862 (founding member). Established by Alfred Cadart and Félix Chevalier; also joined by Fantin-Latour, Édouard Manet, Johan Jongkind and Alphonse Legros (Wolohojian & Dunn 2023, p.277).", 
+        "Société japonaise du Jinglar (from 1867): with Fantin-Latour, Carolus Duran, Marc-Louis Solon, Alphonse Hirsch, Jules Jacquemart, Zacharie Astruc, Philippe Burty.",
         "Société nationale des beaux-arts (1890): he encourages foreign artists (particularly Japanese) to exhibit at the Salon des beaux-arts",
         "Société anonyme des artistes peintres, sculpteurs et graveurs: from 1874",
         "Société des peintres-graveurs français: honorary president (1890)",
@@ -5416,8 +5417,9 @@
       "from": "Zacharie Astruc",
       "to": "Félix Bracquemond",
       "connection_level": "direct", 
+      "common friends": "Manet, Degas, Burty, Fantin-Latour",
       "relationship type": "acquaintances?",
-      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar"
+      "they shared": "the interest in prints, Japanese art and belonging to the Société du Jinglar"
     }, 
     {
       "from": "Alphonse Hirsch",
@@ -5437,7 +5439,9 @@
       "to": "Félix Bracquemond",
       "connection_level": "direct", 
       "relationship type": "friends?",
-      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar",
+      "common friends": "possibly Philippe Burty",
+      "know each other since": "at least 1867",
+      "they shared": "being printmakers; the interest in Japanese art and belonging to the Société du Jinglar (from 1867)",
       "artworks bought/sold": "Hirsch's art collection included prints by Bracquemond"
     }, 
     {
@@ -5445,14 +5449,16 @@
       "to": "Zacharie Astruc",
       "connection_level": "direct", 
       "relationship type": "friends?",
-      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar"
+      "know each other since": "at least 1867",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar (from 1867)"
     }, 
     {
       "from": "Alphonse Hirsch",
       "to": "Philippe Burty",
       "connection_level": "direct", 
       "relationship type": "acquaintances?",
-      "they shared": "the interest in prints",
+      "knew each other since": "at least 1867",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar (from 1867)",
       "collection": "Burty's collection  included Hirsch's <i>L'amour et la mort</i> (1868), after Goya's <i>Capricho</i> 10, 'El amor y la muerte' (British Museum 1876,0510.371); from the Burty sale, April-May 1876, lot 716 (Fayos Pérez 2024, p.185, fig.II.56; Chazal 2008, no.239, p.308)."
     }, 
     {
@@ -5478,6 +5484,22 @@
       "collection": "Hirsch's collection included works by Jacquemart"
     }, 
     {
+      "from": "Zacharie Astruc",
+      "to": "Jules Jacquemart",
+      "connection_level": "direct", 
+      "relationship type": "friends?",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar"
+    },
+    {
+      "from": "Félix Bracquemond",
+      "to": "Jules Jacquemart",
+      "connection_level": "direct", 
+      "common friends": "possibly Philippe Burty",
+      "relationship type": "friends?; colleagues?",
+      "know each other since": "at least 1867",
+      "they shared": "being printmakers; the interest in Japanese art and belonging to the Société du Jinglar (from 1867)"
+    },
+    {
       "from": "Henri Fantin-Latour",
       "to": "Édouard Manet",
       "connection_level": "direct", 
@@ -5498,8 +5520,9 @@
       "from": "Henri Fantin-Latour",
       "to": "Zacharie Astruc",
       "connection_level": "direct", 
+      "common friends": "Manet",
       "relationship type": "acquaintances; friends?",
-      "portraits": "In Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), Manet is making Astruc's portrait, alongisde Otto Scholderer, Pierre-Auguste Renoir, Émile Zola, Edmond Maître, Frédéric Bazille and Claude Monet.",
+      "portraits": "in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), Manet is making Astruc's portrait, alongisde Otto Scholderer, Pierre-Auguste Renoir, Émile Zola, Edmond Maître, Frédéric Bazille and Claude Monet.",
       "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
       "they shared": "the interest in Japanese art and belonging to the Société du Jinglar",
       "websites": "[AGORHA](https://agorha.inha.fr/detail/569)"
@@ -5583,7 +5606,7 @@
       "to": "Zacharie Astruc",
       "connection_level": "direct", 
       "relationship type": "friends?",
-      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar",
+      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar; being art critics; interest in Goya.",
       "interactions": "c.1866-1877 at Café Gerbois (avenue Clichy): Degas, Manet, Duranty, Zola, Fantin-Latour, A. Proust, Burty, Bazille, Whistler, Renoir.",
       "websites": "[AGORHA](https://agorha.inha.fr/detail/569)"
     },
@@ -6302,7 +6325,7 @@
       "to": "Jules Jacquemart",
       "connection_level": "direct",
       "relationship type": "friends",
-      "they share": "interest in Asian art",
+      "they share": "interest in Japanese art",
       "collection": "Burty's collections included works by Jacquemart"
     },
     {
