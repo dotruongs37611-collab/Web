@@ -154,8 +154,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           const degree = edgeCount[node.id] || 1;
           const config = {
             ...node,
-            size: Math.min(20 + degree * 0.8, 50),
-            mass: 1 + degree * 0.2,
+            size: Math.min(20 + degree * 0.7, 50),
+            mass: 1 + degree * 0.15,
             font: {
               size: Math.min(11 + degree * 0.6, 24),
               color: '#ffffff',
@@ -285,11 +285,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 260,         // antes: 230 — esto separa más los nodos
-          centralGravity: 0.2,       // Más atracción hacia el centro
-          springLength: 80,         // Menos distancia ideal entre nodos
-          springConstant: 0.03,      // antes: 0.04 — esto afloja los "muelles"
-          damping: 0.5               // Estabiliza más rápido sin perder suavidad
+          nodeDistance: 320,         // antes: 230 — esto separa más los nodos
+          centralGravity: 0.12,       // Más atracción hacia el centro
+          springLength: 110,         // Menos distancia ideal entre nodos
+          springConstant: 0.028,      // antes: 0.04 — esto afloja los "muelles"
+          damping: 0.55               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
           enabled: true,
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     document.getElementById('loadingMessage').style.display = 'none';
   
     // 1. Separar nodos que están demasiado cerca
-    const MIN_DISTANCE = 80;
+    const MIN_DISTANCE = 120;
     const positions = network.getPositions();
     const updates = [];
     const nodeArray = nodes.get();
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         const distance = Math.sqrt(dx * dx + dy * dy);
         
         if (distance < MIN_DISTANCE && distance > 0.5) {
-          const push = (MIN_DISTANCE - distance) * 1.5;
+          const push = (MIN_DISTANCE - distance) * 1.2;
           updates.push({ 
             id: node1.id, 
             x: p1.x - dx * push / distance, 
