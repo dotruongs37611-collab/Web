@@ -5609,11 +5609,9 @@
       "from": "Émile Zola",
       "to": "Auguste Renoir",
       "connection_level": "direct", 
-      "relationship type": "friends",
-      "interactions": [
-        "Zola praises Renoir's <i>Lise à l'ombrelle</i> (1868)",
-        "They both appear in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870)."
-      ]
+      "relationship type": "friends?",
+      "portraits": "Renoir and Zola are included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet.",
+      "mentions": "Zola praises Renoir's <i>Lise à l'ombrelle</i> (1868)"
     },
     {
       "from": "Zacharie Astruc",
@@ -5832,13 +5830,6 @@
       "connection_level": "direct", 
       "relationship type": "friends",
       "portraits": "Renoir is included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Pierre-Auguste Renoir, Otto Scholderer, Émile Zola, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet."
-    },
-    {
-      "from": "Émile Zola",
-      "to": "Auguste Renoir",
-      "connection_level": "direct", 
-      "relationship type": "friends?",
-      "portraits": "Renoir and Zola are included in the group portrait in Fantin-Latour's <i>Un atelier aux Batignolles</i> (1870, Orsay), alongisde Édouard Manet, Otto Scholderer, Zacharie Astruc, Edmond Maître, Frédéric Bazille and Claude Monet."
     },
     {
       "from": "Henri Fantin-Latour",
