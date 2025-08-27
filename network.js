@@ -317,6 +317,9 @@ document.addEventListener('DOMContentLoaded', async function () {
           selectionWidth: 0,
           hoverWidth: 0
         });
+        perNodeCap[a]++; perNodeCap[b]++;
+      }
+    });
 
     // ADD STRONGER SPRINGS FOR CLOSE RELATIONSHIPS
     const strongRelationshipEdges = [];
@@ -341,10 +344,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     
     // Add the strong relationship edges
     if (strongRelationshipEdges.length) edges.add(strongRelationshipEdges);
-
-        perNodeCap[a]++; perNodeCap[b]++;
-      }
-    });
 
     // 4) Añadirlos a la red (usa TU objeto edges ya creado)
     if (softEdges.length) edges.add(softEdges);
