@@ -176,27 +176,42 @@ document.addEventListener('DOMContentLoaded', async function () {
           nodesMap[node.id] = config;
           return config;
         }));
+    
+    // 👇 Añade esto tras calcular edgeCount
+    const neighbors = {};
+    data.nodes.forEach(n => neighbors[n.id] = new Set());
+    data.edges.forEach(e => {
+      neighbors[e.from].add(e.to);
+      neighbors[e.to].add(e.from);
+    });
 
-    // Edges más transparentes (general)
     const edges = new vis.DataSet(data.edges.map(edge => {
       const level = edge.connection_level || "direct";
 
-      // Muestra etiqueta solo si es “direct” o “secondary”.
-      // Si termina en “?” (p. ej. “direct?”) NO la pintamos y la ponemos como tooltip.
+      // ——— NUEVO: vecinos comunes A∩B ———
+      const A = neighbors[edge.from] || new Set();
+      const B = neighbors[edge.to]   || new Set();
+      let common = 0;
+      // Cuenta |A ∩ B|
+      A.forEach(v => { if (B.has(v)) common++; });
+
+      // Base y ajuste (números conservadores)
+      const baseLength = 160;          // lo que ya te funciona visualmente
+      const length     = Math.max(70,  // no menos de 70 para que no se amontonen
+                                  baseLength - common * 25);
+
       const label =
         edge.label === 'direct' || edge.label === 'secondary'
           ? edge.label
           : undefined;
 
-      const title =
-        edge.label && /\?$/.test(edge.label)
-          ? edge.label  // aparecerá al pasar el ratón
-          : edge.title;
+      const title = /\?$/.test(edge.label || '') ? edge.label : edge.title;
 
       return {
         ...edge,
         label,
         title,
+        length, // 👈 muelle más corto si hay muchos vecinos comunes
         color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
         width: 1.5
       };
