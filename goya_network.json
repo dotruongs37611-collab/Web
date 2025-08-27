@@ -4839,6 +4839,20 @@
     },
     {
       "from": "Edmond de Goncourt",
+      "to": "Philippe Burty",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they share": "interest in Japanese art"
+    },
+    {
+      "from": "Edmond de Goncourt",
+      "to": "Zacharie Astruc",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "they share": "interest in Japanese art"
+    },
+    {
+      "from": "Edmond de Goncourt",
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "acquaintances",
@@ -4877,6 +4891,7 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "knew each other since": "1856",
+      "they share": "interest in Japanese art",
       "portraits": "Bracquemond, <i>Portrait d'Edmond de Goncourt</i>, 1880 (presented at the Impressionist exhibition); another portrait in 1881, etching and drypoint, Met [22.63.39](https://www.metmuseum.org/art/collection/search/333841)."
     },
     {
