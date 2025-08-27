@@ -260,15 +260,18 @@ document.addEventListener('DOMContentLoaded', async function () {
       let springLength = lengths.length ? Math.min(...lengths) : undefined;
 
 
-      return {
-        ...edge,
-        label,
-        length: springLength,
-        title,
-        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
-        width: 1.5
-      };
-    }));
+        return {
+          ...edge,
+          label,
+          length: springLength,
+          title,
+          color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
+          width: 1.5,
+          // ADD THESE TWO LINES FOR MINI-FAMILIES:
+          physics: true, // Ensure physics is enabled for these edges
+          hidden: false  // Make sure edges are visible
+        };
+      }));
 
     // === Soft springs para agrupar micro-familias ===
 
@@ -314,6 +317,31 @@ document.addEventListener('DOMContentLoaded', async function () {
           selectionWidth: 0,
           hoverWidth: 0
         });
+
+    // ADD STRONGER SPRINGS FOR CLOSE RELATIONSHIPS
+    const strongRelationshipEdges = [];
+    
+    edges.get().forEach(edge => {
+      // Check if this is a close relationship (family, mentorship, friends)
+      const isCloseRelationship = edge.length && edge.length <= 95;
+      
+      if (isCloseRelationship) {
+        strongRelationshipEdges.push({
+          id: `strong_${edge.from}_${edge.to}`,
+          from: edge.from,
+          to: edge.to,
+          physics: true,
+          length: edge.length * 0.8, // Even shorter distance for close relationships
+          color: { color: 'rgba(0,255,0,0.1)' }, // Very faint green for debugging
+          width: 0.5,
+          hidden: true // Make invisible but still affect physics
+        });
+      }
+    });
+    
+    // Add the strong relationship edges
+    if (strongRelationshipEdges.length) edges.add(strongRelationshipEdges);
+
         perNodeCap[a]++; perNodeCap[b]++;
       }
     });
@@ -413,18 +441,19 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       physics: {
         enabled: true,
-        solver: 'repulsion',
-        repulsion: {
-          nodeDistance: 320,         // antes: 230 — esto separa más los nodos
-          centralGravity: 0.12,       // Más atracción hacia el centro
-          springLength: 110,         // Menos distancia ideal entre nodos
-          springConstant: 0.028,      // antes: 0.04 — esto afloja los "muelles"
-          damping: 0.55               // Estabiliza más rápido sin perder suavidad
+        solver: 'forceAtlas2Based', // CHANGE SOLVER for better grouping
+        forceAtlas2Based: {
+          gravitationalConstant: -50,    // Negative for repulsion
+          centralGravity: 0.01,          // Very weak central gravity
+          springLength: 100,             // Base spring length
+          springConstant: 0.08,          // Stronger springs for closer connections
+          damping: 0.4,                  // Slightly less damping for more movement
+          avoidOverlap: 0.5              // Prevent node overlap
         },
         stabilization: {
           enabled: true,
-          iterations: 200,
-          updateInterval: 10
+          iterations: 1000,              // More iterations for better stabilization
+          updateInterval: 25
         }
       },
       layout: {
@@ -444,6 +473,22 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
     
   network.once("stabilizationIterationsDone", function () {
+    // KEEP PHYSICS ENABLED FOR MINI-FAMILIES - 
+    network.setOptions({
+        physics: {
+          enabled: true,
+          solver: 'forceAtlas2Based',
+          forceAtlas2Based: {
+            gravitationalConstant: -10,    // Much weaker repulsion
+            centralGravity: 0.005,         // Very weak central gravity
+            springLength: 150,             // Longer base spring length
+            springConstant: 0.02,          // Weaker springs
+            damping: 0.9,                  // High damping to prevent too much movement
+            avoidOverlap: 0.3              // Some overlap prevention
+          }
+        }
+      });
+
     document.getElementById('loadingMessage').style.display = 'none';
   
     // 1. Separar nodos que están demasiado cerca
