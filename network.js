@@ -201,23 +201,64 @@ document.addEventListener('DOMContentLoaded', async function () {
           ? edge.label  // aparecerá al pasar el ratón
           : edge.title;
       
-      // Agrupar por tipos de relación estrecha
-      const isFamily =
-        edge["children"] || edge["parents"] || edge["siblings"] ||
-        edge["married to"] || edge["married in"] || edge["partners/lovers"];
+      // ===== Relaciones estrechas (soporta "relatives: mother-son" y "friends; master-student") =====
 
-      const isMentorship = edge["masters"] || edge["students"];
-      const isFriends    = edge["friends"];
+      // 1) Recoger y normalizar etiquetas de relación que puedan venir en varios campos
+      const rawTags = [];
 
-      // Longitud del muelle según cercanía
-      let springLength = undefined;
-      if (isFamily) {
-        springLength = 70;   // familia: muy corto (más juntos)
-      } else if (isMentorship) {
-        springLength = 85;   // maestro/alumno: medio
-      } else if (isFriends) {
-        springLength = 95;   // amigos: suave
-      }
+      // a) Campo "relatives" (p. ej., "mother-son", "brothers", "grandmother-granddaughter")
+      if (edge["relatives"]) rawTags.push(String(edge["relatives"]));
+
+      // b) Campo "relationship type" (puede venir con varios: "friends; master-student")
+      if (edge["relationship type"]) rawTags.push(String(edge["relationship type"]));
+
+      // c) Claves booleanas/listas que ya usas
+      [
+        "children","parents","siblings","married to","married in","partners/lovers",
+        "masters","students","friends"
+      ].forEach(k => {
+        if (edge[k]) rawTags.push(k);
+      });
+
+      // Normalizar: minúsculas, separar por ; , / y espacios, quitar guiones largos, recortar
+      const tags = rawTags
+        .join(";")
+        .toLowerCase()
+        .replace(/–|—/g, "-")
+        .split(/[;,/]+/)
+        .map(s => s.trim())
+        .filter(Boolean);
+
+      // 2) Detectar categorías
+      const familyKeywords = [
+        "family","relative","relatives","mother","father","son","daughter","child",
+        "sister","brother","siblings","husband","wife","spouse","married","marriage",
+        "grandmother","grandfather","granddaughter","grandson","cousin","aunt","uncle",
+        "partners","partners/lovers","lovers","parent","children"
+      ];
+
+      const mentorshipKeywords = [
+        "master-student","student-master","master","student","teacher","pupil","mentor","apprentice",
+        "masters","students"
+      ];
+
+      const friendKeywords = ["friend","friends","friendship"];
+
+      // helpers de búsqueda
+      const hasAny = (kwArr) => tags.some(t => kwArr.some(k => t.includes(k)));
+
+      const isFamily     = hasAny(familyKeywords);
+      const isMentorship = hasAny(mentorshipKeywords);
+      const isFriends    = hasAny(friendKeywords);
+
+      // 3) Asignar longitudes (si hay varias relaciones, usar la MÁS corta)
+      const lengths = [];
+      if (isFamily)     lengths.push(65);  // familia: muy juntos
+      if (isMentorship) lengths.push(85);  // maestro/alumno
+      if (isFriends)    lengths.push(95);  // amigos
+
+      let springLength = lengths.length ? Math.min(...lengths) : undefined;
+
 
       return {
         ...edge,
