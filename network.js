@@ -524,15 +524,29 @@ document.addEventListener('DOMContentLoaded', async function () {
         width: 1
       },
       physics: {
-        enabled: false // física desactivada al principio
+        enabled: true,
+        solver: 'repulsion',
+        repulsion: {
+          nodeDistance: 260,         // Aumenta separación entre nodos
+          centralGravity: 0.2,       // Atracción hacia el centro
+          springLength: 80,          // Distancia ideal entre nodos
+          springConstant: 0.03,      // Suaviza los "muelles"
+          damping: 0.5               // Estabiliza más rápido sin perder suavidad
+        },
+        stabilization: {
+          enabled: true,
+          iterations: 200,
+          updateInterval: 10
+        }
       },
       layout: {
         improvedLayout: true,
-        randomSeed: 1912
+        randomSeed: 1912  // MISMO DISEÑO CADA VEZ
       }
     });
 
     // CUANDO se estabiliza, activamos física suave para mini-movimientos
+    /*
     network.once("stabilizationIterationsDone", function () {
       network.setOptions({
         physics: {
@@ -551,7 +565,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       document.getElementById('loadingMessage').style.display = 'none';
     });
-
+    */
 
     function loadFullImages() {
       const imageUpdates = data.nodes
