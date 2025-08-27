@@ -454,25 +454,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           closePairs.add(key);
         }
       });
-    
-    //COMIENZO CÓDIGO QUE NO SÉ DÓNDE VA
-    // AÑADE este código después de crear la red para verificar las conexiones:
-    console.log('=== VERIFICACIÓN FINAL DE CONEXIONES ===');
-    const finalGoyaConnections = edges.get().filter(edge => 
-      edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
-    );
-    console.log('Conexiones finales de Goya:', finalGoyaConnections.length);
-
-    // Mostrar todas las conexiones únicas
-    const uniqueConnections = new Set();
-    finalGoyaConnections.forEach(edge => {
-      const otherNode = edge.from === 'Francisco de Goya' ? edge.to : edge.from;
-      uniqueConnections.add(otherNode);
-    });
-
-    console.log('Nodos únicos conectados a Goya:', uniqueConnections.size);
-    console.log('Nodos conectados:', Array.from(uniqueConnections).sort());
-    //FIN CÓDIGO QUE NO SÉ DÓNDE VA
 
     const lastModified = response.headers.get("Last-Modified");
 
@@ -576,6 +557,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
+
     function loadFullImages() {
       const imageUpdates = data.nodes
         .filter(node => node.image)
@@ -606,8 +588,25 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     document.getElementById('loadingMessage').style.display = 'none';
     
-    // ... resto del código de separación de nodos ...
-  });
+    try {
+      console.log('=== VERIFICACIÓN FINAL DE CONEXIONES ===');
+      const finalGoyaConnections = edges.get().filter(edge => 
+        edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
+      );
+      console.log('Conexiones finales de Goya:', finalGoyaConnections.length);
+
+      // Mostrar todas las conexiones únicas
+      const uniqueConnections = new Set();
+      finalGoyaConnections.forEach(edge => {
+        const otherNode = edge.from === 'Francisco de Goya' ? edge.to : edge.from;
+        uniqueConnections.add(otherNode);
+      });
+
+      console.log('Nodos únicos conectados a Goya:', uniqueConnections.size);
+      console.log('Nodos conectados:', Array.from(uniqueConnections).sort());
+    } catch (err) {
+      console.error("Error verificando conexiones de Goya:", err);
+    }
   
     // 1. Separar nodos que están demasiado cerca
     const MIN_DISTANCE = 95;
@@ -1262,16 +1261,16 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         }
 
-  // Activar física solo mientras se arrastra un nodo
-  network.on("dragStart", () => {
-    network.setOptions({ physics: { enabled: true } });
-  });
-  
-  network.on("dragEnd", () => {
-    network.setOptions({ physics: { enabled: false } });
-  });
-    
-  } catch (err) {
-    console.error("Error cargando o renderizando la red:", err);
-  }
-});
+        // Activar física solo mientras se arrastra un nodo
+        network.on("dragStart", () => {
+          network.setOptions({ physics: { enabled: true } });
+        });
+        
+        network.on("dragEnd", () => {
+          network.setOptions({ physics: { enabled: false } });
+        });
+          
+        } catch (err) {
+          console.error("Error cargando o renderizando la red:", err);
+        }
+      });
