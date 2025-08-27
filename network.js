@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             length: edge.length * 0.6, // Distancia aún más corta
             color: { color: 'rgba(0,150,255,0.3)' }, // Azul visible para debugging
             width: 2, // Más grueso para ver el efecto
-            hidden: true // 🔥 HACER VISIBLE para verificar que funciona
+            hidden: false // 🔥 HACER VISIBLE para verificar que funciona
           });
           existingEdgeIds.add(strongEdgeId);
         }
@@ -577,7 +577,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
     
-  /*
   // MODIFICA el código de física para mantenerla activa para las mini-familias:
   network.once("stabilizationIterationsDone", function () {
   // KEEP PHYSICS ENABLED WITH MODERATE FORCES FOR ONGOING GROUPING
@@ -595,7 +594,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
   });
-  */
 
     document.getElementById('loadingMessage').style.display = 'none';
     
