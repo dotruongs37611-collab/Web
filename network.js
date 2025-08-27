@@ -162,9 +162,17 @@ document.addEventListener('DOMContentLoaded', async function () {
         nodeInfo.style.overflowY = 'auto';
 
         const edgeCount = {};
+        const countedPairs = new Set(); // Para evitar contar duplicados
+
         data.edges.forEach(edge => {
-          edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
-          edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
+          const pairKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
+          
+          // Solo contar si este par único no ha sido contado antes
+          if (!countedPairs.has(pairKey)) {
+            edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
+            edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
+            countedPairs.add(pairKey);
+          }
         });
 
         const nodesMap = {};
@@ -294,28 +302,51 @@ document.addEventListener('DOMContentLoaded', async function () {
         };
       }));
 
-    // ✅✅✅ ADD DIAGNOSTIC CODE ✅✅✅
+    // ✅✅✅ ADD DETAILED DIAGNostic CODE ✅✅✅
     // Check for duplicate connections to specific nodes
     const goyaConnections = edges.get().filter(edge => 
       edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
     );
 
-    console.log('Goya connections:', goyaConnections.length);
-    console.log('Unique Goya connections:', new Set(goyaConnections.map(e => 
-      `${e.from}_${e.to}_${e.connection_level || ''}_${e['relationship type'] || ''}`
-    )).size);
+    console.log('=== DIAGNÓSTICO DETALLADO DE CONEXIONES DE GOYA ===');
+    console.log('Total Goya connections:', goyaConnections.length);
 
-    // List all duplicate edges for debugging
-    const allEdgeKeys = new Map();
-    edges.get().forEach(edge => {
-      const key = `${edge.from}_${edge.to}_${edge.connection_level || ''}_${edge['relationship type'] || ''}`;
-      if (allEdgeKeys.has(key)) {
-        console.log('DUPLICATE EDGE:', key, edge);
-      } else {
-        allEdgeKeys.set(key, 1);
-      }
+    // List ALL Goya connections with details
+    goyaConnections.forEach((edge, index) => {
+      console.log(`${index + 1}. ${edge.from} -> ${edge.to} | Type: ${edge.connection_level || 'N/A'} | Relationship: ${edge['relationship type'] || 'N/A'} | ID: ${edge.id}`);
     });
-    // ✅✅✅ END OF DIAGNOSTIC CODE ✅✅✅
+
+    // Check for exact duplicates by ID
+    const connectionIds = new Set();
+    const duplicateIds = new Set();
+
+    goyaConnections.forEach(edge => {
+      if (connectionIds.has(edge.id)) {
+        duplicateIds.add(edge.id);
+        console.log('❌ DUPLICATE ID FOUND:', edge.id, edge);
+      }
+      connectionIds.add(edge.id);
+    });
+
+    console.log('Unique connection IDs:', connectionIds.size);
+    console.log('Duplicate IDs found:', duplicateIds.size);
+
+    // Check for semantic duplicates (same from-to pair)
+    const connectionPairs = new Set();
+    const duplicatePairs = new Set();
+
+    goyaConnections.forEach(edge => {
+      const pairKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
+      if (connectionPairs.has(pairKey)) {
+        duplicatePairs.add(pairKey);
+        console.log('❌ DUPLICATE PAIR FOUND:', pairKey, edge);
+      }
+      connectionPairs.add(pairKey);
+    });
+
+    console.log('Unique connection pairs:', connectionPairs.size);
+    console.log('Duplicate pairs found:', duplicatePairs.size);
+    // ✅✅✅ END OF DETAILED DIAGNOSTIC CODE ✅✅✅
 
     // === Soft springs para agrupar micro-familias ===
 
