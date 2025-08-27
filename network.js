@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     // List all duplicate edges for debugging
     const allEdgeKeys = new Map();
     edges.get().forEach(edge => {
-      const key = `${edge.from}_${edge.to}_${edge.connection_level || ''}_${e['relationship type'] || ''}`;
+      const key = `${edge.from}_${edge.to}_${edge.connection_level || ''}_${edge['relationship type'] || ''}`;
       if (allEdgeKeys.has(key)) {
         console.log('DUPLICATE EDGE:', key, edge);
       } else {
