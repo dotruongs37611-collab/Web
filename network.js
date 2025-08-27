@@ -185,33 +185,68 @@ document.addEventListener('DOMContentLoaded', async function () {
       neighbors[e.to].add(e.from);
     });
 
+    // —— Soft springs para agrupar micro-familias ——
+    // 1) Contar vecinos comunes por par a partir de cada "ego"
+    const pairCounts = new Map();
+    Object.keys(neighbors).forEach(u => {
+      const arr = Array.from(neighbors[u]);
+      for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+          const a = arr[i], b = arr[j];
+          const key = a < b ? `${a}__${b}` : `${b}__${a}`;
+          pairCounts.set(key, (pairCounts.get(key) || 0) + 1);
+        }
+      }
+    });
+
+    // 2) Evitar duplicar aristas reales
+    const existing = new Set(
+      data.edges.map(e => (e.from < e.to ? `${e.from}__${e.to}` : `${e.to}__${e.from}`))
+    );
+
+    // 3) Crear aristas “invisibles” para pares con >= 2 vecinos comunes
+    const perNodeCap = {};                  // máximo de soft-links por nodo
+    const cap = 3;
+    const softEdges = [];
+    pairCounts.forEach((count, key) => {
+      if (count >= 2 && !existing.has(key)) {
+        const [a, b] = key.split("__");
+        perNodeCap[a] = (perNodeCap[a] || 0);
+        perNodeCap[b] = (perNodeCap[b] || 0);
+        if (perNodeCap[a] >= cap || perNodeCap[b] >= cap) return;
+
+        softEdges.push({
+          id: `sim_${a}_${b}`,
+          from: a, to: b,
+          physics: true,
+          smooth: false,
+          // cuanto más comunes, más corto el muelle (pero siempre suave)
+          length: Math.max(90, 160 - Math.min(count, 4) * 20),
+          color: { color: 'rgba(0,0,0,0.01)' }, // prácticamente invisible
+          width: 0.1,
+          selectionWidth: 0,
+          hoverWidth: 0
+        });
+        perNodeCap[a]++; perNodeCap[b]++;
+      }
+    });
+
+    // 4) Añadirlos a la red (no afecta a edgeCount ni a tu UI)
+    if (softEdges.length) edges.add(softEdges);
+
+
     const edges = new vis.DataSet(data.edges.map(edge => {
       const level = edge.connection_level || "direct";
-
-      // ——— NUEVO: vecinos comunes A∩B ———
-      const A = neighbors[edge.from] || new Set();
-      const B = neighbors[edge.to]   || new Set();
-      let common = 0;
-      // Cuenta |A ∩ B|
-      A.forEach(v => { if (B.has(v)) common++; });
-
-      // Base y ajuste (números conservadores)
-      const baseLength = 160;          // lo que ya te funciona visualmente
-      const length     = Math.max(70,  // no menos de 70 para que no se amontonen
-                                  baseLength - common * 25);
-
       const label =
         edge.label === 'direct' || edge.label === 'secondary'
           ? edge.label
           : undefined;
-
       const title = /\?$/.test(edge.label || '') ? edge.label : edge.title;
 
       return {
         ...edge,
         label,
         title,
-        length, // 👈 muelle más corto si hay muchos vecinos comunes
         color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
         width: 1.5
       };
