@@ -176,17 +176,43 @@ document.addEventListener('DOMContentLoaded', async function () {
           nodesMap[node.id] = config;
           return config;
         }));
-    
-    // 👇 Añade esto tras calcular edgeCount
+
+    // === Mapa de vecinos (para detectar micro-familias) ===
     const neighbors = {};
-    data.nodes.forEach(n => neighbors[n.id] = new Set());
+    data.nodes.forEach(n => { neighbors[n.id] = new Set(); });
     data.edges.forEach(e => {
       neighbors[e.from].add(e.to);
       neighbors[e.to].add(e.from);
     });
 
-    // —— Soft springs para agrupar micro-familias ——
-    // 1) Contar vecinos comunes por par a partir de cada "ego"
+    // Edges más transparentes (general)
+    const edges = new vis.DataSet(data.edges.map(edge => {
+      const level = edge.connection_level || "direct";
+
+      // Muestra etiqueta solo si es “direct” o “secondary”.
+      // Si termina en “?” (p. ej. “direct?”) NO la pintamos y la ponemos como tooltip.
+      const label =
+        edge.label === 'direct' || edge.label === 'secondary'
+          ? edge.label
+          : undefined;
+
+      const title =
+        edge.label && /\?$/.test(edge.label)
+          ? edge.label  // aparecerá al pasar el ratón
+          : edge.title;
+
+      return {
+        ...edge,
+        label,
+        title,
+        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
+        width: 1.5
+      };
+    }));
+
+    // === Soft springs para agrupar micro-familias ===
+
+    // 1) Contar vecinos comunes por par (|A ∩ B|)
     const pairCounts = new Map();
     Object.keys(neighbors).forEach(u => {
       const arr = Array.from(neighbors[u]);
@@ -204,10 +230,11 @@ document.addEventListener('DOMContentLoaded', async function () {
       data.edges.map(e => (e.from < e.to ? `${e.from}__${e.to}` : `${e.to}__${e.from}`))
     );
 
-    // 3) Crear aristas “invisibles” para pares con >= 2 vecinos comunes
-    const perNodeCap = {};                  // máximo de soft-links por nodo
+    // 3) Crear aristas invisibles para pares con ≥ 2 vecinos comunes
+    const perNodeCap = {};            // límite de refuerzos por nodo para no “encerrar” hubs
     const cap = 3;
     const softEdges = [];
+
     pairCounts.forEach((count, key) => {
       if (count >= 2 && !existing.has(key)) {
         const [a, b] = key.split("__");
@@ -220,7 +247,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           from: a, to: b,
           physics: true,
           smooth: false,
-          // cuanto más comunes, más corto el muelle (pero siempre suave)
+          // más comunes ⇒ muelle un poco más corto (pero con mínimo para no amontonar)
           length: Math.max(90, 160 - Math.min(count, 4) * 20),
           color: { color: 'rgba(0,0,0,0.01)' }, // prácticamente invisible
           width: 0.1,
@@ -231,26 +258,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
-    // 4) Añadirlos a la red (no afecta a edgeCount ni a tu UI)
+    // 4) Añadirlos a la red (usa TU objeto edges ya creado)
     if (softEdges.length) edges.add(softEdges);
 
-
-    const edges = new vis.DataSet(data.edges.map(edge => {
-      const level = edge.connection_level || "direct";
-      const label =
-        edge.label === 'direct' || edge.label === 'secondary'
-          ? edge.label
-          : undefined;
-      const title = /\?$/.test(edge.label || '') ? edge.label : edge.title;
-
-      return {
-        ...edge,
-        label,
-        title,
-        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
-        width: 1.5
-      };
-    }));
 
     const lastModified = response.headers.get("Last-Modified");
 
