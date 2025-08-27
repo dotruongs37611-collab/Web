@@ -511,8 +511,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       console.error("❌ No se encontró el contenedor #network.");
       return;
 }
+    // CREA LA RED con física inicialmente desactivada para evitar "bailes"
     const network = new vis.Network(container, { nodes, edges }, {
-      nodes: { 
+      nodes: {
         borderWidth: 2,
         shapeProperties: {
           useBorderWithImage: true
@@ -522,28 +523,33 @@ document.addEventListener('DOMContentLoaded', async function () {
         color: 'rgba(200,200,200,0.2)',
         width: 1
       },
-
       physics: {
-        enabled: true,
-        solver: 'forceAtlas2Based',
-        forceAtlas2Based: {
-          gravitationalConstant: -30,    // Stronger repulsion to spread nodes
-          centralGravity: 0.05,          // Stronger central gravity to keep network together
-          springLength: 150,             // Longer base spring length
-          springConstant: 0.15,          // Much stronger springs for closer connections
-          damping: 0.5,                  // Balanced damping
-          avoidOverlap: 1.0              // Strong overlap prevention
-        }
-      },
-      stabilization: {
-        enabled: true,
-        iterations: 1000,              // More iterations for better stabilization
-        updateInterval: 25
+        enabled: false // física desactivada al principio
       },
       layout: {
         improvedLayout: true,
-        randomSeed: 1912  // Consistent layout
+        randomSeed: 1912
       }
+    });
+
+    // CUANDO se estabiliza, activamos física suave para mini-movimientos
+    network.once("stabilizationIterationsDone", function () {
+      network.setOptions({
+        physics: {
+          enabled: true,
+          solver: 'forceAtlas2Based',
+          forceAtlas2Based: {
+            gravitationalConstant: -80,   // Más separación al activarse
+            centralGravity: 0.002,        // Muy suave gravedad central
+            springLength: 150,            // Resortes más largos
+            springConstant: 0.005,
+            damping: 0.9,
+            avoidOverlap: 0.5
+          }
+        }
+      });
+
+      document.getElementById('loadingMessage').style.display = 'none';
     });
 
 
