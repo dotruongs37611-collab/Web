@@ -132,26 +132,36 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!response.ok) throw new Error('Error cargando datos');
         const data = await response.json();
         
-        // ✅✅✅ ADD THIS CODE TO REMOVE DUPLICATE EDGES ✅✅✅
-        // Remove duplicate edges
+        // REEMPLAZA el código de eliminación de duplicados con este:
+        // ✅✅✅ IMPROVED DUPLICATE REMOVAL CODE ✅✅✅
         const uniqueEdges = [];
         const seenEdges = new Set();
 
         data.edges.forEach(edge => {
-          // Create a unique key for each edge (from + to + relationship type)
-          const edgeKey = `${edge.from}_${edge.to}_${edge.connection_level || ''}_${edge['relationship type'] || ''}`;
+          // Create a more comprehensive unique key that includes relationship type
+          const fromToKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
+          const relationshipType = edge['relationship type'] || '';
+          const connectionLevel = edge.connection_level || '';
+          const relatives = edge.relatives || '';
           
-          if (!seenEdges.has(edgeKey)) {
-            seenEdges.add(edgeKey);
+          // Create multiple keys to catch different types of duplicates
+          const edgeKey1 = `${fromToKey}_${relationshipType}_${connectionLevel}`;
+          const edgeKey2 = `${fromToKey}_${relatives}_${connectionLevel}`;
+          const edgeKey3 = fromToKey; // Fallback: just check if same nodes are connected
+          
+          if (!seenEdges.has(edgeKey1) && !seenEdges.has(edgeKey2) && !seenEdges.has(edgeKey3)) {
+            seenEdges.add(edgeKey1);
+            seenEdges.add(edgeKey2);
+            seenEdges.add(edgeKey3);
             uniqueEdges.push(edge);
           } else {
-            console.log('Removed duplicate edge:', edgeKey);
+            console.log('Removed duplicate edge:', edgeKey1, edgeKey2, edgeKey3);
           }
         });
 
         // Replace the edges array with the cleaned version
         data.edges = uniqueEdges;
-        // ✅✅✅ END OF DUPLICATE REMOVAL CODE ✅✅✅
+        // ✅✅✅ END OF IMPROVED DUPLICATE REMOVAL CODE ✅✅✅
 
         // Start image preloading
         const imagePreload = preloadImages(data.nodes);
@@ -398,38 +408,36 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     // ✅✅✅ CORRECT PLACEMENT - ADD THIS RIGHT HERE ✅✅✅
     // ADD STRONGER SPRINGS FOR CLOSE RELATIONSHIPS
+    // MODIFICA los "strong relationship edges" para que sean visibles y efectivos:
     const strongRelationshipEdges = [];
     const existingEdgeIds = new Set(edges.get().map(edge => edge.id));
-    
+
     edges.get().forEach(edge => {
       // Check if this is a close relationship (family, mentorship, friends)
       const isCloseRelationship = edge.length && edge.length <= 95;
       
       if (isCloseRelationship) {
-        // Create a unique ID for the strong edge
         const strongEdgeId = `strong_${edge.from}_${edge.to}`;
-
-        // Only add if it doesn't already exist AND the original edge doesn't have this ID
+        
         if (!existingEdgeIds.has(strongEdgeId) && edge.id !== strongEdgeId) {
           strongRelationshipEdges.push({
             id: strongEdgeId,
             from: edge.from,
             to: edge.to,
             physics: true,
-            length: edge.length * 0.8, // Even shorter distance for close relationships
-            color: { color: 'rgba(0,255,0,0.1)' }, // Very faint green for debugging
-            width: 0.5,
-            hidden: true // Make invisible but still affect physics
+            length: edge.length * 0.6, // Distancia aún más corta
+            color: { color: 'rgba(0,150,255,0.3)' }, // Azul visible para debugging
+            width: 2, // Más grueso para ver el efecto
+            hidden: false // 🔥 HACER VISIBLE para verificar que funciona
           });
-          existingEdgeIds.add(strongEdgeId); // Mark as added to prevent duplicates
+          existingEdgeIds.add(strongEdgeId);
         }
       }
     });
-    
-    // Add the strong relationship edges
+
     if (strongRelationshipEdges.length) {
       edges.add(strongRelationshipEdges);
-      console.log(`Added ${strongRelationshipEdges.length} strong relationship edges`);
+      console.log(`Added ${strongRelationshipEdges.length} visible strong relationship edges`);
     }
     // ✅✅✅ END OF CORRECT PLACEMENT ✅✅✅
 
@@ -446,6 +454,25 @@ document.addEventListener('DOMContentLoaded', async function () {
           closePairs.add(key);
         }
       });
+    
+    //COMIENZO CÓDIGO QUE NO SÉ DÓNDE VA
+    // AÑADE este código después de crear la red para verificar las conexiones:
+    console.log('=== VERIFICACIÓN FINAL DE CONEXIONES ===');
+    const finalGoyaConnections = edges.get().filter(edge => 
+      edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
+    );
+    console.log('Conexiones finales de Goya:', finalGoyaConnections.length);
+
+    // Mostrar todas las conexiones únicas
+    const uniqueConnections = new Set();
+    finalGoyaConnections.forEach(edge => {
+      const otherNode = edge.from === 'Francisco de Goya' ? edge.to : edge.from;
+      uniqueConnections.add(otherNode);
+    });
+
+    console.log('Nodos únicos conectados a Goya:', uniqueConnections.size);
+    console.log('Nodos conectados:', Array.from(uniqueConnections).sort());
+    //FIN CÓDIGO QUE NO SÉ DÓNDE VA
 
     const lastModified = response.headers.get("Last-Modified");
 
@@ -559,24 +586,28 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
     
+  // MODIFICA el código de física para mantenerla activa para las mini-familias:
   network.once("stabilizationIterationsDone", function () {
-    // KEEP PHYSICS ENABLED FOR MINI-FAMILIES - 
+    // KEEP PHYSICS ENABLED BUT WITH VERY WEAK FORCES
     network.setOptions({
-        physics: {
-          enabled: true,
-          solver: 'forceAtlas2Based',
-          forceAtlas2Based: {
-            gravitationalConstant: -10,    // Much weaker repulsion
-            centralGravity: 0.005,         // Very weak central gravity
-            springLength: 150,             // Longer base spring length
-            springConstant: 0.02,          // Weaker springs
-            damping: 0.9,                  // High damping to prevent too much movement
-            avoidOverlap: 0.3              // Some overlap prevention
-          }
+      physics: {
+        enabled: true, // 🔥 MANTENER FÍSICA ACTIVADA
+        solver: 'forceAtlas2Based',
+        forceAtlas2Based: {
+          gravitationalConstant: -2,     // Muy débil repulsión
+          centralGravity: 0.001,         // Muy débil gravedad central
+          springLength: 200,             // Resortes más largos
+          springConstant: 0.005,         // Resortes muy débiles
+          damping: 0.95,                 // Alto amortiguamiento
+          avoidOverlap: 0.1              // Prevención mínima de superposición
         }
-      });
+      }
+    });
 
     document.getElementById('loadingMessage').style.display = 'none';
+    
+    // ... resto del código de separación de nodos ...
+  });
   
     // 1. Separar nodos que están demasiado cerca
     const MIN_DISTANCE = 95;
