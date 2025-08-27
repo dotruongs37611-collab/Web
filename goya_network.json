@@ -850,7 +850,58 @@
       "author of": "an edition of <i>El Quijote</i> in miniature (1827); an edition of <i>La monja alférez</i> (1829)",
       "decorations/awards": "Caballero de la Orden de Isabel la Católica (1816); Cruz de la Orden de Carlos III (1819); Caballero Gran Cruz de la Orden del León Holandés (1841); Caballero de la Orden del Cristo de Portugal (1841); Gran Cruz de la Orden de Carlos III (1841)",
       "portrayed by": "Francisco de Goya, oil painting, 1824; Jean-Baptiste Jacques Augustin, oil painting, 1825",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferrer.jpg"
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ferrer.jpg",
+      "image source": "Goya portrait 1824"
+    },
+    {
+      "id": "IV Marchioness of Pontejos",
+      "label": "Pontejos",
+      "life dates": "1762-1834",
+      "full name": "Mariana de Pontejos y Sandoval",
+      "nationality": "Spanish",
+      "portrayed by": "Francisco de Goya, oil painting, c.1786, NGA [1937.1.85](https://www.nga.gov/artworks/92-marquesa-de-pontejos)",
+      "address": "10 rue St Georges (Paris)",
+      "in Paris": "1823-1833, in exile. Here she was in contact with many exiled Spaniards: condesa de Chinchón, marquesa de Castillo Fiel (Pepita Tudó), duque de San Lorenzo, Marqués de Toreno, Mariano de Camero, Duke of Berwick, marqués del Espinardo, Conde de Sástago, duque de San Carlos, Conde de Fernán Núñez",
+      "aristocratic titles": "IV Marchioness of Casa Pontejos; VIII Countess of La Ventosa",
+      "literary salon or tertulia": "political <i>tertulia</i> in Cádiz with her second husband",
+      "studies in": "Colegio de las Salesas Reales (Madrid)",
+      "member of": "Junta de Damas de Honor y Mérito de la Real Sociedad Matritense de Amigos del País",
+      "parents": "Antonio Bruno de Pontejos y Sesma (III Marquis of Casa Pontejos) and María Vicenta de Sandoval y Blasco de Orozco (VII Countess of La Ventosa)",
+      "married to": [
+        "Francisco Antonio Moñino y Redondo (1786-1808): ambassador of Portugal; brother of the Count of Floridablanca",
+        "Fernando de Silva Meneses y Ascarza (1808-1817): oficial de Guardias de Corps",
+        "Joaquín Vizcaíno y Martínez Moles (1817-): Capitán de Dragones and Caballero de la Orden de Santiago (18 years younger than her)."
+      ],
+      "children": "3, including María Vicenta Moñino y Pontejos, V Marchioness of Casa Pontejos, II Countess of Floridablanca, IX Countess of La Ventosa",
+      "friends": "Mesonero Romanos (husband's friend)",
+      "websites": "[aristoskratos](https://aristoskratosindex.blogspot.com/2014/04/la-iv-marquesa-de-casa-pontejos.html)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pontejos.jpg",
+      "image source": "Goya portrait, c.1786, NGA"
+    },
+    {
+      "id": "II Duke of San Carlos",
+      "label": "San Carlos",
+      "life dates": "1771-1828",
+      "nationality": "Spanish",
+      "born in": "Lima",
+      "dies in": "Paris",
+      "full name": "José Miguel de Carvajal-Vargas y Manrique de Lara Polanco",
+      "parents": "Don Mariano Joaquin de Carvajal y Vargas, II Duke of San Carlos and Doña Mariana Eusebia Manrique de Lara",
+      "curiosities": "when in Paris, he was hosted by Talleyrand, and became his wife's lover, wich allegedly angered Napoleon (Waresquiel 2015)",
+      "partners/lovers": "Talleyrand's wife",
+      "aristocratic titles": "Caballero de Santiago (1784); Grandee of Spain",
+      "political views": "conservative. Very close to Ferdinand VII. He purged the <i>afrancesados</i> (liberals) from several institutions",
+      "lives in": "Spain; Perú; France; Great Britain",
+      "military activity": "Capitán General",
+      "rivals": "Manuel Godoy: he participates in the Motín de Aranjuez (1808)",
+      "profession": "military member, politician, diplomat",
+      "works for": "Carlos IV; Ferdinand VII",
+      "works as": "Mayordomo mayor (1805-07, 1808, 1814-15); Secretario de Estado (1814); Ambassador in Great Britain (1817-20); Ambassador in Russian Empire (1826); director of the Real Academia Española",
+      "member of": "Real Academia Española (1814-1828)",
+      "portrayed by": "Francisco de Goya, oil painting, 1815, Museo de Zaragoza; Duke of Rivas, oil painting, RAH",
+      "bibliography": "Waresquiel 2015, <i>Talleyrand: le prince immobile</i>",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/San_Carlos.jpg",
+      "image source": "Goya portrait, c.1786, NGA"
     },
     {
       "id": "Agustín Esteve",
@@ -963,7 +1014,7 @@
       "children": "Manuel Luis de Godoy y Tudó; Luis Carlos de Godoy y Tudó",
       "in Paris": [
         "From 1819, she lives in Paris while Godoy stays in Rome. Her and Godoy make several real state investments.",
-        "In the 1820s she is in contact with many famous Spaniards exiled in Paris, such as the Count of Toreno, the Marquis of Pontejos, the Duchess of Híjar and the Duke of San Carlos. She attends the <i>soirées</i> organised by Madame Salazar (La Parra López 1997, p.81).",
+        "In the 1820s she is in contact with many famous Spaniards exiled in Paris, such as the Count of Toreno, the Marchioness of Pontejos, the Duchess of Híjar and the Duke of San Carlos. She attends the <i>soirées</i> organised by Madame Salazar (La Parra López 1997, p.81).",
         "1831-1834: she lives with Godoy in Paris (9 rue des Mathurins)."
       ],
       "link to Goya's work": "Pedro Madrazo created the myth of Josefa Tudó being the model of Goya's naked and clothed <i>Majas</i>, but this is a fabricated story, as explained by Carlos G. Navarro (see <i>Arte compacto</i>, [27 April 2025](https://www.youtube.com/shorts/2HRbEYmYGWY), 'José de Madrazo').",
@@ -4332,6 +4383,78 @@
       "connection_level": "direct",
       "relationship type": "acquaintances; patronage",
       "employment/patronage": "Floridablanca granted him a benefit of three hundred ducats from the archbishopric of Burgos"
+    },
+    {
+      "from": "Count of Floridablanca",
+      "to": "IV Marchioness of Pontejos",
+      "connection_level": "direct",
+      "relationship type": "relatives; brother-in-law, sister-in-law"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "Francisco de Goya",
+      "connection_level": "direct",
+      "relationship type": "patronage; portraitist-sitter",
+      "portraits": "1815, oil painting, Museo de Zaragoza"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "IV Marchioness of Pontejos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "interactions": "in Paris c.1820s"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "Josefa Tudó",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "interactions": "in Paris c.1820s"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "Carlos IV",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "María Luisa de Parma",
+      "connection_level": "direct",
+      "relationship type": "employer-employee"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "employer-employee; friends"
+    },
+    {
+      "from": "II Duke of San Carlos",
+      "to": "Manuel Godoy",
+      "connection_level": "direct",
+      "relationship type": "rivals"
+    },
+    {
+      "from": "Francisco de Goya",
+      "to": "IV Marchioness of Pontejos",
+      "connection_level": "direct",
+      "relationship type": "patronage; portraitist-sitter",
+      "portraits": "c.1786, oil painting, NGA"
+    },
+    {
+      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "to": "IV Marchioness of Pontejos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "interactions": "in Paris during their exile (c.1820s)"
+    },
+    {
+      "from": "Josefa Tudó",
+      "to": "IV Marchioness of Pontejos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "interactions": "in Paris during their exile (c.1820s)"
     },
     {
       "from": "Count of Floridablanca",
