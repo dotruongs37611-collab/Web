@@ -533,12 +533,12 @@ document.addEventListener('DOMContentLoaded', async function () {
           springConstant: 0.15,          // Much stronger springs for closer connections
           damping: 0.5,                  // Balanced damping
           avoidOverlap: 1.0              // Strong overlap prevention
-        },
-        stabilization: {
-          enabled: true,
-          iterations: 1000,              // More iterations for better stabilization
-          updateInterval: 25
         }
+      },
+      stabilization: {
+        enabled: true,
+        iterations: 1000,              // More iterations for better stabilization
+        updateInterval: 25
       },
       layout: {
         improvedLayout: true,
@@ -1060,7 +1060,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         handleInitialHash();
         loadFullImages();
       }, 500);
-
+      
       }, 2000);
 
     // Búsqueda funcional
