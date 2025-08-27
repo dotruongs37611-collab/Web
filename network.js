@@ -445,6 +445,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "profession", label: "Profession" },
           { type: "field", key: "nationality", label: "Nationality" },
           { type: "field", key: "born in", label: "Born in" },
+          { type: "field", key: "dies in", label: "Dies in" },
           { type: "field", key: "considered as", label: "Considered as" },
           { type: "field", key: "political views", label: "Political views" },
           { type: "field", key: "military activity", label: "Military activity" },
@@ -483,7 +484,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "tertulia", label: "Tertulia" },
 
           { type: "section", label: "Artistic Activity, Art Collecting and Patronage" },
-          { type: "field", key: "salon", label: "Salon" },
+          { type: "field", key: "literary salon or tertulia", label: "Literary salon or tertulia" },
           { type: "field", key: "author of", label: "Author of" },
           { type: "field", key: "patrons", label: "Patrons" },
           { type: "field", key: "patronage", label: "Patronage" },
