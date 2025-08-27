@@ -132,26 +132,6 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!response.ok) throw new Error('Error cargando datos');
         const data = await response.json();
         
-        // ✅ SIMPLIFIED DUPLICATE REMOVAL - ONLY REMOVE EXACT DUPLICATES ✅
-        const uniqueEdges = [];
-        const seenEdgeKeys = new Set();
-
-        data.edges.forEach(edge => {
-          // Create a simple unique key based only on node pairs
-          const fromToKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
-          
-          if (!seenEdgeKeys.has(fromToKey)) {
-            seenEdgeKeys.add(fromToKey);
-            uniqueEdges.push(edge);
-          } else {
-            console.log('Removed duplicate connection:', fromToKey);
-          }
-        });
-
-        // Replace the edges array with the cleaned version
-        data.edges = uniqueEdges;
-        // ✅✅✅ END OF SIMPLIFIED DUPLICATE REMOVAL ✅✅✅
-
         // Start image preloading
         const imagePreload = preloadImages(data.nodes);
 
@@ -161,17 +141,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         nodeInfo.style.overflowY = 'auto';
 
         const edgeCount = {};
-        const countedPairs = new Set(); // Para evitar contar duplicados
-
         data.edges.forEach(edge => {
-          const pairKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
-          
-          // Solo contar si este par único no ha sido contado antes
-          if (!countedPairs.has(pairKey)) {
-            edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
-            edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
-            countedPairs.add(pairKey);
-          }
+          edgeCount[edge.from] = (edgeCount[edge.from] || 0) + 1;
+          edgeCount[edge.to] = (edgeCount[edge.to] || 0) + 1;
         });
 
         const nodesMap = {};
@@ -205,14 +177,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           return config;
         }));
 
-    // === Mapa de vecinos (para detectar micro-familias) ===
-    const neighbors = {};
-    data.nodes.forEach(n => { neighbors[n.id] = new Set(); });
-    data.edges.forEach(e => {
-      neighbors[e.from].add(e.to);
-      neighbors[e.to].add(e.from);
-    });
-
     // Edges más transparentes (general)
     const edges = new vis.DataSet(data.edges.map(edge => {
       const level = edge.connection_level || "direct";
@@ -228,221 +192,15 @@ document.addEventListener('DOMContentLoaded', async function () {
         edge.label && /\?$/.test(edge.label)
           ? edge.label  // aparecerá al pasar el ratón
           : edge.title;
-      
-      // ===== Relaciones estrechas (soporta "relatives: mother-son" y "friends; master-student") =====
 
-      // 1) Recoger y normalizar etiquetas de relación que puedan venir en varios campos
-      const rawTags = [];
-
-      // a) Campo "relatives" (p. ej., "mother-son", "brothers", "grandmother-granddaughter")
-      if (edge["relatives"]) rawTags.push(String(edge["relatives"]));
-
-      // b) Campo "relationship type" (puede venir con varios: "friends; master-student")
-      if (edge["relationship type"]) rawTags.push(String(edge["relationship type"]));
-
-      // c) Claves booleanas/listas que ya usas
-      [
-        "children","parents","siblings","married to","married in","partners/lovers",
-        "masters","students","friends"
-      ].forEach(k => {
-        if (edge[k]) rawTags.push(k);
-      });
-
-      // Normalizar: minúsculas, separar por ; , / y espacios, quitar guiones largos, recortar
-      const tags = rawTags
-        .join(";")
-        .toLowerCase()
-        .replace(/–|—/g, "-")
-        .split(/[;,/]+/)
-        .map(s => s.trim())
-        .filter(Boolean);
-
-      // 2) Detectar categorías
-      const familyKeywords = [
-        "family","relative","relatives","mother","father","son","daughter","child",
-        "sister","brother","siblings","husband","wife","spouse","married","marriage",
-        "grandmother","grandfather","granddaughter","grandson","cousin","aunt","uncle",
-        "partners","partners/lovers","lovers","parent","children"
-      ];
-
-      const mentorshipKeywords = [
-        "master-student","student-master","master","student","teacher","pupil","mentor","apprentice",
-        "masters","students"
-      ];
-
-      const friendKeywords = ["friend","friends","friendship"];
-
-      // helpers de búsqueda
-      const hasAny = (kwArr) => tags.some(t => kwArr.some(k => t.includes(k)));
-
-      const isFamily     = hasAny(familyKeywords);
-      const isMentorship = hasAny(mentorshipKeywords);
-      const isFriends    = hasAny(friendKeywords);
-
-      // 3) Asignar longitudes (si hay varias relaciones, usar la MÁS corta)
-      const lengths = [];
-      if (isFamily)     lengths.push(65);  // familia: muy juntos
-      if (isMentorship) lengths.push(85);  // maestro/alumno
-      if (isFriends)    lengths.push(95);  // amigos
-
-      let springLength = lengths.length ? Math.min(...lengths) : undefined;
-
-
-        return {
-          ...edge,
-          label,
-          length: springLength,
-          title,
-          color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
-          width: 1.5,
-          // ADD THESE TWO LINES FOR MINI-FAMILIES:
-          physics: true, // Ensure physics is enabled for these edges
-          hidden: false  // Make sure edges are visible
-        };
-      }));
-
-    // ✅✅✅ ADD DETAILED DIAGNostic CODE ✅✅✅
-    // Check for duplicate connections to specific nodes
-    const goyaConnections = edges.get().filter(edge => 
-      edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
-    );
-
-    console.log('=== DIAGNÓSTICO DETALLADO DE CONEXIONES DE GOYA ===');
-    console.log('Total Goya connections:', goyaConnections.length);
-
-    // List ALL Goya connections with details
-    goyaConnections.forEach((edge, index) => {
-      console.log(`${index + 1}. ${edge.from} -> ${edge.to} | Type: ${edge.connection_level || 'N/A'} | Relationship: ${edge['relationship type'] || 'N/A'} | ID: ${edge.id}`);
-    });
-
-    // Check for exact duplicates by ID
-    const connectionIds = new Set();
-    const duplicateIds = new Set();
-
-    goyaConnections.forEach(edge => {
-      if (connectionIds.has(edge.id)) {
-        duplicateIds.add(edge.id);
-        console.log('❌ DUPLICATE ID FOUND:', edge.id, edge);
-      }
-      connectionIds.add(edge.id);
-    });
-
-    console.log('Unique connection IDs:', connectionIds.size);
-    console.log('Duplicate IDs found:', duplicateIds.size);
-
-    // Check for semantic duplicates (same from-to pair)
-    const connectionPairs = new Set();
-    const duplicatePairs = new Set();
-
-    goyaConnections.forEach(edge => {
-      const pairKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
-      if (connectionPairs.has(pairKey)) {
-        duplicatePairs.add(pairKey);
-        console.log('❌ DUPLICATE PAIR FOUND:', pairKey, edge);
-      }
-      connectionPairs.add(pairKey);
-    });
-
-    console.log('Unique connection pairs:', connectionPairs.size);
-    console.log('Duplicate pairs found:', duplicatePairs.size);
-    // ✅✅✅ END OF DETAILED DIAGNOSTIC CODE ✅✅✅
-
-    // === Soft springs para agrupar micro-familias ===
-
-    // 1) Contar vecinos comunes por par (|A ∩ B|)
-    const pairCounts = new Map();
-    Object.keys(neighbors).forEach(u => {
-      const arr = Array.from(neighbors[u]);
-      for (let i = 0; i < arr.length; i++) {
-        for (let j = i + 1; j < arr.length; j++) {
-          const a = arr[i], b = arr[j];
-          const key = a < b ? `${a}__${b}` : `${b}__${a}`;
-          pairCounts.set(key, (pairCounts.get(key) || 0) + 1);
-        }
-      }
-    });
-
-    // 2) Evitar duplicar aristas reales
-    const existing = new Set(
-      data.edges.map(e => (e.from < e.to ? `${e.from}__${e.to}` : `${e.to}__${e.from}`))
-    );
-
-    // 3) Crear aristas invisibles para pares con ≥ 2 vecinos comunes
-    const perNodeCap = {};            // límite de refuerzos por nodo para no “encerrar” hubs
-    const cap = 3;
-    const softEdges = [];
-
-    pairCounts.forEach((count, key) => {
-      if (count >= 2 && !existing.has(key)) {
-        const [a, b] = key.split("__");
-        perNodeCap[a] = (perNodeCap[a] || 0);
-        perNodeCap[b] = (perNodeCap[b] || 0);
-        if (perNodeCap[a] >= cap || perNodeCap[b] >= cap) return;
-
-        softEdges.push({
-          id: `sim_${a}_${b}`,
-          from: a, to: b,
-          physics: true,
-          smooth: false,
-          // más comunes ⇒ muelle un poco más corto (pero con mínimo para no amontonar)
-          length: Math.max(90, 160 - Math.min(count, 4) * 20),
-          color: { color: 'rgba(0,0,0,0.01)' }, // prácticamente invisible
-          width: 0.1,
-          selectionWidth: 0,
-          hoverWidth: 0
-        });
-        perNodeCap[a]++; perNodeCap[b]++;
-      }
-    });
-
-    // ✅✅✅ CORRECT PLACEMENT - ADD THIS RIGHT HERE ✅✅✅
-    // ADD STRONGER SPRINGS FOR CLOSE RELATIONSHIPS
-    // MODIFICA los "strong relationship edges" para que sean visibles y efectivos:
-    const strongRelationshipEdges = [];
-    const existingEdgeIds = new Set(edges.get().map(edge => edge.id));
-
-    edges.get().forEach(edge => {
-      // Check if this is a close relationship (family, mentorship, friends)
-      const isCloseRelationship = edge.length && edge.length <= 95;
-      
-      if (isCloseRelationship) {
-        const strongEdgeId = `strong_${edge.from}_${edge.to}`;
-        
-        if (!existingEdgeIds.has(strongEdgeId) && edge.id !== strongEdgeId) {
-          strongRelationshipEdges.push({
-            id: strongEdgeId,
-            from: edge.from,
-            to: edge.to,
-            physics: true,
-            length: edge.length * 0.6, // Distancia aún más corta
-            color: { color: 'rgba(0,150,255,0.3)' }, // Azul visible para debugging
-            width: 2, // Más grueso para ver el efecto
-            hidden: false // 🔥 HACER VISIBLE para verificar que funciona
-          });
-          existingEdgeIds.add(strongEdgeId);
-        }
-      }
-    });
-
-    if (strongRelationshipEdges.length) {
-      edges.add(strongRelationshipEdges);
-      console.log(`Added ${strongRelationshipEdges.length} visible strong relationship edges`);
-    }
-    // ✅✅✅ END OF CORRECT PLACEMENT ✅✅✅
-
-    // 4) Añadirlos a la red (usa TU objeto edges ya creado)
-    if (softEdges.length) edges.add(softEdges);
-
-    // === PARES CERCANOS: no separarlos en el anti-choques ===
-      const closePairs = new Set();
-      edges.get().forEach(e => {
-        // e.length viene de: familia / master-student / friends o de soft springs
-        const L = typeof e.length === 'number' ? e.length : null;
-        if (L && L <= 95) { // umbral de “muy cercanos”
-          const key = e.from < e.to ? `${e.from}__${e.to}` : `${e.to}__${e.from}`;
-          closePairs.add(key);
-        }
-      });
+      return {
+        ...edge,
+        label,
+        title,
+        color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
+        width: 1.5
+      };
+    }));
 
     const lastModified = response.headers.get("Last-Modified");
 
@@ -511,9 +269,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       console.error("❌ No se encontró el contenedor #network.");
       return;
 }
-    // CREA LA RED con física inicialmente desactivada para evitar "bailes"
     const network = new vis.Network(container, { nodes, edges }, {
-      nodes: {
+      nodes: { 
         borderWidth: 2,
         shapeProperties: {
           useBorderWithImage: true
@@ -523,15 +280,16 @@ document.addEventListener('DOMContentLoaded', async function () {
         color: 'rgba(200,200,200,0.2)',
         width: 1
       },
+
       physics: {
         enabled: true,
         solver: 'repulsion',
         repulsion: {
-          nodeDistance: 260,         // Aumenta separación entre nodos
-          centralGravity: 0.2,       // Atracción hacia el centro
-          springLength: 80,          // Distancia ideal entre nodos
-          springConstant: 0.03,      // Suaviza los "muelles"
-          damping: 0.5               // Estabiliza más rápido sin perder suavidad
+          nodeDistance: 320,         // antes: 230 — esto separa más los nodos
+          centralGravity: 0.12,       // Más atracción hacia el centro
+          springLength: 110,         // Menos distancia ideal entre nodos
+          springConstant: 0.028,      // antes: 0.04 — esto afloja los "muelles"
+          damping: 0.55               // Estabiliza más rápido sin perder suavidad
         },
         stabilization: {
           enabled: true,
@@ -541,31 +299,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       },
       layout: {
         improvedLayout: true,
-        randomSeed: 1912  // MISMO DISEÑO CADA VEZ
+        randomSeed: 1912  // Consistent layout
       }
     });
-
-    // CUANDO se estabiliza, activamos física suave para mini-movimientos
-    /*
-    network.once("stabilizationIterationsDone", function () {
-      network.setOptions({
-        physics: {
-          enabled: true,
-          solver: 'forceAtlas2Based',
-          forceAtlas2Based: {
-            gravitationalConstant: -80,   // Más separación al activarse
-            centralGravity: 0.002,        // Muy suave gravedad central
-            springLength: 150,            // Resortes más largos
-            springConstant: 0.005,
-            damping: 0.9,
-            avoidOverlap: 0.5
-          }
-        }
-      });
-
-      document.getElementById('loadingMessage').style.display = 'none';
-    });
-    */
 
     function loadFullImages() {
       const imageUpdates = data.nodes
@@ -577,45 +313,52 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     }
     
-  // MODIFICA el código de física para mantenerla activa para las mini-familias:
   network.once("stabilizationIterationsDone", function () {
-  // KEEP PHYSICS ENABLED WITH MODERATE FORCES FOR ONGOING GROUPING
-  network.setOptions({
-    physics: {
-      enabled: true, // 🔥 MANTENER FÍSICA ACTIVADA PARA AGRUPAMIENTO CONTINUO
-      solver: 'forceAtlas2Based',
-      forceAtlas2Based: {
-        gravitationalConstant: -15,    // Moderately strong repulsion
-        centralGravity: 0.03,          // Moderate central gravity
-        springLength: 120,             // Balanced spring length
-        springConstant: 0.1,           // Strong springs to maintain groupings
-        damping: 0.7,                  // Good damping balance
-        avoidOverlap: 0.8              // Strong overlap prevention
+    document.getElementById('loadingMessage').style.display = 'none';
+  
+    // 1. Separar nodos que están demasiado cerca
+    const MIN_DISTANCE = 120;
+    const positions = network.getPositions();
+    const updates = [];
+    const nodeArray = nodes.get();
+
+    for (let i = 0; i < nodeArray.length; i++) {
+      const node1 = nodeArray[i];
+      const p1 = positions[node1.id];
+      
+      for (let j = i + 1; j < nodeArray.length; j++) {
+        const node2 = nodeArray[j];
+        const p2 = positions[node2.id];
+        
+        const dx = p2.x - p1.x;
+        const dy = p2.y - p1.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        
+        if (distance < MIN_DISTANCE && distance > 0.5) {
+          const push = (MIN_DISTANCE - distance) * 1.2;
+          updates.push({ 
+            id: node1.id, 
+            x: p1.x - dx * push / distance, 
+            y: p1.y - dy * push / distance 
+          });
+          updates.push({ 
+            id: node2.id, 
+            x: p2.x + dx * push / distance, 
+            y: p2.y + dy * push / distance 
+          });
+        }
       }
     }
-  });
 
-    document.getElementById('loadingMessage').style.display = 'none';
-    
-    try {
-      console.log('=== VERIFICACIÓN FINAL DE CONEXIONES ===');
-      const finalGoyaConnections = edges.get().filter(edge => 
-        edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
-      );
-      console.log('Conexiones finales de Goya:', finalGoyaConnections.length);
-
-      // Mostrar todas las conexiones únicas
-      const uniqueConnections = new Set();
-      finalGoyaConnections.forEach(edge => {
-        const otherNode = edge.from === 'Francisco de Goya' ? edge.to : edge.from;
-        uniqueConnections.add(otherNode);
-      });
-
-      console.log('Nodos únicos conectados a Goya:', uniqueConnections.size);
-      console.log('Nodos conectados:', Array.from(uniqueConnections).sort());
-    } catch (err) {
-      console.error("Error verificando conexiones de Goya:", err);
+    if (updates.length > 0) {
+      nodes.update(updates);
     }
+
+    // FORZAR la física a estabilizar con las nuevas posiciones
+    network.stabilize();
+
+    // 🔁 Ahora sí: detener la física
+    network.setOptions({ physics: { enabled: false } });
 
     function highlightNeighborhood(nodeId) {
       const connectedEdges = edges.get({
@@ -1080,7 +823,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         handleInitialHash();
         loadFullImages();
       }, 500);
-      
+
       }, 2000);
 
     // Búsqueda funcional
@@ -1220,16 +963,16 @@ document.addEventListener('DOMContentLoaded', async function () {
           }
         }
 
-        // Activar física solo mientras se arrastra un nodo
-        network.on("dragStart", () => {
-          network.setOptions({ physics: { enabled: true } });
-        });
-        
-        network.on("dragEnd", () => {
-          network.setOptions({ physics: { enabled: false } });
-        });
-          
-        } catch (err) {
-          console.error("Error cargando o renderizando la red:", err);
-        }
-      });
+  // Activar física solo mientras se arrastra un nodo
+  network.on("dragStart", () => {
+    network.setOptions({ physics: { enabled: true } });
+  });
+  
+  network.on("dragEnd", () => {
+    network.setOptions({ physics: { enabled: false } });
+  });
+    
+  } catch (err) {
+    console.error("Error cargando o renderizando la red:", err);
+  }
+});
