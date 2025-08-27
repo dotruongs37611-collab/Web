@@ -4522,7 +4522,8 @@
       "from": "Manuel Godoy",
       "to": "Gaspar Melchor de Jovellanos",
       "connection_level": "direct",
-      "relationship type": "acquaintances",
+      "relationship type": "acquaintances; employer-employee",
+      "interactions": "Godoy named Jovellanos as Secretary of Justice",
       "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
     },
     {
@@ -4736,12 +4737,6 @@
       "relationship type": "acquaintances; patronage",
       "they met": "Godoy attended the premiere of <i>El sí de las niñas</i>, 24 January 1806 at the coliseo de la Cruz",
       "employment/patronage": "Godoy helped Moratín to premiere his comedies and increased his income with other ecclesiastical sinecures: 3,000 ducats from a parish in Montoro and 600 from the mitre of Oviedo. From 1792-1797, Godoy funds Moratín's European tour in England, Belgium, Germany, Switzerland and Italy."
-    },
-    {
-      "from": "Manuel Godoy",
-      "to": "Gaspar Melchor de Jovellanos",
-      "connection_level": "direct",
-      "relationship type": "acquaintances; patronage; employer-employee (Godoy named Jovellanos as Secretary of Justice)"
     },
     {
       "from": "Manuel Godoy",
@@ -5147,14 +5142,6 @@
         "Houssaye becomes director of <i>L'Artiste</i> in 1843, where he publishes the work of Baudelaire.",
         "Houssaye, as director of <i>La Presse</i>, delays the publication of Baudelaire's <i>Spleen de Paris</i> in 1862 because he wanted to censor some poems that could 'shock' the readers. It ends up in a breach of contract that deeply affects Baudelaire, who was in urgent need of money."
       ]
-    },
-    {
-      "from": "Paul Mantz",
-      "to": "Théophile Gautier",
-      "connection_level": "direct",
-      "relationship type": "colleagues",
-      "knew each other since": "at least 1858",
-      "collaborations": "Mantz and Gautier publish <i>Les Peintres vivants</i> (1858) with Arsène Houssaye"
     },
     {
       "from": "Paul Mantz",
@@ -5744,17 +5731,10 @@
       "from": "Alphonse Hirsch",
       "to": "Philippe Burty",
       "connection_level": "direct", 
-      "relationship type": "acquaintances?",
+      "relationship type": "friends?",
       "knew each other since": "at least 1867",
       "they shared": "the interest in Japanese art and belonging to the Société du Jinglar (from 1867)",
       "collection": "Burty's collection  included Hirsch's <i>L'amour et la mort</i> (1868), after Goya's <i>Capricho</i> 10, 'El amor y la muerte', British Museum [1876,0510.371](https://www.britishmuseum.org/collection/object/P_1876-0510-371); from the Burty sale, April-May 1876, lot 716 (Fayos Pérez 2024, p.185, fig.II.56; Chazal 2008, no.239, p.308)."
-    }, 
-    {
-      "from": "Alphonse Hirsch",
-      "to": "Philippe Burty",
-      "connection_level": "direct", 
-      "relationship type": "friends?",
-      "they shared": "the interest in Japanese art and belonging to the Société du Jinglar"
     }, 
     {
       "from": "Alphonse Hirsch",
@@ -6656,11 +6636,12 @@
       "mentions": "Brunet acknowledges Gautier's essay on Goya (<i>L'Artiste</i>, 1845) in his 1855 article ('Bulletin bibliographique', <i>Revue Universelle des Arts</i>, vol.1, pp.384-86)"
     },
     {
-      "from": "Théophile Gautier",
-      "to": "Paul Mantz",
+      "from": "Paul Mantz",
+      "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "collaborations": "they both participate in <i>Les Peintres vivants</i> (1858), alongside Arsène Houssaye",
+      "knew each other since": "at least 1858",
+      "collaborations": "Mantz and Gautier publish <i>Les Peintres vivants</i> (1858), with Arsène Houssaye",
       "influence": "In his early years, Mantz was inspired by Gautier's writings"
     },
     {
@@ -7946,12 +7927,6 @@
     },
     {
       "from": "Achille Devéria",
-      "to": "Louis Boulanger",
-      "connection_level": "direct",
-      "relationship type": "colleagues"
-    },
-    {
-      "from": "Achille Devéria",
       "to": "Antoine Fontaney",
       "connection_level": "direct",
       "relationship type": "colleagues"
@@ -8054,10 +8029,10 @@
       "relationship type": "colleagues"
     },
     {
-      "from": "Louis Boulanger",
-      "to": "Achille Devéria",
+      "from": "Achille Devéria",
+      "to": "Louis Boulanger",
       "connection_level": "direct",
-      "relationship type": "acquaintances",
+      "relationship type": "acquaintances; colleagues",
       "portraits": "Boulanger portrayed Devéria in 1837 (oil painting, Louvre)"
     },
     {
