@@ -132,36 +132,25 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!response.ok) throw new Error('Error cargando datos');
         const data = await response.json();
         
-        // REEMPLAZA el código de eliminación de duplicados con este:
-        // ✅✅✅ IMPROVED DUPLICATE REMOVAL CODE ✅✅✅
+        // ✅ SIMPLIFIED DUPLICATE REMOVAL - ONLY REMOVE EXACT DUPLICATES ✅
         const uniqueEdges = [];
-        const seenEdges = new Set();
+        const seenEdgeKeys = new Set();
 
         data.edges.forEach(edge => {
-          // Create a more comprehensive unique key that includes relationship type
+          // Create a simple unique key based only on node pairs
           const fromToKey = edge.from < edge.to ? `${edge.from}_${edge.to}` : `${edge.to}_${edge.from}`;
-          const relationshipType = edge['relationship type'] || '';
-          const connectionLevel = edge.connection_level || '';
-          const relatives = edge.relatives || '';
           
-          // Create multiple keys to catch different types of duplicates
-          const edgeKey1 = `${fromToKey}_${relationshipType}_${connectionLevel}`;
-          const edgeKey2 = `${fromToKey}_${relatives}_${connectionLevel}`;
-          const edgeKey3 = fromToKey; // Fallback: just check if same nodes are connected
-          
-          if (!seenEdges.has(edgeKey1) && !seenEdges.has(edgeKey2) && !seenEdges.has(edgeKey3)) {
-            seenEdges.add(edgeKey1);
-            seenEdges.add(edgeKey2);
-            seenEdges.add(edgeKey3);
+          if (!seenEdgeKeys.has(fromToKey)) {
+            seenEdgeKeys.add(fromToKey);
             uniqueEdges.push(edge);
           } else {
-            console.log('Removed duplicate edge:', edgeKey1, edgeKey2, edgeKey3);
+            console.log('Removed duplicate connection:', fromToKey);
           }
         });
 
         // Replace the edges array with the cleaned version
         data.edges = uniqueEdges;
-        // ✅✅✅ END OF IMPROVED DUPLICATE REMOVAL CODE ✅✅✅
+        // ✅✅✅ END OF SIMPLIFIED DUPLICATE REMOVAL ✅✅✅
 
         // Start image preloading
         const imagePreload = preloadImages(data.nodes);
@@ -536,14 +525,14 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       physics: {
         enabled: true,
-        solver: 'forceAtlas2Based', // CHANGE SOLVER for better grouping
+        solver: 'forceAtlas2Based',
         forceAtlas2Based: {
-          gravitationalConstant: -50,    // Negative for repulsion
-          centralGravity: 0.01,          // Very weak central gravity
-          springLength: 100,             // Base spring length
-          springConstant: 0.08,          // Stronger springs for closer connections
-          damping: 0.4,                  // Slightly less damping for more movement
-          avoidOverlap: 0.5              // Prevent node overlap
+          gravitationalConstant: -30,    // Stronger repulsion to spread nodes
+          centralGravity: 0.05,          // Stronger central gravity to keep network together
+          springLength: 150,             // Longer base spring length
+          springConstant: 0.15,          // Much stronger springs for closer connections
+          damping: 0.5,                  // Balanced damping
+          avoidOverlap: 1.0              // Strong overlap prevention
         },
         stabilization: {
           enabled: true,
@@ -570,21 +559,21 @@ document.addEventListener('DOMContentLoaded', async function () {
     
   // MODIFICA el código de física para mantenerla activa para las mini-familias:
   network.once("stabilizationIterationsDone", function () {
-    // KEEP PHYSICS ENABLED BUT WITH VERY WEAK FORCES
-    network.setOptions({
-      physics: {
-        enabled: true, // 🔥 MANTENER FÍSICA ACTIVADA
-        solver: 'forceAtlas2Based',
-        forceAtlas2Based: {
-          gravitationalConstant: -2,     // Muy débil repulsión
-          centralGravity: 0.001,         // Muy débil gravedad central
-          springLength: 200,             // Resortes más largos
-          springConstant: 0.005,         // Resortes muy débiles
-          damping: 0.95,                 // Alto amortiguamiento
-          avoidOverlap: 0.1              // Prevención mínima de superposición
-        }
+  // KEEP PHYSICS ENABLED WITH MODERATE FORCES FOR ONGOING GROUPING
+  network.setOptions({
+    physics: {
+      enabled: true, // 🔥 MANTENER FÍSICA ACTIVADA PARA AGRUPAMIENTO CONTINUO
+      solver: 'forceAtlas2Based',
+      forceAtlas2Based: {
+        gravitationalConstant: -15,    // Moderately strong repulsion
+        centralGravity: 0.03,          // Moderate central gravity
+        springLength: 120,             // Balanced spring length
+        springConstant: 0.1,           // Strong springs to maintain groupings
+        damping: 0.7,                  // Good damping balance
+        avoidOverlap: 0.8              // Strong overlap prevention
       }
-    });
+    }
+  });
 
     document.getElementById('loadingMessage').style.display = 'none';
     
@@ -607,56 +596,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     } catch (err) {
       console.error("Error verificando conexiones de Goya:", err);
     }
-  
-    // 1. Separar nodos que están demasiado cerca
-    const MIN_DISTANCE = 95;
-    const positions = network.getPositions();
-    const updates = [];
-    const nodeArray = nodes.get();
-
-    for (let i = 0; i < nodeArray.length; i++) {
-      const node1 = nodeArray[i];
-      const p1 = positions[node1.id];
-      
-      for (let j = i + 1; j < nodeArray.length; j++) {
-        const node2 = nodeArray[j];
-        const p2 = positions[node2.id];
-        
-        const dx = p2.x - p1.x;
-        const dy = p2.y - p1.y;
-        const distance = Math.sqrt(dx * dx + dy * dy);
-        
-        // Si hay una arista “cercana” entre ellos, no los separes
-        const pairKey = node1.id < node2.id ? `${node1.id}__${node2.id}` : `${node2.id}__${node1.id}`;
-        if (closePairs.has(pairKey)) {
-          continue; // no empujar
-        }
-
-        if (distance < MIN_DISTANCE && distance > 0.5) {
-          const push = (MIN_DISTANCE - distance) * 1.2;
-          updates.push({ 
-            id: node1.id, 
-            x: p1.x - dx * push / distance, 
-            y: p1.y - dy * push / distance 
-          });
-          updates.push({ 
-            id: node2.id, 
-            x: p2.x + dx * push / distance, 
-            y: p2.y + dy * push / distance 
-          });
-        }
-      }
-    }
-
-    if (updates.length > 0) {
-      nodes.update(updates);
-    }
-
-    // FORZAR la física a estabilizar con las nuevas posiciones
-    network.stabilize();
-
-    // 🔁 Ahora sí: detener la física
-    network.setOptions({ physics: { enabled: false } });
 
     function highlightNeighborhood(nodeId) {
       const connectedEdges = edges.get({
