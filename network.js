@@ -200,10 +200,29 @@ document.addEventListener('DOMContentLoaded', async function () {
         edge.label && /\?$/.test(edge.label)
           ? edge.label  // aparecerá al pasar el ratón
           : edge.title;
+      
+      // Agrupar por tipos de relación estrecha
+      const isFamily =
+        edge["children"] || edge["parents"] || edge["siblings"] ||
+        edge["married to"] || edge["married in"] || edge["partners/lovers"];
+
+      const isMentorship = edge["masters"] || edge["students"];
+      const isFriends    = edge["friends"];
+
+      // Longitud del muelle según cercanía
+      let springLength = undefined;
+      if (isFamily) {
+        springLength = 70;   // familia: muy corto (más juntos)
+      } else if (isMentorship) {
+        springLength = 85;   // maestro/alumno: medio
+      } else if (isFriends) {
+        springLength = 95;   // amigos: suave
+      }
 
       return {
         ...edge,
         label,
+        length: springLength,
         title,
         color: { color: level === "secondary" ? "rgba(255,215,0,0.4)" : "rgba(200,200,200,0.25)" },
         width: 1.5
@@ -377,7 +396,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     document.getElementById('loadingMessage').style.display = 'none';
   
     // 1. Separar nodos que están demasiado cerca
-    const MIN_DISTANCE = 120;
+    const MIN_DISTANCE = 95;
     const positions = network.getPositions();
     const updates = [];
     const nodeArray = nodes.get();
