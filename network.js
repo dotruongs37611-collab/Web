@@ -132,6 +132,27 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!response.ok) throw new Error('Error cargando datos');
         const data = await response.json();
         
+        // ✅✅✅ ADD THIS CODE TO REMOVE DUPLICATE EDGES ✅✅✅
+        // Remove duplicate edges
+        const uniqueEdges = [];
+        const seenEdges = new Set();
+
+        data.edges.forEach(edge => {
+          // Create a unique key for each edge (from + to + relationship type)
+          const edgeKey = `${edge.from}_${edge.to}_${edge.connection_level || ''}_${edge['relationship type'] || ''}`;
+          
+          if (!seenEdges.has(edgeKey)) {
+            seenEdges.add(edgeKey);
+            uniqueEdges.push(edge);
+          } else {
+            console.log('Removed duplicate edge:', edgeKey);
+          }
+        });
+
+        // Replace the edges array with the cleaned version
+        data.edges = uniqueEdges;
+        // ✅✅✅ END OF DUPLICATE REMOVAL CODE ✅✅✅
+
         // Start image preloading
         const imagePreload = preloadImages(data.nodes);
 
@@ -273,6 +294,29 @@ document.addEventListener('DOMContentLoaded', async function () {
         };
       }));
 
+    // ✅✅✅ ADD DIAGNOSTIC CODE ✅✅✅
+    // Check for duplicate connections to specific nodes
+    const goyaConnections = edges.get().filter(edge => 
+      edge.from === 'Francisco de Goya' || edge.to === 'Francisco de Goya'
+    );
+
+    console.log('Goya connections:', goyaConnections.length);
+    console.log('Unique Goya connections:', new Set(goyaConnections.map(e => 
+      `${e.from}_${e.to}_${e.connection_level || ''}_${e['relationship type'] || ''}`
+    )).size);
+
+    // List all duplicate edges for debugging
+    const allEdgeKeys = new Map();
+    edges.get().forEach(edge => {
+      const key = `${edge.from}_${edge.to}_${edge.connection_level || ''}_${e['relationship type'] || ''}`;
+      if (allEdgeKeys.has(key)) {
+        console.log('DUPLICATE EDGE:', key, edge);
+      } else {
+        allEdgeKeys.set(key, 1);
+      }
+    });
+    // ✅✅✅ END OF DIAGNOSTIC CODE ✅✅✅
+
     // === Soft springs para agrupar micro-familias ===
 
     // 1) Contar vecinos comunes por par (|A ∩ B|)
@@ -321,29 +365,42 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     });
 
+    // ✅✅✅ CORRECT PLACEMENT - ADD THIS RIGHT HERE ✅✅✅
     // ADD STRONGER SPRINGS FOR CLOSE RELATIONSHIPS
     const strongRelationshipEdges = [];
+    const existingEdgeIds = new Set(edges.get().map(edge => edge.id));
     
     edges.get().forEach(edge => {
       // Check if this is a close relationship (family, mentorship, friends)
       const isCloseRelationship = edge.length && edge.length <= 95;
       
       if (isCloseRelationship) {
-        strongRelationshipEdges.push({
-          id: `strong_${edge.from}_${edge.to}`,
-          from: edge.from,
-          to: edge.to,
-          physics: true,
-          length: edge.length * 0.8, // Even shorter distance for close relationships
-          color: { color: 'rgba(0,255,0,0.1)' }, // Very faint green for debugging
-          width: 0.5,
-          hidden: true // Make invisible but still affect physics
-        });
+        // Create a unique ID for the strong edge
+        const strongEdgeId = `strong_${edge.from}_${edge.to}`;
+
+        // Only add if it doesn't already exist AND the original edge doesn't have this ID
+        if (!existingEdgeIds.has(strongEdgeId) && edge.id !== strongEdgeId) {
+          strongRelationshipEdges.push({
+            id: strongEdgeId,
+            from: edge.from,
+            to: edge.to,
+            physics: true,
+            length: edge.length * 0.8, // Even shorter distance for close relationships
+            color: { color: 'rgba(0,255,0,0.1)' }, // Very faint green for debugging
+            width: 0.5,
+            hidden: true // Make invisible but still affect physics
+          });
+          existingEdgeIds.add(strongEdgeId); // Mark as added to prevent duplicates
+        }
       }
     });
     
     // Add the strong relationship edges
-    if (strongRelationshipEdges.length) edges.add(strongRelationshipEdges);
+    if (strongRelationshipEdges.length) {
+      edges.add(strongRelationshipEdges);
+      console.log(`Added ${strongRelationshipEdges.length} strong relationship edges`);
+    }
+    // ✅✅✅ END OF CORRECT PLACEMENT ✅✅✅
 
     // 4) Añadirlos a la red (usa TU objeto edges ya creado)
     if (softEdges.length) edges.add(softEdges);
