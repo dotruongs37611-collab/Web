@@ -321,6 +321,16 @@ document.addEventListener('DOMContentLoaded', async function () {
     // 4) Añadirlos a la red (usa TU objeto edges ya creado)
     if (softEdges.length) edges.add(softEdges);
 
+    // === PARES CERCANOS: no separarlos en el anti-choques ===
+      const closePairs = new Set();
+      edges.get().forEach(e => {
+        // e.length viene de: familia / master-student / friends o de soft springs
+        const L = typeof e.length === 'number' ? e.length : null;
+        if (L && L <= 95) { // umbral de “muy cercanos”
+          const key = e.from < e.to ? `${e.from}__${e.to}` : `${e.to}__${e.from}`;
+          closePairs.add(key);
+        }
+      });
 
     const lastModified = response.headers.get("Last-Modified");
 
@@ -454,6 +464,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         const dy = p2.y - p1.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         
+        // Si hay una arista “cercana” entre ellos, no los separes
+        const pairKey = node1.id < node2.id ? `${node1.id}__${node2.id}` : `${node2.id}__${node1.id}`;
+        if (closePairs.has(pairKey)) {
+          continue; // no empujar
+        }
+
         if (distance < MIN_DISTANCE && distance > 0.5) {
           const push = (MIN_DISTANCE - distance) * 1.2;
           updates.push({ 
