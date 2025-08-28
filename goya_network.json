@@ -3803,8 +3803,8 @@
       "nationality": "French",
       "born in": "Lyon",
       "dies in": "Paris",
-      "profession": "lithographer, editor, caricaturist, journalist, draughtsman, entrepeneur, designer",
-      "curiosities": "in 1831 he was persecuted for his famous <i>Poires</i> lampooning King Louis-Philippe. He was condemned for 'outrages à la personne du roi', having to pay 2,000 fr. and to spend 6 months at the Sainte-Pélagie prison.",
+      "profession": "lithographer, editor, caricaturist, journalist, draughtsman, businessman, designer",
+      "curiosities": "in 1831 he was persecuted for his famous <i>Poires</i> lampooning King Louis-Philippe. He was condemned for 'outrages à la personne du roi', having to pay 2,000 fr. and spending 6 months at the Sainte-Pélagie prison.",
       "parents": "Étienne Philipon and Fleurie Lisfranc de Saint-Martin",
       "siblings": "Marie-Françoise Aubert, who also managed the Maison Aubert, and was married to Philipon's business partner, Gabriel Aubert",
       "children": "Eugène Philipon (adopted)",
@@ -3815,8 +3815,9 @@
       "works in": "<i>La Silhouette</i> (1829): co-creator, editor and draughtsman",
       "studies in": "École nationale supérieure des beaux-arts de Lyon",
       "address": "rue des Boulangers (1830); rue de la Bourse 1 (1841); 20 rue Bergère (1862)",
-      "friends": "Honoré Daumier; Honoré de Balzac; Gabriel Aubert (brother-in-law and business partner); J. J. Grandville",
-      "portrayed by": "Nadar, photograph, 1856-58",
+      "friends": "Honoré Daumier; Honoré de Balzac; Gabriel Aubert (brother-in-law and business partner); J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "mentions": "Champfleury said of him: 'il dirigeait les crayons d'un groupe nombreux, appelait à lui les jeunes gens, leur insufflait la flamme, donnait des idées à ceux qui n'en avaient pas'.",
+      "portrayed by": "Honoré Daumier, caricatural sculpture, 1832-35 (<i>Célébrités du Juste milieu</i>); Nadar, photograph, 1856-58; Ferdinand, lithography, before 1862 (<i>L'Artiste</i>).",
       "bibliography": "Pierrot & Yon 2011; Pierrot & Yon 2006; Antoinette Huon, 'Charles Philipon et la Maison Aubert', <i>Études de presse</i>, nouvelle série, 4e trimestre 1957", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Philipon.jpg",
       "image source": "Nadar portrait 1856-58"
@@ -6022,19 +6023,11 @@
     },
     {
       "from": "Charles Philipon",
-      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
-      "connection_level": "direct", 
-      "relationship type": "friends",
-      "know each other since": "c.1836",
-      "correspondence": "at least 17 letters from 1836 to 1841 (Pierrot & Yon 2011, 38-70, p.353, and others)",
-      "bibliography": "Pierrot & Yon 2011, vol.2"
-    },
-    {
-      "from": "Charles Philipon",
       "to": "Honoré Daumier",
       "connection_level": "direct", 
       "relationship type": "friends; colleagues; employer-employee",
-      "know each other since": "at least ...",
+      "know each other since": "at least 1830",
+      "portraits": "caricatural sculpture of Philipon by Daumier, 1832-35 (<i>Célébrités du Juste milieu</i>)",
       "collaborations": "work in <i>La Caricature</i> (1830-39), <i>Le Charivari</i> (1832-37)"
     },
     {
@@ -8421,9 +8414,15 @@
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "friends",
-      "know each other since": "the early 1830s; in 1835 in Vienna (Custine meets Mme Hanska)", 
-      "correspondence": "since at least 1838; Balzac attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine); Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's Disparates) (Fayos Pérez 2025-2026, pending publication)",
-      "bibliography": "Fayos Pérez 2025-2026 (upcoming)"
+      "know each other since": "the early 1830s", 
+      "correspondence": "at least 17 letters from 1836 to 1841 (Pierrot & Yon 2011, 38-70, p.353, and others)",
+      "interactions": [
+        "Balzac attended Custine's salon.",
+        "They meet in 1835 in Vienna (Custine meets Mme Hanska)."
+      ],
+      "link to Goya's work": "Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's <i>Disparates</i>) (Fayos Pérez 2025-2026, upcoming)",
+      "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Pierrot & Yon 2011, vol.2"
     },
     {
       "from": "Honoré de Balzac",
