@@ -1571,12 +1571,31 @@
       "label": "Custine",
       "life dates": "1790-1857",
       "nationality": "French",
-      "profession": "aristocrat, writer, socialite", 
+      "born in": "Niderviller, Lorraine",
+      "profession": "writer, socialite, poet, politician, explorer", 
+      "partners/lovers": "Edward Saint-Barbe; Ignatius Gurowski (who would marry the Spanish infanta Isabel Fernandina de Borbón). Custine was often discriminated against because of his homosexuality. He was also severely injured in a homophobic attack on 28 Oct 1824.",
+      "parents": "Armand Louis Philippe François de Custine (diplomatic minister under Louis XVI) and Delphine de Sabran Custine, Marchioness of Custine",
+      "married to": "Léontine de Saint-Simon de Courtomer",
+      "children": "Enguerrand",
+      "address": "Saint-Gratien (Paris): Château Catinat; 6 Rue de la Rochefoucauld",
+      "curiosities": [
+        "Custine's father and grandfather sympathized with the French Revolution but were both guillotined.",
+        "In 1802, Custine's mother Delphine became the lover of Chateaubriand, who Custine would consider like an adoptive father."
+      ],
+      "trips": "Scotland and England (1822); Italy; Switzerland; Spain (1831); Russia (1839)",
       "in Spain": "in 1828?; in 1831",
-      "author of": "1838, 17 June (<i>Le Temps</i>) essay on Goya's works (signed as 'A. de C.')",
-      "mentions of Goya": "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d'être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l'école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'; 1838 essay ('A. de C.'): Goya's <i>Caprichos</i>, <i>Disasters of War</i>, <i>Bulls of Bordeaux</i>, Familia Carlos IV, frescoes and Black paintings.",
+      "author of": "<i>Mémoires et voyages ou Lettres écrites à diverses époques pendant des courses en Suisse, en Calabre, en Angleterre et en Écosse</i>, 2 vols. (1830); <i>L'Espagne Sous Ferdinand VII</i> (1839); <i>La Russie en 1839</i> (1839)",
+      "writes about Goya": [
+        "Letter to Miss Bowles (13 April 1831): 'Un peintre espagnol moderne, Goya, mérite d'être cité, surtout pour ses portraits. En mourant il a emporté la gloire et le secret de l'école de son pays. Sa manière tenait à la fois de celle de Velasquez et de celle de Murillo'.",
+        "1838, 17 June, essay (signed as 'A. de C.'): Goya's <i>Caprichos</i>, <i>Disasters of War</i>, <i>Bulls of Bordeaux</i>, Familia Carlos IV, frescoes and Black paintings (Fayos Pérez 2025-2026, upcoming; Fayos Pérez 2024, Appendix II)."
+      ],
+      "interest in Spanish art": "'Le mouvement si animé de cette musique, comme celui du fandango espagnol, rend la gaieté à l'homme le plus mélancolique, et l'entraîne au plaisir malgré lui! [...] Elle était nouvelle pour moi, quoique j'eusse traversé l'Italie entière; et je croyais lire un chapitre de quelque vieux roman espagnol !' (<i>Mémoires et voyages ou Lettres écrites à diverses époques pendant des courses en Suisse, en Calabre, en Angleterre et en Écosse</i>, 1830, p.254).",
       "knows Goya's works": "by 1831",
-      "bibliography": "Fayos Pérez 2025-2026 (upcoming)",
+      "friends": "Honoré de Balzac; Sophie Gay; George Sand; Frederick Chopin; François-René de Chateaubriand; Édouard de La Grange",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024",
+      "websites": "[ElisaRolle](http://www.elisarolle.com/queerplaces/a-b-ce/Astolphe%20de%20Custine.html)",
+      "newspaper archive": "'A French Marquis' Adventures: Dandy Stuff for Biography', <i>Observer</i>, [22 Nov 1999](https://observer.com/1999/11/a-french-marquis-adventures-dandy-stuff-for-biography/)",
+      "portrayed by": "unknown artist, oil on canvas",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Custine.jpg"
     },
     {
@@ -7092,7 +7111,9 @@
       "to": "Louis Boulanger",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
-      "portraits": "portrait of Balzac by Louis Boulanger, 1836, oil painting, [Tours](https://musees.tours.fr/collections/portrait-dhonore-de-balzac/) 2024-3-1"
+      "correspondence": "several letters at least from 1836 to 1839 (Pierrot & Yon 2011, vol.2: 36-16, 36-130, 36-147, 37-10, 37-17, 37-22, 39-305).",
+      "portraits": "portrait of Balzac by Louis Boulanger, 1836, oil painting, [Tours](https://musees.tours.fr/collections/portrait-dhonore-de-balzac/) 2024-3-1",
+      "bibliography": "Pierrot & Yon 2011"
     },
     {
       "from": "Valentín Carderera",
@@ -8276,6 +8297,13 @@
       "bibliography": "Schopp 2015"
     },
     {
+      "from": "Madame de Staël",
+      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "shared": "Custine's mother Delphine was a close friend of Staël, who would dedicate to her her novel <i>Delphine</i> (1802)."
+    },
+    {
       "from": "Victor Hugo",
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
       "connection_level": "direct",
@@ -8373,7 +8401,9 @@
       "know each other since": "at least 1835",
       "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840); Balzac suggests Gautier collaborates in <i>La Chronique de Paris</i>; Gautier is the author of one of the 1st biographies of Balzac",
       "mentions": "Gautier: 'Je travaille à <i>La Chronique de Paris</i> qui est maintenant dirigée par Balzac qui est un bon gros porc très plein d'esprit et très agréable à vivre' (letter of Gautier to  E. de Nully, 1836)",
-      "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee. [Wikipedia](https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)"
+      "correspondence": "at least 6 letters from 1837 to 1840 (Pierrot & Yon 2011, vol.2: 37-109, 39-81, 39-107, 39-300, 39-312, 40-86)",
+      "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee. [Wikipedia](https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)",
+      "bibliography": "Pierrot & Yon 2011, vol.2"
     },
     {
       "from": "Théophile Gautier",
@@ -8410,19 +8440,43 @@
       "shared": "Gautier attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
+      "from": "Frédéric Chopin",
+      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "connection_level": "direct",
+      "relationship type": "friends", 
+      "correspondence": [
+        "1841, 27 April, Custine to Chopin: 'You have restored to me the memory of my happy days at Saint-Gratien and in Paris: I rediscovered you and with you the piano, without its tiresome features, without its meaningless notes, but with the thoughts that you express in spite of the instrument itself. You do not play on the piano but on the human soul'."
+      ],
+      "interactions": [
+        "Custine was possibly amongst the first people to hear Chopin's famous Funeral March (before it became the 3rd movement of the Sonata Op.35)",
+        "Chopin played at a soirée at Astolphe's chateau at Saint-Gratien. Astolphe described the event to his friend the author Sophie Gay (22 Oct 1838): 'I had here yesterday something that made me very happy and very sad... Our Chopin is leaving for Valencia, Spain, that is to say for another world. You have no idea what George Sand has achieved in one summer! Consumption has seized that figure and transformed it into a soul without a body. He played to bid us farewell, with all the expression with which you are familiar. [...] Then, to finish, funeral marches, which, despite myself, made me burst into tears. It was the cortège leading him to his final resting place; and when I thought I might not see him again, my heart bled. The poor man does not see that this woman has the love of a vampire!'.",
+        "1841, 27 April: Chopin was able to play again in Paris."
+      ]
+    },
+    {
       "from": "Honoré de Balzac",
       "to": "Astolphe-Louis-Léonor, Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "friends",
-      "know each other since": "the early 1830s", 
-      "correspondence": "at least 17 letters from 1836 to 1841 (Pierrot & Yon 2011, 38-70, p.353, and others)",
+      "know each other since": "c.1830", 
+      "correspondence": [
+        "Before 1836: 1830 letter mentioning Custine's <i>Mémoires et voyages ou Lettres écrites à diverses époques pendant des courses en Suisse, en Calabre, en Angleterre et en Écosse</i> (1830) (Pierrot & Yon 2006, vol.1, 30-33).",
+        "1836 to 1841: 17 letters (Pierrot & Yon 2011).",
+        "1838-VIII/IX Balzac to Custine: 'disparate féminin' (38-70, p.353)",
+        "1838-XI-12 Custine to Balzac: Custine thanks him for mentioning his <i>L'Espagne sous Ferdinand VII</i> (1838) in the preface of <i>La femme supérieure</i> (or <i>Les employés</i>). 'Nous envisageons la vie sociale de la même manière: même envie de secouer les préjugés sans perdre les vérités, même horreur du mensonge, même besoin d'indépendance [...] Vous faites de l'anatomie domestique et politique et vous moulez vos dissections en grand artiste que vous êtes' (Pierrot & Yon 2011, 38-98, p.384).",
+        "1839-II-10 Balzac to Custine: 'Ils abaisseront tant qu'ils pourront les courtines de velours rouge sous lesquelles vous avez mis comme Titien, votre Vénus, et ils feront leur métier ces eunuques du feuilleton' (Pierrot & Yon 2011, 39-44, p.451).",
+        "1839-II-10 (after) Custine to Balzac: 'Chateaubriand me dit que je ne sors pas des tableaux de genre et qu'il faudrait faire des tableaux d'histoire: je vous les laisse à vous qui élevez un presbytère au niveau des stances du Vatican' (Pierrot & Yon 2011, 39-45, p.452).",
+        "1839-XI-22 Custine to Balzac: 'Ce que j'admire c'est la philosophie de vos points de vue ; cette manière de peindre la société est à vous : vous représentez des figures hideuses avec la touche et la couleur de Rembrandt' (Pierrot & Yon 2011, 39-269, p.628).",
+        "1840-III-14/15 Custine to Balzac: 'Vous avez vu la société d'un point de vue très poétique, et vous nous la présentez sous un forme originale et neuve : c'est un mérite immense. Le pathétique et le comique se disputent l'intérêt dans ce drame singulier que l'on ne peut voir sans rire et pleurer à la fois' (Pierrot & Yon 2011, 40-84, p.706)."
+      ],
       "interactions": [
         "Balzac attended Custine's salon.",
         "They meet in 1835 in Vienna (Custine meets Mme Hanska)."
       ],
-      "link to Goya's work": "Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's <i>Disparates</i>) (Fayos Pérez 2025-2026, upcoming)",
+      "mentions": "Balzac mentions Custine's <i>L'Espagne sous Ferdinand VII</i> in the preface of <i>La femme supérieure</i> (or <i>Les Employés</i>), pp.XXII-XXIII, XXXV-XXXVI. 'Cette page dithyrambique eût été mieux sous toute autre plume que celle de M. le marquis de Custine, à qui sa fortune héréditaire permet de dédaigner celle qu'il pourrait conquérir avec sa plume […] Le sacerdoce dont parle M. de Custine exige une vie tout arrangée, sans préoccupations matérielle ni soucis' (p.XXXVI). [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6214627x)",
+      "link to Goya's work": "letter from Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's <i>Disparates</i>) (Fayos Pérez 2025-2026, upcoming)",
       "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
-      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Pierrot & Yon 2011, vol.2"
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Pierrot & Yon 2011, vol.2; Pierrot & Yon 2006, vol.1"
     },
     {
       "from": "Honoré de Balzac",
@@ -8458,8 +8512,10 @@
       "from": "Honoré de Balzac",
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
-      "relationship type": "colleagues; friends?", 
-      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840)"
+      "relationship type": "acquaintances (they did not particularly like each other)", 
+      "correspondence": "at least 3 letters from 1840 (Pierrot & Yon 2011, 40-93, 40-96, 40-97)",
+      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840)",
+      "bibliography": "Pierrot & Yon 2011"
     },
     {
       "from": "Honoré de Balzac",
@@ -8525,13 +8581,16 @@
       "connection_level": "direct",
       "relationship type": "acquaintances", 
       "shared": "Sand attended Custine's salon",
-      "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
+      "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
+      "bibliography": "Samantha Caretti, 'La vérité et l'idéal: Astolphe de Custine, lecteur de George Sand', <i>Cahiers George Sand</i>, no.41, Sept 2019"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Sophie Gay",
-      "relationship type": "friends", 
-      "bibliography": "Bénichou 2004, p.9"
+      "relationship type": "close friends", 
+      "correspondence": "yes. For instance on 22 Oct 1838 he described the last concert given by Chopin in Paris before leaving for Mallorca, at Custine's chateau (see Custine-Chopin's edge).",
+      "bibliography": "Bénichou 2004, p.9",
+      "websites": "[Facebook post](https://www.facebook.com/JackGibbonsPiano/posts/astolphe-de-custine-was-a-huge-supporter-of-chopin-and-one-of-the-very-first-to-/10157874644944384/) by Jack Gibbons, 26 July 2019"
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
@@ -8607,7 +8666,7 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "shared": "social and artistic circle in the salons",
-      "mentions": "Delphine Gay wrote <i>La Canne de B. de Balzac</i> in 1836, a satirical novel of contemporary society"
+      "mentions": "Delphine Gay wrote <i>La Canne de M. de Balzac</i> in 1836, a satirical novel of contemporary society"
     },
     {
       "from": "Charles Nodier",
@@ -8650,10 +8709,26 @@
     },
     {
       "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Fernando VII",
+      "connection_level": "secondary",
+      "mentions": "Custine writes <i>L'Espagne sous Ferdinand VII</i> in 1838"
+    },
+    {
+      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
       "to": "Madame Ewelina Hanska",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "they met": "1835 in Vienna with Honoré de Balzac"
+      "they met": "1835 in Vienna",
+      "mentions": "in a letter of Nov 1838, Balzac writes to Custine: 'J'ai des compliments à vous reporter de la Comtesse de H[anska] que vous avez vue un jour à Vienne et qui a été ravie de Séville et de Cordoue d'après votre livre. L'ai là-dessus d'elle une demie-page' (Pierrot & Yon 2011, vol.2, p.388).",
+      "bibliography": "Pierrot & Yon 2011"
+    },
+    {
+      "from": "Virginie Ancelot",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "correspondence": "at least two letters from 1838 (Pierrot & Yon 2011, vol.2: 38-2, p.305, 38-7, p.308)",
+      "bibliography": "Pierrot & Yon 2011"
     },
     {
       "from": "Adélaïde de Montgolfier",
