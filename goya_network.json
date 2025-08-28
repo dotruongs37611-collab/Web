@@ -8280,7 +8280,13 @@
       "from": "Victor Hugo",
       "to": "Honoré de Balzac",
       "connection_level": "direct",
-      "relationship type": "friends"
+      "relationship type": "friends",
+      "correspondence": "many letters from 1839 to 1841 (Pierrot & Yon 2011)",
+      "mentions": [
+        "Balzac dedicated to Hugo <i>Les illustions perdues</i> (from 1843).",
+        "Hugo wrote <i>La Mort de Balzac</i>, gathered in <i>Actes et paroles</i> 2007, pp.124-130)."
+      ],
+      "bibliography": "Pierrot & Yon 2011; Pierrot, 'Balzac et Hugo d'après leur correspondance', RHLF, Oct-Dec 1953, pp.467-483-"
     },
     {
       "from": "Victor Hugo",
@@ -8482,14 +8488,38 @@
       "from": "Honoré de Balzac",
       "to": "Alphonse de Lamartine",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances",
+      "correspondence": "at least 6 letters from 1839 to 1841 (Pierrot & Yon 2011)",
+      "bibliography": "Pierrot & Yon 2011"
     },
     {
       "from": "Honoré de Balzac",
       "to": "Stendhal (Henri Beyle)",
       "connection_level": "direct",
       "relationship type": "friends", 
-      "bibliography": "Bouteron 1941"
+      "correspondence": "at least from 1839 to 1841 (Pierrot & Yon 2011)",
+      "bibliography": "Pierrot & Yonn 2011, vol.2; Bouteron 1941"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Louis Viardot",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "correspondence": "1838 (Pierrot & Yon 2011, 38-139)",
+      "interactions": [
+        "At the offices of the <i>Revue indépendante</i>, at the Théâtre-Italien and at the Société des gens de lettres",
+        "1843 they meet in Berlin. Balzac gives him a letter for Madame Hanska."
+      ],
+      "bibliography": "Pierrot & Yonn 2011, vol.2"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Baron Taylor",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "correspondence": "at least one letter from 1838 (Pierrot & Yon 2011, 38-54)",
+      "interactions": "as commissaire royal at the Théâtre Français and inspecteur général des Beaux-Arts, Balzac proposed his play <i>L'École des ménages</i> (1839) (mentioned in a letter from Balzac to Armand Pérémé, Pierrot & Yon 2011, 38-109).",
+      "bibliography": "Pierrot & Yonn 2011, vol.2"
     },
     {
       "from": "Honoré de Balzac",
@@ -8503,10 +8533,14 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "know each other since": "1831",
+      "correspondence": "at least 17 letters from 1838 to 1840 (Pierrot & Yon 2011)",
       "collaborations": [
         "Sand inspired Balzac for his character Félicité des Touches in <i>Béatrix</i> (1839).",
-        "Balzac's dedicates to her <i>Mémoires de deux jeunes mariées</i> (1841)."
-      ]
+        "Balzac's dedicates to her <i>Mémoires de deux jeunes mariées</i> (1841).",
+        "Balzac planned to ask her for a preface of <i>La Comédie humaine</i>. After his death, she would write this preface."
+      ],
+      "interactions": "in 1842 both authors were reading each other's works",
+      "bibliography": "Pierrot & Yon 2011, vol.2"
     },
     {
       "from": "Honoré de Balzac",
@@ -8599,6 +8633,14 @@
       "relationship type": "acquaintances"
     },
     {
+      "from": "Sophie Gay",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "correspondence": "4 letters from 1837 to 1839 (Pierrot & Yon 2011: 37-14, 37-16, 38-24, 39-132)",
+      "bibliography": "Pierrot & Yon 2011"
+    },
+    {
       "from": "Victor Hugo",
       "to": "Charles Baudelaire",
       "connection_level": "direct",
@@ -8666,7 +8708,9 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "shared": "social and artistic circle in the salons",
-      "mentions": "Delphine Gay wrote <i>La Canne de M. de Balzac</i> in 1836, a satirical novel of contemporary society"
+      "correspondence": "at least 12 letters from 1836 to 1840 (Pierrot & Yon 2011).",
+      "mentions": "Delphine Gay wrote <i>La Canne de M. de Balzac</i> in 1836, a satirical novel of contemporary society",
+      "bibliography": "Pierrot & Yon 2011"
     },
     {
       "from": "Charles Nodier",
@@ -8674,6 +8718,18 @@
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
       "shared": "social and artistic circle in the salons"
+    },
+    {
+      "from": "Juliette Récamier",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
+    },
+    {
+      "from": "Charles-Augustin Sainte-Beuve",
+      "to": "Delphine Gay",
+      "connection_level": "direct",
+      "relationship type": "acquaintances"
     },
     {
       "from": "Victor Hugo",
