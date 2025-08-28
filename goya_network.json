@@ -3796,6 +3796,32 @@
       "image source": "Nadar portrait"
     },
     {
+      "id": "Charles Philipon",
+      "label": "Philipon",
+      "full name": "Claude Guillaume Charles Philipon",
+      "life dates": "1800-1862", 
+      "nationality": "French",
+      "born in": "Lyon",
+      "dies in": "Paris",
+      "profession": "lithographer, editor, caricaturist, journalist, draughtsman, entrepeneur, designer",
+      "curiosities": "in 1831 he was persecuted for his famous <i>Poires</i> lampooning King Louis-Philippe. He was condemned for 'outrages à la personne du roi', having to pay 2,000 fr. and to spend 6 months at the Sainte-Pélagie prison.",
+      "parents": "Étienne Philipon and Fleurie Lisfranc de Saint-Martin",
+      "siblings": "Marie-Françoise Aubert, who also managed the Maison Aubert, and was married to Philipon's business partner, Gabriel Aubert",
+      "children": "Eugène Philipon (adopted)",
+      "in Paris": "1819-1821; from 1823",
+      "masters": "Antoine Gros: painting, 1819-21 (alongside Decamps, Bonington and Charlet); Charlet: lithography, 1823.",
+      "author of": "<i>Histoire de Polichinelle enfant prodigue</i> (early 1820s); <i>Histoire de Touche-à-tout, le mauvais sujet</i> (early 1820s); <i>Aux prolétaires</i> (1838); <i>Parodie du Juif errant </i> (1845), inspired by Eugène Sue; <i>Le Floueur</i> (1850); <i>ibliothèque pour rire, le Musée anglo-français</i> (1855-57) with Gustave Doré",
+      "founder of": "Maison Aubert publishing house at passage Véro-Dodat (with his brother-in-law Gabriel Aubert); <i>La Caricature</i> (1830-39); <i>Le Charivari</i> (1832-1837); <i>Journal pour rire</i> (1848-55).",
+      "works in": "<i>La Silhouette</i> (1829): co-creator, editor and draughtsman",
+      "studies in": "École nationale supérieure des beaux-arts de Lyon",
+      "address": "rue des Boulangers (1830); rue de la Bourse 1 (1841); 20 rue Bergère (1862)",
+      "friends": "Honoré Daumier; Honoré de Balzac; Gabriel Aubert (brother-in-law and business partner); J. J. Grandville",
+      "portrayed by": "Nadar, photograph, 1856-58",
+      "bibliography": "Pierrot & Yon 2011; Pierrot & Yon 2006; Antoinette Huon, 'Charles Philipon et la Maison Aubert', <i>Études de presse</i>, nouvelle série, 4e trimestre 1957", 
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Philipon.jpg",
+      "image source": "Nadar portrait 1856-58"
+    },
+    {
       "id": "J. J. Grandville (Jean Ignace Isidore Gérard)",
       "label": "Grandville",
       "life dates": "1803-1847", 
@@ -5966,6 +5992,58 @@
       "relationship type": "acquaintances?",
       "mentions": "Blanc said about Meissonier that he 'peignait grandement en petit' (he painted greatly in small size).",
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Ernest_Meissonier)"
+    },
+    {
+      "from": "Charles Philipon",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct", 
+      "relationship type": "friends; colleagues",
+      "know each other since": "c.1830",
+      "collaborations": [
+        "Balzac was, under different pseudonyms, the main writer in Philipon's <i>La Caricature</i> in its beginning (1830-1832)",
+        "Balzac's <i>Petites misères de la vie conjugale</i> was partly published in Philipon's <i>La Caricature</i>."
+      ],
+      "correspondence": [
+        "1832 about censorship in <i>La Caricature</i> (Pierrot & Yon 2006, vol.1, 32-27 no.3",
+        "1838-I-25 Philipon asks for a portrait of Balzac: 'il m'en coûterait beaucoup de vous faire faire moins beau que vous n'êtes' (Pierrot & Yon 2011, vol.2, p.308, 38-6).",
+        "1841-(IV?) Publishing contract with Jacques-Julien Dubouchet, Pierre-Jules Hetzel and Ch. Philipon, of <i>L'Histoire de Napoléon racontée par un soldat</i> (Pierrot & Yon 2011, vol.2, p.876, 41-33).",
+        "1841-V-27 'Mon cher Ponpon, Duc de la Lithographie, Marquis du dessin, Comte du Bois gravé, Baron de Charge et Chevalier des caricatures et autres lieux, je veux parler à vous, aujourd'hui à 4 heures' (Pierrot & Yon 2011, vol.2, p.898, 41-52)."
+      ],
+      "bibliography": "Pierrot & Yon 2011, vol.2; Pierrot & Yon 2006, vol.1; Martine Contensou, <i>Balzac & Philipon associés : grands fabricants de caricatures en tous genres</i>, exh. cat, Maison de Balzac, 2001"
+    },
+    {
+      "from": "Charles Philipon",
+      "to": "Nadar",
+      "connection_level": "direct", 
+      "relationship type": "friends; portraitist-sitter",
+      "know each other since": "at least 1856",
+      "portraits": "photographed by Nadar 1856-58",
+      "mentions": "in Philipon's obituary in 1862, Nadar wrote that Philipon had a 'prodigieuse lucidité dans les affaires' matched with a 'inépuisable fécondité de moyens et d'invention'."
+    },
+    {
+      "from": "Charles Philipon",
+      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "connection_level": "direct", 
+      "relationship type": "friends",
+      "know each other since": "c.1836",
+      "correspondence": "at least 17 letters from 1836 to 1841 (Pierrot & Yon 2011, 38-70, p.353, and others)",
+      "bibliography": "Pierrot & Yon 2011, vol.2"
+    },
+    {
+      "from": "Charles Philipon",
+      "to": "Honoré Daumier",
+      "connection_level": "direct", 
+      "relationship type": "friends; colleagues; employer-employee",
+      "know each other since": "at least ...",
+      "collaborations": "work in <i>La Caricature</i> (1830-39), <i>Le Charivari</i> (1832-37)"
+    },
+    {
+      "from": "Charles Philipon",
+      "to": "J. J. Grandville (Jean Ignace Isidore Gérard)",
+      "connection_level": "direct", 
+      "relationship type": "friends; colleagues; employer-employee",
+      "know each other since": "at least 1827",
+      "collaborations": "work in <i>La Silhouette</i> (1829), <i>La Caricature</i> (1830-39), <i>Le Charivari</i> (1832-37)"
     },
     {
       "from": "Ernest Meissonier",
