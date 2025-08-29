@@ -10,7 +10,8 @@
       "dies in": "Bordeaux",
       "author of": "<i>Piedad</i> (1774), <i>Aníbal vencedor</i> (1771), tapestry cartoons (1775-1792), prints after Velázquez (1778), <i>Crucifixion</i> (1780), <i>San Bernardino de Siena</i> (1781-83), <i>The Duchess of Osuna</i> (1785), <i>The Dukes of Osuna</i> (1787-88), <i>Yard of lunatics</i> (1794), <i>Witches Flight</i> (1797-98), Album A (c.1794-95), Album B (c.1795-97), <i>Caprichos</i> (1799), <i>Allegory of Truth, Time and History</i> (1800), <i>The Family of Charles IV</i> (1800), <i>Clothed Maja</i> (1802-05), <i>Bandit stripping a woman</i> (1808-12), <i>The Burial of the Sardine</i> (1808-12), <i>Portrait of Antonia de Zárate</i> (1810-11), <i>Disasters of War</i> (1810-15), <i>The Second of May 1808</i> (1814), <i>The Third of May 1808</i> (1814), <i>Ferdinand VII</i> (1814-15), Self-Portrait (1815), <i>Tauromaquia</i> (1816), <i>Disparates</i> (c.1816-19), Black Paintings (c.1819-23), <i>Bulls of Bordeaux</i> (1825), <i>Portrait of Mariano Goya</i> (1827)",
       "in Italy": "1769-1771",
-      "in France": "1824-1828, Bordeaux. He visited Paris in Summer 1824",
+      "in France": "1824-1828 Paris and Bordeaux. He lives in Bordeaux 1824-1828.",
+      "in Paris": "Summer of 1824",
       "masters": "José Luzán",
       "students": "Felipe Arrojo; Asensio Julià; Rosario Weiss",
       "member of": "RABASF",
@@ -1033,7 +1034,7 @@
       "image source": "Madrazo portrait, c.1812, Prado"
     },
     {
-      "id": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "id": "XV Countess of Chinchón",
       "label": "Chinchón",
       "full name": "María Teresa Josefa de Borbón y Vallabriga",
       "life dates": "1780-1828", 
@@ -1062,7 +1063,7 @@
       "nationality": "Spanish",
       "parents": "José Ignacio de Vallabriga y Español and Josefa de Rozas y Drummond de Melfort",
       "married to": "Luis de Borbón (1776-1820), 32 years older",
-      "children": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
+      "children": "María Teresa de Borbón y Vallabriga, XV Countess of Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
       "aristocratic titles": "Dama de la Orden de las Damas Nobles de la reina María Luisa",
       "portrayed by": "Goya, 1783, Galleria degli Uffizi (equestrian portrait); Goya, 1783, bust portrait (profile), Pardo; Goya, 1783, Neue Pinakothek Munich; Goya, c.1783, private collection",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vallabriga.jpg",
@@ -1079,7 +1080,7 @@
       "parents": "Felipe V and Isabel de Farnesio",
       "profession": "clergyman (cardinal); aristocrat",
       "married to": "María Teresa de Vallabriga (1776-1820), 32 years younger",
-      "children": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
+      "children": "María Teresa de Borbón y Vallabriga, XV Countess of Chinchón; Cardinal Luis de Borbón; Luisa, Duchess of San Fernando de Quiroga",
       "aristocratic titles": "Infante de España; XIII Count of Chinchón (1761)",
       "works as": "archbishop of Seville; cardinal-archibishop of Toledo and Primado de España",
       "patronage": "Francisco de Goya; Luis Paret; Luigi Boccherini",
@@ -3030,14 +3031,17 @@
       "image source": "Gérard portrait, c.1810"
     },
     {
-      "id": "Arthur Wellesley, 1st Duke of Wellington",
+      "id": "1st Duke of Wellington",
       "label": "Wellington",
+      "full name": "Arthur Wellesley (né Wesley)",
       "life dates": "1769-1852", 
       "born in": "Dublin",
       "nationality": "British",
       "married to": "Catherine Pakenham (1806, died 1831)",
       "children": "Arthur Wellesley; Lord Charles Wellesley",
       "parents": "Garret Wesley and Anne Hill-Trevor",
+      "rivals": "Napoleon",
+      "military activity": "Peninsular War and Napoleonic Wars",
       "in Spain": "during the Peninsular War: Battle of Corunna (16 January 1808); 2nd Battle of Porto (12 May 1809); Battle of Talavera (27-28 July 1809); Battle of Fuentes de Oñoro (3-5 May 1811); Battle of Albuera (16 May 1811); in 1812 he failed in taking Burgos, with a heavy loss of 2,000 casualties; Battle of Salamanca (22 June 1812); Battle of Vitoria (21 June 1813)",
       "collection": "after the Battle of Vitoria in June 1813, Wellesley took the so-called 'Vitoria paintings' (<i>Equipaje del Rey José</i>), which had been looted by Joseph Bonaparte from the Spanish royal collections, to London, until Ferdinand VII agreed for him to keep them. These are now the basis of the Wellington Museum at Apsley House, London, and the private collection of the Duke of Wellington. The other part of the Wellington collection was acquired during the 1st Duke's lifetime, including painting, sculpture and furniture",
       "profession": "army officer (Field marshal); military member; politician; collector",
@@ -4610,7 +4614,7 @@
       "portraits": "c.1786, oil painting, NGA"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "IV Marchioness of Pontejos",
       "connection_level": "direct",
       "relationship type": "acquaintances",
@@ -4694,14 +4698,14 @@
       "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Gaspar Melchor de Jovellanos",
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "mentions": "Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "María Teresa de Vallabriga",
       "connection_level": "direct",
       "relationship type": "relatives; mother-daughter"
@@ -4805,44 +4809,44 @@
       "relationship type": "relatives; great-uncle, great-nephew"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Luis de Borbón",
       "connection_level": "direct",
       "relationship type": "relatives; father-daughter"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Carlos III",
       "connection_level": "direct",
       "relationship type": "relatives; uncle-niece"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Carlos IV",
       "connection_level": "direct",
       "relationship type": "relatives; first cousins"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "María Luisa de Parma",
       "connection_level": "direct",
       "relationship type": "relatives; first cousins"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Josefa Tudó",
       "connection_level": "direct",
       "relationship type": "Tudó was Godoy's lover while he was married to the Countess of Chinchón until her death in 1828.",
       "curiosities": "Gaspar Melchor de Jovellanos was invited to a dinner at Godoy's where both his wife (Chinchón) and his lover (Tudó) were sitting at the table, and he stated: 'A su lado derecho, la princesa; a su izquierdo, Pepita Tudó. Este espectáculo acaba en mi desconcierto. Mi alma no pudo sufrirlo. Ni comí, ni hablé, ni pude sosegar mi espíritu. Huí de allí.'"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Manuel Godoy",
       "connection_level": "direct",
       "relationship type": "spouses; husband-wife (1797-1828)"
     },
     {
-      "from": "María Teresa de Borbón y Vallabriga, XV Condesa de Chinchón",
+      "from": "XV Countess of Chinchón",
       "to": "Francisco de Goya",
       "connection_level": "direct",
       "relationship type": "patronage",
@@ -9097,7 +9101,7 @@
       "correspondence": "Yes. (<i>Lettres de Madame de Staël à Madame de Récamier</i>, Paris, Domat, 1952)"
     },
     {
-      "from": "Arthur Wellesley, 1st Duke of Wellington",
+      "from": "1st Duke of Wellington",
       "to": "Madame de Staël",
       "connection_level": "direct",
       "relationship type": "friends", 
@@ -9107,7 +9111,7 @@
       "bibliography": "Elizabeth Longford, <i>Wellington: Pillar of State</i>, 1972, London"
     },
     {
-      "from": "Arthur Wellesley, 1st Duke of Wellington",
+      "from": "1st Duke of Wellington",
       "to": "Francisco de Goya",
       "connection_level": "direct",
       "relationship type": "patronage", 
@@ -9481,7 +9485,7 @@
     },
     {
       "from": "Joseph Bonaparte",
-      "to": "Arthur Wellesley, 1st Duke of Wellington",
+      "to": "1st Duke of Wellington",
       "connection_level": "direct",
       "relationship type": "rivals"
     },
