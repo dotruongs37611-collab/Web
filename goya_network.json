@@ -1411,7 +1411,11 @@
       "decorations/awards": "Officier de La Légion d'honneur",
       "masters": "Louis-Édouard Rioult",
       "member of": "Société héliographique (1851); Jeune-France; Société nationale des beaux-arts",
-      "participates in": "the Battle of Hernani (1830); <i>Les Français peints par eux-mêmes</i> (1840)",
+      "participates in": [
+        "1830 The Battle of Hernani: around the homonymous play by Hugo.", 
+        "1840 <i>Les Français peints par eux-mêmes</i>",
+        "1845-46 <i>Le diable à Paris: Paris et les parisiens: mœurs et coutumes, caractères et portraits des habitants de Paris</i> (illustrated by Paul Gavarni), alongside Honoré de Balzac, Alfred de Musset and George Sand." 
+      ],
       "knows Goya's works": [
         "The <i>Caprichos</i>: in late 1830-late 1831 (Lipschutz 1972, p.118). Through Antoine Fontaney? (brought a <i>Caprichos</i> set in January 1831)",
         "Goya's drawings by 1838 (see Fayos Pérez 2024)",
@@ -1509,7 +1513,11 @@
         "<i>Les Cent Contes drolatiques</i> (1832-37, reprinted 1855), based on Boccaccio's <i>The Decameron</i> and influenced by Rabelais. Illustrated by Gustave Doré, including some goyaesque images (Fayos Pérez 2024, pp.168-69, fig.II.46, II.48).",
         "5 theatre plays: <i>L'École des ménages</i> (1839), <i>Vautrin</i> (1839), <i>Pierre Grassou</i> (1839), <i>Les Ressources de Quinola</i> (1842), <i>Paméla Giraud</i> (1842), <i>La Marâtre</i> (1848), <i>Mercadet ou le faiseur</i> (1848)."
       ],
-      "participates in": "<i>Les français peints par eux-mêmes</i> (1840) (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas, J. J. Grandville, Honoré Daumier and Paul Gavarni; J. J. Grandville's <i>Scènes de la vie privée et publique des animaux</i> (1842), alongside Charles Nodier and George Sand.",
+      "participates in": [
+        "1840 <i>Les français peints par eux-mêmes</i> (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas, J. J. Grandville, Honoré Daumier and Paul Gavarni.",
+        "1842 J. J. Grandville's <i>Scènes de la vie privée et publique des animaux</i>, alongside Charles Nodier and George Sand.",
+        "1845-46 <i>Le diable à Paris: Paris et les parisiens: mœurs et coutumes, caractères et portraits des habitants de Paris</i> (illustrated by Paul Gavarni), alongside Théophile Gautier, Alfred de Musset and George Sand."
+      ],
       "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and George Sand",
       "works as": [
         "New owner of <i>La Chronique de Paris, journal politique et littéraire</i> in 1835, published from January to July 1836, with important names like Hugo and Gautier. Illustrations by Henry Monnier, Grandville and Daumier.", 
@@ -1546,20 +1554,53 @@
       "born in": "Strasbourg",
       "dies in": "Paris",
       "profession": "illustrator, caricaturist, painter, lithographer, sculptor",
-      "address": "Strasbourg: rue de la Nuée-Bleue; 6 rue des Écrivains. Paris: rue de Richelieu (from 1847); rue Saint-Dominique",
-      "studies in": "classe de la pension Vergnette (Strasbourg); Lycée Charlemagne",
+      "address": "Strasbourg: rue de la Nuée-Bleue; 6 rue des Écrivains. Paris: rue de Richelieu (from 1847); rue Saint-Paul; 73 rue Saint-Dominique",
+      "studies in": "classe de la pension Vergnette (Strasbourg); Lycée Charlemagne (from 1847)",
+      "registered in": "the Cabinet des estampes (BnF) as reader in 1849, alongside Henri Fantin-Latour and Félix Bracquemond (Lethève 1968, p.109)",
       "parents": "Pierre Louis Christophe Doré and Alexandrine Marie Anne Pluchart",
       "siblings": "Ernest (composer and banker); Émile Paul (general)",
+      "founder of": "Société d'aquarellistes français in 1879 (with Eugène Lami, Jules Jacquemart, Eugène Isabey)",
       "friends": "Victor Hugo; Honoré de Balzac",
       "influenced by": "J. J. Grandville (Jean Ignace Isidore Gérard); Cham; Rodolphe Töpffer",
-      "works for": "Charles Philipon's <i>Le Charivari</i>",
+      "works for": "Charles Philipon's <i>Journal pour rire</i> (1848-58); <i>La Revue comique</i> (1851; <i>Journal universel de la famille</i> (1851-83); <i>The Illustrated London News</i> (1855-56); <i>Musée français-anglais</i> (1855-60); <i>Journal pour tous</i> (1855-70); <i>Le Voleur illustré</i> (1856-57); <i>Le Monde illustré</i> (1857-83); <i>La Semaine des enfants</i> (1857-76); <i>Le Tour du monde</i> (1860-83); <i>Le Journal illustré</i> (1864-72); <i>Illustration européenne</i> (1870-75); <i>La Presse illustrée</i> (1873-74).",
+      "curiosities": "Doré is invited by Napoleon III in 1854.",
       "author of": [
-        "Lithography: <i>La Vogue de Brou</i> and 2 other lithographic drawings (1845: at 13 years old).",
-        "Illustration: Balzac's <i>Les cent contes drolatiques</i> (1832-37).",
-        "Painting: <i>Andromède</i> (1869); <i>L'Énigme</i>; <i>Les Saltimbanques</i> (1874).",
-        "Sculpture"
+        "LITHOGRAPHY: <i>La Vogue de Brou</i> and 2 other lithographic drawings (1845: at 13 years old); <i>Les Travaux d'Hercule</i> (1847, Aubert): considered one of the first comics in French History (according to Thierry Groensteen); <i>Beau jour des Étrennes</i> (1848, <i>Journal pour rire</i>); <i>Trois artistes incompris et mécontents […]</i> (c.1851); <i>Des-agréments d'un voyage d'agrément</i> (1851); <i>La Ménagerie parisienne</i>; <i>Les Différents Publics de Paris</i>.",
+        "ILLUSTRATION: Rabelais's <i>Œuvres</i> (1851); <i>Le Juif errant</i> by Pierre Dupont in 1852: technique of tinted wood engraving or <i>bois de teinte</i> (Sueur-Hermel 2023); <i>L'Histoire pittoresque, dramatique et caricaturale de la sainte Russie</i> (1854): a pioneer of comic books; Balzac's <i>Les cent contes drolatiques</i> (1855); Shakespeare's <i>The Tempest</i> (1860); Dante's <i>Inferno</i> (1861) and <i>Divine Comedy</i> (1861-68); Perrault's <i>Tales</i> (1862, Hetzel); Cervantes's <i>Don Quijote</i> (1863), translated by Louis Viardot (1st edition 1836-37, illustrated by Tony Johannot); Chateaubriand's <i>Atala</i> (1863); <i>Bible</i> (1866); Théophile Gautier's <i>Le Capitaine Fracasse</i> (1866); La Fontaine's <i>Fables</i> (1866-68); Victor Hugo's <i>Les Travailleurs de la mer</i> (1867); Tennyson's <i>Idylls of the King</i> (1868); Jean Charles Davillier's <i>L'Espagne</i> (1874); Milton's <i>Lost Paradise</i> (1874); Coleridge's <i>The Rime of the Ancient Mariner</i> (1875); Énault's <i>Londres</i> (1876); Ariosto's <i>Roland furieux</i> (1878); Edgar Poe's <i>The Raven</i> (1883).",
+        "PAINTING: <i>Pêcheur amarrant une barque pendant la tempête</i>; <i>Andromède</i> (1869); <i>L'Énigme</i> (1870-71 Orsay); <i>Les Saltimbanques</i> (1874).",
+        "SCULPTURE: religious themes; <i>La Parque et l'Amour</i> (1877 Salon); <i>L'Effroi</i> (1879 Salon); <i>D'Artagnan</i> (1883); <i>La Gloire étouffant le Génie</i>."
       ],
-      "portrayed by": "Nadar, photograph, 1856-58 and 1867",
+      "in Spain": "1861-1862 with Jean Charles Davillier (for <i>Le Tour du monde</i>): with the aim to illustrate <i>Don Quichotte</i> and study bullfighting. Valencia, Alicante, Málaga, Ronda, Jerez de la Frontera, Aranjuez, Madrid. They visit the Prado and the RABASF, where they see Goya's paintings, including the <i>Clothed Maja</i> (which they mistakenly identify as the Duchess of Alba, as Zacharie Astruc and Édouard Manet already did).",
+      "interest in Spanish art": [
+        "Doré made several works on Spanish topics, including:",
+        "<i>Les Mendiants de Burgos, 1875, oil painting, private coll.", 
+        "1850s the print series <i>Tauromachie</i>: drawings started in 1854. Likely inspired by Goya, as well as by Théophile Gautier and Paul Dalloz. Published in Spain as <i>La Corrida de toros</i> (1860).",
+        "1860, 28 Jan, Davillier writes 'La Mojiganga' (<i>Le Monde illustré</i>) in the form of a letter to Gustave Doré, where the author mentions Goya's <i>Tauromaquia</i> in his praise of Spain and its customs: 'Voilà, mon cher Doré, un petit échantillon des fêtes populaires de Madrid: —Diversion de Espana! comme disait le vieux Goya, le grand aficionado. Peut-être bientôt n'en restera-t-il plus que le souvenir; l'Espagne pittoresque s'en va de jour en jour [...] elle ne vivra plus que dans le charmant livre de Théophile Gautier' (Fayos Pérez 2024, p.169; Appendix II, 1860).",
+        "1862 illustrations for Léon Godard's <i>L'Espagne. Mœurs et paysages</i> (Fayos Pérez 2024, Appendix II).", 
+        "1863 The illustrations for <i>Don Quixotte</i>.",
+        "1874 Davillier's <i>L'Espagne</i>."
+      ],
+      "link to Goya's work": [
+        "1855 in Balzac's <i>Les cent contes drolatiques</i>, Doré included some goyaesque images, such as the image of a man being hung from a tree by a group of people (possibly influenced by the <i>Disasters of War</i>), or a priest with a diabolical woman and humanised little animals (Fayos Pérez 2024, pp.168-69, fig.II.46, II.48)",
+        "1874 in Davillier's <i>L'Espagne</i> the illustration of 'Murderer execution in Barcelona' was clearly inspired by Goya's <i>El agarrotado</i> (c.1775; published 1868)."
+      ],
+      "knows Goya's works": "Doré knew Goya's <i>Tauromaquia</i> (1816), the single print <i>El agarrotado</i> (c.1775; published 1868), and the <i>Clothed Maja</i> (then at the RABASF). Possibly also <i>The Bulls of Bordeaux</i>, and the <i>Disasters of War</i> (1810-15; 1863).",
+      "exhibitions": [
+        "Paris Salon: 1850 2 drawings (<i>Le Nouveau Bélisaire et une scène d'ivrognes</i> and <i>L'union fait la force</i>); 1851 painting <i>Pins sauvages</i>; 1854 <i>L'Ange de Tobie</i> (acquired by the State for 2,000 fr.); 1855 <i>La Bataille de l'Alma</i> (rejection of <i>Le Meurtre de Riccio</i>). 1879 sculpture <i>L'Effroi</i>; 1877 sculpture <i>La Parque et l'Amour</i>.",
+        "1863 1st Salon des Beaux-arts (26 boulevard des Italiens): Société Nationale de Beaux-Arts founded by Théophile Gautier and Louis Martinet in 1862.",
+        "1868 London's <i>Doré Gallery</i> (New Bond Street).",
+        "1932 Exposition rétrospective Gustave Doré 1832-1883, Palais des beaux-arts de la ville de Paris (Petit Palais).",
+        "1983 Gustave Doré 1832-1883, Strasbourg Muséed d'Art Moderne & Cabinet des estampes.",
+        "2014 <i>Gustave Doré (1832-1883). L'imaginaire au pouvoir</i>, Orsay / M. Ottawa."
+      ],
+      "military activity": "1870 he enlists in the Garde nationale (Franco-Prussian War).",
+      "mentions": [
+        "Lorédan Larchey: 'L'auteur est écrasé par le dessinateur. Plus que Dante illustré par Doré, c'est Doré illustré par Dante' (c.1861)."
+      ],
+      "portrayed by": "FAirless & Beeforth, photograph (carte de visite), 1850; Nadar, photograph, 1856-58 and 1867; André Gill, caricature, 1868; Philippe-Auguste Cattelain, caricature, 1868; Frederick Waddy, portrait charge, 1873; Georges Lafosse, caricature, 1875; Carolus-Duran, oil painting, 1877; Nadar, <i>Gustave Doré sur son lit de mort</i>, photograph, 1883",
+      "decorations/awards": "1879 Officier de la Légion d'honneur",
+      "bibliography": "Valérie Sueur-Hermal, 'Gustave Doré et la gravure sur bois de teinte0, <i>Nouvelles de l'Estampe</i>, no.270, 2023; Alix Paré & Valérie Sueur-Hermel, <i>Fantastique Gustave Doré</i>, 2021; Philippe Kaenel, <i>Gustave Doré (1832-1883). L'imaginaire au pouvoir</i>, 2014; Auguste Lafront & Miguel Darrieumerlou, <i>La Tauromachie de Gustave Doré</i>, 1984.",
+      "websites": "[AGORHA, INHA](https://agorha.inha.fr/ark:/54721/165e8172-e68a-447c-9573-aadf629454da); BnF, [<i>Les travaux d'Hercule</i>](https://essentiels.bnf.fr/fr/album/23a88d48-ecdd-45c9-9b72-04ea13ddff69-travaux-hercule)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dore.jpg",
       "image source": "Nadar photograph, 1867"
     },
@@ -1827,7 +1868,10 @@
       "knows Goya's works": "by 1834",
       "mentions of Goya": "Journal intime, 25 Nov 1834 (jealousy over Goya's women regarding Alfred de Musset)",
       "author of": "<i>Voyage chez Mr. Blaise</i> (1829); <i>Voyage en Auvergne</i> (1829); <i>Voyage en Espagne</i> (1829); <i>Un hiver en Majorque</i> (1841); <i>La Petite Fadette</i> (1849); <i>Histoire de ma vie</i> (1855). Album of drawings. Clumsy copy of Velázquez's Infanta Margarita. Collection Lovenjoul Chantily [now at Institut de France? (Lipschutz 1972, p.117)",
-      "participates in": "J. J. Grandville's 'Scènes de la vie privée et publique des animaux' (1842), alongside Charles Nodier and Honoré de Balzac.",
+      "participates in": [
+        "1842 J. J. Grandville's 'Scènes de la vie privée et publique des animaux', alongside Charles Nodier and Honoré de Balzac.",
+        "1845-46 <i>Le diable à Paris: Paris et les parisiens: mœurs et coutumes, caractères et portraits des habitants de Paris</i> (illustrated by Paul Gavarni), with texts by Honoré de Balzac, Théophile Gautier amd Alfred de Musset."
+      ],
       "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and Honoré de Balzac.",
       "parents": "Maurice Dupin de Francueil and Sophie Victoire Delaborde",
       "married to": "Casimir Dudevant (1822-35)",
@@ -1844,6 +1888,7 @@
       "life dates": "1810-1857", 
       "nationality": "French",
       "profession": "writer, playwright",
+      "participates in": "1845-46 <i>Le diable à Paris: Paris et les parisiens: mœurs et coutumes, caractères et portraits des habitants de Paris</i> (illustrated by Paul Gavarni), with texts by Honoré de Balzac, Théophile Gautier and George Sand.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Musset.jpg"
     },
     {
@@ -1904,7 +1949,7 @@
       "nationality": "French",
       "profession": "painter, ceramist, engraver, decorator",
       "considered as": "promoter of the study of Japanese art in France, from 1856; also of the interest in printmaking, encouraging artists such as Édouard Manet, Edgar Degas and Camille Pissarro to use this technique (Monneret 1987, p.74)",
-      "registered in": "the Cabinet des estampes (BNF) as reader in 1849, alongside Henri Fantin-Latour and Gustave Doré (Lethève 1968, p.109)",
+      "registered in": "the Cabinet des estampes (BnF) as reader in 1849, alongside Henri Fantin-Latour and Gustave Doré (Lethève 1968, p.109)",
       "member of": [
         "Société des aquafortistes: from 1862 (founding member). Established by Alfred Cadart and Félix Chevalier; also joined by Fantin-Latour, Édouard Manet, Johan Jongkind and Alphonse Legros (Wolohojian & Dunn 2023, p.277).", 
         "Société japonaise du Jinglar (from 1867): with Fantin-Latour, Carolus Duran, Marc-Louis Solon, Alphonse Hirsch, Jules Jacquemart, Zacharie Astruc, Philippe Burty.",
@@ -2578,7 +2623,7 @@
         "1905 Durand-Ruel, Grafton Galleries, London: 35 works by Degas.",
         "Recent years: Retrospective exh., 1988, Grand Palais & Ottawa; <i>Degas, Sickert and Toulouse-Lautrec</i>, 2005-06, London (Tate Britain) and Paris; <i>Degas: Drawings and Sketchbooks</i>, 2010, Morgan Library; <i>Degas and the Nude</i> (2011, Boston); exh. for the centenary of Degas's death, Orsay, 2018; <i>Degas: A passion for perfection</i>, 2018, Cambridge, Fitzwilliam Museum; <i>Degas à l'Opéra</i>, 2019, Orsay / NGA Washington; <i>Manet/Degas</i>, 2023, Orsay/Metropolitan"
       ],
-      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Dumas et al. 1997; Gordon and Forge, <i>Degas</i>, 1988; Werner, <i>Degas Pastels</i>, 1969.",
+      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Sueur-Hermel, 'Degas en noir et blanc, à la Bibliothèque nationale de France', <i>Nouvelles de l'estampe</i>, April 2023; Dumas et al. 1997; Gordon and Forge, <i>Degas</i>, 1988; Werner, <i>Degas Pastels</i>, 1969.",
       "archives": "Musée des beaux-arts du Canada",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Degas.jpg",
       "image source": "self-portrait, photograph, 1895 (Harvard)"
@@ -2868,7 +2913,7 @@
       "nationality": "French",
       "profession": "writer",
       "author of": "<i>Le rouge et le noir</i> (1830)",
-      "portrayed by": "Doucis, 1835",
+      "portrayed by": "Doucis, 1835; Achille Ouvre, <i>Bois de teinte pour les portraits de Voltaire et Stendhal</i>, [after 1890], Louvre 10784 C/ Recto.",
       "writes in": "<i>Journal de Paris</i>, <i>The New Monthly Magazine</i>, <i>The London Magazine</i>",
       "pseudonyms": "Stendhal, Henri Stendhal, Stendalis, Louis Alexandre Bombet, Anastase de Serpière, Don Flegme, William Crocodile, Dominique",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
@@ -3884,7 +3929,7 @@
       "children": "Eugène Philipon (adopted)",
       "in Paris": "1819-1821; from 1823",
       "masters": "Antoine Gros: painting, 1819-21 (alongside Decamps, Bonington and Charlet); Charlet: lithography, 1823.",
-      "author of": "<i>Histoire de Polichinelle enfant prodigue</i> (early 1820s); <i>Histoire de Touche-à-tout, le mauvais sujet</i> (early 1820s); <i>Aux prolétaires</i> (1838); <i>Parodie du Juif errant </i> (1845), inspired by Eugène Sue; <i>Le Floueur</i> (1850); <i>ibliothèque pour rire, le Musée anglo-français</i> (1855-57) with Gustave Doré",
+      "author of": "<i>Histoire de Polichinelle enfant prodigue</i> (early 1820s); <i>Histoire de Touche-à-tout, le mauvais sujet</i> (early 1820s); <i>Aux prolétaires</i> (1838); <i>Parodie du Juif errant </i> (1845), inspired by Eugène Sue; <i>Le Floueur</i> (1850); <i>Bibliothèque pour rire, le Musée anglo-français</i> (1855-57) with Gustave Doré",
       "founder of": "Maison Aubert publishing house at passage Véro-Dodat (with his brother-in-law Gabriel Aubert); <i>La Caricature</i> (1830-39); <i>Le Charivari</i> (1832-1837); <i>Journal pour rire</i> (1848-55).",
       "works in": "<i>La Silhouette</i> (1829): co-creator, editor and draughtsman",
       "studies in": "École nationale supérieure des beaux-arts de Lyon",
@@ -5931,7 +5976,9 @@
       "to": "Félix Bracquemond",
       "connection_level": "direct", 
       "relationship type": "acquaintances; friends?",
-      "portraits": "Bracquemond is portrayed in Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), with Delacroix's portrait, depicting Fantin-Latour himself, Édouard Manet, Louis Edmond Duranty, Champfleury, Louis Cordier, Alphonse Legros, James Whistler, Charles Baudelaire and Albert de Balleroy."
+      "portraits": "Bracquemond is portrayed in Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), with Delacroix's portrait, depicting Fantin-Latour himself, Édouard Manet, Louis Edmond Duranty, Champfleury, Louis Cordier, Alphonse Legros, James Whistler, Charles Baudelaire and Albert de Balleroy.",
+      "interactions": "registered in the Cabinet des estampes (BnF) as readers in 1849, alongside Gustave Doré (Lethève 1968, p.109)",
+      "bibliography": "Lethève 1968"
     },
     {
       "from": "Berthe Morisot",
@@ -6101,14 +6148,82 @@
       "connection_level": "direct", 
       "relationship type": "friends; colleagues; employer-employee",
       "know each other since": "1847",
-      "collaborations": "Doré works for Philipon since 1847 (<i>Le Journal pour rire</i>)"
+      "collaborations": [
+        "Doré works for Philipon since 1847.",
+        "<i>Les Travaux d'Hercule</i> (1847, Aubert): considered one of the first comics in French History (according to Thierry Groensteen).",
+        "<i>Beau jour des Étrennes</i> (1848, <i>Journal pour rire</i>).",
+        "<i>Bibliothèque pour rire, le Musée anglo-français</i> (1855-57)."
+      ],
+      "bibliography": "Thierry Groensteen"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Gustave Doré",
+      "connection_level": "secondary?", 
+      "influence": "Doré's <i>L'Histoire pittoresque, dramatique et caricaturale de la sainte Russie</i> (1854), considered a pioneer of comic books, has the influence of Rabelais, Sterne, Bürger, Töpffer, Cham and Nodier."
     },
     {
       "from": "Nadar",
       "to": "Gustave Doré",
       "connection_level": "direct", 
       "relationship type": "acquaintances",
-      "portraits": "1856-58; 1867"
+      "portraits": "1856-58; 1867; 1883 (on his deathbed)"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "colleagues",
+      "collaborations": "Doré illustrated Balzac's <i>Les Cent Contes drolatiques</i> (1832-37, reprinted 1855), including some goyaesque images (Fayos Pérez 2024, pp.168-69, fig.II.46, II.48)",
+      "bibliography": "Fayos Pérez 2024"
+    },
+    {
+      "from": "Félix Bracquemond",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; friends?",
+      "knew each other since": "at least 1849",
+      "interactions": "registered in the Cabinet des estampes (BnF) as readers in 1849, alongside Henri Fantin-Latour (Lethève 1968, p.109)",
+      "bibliography": "Lethève 1968"
+    },
+    {
+      "from": "Henri Fantin-Latour",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances; friends?",
+      "knew each other since": "at least 1849",
+      "interactions": "registered in the Cabinet des estampes (BnF) as readers in 1849, alongside Henri Félix Bracquemond (Lethève 1968, p.109)",
+      "bibliography": "Lethève 1968"
+    },
+    {
+      "from": "Louis Viardot",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "colleagues",
+      "knew each other since": "at least 1869",
+      "collaborations": "Doré illustrates the 1869 reedition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot (1st edition 1836-37, illustrated by Tony Johannot)"
+    },
+    {
+      "from": "Jules Jacquemart",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "colleagues",
+      "interactions": "co-founders of the Société d'aquarellistes français in 1879 (with Eugène Lami and Eugène Isabey)"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances?",
+      "collaborations": "Doré illustrated Théophile Gautier's <i>Le Capitaine Fracasse</i> (1866)",
+      "mentions": "Gautier mentions Doré in his art criticism"
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances?",
+      "collaborations": "Doré illustrated Victor Hugo's <i>Les Travailleurs de la mer</i> (1867)"
     },
     {
       "from": "Charles Philipon",
@@ -7199,6 +7314,13 @@
       "connection_level": "direct",
       "mentions": "Yriarte acknowledges Carderera, Zarco del Valle, Fco Zapater and Lefort ('nous ont aidé de leurs lumières et de leurs documents), 1867, Avant-propos",
       "relationship type": "acquaintances"
+    },
+    {
+      "from": "Charles Yriarte",
+      "to": "Gustave Doré",
+      "connection_level": "secondary?",
+      "mentions": "Yriarte writes: 'Et ce démon qui s'appelle Goya, que j'aimais sans le connaître, seulement pour avoir vu ses Caprices [...]. Quel décor! G. Doré, j'ai pensé à vos contes drolatiques, à votre <i>Rabelais</i>, à votre <i>Juif errant</i>. J'ai pensé aussi à ces grands dessins fantastiques que Victor Hugo faisait avec la même plume qui lui servait à écrire <i>Notre-Dame de Paris</i>' (21 April 1860, 'Correspondance particulière', <i>Le Monde Illustré</i>, pp.265-66; quoted in Fayos Pérez 2024, Appendix II, 1860).",
+      "bibliography": "Fayos Pérez 2024"
     },
     {
       "from": "Théophile Gautier",
@@ -9900,6 +10022,7 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "colleagues; acquaintances",
+      "influence": "Grandville's <i>Scènes de la vie privée et publique des animaux</i> (1842) is an homage to Balzac's <i>Scènes de la vie privée</i>, a section of his oeuvre <i>Comédie humaine</i>.",
       "collaborations": [
         "Grandville made illustrations for Balzac's <i>La Chronique de Paris</i> (c.1836).",
         "They both collaborated in <i>Les Français peints par eux-mêmes</i> (1840).",
