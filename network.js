@@ -449,6 +449,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "considered as", label: "Considered as" },
           { type: "field", key: "political views", label: "Political views" },
           { type: "field", key: "military activity", label: "Military activity" },
+          { type: "field", key: "participates in", label: "Participates in" },
           { type: "field", key: "aristocratic titles", label: "Aristocratic titles" },
           { type: "field", key: "curiosities", label: "Curiosities" },
         
@@ -475,7 +476,6 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "founder of", label: "Founder of" },
           { type: "field", key: "editor of", label: "Editor of" },
           { type: "field", key: "writes in", label: "Writes in" },
-          { type: "field", key: "participates in", label: "Participates in" },
           { type: "field", key: "collaborates with", label: "Collaborates with" },
           { type: "field", key: "registered in", label: "Registered in" },
           { type: "field", key: "mentions", label: "Mentions" },
