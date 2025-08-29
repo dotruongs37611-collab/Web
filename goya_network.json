@@ -268,7 +268,7 @@
         "September 1843 (fall of Espartero; followers of Queen María Cristina return to Spain",
         "1845-1855"
         ],
-      "participates in": "Paris Exposition Universelle 1855",
+      "exhibitions": "Paris Exposition Universelle 1855",
       "correspondence": "Federico Madrazo, Prosper Mérimée, Gustave Brunet, Carresse, Viollet-le-Duc (among many others)",
       "friends": "Eugenio Ochoa; Federico Madrazo", 
       "works as": "Pintor de Cámara; member of the Junta del Museo Nacional y del Museo Real de Pintura y Escultura (currently the Prado Museum), from 1838; teacher of Theory and History of Fine Arts at the Real Academia de Bellas Artes de San Fernando; vice-director of the Real Museo de Pintura y Escultura (current Prado Museum)",
@@ -287,7 +287,7 @@
         "1860-VIII-15 <i>Gazette des Beaux-Arts</i> 7, 'François Goya: sa vie, ses dessins et ses eaux-fortes', 215-27, translated and annotated by Philippe Burty, with a preface by Charles Blanc and a print by Bracquemond. It includes a short biography of Goya and an account of his drawings. Carderera claims ownership of 2 sheets from Album A, 112 preparatory drawings of the <i>Caprichos</i>, 50 of <i>Tauromaquia</i> and 72 of <i>Disasters of War</i> (Fayos Pérez 2024, p.347). [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k2030710/f231.item#)",
         "1863-VII-1 <i>Gazette des Beaux-Arts</i> 15, 'François Goya', 237-49. It focuses on the advertisement of the <i>Caprichos</i> in the <i>Diario de Madrid</i> (6 Feb 1799). It includes Jacquemart's 'Spanish scene', based on Goya. Also mentions the Prado commentaries. It quotes Théophile Gautier's essay on the <i>Disasters of War</i> (<i>Voyage en Espagne</i>, 1845, p.136). He mixes up the <i>Disparates</i> with the drawing series <i>Sueños</i> ('Les proverbes ou rêves', p.244) (Fayos Pérez 2024, p.350). [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k2030791/f257.item#)"
         ],
-      "collector of Goya's works": "Carderera gathered a large part of Goya's prints and drawings, acquired from Javier and Mariano Goya, and Ceán Bermúdez. He possessed at one time some 400 of Goya's drawings, 272 of which were acquired by the Prado in 1886, as well as the engraved work. His collection also included rare working proofs from the collection of Ceán Bermúdez, now at the BNE (acquired from Carderera in 1867 and from his descendants), as well as the famous proofs from the Stirling-Maxwell collection, now at the Boston Museum (Harris 1964, vol.I, p.11)",
+      "collector of Goya's works": "Carderera gathered a large part of Goya's prints and drawings, acquired from Javier Goya and Mariano Goya, and Juan Agustín Ceán Bermúdez. He possessed at one time some 400 of Goya's drawings, 272 of which were acquired by the Prado in 1886, as well as the engraved work. His collection also included rare working proofs from the collection of Juan Agustín Ceán Bermúdez, now at the BNE (acquired from Carderera in 1867 and from his descendants), as well as the famous proofs from the Stirling-Maxwell collection, now at the Boston Museum (Harris 1964, vol.I, p.11)",
       "bibliography": "Fayos Pérez 2020; Lanzarote Guiral 2016; Harris 1964",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carderera.jpg",
       "image source": "Madrazo portrait, 1850, Museo de Huesca 00046"
@@ -385,7 +385,7 @@
       "portrayed by": "Jean Pierre Dantan (Dantan Jeune), 1834, sculpture (<i>Portrait sérieux</i>), Musée Carnavalet S1194; Federico Madrazo, 1837, Musée National du Château de Versailles; Carjat & Cie., 1868, photograph (Getty); Chenu, 1868, lithograph, <i>L'Illustration</i>; Loÿs Delteil (after Claude-Marie Dubufe), print, April 1896 (posthumous), <i>L'Artiste</i>, vol.XI",
       "decorations/awards": "Chevalier de la Légion d'honneur (1837); Orden de Carlos III (1856)",
       "trips": "Spain; Portugal; Algeria (1839); Tanger; Ottoman Empire. In 1829, he accompanies Baron Taylor to Egypt, Syria, Mount Sinai and Palestine",
-      "participates in": "Salon (from 1831)",
+      "exhibitions": "Paris Salon (from 1831)",
       "sales": "Hôtel Drouot, February 1869: sketchbooks, Spanish masterpieces and an extensive library (Tinterow 2003, p.395)",
       "bibliography": "Tinterow 2003; Guinard 1967-B",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg",
@@ -605,8 +605,8 @@
       "married to": "Ernestine Constance Lefèbvre (1854)",
       "children": "Paul Nadar (Paul Tournachon)",
       "works in": "<i>Le Charivari</i> (from 1848); <i>La Revue comique à l'usage des gens sérieux</i> (founded by Hetzel); <i>Journal pour rire</i>; <i>Petit journal pour rire</i> (chief editor); <i>Le Journal illustré</i>.",
-      "participates in": [
-        "1848 The légion polonaise (French army in Poland) with his brother.",
+      "military activity": "1848 The légion polonaise (French army in Poland) with his brother",
+      "exhibitions": [
         "1850-51 <i>Musée des gloires contemporaines</i>: <300 figures of his time, with >1,000 drawings. Later printed as [<i>Panthéon Nadar</i>](https://www.metmuseum.org/art/collection/search/366762) (4 lithographic plates 1854)",
         "1900 retrospective exhibition at the Exposition universelle de Paris, organised by his son Paul Nadar."
         ],
@@ -663,7 +663,11 @@
       "life dates": "1822-1899",
       "born in": "Bordeaux",
       "nationality": "French",
-      "participates in": "the Salon 1841, 1845, 1848, 1849, 1853, 1855. Between 1856 and 1867, she didn't exhibit at the Salon because all her production was sold beforehand. Exposition Universelle 1867 (10 paintings; médaille de 2e classe, because of which she decides not to exhibit at the Salon again). Exposition Universelle de Chicago 1893 (4 paintings)",
+      "exhibitions": [
+        "Paris Salon 1841, 1845, 1848, 1849, 1853, 1855. Between 1856 and 1867, she didn't exhibit at the Salon because all her production was sold beforehand.",
+        "Exposition Universelle 1867 (10 paintings; médaille de 2e classe, because of which she decides not to exhibit at the Salon again).", 
+        "Exposition Universelle de Chicago 1893 (4 paintings)."
+      ],
       "profession": "painter, sculptor, draughtsman",
       "in Paris": "from 1829",
       "partners/lovers": "Nathalie Micas (painter); Anna Klumpke (painter)",
@@ -1121,7 +1125,7 @@
       "nationality": "French",
       "in Bordeaux": "active 1815-1858. He coincides with Goya",
       "studies in": "École royale de Sorèze",
-      "participates in": "the army of the French Republic in 1791",
+      "military activity": "enlists in the army of the French Republic in 1791",
       "works as": "editor and lithographer for Gustave de Galard, Eugène Devéria, Pierre Lacour, Francisco de Goya (Bulls of Bordeaux, 1825)",
       "profession": "lithographic printer; writer; calligrapher (<i>maître-écrivain</i>)",
       "portrayed by": "Goya, 1824-25, lithography (Harris 1964, no.282)",
@@ -1221,7 +1225,7 @@
       "life dates": "1800-1857",
       "nationality": "French",
       "masters": "Anne-Louis Girodet; Louis Lafitte; Auguste-Barthélemy Glaize",
-      "participates in": "the Salon (from 1822); in 1846, his work is praised by Charles Baudelaire",
+      "exhibitions": "Paris Salon (from 1822); in 1846, his work is praised by Charles Baudelaire",
       "parents": "François-Marie Devéria (foctionnaire de la Marine)",
       "siblings": "Eugène Devéria; Laure Devéria",
       "married to": "Céleste Motte (1829)",
@@ -1252,7 +1256,7 @@
       "nationality": "French",
       "profession": "lithographer (one of the first ones in Paris: 1817), draughtsman, printer, engraver (etching)",
       "works as": "lithographic printer: Paris, 13 rue des Marais, Faubourg St. Germain (1818-1830); Lonodn, 23 Leicester Square (1830-31); London, 29 Bedford Street, Covent Garden (1829-1830); London, 70 St.Martin's Lane (1831)",
-      "participates in": "The Salon (1827; 1831); Paris, 290 rue Saint Honoré (1831)",
+      "exhibitions": "Paris Salon (1827; 1831); Paris, 290 rue Saint Honoré (1831)",
       "students": "Laurent Imbert (who would import the lithographic technique to China)",
       "editor of": [
         "Satirical prints in the 1820s, such as Eugène Delacroix's 'Le Déménagement de la Censure' in <i>Le Miroir</i> (1822)",
@@ -1516,7 +1520,7 @@
         "5 theatre plays: <i>L'École des ménages</i> (1839), <i>Vautrin</i> (1839), <i>Pierre Grassou</i> (1839), <i>Les Ressources de Quinola</i> (1842), <i>Paméla Giraud</i> (1842), <i>La Marâtre</i> (1848), <i>Mercadet ou le faiseur</i> (1848)."
       ],
       "participates in": [
-        "1840 <i>Les français peints par eux-mêmes</i> (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas, J. J. Grandville, Honoré Daumier and Paul Gavarni.",
+        "1840 <i>Les français peints par eux-mêmes</i> (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas père, J. J. Grandville, Honoré Daumier and Paul Gavarni.",
         "1842 J. J. Grandville's <i>Scènes de la vie privée et publique des animaux</i>, alongside Charles Nodier and George Sand.",
         "1845-46 <i>Le diable à Paris: Paris et les parisiens: mœurs et coutumes, caractères et portraits des habitants de Paris</i> (illustrated by Paul Gavarni), alongside Théophile Gautier, Alfred de Musset and George Sand."
       ],
@@ -1622,7 +1626,7 @@
       "born in": "Villers-Cotterêts (Aisne)",
       "profession": "writer, novelist, playwright", 
       "author of": "<i>Henri III et sa cour</i> (1829) (play); <i>Les Trois Mousquetaires</i> (1844) (novel); <i>Le Comte de Monte-Cristo</i> (1844-46) (novel); <i>La Reine Margot</i> (1845), <i>Impressions de voyage : de Paris à Cádiz</i> (1846).",
-      "participates in": "<i>Les Français peints par eux-mêmes</i> (1840)",
+      "participates in": "<i>Les Français peints par eux-mêmes</i> (1840) (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas père, J. J. Grandville, Honoré Daumier and Paul Gavarni",
       "mentions of Goya": [
         "1837-V-28 28 '[…] Goya, ce fantaisiaque [sic] élève de Tiepolo le Vénitien, avec lequel est mort la grande peinture espagnole, et qui dans ses compositions, dont la vérité a fait des satires, a tout attaqué: moines, nobles et rois' (p. 2). About the Galerie espagnole: '[…] doté la France d'un trésor qui allait être perdu pour le monde, et rapporté pour 800,000 francs, quatre cents tableaux qui valent trois millions' (p. 2) 'Feuilleton: M. le Baron Taylor en Espagne', <i>La Presse</i>, 1-2 [digitised in Gallica]",
         "1845-I-16 'C'était un spectacle à la fois lugubre et bizarre, que tous ces élégans [sic] seigneurs et toutes ces belles dames défilant comme une procession, peinte par Goya, au milieu de ces squelettes noircis et de ces gibets aux longs bras décharnés' ('Feuilleton: La Reine Margot, second volume', <i>La Presse</i>, pp.1-3) [digitised in Gallica]",
@@ -1818,7 +1822,7 @@
       "curiosities": "her great-grandson Jean Sangnier (1912-2011) was a member of the <i>Résistance</i>",
       "portrayed by": "Jean Gigoux, 1839, lithograph (<i>Galerie de la presse</i>); François-Joseph Heim, <i>Andrieux faisant une lecture dans le foyer à la Comédie Française en 1828</i>, 1847, Château de Versailles (detail)",
       "studies in": "Convent of the Ursulines, Paris (1802-1806)",
-      "participates in": "the Salon: 1814 (début) <i>La Veuve du Roi Ban</i> and some portrait; 1819 <i>Henri IV et Catherine de Médicies</i>; 1828 <i>Une lecture de M. Ancelot</i> (portraying many writers of the time)",
+      "exhibitions": "Paris Salon: 1814 (début) <i>La Veuve du Roi Ban</i> and some portrait; 1819 <i>Henri IV et Catherine de Médicies</i>; 1828 <i>Une lecture de M. Ancelot</i> (portraying many writers of the time).",
       "author of": [
         "Painting: <i>La Veuve du Roi Ban</i> (1814); <i>Portrait de Jacques-François Ancelot</i> (1819); <i>Henri IV et Catherine de Médicies</i> (1819); <i>Une lecture de M. Ancelot</i> (1828)",
         "Theatre: <i>Mariage raisonnable</i> (1835); <i>Marie, ou Trois Époques</i> (1836, Théâtre-Français: her biggest success); <i>Juana, ou le Projet de vengeance</i> (1838, Théâtre du Vaudeville); <i>Pierre le millionnaire</i> (1844, Th. Vaudeville); <i>Un jour de liberté</i> (1844, Th. Vaudeville); <i>Les Femmes de Paris, ou l'Homme de loisira</i> (1848, Th. de la Gaîté), among others",
@@ -1961,8 +1965,8 @@
         "Société des peintres-graveurs français: honorary president (1890)",
         "Société des peintres-lithographes: honorary president (with his friend Auguste Rodin)"
         ],
-      "participates in": [
-        "The Salon: 1852 with <i>Portrait de ma grand-mère</i> (compared to Hans Holbein the Younger by Théophile Gautier); 1853 with <i>Autoportrait</i> with his printmaking tools",
+      "exhibitions": [
+        "Paris Salon: 1852 with <i>Portrait de ma grand-mère</i> (compared to Hans Holbein the Younger by Théophile Gautier); 1853 with <i>Autoportrait</i> with his printmaking tools",
         "The 1st Salon des Beaux-arts in 1864 (26 boulevard des Italiens): works by Édouard Manet, Charles-François Daubigny, Félix Bracquemond, Gustave Doré, Jean-Baptiste-Camille Corot and Pierre Puvis de Chavannes",
         "Exposition universelle de 1867: with ceramics",
         "Première exposition des peintres impressionnistes (1874): at Nadar's workshop. He presents a drawing portrait, etching portraits of Auguste Comte, Charles Baudelaire and Théophile Gautier, etchings after Turner (<i>The Locomotive</i>, 1873), Jean-Auguste-Dominique Ingres and Édouard Manet, and original etchings like <i>Les Saules</i> and <i>Le Mur</i>. He exhibits again with the Impressionists in 1879 and 1880 (<i>Portrait d'Edmond de Goncourt</i>)"
@@ -2428,16 +2432,14 @@
       "full name": "Alexandre Georges Henri Regnault",
       "life dates": "1843-1871",
       "nationality": "French",
+      "profession": "painter",
       "address": "rue de Rome",
       "in Madrid": "in 1868, with his colleague Auguste Laguillermie. He witnesses the Carlist War, General Prim's victory, and Isabel II's exile",
       "in Spain": "he visits the Alhambra of Granada, which makes a profound impact on him. He also visits Morocco with his friend Georges Clarin",
       "studies in": "Lycée Henri-IV; Académie de France à Rome (1867-1871); École nationale supérieure des beaux-arts",
-      "participates in": [
-        "The Salon of 1870 with <i>Juan Prim. 8 octobre 1868</i> (1869, Orsay) and <i>Salomé</i> (1870, Metropolitan), which are praised by Théophile Gautier",
-        "Franco-Prussian War in 1870-71, where he dies"
-        ],
+      "military activity": "participates in the Franco-Prussian War in 1870-71, where he dies",
+      "exhibitions": "Paris Salon of 1870 with <i>Juan Prim. 8 octobre 1868</i> (1869, Orsay) and <i>Salomé</i> (1870, Metropolitan), which are praised by Théophile Gautier",
       "decorations/awards": "Prix de Rome (1866): for <i>Thétis apportant à Achille les armes forgées par Vulcain</i>",
-      "profession": "painter",
       "parents": "father: Henri Victor Regnault",
       "masters": "Louis Lamothe (1861); Alexandre Cabanel (1864)",
       "curiosities": [
@@ -2486,8 +2488,10 @@
       "patrons": "Paul Durand-Ruel: acquires artworks by Manet for the first time in 1872 (24 paintings for 35,000 fr.)",
       "exhibitions": [
         "Paris Salon: 1859 rejection of <i>Le Buveur d'absinthe</i>; <i>Chanteur espagnol</i> (1860; Salon 1861: honorable mention); <i>Olympe</i> (1863; Salon 1865): vilified by the critics and public, defended by Zola, who loses his job; 1866 rejection of <i>The Fifer</i> (Orsay) and <i>The Tragic Actor (Rouvière as Hamlet)</i> (NGA); 1869 rejection of <i>The Execution of Maximilian</i> and prohibition of distributing his related lithograph (defended by Zola); <i>The Balcony</i>, <i>The Luncheaon</i> and 5 etchings (Salon 1869); <i>Music Lesson</i> and <i>Eva Gonzalès</i> (Salon 1870); <i>The Battle of the US 'Kearsarge' and the CSS 'Alabama'</i> (Salon 1872); <i>Repose</i> and <i>Le Bon Bock</i> (with unprecedented success) (Salon 1873); <i>The Railway</i> and <i>Polichinelle</i> (watercolor), rejection of <i>The Swallows</i> (Bührle) and <i>Masked Ball at the Opera</i> (NGA) (Manet is defended by Mallarmé); <i>Argenteuil</i> (Salon 1875); rejection of <i>Laundry</i> and <i>The Artist (Marcellin Desboutin)</i> (Salon 1876); <i>Portrait of Faure as Hamlet</i> (Salon 1877), rejection of <i>Nana</i>; <i>Boating</i> and <i>In the Conservatory</i> (Berlin) (Salon 1879); <i>Antonin Proust</i> and <i>Chez le Père Lathuille</i> (Salon 1880); <i>M. Eugène Pertuiset, the Lion Hunter</i> (2nd-class medal) and <i>Portrait of M. Henri Rochefort</i> (Salon 1881); <i>Jeanne</i> (Getty) and <i>A Bar at the Folies-Bergère</i> (Salon 1881). In 1870, he joins a committee that aims to reform the process by which the Salon jury is selected.",
+        "1863 Société Nationales de Beaux-Arts founded by Théophile Gautier and Louis Martinet in 1862. The committee includes Eugène Delacroix, Carrier-Belleuse and Puvis de Chavannes. Among the exhibitors were Léon Bonnat, Jean-Baptiste Carpeaux, Charles-François Daubigny, Gustave Doré and Édouard Manet.",
         "1863, 1 March, Galerie Martinet: 14 paintings, including <i>Music in the Tuileries Gardens</i>, <i>Boy with a sword</i> and <i>Lola de Valence</i>",
         "1863, 15 May, opening of Salon des Refusés: <i>Déjeneur sur l'herbe</i> (Orsay), <i>Mademoiselle V... in the Costume of an Espada</i>, <i>Young Man in the Costume of a Majo</i> (Met), and 3 etchings, including an impression of <i>Lola de Valence</i> (Wolohojian & Dunn 2023, p.278).",
+        "1864 1st Salon des Beaux-arts (26 boulevard des Italiens): also participate Charles-François Daubigny, Félix Bracquemond, Gustave Doré, Jean-Baptiste-Camille Corot and Pierre Puvis de Chavannes.",
         "1867 Manet organises a Salon des Refusés, without success.",
         "1867 he opens a solo exhibition with 53 canvases and 3 etchings.",
         "1872 Durand-Ruel exhibition in London: includes <i>Young Lady in 1866</i>, and works by Degas.",
@@ -2500,10 +2504,6 @@
         "1905 Durand-Ruel, Grafton Galleries, London: 19 works by Manet.",
         "Recent years: New York 2023, <i>Manet/Degas</i>; 2021-2022 Bremen, <i>Goya and Manet: Revolutionary Etchings</i>; Bremen 2021, <i>Manet and Astruc: Friendship and Inspiration</i>, [Bremen Kunsthalle](https://www.kunsthalle-bremen.de/en/view/exhibitions/exb-page/manet-and-astruc), curated by Dorothee Hansen; New York-Paris 2002-2003, <i>Manet/Velázquez</i>; Paris 1983, <i>Manet, 1832-1883</i>."
       ],
-      "participates in": [
-        "The Société Nationales de Beaux-Arts is founded by Théophile Gautier and Louis Martinet in 1862. The committee includes Eugène Delacroix, Carrier-Belleuse and Puvis de Chavannes. Among the exhibitors were Léon Bonnat, Jean-Baptiste Carpeaux, Charles-François Daubigny, Gustave Doré and Édouard Manet",
-        "The 1st Salon des Beaux-arts in 1864 (26 boulevard des Italiens): also participate Charles-François Daubigny, Félix Bracquemond, Gustave Doré, Jean-Baptiste-Camille Corot and Pierre Puvis de Chavannes"
-        ],
       "parents": "Eugénie-Désirée Fournier and Auguste Manet",
       "married to": "Suzanne Manet (née Leenhoff), a pianist (1863-1883)",
       "children": "Léon Koelin-Leenhoff",
@@ -2823,10 +2823,10 @@
       "patrons": "Paul Bérard, Charles Le Cœur, Paul Durand-Ruel (they meet 1872), Gustave Caillebotte, Chocquet, Ambroise Vollard, Bernheim-Jeune",
       "masters": "Charles Gleyre",
       "friends": "Bazille and Monet (with whom Renoir shares a workshop from c.1867)",
+      "military activity": "1870 Franco-Prussian War",
       "participates in": [
-        "The Salon: from 1864 (<i>Esméralda</i>: Renoir destroyed it); <i>Lise à l'ombrelle</i> (1868): praised by Émile Zola",
-        "1870 Franco-Prussian War",
-        "1874 1st Impressionist Exhibition"
+        "Paris Salon: from 1864 (<i>Esméralda</i>: Renoir destroyed it); <i>Lise à l'ombrelle</i> (1868): praised by Émile Zola.",
+        "1874 1st Impressionist Exhibition."
        ],
       "students": "Jeanne Baudot",
       "influenced by": [
@@ -3061,7 +3061,7 @@
         ],
       "member of": "Real Academia Española",
       "decorations/awards": "Orden de Carlos III; Orden del Toisón de Oro",
-      "participated in": "Anglo-Spanish War (1779-1783)",
+      "military activity": "Anglo-Spanish War (1779-1783)",
       "portrayed by": "Goya, 1785, private collection; Agustín Esteve, 1785, Museo Lázaro Galdiano (Madrid); Goya, 1788, family portrait, Prado; Goya, c.1798, Frick Collection (NY); Guillermo Ducker, 1805, Prado",
       "married to": "María Josefa de Borja Pimentel y Téllez-Girón, XII Countess-Duchess of Benavente and Duchess of Osuna",
       "children": "9, surviving 5. Josefa Manuela Téllez-Girón, Marchioness of Camarasa; Joaquina Téllez-Girón y Pimentel, Countess of Osila, X Marchioness of Santa Cruz (portrayed by Goya); Francisco de Borja Téllez-Girón y Pimentel, X Duke of Osuna (portrayed by Goya); Pedro de Alcántara Téllez-Girón y Pimentel, Prince of Anglona and Marquis of Javalquinto; Manuela Isidra Téllez-Girón y Pimentel, Countess of Coginas, VIII Duchess of Abrantes (portrayed by Goya)",
@@ -3445,11 +3445,13 @@
       "born in": "Madrid",
       "profession": "military member and politician",
       "aristocratic titles": "XVIII Count of Teba; VIII Count of Montijo (from 1838); Duke of Peñaranda de Duero; Count of Miranda y Baños",
-      "military activity": "1805 subteniente; 1807 teniente coronel. 1813 in France he joins the Imperial Army",
+      "military activity": [
+        "1805 subteniente; 1807 teniente coronel. 1813 in France he joins the Imperial Army.",
+        "Participates in the Peninsular War (Napoleonic side) and the Pronunciamiento de Riego (1820)."
+      ],
       "studies in": "Academia de Artillería",
       "works as": "in 1834 he inherits the titles from his brother. He becomes <i>prócer del Reino nato</i> (unelected) and elected senator in Badajoz (1837-38)",
       "political views": "liberal, <i>afrancesado</i>, Freemason. He fought in the Peninsular War in the Napoleonic side. Supporter of José Bonaparte. After the Bourbon Restoration, he was imprisoned and then he lived in Paris under Police surveillance. When back in Spain, he supports the Pronunciamiento de Riego (1820) for a liberal government. After the fall of the Trienio Liberal (1820-23) he is imprisoned and then put under home arrest in Santiago. c.1830 he was imprisoned again for conspiracy agasint Ferdinand VII.",
-      "participates in": "Peninsular War (Napoleonic side); Pronunciamiento de Riego (1820)",
       "curiosities": [
         "In the Battle of Salamanca (1812) he lost his right eye and movility of a leg"
       ],
@@ -3529,7 +3531,8 @@
       "born in": "Rome",
       "dies in": "Versailles",
       "profession": "painter", 
-      "in Paris": "in 1860 (disciple of Léon Cogniet); participates in the Exposition Universelle 1860 and 1889",
+      "in Paris": "in 1860 (disciple of Léon Cogniet)",
+      "exhibitions": "Exposition Universelle 1860 and 1889",
       "collector of Goya's works": "1869 Perros y útiles de caza (tapestry cartoon), donated in 1894 to the Prado",
       "masters": "Léon Cogniet", 
       "portrayed by": "Federico Madrazo (1875, Prado)",
@@ -3861,7 +3864,7 @@
       "author of": "<i>Batilo</i> (1780); <i>Las enamoradas anacreónticas</i>, <i>Los besos de amor</i> (c.1783); <i>Las bodas de Camacho el rico</i> (1784); volume of poems edited by Joaquín Ibarra (1785); <i>Discursos forenses</i> (published c.1820)",
       "political views": "in 1808 he is commissioned by the Junta Suprema to supervise the uprising in Oviedo, where he is imprisoned and later almost executed by the mob, accused of wanting to punish the patriots. Afracesado: he works for Joseph Bonaparte",
       "in France": "exiled after the French occupation in Toulouse, Montpellier, Nîmes, Alès and Montauban",
-      "participates in": "the <i>tertulias</i> of fray Juan Fernández de Roja (portrayed by Goya), known as <i>Liseno</i>, and that of José Cadalso in 1773), who introduces him to French culture",
+      "literary salon or tertulia": "he participates in the <i>tertulias</i> of fray Juan Fernández de Roja (portrayed by Goya), known as <i>Liseno</i>, and that of José Cadalso in 1773), who introduces him to French culture",
       "portrayed by": "Francisco de Goya, 1797, Bowes Museum",
       "member of": "Real Academia Española",
       "decorations/awards": "poetry award of the Real Academia Española for his work <i>Batilo</i> (1780); award to the best play by the city of Madrid, for <i>Las bodas de Camacho el rico</i> (1784). Knight of the Orden Real de España (by Joseph Bonaparte)",
@@ -3907,7 +3910,7 @@
       "address": "Île de Saint-Louis (1846-1863); Montmartre (from 1863)",
       "friends": "Baudelaire, Corot, Courbet, Delacroix",
       "profession": "lithographer, printmaker, caricaturist, painter, sculptor, draughtsman",
-      "participates in": "the Salon: first time in 1849 (<i>The Miller, his Son and the Ass</i>)",
+      "exhibitions": "Paris Salon: first time in 1849 (<i>The Miller, his Son and the Ass</i>)",
       "author of": "4,000 lithographs, 1,000 woodcuts, 1,000 drawings, 500 paintings and 100 sculptures. From 1850 and then in c.1867 he portrayed the recurring theme of Don Quixote (Don Quijote).",
       "masters": "Alexandre Lenoir (from 1822)",
       "influenced by": "Nicolas-Toussaint Charlet; Francisco de Goya",
@@ -3997,7 +4000,7 @@
       "life dates": "1797-1856", 
       "nationality": "French",
       "profession": "painter", 
-      "participates in": "Salon 1822 (1st time): gets Géricault's attention", 
+      "exhibitions": "Paris Salon: 1822 (1st time): gets Géricault's attention", 
       "masters": "Louis Étienne Watelet, Antoine-Jean Gros",
       "married to": "Louise Vernet (daughter of Horace Vernet)",
       "curiosities": "his living descendants are named Delaroche-Vernet",
@@ -7320,7 +7323,6 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "they share": "they both study at the Collège Bourbon (current Lycée Condorcet)",
-      "collaborations": "Bracquemond participates in the <i>Première exposition des peintres impressionnistes</i> (1874) at Nadar's workshop",
       "portraits": "Nadar's photograph of Asselineau, c.1856, [Orsay](https://www.musee-orsay.fr/es/obras/portrait-de-charles-asselineau-29335) PHO 1985 224; c.1860 [Wikipedia](https://es.wikipedia.org/wiki/Archivo:Charles_Asselineau_Nadar_vers_1860.jpg)"
     },
     {
