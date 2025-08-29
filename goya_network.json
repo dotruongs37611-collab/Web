@@ -1502,7 +1502,7 @@
         "<i>LA COMÉDIE HUMAINE</i> (1831-50): 91 finished works (stories, novels and analytical essays) and 46 unfinished works. It is divided into different sections:",
         "I. <i>Scènes de mœurs</i>: the largest section, formed by different subsections.",
         "I.1. <i>Scènes de la vie privée</i>, including <i>Le Colonel Chabert</i> (1832), <i>Le Père Goriot</i> (1835).", 
-        "I.2. <i>Scènes de la vie de province</i>, including <i>Eugénie Grandet</i> (1834), <i>Illusions perdues</i> (1837-43), <i>Béatrix</i> (1839) and <i>La Rabouilleuse</i> (1842).",
+        "I.2. <i>Scènes de la vie de province</i>: including <i>Eugénie Grandet</i> (1834), <i>Illusions perdues</i> (1837-43), <i>Béatrix</i> (1839) and <i>La Rabouilleuse</i> (1842).",
         "I.3. <i>Scènes de la vie parisienne</i>: including <i>La Femme supérieure</i> (or <i>Les Employés</i> (1837; 1838), <i>Splendeurs et misères des courtisanes</i> (1838-47), <i>La Cousine Bette</i> (1846) and <i>Le Cousin Pons</i> (1847).", 
         "I.4. <i>Scènes de la vie politique</i>: including <i>Un épisode sous la Terreur</i> (1830).",
         "I.5. <i>Scènes de la vie militaire</i>: including <i>Les Chouans</i> (1829).",
@@ -1597,7 +1597,7 @@
       "mentions": [
         "Lorédan Larchey: 'L'auteur est écrasé par le dessinateur. Plus que Dante illustré par Doré, c'est Doré illustré par Dante' (c.1861)."
       ],
-      "portrayed by": "FAirless & Beeforth, photograph (carte de visite), 1850; Nadar, photograph, 1856-58 and 1867; André Gill, caricature, 1868; Philippe-Auguste Cattelain, caricature, 1868; Frederick Waddy, portrait charge, 1873; Georges Lafosse, caricature, 1875; Carolus-Duran, oil painting, 1877; Nadar, <i>Gustave Doré sur son lit de mort</i>, photograph, 1883",
+      "portrayed by": "Fairless & Beeforth, photograph (carte de visite), 1850; Nadar, photograph, 1856-58 and 1867; André Gill, caricature, 1868; Philippe-Auguste Cattelain, caricature, 1868; Frederick Waddy, portrait charge, 1873; Georges Lafosse, caricature, 1875; Carolus-Duran, oil painting, 1877; Nadar, <i>Gustave Doré sur son lit de mort</i>, photograph, 1883",
       "decorations/awards": "1879 Officier de la Légion d'honneur",
       "bibliography": "Fayos Pérez 2024; Valérie Sueur-Hermal, 'Gustave Doré et la gravure sur bois de teinte0, <i>Nouvelles de l'Estampe</i>, no.270, 2023; Alix Paré & Valérie Sueur-Hermel, <i>Fantastique Gustave Doré</i>, 2021; Philippe Kaenel, <i>Gustave Doré (1832-1883). L'imaginaire au pouvoir</i>, 2014; Auguste Lafront & Miguel Darrieumerlou, <i>La Tauromachie de Gustave Doré</i>, 1984.",
       "websites": "[AGORHA, INHA](https://agorha.inha.fr/ark:/54721/165e8172-e68a-447c-9573-aadf629454da); BnF, [<i>Les travaux d'Hercule</i>](https://essentiels.bnf.fr/fr/album/23a88d48-ecdd-45c9-9b72-04ea13ddff69-travaux-hercule)",
@@ -6216,7 +6216,10 @@
       "connection_level": "direct", 
       "relationship type": "acquaintances?",
       "collaborations": "Doré illustrated Théophile Gautier's <i>Le Capitaine Fracasse</i> (1866)",
-      "mentions": "Gautier mentions Doré in his art criticism"
+      "mentions": [
+        "Gautier mentions Doré in his art criticism",
+        "Gautier said about Doré in 1855 (witnessed by Nadar): 'Ce garçon de vingt ans sera le plus grand peintre de l'époque, s'il ne l'est pas déjà'."
+      ]
     },
     {
       "from": "Victor Hugo",
@@ -6224,6 +6227,19 @@
       "connection_level": "direct", 
       "relationship type": "acquaintances?",
       "collaborations": "Doré illustrated Victor Hugo's <i>Les Travailleurs de la mer</i> (1867)"
+    },
+    {
+      "from": "Émile Zola",
+      "to": "Gustave Doré",
+      "connection_level": "direct?", 
+      "mentions": "Zola's article 'Cervantès et Gustave Doré, à propos de Don Quichotte illustré', <i>Journal populaire de Lille</i> (20 Dec 1863): 'On appelle ça illustrer un ouvrage : moi, je prétends que c'est le refaire. Au lieu d'un chef-d'œuvre, l'esprit humain en compte deux. C'est une même pensée traduite en deux langues'."
+    },
+    {
+      "from": "Edmond de Goncourt",
+      "to": "Gustave Doré",
+      "connection_level": "direct?", 
+      "relationship type": "acquaintances?",
+      "mentions": "Goncourt writes in 1866: 'Jusqu'à son physique m'ennuie et m'est désagréable ; c'est un homme gras, frais, poupin, la face ronde, plate, une figure de lune, de lanterne magique; son teint d'enfant de chœur, sa mine sans âge, où le labeur effrayant de sa production n'a pas mis d'années, cet air d'enfant prodige — tout cela m'est d'un contact antipathique et finit par me mettre mal à l'aise'."
     },
     {
       "from": "Charles Philipon",
@@ -8478,7 +8494,7 @@
         "Balzac dedicated to Hugo <i>Les illustions perdues</i> (from 1843).",
         "Hugo wrote <i>La Mort de Balzac</i>, gathered in <i>Actes et paroles</i> 2007, pp.124-130)."
       ],
-      "bibliography": "Pierrot & Yon 2011; Pierrot, 'Balzac et Hugo d'après leur correspondance', RHLF, Oct-Dec 1953, pp.467-483-"
+      "bibliography": "Anne-Marie Baron (dir.), 'Balzac, Hugo, Dumas, les chefs de file des Romantiques', <i>Le Courrier Balzacien</i>, no.69, 2025; Pierrot & Yon 2011; Pierrot, 'Balzac et Hugo d'après leur correspondance', RHLF, Oct-Dec 1953, pp.467-483-"
     },
     {
       "from": "Victor Hugo",
@@ -8492,7 +8508,7 @@
         "Drawing by Frédéric Lix (c.1893), Hugo about to go into exile in 1852, saying farewell to Dumas and other friends and followers",
         "Josef Danhauser, <i>Liszt am Klavier</i>, 1840, oil painting, group portrait with George Sand, Dumas, Hugo, Marie d'Agoult, Liszt, Paganini and Rossini (with Beethoven's bust and Byron's portrait), Alte Nationalgalerie, F.V.42"
         ],
-      "bibliography": "Schopp 2015"
+      "bibliography": "Anne-Marie Baron (dir.), 'Balzac, Hugo, Dumas, les chefs de file des Romantiques', <i>Le Courrier Balzacien</i>, no.69, 2025; Schopp 2015"
     },
     {
       "from": "Madame de Staël",
@@ -8741,7 +8757,7 @@
       "relationship type": "acquaintances (they did not particularly like each other)", 
       "correspondence": "at least 3 letters from 1840 (Pierrot & Yon 2011, 40-93, 40-96, 40-97)",
       "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840)",
-      "bibliography": "Pierrot & Yon 2011"
+      "bibliography": "Anne-Marie Baron (dir.), 'Balzac, Hugo, Dumas, les chefs de file des Romantiques', <i>Le Courrier Balzacien</i>, no.69, 2025; Pierrot & Yon 2011"
     },
     {
       "from": "Honoré de Balzac",
