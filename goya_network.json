@@ -1492,8 +1492,23 @@
       "label": "Balzac",
       "life dates": "1799-1850", 
       "nationality": "French",
+      "born in": "Tours",
       "profession": "novelist, playwright, journalist, art critic",
-      "author of": "<i>La Comédie humaine</i> (1831-50), including <i>La peau du chagrin</i> (1831), which mentions Murillo and Velázquez;  <i>Le Chef-d'œuvre inconnu</i> (1831); <i>Les Cent Contes drolatiques</i> (1832-37); <i>Eugénie Grandet</i> (1834); <i>Le Père Goriot</i> (1835).",
+      "author of": [
+        "<i>LA COMÉDIE HUMAINE</i> (1831-50): 91 finished works (stories, novels and analytical essays) and 46 unfinished works. It is divided into different sections:",
+        "I. <i>Scènes de mœurs</i>: the largest section, formed by different subsections.",
+        "I.1. <i>Scènes de la vie privée</i>, including <i>Le Colonel Chabert</i> (1832), <i>Le Père Goriot</i> (1835).", 
+        "I.2. <i>Scènes de la vie de province</i>, including <i>Eugénie Grandet</i> (1834), <i>Illusions perdues</i> (1837-43), <i>Béatrix</i> (1839) and <i>La Rabouilleuse</i> (1842).",
+        "I.3. <i>Scènes de la vie parisienne</i>: including <i>La Femme supérieure</i> (or <i>Les Employés</i> (1837; 1838), <i>Splendeurs et misères des courtisanes</i> (1838-47), <i>La Cousine Bette</i> (1846) and <i>Le Cousin Pons</i> (1847).", 
+        "I.4. <i>Scènes de la vie politique</i>: including <i>Un épisode sous la Terreur</i> (1830).",
+        "I.5. <i>Scènes de la vie militaire</i>: including <i>Les Chouans</i> (1829).",
+        "I.6 <i>Scènes de la vie de campagne</i>: including <i>Le Médecin de campagne</i> (1833), <i>Le Lys dans la vallée</i> (1836) and <i>Le Curé de Village</i> (1839).",
+        "II. <i>Études philosophiques</i>: including <i>El verdugo</i> (1830) (set in Spain during the Peninsular War), <i>Le Chef-d'œuvre inconnu</i> (1831), <i>La peau du chagrin</i> (1831) and <i>Sur Catherine de Médicis</i> (1842).",
+        "III. Études analytiques: including <i>Physiologie du Mariage</i> (1829), <i>Petites misères de la vie conjugale</i> (1846) and <i>Pathologie de la vie sociale</i> (1839).",
+
+        "<i>Les Cent Contes drolatiques</i> (1832-37, reprinted 1855), based on Boccaccio's <i>The Decameron</i> and influenced by Rabelais. Illustrated by Gustave Doré, including some goyaesque images (Fayos Pérez 2024, pp.168-69, fig.II.46, II.48).",
+        "5 theatre plays: <i>L'École des ménages</i> (1839), <i>Vautrin</i> (1839), <i>Pierre Grassou</i> (1839), <i>Les Ressources de Quinola</i> (1842), <i>Paméla Giraud</i> (1842), <i>La Marâtre</i> (1848), <i>Mercadet ou le faiseur</i> (1848)."
+      ],
       "participates in": "<i>Les français peints par eux-mêmes</i> (1840) (ed. Léon Curmer), alongside Théophile Gautier, Alexandre Dumas, J. J. Grandville, Honoré Daumier and Paul Gavarni; J. J. Grandville's <i>Scènes de la vie privée et publique des animaux</i> (1842), alongside Charles Nodier and George Sand.",
       "member of": "Société des gens de lettres (founded by Louis Desnoyer), of which were also members Victor Hugo, Alexandre Dumas and George Sand",
       "works as": [
@@ -1511,9 +1526,49 @@
       "partners/lovers": "Henirette de Maillé de La Tour-Landry; Laure de Berny (1823-1833); Olympe Pélissier; Maria du Fresnay (desde 1833); Caroline Marbouty (1833-1839)",
       "parents": "Bernard-François Balzac and Anne-Charlotte-Laure Sallambier",
       "children": "Marie-Caroline du Fresnay",
+      "mentions of Goya": "'[…] la tête de Singe de Goya' (<i>Les parents pauvres. Le Cousin Pons</i>, vol.3, 1847, p.18). It is uncertain which work Balzac is referring to (Fayos Pérez 2024, Appendix II).",
+      "interest in Spanish art": [
+        "<i>El verdugo</i> (1830), from <i>La Comédie humaine</i> is set in Spain during the Peninsular War. It is dedicated to Martínez de la Rosa.",
+        "<i>La peau du chagrin</i> (1831), from <i>La Comédie humaine</i> (1831-50), mentions Murillo and Velázquez."
+      ],
       "decorations/awards": "Chevalier de la Légion d'Honneur (1845)",
-      "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac)",
+      "bibliography": "Anne-Marie Baron (dir.), 'Balzac, Hugo, Dumas, les chefs de file des Romantiques', <i>Le Courrier Balzacien</i>, no.69, 2025; Fayos Pérez 2024",
+      "websites": "[Les Amis d'Honoré de Balzac](https://www.lesamisdebalzac.org/); [Wikipedia](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg",
+      "image source": "daguerrotype by Bisson, 1842"
+    },
+    {
+      "id": "Gustave Doré",
+      "label": "Doré",
+      "full name": "Paul Gustave Louis Christophe Doré",
+      "life dates": "1832-1883", 
+      "nationality": "French",
+      "born in": "Strasbourg",
+      "dies in": "Paris",
+      "profession": "illustrator, caricaturist, painter, lithographer, sculptor",
+      "address": "Strasbourg: rue de la Nuée-Bleue; 6 rue des Écrivains. Paris: rue de Richelieu (from 1847); rue Saint-Dominique",
+      "studies in": "classe de la pension Vergnette (Strasbourg); Lycée Charlemagne",
+      "parents": "Pierre Louis Christophe Doré and Alexandrine Marie Anne Pluchart",
+      "siblings": "Ernest (composer and banker); Émile Paul (general)",
+      "friends": "Victor Hugo; Honoré de Balzac",
+      "influenced by": "J. J. Grandville (Jean Ignace Isidore Gérard); Cham; Rodolphe Töpffer",
+      "works for": "Charles Philipon's <i>Le Charivari</i>",
+      "author of": [
+        "Lithography: <i>La Vogue de Brou</i> and 2 other lithographic drawings (1845: at 13 years old).",
+        "Illustration: Balzac's <i>Les cent contes drolatiques</i> (1832-37).",
+        "Painting: <i>Andromède</i> (1869); <i>L'Énigme</i>; <i>Les Saltimbanques</i> (1874).",
+        "Sculpture"
+      ],
+      "portrayed by": "Nadar, photograph, 1856-58 and 1867",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dore.jpg",
+      "image source": "Nadar photograph, 1867"
+    },
+    {
+      "id": "Martínez de la Rosa",
+      "label": "Martínez Rosa",
+      "life dates": "1802-1870", 
+      "nationality": "Spanish",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martinez_Rosa.jpg",
       "image source": "daguerrotype by Bisson, 1842"
     },
     {
@@ -6039,6 +6094,21 @@
       "know each other since": "at least 1856",
       "portraits": "photographed by Nadar 1856-58",
       "mentions": "in Philipon's obituary in 1862, Nadar wrote that Philipon had a 'prodigieuse lucidité dans les affaires' matched with a 'inépuisable fécondité de moyens et d'invention'."
+    },
+    {
+      "from": "Charles Philipon",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "friends; colleagues; employer-employee",
+      "know each other since": "1847",
+      "collaborations": "Doré works for Philipon since 1847 (<i>Le Journal pour rire</i>)"
+    },
+    {
+      "from": "Nadar",
+      "to": "Gustave Doré",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "portraits": "1856-58; 1867"
     },
     {
       "from": "Charles Philipon",
