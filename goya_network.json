@@ -1308,6 +1308,7 @@
       "life dates": "1806-1867",
       "nationality": "French",
       "profession": "painter, lithographer, illustrator",
+      "bibliography": "Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Boulanger.jpg"
     },
     {
@@ -1366,6 +1367,7 @@
         "When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'.",
         "<i>Notre-Dame de Paris</i> was listed as a 'forbidden book' by the Church."
         ],
+      "bibliography": "Wilfried Floeck, 'Victor Hugo et l'Espagne', <i>Francofonia</i>, no.13, 1987, pp.87-102; Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23; Georges Huard, 'Victor Hugo et Les Caprices de Goya', <i>Gazette Des Beaux-Arts</i>, Sept 1959, pp.158-59; Jean Adhémar, 'Victor Hugo et Goya', <i>Bulletin de l'Institut de France en Espagne</i>, 1953, pp.162-63",
       "websites": "[Wikipedia](https://en.wikipedia.org/wiki/Victor_Hugo)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
@@ -8344,7 +8346,8 @@
       "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
       "collaborations": "Boulanger illustrates <i>Les orientales (1829)</i>: 'Les Fantômes'",
       "mentions": "Hugo probably dedicated to him (and Sainte-Beuve) a poem from <i>Feuilles d'Automne</i> (1830), mentioning Goya.",
-      "they shared": "Boulanger was part of Hugo's 'Cénacle'"
+      "they shared": "Boulanger was part of Hugo's 'Cénacle'",
+      "bibliography": "Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
@@ -10044,7 +10047,8 @@
         "They both collaborated in <i>Les Français peints par eux-mêmes</i> (1840).",
         "Balzac collaborated in <i>Scènes de la vie privée et publique des animaux</i> (1842), alongside George Sand and Charles Nodier."
       ],
-      "portraits": "Caricature of Balzac by Grandville in the <i>Grande course au clocher académique</i> [1839](https://www.parismuseescollections.paris.fr/fr/maison-de-balzac/oeuvres/grande-course-au-clocher-academique#infos-principales)"
+      "portraits": "Caricature of Balzac by Grandville in the <i>Grande course au clocher académique</i> [1839](https://www.parismuseescollections.paris.fr/fr/maison-de-balzac/oeuvres/grande-course-au-clocher-academique#infos-principales)",
+      "bibliography": "Yves Gagneux & Séverine Maréchal, <i>Balzac & Grandville: Une Fantaisie Mordante<i>, 2019"
     },
     {
       "from": "J. J. Grandville (Jean Ignace Isidore Gérard)",
@@ -10088,6 +10092,7 @@
       "connection_level": "secondary",
       "relationship type": "influenced by Goya",
       "link to Goya": "Hugo discovers Goya's work probably around 1828-29, perhaps through his friend Louis Boulanger",
+      "influence": "Paul Guinard considered Goya as Hugo's 'spiritual heir' in his use of nightmarish visions and tragic imagery, as well as sensual and picaresque themes (1957, p.102).",
       "mentions of Goya": [
         "Hugo's poem 28 in <i>Feuilles d'Automne</i> (1830) carries the epigraph 'Buen viage! - GOYA-', a reference to Capricho 64. The title of this poem is 'À mes amis S.-B. et L.B.', who probably are Charles Agustin Sainte-Beuve and Louis Boulanger.",
         "In <i>Rayons et les ombres</i> (1839), Hugo compared Goya's gnomes to Rembrandt's witches and Callot's <i>Temptation of Saint Anthony</i> (1635)."
@@ -10095,8 +10100,10 @@
       "bibliography": [
         "Fayos Pérez 2024, p. 246.",
         "Assante di Panzillo 2008, p.107 (Goya's mention in <i>Rayons et les ombres</i>).",
+        "Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23",
         "Jean Adhémar & Jacques Lethève, 1958, vol. 10, p.527: they highlight 'his taste for violent contrasts of shadow and light'.",
-        "Paul Guinard 1957, p.102: Goya as Hugo's 'spiritual heir' in his use of nightmarish visions and tragic imagery, as well as sensual and picaresque themes'.",
+        "Guinard 1957.",
+        "Adhémar, 'Victor Hugo et Goya', <i>Bulletin de l'Institut de France en Espagne</i>, 1953, pp.162-63",
         "Adhémar 1935, XXVII. '[Hugo] must have observed enthusiastically the witches and demons that writhe in a darkness penetrated by violent glimmers, because his vision is very close to that of Goya. These prints must have nurtured his imagination, providing him with an endlessly rich repertoire of figures and themes from which he could draw for years' (p.XXVII).",
         "Hugo-Hetzel 1857, p.297 (Goya's mention in <i>Rayons et les ombres</i>)."
         ]
