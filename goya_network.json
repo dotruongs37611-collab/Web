@@ -542,7 +542,7 @@
       "nationality": "Spanish",
       "aristocratic titles": "XI Countess of Mora and Grandee of Spain, XVII Baroness of Quinto, XVIII Marchioness of Moya, XIX Countess of Teba, XVI Marchioness of Ardales, IX Marchioness of Osera, IX Countess of Ablitas, XII Countess of Baños, IX Countess of Santa Cruz de la Sierra",
       "political views": "she embraced the Bonapartist cause; she advocated equality for women: she tried (unsuccessfully) to convince the Académie Française to elect George Sand as its first female member; she personally intervened on behalf of Julie-Victoire Daubié for the signing of her baccalaureate diploma; she also intervened for the award of the Légion d'honneur to painter Rosa Bonheur; and obtained Madeleine Brès's enrolment in the Faculty of Medicine",
-      "masters": "Prosper Mérimée; Stendhal (Henri Beyle)",
+      "masters": "Prosper Mérimée; Stendhal",
       "siblings": "María Francisca de Sales (Paca), who marries the XV Duke of Alba in 1849",
       "studies in": "Convento del Sagrado Corazón, Paris (1835) and Gymnase Normale, Civile et Orthosomatique",
       "married to": "Napoleon III (1853)",
@@ -1665,8 +1665,9 @@
       "image source": "portrait by Paulin Guérin"
     },
     {
-      "id": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "id": "Marquis de Custine",
       "label": "Custine",
+      "full name": "Astolphe-Louis-Léonor de Custine",
       "life dates": "1790-1857",
       "nationality": "French",
       "born in": "Niderviller, Lorraine",
@@ -1810,7 +1811,7 @@
       "born in": "Dijon",
       "nationality": "French",
       "profession": "femme de lettres, novelist, playwright, author, painter and salonnière",
-      "literary salon or tertulia": "Hôtel de La Rochefoucauld-Liancourt, rue de Seine (from 1824 until her death): she hosts Victor Hugo, Sophie Gay, Delphine Gay, Mélanie Waldor, Rachel, Juliette Récamier, Saint-Simon, Alfred de Musset, Stendhal (Henri Beyle), Chateaubriand, Alphonse de Lamartine, Alfred de Vigny, Prosper Mérimée, Eugène Delacroix",
+      "literary salon or tertulia": "Hôtel de La Rochefoucauld-Liancourt, rue de Seine (from 1824 until her death): she hosts Victor Hugo, Sophie Gay, Delphine Gay, Mélanie Waldor, Rachel, Juliette Récamier, Saint-Simon, Alfred de Musset, Stendhal, Chateaubriand, Alphonse de Lamartine, Alfred de Vigny, Prosper Mérimée, Eugène Delacroix",
       "parents": "Thomas Chardon and Barbe Edmée Chardon",
       "married to": "Jacques-François Ancelot (1817)",
       "children": "three",
@@ -2909,16 +2910,29 @@
       "image source": "Nadar, 1865, photograph"
     },
     {
-      "id": "Stendhal (Henri Beyle)",
+      "id": "Stendhal",
+      "full name": "Marie-Henri Beyle",
       "label": "Stendhal",
       "life dates": "1783-1842",
       "nationality": "French",
-      "profession": "writer",
-      "author of": "<i>Le rouge et le noir</i> (1830)",
-      "portrayed by": "Doucis, 1835; Achille Ouvre, <i>Bois de teinte pour les portraits de Voltaire et Stendhal</i>, [after 1890], Louvre 10784 C/ Recto.",
-      "writes in": "<i>Journal de Paris</i>, <i>The New Monthly Magazine</i>, <i>The London Magazine</i>",
+      "profession": "writer, art historian, diplomat, diarist",
+      "parents": "Chérubin Beyle and Henriette Gagnon",
+      "siblings": "Pauline Beyle",
+      "partners/lovers": "Angela Pietragrua; Alberthe de Rubempré (Eugène Delacroix's cousin); Giulia Rinieri",
+      "friends": "in Paris, he attends the salons of liberal, left-wing figures such as d'Antoine Destutt de Tracy, de La Fayette, royalists like Virginie Ancelot, scholars like baron Cuvier, painters like Baron Gérard, and the <i>cénacle</i> of Etienne-Jean Delécluze.",
+      "in Spain": "in 1829",
+      "author of": [
+        "<i>Promenades dans Rome</i> (travel diary, 1829).",
+        "<i>Le rouge et le noir</i> (novel, 1830); <i>Lucien Leuwen</i> (novel, 1834, unfinished); <i>La Chartreuse de Parme</i> (novel, 1839/1841).",
+        "<i>Histoire d'Espagne : depuis la révolution du 28 avril 1699 jusqu'au testament du 2 octobre 1700</i>"
+      ],
+      "portrayed by": "Ducis, oil painting, 1835; Henri Lehmann, drawing, 1841; Olof Johan Södermark, oil painting, Versailles; Achille Ouvre, <i>Bois de teinte pour les portraits de Voltaire et Stendhal</i>, [after 1890], Louvre 10784 C/ Recto.",
+      "writes in": "<i>Journal de Paris</i> (1824-27), <i>The New Monthly Magazine</i>, <i>The London Magazine</i>",
       "pseudonyms": "Stendhal, Henri Stendhal, Stendalis, Louis Alexandre Bombet, Anastase de Serpière, Don Flegme, William Crocodile, Dominique",
-      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg"
+      "curiosities": "the medalion for his tomb was made by Auguste Rodin",
+      "decorations/awards": "1835 Chevalier de la Légion d'honneur",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Stendhal.jpg",
+      "image source": "Södermark portrait"
     },
     {
       "id": "Charles-Augustin Sainte-Beuve",
@@ -5475,33 +5489,38 @@
       "bibliography": "Canavaggio 2016"
     },
     {
-      "from": "Stendhal (Henri Beyle)",
+      "from": "Stendhal",
       "to": "Prosper Mérimée",
       "connection_level": "direct",
-      "relationship type": "colleagues",
+      "relationship type": "colleagues; friends",
+      "mentions": "they shared a 'amitié ambivalente faite de complicité et de méfiance' (<i>Souvenirs d'égotisme</i>, 1832, p.141).",
       "know each other since": "at least 1839",
+      "correspondence": "yes. Mérimée wrote: 'Jamais il n'écrivait une lettre sans signer d'un nom supposé'.",
       "they shared": "they were both teachers of Empress Eugenia de Montijo",
       "collaborations": "<i>Correspondance inédite [de] Stendhal. Précédée d'une introduction par Prosper Mérimée</i>, Paris, Michel Lévy, 1855"
     },
     {
-      "from": "Stendhal (Henri Beyle)",
+      "from": "Stendhal",
       "to": "Victor Hugo",
       "connection_level": "direct",
-      "relationship type": "acquaintances?",
+      "relationship type": "acquaintances; rivals?",
       "know each other since": "at least 1829",
-      "mentions": "according to Augustin Challamel (1885, p.23-24), Stendhal said in 1829: 'Victor Hugo, ultra vanté, n'a pas su succès réel, du moins pour les <i>Orientales</i>. Le <i>Condamné</i> fait horreur et me semble inférieur à certains passages de <i>Mémoires de Vidocq</i>... M. Victor Hugo n'est pas un homme ordinaire, mais il <i>veut</i> être extraordinaire, et les <i>Orientales</i> m'ennuient...'",
+      "mentions": [
+        "According to Augustin Challamel (1885, p.23-24), Stendhal said in 1829: 'Victor Hugo, ultra vanté, n'a pas su succès réel, du moins pour les <i>Orientales</i>. Le <i>Condamné</i> fait horreur et me semble inférieur à certains passages de <i>Mémoires de Vidocq</i>... M. Victor Hugo n'est pas un homme ordinaire, mais il <i>veut</i> être extraordinaire, et les <i>Orientales</i> m'ennuient...'.",
+        "Hugo about Stendhal's <i>Le Rouge et le Noir</i>: 'chaque fois que je tente de déchiffrer une phrase de votre ouvrage de prédilection (répondant à Rochefort, admirateur du Rouge), c'est comme si on m'arrachait une dent… Stendhal ne s'est jamais douté un seul instant de ce que c'était que d'écrire' (Crouzet 1990)."
+      ],
       "bibliography": "Challamel 1885"
     },
     {
       "from": "Eugenia de Montijo",
-      "to": "Stendhal (Henri Beyle)",
+      "to": "Stendhal",
       "connection_level": "direct",
       "relationship type": "friends; master-student",
       "know each other since": "c.1839, when Stendhal became her History teacher"
     },
     {
       "from": "María Manuela Kirkpatrick",
-      "to": "Stendhal (Henri Beyle)",
+      "to": "Stendhal",
       "connection_level": "direct",
       "relationship type": "acquaintance",
       "know each other since": "c.1839, when Stendhal became Eugenia's History teacher"
@@ -7966,7 +7985,7 @@
     },
     {
       "from": "Virginie Ancelot",
-      "to": "Stendhal (Henri Beyle)",
+      "to": "Stendhal",
       "connection_level": "direct",
       "relationship type": "acquaintances. Stendhal attended Ancelot's salon"
     },
@@ -8465,7 +8484,7 @@
       "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier (...)' when he shows the 'Goya' (<i>Caprichos</i>) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
-      "from": "Stendhal (Henri Beyle)",
+      "from": "Stendhal",
       "to": "Louise Swanton Belloc",
       "connection_level": "direct",
       "relationship type": "acquaintances"
@@ -8517,14 +8536,14 @@
     },
     {
       "from": "Madame de Staël",
-      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "shared": "Custine's mother Delphine was a close friend of Staël, who would dedicate to her her novel <i>Delphine</i> (1802)."
     },
     {
       "from": "Victor Hugo",
-      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "shared": "Hugo attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
@@ -8653,14 +8672,14 @@
     },
     {
       "from": "Théophile Gautier",
-      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
       "shared": "Gautier attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
       "from": "Frédéric Chopin",
-      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "friends", 
       "correspondence": [
@@ -8674,7 +8693,7 @@
     },
     {
       "from": "Honoré de Balzac",
-      "to": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "friends",
       "know each other since": "c.1830", 
@@ -8707,9 +8726,10 @@
     },
     {
       "from": "Honoré de Balzac",
-      "to": "Stendhal (Henri Beyle)",
+      "to": "Stendhal",
       "connection_level": "direct",
       "relationship type": "friends", 
+      "mentions": "Balzac praised Stendhal's <i>La chartreuse de Parme</i> in 1840",
       "correspondence": "at least from 1839 to 1841 (Pierrot & Yon 2011)",
       "bibliography": "Pierrot & Yonn 2011, vol.2; Bouteron 1941"
     },
@@ -8823,7 +8843,7 @@
       "mentions": "Gautier mentions Nodier's 'Histoire du roi de Bohême' (1830), <i>Le Figaro</i>, 19 Oct 1836, 'Les récréations du génie' (Lacsote-Veysseyre 2014, p.218)"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "George Sand",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
@@ -8832,7 +8852,7 @@
       "bibliography": "Samantha Caretti, 'La vérité et l'idéal: Astolphe de Custine, lecteur de George Sand', <i>Cahiers George Sand</i>, no.41, Sept 2019"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Sophie Gay",
       "relationship type": "close friends", 
       "correspondence": "yes. For instance on 22 Oct 1838 he described the last concert given by Chopin in Paris before leaving for Mallorca, at Custine's chateau (see Custine-Chopin's edge).",
@@ -8840,7 +8860,7 @@
       "websites": "[Facebook post](https://www.facebook.com/JackGibbonsPiano/posts/astolphe-de-custine-was-a-huge-supporter-of-chopin-and-one-of-the-very-first-to-/10157874644944384/) by Jack Gibbons, 26 July 2019"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Charles Baudelaire",
       "connection_level": "direct",
       "relationship type": "acquaintances"
@@ -8952,38 +8972,38 @@
       "criticism": "Flaubert said about <i>Les Misérables</i> (1862) that it did not have 'neither truth nor greatness'"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Alphonse de Lamartine",
       "relationship type": "acquaintances"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Juliette Récamier",
       "connection_level": "direct",
       "relationship type": "acquaintances"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
-      "to": "Stendhal (Henri Beyle)",
+      "from": "Marquis de Custine",
+      "to": "Stendhal",
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "shared": "Stendhal attended Custine's salon",
       "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Charles-Augustin Sainte-Beuve",
       "connection_level": "direct",
       "relationship type": "acquaintances"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Fernando VII",
       "connection_level": "secondary",
       "mentions": "Custine writes <i>L'Espagne sous Ferdinand VII</i> in 1838"
     },
     {
-      "from": "Astolphe-Louis-Léonor, Marquis de Custine",
+      "from": "Marquis de Custine",
       "to": "Madame Ewelina Hanska",
       "connection_level": "direct",
       "relationship type": "acquaintances",
