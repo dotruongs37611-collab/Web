@@ -1368,7 +1368,7 @@
       "parents": "Joseph Léopold Hugo and Sophie Trébuchet",
       "curiosities": [
         "On 10 July 1816, he wrote in his diary: 'I shall be Chateaubriand or nothing'.", 
-        "He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin (Delphine Gay).", 
+        "He frequented spiritism during his exile, and participated in séances conducted by Madame Delphine de Girardin (Delphine de Girardin).", 
         "When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'.",
         "<i>Notre-Dame de Paris</i> was listed as a 'forbidden book' by the Church."
         ],
@@ -1693,7 +1693,7 @@
       "interest in Spanish art": "'Le mouvement si animé de cette musique, comme celui du fandango espagnol, rend la gaieté à l'homme le plus mélancolique, et l'entraîne au plaisir malgré lui! [...] Elle était nouvelle pour moi, quoique j'eusse traversé l'Italie entière; et je croyais lire un chapitre de quelque vieux roman espagnol !' (<i>Mémoires et voyages ou Lettres écrites à diverses époques pendant des courses en Suisse, en Calabre, en Angleterre et en Écosse</i>, 1830, p.254).",
       "knows Goya's works": "by 1831",
       "friends": "Honoré de Balzac; Sophie Gay; George Sand; Frédéric Chopin; François-René de Chateaubriand; Édouard de La Grange",
-      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024",
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; H. Merzbach (ed.), <i> Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870",
       "websites": "[ElisaRolle](http://www.elisarolle.com/queerplaces/a-b-ce/Astolphe%20de%20Custine.html)",
       "newspaper archive": "'A French Marquis' Adventures: Dandy Stuff for Biography', <i>Observer</i>, [22 Nov 1999](https://observer.com/1999/11/a-french-marquis-adventures-dandy-stuff-for-biography/)",
       "portrayed by": "unknown artist, oil on canvas",
@@ -1718,14 +1718,15 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montgolfier.jpg"
     },
     {
-      "id": "Delphine Gay",
-      "label": "Delphine Gay",
+      "id": "Delphine de Girardin",
+      "label": "D. Girardin",
       "life dates": "1804-1855", 
-      "other names": "Delphine Girardin",
+      "other names": "Delphine Gay",
       "nationality": "French",
+      "born in": "Aix-la-Chapelle",
       "profession": "femme de lettres, writer, poet, novelist, playwright, salonnière, journalist", 
       "literary salon or tertulia": "at Hôtel Marbeuf. Attendants: Théophile Gautier, Honoré de Balzac, Alfred de Musset, Victor Hugo, George Sand, Alphonse de Lamartine, Alexandre Dumas, Franz Liszt, Jules Janin, Fortunée Hamelin, Frédéric Soulié, Eugène Sue, Chateaubriand, Méry, Mlles Mars and Rachel (Challamel 1885). Circle of Charles Nodier",
-      "author of": "<i>Essais poétiques</i> (1824), <i>Nouveaux Essais poétiques</i> (1825), <i>Napoline</i> (1833); <i>Lettres parisiennes</i> (1843). Fiction: <i>Le Lorgnon</i> (1832), <i>Le Marquis de Pontanges</i> (1835), <i>Contes d'une vieille fille à ses neveux</i> (1832), <i>La Canne de Monsieur Balzac</i> (1836), <i>Il ne faut pas jouer avec la douleur</i> (1853). Drames en prose: <i>L'Ecole des journalists</i> (1840), <i>Judith</i> (1843), <i>Lady Tartuffe</i> (1853). Comedies: <i>C'est la faute du mari</i> (1851), <i>La joie fait peur</i> (1854), <i>Une femme qui déteste son mari</i> (posthumous)",
+      "author of": "<i>Essais poétiques</i> (1824), <i>Nouveaux Essais poétiques</i> (1825) (praised by Goethe in 1827), <i>Napoline</i> (1833); <i>Lettres parisiennes</i> (1843). Fiction: <i>Le Lorgnon</i> (1832), <i>Le Marquis de Pontanges</i> (1835), <i>Contes d'une vieille fille à ses neveux</i> (1832), <i>La Canne de M. de Balzac</i> (1836), <i>Il ne faut pas jouer avec la douleur</i> (1853). Drames en prose: <i>L'Ecole des journalists</i> (1840), <i>Judith</i> (1843), <i>Lady Tartuffe</i> (1853). Comedies: <i>C'est la faute du mari</i> (1851), <i>La joie fait peur</i> (1854), <i>Une femme qui déteste son mari</i> (posthumous)",
       "writes in": "<i>Le Presse</i> (1836-1839, as 'Charles de Launay')",
       "in Italy": "in 1827, where she is enthusiastically welcomed in the Roman literary circle and crowned in the Capitol",
       "pseudonyms": "Vicomte Charles Delaunay, Charles de Launay, Vicomte de Launay, Léo Lespès, Léa Sepsel, Émile de Girardin",
@@ -1733,6 +1734,7 @@
       "married to": "Émile de Girardin (1831)",
       "portrayed by": "Louis Hersent, 1824, château de Versailles (oil painting); LD, 'Une muse en 1848', <i>Le Charivari</i>, 15 December 1848 (caricature); anonymous, 1855 (photograph)",
       "curiosities": "her mother named her Delphine because of the homonymous novel by Madame de Staël",
+      "member of": "Accademia Tiberina",
       "bibliography": "Challamel 1885",
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Delphine_de_Girardin)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delphine_Gay.jpg",
@@ -1813,7 +1815,7 @@
       "born in": "Dijon",
       "nationality": "French",
       "profession": "femme de lettres, novelist, playwright, author, painter and salonnière",
-      "literary salon or tertulia": "Hôtel de La Rochefoucauld-Liancourt, rue de Seine (from 1824 until her death): she hosts Victor Hugo, Sophie Gay, Delphine Gay, Mélanie Waldor, Rachel, Juliette Récamier, Saint-Simon, Alfred de Musset, Stendhal, Chateaubriand, Alphonse de Lamartine, Alfred de Vigny, Prosper Mérimée, Eugène Delacroix",
+      "literary salon or tertulia": "Hôtel de La Rochefoucauld-Liancourt, rue de Seine (from 1824 until her death): she hosts Victor Hugo, Sophie Gay, Delphine de Girardin, Mélanie Waldor, Rachel, Juliette Récamier, Saint-Simon, Alfred de Musset, Stendhal, Chateaubriand, Alphonse de Lamartine, Alfred de Vigny, Prosper Mérimée, Eugène Delacroix",
       "parents": "Thomas Chardon and Barbe Edmée Chardon",
       "married to": "Jacques-François Ancelot (1817)",
       "children": "three",
@@ -3613,7 +3615,7 @@
     },
     {
       "id": "Louis Viardot",
-      "label": "Viardot",
+      "label": "L. Viardot",
       "life dates": "1800-1883", 
       "born in": "Dijon",
       "nationality": "French",
@@ -3622,7 +3624,7 @@
       "in Spain": "in 1823-1824; 1834-35?; 1842 (to accompany his wife, an actress, in her tour)",
       "trips": "1843-44 Vienna and Russia; from 1846 Germany; 1863-1870 Bade",
       "participates in": "the 'Expedition d'Espagne' or 'Cien Mil Hijos de San Luis' in 1823",
-      "married to": "Pauline García (1838)",
+      "married to": "Pauline Viardot-García (1838)",
       "children": "Louise Héritte-Viardot (composer); Paul Viardot (violinist)",
       "studies in": "Faculté de Droit, Paris",
       "author of": [
@@ -3652,6 +3654,38 @@
       "curiosities": "he was a close friend of the composer Gioachino Rossini",
       "websites": "[Museo del Prado (Pierre Géal)](https://www.museodelprado.es/aprende/enciclopedia/voz/viardot-louis/a587ebc8-f89a-412f-8566-1d6c3abb76d6)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot.jpg"
+    },
+    {
+      "id": "Pauline Viardot-García",
+      "label": "P. Viardot",
+      "other names": "Pauline García",
+      "life dates": "1821-1910", 
+      "born in": "Paris",
+      "nationality": "French",
+      "profession": "opera singer, composer, pianist, musician", 
+      "parents": "Manuel García (singer and teacher) and Joaquina Briones",
+      "siblings": "María Malibrán (opera singer) and Manuel Patricio García (singer and teacher)",
+      "married to": "Louis Viardot (1840): she marries Viardot following the advice of George Sand",
+      "friends": "George Sand",
+      "children": "Paul Viardot, Louise Héritte-Viardot, Marianne Viardot, Claudie Viardot",
+      "masters": "her parents Manuel García and Joaquina Sitchez; Franz Liszt",
+      "curiosities": [
+        "She made her début at 16, in 1838, for a scene of <i>Otello</i> by Gioachino Rossini.",
+        "She was courted by Alfred de Musset, but rejected him.",
+        "In 1855 she acquired the original score of Mozart's <i>Don Giovanni</i>. She sang the role of Zerline in Saint-Petersburg. She donated to score to the Paris conservatory in 1903.",
+        "Berlioz made for her a French version for mezzo-soprano.",
+        "She performed several times with Clara Schumann (at 4 hands).",
+        "Saint-Saëns dedicated to her his <i>Samson et Dalila</i>.",
+        "She was the muse and lover of Ivan Turgenev"
+      ],
+      "literary salon or tertulia": "Pauline Viardot had an important musical salon (<i>le Salon Musical</i>), attended by I. Tourgueniev, Alexandre Dumas père, Honoré de Balzac, George Sand, C. Beriot, A. Vieuxtemps. The salon was portrayed on 19 March 1853 by H. Val and W. Best (<i>L'Illustration</i>); also portrayed in 1865 in Baden[-Baden",
+      "portrayed by": [
+        "Ary Scheffer, oil painting, 1840; George Sand, drawing, 1840-45; Maurice Sand, oil painting, 1844, Musée de la Vie romantique; unknown, print, c.1845; Ary Scheffer, 1851 (for a salon organ); Pierre Petit, photograph, 1860; Eugène Disdéri, photograph, 1861 (Pauline Viardot et Pierre-Jules Michot; Pierre Petit, photograph, 1860-90, Musée Carnavalet PH57485; Alexei Harlamov, oil painting, 1874; photograph, 1908.",
+        "Birgit Stauch, bronze bust, 2004."
+    ],
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot_Pauline.jpg",
+      "image source": "Pierre Petit, photograph 1860-90"
+
     },
     {
       "id": "Auguste Dutuit",
@@ -6290,6 +6324,34 @@
       "bibliography": "Lethève 1968"
     },
     {
+      "from": "Pauline Viardot-García",
+      "to": "Louis Viardot",
+      "connection_level": "direct", 
+      "relationship type": "spouses; husband-wife"
+    },
+    {
+      "from": "Pauline Viardot-García",
+      "to": "George Sand",
+      "connection_level": "direct", 
+      "relationship type": "close friends",
+      "portraits": "George Sand made a drawing of Pauline in 1840-45"
+    },
+    {
+      "from": "Pauline Viardot-García",
+      "to": "Eugène Delacroix",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "knew each other since": "at least 1840" 
+    },
+    {
+      "from": "Pauline Viardot-García",
+      "to": "Frédéric Chopin",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "knew each other since": "at least 1840",
+      "portraits": "Maurice Sand (George Sand's son) made a drawing in 1844 of Pauline and Chopin (Fryderyck Chopin Institute, Warszawa, Poland)"
+    },
+    {
       "from": "Louis Viardot",
       "to": "Gustave Doré",
       "connection_level": "direct", 
@@ -8010,7 +8072,7 @@
     },
     {
       "from": "Hortense Allart",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "relatives; cousins"
     },
@@ -8030,16 +8092,16 @@
     },
     {
       "from": "Amable Tastu",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
-      "relationship type": "friends? mentor-protegé?; Challamel says about Delphine Gay: 'les gens de tous les partis célébraient-ils la 'muse', qui grandissait à côté de Mme Amable Tastu' (1855, p.192)",
+      "relationship type": "friends? mentor-protegé?; Challamel says about Delphine de Girardin: 'les gens de tous les partis célébraient-ils la 'muse', qui grandissait à côté de Mme Amable Tastu' (1855, p.192)",
       "bibliography": "Challamel 1885"
     },
     {
       "from": "Virginie Ancelot",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
-      "relationship type": "acquaintances. Delphine Gay attended Ancelot's salon"
+      "relationship type": "acquaintances. Delphine de Girardin attended Ancelot's salon"
     },
     {
       "from": "Virginie Ancelot",
@@ -8457,10 +8519,10 @@
     },
     {
       "from": "Marceline Desbordes-Valmore",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "they shared": "Desbordes-Valmore frequently attended Delphine Gay's salon"
+      "they shared": "Desbordes-Valmore frequently attended Delphine de Girardin's salon"
     },
     {
       "from": "Marceline Desbordes-Valmore",
@@ -8609,14 +8671,30 @@
       "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Custine's mother Delphine was a close friend of Staël, who would dedicate to her her novel <i>Delphine</i> (1802)."
+      "shared": "Custine's mother Delphine was a close friend of Staël, who would dedicate to her her novel <i>Delphine</i> (1802).",
+      "mentions": [
+        "1830, 2 May, letter from Custine to Rahel: 'Par parenthèse, je déteste cette sotte distinction [entre classique et romantique]; je suis éclectique, et partisan du beau partout où je le trouve. Il y a du romantique dans Racine et du classique dans Shakespeare, et Mme de Staël a bêtifié notre siècle, en lui apprenant à distinguer ce qui ne doit pas l'être' (Merzbach 1870, p.355)",
+        "1843, 7 March, letter from Custine to Varnhagen: 'Mme de Staël disait: «tout comprendre, ce serait tout pardonner' (ibid, p.441).»"
+      ],
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Victor Hugo",
       "to": "Marquis de Custine",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Hugo attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)"
+      "know each other since": "at least 1829",
+      "mentions": [
+        "1829, 30 OCt, letter from Custine to Varnhagen: 'A propos, je suis enchantée des Orientales de Victor Hugo; je ne connais que cela de cet auteur; je me trouve mal si vous ne l'aimez pas' (Merzbach 1870, p.334).",
+        "1830, 28 March, letter from Custine to Rahel: 'Voici une épigramme contre Hernani, le drame par excellence de votre Hugo, qui a de si malheureuses prétentions au génie et qui me paraît somme un médecin qui voit parfaitement le mal, mais sans en trouver le remède. Il sent que notre littérature a besoin <i>d'être renouvelée</i>, et dit: me voilà! [...] Comme M. Hugo a plus compté encore sur ses amis que sur son telant et qu'il exerce une espèce de tyrannie sur l'opinion, dont lui-même se moque avec ses adeptes, comme enfin c'est le Roberspierre de la littérature, vous pouvez penser si cette analyse a eu du succès!' (ibid, pp.345-46).",
+        "1830, 2 May, letter from Custine to Rahel: 'l'ironie est la bonne foi d'une homme dondamné à la diversité, comme il arrive à tout poète qui veut être fécond, ou plutôt que la nature force à l'être. Elle manque totalement à M. Hugo, voilà pourquoi il a le talent le plus menteur que je connaise, et commet né classique, autant qu'on le puisse être, il s'est fait le chef de notre soi-disant école romantique. Par parenthèse, je déteste cette sotte distinction; je suis éclectique, et partisan du beau partout où je le trouve [...] J'aime quelques odes de M. Hugo, surtout les premières [...]' (ibid, pp.354-55).", 
+        "1840, 17 Dec, letter from Custine to Varnhagen: 'Lisez les vers de Victor Hugo: le retour de l'Empereur. Il y a des sentiments faux, il y en a de forcés et qui pis est, de communs, mais il y a des vers sublimes [...] et finissent après cinq magnifiques strophes, par celle-ci, que je regarde comme une des plus belles qu'il ait faites: «Dans ces heures de paix, les déserts, les vallées [...]»' (ibid, pp.395-96).",
+        "1841, 9 Jan, letter from Custine to Varnhagen: 'Voici une petite conversation que j'ai entendue hier chez Mme Récamier [Juliette Récamier]. M. de Chateaubriand causait avec M. de Salvandy sur la nomination de Victor Hugo, qui paraissait faire révolution dans l'académie; moi, je disais que la révolution serait au moins réciproque et que Victor Hugo serait aussi changé et plus que l'académie' (ibid, pp.403-4).",
+        "1843, 7 March, letter from Custine to Varnhagen: 'Nos grands esprits sont sur le chemin de la folie: Balzac est fou de la richesse qu'il n'a pas, Victor Hugo nous donne ce soir une trilogie, qui surpasse, selon l'ordre du jour communiqué à son armée (qui vieillit, par parenthèse) tout ce qu'on a jamais fait avant, pendant, et après Homère.-- -- Nous verrons!! [...] Le sens dramatique, c'est-à-dire, le talent de la vérité sans le noble, manque à Hugo' (Merzbach 1870, p.445). 'Victor Hugo est depuis longtemps dédaigné par cette nouvelle jeunesse sur laquelle il avait tant compté!-- -- et voilà qu'elle lui passe sur le corps au train des chemins de fer' (ibid, p.447).",
+        "1843, 5 April, letter from Custine to Varnhagen: 'La décadence du goût commence par l'indifférence à la vérité. [...] Qu'est-ce donc que le <i>Burgraviat</i, inventé par Victor Hugo? Quelle traduction ignorante de l'allemand! Vous voyez que je prétends à la vérité plus qu'à l'ordre des idées; car cette lettre est toute en post-scriptum' (ibid., p.452)."
+      ],
+      "shared": "Hugo attended Custine's salon [Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Victor Hugo",
@@ -8759,7 +8837,18 @@
         "Custine was possibly amongst the first people to hear Chopin's famous Funeral March (before it became the 3rd movement of the Sonata Op.35)",
         "Chopin played at a soirée at Astolphe's chateau at Saint-Gratien. Astolphe described the event to his friend the author Sophie Gay (22 Oct 1838): 'I had here yesterday something that made me very happy and very sad... Our Chopin is leaving for Valencia, Spain, that is to say for another world. You have no idea what George Sand has achieved in one summer! Consumption has seized that figure and transformed it into a soul without a body. He played to bid us farewell, with all the expression with which you are familiar. [...] Then, to finish, funeral marches, which, despite myself, made me burst into tears. It was the cortège leading him to his final resting place; and when I thought I might not see him again, my heart bled. The poor man does not see that this woman has the love of a vampire!'.",
         "1841, 27 April: Chopin was able to play again in Paris."
-      ]
+      ],
+      "mentions": "1840, 20 Nov, letter from Custine to Varnhagen: '[Chez George Sand]Ses enfants et quelques artistes étaient dans la chambre, parmi eux se trouvaient un homme de talent et d'esprit, Eugène Delacroix, Mme Viardot, autrement dite Mlle Pauline Garcia et Chopin, le premier pianiste du monde, sans excepter Liszt ni Thalberg!' (Merzbach 1870, p.389).", 
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
+    },
+    {
+      "from": "Eugène Delacroix",
+      "to": "Marquis de Custine",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1840",
+      "mentions": "1840, 20 Nov, letter from Custine to Varnhagen: '[Chez George Sand]Ses enfants et quelques artistes étaient dans la chambre, parmi eux se trouvaient un homme de talent et d'esprit, Eugène Delacroix, Mme Viardot, autrement dite Mlle Pauline Garcia et Chopin [...]' (Merzbach 1870, p.389).", 
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Honoré de Balzac",
@@ -8781,10 +8870,15 @@
         "Balzac attended Custine's salon.",
         "They meet in 1835 in Vienna (Custine meets Mme Hanska)."
       ],
-      "mentions": "Balzac mentions Custine's <i>L'Espagne sous Ferdinand VII</i> in the preface of <i>La femme supérieure</i> (or <i>Les Employés</i>), pp.XXII-XXIII, XXXV-XXXVI. 'Cette page dithyrambique eût été mieux sous toute autre plume que celle de M. le marquis de Custine, à qui sa fortune héréditaire permet de dédaigner celle qu'il pourrait conquérir avec sa plume […] Le sacerdoce dont parle M. de Custine exige une vie tout arrangée, sans préoccupations matérielle ni soucis' (p.XXXVI). [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6214627x)",
+      "mentions": [
+        "1837-38 Balzac mentions Custine's <i>L'Espagne sous Ferdinand VII</i> in the preface of <i>La femme supérieure</i> (or <i>Les Employés</i>), pp.XXII-XXIII, XXXV-XXXVI. 'Cette page dithyrambique eût été mieux sous toute autre plume que celle de M. le marquis de Custine, à qui sa fortune héréditaire permet de dédaigner celle qu'il pourrait conquérir avec sa plume […] Le sacerdoce dont parle M. de Custine exige une vie tout arrangée, sans préoccupations matérielle ni soucis' (p.XXXVI). [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6214627x)",
+        "1841, 12 Jan, letter of Custine to Varnhagen: 'On ne sait pas ce qu'on devenu M. de Balzac; les uns le disent en prison pour dettes, les autres enfermé volontairement pour traviller. Son travail est encore une dette qu'il paie à son ambition et à sa vanité: et voilà le malheur' (Merzbach 1870, p.405).",
+        "1843, 7 March, letter of Custine to Varnhagen: 'Nos grands esprits sont sur le chemin de la folie: Balzac est fou de la richesse qu'il n'a pas [...]]' (Merzbach 1870, p.445).",
+        "1843, 7 Aug, letter of Custine to Varnhagen: 'Vilà Balzac appelé pour me réfuter. Ceci est le commencement d'une guerra; mais je ne compte pas la soutenir: il était dans mon caractère de jeter le premier cri; que d'autres viennent après pour continuer l'attaque: je me contente de les avoir avertis' (Merzbach 1870, p.469)."
+      ],
       "link to Goya's work": "letter from Aug-Sept 1838: Balzac mentions to Custine a 'disparate féminin, qui est masculin' (reference to Goya's <i>Disparates</i>) (Fayos Pérez 2025-2026, upcoming)",
       "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
-      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Pierrot & Yon 2011, vol.2; Pierrot & Yon 2006, vol.1"
+      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Pierrot & Yon 2011, vol.2; Pierrot & Yon 2006, vol.1; H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Honoré de Balzac",
@@ -8918,8 +9012,24 @@
       "connection_level": "direct",
       "relationship type": "acquaintances", 
       "shared": "Sand attended Custine's salon",
+      "mentions": [
+        "1840, 20 Nov, letter from Custine to Varnhagen: 'Vous aurez lu la lettre de Liszt dans la <i>Revue des deux Mondes</i>. Quelques personnes pensent que la réplique est de Mme Sand; je n'en serais pas étonné: il faut avoir aimé un homme pour l'arranger de la sorte. Elle prépare un nouveau roman: le sujet est l'amour d'une grande dame pour un ouvrier, et le but, le partage des bien. Autrefois on ne croyait à l'amour que lorsqu'il élevait les âmes, aujourd'hui on n'y croit que lorsqu'il dégrade les personnes. Cela me dégoûte de ce que j'avais de plus sacré' (Merzbach 1870, p.386).",
+
+        "1840, 10 Dec, letter from Custine to Varnhagen: 'j'ai lu le nouvel ouvrage de Mme Sand. Enfin voici un livre fait avec des espérances! -- Fourrier, Leroux, Lamennais et St. Simon en sont pour les frais de pensée, Mme Sand pour la rédaction. La pensée dominante, c'est l'égalité: la terre appartient à tous et n'appartient à personne [...].",
+        "Mme Sand ne cause pas; ce qui l'intéresse l'émeut trop vivement pour en pouvoir parler, et elle dédaigne ce qui ne l'intéresse pas. Elle m'a paru embaillie quoiqu'un peu engraissée; je lui crois de la bonté, mais peu de sensibilité. [...] Ses enfants et quelques artistes étaient dans la chambre, parmi eux se trouvaient un homme de talent et d'esprit, Eugène Delacroix, Mme Viardot, autrement dite Mlle Pauline Garcia et Chopin, le premier pianiste du monde, sans excepter Liszt ni Thalberg!' (ibid, p.389).",
+        "'Une des idées favorites de Mme Sand, c'est que les sociétés secrètes qui minent la grande société, ne dérivent leur existence qu'aux injustices consacrées dans celle-ci. Du jour où l'équité, c'est-à-dire l'égalité universelle sera proclamée dans le monde' (ibid, p.390).",
+        "'Mlle Bertin me disait hier un mot que je veux vous citer: «Mme Sand», disait-elle, «n'a rien fait pour les femmes, au contraire; elle abdique leur vrai pouvoir, c'est Omphale <i>fumant</i> aux pieds d'Hercule, j'amais mieux le contraire»' (ibid, p.443).",
+        "1846, 23 May, letter from Custine to Varnhagen: 'Mme Sand croit aux bienfaits des révolutions, et elle s'imagine atténuer leur violence en offrant aux révolutionnaires plus qu'ils ne demandent ni n'espèrent: voilà ce qui me sépare d'elle' (ibid, p.499)."
+    ],
       "websites": "[Wikipedia](https://nl.wikipedia.org/wiki/Astolphe_de_Custine)",
-      "bibliography": "Samantha Caretti, 'La vérité et l'idéal: Astolphe de Custine, lecteur de George Sand', <i>Cahiers George Sand</i>, no.41, Sept 2019"
+      "bibliography": "Samantha Caretti, 'La vérité et l'idéal: Astolphe de Custine, lecteur de George Sand', <i>Cahiers George Sand</i>, no.41, Sept 2019; H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
+    },
+    {
+      "from": "Marquis de Custine",
+      "to": "Louise Bertin",
+      "relationship type": "acquaintances", 
+      "interactions": "1843, 7 March, letter from Custine to Varnhagen: 'Mlle Bertin me disait hier un mot que je veux vous citer: «Mme Sand», disait-elle, «n'a rien fait pour les femmes, au contraire; elle abdique leur vrai pouvoir, c'est Omphale <i>fumant</i> aux pieds d'Hercule, j'amais mieux le contraire»' (Merzbach 1870, p.443).",
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Marquis de Custine",
@@ -8928,6 +9038,13 @@
       "correspondence": "yes. For instance on 22 Oct 1838 he described the last concert given by Chopin in Paris before leaving for Mallorca, at Custine's chateau (see Custine-Chopin's edge).",
       "bibliography": "Bénichou 2004, p.9",
       "websites": "[Facebook post](https://www.facebook.com/JackGibbonsPiano/posts/astolphe-de-custine-was-a-huge-supporter-of-chopin-and-one-of-the-very-first-to-/10157874644944384/) by Jack Gibbons, 26 July 2019"
+    },
+    {
+      "from": "Marquis de Custine",
+      "to": "Delphine de Girardin",
+      "relationship type": "friends", 
+      "mentions": "1842, 26 Dec, letter from Custine to Vernhagen: 'Mme Émile de Girardin a fait une tragédie de Judith: elle l'a lue à tout Paris' (Merzbach 1870, p.439)",
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Marquis de Custine",
@@ -8952,85 +9069,87 @@
     },
     {
       "from": "Sophie Gay",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "relatives; mother-daughter"
     },
     {
       "from": "Victor Hugo",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
       "shared": "social and artistic circle in the salons. Delphine was present at the opening of Hugo's <i>Le roi s'amuse</i> in 1832"
     },
     {
       "from": "Théophile Gautier",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Gautier frequently attended Delphine Gay's salon"
+      "shared": "Gautier frequently attended Delphine de Girardin's salon",
+      "mentions": "she is mentioned in Gautier's <i>Portraits et souvenirs littéraires</i>, Paris, Michel Lévy Frères, 1875."
     },
     {
       "from": "Alfred de Musset",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Musset frequently attended Delphine Gay's salon"
+      "shared": "Musset frequently attended Delphine de Girardin's salon"
     },
     {
       "from": "Alexandre Dumas père",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Dumas frequently attended Delphine Gay's salon"
+      "shared": "Dumas frequently attended Delphine de Girardin's salon"
     },
     {
       "from": "Fortunée Hamelin",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Hamelin frequently attended Delphine Gay's salon"
+      "shared": "Hamelin frequently attended Delphine de Girardin's salon"
     },
     {
       "from": "George Sand",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Sand frequently attended Delphine Gay's salon"
+      "shared": "Sand frequently attended Delphine de Girardin's salon"
     },
     {
       "from": "Alphonse de Lamartine",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "shared": "Lamartine frequently attended Delphine Gay's salon"
+      "shared": "Lamartine frequently attended Delphine de Girardin's salon",
+      "mentions": "Lamartine, 'Madame de Girardin', in <i>Souvenirs et portraits</i>, t.1, Paris, 1871, pp.370-402"
     },
     {
       "from": "Honoré de Balzac",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "friends",
       "shared": "social and artistic circle in the salons",
       "correspondence": "at least 12 letters from 1836 to 1840 (Pierrot & Yon 2011).",
-      "mentions": "Delphine Gay wrote <i>La Canne de M. de Balzac</i> in 1836, a satirical novel of contemporary society",
+      "mentions": "Delphine de Girardin wrote <i>La Canne de M. de Balzac</i> in 1836, a satirical novel of contemporary society",
       "bibliography": "Pierrot & Yon 2011"
     },
     {
       "from": "Charles Nodier",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
       "shared": "social and artistic circle in the salons"
     },
     {
       "from": "Juliette Récamier",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
-      "to": "Delphine Gay",
+      "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances"
     },
@@ -9044,13 +9163,19 @@
     {
       "from": "Marquis de Custine",
       "to": "Alphonse de Lamartine",
-      "relationship type": "acquaintances"
+      "connection_level": "direct?",
+      "relationship type": "acquaintances? Custine greatly admired Lamartine",
+      "mentions": "1843, 5 April?, letter from Custine to Varnhagen: 'Voilà M. de Lamartine devenu l'espoir de la révolution. L'autre soir, j'ai rencontré chez lui tous les hommes de désordre et de bouleversement. On dit qu'il se promet de jouer le rôle de l'Espartero sous la régence qui nous menace. [...] On ne comprend rien à M. de Lamartine: il est plus vague que grand; c'était un admirable poëte élégiaque; il sera, je crois, un noble orateur; mais, comme chef de parti, je le trouve nul' (Merzbach 1870, p.453).",
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Marquis de Custine",
       "to": "Juliette Récamier",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances",
+      "knew each other since": "at least since 1841",
+      "mentions": "1841, 9 Jan, letter from Custine to Varnhagen: 'Voici une petite conversation que j'ai entendue hier chez Mme Récamier. M. de Chateaubriand causait avec M. de Salvandy sur la nomination de Victor Hugo, qui paraissait faire révolution dans l'académie; moi, je disais que la révolution serait au moins réciproque et que Victor Hugo serait aussi changé et plus que l'académie' (Merzbach 1870, pp.403-4).",
+      "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
     {
       "from": "Marquis de Custine",
