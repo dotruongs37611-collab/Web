@@ -6338,6 +6338,20 @@
     },
     {
       "from": "Pauline Viardot-García",
+      "to": "Alexandre Dumas père",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "interactions": "Dumas attended her musical salon (<i>Salon musical</i>)"
+    },
+    {
+      "from": "Pauline Viardot-García",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "interactions": "Dumas attended her musical salon (<i>Salon musical</i>)"
+    },
+    {
+      "from": "Pauline Viardot-García",
       "to": "George Sand",
       "connection_level": "direct", 
       "relationship type": "close friends",
