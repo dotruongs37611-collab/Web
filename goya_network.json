@@ -6331,6 +6331,13 @@
     },
     {
       "from": "Pauline Viardot-García",
+      "to": "Alfred de Musset",
+      "connection_level": "direct", 
+      "relationship type": "acquaintances",
+      "interactions": "Musset courted her but she rejected him"
+    },
+    {
+      "from": "Pauline Viardot-García",
       "to": "George Sand",
       "connection_level": "direct", 
       "relationship type": "close friends",
