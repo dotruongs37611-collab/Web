@@ -1605,12 +1605,38 @@
       "image source": "Nadar photograph, 1867"
     },
     {
-      "id": "Martínez de la Rosa",
+      "id": "Francisco Martínez de la Rosa",
       "label": "Martínez Rosa",
-      "life dates": "1802-1870", 
+      "life dates": "1787-1862", 
       "nationality": "Spanish",
+      "full name": "Francisco de Paula Martínez de la Rosa Berdejo Gómez y Arroyo",
+      "born in": "Granada",
+      "profession": "politician, playwright, poet, diplomat",
+      "curiosities": [
+        "Before resigning in 1834, he approved the royal decree that finally abolished the Spanish Inquisition.",
+        "He was activie within Freemasonry."
+      ],
+      "in Paris": [
+        "1823-1831 exile: caused by the restoration of Absolutism in Spain.",
+        "1839-1840 Spanish ambassador"
+      ],
+      "in Italy": "1842-1843 Spanish ambassador in Rome",
+      "author of": "<i>Obras literarias</i> (1827): published in Paris during his exile; <i>Abén Humeya</i> (1830): played at Porte Saint-Martin, Paris; <i>La Conjuración de Venecia</i> (1834): seen as a pioneer of the Romantic drama in Spain (Chisholm 1911); <i>Espíritu del siglo</i> (1835): summary of all the commonplaces concerning the philosophy of history; <i>Doña Isabel de Solís</i> (1837-46): imitation of Walter Scott's historical novels (Chisholm 1911).",
+      "influenced by": "Leandro Fernández de Moratín; Juan Meléndez Valdés",
+      "studies in": "Universidad de Granada: Moral Philosophy (1808)",
+      "participated in": "Cortes de Cádiz (1812)",
+      "military activity": "Peninsular War (with the liberal revolutionaries)",
+      "political views": "liberal (imprisoned with the return of Fernando VII). Member of the Partido Moderado (centrist within liberals). Then joined Conservative Party.",
+      "member of": "Real Academia de Ciencias Morales y Políticas; Real Academia Española; Real Academia de la Historia",
+      "decorations/awards": [
+        "Caballero de la Orden del Toisón de Oro (Golden Fleece) (1851); Caballero gran cruz de la Orden de Carlos III.",
+        "Gran Cruz de la Orden Nacional de la Legión de Honor (France); Caballero Gran Cruz de la Orden del León Holandés (Holand); Caballero gran cruz de la Orden de los Santos Mauricio y Lázaro (Kingdom of Sardinia); Gran Cruz de la Orden Nacional de la Cruz del Sur (Brazilian Empire); Orden de San Jenaro (Kingdom of the Two Sicilies); Caballero gran cruz de la Orden de Pio IX (Vatican); Caballero de la Orden de la Gloria (Ottoman Empire); Caballero de la Suprema Orden de Cristo (Kingdom of Portugal); Caballero gran cruz de la Orden del Redentor (Kingdom of Greece)."
+      ],
+      "works as": "politician during the Trieno Liberal (1820-23): Presidente del Congreso de los Diputados (1821), Secretario de Estado (1822). Presidente del Consejo de Ministros (1834-35); Ministro de Estado (1834-35)",
+      "portrayed by": "Federico de Madrazo, litograph, 1835 (<i>El Artista</i>); Antonio María Esquivel, <i>Los poetas contemporáneos</i>, 1846, Prado (collective portrait: includes José de Espronceda and Pedro de Madrazo); unknown, oil painting, 1850, Ateneo de Madrid; unkown, photograph, 1860; Gabriel Maureta, posthumous oil painting based on Madrazo's lithography, c.1881, Prado; Francisco Díaz Carreño, posthumous oil painting, c.1880, RAH",
+      "bibliography": "Hugh Chisholm, 'Martínez de la Rosa, Francisco de Paula', in <i>Encylopaedia Britannica</i>, vol.17 (11th ed.), Cambridge UP, 1911",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martinez_Rosa.jpg",
-      "image source": "daguerrotype by Bisson, 1842"
+      "image source": "1850 Ateneo de Madrid"
     },
     {
       "id": "Alexandre Dumas père",
@@ -2413,14 +2439,14 @@
         "Honorary <i>Pintor de cámara</i> of Isabel II (1840)"
       ],
       "in Madrid": "from 1820; 1834-1840; 1844 (he meets Isabel II via the Marchioness of Santa Cruz).",
-      "in France": "1840-44 (during the Espartero regency). In 1843 he meets King Louis-Philippe.",
+      "in Paris": "1840-44 (during the Espartero regency). In 1843 he meets King Louis-Philippe.",
       "influenced by": "David Roberts (whom he meets in Sevilla in 1833)",
       "military activity": "he enlists in the liberal army in 1823 to fight the French army (<i>Cien Mil Hijos de San Luis</i>).",
       "studies in": "Real Colegio Militar de Santiago de Compostela (from 1812); Reales Estudios de San Isidro (from 1820); Escuela de Bellas Artes.",
       "trips": "Puerto Rico 1830",
-      "author of": "1842-1850 <i>España artística y monumental</i> (Paris).",
+      "author of": "1842-1850 <i>España artística y monumental</i>: published in Paris with Patricio de la Escosura.",
       "portrayed by": "Louis-Joseph Ghémar, drawing, 1850; Eugenio Lucas Velázquez, oil sketch.",
-      "bibliography": "Hopkins 2021",
+      "bibliography": "Hopkins 2021;E. Arias Anglés, <i>El paisajista romántico Jenaro Pérez Villaamil</i>, 1986, CSIC; Xavier de Salas Bosch, 'Varias notas sobre Jenaro Pérez Villaamil', <i>Archivo Español de Arte</i>, vol.31, no.124, pp.273-98; Pérez Villaamil's diary, published by Méndez Casal in 1921, and Arias Anglés in 1986",
       "decorations/awards": "Caballero de la Orden de Isabel la Católica (1838); Encomienda de la Orden de Isabel la Católica (1840); Caballero de la Orden Nacional de la Legión de Honor (1844); Cruz de la Orden de Carlos III (1844); Caballero de La Orden de Leopoldo (1845)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Perez_Villaamil.jpg",
       "image source": "Ghémar portrait 1850"
@@ -5161,6 +5187,107 @@
       "portraits": "1792, New York, [Metropolitan Museum, 06.289](https://www.metmuseum.org/art/collection/search/436541)"
     },
     {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Honoré de Balzac",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "knew each other since": "at least 1830",
+      "exchanges": "Balzac's <i>El verdugo</i> (1830) (from <i>La Comédie humaine</i>), set in Spain during the Peninsular War, is dedicated to Martínez de la Rosa. [Gutenberg.org](https://gutenberg.org/cache/epub/72034/pg72034-images.html)"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "knew each other since": "at least 1841",
+      "interactions": "in London: 1841, 18 July (Lanzarote Guiral 2016, p.29); in Paris: 1842, 20 Jan (ibid, p.98), 22 May (p.128), 6 Oct (p.155), 15 Oct (p.159), 29 Oct (p.163), 19 Nov (p.166), 27 Nov (p.167); 1843, 20 May (p.199); 1855, 5 Sept (p.281).",
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Jenaro Pérez Villaamil",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "knew each other since": "at least 1841",
+      "collaborations": "several drawings by Carderera were included in Pérez Villaamil's <i>España artística y monumental</i> (1842-1850), published in Paris with Patricio de la Escosura: Salón de la Aljafería de Zaragoza, 'G. P. de Villa Amil lo dibujó por un croquis de D. Valentín Carderera'; Calatayud, 'Genaro Pérez de Villaamil d'aprés un croquis de Mr. Carderera'. However, Carderera complained to Pérez Villaamil because 11 other illustrations had not been properly attributed to him. He also expresses his dislike of some plates in <i>España monumental</i> in a letter to Federico de Madrazo in 1845 (LG 2016, p.XXXVI-XXXVIII)",
+      "interactions": "in Paris: 1841; 28 April (Lanzarote Guiral 2016, p.8), 6 May (p.11), 26 Aug in London (p.42), 26 Nov (p.78), 4 Dec (p.82); 1842, 22 May (p.128), 17 Sept (p.149), 30 Sept (p.153)",
+      "bibliography": "Lanzarote Guiral 2016; Xavier de Salas Bosch, 'Pérez Villaamil y Carderera', <i>Archivo Español de Arte</i>, vol.36, no.141, pp.83-84."
+    },
+    {
+      "from": "Jenaro Pérez Villaamil",
+      "to": "II Duke of San Carlos",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "interactions": "Villaamil met San Carlos on 13 July 1843 in Montmorency (LG 2016, p.210), a gathering also attended by Valentín Carderera and Eugenio Ochoa among others",
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Jenaro Pérez Villaamil",
+      "to": "Eugenio Ochoa",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "interactions": [
+        "They both attended a gathering at Montmorency on 13 July 1843 (LG 2016, p.210), alongside II Duke of San Carlos and Valentín Carderera.",
+        "Villaamil attended Ochoa's burial in 1872, as written by Antonio María Segovia (LG 2016, p.XXV)"
+      ],
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Federico de Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; portraitist-sitter",
+      "knew each other since": "at least 1835",
+      "portraits": "1835, lithograph in <i>El Artista</i>"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Fernando VII",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?",
+      "interactions": "Martínez de la Rosa is imprisoned with the return of Fernando VII, because of his participation in the liberal Constitution of 1812"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Pedro de Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "they both are portrayed in Esquivel's <i>Los poetas contemporáneos</i> (1846, Prado)"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Pedro de Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "they both are portrayed in Esquivel's <i>Los poetas contemporáneos</i> (1846, Prado) (Espronceda posthumously, in a portrait within the portrait)"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "María Cristina de Borbón-Dos Sicilias",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "employment/patronage": "Martínez de la Rosa is chosen to form a government in 1834-35"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Isabel II",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "employment/patronage": "Martínez de la Rosa is chosen to form a government in 1834-35 during Isabel II's regency"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Leandro Fernández de Moratín",
+      "connection_level": "secondary?",
+      "relationship type": "Martínez de la Rosa was influenced by Moratín's writing"
+    },
+    {
+      "from": "Francisco Martínez de la Rosa",
+      "to": "Juan Meléndez Valdés",
+      "connection_level": "secondary?",
+      "relationship type": "Martínez de la Rosa was influenced by Meléndez Valdés's writing"
+    },
+    {
       "from": "Francisco de Goya",
       "to": "Pierre Lacour fils",
       "connection_level": "direct",
@@ -7594,7 +7721,10 @@
         "1861 they both participate in the Artistic Conference (Congreso Artístico) in Amberes.",
         "19 Aug 1861 (Paris), with Baron Taylor and Eugenio Ochoa"
       ],
-      "correspondence": "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Federico de Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París'.",
+      "correspondence": [
+        "1837-XII-3, Paris, Madrazo to Carderera: Adrien Dauzats recommends Carderera, via Federico de Madrazo, to go to Paris ('de pensar venirse a Francia debe indudablemente  ser a París'.",
+        "1845-X-15, Carderera to Madrazo: expresses his dislike for some plates in Jenaro Pérez Villaamil's <i>España monumental</i>; he describes the commission from María Cristina de Borbón-Dos Sicilias and her husband at Malmaison, Paris. AMNP (AP Madrazo 6/62)."
+      ],
       "bibliography": "Lanzarote Guiral 2016, pp.XXIII, 558; Díez 1994, no.528, pp.988-89."
     },
     {
