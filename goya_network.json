@@ -5255,8 +5255,15 @@
       "portraits": "they both are portrayed in Esquivel's <i>Los poetas contemporáneos</i> (1846, Prado)"
     },
     {
-      "from": "Francisco Martínez de la Rosa",
+      "from": "José de Espronceda",
       "to": "Pedro de Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "portraits": "they both are portrayed in Esquivel's <i>Los poetas contemporáneos</i> (1846, Prado) (Espronceda posthumously, in a portrait within the portrait)"
+    },
+    {
+      "from": "José de Espronceda",
+      "to": "Francisco Martínez de la Rosa",
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "portraits": "they both are portrayed in Esquivel's <i>Los poetas contemporáneos</i> (1846, Prado) (Espronceda posthumously, in a portrait within the portrait)"
