@@ -2265,13 +2265,17 @@
       "nationality": "French",
       "profession": "engraver, lithographic draughtsman, art dealer",
       "author of": "lithographs for works such as: <i>Encyclopédie d'architecture</i> (Balthazar Bance and Victor Caillat eds.), 13 vols., 1850-63; <i>Collection de douze écrans dessinés par François Boucher gravées à l'eau-forte par Carresse</i> (E. Chardon and M. Rapilly, eds.), Paris 1855-57; engravings after Jean-Antoine Watteau (<i>Le duo champêtre</i> and <i>La danse bachique</i>, published by Auguste Delatre in Paris in 1855-57); <i>Recueil d'Estampes relatives à l'Ornementation des Appartements aux XVIe, XVIIe et XVIIIe siècles, gravées en facsimile par M.M.R. Pfnor, Carresse et Riester [...]</i> (H. Destailleur ed.), Paris 1863-71; <i>Dictionnaire raisonné du mobilier français de l'époque carlovingienne à la renaissance</i> (Viollet-le-Duc ed.), 1872 Paris vol.1 (Fayos Pérez 2020, p.1051).",
-      "knows Goya's works": "<i>Disparates</i> (from 1856); <i>Toros</i> (probably <i>Bulls of Bordeaux</i> 1825) (mentioned in a 1857 letter to Valentín Carderera: see Carresse-Carderera edge) (Fayos Pérez 2020, pp.1051-53).",
+      "knows Goya's works": [
+        "<i>Disparates</i> (from 1856).", 
+        "<i>Toros</i> (probably <i>Bulls of Bordeaux</i> 1825) (mentioned in a 1857 letter to Valentín Carderera: see Carresse-Carderera edge) (Fayos Pérez 2020, pp.1051-53).",
+        "Prints after Velázquez such as <i>Diego de Acedo, 'El Primo'</i> (1778) (ibid.)."
+      ],
       "collector of Goya's works": [
         "1855, 8 Nov: Valentín Carderera gives him 6 Goya prints. 'Vino el barbero, luego Carresse, a quien regalé seis estampas de Goya' (PF 2020, p.1051; Lanzarote Guiral 2016, p.305).",
         "1855, 19 Dec: Valentín Carderera gives him four Goya [prints]. 'Después [vino a mi casa] Carresse. Dile cuatro goyas' (PF 2020, p.1051; LG 2016, p.322).",
         "1856, 27 July: Valentín Carderera shows him some more works by Goya. 'Volvimos a casa [con Carresse]. Vio mi cajeta, le enseñé lo de Goya' (PF 2020, p.1051; LG 2016, pp.334-35).",
         "1856, 15 Dec: Valentín Carderera gives him a set of the <i>Proverbios</i> (<i>Disparates</i>), which wouldn't be published until 1864. 'Después Carresse, a quien di las estampas de Goya de Los Proverbios' (PF 2020, p.1052; LG 2016, p.376).",
-        "1859, 1 Sept: Valentín Carderera presents him with more prints by Goya, including one of 'the 'dwarf', probably after Velázquez (1778), <i>Diego de Acedo, 'El Primo'</i> . 'Regalé a Carresse varias estampitas y [1 de Jaca] de Goya y otra del Enano' (PF 2020, pp.1052-53; LG 2016, p.387)."
+        "1859, 1 Sept: Valentín Carderera presents him with more prints by Goya, including one of 'the 'dwarf', probably after Velázquez (1778), <i>Diego de Acedo, 'El Primo'</i>. 'Regalé a Carresse varias estampitas y [1 de Jaca] de Goya y otra del Enano' (PF 2020, pp.1052-53; LG 2016, p.387)."
       ],
       "bibliography": "Fayos Pérez 2020; Lanzarote Guiral 2016; B. Bouvier, <i>L'édition d'architecture à Paris au XIXe siècle: les maisons Bance et Morel et la presse architecturale</i>, 2004",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg",
