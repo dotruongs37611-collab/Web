@@ -492,8 +492,9 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "collection", label: "Collection" },
           { type: "field", key: "art collection", label: "Art collection" },
           { type: "field", key: "collector of", label: "Collector of" },
-          { type: "field", key: "exhibitions", label: "Exhibitions" },
           { type: "field", key: "sales", label: "Sales" },
+          { type: "field", key: "exhibitions", label: "Exhibitions" },
+          { type: "field", key: "museum collections", label: "Museum collections" },
 
           { type: "section", label: "Geographic Presence and Movement" },
           { type: "field", key: "lives in", label: "Lives in" },
@@ -525,6 +526,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "section", label: "Sources and Documentation" },
           { type: "field", key: "archives", label: "Archives" },
           { type: "field", key: "bibliography", label: "Bibliography" },
+          { type: "field", key: "conferences/seminars", label: "Conferences/seminars" },
           { type: "field", key: "newspaper archive", label: "Newspaper archive" },
           { type: "field", key: "websites", label: "Websites" },
           { type: "field", key: "podcasts", label: "Podcasts" },
