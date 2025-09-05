@@ -1427,7 +1427,8 @@
         ],
       "collector of Goya's works": "<i>Bulls of Bordeaux</i>; <i>Tauromaquia</i> (lot 66, 24-25 Feb 1873 sale): sold Sotheby's Paris, 14 Dec 2022, lot 37 (showing Valentín Carderera's dedicatory to Gautier); <i>Tauromaquia</i> set given by Valentín Carderera on 13 Nov 1859 (Lanzarote Guiral 2016, p.431)",
       "portrayed by": "Auguste de Châtillon, 1839, Musée Carnavalet (oil painting); Bertall, 1850 (photograph); Amédée Bodin after Théodore Chassériau, 1850 (drawing); Nadar, photographs, 1850, 1854-55 (Getty), 1855, 1856; Albert-Ernest Carrier-Belleuse, 1862 (sculpture: bust); Hippolite Mailly, 1862 (caricature); André Gill, 1869, <i>L'éclipse</i> (caricature)",
-      "bibliography": "Fayos Pérez 2024; Lanzarote Guiral 2016; Lacoste-Veysseyre 2014; Hovasse 2001; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
+      "bibliography": "'Gautier et l'illustration', <i>Bulletin de la Société Théophile Gautier</i>, no.46, 2024; Fayos Pérez 2024; Lanzarote Guiral 2016; Lacoste-Veysseyre 2014; Hovasse 2001; 'L'esprit de Th. Gautier: grotesque, humour, fantaisie & Th. Gautier hors de France', <i>Bulletin de la Société Théophile Gautier</i>, no.23, 2001; 'Gautier et l'Espagne & varia', <i>Bulletin de la Société Théophile Gautier</i>, no.22, 2000; Moulinat 1995; Lacoste-Veysseyre 1982; Delesalle 1982",
+      "websites": "[Société Théophile Gautier](theophilegautier.fr)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg",
       "image source": "Nadar photograph, 1854-55, Getty 84.XM.436.7"
     },
@@ -5410,6 +5411,13 @@
       "relationship type": "friends"
     },
     {
+      "from": "Théophile Gautier",
+      "to": "Gustave Flaubert",
+      "connection_level": "direct",
+      "relationship type": "acquaintances?",
+      "bibliography": "'Flaubert et Gautier. Affinités électives', <i>Bulletin de la Société Théophile Gautier</i> no.42, 2020."
+    },
+    {
       "from": "Edmond de Goncourt",
       "to": "Émile Zola",
       "connection_level": "direct",
@@ -8813,8 +8821,18 @@
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
       "relationship type": "friends",
-      "know each other since": "1827, 27 June, (Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1, p.411; Lacoste-Veysseyre 2014, p.347)",
-      "they shared": "Gautier was part of Hugo's 'Cénacle'"
+      "know each other since": "1829, 27 June (Lacoste-Veysseyre 2014, p.347)",
+      "they shared": "Gautier was part of Hugo's 'Cénacle'",
+      "correspondence": [
+        "1870?, 20 Dec, letter from Gautier to Hugo.",
+        "1876, 4 Oct, letter from Gautier to Hugo. Maison Victor Hugo a4354, [Paris Musées](https://www.parismuseescollections.paris.fr/fr/maison-de-victor-hugo/oeuvres/lettre-de-gautier-a-victor-hugo#infos-principales)"
+      ],
+      "mentions": [
+        "1835, 15 Dec: Hugo praises <i>Mademoiselle de Maupin</i> in the journal <i>Vert-Vert</i>. [Text](www.theophilegautier.fr/wp-content/uploads/2010/06/Victor-Hugo.pdf)",
+        "1872, 24 June, letter from Hugo to Jules Simon (Ministre de l'Instruction publique): 'Théophile Gautier est un des hommes qui honorent notre pays et notre temps ; il est au premier rang comme poète, comme critique, comme écrivain. Sa renommée fait partie de la gloire française. Eh bien, à cette heure, Théophile Gautier lutte à la fois contre la maladie et contre la détresse. (…) Je vous demande, au nom de l'honneur littéraire de notre pays, de lui venir en aide avec cette promptitude qui double le bien qu'on fait, et d'attribuer à Théophile Gautier la plus forte indemnité annuelle dont vous puissiez disposer'."
+      ],
+      "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1.",
+      "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)"
     },
     {
       "from": "Victor Hugo",
@@ -8965,7 +8983,11 @@
       "mentions": "Gautier: 'Je travaille à <i>La Chronique de Paris</i> qui est maintenant dirigée par Balzac qui est un bon gros porc très plein d'esprit et très agréable à vivre' (letter of Gautier to  E. de Nully, 1836)",
       "correspondence": "at least 6 letters from 1837 to 1840 (Pierrot & Yon 2011, vol.2: 37-109, 39-81, 39-107, 39-300, 39-312, 40-86)",
       "curiosities": "Gautier tried to introduce Balzac in the world of drugs ('paradis artificiels') but Balzac preferred coffee. [Wikipedia](https://fr.wikipedia.org/wiki/Balzac_face_aux_%C3%A9crivains_de_son_si%C3%A8cle)",
-      "bibliography": "Pierrot & Yon 2011, vol.2"
+      "bibliography": [
+        "'Gautier/Balzac. Parcours croisés', <i>Bulletin de la Société Théophile Gautier</i> no.37, 2015: Patrick Berthier, 'La naissance de la collaboration avec Balzac' (pp.13-23); Véronique Bui, 'Balzac, Gautier et la Chine' (pp.23-41); Sylvie Thorel, 'Balzac et Gautier, fantastiqueurs' (pp.41-55); Giovanna Bellati, 'Théophile Gautier critique du théâtre de Balzac' (pp.55-69); Aude Déruelle, 'Le Balzac de Gautier' (pp.69-85); José-Luis Díaz, 'La modernité de Balzac selon Gautier' (pp.85-103); Marie-Hélène Girard, 'Gautier et la mort de Balzac' (pp.103-119); Candice Brunerie, 'Gautier à la Maison de Balzac' (pp.119-129).",
+        "Pierrot & Yon 2011, vol.2."
+      ],
+      "conferences/seminars": "2014 Société Théophile Gautier, Maison de Balzac: <i>Gautier/Balzac. Parcours croisés</i>."
     },
     {
       "from": "Théophile Gautier",
