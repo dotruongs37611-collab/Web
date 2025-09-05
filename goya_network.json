@@ -8853,9 +8853,10 @@
       "from": "Victor Hugo",
       "to": "Théophile Gautier",
       "relationship type": "friends",
-      "know each other since": "1829, 27 June (Lacoste-Veysseyre 2014, p.347)",
+      "know each other since": "1829, 27 June, via Gérard de Nerval (Lacoste-Veysseyre 2014, p.347)",
       "they shared": "Gautier was part of Hugo's 'Cénacle'",
       "correspondence": [
+        "1830, March, letter from Hugo to Gautier: 'Je profite d'un moment de loisir pour vous envoyer les quatre vers et je vous serre la main. Accuerdete [sic] usted de los amigos de la Plaza National' (Lacoste-Veysseyre 1985, p.27; Daubray 1947, p.251).",
         "1870?, 20 Dec, letter from Gautier to Hugo.",
         "1876, 4 Oct, letter from Gautier to Hugo. Maison Victor Hugo a4354, [Paris Musées](https://www.parismuseescollections.paris.fr/fr/maison-de-victor-hugo/oeuvres/lettre-de-gautier-a-victor-hugo#infos-principales)"
       ],
@@ -8863,7 +8864,7 @@
         "1835, 15 Dec: Hugo praises <i>Mademoiselle de Maupin</i> in the journal <i>Vert-Vert</i>. [Text](www.theophilegautier.fr/wp-content/uploads/2010/06/Victor-Hugo.pdf)",
         "1872, 24 June, letter from Hugo to Jules Simon (Ministre de l'Instruction publique): 'Théophile Gautier est un des hommes qui honorent notre pays et notre temps ; il est au premier rang comme poète, comme critique, comme écrivain. Sa renommée fait partie de la gloire française. Eh bien, à cette heure, Théophile Gautier lutte à la fois contre la maladie et contre la détresse. (…) Je vous demande, au nom de l'honneur littéraire de notre pays, de lui venir en aide avec cette promptitude qui double le bien qu'on fait, et d'attribuer à Théophile Gautier la plus forte indemnité annuelle dont vous puissiez disposer'."
       ],
-      "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; <i>Dessins de Victor Hugo gravés par Paul Chenay</i>, text by Théophile Gautier, Paris, L'Archange Minotaure, 2002; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; Théophile Gautier, <i>Victor Hugo</i>, selection of texts, F. Court-Pérez ed., 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1; <i>Victor Hugo par Théophile Gautier</i>, Paris, E. Fasquelle, 1902, [Gallica](http://gallica.bnf.fr/ark:/12148/bpt6k200915d.r=.langFR); .",
+      "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; <i>Dessins de Victor Hugo gravés par Paul Chenay</i>, text by Théophile Gautier, Paris, L'Archange Minotaure, 2002; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; Théophile Gautier, <i>Victor Hugo</i>, selection of texts, F. Court-Pérez ed., 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1; Cécile Daubray, <i>Victor Hugo et ses correspondants</i>, 1947; <i>Victor Hugo par Théophile Gautier</i>, Paris, E. Fasquelle, 1902, [Gallica](http://gallica.bnf.fr/ark:/12148/bpt6k200915d.r=.langFR); .",
       "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)"
     },
     {
@@ -9342,7 +9343,7 @@
       "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "friends",
-      "interactions": [ supercali
+      "interactions": [ 
         "1839 Jan: thanks to Delphine's intervention, Gautier is named the literary director of the feuilleton in <i>La Presse</i>",
         "Among many <i>soirées</i>: 1841, 23 March, Gautier dines at Girardin's in the company of Alphonse de Lamartine, Victor Hugo, A. Karr and Mme d'Agoult"
       ],
