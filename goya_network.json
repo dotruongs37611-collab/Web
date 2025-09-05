@@ -9011,6 +9011,10 @@
       "to": "Honoré de Balzac",
       "relationship type": "friends", 
       "know each other since": "1835",
+      "interactions": [
+        "1837 Feb, Gautier was supposed to go on a trip to Italy with Balzac, but eventually he is retained by his work.",
+        "Among many visits, in Jan 1839 (Lacoste-Veysseyre 1985, p.136)"
+      ],
       "collaborations": [
         "1836-37 Balzac suggests Gautier to collaborate in <i>La Chronique de Paris</i>: articles, novellas (<i>La Morte amoureuse</i> and <i>La Chaîne d'or</i>) and the story <i>Tour en Belgique</i>.",
         "1840 they both collaborated in <i>Les Français peints par eux-mêmes</i>.", 
@@ -9041,16 +9045,19 @@
       "know each other since": "at least 1840",
       "shared": "trip to Spain in 1840",
       "collaborations": "trip to Spain; authorship of Goya's catalogue raissonné 1842",
-      "correspondence": "1842 [Aug?] Gautier asks Piot to borrow his 'Toromaquia' (Tauromaquia): 'Prête-moi la Toromaquia pour un instant, après je t'appartiens'"
+      "correspondence": "1842 [Aug?] Gautier asks Piot to borrow his 'Toromaquia' (Tauromaquia): 'Prête-moi la Toromaquia pour un instant, après je t'appartiens' (Lacoste-Veysseyre 1985, p.331).",
+      "bibliography": "Lacoste-Veysseyre 1985"
     },
     {
       "from": "Théophile Gautier",
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "relationship type": "friends", 
-      "know each other since": "at least 1840",
+      "know each other since": "at least 1837",
+      "correspondence": "1837, Feb (after 13), letter from Dumas to Gautier: 'Je vous adresse Bard un bon ami à moi que j'ai manqué de faire fusiller en 1830 et à qui je dois un dédommagement en 1837 : veuillez le lui donner en mon nom en vous occupant de son tableau refusé' (Lacoste-Veysseyre 1985, p.85).",
       "they met": "1846 in Madrid: royal wedding (also Pharamond Blanchard)",
-      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840)"
+      "collaborations": "they both collaborated in <i>Les Français peints par eux-mêmes</i> (1840)",
+      "bibliography": "Lacoste-Veysseyre 1985"
     },
     {
       "from": "Théophile Gautier",
@@ -9324,11 +9331,32 @@
     },
     {
       "from": "Théophile Gautier",
-      "to": "Delphine de Girardin",
+      "to": "Alphonse de Lamartine",
       "connection_level": "direct",
       "relationship type": "acquaintances",
+      "interactions": "1841, 23 March, Gautier dines at Girardin's in the company of Alphonse de Lamartine, Victor Hugo, A. Karr and Mme d'Agoult",
+      "bibliography": "Lacsote-Veysseyre ed., <i>Correspondance générale</i>, t.1, 1985"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Delphine de Girardin",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "interactions": [ supercali
+        "1839 Jan: thanks to Delphine's intervention, Gautier is named the literary director of the feuilleton in <i>La Presse</i>",
+        "Among many <i>soirées</i>: 1841, 23 March, Gautier dines at Girardin's in the company of Alphonse de Lamartine, Victor Hugo, A. Karr and Mme d'Agoult"
+      ],
+      "correspondence": [
+        "1837, March",
+        "1838, 1 Jan",
+        "1839, April?; 6 Oct",
+        "1841, 30 Nov, Girardin to Gautier: 'Mme Sand [George Sand] est souffrante. Elle ne pourra pas venir diner chez nous jeudi je vous rends donc votre liberté, mais en quittant le castel Houssaye venez nous voir un moment' (Lacoste-Veysseyre 1985, p.277).",
+        "1841, 28 June?",
+        "1842, 20 Jan, 18 May?, Aug, Nov?"
+      ],
       "shared": "Gautier frequently attended Delphine de Girardin's salon",
-      "mentions": "she is mentioned in Gautier's <i>Portraits et souvenirs littéraires</i>, Paris, Michel Lévy Frères, 1875."
+      "mentions": "she is mentioned in Gautier's <i>Portraits et souvenirs littéraires</i>, Paris, Michel Lévy Frères, 1875.",
+      "bibliography": "Lacsote-Veysseyre ed., <i>Correspondance générale</i>, t.1, 1985"
     },
     {
       "from": "Alfred de Musset",
@@ -10482,7 +10510,7 @@
         "1867, 14 Dec, 'Collection Khalil-Bey', <i>Le Moniteur Universel</i>.",
         "1872, 25 April, 'Notice sur la collection C***', <i>Gazette de Paris</i>."
       ],
-      "correspondence": "letter from Ingres to Gautier: 'Permettez-moi de vous offrir ce livre comme un témoignage de ma haute estime. J'ose espérer qu'il trouvera près de vous l'accueil bienveillant dont vous avez toujours honoré mes oeuvres' (Lacsote 1985, t.1, p.277).",
+      "correspondence": "1841, 29 Nov, letter from Ingres to Gautier: 'Permettez-moi de vous offrir ce livre comme un témoignage de ma haute estime. J'ose espérer qu'il trouvera près de vous l'accueil bienveillant dont vous avez toujours honoré mes oeuvres' (Lacsote 1985, t.1, p.277).",
       "bibliography": "Lacoste, <i>Correspondance générale</i>, t.1 1985",
       "websites": "Gautier-Ingres, [theophilegautier.fr](https://www.theophilegautier.fr/dossier-ingres/)"
     },
