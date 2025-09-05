@@ -1390,7 +1390,7 @@
       "children": "Théophile Gautier fils, Judith Gautier, Estelle Gautier",
       "parents": "Jean-Pierre Gautier and Adélaïde Cocard",
       "author of": [
-        "Essays: <i>Les Jeunes-France</i> (1833); 1840 Spanish trip essays in <i>La Presse</i>, reedited as <i>Tra los montes</i> (1843) and as <i>Voyage en Espagne</i> (1845); <i>Caprices et zigzags</i> (1852): 'Un tour en Belgique et en Hollande', 'Pochades et paradoxes', 'Gastronomie britannique', 'En Chine', 'L'Inde', 'Voyage hors barrières', 'Chiens et rats', 'Paris futur', etc. 1843 August: Gautier, 'La Tauromachie', <i>Le Musée des familles</i>, pp. 341-48.13 Illustrated with seven drawings by Gautier (signed 'T. G.') engraved by 'A.B.L' (Andrew, Best and Leloir) (see Fayos Pérez 2024); <i>Histoire du romantisme</i> (1874). A volume of articles published as <i>Les Grotesques</i>. A biography of Honoré de Balzac. Art criticism: musicians (Berlioz, Gounod, Wagner) and painters (Delacroix, Manet, Gustave Doré, Théodore Chasséirau, Goya).", supercali
+        "Essays: <i>Les Jeunes-France</i> (1833); 1840 Spanish trip essays in <i>La Presse</i>, reedited as <i>Tra los montes</i> (1843) and as <i>Voyage en Espagne</i> (1845); <i>Caprices et zigzags</i> (1852): 'Un tour en Belgique et en Hollande', 'Pochades et paradoxes', 'Gastronomie britannique', 'En Chine', 'L'Inde', 'Voyage hors barrières', 'Chiens et rats', 'Paris futur', etc. 1843 August: Gautier, 'La Tauromachie', <i>Le Musée des familles</i>, pp. 341-48.13 Illustrated with seven drawings by Gautier (signed 'T. G.') engraved by 'A.B.L' (Andrew, Best and Leloir) (see Fayos Pérez 2024); <i>Histoire du romantisme</i> (1874). A volume of articles published as <i>Les Grotesques</i>. A biography of Honoré de Balzac. Art criticism: musicians (Berlioz, Gounod, Wagner) and painters (Delacroix, Manet, Gustave Doré, Théodore Chasséirau, Goya).", 
         "Collective works: 1840 <i>Les Français peints par eux-mêmes</i>; 1845-46 <i>Le diable à Paris: Paris et les parisiens: mœurs et coutumes, caractères et portraits des habitants de Paris</i> (illustrated by Paul Gavarni), alongside Honoré de Balzac, Alfred de Musset and George Sand.",
         "Fiction: <i>La Cafetière</i> (1831); <i>Mademoiselle de Maupin</i> (1835); <i>Militona</i> (1847), set in Madrid; <i>Les deux étoiles</i> (184); <i>Roman de la momie</i> (1857); <i>Capitaine Fracasse</i> (1861-63)",
         "Poetry: <i>La Comédie de la Mort</i> (1838); <i>España</i> (1845); <i>Poésies complètes</i> (1845); <i>Émaux et Camées</i> (1852)",
@@ -8855,7 +8855,7 @@
         "1835, 15 Dec: Hugo praises <i>Mademoiselle de Maupin</i> in the journal <i>Vert-Vert</i>. [Text](www.theophilegautier.fr/wp-content/uploads/2010/06/Victor-Hugo.pdf)",
         "1872, 24 June, letter from Hugo to Jules Simon (Ministre de l'Instruction publique): 'Théophile Gautier est un des hommes qui honorent notre pays et notre temps ; il est au premier rang comme poète, comme critique, comme écrivain. Sa renommée fait partie de la gloire française. Eh bien, à cette heure, Théophile Gautier lutte à la fois contre la maladie et contre la détresse. (…) Je vous demande, au nom de l'honneur littéraire de notre pays, de lui venir en aide avec cette promptitude qui double le bien qu'on fait, et d'attribuer à Théophile Gautier la plus forte indemnité annuelle dont vous puissiez disposer'."
       ],
-      "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1.",
+      "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; <i>Dessins de Victor Hugo gravés par Paul Chenay</i>, text by Théophile Gautier, Paris, L'Archange Minotaure, 2002; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; Théophile Gautier, <i>Victor Hugo</i>, selection of texts, F. Court-Pérez ed., 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1; <i>Victor Hugo par Théophile Gautier</i>, Paris, E. Fasquelle, 1902, [Gallica](http://gallica.bnf.fr/ark:/12148/bpt6k200915d.r=.langFR); .",
       "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)"
     },
     {
@@ -10424,6 +10424,52 @@
       "to": "Jacques-Louis David",
       "connection_level": "direct",
       "relationship type": "master-student"
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Louis Boulanger",
+      "connection_level": "direct",
+      "relationship type": "acquaintances", 
+      "mentions": "1837, 8 May, 'Vente de la galerie de l'Élysée-Bourbon', <i>Charte de 1830</i>: 'Si j'étais M. Hope, M. le duc de Sunderland, M. Demidoff, ou tout autre millionnaire, trillionnaire ou billionnaire, au lieu d'acheter à des prix insensés des tableaux usés repeints et vernis à outrance de maîtres, dont plusieurs n'ont pas grand mérite même quand ils sont purs et certains, j'aimerais beaucoup mieux me faire peindre de grandes galeries par Delacroix, Ingres, Decamps, Louis Boulanger, Camille Roqueplan, Cabat, et tous ces jeunes gens d'un talent si remarquable dont on tire si peu parti [...]'."
+    },
+    {
+      "from": "Jean-Auguste-Dominique Ingres",
+      "to": "Théophile Gautier",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; admirers. Gautier mentions Ingres constantly in his art criticism. For Gautier, Ingres represented the opposite side of aesthetics than Delacroix", 
+      "mentions": [
+        "1833 Gautier, 'Salon de 1833', <i>La France littéraire</i>.",
+        "1834, April, Gautier, 'Salon de 1834', <i>La France Industrielle</i>.",
+        "1836, 16 Oct, Gautier, 'Des beaux-arts et autre', <i>Figaro</i>.",
+        "1837, 1 March, Gautier, 'Beaux-arts - ouverture du Salon', <i>La Presse</i>.",
+        "1837, 15 March, Gauteir, 'Salon de 1837 - École d'Ingres - Leehmann, Amaury-Duval, Flandrin', <i>La Presse</i>.",
+        "1837, 8 May, 'Vente de la galerie de l'Élysée-Bourbon', <i>Charte de 1830</i>: 'Si j'étais M. Hope, M. le duc de Sunderland, M. Demidoff, ou tout autre millionnaire, trillionnaire ou billionnaire, au lieu d'acheter à des prix insensés des tableaux usés repeints et vernis à outrance de maîtres, dont plusieurs n'ont pas grand mérite même quand ils sont purs et certains, j'aimerais beaucoup mieux me faire peindre de grandes galeries par Delacroix, Ingres, Decamps, Louis Boulanger, Camille Roqueplan, Cabat, et tous ces jeunes gens d'un talent si remarquable dont on tire si peu parti [...]'.",
+        "1838, 22 Nov, Gautier, 'De la composition en peinture', <i>La Presse</i>.",
+        "1841, 26 March, 'Salon de 1844', <i>La Presse</i>.",
+        "1844, 30 March, <i>La Presse</i>.",
+        "1845, 11 March, <i>La Presse</i>.",
+        "1847, 31 Jan, 'La Croix de Berny', <i>La Presse</i>.",
+        "1847, 27 June, 'La Croix de Berny - Une visite à M. Ingres', <i>La Presse</i>.",
+        "1848, 2 Aug, 'Ateliers de peintres et de sculpteurs', <i>L'Événement</i>.",
+        "1850, 2 Sept, 'Galerie du Luxembourg', <i>La Presse</i>.",
+        "1851, 5 Feb, 'Salon de 1850-51 - Réflexions préliminaires', <i>La Presse</i>.",
+        "1844, 4 Feb, 'L'Apothéose de Napoléon - Plafond de M. Ingres', <i>La Presse</i>.",
+        "1854, 4 March, 'Peintures murales de Saint-Roch', <i>Le Moniteur Universel</i>.",
+        "1854, 12 & 14 July, 'Exposition universelle de 1855', <i>Le Moniteur Universel</i>.",
+        "1857, 1 Feb, '<i>La Source</i> - Nouveau tableau de M. Ingres', <i>L'Artiste</i>.",
+        "1857, 5 April, 'Ingres', <i>L'Artiste</i>: Gautier writes a study on Ingres.", 
+        "1858, 3 Jan, 'La rue Laffitte', <i>L'Artiste</i>.",
+        "1858, 10 Jan, 'Louis XIV et Molière - tableau de M. Ingres', <i>L'Artiste</i>.",
+        "1858, 14 Feb, 'La néo-critique. À propos de M. Ingres', <i>L'Artiste</i>.",
+        "1860, 1 March, <i>La Gazette des Beaux-Arts</i>.",
+        "1860, 15 March, <i>La Gazette des Beaux-Arts</i>.",
+        "1860, 21 March, 'Exposition - Au profit de la caisse de secours des artistes peintres, sculpteurs, architectes et dessinateurs', <i>Le Moniteur Universel</i>.",
+        "1861, 18 Feb, 'Exposition du boulevard italien - La Source, tableau de M. Ingres', <i>Le Moniteur Universel</i>.",
+        "1862, 10 April, 'Jésus enfant parmi les docteurs, tableau de M. Ingres', <i>Le Moniteur Universel</i>.",
+        "1864, 14 Dec, 'Tableaux et dessins offerts par divers artistes à un confrère paralysé', <i>Le Moniteur Universel</i>."
+      ],
+      "correspondence": "letter from Ingres to Gautier: 'Permettez-moi de vous offrir ce livre comme un témoignage de ma haute estime. J'ose espérer qu'il trouvera près de vous l'accueil bienveillant dont vous avez toujours honoré mes oeuvres' (Lacsote 1985, t.1, p.277).",
+      "bibliography": "Lacoste, <i>Correspondance générale</i>, t.1 1985"
     },
     {
       "from": "Achille Ricourt",
