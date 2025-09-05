@@ -9328,7 +9328,9 @@
       "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
-      "shared": "social and artistic circle in the salons. Delphine was present at the opening of Hugo's <i>Le roi s'amuse</i> in 1832"
+      "shared": "social and artistic circle in the salons. Delphine was present at the opening of Hugo's <i>Le roi s'amuse</i> in 1832",
+      "interactions": "1841, 23 March, Théophile Gautier dines at Girardin's in the company of Alphonse de Lamartine, Victor Hugo, A. Karr and Mme d'Agoult",
+      "bibliography": "Lacsote-Veysseyre ed., <i>Correspondance générale</i>, t.1, 1985"
     },
     {
       "from": "Théophile Gautier",
@@ -9392,8 +9394,10 @@
       "to": "Delphine de Girardin",
       "connection_level": "direct",
       "relationship type": "acquaintances",
+      "interactions": "1841, 23 March, Théophile Gautier dines at Girardin's in the company of Alphonse de Lamartine, Victor Hugo, A. Karr and Mme d'Agoult",
       "shared": "Lamartine frequently attended Delphine de Girardin's salon",
-      "mentions": "Lamartine, 'Madame de Girardin', in <i>Souvenirs et portraits</i>, t.1, Paris, 1871, pp.370-402"
+      "mentions": "Lamartine, 'Madame de Girardin', in <i>Souvenirs et portraits</i>, t.1, Paris, 1871, pp.370-402",
+      "bibliography": "Lacsote-Veysseyre ed., <i>Correspondance générale</i>, t.1, 1985"
     },
     {
       "from": "Honoré de Balzac",
