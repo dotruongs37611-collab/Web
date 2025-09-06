@@ -5743,8 +5743,12 @@
       "to": "José de Madrazo",
       "connection_level": "direct",
       "relationship type": "relatives; father-son",
-      "correspondence": "yes",
-      "portraits": "Federico by José de Madrazo, 1833, [Hispanic Society A278](https://hispanicsociety.emuseum.com/objects/2787/federico-de-madrazo-y-kuntz;jsessionid=482AACCDA830CE79328BDC311E568EA1?ctx=9989e28b-9cb7-45f4-864f-25fd40bdcf0c&idx=7)"
+      "correspondence": "from 1834",
+      "portraits": [
+        "Federico de Madrazo by José de Madrazo, 1833, [Hispanic Society A278](https://hispanicsociety.emuseum.com/objects/2787/federico-de-madrazo-y-kuntz;jsessionid=482AACCDA830CE79328BDC311E568EA1?ctx=9989e28b-9cb7-45f4-864f-25fd40bdcf0c&idx=7).",
+        "José de Madrazo by Federico de Madrazo, c.1832, lost in a fire in 1935."
+      ],
+      "bibliography": "<i>Federico de Madrazo. Epistolario</i>, vol.1, 1994, Museo del Prado."
     },
     {
       "from": "Federico de Madrazo",
