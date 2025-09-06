@@ -231,8 +231,8 @@
         "1837-1839 (portrays Adrien Dauzats 1837): he benefits from contacts with Baron Taylor. During these two years, he writes in his correspondence about the relationships he is establisthing with French painters (Romero Tobar 1997, p.217; González López 1994, pp.28-36).",
         "1838 commission from Louis-Philippe for painting 'Godofredo de Bouillon' for Versailles."
       ],
-      "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Adrien Dauzat's)",
-      "author of": "illustrations in <i>El Artista</i>; <i>Godofredo de Bouillon proclamado rey de Jerusalén</i> (1838, Galerie Batailles, Palais Versailles); <i>Isabel II de España</i> (1850); <i>Doña Amalia de Llano y Dotres, Condesa de Vilches</i> (1853); <i>Carolina Coronado</i> (c.1855); <i>Eduardo Rosales</i> (1867); <i>El pintor Perugino Sensi</i> (1873, Prado)",
+      "address": "1833 Paris: Hôtel Bourbonne-Les-Bains (very close to Adrien Dauzat's); 30 rue de la Tour de Auvergne (workshop) (by 1839)",
+      "author of": "illustrations in <i>El Artista</i>; <i>Godofredo de Bouillon proclamado rey de Jerusalén</i> (1838, Galerie Batailles, Palais Versailles); <i>Isabel II de España</i> (1850); <i>Doña Amalia de Llano y Dotres, Condesa de Vilches</i> (1853); <i>Carolina Coronado</i> (c.1855); <i>Eduardo Rosales</i> (1867); <i>El pintor Perugino Sensi</i> (1873, Prado); <i>Portrait of Alfonso XII</i> (1874, Banco de España).",
       "editor of": "<i>El Artista</i>",
       "portrayed by": "M. Huerta, photograph (Prado HF0857); Raimundo de Madrazo, 1875, Museo de Bellas Artes de Bilbao",
       "works as": "Director of RABASF in 1866; Pintor de Cámara of Isabel II; Director of the Prado Museum 1860-68 and 1881-1894; Senator",
@@ -242,9 +242,14 @@
       "married to": "Luisa Garreta (1835)",
       "children": "Luisa de Madrazo, Raimundo de Madrazo, Cecilia de Madrazo, Ricardo de Madrazo, Isabel de Madrazo",
       "parents": "José de Madrazo and Isabel Kuntz y Valentini",
+      "exhibitions": [
+        "Paris Salon: 1839 wins a medal (also Carlos Luis de Ribera)",
+        "Recent years: 2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i> (cur. Javier Barón); 2004-05 Prado, <i>El retrato español. Del Greco a Picasso</i>."
+      ],
       "collector of Goya's works": "Madrazo acquired a substantial group of Goya's prints and drawings, probably through Valentín Carderera. This includes [156 drawings](https://www.museodelprado.es/coleccion/obras-de-arte?searchObras=goya%20madrazo&cidoc:p14_carried_out_by@@@pm:author@@@ecidoc:p131_E82_p102_has_title=Goya%20y%20Lucientes,%20Francisco%20de@es&cidoc:p2_has_type@@@pm:objectTypeNode=http://museodelprado.es/items/objecttype_6) now at the Prado from the collection of 'Federico de Madrazo y/o Román Garreta, Madrid, c.1855-1860', such as <i>Buena muger, parece</i> (C.9) (1814-1823, [Prado D003913](https://www.museodelprado.es/coleccion/obra-de-arte/buena-muger-parece/4635b978-3c08-4895-9e0d-32c909f5aeb9))",
       "bibliography": "Gilarranz Ibáñez 2020; Martínez Plaza 2017; G. Navarro 2007 (in <i>El siglo XIX en el Prado</i>); Martí 2007; Romero Tobar 1997; González López 1994; Díez 1994; Harris 1964",
       "websites": "[Prado website](https://www.museodelprado.es/coleccion/artista/madrazo-y-kuntz-federico-de/9bdb1678-fdd4-47bb-92e3-6833fadc8a50), Carlos G. Navarro",
+      "conferences/seminars": "Javier Barón, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i>, 2015, Prado, [YouTube](https://www.youtube.com/watch?v=JY0qD-vB3hw)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
       "image source": "portrait by Raimundo de Madrazo, 1875, Museo de Bellas Artes de Bilbao"
     },
@@ -1434,6 +1439,49 @@
       "websites": "[Société Théophile Gautier](theophilegautier.fr)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Gautier.jpg",
       "image source": "Nadar photograph, 1854-55, Getty 84.XM.436.7"
+    },
+    {
+      "id": "Carlos Luis de Ribera",
+      "label": "Ribera",
+      "full name": "Carlos Luis de Ribera y Fieve",
+      "life dates": "1815-1891",
+      "profession": "painter",
+      "nationality": "Spanish",
+      "born in": "Rome",
+      "dies in": "Madrid",
+      "parents": "father: Juan Antonio Ribera y Fernández (Neoclassical painter)",
+      "studies in": [
+        "RABASF. Obtains the 1st price with <i>Vasco Núñez de Balboa</i> at the age of 15 (1830)",
+        "Rome and Paris"
+      ],
+      "exhibitions": [
+        "Paris Salon from 1839 to 1855: wins a medal in 1839 (also Federico de Madrazo)",
+        "RABASF",
+        "Liceo Artístico y Literario",
+        "Exposiciones Nacionales de Bellas Artes 1856, 1858, 1871",
+        "Recent years: 1955 Museo del Romanticismo, Madrid"
+      ],
+      "friends": "artists and writers who were regulars at the café El Parnasillo in the early 1830s",
+      "masters": "Juan Antonio de Ribera (father); Paul Delaroche (from 1836)",
+      "influenced by": "Jean-Auguste-Dominique Ingres; Paul Delaroche",
+      "in Paris": "1836-1845 student of Paul Delaroche",
+      "works as": [
+        "Academic (1835) and honorary director (1845) at the RABASF.",
+        "Honorary chamber painter (1846).",
+        "Illustrator in <i>El Artista</i>; <i>Museo Español de Antigüedades</i>; <i>Las Mujeres Españolas, Portuguesas y Americanas</i>"
+      ],
+      "works for": "Isabel II (from 1846); Amadeo I de Saboya (1850)",
+      "decorations/awards": "Gran Cruz de la Orden de Isabel la Católica",
+      "author of": [
+        "Painting: <i>Vasco Núñez de Balboa</i> (1830); <i>Isabel II, niña</i> (c.1835, Prado); <i>Familia de Don Gregorio López de Mollinedo</i>, 1854, private coll., Madrid; <i>Amadeo I de Saboya</i> (1850); decorations of the ceiling of the sessions salon at the Congreso de los Diputados (1850); decorations of the San Francisco el Grande basilica.",
+        "Drawing: group of 45 drawings acquired by the Prado in 1988, including <i>Desnudo masculino / Apunte de desnudo masculino</i>, 1825-50, charcoal, Prado [D005477](https://www.museodelprado.es/coleccion/obra-de-arte/desnudo-masculino-apunte-de-desnudo-masculino/4c6130ce-78d2-43db-9e29-a25a3448a1a7), and <i>Desnudo masculino de espaldas</i>, 1825-50, charcoal, Prado [D005479](https://www.museodelprado.es/coleccion/obra-de-arte/desnudo-masculino-de-espaldas/72b739fd-ed57-40e4-947f-f2bb00db72e7)"
+      ],
+      "sales": "Hôtel Drouot Paris, 1910, sale of Ribera's workshop",
+      "portrayed by": "Federico de Madrazo, oil painting, 1838, Prado",
+      "bibliography": "Pilar Miguel Egea, <i>Carlos Luis de Ribera. Pintor romántico madrileño</i>, Fundación Vega-Inclán, 1983",
+      "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/ribera-y-fieve-carlos-luis-de/87e76f5c-a7e6-4b47-99b6-0af56c0d73ea)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ribera.jpg",
+      "image source": "Madrazo portrait 1838"
     },
     {
       "id": "José de Espronceda",
@@ -3996,7 +4044,11 @@
       "in Paris": "1796-1806; 1824-1835; 1841-1867", 
       "in Italy": "1806-1824 (1801 Grand prix de Rome en peinture)",
       "works as": "directeur de l'Académie de France à Rome (1835-1842)",
+      "portrayed by": "Federico de Madrazo, 1833, oil painting, [Hispanic Society A286](https://hispanicsociety.emuseum.com/objects/884/jean-auguste-dominique-ingres)",
       "masters": "Joseph Roques, Jean Suau, Jacques-Louis David (1796)",
+      "exhibitions": [
+        "Recent years: 2015-16, Prado, <i>Ingres</i>; 2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i> (cur. Javier Barón)"
+      ],
       "students": "Amaury-Duval, Théodore Chassériau, Hippolyte Flandrin, Antoine Étex, Émile Hirsch, Romain Cazes, Louis Janmot, Alexandre Mauvernay, Charles Nègre, Clément Pruche, Henri Lehmann",
       "curiosities": "he was a violin player at the Orchestre de Toulouse",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ingres.jpg"
@@ -4114,6 +4166,7 @@
       "profession": "painter", 
       "exhibitions": "Paris Salon: 1822 (1st time): gets Géricault's attention", 
       "masters": "Louis Étienne Watelet, Antoine-Jean Gros",
+      "students": "Carlos Luis de Ribera (from 1836)",
       "married to": "Louise Vernet (daughter of Horace Vernet)",
       "curiosities": "his living descendants are named Delaroche-Vernet",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Delaroche.jpg"
@@ -5173,6 +5226,15 @@
       "relationship type": "colleagues; rivals"
     },
     {
+      "from": "Federico de Madrazo",
+      "to": "Vicente López",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; portraitist-sitter",
+      "portraits": "lithographic portrait, 1835, <i>El Artista</i>",
+      "exhibitions": "2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i>",
+      "websites": "<i>Effigies Amicorum</i>, [Prado](https://www.museodelprado.es/actualidad/exposicion/effigies-amicorum-retratos-de-artistas-por/92edd98f-04dc-4f84-99e6-2692f386604f)"
+    },
+    {
       "from": "Juan Agustín Ceán Bermúdez",
       "to": "Vicente López",
       "connection_level": "direct",
@@ -5670,12 +5732,21 @@
       "relationship type": "friends"
     },
     {
+      "from": "Carlos Luis de Ribera",
+      "to": "José de Madrazo",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; colleague and rival of Ribera's father",
+      "interactions": "José surveyed the relationship of his son with Ribera during their stay in Paris 1837-39. He did not like Ribera's portrait of Federico (1839), considering it too dry and 'German'. He praised his son's portrait of Ribera as 'mucho mejor porque tiene más empaste, más brillantez y más jugo. El cabello está tocado divinamente y no puede mejorarse' (letter 24 Aug 1839), and later compared it to the portraits by Velázquez and Van Dyck (1 March 1841)."
+    },
+    {
       "from": "Federico de Madrazo",
       "to": "José de Madrazo",
       "connection_level": "direct",
-      "relationship type": "relatives; father-son"
+      "relationship type": "relatives; father-son",
+      "correspondence": "yes",
+      "portraits": "Federico by José de Madrazo, 1833, [Hispanic Society A278](https://hispanicsociety.emuseum.com/objects/2787/federico-de-madrazo-y-kuntz;jsessionid=482AACCDA830CE79328BDC311E568EA1?ctx=9989e28b-9cb7-45f4-864f-25fd40bdcf0c&idx=7)"
     },
-      {
+    {
       "from": "Federico de Madrazo",
       "to": "Eugenio Ochoa",
       "connection_level": "direct",
@@ -6778,7 +6849,18 @@
       "from": "Federico de Madrazo",
       "to": "Jean-Auguste-Dominique Ingres",
       "connection_level": "direct",
-      "relationship type": "acquaintances; friends"
+      "relationship type": "acquaintances; friends; portraitist-sitter",
+      "know each other since": "at least 1833",
+      "interactions": "in Paris (1833); in Rome",
+      "portraits":
+      [
+        {
+          "url": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Madrazo_Ingres.jpg",
+          "caption": "Ingres by Madrazo, 1833, oil painting, [Hispanic Society A286](https://hispanicsociety.emuseum.com/objects/884/jean-auguste-dominique-ingres) (image below)"
+        }
+      ],
+      "exhibitions": "2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i> (cur. Javier Barón)",
+      "conferences/seminars": "Javier Barón, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i>, 2015, Prado, [YouTube](https://www.youtube.com/watch?v=JY0qD-vB3hw)"
     },
     {
       "from": "Federico de Madrazo",
@@ -6808,7 +6890,75 @@
       "from": "Federico de Madrazo",
       "to": "Paul Delaroche",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "acquaintances",
+      "interactions": "in Paris (late 1830s?)"
+    },
+    {
+      "from": "Carlos Luis de Ribera",
+      "to": "Paul Delaroche",
+      "connection_level": "direct",
+      "relationship type": "master-student",
+      "influence": "<i>Familia de Don Gregorio López de Mollinedo</i> (1854, private coll.): Delaroche's influence can be appreciated in the impressive tactile qualities, perfect draughtsmanship, the fusion of light and colour achieved with invaluable, millimetre-precise brushstrokes, and the quasi-photographic conception of the whole."
+    },
+    {
+      "from": "Carlos Luis de Ribera",
+      "to": "Adrien Dauzats",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; friends?",
+      "knew each other since": "at least 1837",
+      "mentions": "1837, 28 June, letter from Federico de Madrazo to Valentín Carderera, repeating what Dauzats said about Ribera: 'que Ribera trabaja mucho, que ha dejado un poco su timidez y que si tardo un poco en ir a París no le reconoceré, y además dice que me parecerá un hombre natural y que su padre bramaría si viese la influencia que ha ejercido París en él'."
+    },
+    {
+      "from": "Federico de Madrazo",
+      "to": "Carlos Luis de Ribera",
+      "connection_level": "direct",
+      "relationship type": "friends; rivals; portraitist-sitter",
+      "know each other since": "at least 1837",
+      "curiosities": [
+        "Their respective fathers (José de Madrazo and Juan Antonio Ribera) were also colleagues and rivals.",
+        "Madrazo's nickname for Ribera was Carluccio (from Carlos)."
+      ],
+      "interactions": [
+        "1837-1839 in Paris: they visit the Paris Salon and the Louvre. On 27 April 1839 they discover Van Eyck at the Louvre, an artist barely known in Spain.",
+        "1838 they paint each other's portraits with the intention of submitting them to the RABASF exhibition, and then give them as a gift to their respective fathers (who were colleagues and rivals). José de Madrazo did not like Ribera's portrait of Federico, considering it too dry and 'German'. He praised his son's portrait of Ribera as 'mucho mejor porque tiene más empaste, más brillantez y más jugo. El cabello está tocado divinamente y no puede mejorarse' (letter 24 Aug 1839), and later compared it to the portraits by Velázquez and Van Dyck (1 March 1841).",
+        "1838, 6 July, letter from Federico to Valentín Carderera, about Ribera: 'Es un elegantón di prima Hera pero no se le acaba de quitar aquel airecillo... pues... aquel porte algo torpe o sea golfo como quiera V. entender'.",
+        "1839 they both received medals at the Paris Salon",
+        "1939 they plan the submission of artworks to the RABASF"
+      ],
+      "mentions": [
+        "1837, 13 Oct (the day Federico arrives in Paris), letter from Federico to his father José de Madrazo: 'Parece que Carlos no ha trabajado mucho'.",
+        "1837, 21 Oct (Paris), letter from Federico to his father José de Madrazo: 'trabaja muy poco; ya se ve que su padre lo tenía enteramente atado. Ha venido aquí, se ha juntado con españoles hambrones y majaderos y esto le ha bastado y le ha sobrado para perder la afición que tenía estudio'.",
+        "1838, 28 July, letter from José de Madrazo to Federico, about Ribera: 'enhorabuena que le trates y con cariño, pero siempre con una cierta reserva tanto en tus confianzas como en las cosas del Arte, procurando aventajarle en ésta cuanto puedas'.",
+        "1839, 29 June, letter from José de Madrazo to Federico, about Ribera: 'sin quererle mal, antes todo lo contrario, debes reservarte porque un día sería él mismo tu mayor enemigo'."
+      ],
+      "portraits": [
+        "Ribera by Madrazo: 1838-39, oil painting, [Prado P007799](https://www.museodelprado.es/coleccion/obra-de-arte/el-pintor-carlos-luis-de-ribera/7b9e5817-de9d-45bb-9999-d75821e17f3a): it was seen and praised by painters Jean Alaux and Jean-Marie Oscar Gué; drawing, 1839, [Prado D005390](https://www.museodelprado.es/coleccion/obra-de-arte/carlos-luis-de-ribera/a5ace25c-602f-4945-98fc-0629e99469ae); 1848, drawing translated to woodcut, <i>Semanario Pintoresco Español</i> (in Ángel Fernández de los Ríos's <i>Álbum biográfico. Museo Universal de retratos</i>, 1849, pp.90-91).",
+        "Madrazo by Ribera: 1838-39 (finished 1 May 1839), oil painting, [Hispanic Society A1784](https://hispanicsociety.emuseum.com/objects/313/federico-de-madrazo-y-kuntz); 1848, drawing translated to woodcut, <i>Semanario Pintoresco Español</i> (in Ángel Fernández de los Ríos's <i>Álbum biográfico. Museo Universal de retratos</i>, 1849, pp.90-91)."
+      ],
+      "exhibitions": "2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i> (cur. Javier Barón); 2004-05 Prado, <i>El retrato español. Del Greco a Picasso</i>",
+      "websites": "[Prado, ficha del autor](https://www.museodelprado.es/coleccion/artista/ribera-y-fieve-carlos-luis-de/5e2996c9-53ec-4b75-ac76-eb4ead2cf6c0); <i>Effigies Amicorum</i>, [Prado](https://www.museodelprado.es/actualidad/exposicion/effigies-amicorum-retratos-de-artistas-por/92edd98f-04dc-4f84-99e6-2692f386604f); [almendron.com](https://www.almendron.com/blog/federico-de-madrazo-carlos-luis-de-ribera/)"
+    },
+    {
+      "from": "Isabel II",
+      "to": "Carlos Luis de Ribera",
+      "connection_level": "direct",
+      "relationship type": "employer-employee",
+      "know each other since": "at least 1846",
+      "employment/patronage": "Ribera was honorary chamber painter from 1846"
+    },
+    {
+      "from": "María Luisa de Parma",
+      "to": "Carlos Luis de Ribera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; godmother (<i>madrina de bautizo</i>)",
+      "interactions": "María Luisa acted as godmother in Ribera's baptism in Rome, during her exile"
+    },
+    {
+      "from": "Carlos IV",
+      "to": "Carlos Luis de Ribera",
+      "connection_level": "direct",
+      "relationship type": "acquaintances; godfather (<i>padrino de bautizo</i>)",
+      "interactions": "Carlos IV acted as godfather in Ribera's baptism in Rome, during his exile"
     },
     {
       "from": "Valentín Carderera",
