@@ -6904,6 +6904,15 @@
     },
     {
       "from": "Carlos Luis de Ribera",
+      "to": "Valentín Carderera",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "know each other since": "at least 1841",
+      "interactions": "they meet many times in Paris, from 1841, 6 May, to 1843, 4 Sept (Lanzarote Guiral 2016, pp.11, 221)",
+      "bibliography": "Lanzarote Guiral 2016"
+    },
+    {
+      "from": "Carlos Luis de Ribera",
       "to": "Adrien Dauzats",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
