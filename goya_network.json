@@ -6582,7 +6582,7 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct", 
       "relationship type": "acquaintances",
-      "interactions": "Dumas attended her musical salon (<i>Salon musical</i>)"
+      "interactions": "Balzac attended her musical salon (<i>Salon musical</i>)"
     },
     {
       "from": "Pauline Viardot-García",
@@ -7658,6 +7658,7 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "acquaintances", 
+      "know each other since": "at least 1839",
       "collaborations": "Balzac participated in Nadar's <i>Le Livre d'Or</i> (1839)",
       "portraits":[
         {
