@@ -3247,10 +3247,15 @@
       "profession": "writer, translator, scholar, journalist, art critic, painter", 
       "in Paris": "In 1837 (with Federico de Madrazo)",
       "portrayed by": "Federico de Madrazo (1842, Hispanic Society); J. Laurent (BNE)",
+      "writes about Goya": [
+        "1872 <i>Catálogo descriptivo e histórico del Museo del Prado de Madrid, seguido de una sinopsis de las varias escuelas... Parte Primera. Escuelas Italianas y Españolas</i>: <i>Familia de Carlos IV</i>, pp.408-10.",
+        "1880 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56: 'Naturalista como Velázquez, fantástico como Hogarth, enérgico como Rembrandt, espontáneo como Callot, y delicado también a veces como Tiziano y Veronés, y aun como Watteau y Lancret [...]. Su pincel, vengador de la belleza moral, grandemente escarnecida en su tiempo, no perdona la caricatura ni la mueca para hacer odiosa y repugnante la figura del vicio:--de la lascivia, de la codicia, de la hipocresía, de la ignorancia,--ni conoce lisonjas para los poderosos desprovistos de talento y de virtud. [...] Lo deforme y lo ridículo de la naturaleza humana se clavaban en la retina de Goya como una saeta: podían pasar para él inadvertidas la verdad o la nobleza; la fealdad física o moral, nunca. [...] En cambio, ¡qué propiedad, qué vida, qué fecundidad de recursos en sus retratos! La <i>Familia de Carlos IV</i>, existente en el Museo del Prado, es una obra en que se admiran todas las grandes dotes de Rembrandt y de Velazquez (p.55). He mentions Carlos Luis de Ribera's publication on Goya, about the portrait of <i>La Tirana</i> in <i>Cuadros selectos de la Real Academia de Nobles Artes de San Fernando</i> III (p.56). 'Los frailes ociosos y pedigüeños, los eclesiásticos regalones y glotones, los intrigantes, los pleitistas, las mancebas de su tiempo, cayeron bajo su acerada punta en sátiras picantes y mordaces, juntamente con los más encopotados y temidos personajes de la camarilla de María Luis [María Luisa de Parma] y de Godoy [Manuel Godoy]. No hay quien no haya hojeado y manoseado sus <i>Caprichos</i> y su <i>Tauromaquia</i>; y comienzan ya a hacerse populares también los <i>Proverbios</i> [<i>Disparates</i>] y los <i>Desastres de la guerra</i>, dados a luz no hace muchos años por la Real Academia de San Fernando. [...] Goya ha dado su nombre a una calle de Madrid; solo falta que los pintores que le imitan no le pongan en caricatura' (p.56)."
+      ],
       "curiosities": [
         "He was one of the first people to ever use the term 'patrimonio histórico-artístico'.",
         "It was him who suggested that the identity of Goya's <i>Naked Maja</i> was Godoy's lover, Pepita Tudó (which is a baseless theory)."
         ],
+      "bibliography": "Pedro de Madrazo 1880 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56; Carlos Luis de Ribera 1872, <i>Catálogo descriptivo e histórico del Museo del Prado de Madrid, seguido de una sinopsis de las varias escuelas... Parte Primera. Escuelas Italianas y Españolas</i>: <i>Familia de Carlos IV</i>, pp.408-410.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg"
     },
     {
@@ -4640,6 +4645,14 @@
       "connection_level": "direct",
       "relationship type": "friends?",
       "mentions": "Pedro de Madrazo, 'Galería de ingenios contemporáneos. Don Santiago de Masarnau', <i>El artista</i>, III, 1836."
+    },
+    {
+      "from": "Pedro de Madrazo",
+      "to": "Carlos Luis de Ribera",
+      "connection_level": "direct",
+      "relationship type": "friends",
+      "link to Goya's work": "in 1880, Pedro de Madrazo mentions Ribera's 1872 text discussing Goya's portrait of <i>La Tirana</i>.",
+      "bibliography": "Pedro de Madrazo 1880, 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56; Carlos Luis de Ribera 1872, <i>Cuadros selectos de la Real Academia de Nobles Artes de San Fernando</i> III."
     },
     {
       "from": "Federico de Madrazo",
@@ -10752,6 +10765,7 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "colleagues; acquaintances",
+      "know each other since": "c.1836",
       "influence": "Grandville's <i>Scènes de la vie privée et publique des animaux</i> (1842) is an homage to Balzac's <i>Scènes de la vie privée</i>, a section of his oeuvre <i>Comédie humaine</i>.",
       "collaborations": [
         "Grandville made illustrations for Balzac's <i>La Chronique de Paris</i> (c.1836).",
