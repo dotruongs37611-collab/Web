@@ -4955,7 +4955,7 @@
       "to": "Luis Paret",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "knew each other since": "at least 1774"
+      "know each other since": "at least 1774"
     },
     {
       "from": "Fernando VII",
@@ -5075,7 +5075,7 @@
       "to": "Valentín Carderera",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1841",
+      "know each other since": "at least 1841",
       "correspondence": "yes. Letters mentioned in Carderera's diary, 1841-1842 (LG 2016).",
       "exchanges": "Sureda received the Cruz de caballero de la Real Orden de Isabel la Católica in 1843 thanks to Carderera.",
       "interactions": [
@@ -5095,7 +5095,7 @@
       "to": "Alejandro Sureda",
       "connection_level": "direct",
       "relationship type": "employer-employee",
-      "knew each other since": "at least 1857",
+      "know each other since": "at least 1857",
       "collaborations": "restoration of the Belmonte Castle in Cuenca (1857-71)"
     },
     {
@@ -5103,8 +5103,15 @@
       "to": "Alejandro Sureda",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least from 1860",
+      "know each other since": "at least from 1860",
       "websites": "[RAH](https://historia-hispanica.rah.es/biografias/43327-alejandro-sureda-chappron)"
+    },
+    {
+      "from": "Adrien Dauzats",
+      "to": "Alejandro Sureda",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least from 1837 (via Federica de Madrazo)"
     },
     {
       "from": "Manuel Godoy",
@@ -5313,7 +5320,7 @@
       "to": "Honoré de Balzac",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "knew each other since": "at least 1830",
+      "know each other since": "at least 1830",
       "exchanges": "Balzac's <i>El verdugo</i> (1830) (from <i>La Comédie humaine</i>), set in Spain during the Peninsular War, is dedicated to Martínez de la Rosa. [Gutenberg.org](https://gutenberg.org/cache/epub/72034/pg72034-images.html)"
     },
     {
@@ -5321,7 +5328,7 @@
       "to": "Valentín Carderera",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "knew each other since": "at least 1841",
+      "know each other since": "at least 1841",
       "interactions": "in London: 1841, 18 July (Lanzarote Guiral 2016, p.29); in Paris: 1842, 20 Jan (ibid, p.98), 22 May (p.128), 6 Oct (p.155), 15 Oct (p.159), 29 Oct (p.163), 19 Nov (p.166), 27 Nov (p.167); 1843, 20 May (p.199); 1855, 5 Sept (p.281).",
       "bibliography": "Lanzarote Guiral 2016"
     },
@@ -5330,7 +5337,7 @@
       "to": "Valentín Carderera",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "knew each other since": "at least 1841",
+      "know each other since": "at least 1841",
       "collaborations": "several drawings by Carderera were included in Pérez Villaamil's <i>España artística y monumental</i> (1842-1850), published in Paris with Patricio de la Escosura: Salón de la Aljafería de Zaragoza, 'G. P. de Villa Amil lo dibujó por un croquis de D. Valentín Carderera'; Calatayud, 'Genaro Pérez de Villaamil d'aprés un croquis de Mr. Carderera'. However, Carderera complained to Pérez Villaamil because 11 other illustrations had not been properly attributed to him. He also expresses his dislike of some plates in <i>España monumental</i> in a letter to Federico de Madrazo in 1845 (LG 2016, p.XXXVI-XXXVIII)",
       "interactions": "in Paris: 1841; 28 April (Lanzarote Guiral 2016, p.8), 6 May (p.11), 26 Aug in London (p.42), 26 Nov (p.78), 4 Dec (p.82); 1842, 22 May (p.128), 17 Sept (p.149), 30 Sept (p.153)",
       "bibliography": "Lanzarote Guiral 2016; Xavier de Salas Bosch, 'Pérez Villaamil y Carderera', <i>Archivo Español de Arte</i>, vol.36, no.141, pp.83-84."
@@ -5359,7 +5366,7 @@
       "to": "Federico de Madrazo",
       "connection_level": "direct",
       "relationship type": "acquaintances; portraitist-sitter",
-      "knew each other since": "at least 1835",
+      "know each other since": "at least 1835",
       "portraits": "1835, lithograph in <i>El Artista</i>"
     },
     {
@@ -5550,7 +5557,7 @@
       "to": "Félix Bracquemond",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "1856",
+      "know each other since": "1856",
       "they share": "interest in Japanese art",
       "portraits": "Bracquemond, <i>Portrait d'Edmond de Goncourt</i>, 1880 (presented at the Impressionist exhibition); another portrait in 1881, etching and drypoint, Met [22.63.39](https://www.metmuseum.org/art/collection/search/333841)."
     },
@@ -5565,14 +5572,14 @@
       "to": "Émile Zola",
       "connection_level": "direct",
       "relationship type": "friends?",
-      "knew each other since": "c.1871"
+      "know each other since": "c.1871"
     },
     {
       "from": "Stéphane Mallarmé",
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1875",
+      "know each other since": "at least 1875",
       "collaborations": "1875 Manet made illustrations for Mallarmé's translation of Poe's <i>The Raven</i> (<i>Le Corbeau</i>)",
       "interactions": "Mallarmé would be the tutor of Manet's daughter, Julie Manet (Manet's niece)",
       "mentions": "1876 Manet and Degas are praised in Mallarmé's <i>The Impressionists and Édouard Manet</i>.",
@@ -5583,7 +5590,7 @@
       "to": "Edgar Degas",
       "connection_level": "direct",
       "relationship type": "friends?",
-      "knew each other since": "at least 1876",
+      "know each other since": "at least 1876",
       "mentions": "1876 Manet and Degas are praised in Mallarmé's <i>The Impressionists and Édouard Manet</i>.",
       "portraits": "Degas photographed Mallarmé in 1895 (<i>Stéphane Mallarmé and Paule Gobillard in front of 'Young Women in a Garden' by Manet</i>)"
     },
@@ -5598,7 +5605,7 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "friends; colleagues",
-      "knew each other since": "c.1832",
+      "know each other since": "c.1832",
       "interactions": [
         "Houssaye left her parents home in 1832 to leave the 'Bohemian life' in Paris, with Gautier, Nerval, Jules Janin and Alphones Esquiros. They also lived close to one another on the impasse du Doyenné (current Place du Carrousel).",
         "Gautier was a witness in Houssaye's 2nd marriage, to Marie-Jeanne-Nathalie Belloc, in 1862."
@@ -5610,7 +5617,7 @@
       "to": "Eugenio Ochoa",
       "connection_level": "direct?",
       "relationship type": "acquaintances?",
-      "knew each other since": "1837",
+      "know each other since": "1837",
       "interactions": "when Ochoa visits Hugo in 1837, he mentions Houssaye among the artists and writers who followed him, as 'jóvenes poetas y novelistas en la aurora de una brillante reputación') (Romero Tobar 1997, p. 222).",
       "bibliography": "Romero Tobar 1997"
     },
@@ -5636,7 +5643,7 @@
       "to": "Charles Baudelaire",
       "connection_level": "direct",
       "relationship type": "friends?; colleagues",
-      "knew each other since": "at least 1843",
+      "know each other since": "at least 1843",
       "interactions": "Baudelaire dedicates to Houssaye the poems in <i>Spleen de Paris</i>",
       "collaborations": [
         "Houssaye becomes director of <i>L'Artiste</i> in 1843, where he publishes the work of Baudelaire.",
@@ -5648,7 +5655,7 @@
       "to": "Arsène Houssaye",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "knew each other since": "at least 1858",
+      "know each other since": "at least 1858",
       "collaborations": "Mantz and Houssaye publish <i>Les Peintres vivants</i> (1858) with Théophile Gautier"
     },
     {
@@ -5656,7 +5663,7 @@
       "to": "Arsène Houssaye",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "knew each other since": "c.1849",
+      "know each other since": "c.1849",
       "collaborations": "as Administrateur général of the Comédie-Française, Houssaye presents Musset's works."
     },
     {
@@ -5664,7 +5671,7 @@
       "to": "Arsène Houssaye",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "knew each other since": "c.1849",
+      "know each other since": "c.1849",
       "collaborations": "as Administrateur général of the Comédie-Française, Houssaye presents Hugo's works."
     },
     {
@@ -5672,7 +5679,7 @@
       "to": "Arsène Houssaye",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "knew each other since": "c.1849",
+      "know each other since": "c.1849",
       "collaborations": "as Administrateur général of the Comédie-Française, Houssaye presents Dumas's works."
     },
     {
@@ -5956,7 +5963,7 @@
       "to": "José de Madrazo",
       "connection_level": "direct",
       "relationship type": "employer-employee; teacher-student",
-      "knew each other since": "at least 1829",
+      "know each other since": "at least 1829",
       "portraits": "painting after which Luis Carlos Legrand made a lithography, 1829-1832, Prado; <i>La reina gobernadora María Cristina de Borbón</i>, 1838, Madrazo collection Madrid"
     },
     {
@@ -5964,7 +5971,7 @@
       "to": "Federico de Madrazo",
       "connection_level": "direct",
       "relationship type": "employer-employee; teacher-student",
-      "knew each other since": "at least 1832",
+      "know each other since": "at least 1832",
       "portraits": "drawing, 1832, Prado D005367"
     },
     {
@@ -5972,7 +5979,7 @@
       "to": "Vicente López",
       "connection_level": "direct",
       "relationship type": "employer-employee",
-      "knew each other since": "at least 1830",
+      "know each other since": "at least 1830",
       "portraits": "oil painting, 1830, Prado P000865; oil painting, c.1832, Prado P007115"
     },
     {
@@ -5980,7 +5987,7 @@
       "to": "Alejandro Sureda",
       "connection_level": "direct",
       "relationship type": "acquantances; employer-employee",
-      "knew each other since": "at least 1843",
+      "know each other since": "at least 1843",
       "collaborations": "Sureda works on the restoration of the Palaces of Malmaison and Braganza in France (1843, 1845-46), and on the decoration of Palace of Las Rejas in Madrid (1847)."
     },
     {
@@ -5988,14 +5995,14 @@
       "to": "Valentín Carderera",
       "connection_level": "direct",
       "relationship type": "acquantances; employer-employee?",
-      "knew each other since": "at least 1843"
+      "know each other since": "at least 1843"
     },
     {
       "from": "María Cristina de Borbón-Dos Sicilias",
       "to": "José de Salamanca y Mayol (I Marqués de Salamanca)",
       "connection_level": "direct",
       "relationship type": "business partners",
-      "knew each other since": "1841",
+      "know each other since": "1841",
       "they met": "in Paris in 1841", 
       "they share": "lucrative business deals, many of which were deeply corrupt"
     },
@@ -6054,7 +6061,7 @@
       "to": "Eduardo Zamacois",
       "connection_level": "direct", 
       "relationship type": "master-student",
-      "knew each other since": "c.1860",
+      "know each other since": "c.1860",
       "correspondence": "part of the documental collection recently acquired by the Bilbao Museum (formerly in Paris)."
     },
     {
@@ -6062,14 +6069,14 @@
       "to": "Eduardo Zamacois",
       "connection_level": "direct", 
       "relationship type": "master-student",
-      "knew each other since": "1856"
+      "know each other since": "1856"
     },
     {
       "from": "Mariano Fortuny y Marsal",
       "to": "Eduardo Zamacois",
       "connection_level": "direct", 
       "relationship type": "friends; colleagues",
-      "knew each other since": "1866",
+      "know each other since": "1866",
       "correspondence": "part of the documental collection recently acquired by the Bilbao Museum (formerly in Paris).",
       "portraits": "Fortuny portrayed Zamacois in 1869 (etching, Met).",
       "collaborations": "Zamacois modelled as a bullfighter for Fortuny's famous painting <i>La Vicaría</i> (1870, Prado).",
@@ -6113,7 +6120,7 @@
       "to": "Eduardo Zamacois",
       "connection_level": "direct", 
       "relationship type": "acquaintances; portraitist-sitter",
-      "knew each other since": "at least 1863",
+      "know each other since": "at least 1863",
       "portraits": "Raimundo portrayed Zamacois in 1863 (oil painting, Prado)."
     },
     {
@@ -6155,7 +6162,7 @@
       "to": "Édouard Manet",
       "connection_level": "direct", 
       "relationship type": "friends",
-      "knew each other since": "at least 1865",
+      "know each other since": "at least 1865",
       "interactions": [
         "Manet followed Astruc's itinerary for his 1865 trip to Spain",
         "c.1866-1877 at Café Gerbois (avenue Clichy): Edgar Degas, Manet, Duranty, Émile Zola, Henri Fantin-Latour, A. Proust, Philippe Burty, Bazille, Whistler, Auguste Renoir."
@@ -6188,7 +6195,7 @@
       "to": "Edgar Degas",
       "connection_level": "direct", 
       "relationship type": "friends?",
-      "knew each other since": "c.1866",
+      "know each other since": "c.1866",
       "exchanges": "Astruc sold to Degas an artwork attributed to El Greco in Nov 1896, <i>Saint Dominique</i> (c.1605), for 3,000 francs, now at the Boston MFA (23.272).",
       "interactions": "c.1866-1877 at Café Gerbois (avenue de Clichy): Degas, Édouard Manet, Duranty, Émile Zola, Henri Fantin-Latour, A. Proust, Philippe Burty, Bazille, Whistler, Auguste Renoir.",
       "websites": "[AGORHA](https://agorha.inha.fr/detail/569)"
@@ -6282,7 +6289,7 @@
       "to": "Philippe Burty",
       "connection_level": "direct", 
       "relationship type": "friends?",
-      "knew each other since": "at least 1867",
+      "know each other since": "at least 1867",
       "they shared": "the interest in Japanese art and belonging to the Société du Jinglar (from 1867)",
       "collection": "Burty's collection  included Hirsch's <i>L'amour et la mort</i> (1868), after Goya's <i>Capricho</i> 10, 'El amor y la muerte', British Museum [1876,0510.371](https://www.britishmuseum.org/collection/object/P_1876-0510-371); from the Burty sale, April-May 1876, lot 716 (Fayos Pérez 2024, p.185, fig.II.56; Chazal 2008, no.239, p.308)."
     }, 
@@ -6389,7 +6396,7 @@
       "to": "Édouard Manet",
       "connection_level": "direct", 
       "relationship type": "friends; master-student; portraitist-sitter; relatives: brother-in-law, sister-in-law",
-      "knew each other since": "1868, at the Louvre (introduced by Henri Fantin-Latour)",
+      "know each other since": "1868, at the Louvre (introduced by Henri Fantin-Latour)",
       "feuds": "Morisot decides to join the new association of artists (<i>Société anonyme des artistes peintres, sculptueurs et graveurs</i>) in 1873 and stop sending artworks to the Salon, while Manet remains in the official channels.",
       "mentions": "in line with the misogyny of that time, Manet said to Henri Fantin-Latour: 'Je suis de votre avis, les demoiselles Morisot sont charmantes, c'est fâcheux qu'elles ne soient pas des hommes. Cependant, elles pourraient, comme femmes, servir la cause de la peinture en épousant chacune un académicien et en mettant la discorde dans le camp de ces gâteux' (Moreau-Nélaton 1926, vol.2, to.I, p.103).",
       "portraits": "Morisot posed for Manet's <i>Le balcon</i> (1869); <i>Berthe Morisot with a Bouquet of Violets</i> (1872, Orsay); <i>Berthe Morisot au soulier rose</i> (1872, Hiroshima Museum)",
@@ -6436,7 +6443,7 @@
       "to": "Henri Fantin-Latour",
       "connection_level": "direct", 
       "relationship type": "friends; colleagues",
-      "knew each other since": "at least 1868"
+      "know each other since": "at least 1868"
     },
     {
       "from": "Berthe Morisot",
@@ -6454,7 +6461,7 @@
       "to": "Edgar Degas",
       "connection_level": "direct", 
       "relationship type": "friends; colleagues. Degas admired Morisot's painting (Monneret 1987, p.597).",
-      "knew each other since": "1868? (introduced by Manet)",
+      "know each other since": "1868? (introduced by Manet)",
       "bibliography": "Wolohojian & Dunn 2023; Monneret 1987"
     },
     {
@@ -6586,7 +6593,7 @@
       "to": "Gustave Doré",
       "connection_level": "direct", 
       "relationship type": "acquaintances; friends?",
-      "knew each other since": "at least 1849",
+      "know each other since": "at least 1849",
       "interactions": "registered in the Cabinet des estampes (BnF) as readers in 1849, alongside Henri Fantin-Latour (Lethève 1968, p.109)",
       "bibliography": "Lethève 1968"
     },
@@ -6595,7 +6602,7 @@
       "to": "Gustave Doré",
       "connection_level": "direct", 
       "relationship type": "acquaintances; friends?",
-      "knew each other since": "at least 1849",
+      "know each other since": "at least 1849",
       "interactions": "registered in the Cabinet des estampes (BnF) as readers in 1849, alongside Henri Félix Bracquemond (Lethève 1968, p.109)",
       "bibliography": "Lethève 1968"
     },
@@ -6638,14 +6645,14 @@
       "to": "Eugène Delacroix",
       "connection_level": "direct", 
       "relationship type": "acquaintances",
-      "knew each other since": "at least 1840" 
+      "know each other since": "at least 1840" 
     },
     {
       "from": "Pauline Viardot-García",
       "to": "Frédéric Chopin",
       "connection_level": "direct", 
       "relationship type": "acquaintances",
-      "knew each other since": "at least 1840",
+      "know each other since": "at least 1840",
       "interactions": "Chopin often accompanied her in the piano at George Sand's",
       "portraits": "Maurice Sand (George Sand's son) made a drawing in 1844 of Pauline and Chopin (Fryderyck Chopin Institute, Warszawa, Poland)",
       "websites": "[interlude.hk](https://interlude.hk/muses-musings-pauline-viradot-frederic-chopin/); [Wikipedia](https://fr.wikipedia.org/wiki/Pauline_Viardot)"
@@ -6655,7 +6662,7 @@
       "to": "Gustave Doré",
       "connection_level": "direct", 
       "relationship type": "colleagues",
-      "knew each other since": "at least 1869",
+      "know each other since": "at least 1869",
       "collaborations": "Doré illustrates the 1869 reedition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot (1st edition 1836-37, illustrated by Tony Johannot)"
     },
     {
@@ -6759,10 +6766,16 @@
       "portraits": "Madrazo portrays Adrien Dauzats in 1837",
       "correspondence": [
         "1834-IX-29, Dauzats to Madrazo: 'Je m'occupe d'une notice sur la vie et les ouvrages de Goya. C'est un hommage que nous voulons rendre à l'un des peintres les plus célèbres de l'Espagne' (Archivo Madrazo). Quoted in Guinard 1967-B, p.323 (Guinard thinks Dauzats could be the author of the article on Goya in 1834 in <i>Le Magasin pittoresque</i>); Fayos Pérez 2024, p.50.",
-        "1835-III-24, Madrazo to Dauzats (INHA). Pending publication. Mentions Baron Taylor, Valentín Carderera, Eugenio Ochoa and Santiago Masarnau.",
-        "1837-VI-17, Dauzats to Madrazo (Archivo Madriazo) (Guinard 1967-B, p.269)."  
+        "1835-III-24, Madrazo to Dauzats (in Spanish) (INHA). Dauzats is then in Valencia with Baron Taylor. Madrazo mentions Baron Taylor, Valentín Carderera, Eugenio Ochoa, Santiago Masarnau and Carlos Luis de Ribera (Fayos-Pérez 2026, upcoming).",
+        "1835-IV-1, Madrazo to Dauzats (in French) (INHA): Dauzats had asked for a notice about Goya, which Madrazo is waiting to ask for to Javier Goya when he is back in Madrid. Madrazo says the gave Pharamond Blanchard two lithographies for him from <i>El Artista</i>. Mention of Eugenio Ochoa and Alejandro Sureda. His brother (Pedro de Madrazo?) sends regards. He also sends regards to Baron Taylor (Fayos-Pérez 2026, upcoming).",
+        "1837-I-24, Madrazo to Dauzats (INHA). He says that Pharamond Blanchard told him that Baron Taylor was coming back soon (to Paris). Mentions Eugenio Ochoa and Carlos Luis de Ribera.",
+        "1837-VI-17, Dauzats to Madrazo (Archivo Madrazo) (Guinard 1967-B, p.269).",
+        "1838-III-12, Madrazo to Dauzats (INHA): Madrazo asks Dauzats for drawing tools.",
+        "1838?-V-7, Madrazo to Dauzats (INHA): mentions Eugenio Ochoa, Pedro de Madrazo, Valentín Carderera, Luisa and Carlota.",
+        "1838-VI-11, Madrazo to Dauzats (INHA): mention of a suit of armour and a mannequin for a painting.",
+        "1839-VI-25, Madrazo to Dauzats (INHA): mention of a visit to the Louvre."
       ],
-        "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Guinard 1967-B."
+        "bibliography": "Fayos Pérez 2026 (upcoming); Fayos Pérez 2024; Guinard 1967-A; Guinard 1967-B."
     },
     {
       "from": "Federico de Madrazo",
@@ -6964,7 +6977,7 @@
       "to": "Adrien Dauzats",
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
-      "knew each other since": "at least 1837",
+      "know each other since": "at least 1837",
       "mentions": "1837, 28 June, letter from Federico de Madrazo to Valentín Carderera, repeating what Dauzats said about Ribera: 'que Ribera trabaja mucho, que ha dejado un poco su timidez y que si tardo un poco en ir a París no le reconoceré, y además dice que me parecerá un hombre natural y que su padre bramaría si viese la influencia que ha ejercido París en él'."
     },
     {
@@ -7024,12 +7037,12 @@
       "to": "Adrien Dauzats",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1841",
+      "know each other since": "at least 1841",
       "interactions": [
         "1841, May 4, 7 (with Blanchard and Taylor), 9 (Dauzats saw his drawings), Dec 2, 15 (Carderera gives him the drawing he asked for), 16, 30 (Paris): they meet (LG 2016, pp.10, 11, 12, 87, 92).",
         "1842, 27 Jan (Paris): Carderera goes to Dauzats's and leaves a letter for him (Lanzarote Guiral 2016, p.100).",
-        "1856, 1 Oct (Paris): Carderera shows Dauzats hiw own drawings and also Goya's. Dauzats copies or traces some of them (Fayos Pérez 2024, p.51; LG 2016, p.352).",
-        "1859, 12 Nov (Paris): Carderera takes single sheets from the <i>Caprichos</i> and gives some of the prints to Dauzats: 'le regalé las estampas de Goya (29). Parece quedó content y quería pagármelas' (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.430)."
+        "1856, 1 Oct (Paris): Carderera shows Dauzats his own drawings and also Goya's. Dauzats copies or traces some of them (Fayos Pérez 2024, p.51; LG 2016, p.352).",
+        "1859, 12 Nov (Paris): Carderera takes single sheets from the <i>Caprichos</i> and gives some of the prints to Dauzats: 'le regalé las estampas de Goya (29). Parece quedó contento y quería pagármelas' (Fayos Pérez 2024, p.51; Lanzarote Guiral 2016, p.430)."
       ],
       "correspondence": [
         "At least from 1842: Carderera receives a letter from Dauzats 17 March 1842 in Paris (LG 2016, p.115).",
@@ -7037,7 +7050,7 @@
         "Archivo familiar Carderera: at least two letters. No apparent mentions of Goya."
       ],
       "archives": "BNE; Archivo familiar Carderera (Madrid).",
-      "bibliography": "Fayos Pérez 2025-2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
+      "bibliography": "Fayos Pérez 2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
@@ -7176,7 +7189,7 @@
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "colleagues, friends, rivals",
-      "knew each other since": "c.1864, at the Louvre", 
+      "know each other since": "c.1864, at the Louvre", 
       "they met": "Degas allegedly met Manet for the first time c.1864 when they were both copying (in etching) Velázquez's <i>Infanta Margarita</i> at the Louvre (Wolohojian & Dunn 2023, p.277; Gordon and Forge 1988, p.23)",
       "portraits": [
         "Manet by Degas: several prints and drawings c.1868-69, including <i>Édouard Manet, Seated, Holding His Hat</i> (c.1868) (and 1868 print); <i>Édouard Manet, Bust-Length Portrait</i> (c.1868, Met 49.127.7) [Met](https://www.metmuseum.org/art/collection/search/358782); <i>Édouard Manet at the Races</i> (c.1868-69). (Wolohojian & Dunn 2023, p.277)",
@@ -7266,7 +7279,7 @@
       "to": "Félix Bracquemond",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1861",
+      "know each other since": "at least 1861",
       "portraits": [
         "Bracquemond, portrait of Baudelaire, etching, 1861 (BM 1865,1209.693): intended for the 2nd edition of <i>Fleurs du Mal</i>. ",
         "They both appear in Henri Fantin-Latour's <i>Hommage à Delacroix</i> (1864, Orsay), alongside Henri Fantin-Latour himself, Édouard Manet, Louis Edmond Duranty, Champfleury, Louis Cordier, Alphonse Legros, James Whistler, and Albert de Balleroy.",
@@ -7478,7 +7491,7 @@
       "to": "Théophile Gautier",
       "connection_level": "direct",
       "relationship type": "colleagues",
-      "knew each other since": "at least 1858",
+      "know each other since": "at least 1858",
       "collaborations": "Mantz and Gautier publish <i>Les Peintres vivants</i> (1858), with Arsène Houssaye",
       "influence": "In his early years, Mantz was inspired by Gautier's writings"
     },
@@ -7487,7 +7500,7 @@
       "to": "Valentín Carderera",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "knew each other since": "at least 1861",
+      "know each other since": "at least 1861",
       "interactions": "1861, 2 Oct (Paris): Blanc and Houssaye gave Carderera the 'entregas' from the <i>Gazette des Beaux-arts</i>. 'I warned them about the article of Goya given to Burty, etc.' (Lanzarote Guiral 2016, p.508).",
       "bibliography": "Lanzarote Guiral 2016"
     },
@@ -7496,7 +7509,7 @@
       "to": "Charles Blanc",
       "connection_level": "direct",
       "relationship type": "colleagues?",
-      "knew each other since": "at least 1861",
+      "know each other since": "at least 1861",
       "interactions": "1861, 2 Oct (Paris): Blanc and Houssaye gave Valentín Carderera the 'entregas' from the <i>Gazette des Beaux-arts</i>. Carderera writes: 'I warned them about the article of Goya given to Burty, etc.' (Lanzarote Guiral 2016, p.508).",
       "bibliography": "Lanzarote Guiral 2016"
     },
@@ -7868,7 +7881,7 @@
       "to": "[J./L.] Carresse",
       "connection_level": "direct",
       "relationship type": "colleagues; friends; business partners (print dealers)",
-      "knew each other since": "at least 1855",
+      "know each other since": "at least 1855",
       "interactions": "c.1855-59 they met sometimes on a daily basis (in Paris), often to work together. Carderera gave more works by Goya to Carresse than to anybody else (as mentioned in his diary). In Carresse's 1857 letter, Carderera wrote in the heading that he gave Carresse 'objects' in return for him looking for a good lithographer for the <i>Iconografía Española</i> (1855-64). These 'objects' were probably prints and drawings by Carderera himself as well as by Goya.",
       "correspondence": "1857, 21 June (Carderera archive): Carresse thanks Carderera for the Goya prints he has sent him and mentions a forthcoming exchange of Goya's <i>Toros</i> (<i>Bulls of Bordeaux</i> 1825, or <i>Tauromaquia</i> 1816), which he would have to show to potential buyers (<i>les faire voir</i> and establish a price, so Carresse was acting as Carderera's dealer or intermediary, selling and exchanging works from his collection in Paris and helping him to find buyers (Fayos Pérez 2020, pp.1051-53).",
       "bibliography": "Fayos Pérez 2024; Fayos Pérez 2020; Lanzarote Guiral 2016"
@@ -7940,7 +7953,7 @@
       "to": "Eugenio Ochoa",
       "connection_level": "direct",
       "relationship type": "friends",
-      "knew each other since": "at least 1835",
+      "know each other since": "at least 1835",
       "they met": "they coincide in Paris (Ochoa lives there 1837-1843).",
       "collaborations": "Carderera published his first article on Goya in 1835 in <i>El Artista</i>, founded by Federico de Madrazo, Pedro de Madrazo and Eugenio Ochoa.",
       "bibliography": "Lanzarote Guiral 2016, p.563"
@@ -7985,7 +7998,7 @@
       "to": "Pedro de Madrazo",
       "connection_level": "direct",
       "relationship type": "acquaintances; portraitist-sitter",
-      "knew each other since": "at least 1861",
+      "know each other since": "at least 1861",
       "portraits": "portrait of Pedro de Madrazo by J. Laurent, photograph, 1861, BNE"
     },
     {
@@ -8117,7 +8130,7 @@
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "colleagues; friends",
-      "knew each other since": "at least 1829",
+      "know each other since": "at least 1829",
       "they met": [
         "1829: 'Victor Hugo lut <i>Un duel sous Richelieu</i> à son cénacle élargi le 10 juillet 1829 : Sainte-Beuve, Boulanger, Vigny, Dumas, Soumet, Delacroix, Taylor, Musset, Mérimée, les Devéria, les Deschamps, les Bertin, d'autres encore, ils étaient tous là, et même Balzac, qui venait de publier son premier livre sous son nom, <i>Le Dernier Chouan, ou la Bretagne en 1800</i>' (Hovasse 2001, p.403)",
         "1830 <i>Hernani</i>: 'Hugo et Taylor, cachés dans une encoignure, assistèrent au défilé des conjurés excentriques, qui allaient à des buts élevés par des voies étroites' (Hovasse 2001, p.424; quoting <i>Victor Hugo raconté</i>, p.462-63)",
@@ -8272,7 +8285,8 @@
       "to": "Eugenio Ochoa",
       "connection_level": "direct",
       "relationship type": "friends",
-      "know each other since": "at least 1837. Dauzats introduces Ochoa to Hugo."
+      "know each other since": "at least 1835", 
+      "curiosities": "Dauzats introduces Ochoa to Victor Hugo"
     },
     {
       "from": "Adrien Dauzats",
@@ -8376,7 +8390,7 @@
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "knew each other since": "1837",
+      "know each other since": "1837",
       "mentions": "Ochoa describes his visit to Hugo (introduced by Adrien Dauzats) in 1837: 'Un padre rodeado de sus hijos, un monarca rodeado de su corte, no reciben más señales, aquel de cariño, este de respeto, que Victor Hugo en medio de sus habituales tertulianos, la mayor parte dscípulos suyos, imitadores de sus <i>formas</i> literarias, exageradores de sus extravíos, fanáticos de su gloria' (among this group of followers he mentions Vacqueria, Viardot, Nodier, Féval, Lucas, Feuillet, Gautier, Houssaye: 'jóvenes poetas y novelistas en la aurora de una brillante reputación') (Romero Tobar 1997, p. 222).",
       "collaborations": "in 1836, Ochoa makes the translation of Hugo's <i>Hernani</i> (1830; set in 16th-century Spain). It first plays in Spain on 24 August 1836 at the Teatro del Príncipe in Madrid. This translation is praised by Gautier when he sees a representation in Spain with Piot in 1840. However, Ochoa made considerable changes from the original, removing any criticism towards the Church and elements perceived as 'immoral'. He also downplayed the 'diavolical and pathetic' nature of King Carlos, who was considered a historic hero of Carlism in the conservative sectors of 1830s Spain (Wikipedia). Dengler Gassin (1991, p.338-339) argues instead that Ochoa's translation is very close to the original, althoug he discusses some differences (such as translating 'baiser' as 'hug' instead of 'kiss' and ommitting a passage from Don Carlos) and says Ochoa falls into 'self-censorship'. Avrett (1954) did think that Ochoa's translation took far too many liberties, partly due to 'deep-rooted national and racial ideologies' and Spanish prudishness (p.362).",
       "bibliography": "Ozaeta 2002; Romero Tobar 1997; Dengler Gassin 1991; Avrett 1954; Ochoa, 1861, <i>París, Londres y Madrid</i>.",
@@ -8610,7 +8624,7 @@
       "to": "Édouard Manet",
       "connection_level": "direct",
       "relationship type": "friends; colleagues",
-      "knew each other since": "1855",
+      "know each other since": "1855",
       "they meet": "for the first time in 1855, when Manet asks Delacroix for permission to copy his 1822 <i>Barque de Dante</i> at the Musée du Luxembourg.",
       "collaborations": "when Manet's <i>Buveur d'absinthe</i> was rejected at the Salon of 1859, Delacroix defended him (Cachin & Wilson-Bareau 1983, p.506)",
       "copies": "Manet copies Delacroix's <i>La Barque de Dante</i> in c.1855 (now at the Musée de Lyon)",
@@ -9667,7 +9681,7 @@
       "to": "Juliette Récamier",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "knew each other since": "at least since 1841",
+      "know each other since": "at least since 1841",
       "mentions": "1841, 9 Jan, letter from Custine to Varnhagen: 'Voici une petite conversation que j'ai entendue hier chez Mme Récamier. M. de Chateaubriand causait avec M. de Salvandy sur la nomination de Victor Hugo, qui paraissait faire révolution dans l'académie; moi, je disais que la révolution serait au moins réciproque et que Victor Hugo serait aussi changé et plus que l'académie' (Merzbach 1870, pp.403-4).",
       "bibliography": "H. Merzbach (ed.), <i>Lettres du marquis A. de Custine à Varnhagen d'Ense et Rahel Varnhagen d'Ense</i>, 1870"
     },
@@ -9788,7 +9802,7 @@
       "to": "Madame de Staël",
       "connection_level": "direct",
       "relationship type": "friends", 
-      "knew each other since": "1814",
+      "know each other since": "1814",
       "interactions": "she used her influence with him to have the size of the Army of Occupation greatly reduced (Longford 1972, p. 38)", 
       "mentions": "Wellington remarked that, while he knew that she was greatly afraid of death, he had thought her incapable of believing in the afterlife (Longford 1972, p.38)",
       "bibliography": "Elizabeth Longford, <i>Wellington: Pillar of State</i>, 1972, London"
@@ -9798,7 +9812,7 @@
       "to": "Francisco de Goya",
       "connection_level": "direct",
       "relationship type": "patronage", 
-      "knew each other since": "at least 1812",
+      "know each other since": "at least 1812",
       "portraits": "equestrian portrait, 1812, Apsley House; bust portrait, 1812, London National Gallery (preparatory drawing: British Museum)"
     },
     {
@@ -9806,7 +9820,7 @@
       "to": "Francisco de Goya",
       "connection_level": "direct",
       "relationship type": "patronage", 
-      "knew each other since": "1785",
+      "know each other since": "1785",
       "commissions": "individual and family portraits; two series of paintings, including one of witchcraft scenes (<i>Composiciones de asuntos de Brujas</i>). See <i>El aquelarre</i> (1798, Museo Lázaro Galdiano) and <i>Vuelo de brujas</i> (c.1798, Prado)",
       "patronage": "she was one of the first people to ever acquire sets of the <i>Caprichos</i> (the Osuna sets were probably before letters)",
       "portraits": "c.1785 (Fundación Bartolomé March, Palma de Mallorca); family portrait, 1788, Prado"
@@ -9882,7 +9896,7 @@
       "to": "Francisco de Goya",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "knew each other since": "at least 1786-87",
+      "know each other since": "at least 1786-87",
       "portraits": "family portrait (1786-87, Prado), and individual portrait (1805, Prado)"
     },
     {
@@ -9890,7 +9904,7 @@
       "to": "Francisco de Goya",
       "connection_level": "direct",
       "relationship type": "patronage",
-      "knew each other since": "at least 1816",
+      "know each other since": "at least 1816",
       "portraits": "individual portrait (1816, Prado)"
     },
     {
@@ -9899,7 +9913,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "individual portrait",
-      "knew each other since": "at least 1816",
+      "know each other since": "at least 1816",
       "portraits": "1816, Musée Bonnat-Helleu"
     },
     {
@@ -9908,7 +9922,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "individual and family portraits",
-      "knew each other since": "1785",
+      "know each other since": "1785",
       "portraits": "1785, private collection; 1788, family portrait, Prado; c.1798, Frick Collection, New York"
     },
     {
@@ -10032,7 +10046,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portraits",
-      "knew each other since": "at least 1786",
+      "know each other since": "at least 1786",
       "portraits": "<i>Carlos III en traje de corte</i>, c.1780, Banco de España; <i>Carlos III cazador</i>, c.1786, Prado and BBVA Foundation"
     },
     {
@@ -10190,7 +10204,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portraits",
-      "knew each other since": "at least 1800",
+      "know each other since": "at least 1800",
       "portraits": "1800, New York, Metropolitan Museum; 1800, <i>La familia de Carlos IV</i>; 1814, Museo de Arte Moderno y Contemporáneo de Santander y Cantabria; <i>Fernando VII con manto real</i>, 1814-15, [Prado P000735](https://www.museodelprado.es/coleccion/obra-de-arte/fernando-vii-con-manto-real/1b46165d-1ef7-4399-8282-7056bb901ad9); Fernando VII in a military camp, after 1815, [Prado P000724](https://www.museodelprado.es/coleccion/obra-de-arte/fernando-vii-en-un-campamento/eb432c33-5391-4e84-b55f-14281c36d416?searchMeta=p000724)"
     },
     {
@@ -10205,7 +10219,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portraits",
-      "knew each other since": "at least 1814",
+      "know each other since": "at least 1814",
       "portraits": "c.1814-15, Prado; 1828, Banco de España; 1831, Palacio de España, Rome"
     },
     {
@@ -10232,7 +10246,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portraits",
-      "knew each other since": "at least 1789",
+      "know each other since": "at least 1789",
       "portraits": "1789, Prado; 1800, <i>La familia de Carlos IV</i>, 1800, Prado",
       "exchanges": "in 1803 Goya gave the plates of the <i>Caprichos</i> and 240 sets to Carlos IV (Real Calcografía) in exchange for a pension of 12,000 reales for his son Javier (Harris 1964, vol.I, p.10). See the letter from Goya to Cayetano Soler from 7 July 1803 (Canellas López 1981)",
       "bibliography": "Canellas López 1981; Harris 1964"
@@ -10243,7 +10257,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portraits",
-      "knew each other since": "at least 1789",
+      "know each other since": "at least 1789",
       "portraits": "1789, Prado; 1799, equestrian portrait, Prado; <i>La familia de Carlos IV</i>, 1800, Prado"
     },
     {
@@ -10252,7 +10266,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portraits",
-      "knew each other since": "at least 1795",
+      "know each other since": "at least 1795",
       "portraits": "1795, Madrid, [Palacio de Liria, Fundación Casa de Alba](https://www.palaciodeliria.com/galeria/dona-maria-del-pilar-teresa-cayetana-de-silva-alvarez-de-toledo-xiii-duquesa-de-alba); 1797, New York, Hispanic Society of America [https://hispanicsociety.org/exhibition/current-exhibitions-works-on-loan/treasures-on-the-terrace_highlights-from-the-hispanic-society-museum-and-library/duchess-of-alba/]"
     },
     {
@@ -10545,7 +10559,7 @@
       "connection_level": "direct",
       "relationship type": "patronage",
       "commissions": "portrait",
-      "knew each other since": "at least 1785",
+      "know each other since": "at least 1785",
       "portraits": "1785, Museo Lázaro Galdiano (Madrid)"
     },
     {
