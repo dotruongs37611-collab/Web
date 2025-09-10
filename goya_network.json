@@ -3289,7 +3289,7 @@
         "1880 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56."
       ],
       "lives in": "Madrid, Paris, Rome",
-      "in Paris": "several years in the 1830s, including 1837 (with Federico de Madrazo)",
+      "in Paris": "1837-1840. He leaves for Paris with his brother Federico de Madrazo in August 1837.",
       "portrayed by": "Federico de Madrazo, oil painting, 1842, Hispanic Society; Jean Laurent, photograph, 1861, BNE; Luis de Madrazo, oil painting, 1885, Madrazo coll.",
       "writes about Goya": [
         "1872 <i>Catálogo descriptivo e histórico del Museo del Prado de Madrid, seguido de una sinopsis de las varias escuelas... Parte Primera. Escuelas Italianas y Españolas</i>: <i>Familia de Carlos IV</i>, pp.408-10.",
@@ -3303,7 +3303,7 @@
       "correspondence": [
         "1878-1880 from Baron Davillier (with Raimundo de Madrazo): proposition of Japanese armour suits for an exhibition. Bibliothèque historique de la Ville de Paris, [4-MS-3052](https://bibliotheques-specialisees.paris.fr/ark:/73873/FRCGMNOV-751045102-FG02C/A2003724?posInSet=2&queryId=fb3840a4-1c68-4d70-81f7-bc280791947b)"
       ],
-      "websites": "[Prado profile by Javier Portús](https://www.museodelprado.es/aprende/enciclopedia/voz/madrazo-pedro-de/0931bfd5-a04f-4b4c-b435-3dec628fa9bc)",
+      "websites": "[Prado profile by Javier Portús](https://www.museodelprado.es/aprende/enciclopedia/voz/madrazo-pedro-de/0931bfd5-a04f-4b4c-b435-3dec628fa9bc); [RAH](https://historia-hispanica.rah.es/biografias/27500-pedro-de-madrazo-y-kuntz); [Colección Madrazo](https://ceres.mcu.es/pages/ResultSearch?txtSimpleSearch=Pedro%20de%20Madrazo&simpleSearch=0&hipertextSearch=1&search=simpleSelection&MuseumsSearch=CSGMM%7C&MuseumsRolSearch=1&listaMuseos=[Colecci%F3n%20Madrazo.%20Comunidad%20de%20Madrid])",
       "archives": "Bibliothèque historique de la Ville de Paris",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg",
       "image source": "Federico de Madrazo portrait 1842, Hispanic Society"
@@ -6911,9 +6911,10 @@
       "relationship type": "relatives: brothers; colleagues",
       "collaborations": "co-founders of <i>El Artista</i> in 1835 with Eugenio Ochoa (their brother-in-law)",
       "shared": [
-        "They enlisted as voluntaries in the <i>granaderos</i> of the Milicia Nacional de Madrid (6th Batallion) in 1835, alongside Santiago Masarnau, Vicente Masarnau, Pascual de Gayangos and Valentín Carderera.",
-        "They travelled together to Paris in 1837?"
-      ]
+        "c.1835-1836 they enlisted as voluntaries in the <i>granaderos</i> of the Milicia Nacional de Madrid (6th Batallion), alongside Santiago Masarnau, Vicente Masarnau, Pascual de Gayangos and Valentín Carderera.",
+        "1837 they travelled together to Paris. They leave in August 1837."
+      ],
+      "websites": "[RAH](https://historia-hispanica.rah.es/biografias/27500-pedro-de-madrazo-y-kuntz); [Colección Madrazo](https://ceres.mcu.es/pages/ResultSearch?txtSimpleSearch=Pedro%20de%20Madrazo&simpleSearch=0&hipertextSearch=1&search=simpleSelection&MuseumsSearch=CSGMM%7C&MuseumsRolSearch=1&listaMuseos=[Colecci%F3n%20Madrazo.%20Comunidad%20de%20Madrid])"
     },
     {
       "from": "Federico de Madrazo",
