@@ -762,11 +762,15 @@ Its code and structure are licensed under <a href="https://creativecommons.org/l
   </div>
 </div>
 
-<!-- PANEL LATERAL / POPUP (colócalo junto a los otros paneles, por ejemplo después de #cite panel) -->
-<div id="newInPanel" style="display:none; position: absolute; right: 12px; top: 58px; width: 320px; max-height: 70vh; overflow-y: auto; background: #111; color: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.6); z-index: 9999;">
-  <h3 style="margin:0 0 0.5rem 0; font-size:1rem;">New in</h3>
-  <div id="newInList" style="font-size:0.95rem; line-height:1.4;"></div>
-  <div style="margin-top:0.5rem; font-size:0.75rem; color:#bbb;">Most recent first — click to jump to node</div>
+<!-- NEW IN section -->
+<div id="new" class="layout-container hidden">
+  <div style="flex:1; padding:1rem; color:white;">
+    <h2 class="section-heading">New in</h2>
+    <div id="newInList" style="font-size:1rem; line-height:1.6;"></div>
+    <div style="margin-top:0.5rem; font-size:0.85rem; color:#bbb;">
+      Most recent first — click to jump to node
+    </div>
+  </div>
 </div>
 
   <script>
