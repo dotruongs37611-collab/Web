@@ -212,11 +212,12 @@ document.addEventListener('DOMContentLoaded', async function () {
 
 
     /* ---- NEW IN: funciones para la pestaña "New in" ---- */
-    //function showNewInPanel(show = true) {
-      //const panel = document.getElementById('newInPanel');
-      //if (!panel) return;
-      //panel.style.display = show ? 'block' : 'none';
-    //}
+
+    function showNewInPanel(show = true) {
+      const panel = document.getElementById('newInPanel');
+      if (!panel) return;
+      panel.style.display = show ? 'block' : 'none';
+    }
 
     // Construye la lista "New in" a partir de data.nodes y data.edges
     function buildNewInList(data) {
@@ -281,13 +282,13 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     // Conectar el botón (pon esto en el mismo scope que tu otro JS)
-    //document.addEventListener('click', function (e) {
-      //if (e.target && e.target.id === 'newInBtn') {
-        //const panel = document.getElementById('newInPanel');
-        //if (!panel) return;
-        //showNewInPanel(panel.style.display === 'block' ? false : true);
-      //}
-    //});
+    document.addEventListener('click', function (e) {
+      if (e.target && e.target.id === 'newInBtn') {
+        const panel = document.getElementById('newInPanel');
+        if (!panel) return;
+        showNewInPanel(panel.style.display === 'block' ? false : true);
+      }
+    });
 
     // Llamada a buildNewInList(data) — inserta esto donde llamas a handleInitialHash() / loadFullImages()
     // En tu archivo ya existe un setTimeout que hace handleInitialHash() y loadFullImages(); añade buildNewInList(data) allí.
