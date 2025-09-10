@@ -1403,7 +1403,20 @@
         "When asked in 1872 if he was a Catholic, he answered, 'No. A Freethinker'.",
         "<i>Notre-Dame de Paris</i> was listed as a 'forbidden book' by the Church."
         ],
-      "bibliography": "Wilfried Floeck, 'Victor Hugo et l'Espagne', <i>Francofonia</i>, no.13, 1987, pp.87-102; Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23; Georges Huard, 'Victor Hugo et Les Caprices de Goya', <i>Gazette Des Beaux-Arts</i>, Sept 1959, pp.158-59; Jean Adhémar, 'Victor Hugo et Goya', <i>Bulletin de l'Institut de France en Espagne</i>, 1953, pp.162-63",
+      "knows Goya's works": "the <i>Caprichos</i>, surely by 1830. He probably discovered this work via his friend Louis Boulanger c.1828-1829.",
+      "link to Goya's work": [
+        "1830 Hugo wrote <i>Buen viage! -GOYA-</i> on top of his poem no.28 from <i>Feuilles d'Automne</i>, which is a reference to <i>Capricho</i> 64, 'Buen viaje'. He dedicated it 'À mes amis S.-B. et L.B', which probably are Charles-Augustin Sainte-Beuve and Louis Boulanger.",
+        "1831 <i>Notre Dame de Paris</i>: 'C'était un de ces spectres mi-partis d'ombre et de lumière, comme on en voit dans les rêves et dans l'oeuvre extraordinaire de Goya, pâles, immobiles, sinistres, accroupis sur une tombe ou adossés à la grille d'un cachot' (1831, p.373). For Assante di Panzillo (2008, p.108), this description is evocative of <i>Capricho</i> 34, 'Les rinde el sueño'. Assante di Panzillo (2008, p.108) believes that this novel carries the indirect impact of Goya in the use of 'archetypes or <i>romantisme noir</i>'.",
+        "1839 in <i>Rayons et les ombres</i>, Hugo compared Goya's gnomes to Rembrandt's witches and Callot's <i>Temptation of Saint Anthony</i> (1635) (Fayos Pérez 2024, p.126; Assante di Panzillo 2008, p.107); Adhémar 1935, p.xxvii; Hugo-Hetzel 1857, p.297).",
+        "Some drawings by Hugo could be considered Goyaesque in an indirect way, such as <i>Ah ça! Décidément, que se passe-t-il après la mort?</i> (1869), showing a hybrid creature, half-donkey half-bird (BNF, NAF 13469, fol.33).",
+        "Paul Guinard saw Hugo as Goya's 'spiritual heir' in his use of nightmarish visions and tragic imagery, as well as sensual and picaresque themes (Guinard 1957, p.102).",
+        "Jean Adhémar wrote: 'He [Hugo] must have observed enthusiastically the witches and that writhe in a darkness penetrated by violent glimmers, because his vision is very close to that of Goya. These prints must have nurtured his imagination, providing him with an endlessly rich repertoire of figures and themes from which he could draw for years' (Adhémar 1935, p.xxvii)."
+      ],
+      "interest in Spanish art": [
+        "1830 his celebrated play <i>Hernani</i> (written at the time Hugo had discovered the <i>Caprichos</i>), was set in 16th-century Spain, with kings, bandits and knights as main characters.",
+        "1869 Hugo writes the play <i>Torquemada</i>, published in 1882, inspired by the Dominican friar and grand inquisitor Tomás de Torquemada."
+      ],
+      "bibliography": "Fayos Pérez 2024; Assante di Panzillo 2008; Wilfried Floeck, 'Victor Hugo et l'Espagne', <i>Francofonia</i>, no.13, 1987, pp.87-102; Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23; Georges Huard, 'Victor Hugo et Les Caprices de Goya', <i>Gazette Des Beaux-Arts</i>, Sept 1959, pp.158-59; Guinard 1957; Jean Adhémar, 'Victor Hugo et Goya', <i>Bulletin de l'Institut de France en Espagne</i>, 1953, pp.162-63; Adhémar 1935; Hugo-Hetzel 1857.",
       "websites": "[Wikipedia](https://en.wikipedia.org/wiki/Victor_Hugo)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hugo.jpg"
     },
@@ -1742,6 +1755,28 @@
       "bibliography": "Fayos Pérez 2024; Dumas-Schopp 2014",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dumas.jpg",
       "image source": "portrait by Nadar, 1855"
+    },
+    {
+      "id": "Tony Johannot",
+      "label": "T. Johannot",
+      "life dates": "1803-1852",
+      "nationality": "French",
+      "born in": "Offenbach-sur-le-Main (Germany)",
+      "profession": "painter, engraver, lithographer, illustrator",
+      "mentions": "Théophile Gautier: 'Tony Johannot est sans contredit le roi de l'illustration [...]. Ses dessins figurent dans ces volumes admirables, et nul ne les trouve déplacés. - À côté de ces pages sublimes, de ces vers harmonieux, ils sont un ornement et non une tache ; ce que tant de génies divers ont rêvé, il a pu le rendre et le transporter dans son art'.",
+      "works in": "<i>La Silhouette</i> (1829-31), <i>Revue des deux Mondes</i>, <i>L'Artiste</i>, <i>L'Illustration</i>, <i>Le Magasin pittoresque</i>",
+      "exhibitions": "Paris Salon: from 1831",
+      "parents": "father: François Johannot",
+      "siblings": "Alfred and Charles", supercali
+      "author of": [
+        "Journal illustration: one example is <i>Le rêve</i>, published in <i>La Silhouette</i> (1830, vol.1, 5e livraison, after p.32), inspired by Füssli's <i>Nightmare</i> (1791) (Fayos Pérez 2024, p.134).",
+        "Literary illustration: Charles Nodier's <i>Smarra</i> (1821) and other stories, Victor Hugo's <i>Notre Dame de Paris</i> (1831), Molière (1835-36), Cervantes's <i>Don Quichotte</i> translated by Louis Viardot (1836-37), Jules Janin (1842), Honoré de Balzac (1842-52), Alfred de Musset's <i>Voyage où il vous plaira</i> (1843), Goethe's <i>Faust</i> (1847), Alphonse de Lamartine (1849-50), George Sand (1852-56), James Fenimore Cooper and Walter Scott, among others.",
+        "Collective works: 1840 <i>Les Français peints par eux-mêmes</i>; 1843 <i>Voyage où il vous plaira</i> produced by Tony Johannot and Alfred de Musset (edited by Stahl, aka Pierre-Jules Hetzel)."
+      ],
+      "portrayed by": "Jean Gigoux, lithograph, <i>L'Artiste</i> (1830s?)",
+      "bibliography": "Fayos Pérez 2024",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Johannot_Tony.jpg",
+      "image source": "Gigoux lithograph (1830s?)"
     },
     {
       "id": "Charles Nodier",
@@ -6726,6 +6761,14 @@
       "collaborations": "Doré illustrates the 1869 reedition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot (1st edition 1836-37, illustrated by Tony Johannot)"
     },
     {
+      "from": "Louis Viardot",
+      "to": "Tony Johannot",
+      "connection_level": "direct", 
+      "relationship type": "colleagues",
+      "know each other since": "at least 1836",
+      "collaborations": "Johannot illustrated the 1836-37 edition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot"
+    },
+    {
       "from": "Jules Jacquemart",
       "to": "Gustave Doré",
       "connection_level": "direct", 
@@ -8674,6 +8717,62 @@
     },
     {
       "from": "George Sand",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1852",
+      "collaborations": "Johannot illustrated Sand's <i>Œuvres illustrées</i> (1852-56)"
+    },
+    {
+      "from": "Alphonse de Lamartine",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1849",
+      "collaborations": "Johannot illustrated Lamartine's <i>Raphaêl</i> (1849-50)"
+    },
+    {
+      "from": "Honoré de Balzac",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1842",
+      "collaborations": "Johannot illustrated Balzac's <i>Comédie Humaine</i> (1842-52)"
+    },
+    {
+      "from": "Charles Nodier",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1830",
+      "collaborations": "Johannot illustrated Nodier's famous <i>Smarra</i> (1821), <i>Histoire du Roi de Bohême et de ses sept châteaux</i> (1830) and other <i>Contes</i> (Trilby, Inès de la Sierra, La Neuvaine de la Chandeleur, Baptiste Montauban)."
+    },
+    {
+      "from": "Victor Hugo",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1831",
+      "collaborations": "Johannot illustrated Hugo's <i>Feuilles d'Automne</i> (1830), <i>Notre Dame de Paris</i> (1831). He also made paintings such as <i>Esmeralda et Quasimodo</i> (Maison de Victor Hugo 2055)."
+    },
+    {
+      "from": "Alfred de Musset",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "colleagues",
+      "know each other since": "at least 1843",
+      "collaborations": "Johannot illustrated <i>Voyage où il vous plaira</i> (1843) produced by Johannot and Musset (edited by Stahl, aka Pierre-Jules Hetzel)."
+    },
+    {
+      "from": "Théophile Gautier",
+      "to": "Tony Johannot",
+      "connection_level": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "at least 1845",
+      "mentions": "Gautier wrote: 'Tony Johannot est sans contredit le roi de l'illustration. Il y a quelques années, un roman, un poème ne pouvait paraître sans une vignette sur bois signée de lui : que d'héroïnes à la taille frêle, au col de cygne, aux cheveux ruisselants, au pied imperceptible, il a confiées au papier de Chine ! Combien de truands en guenilles, de chevaliers armés de pied en cap, de tarasques écaillées et griffues, il a semé sur les couvertures beurre-frais ou jaune-serin des romans du Moyen Âge ; toute la poésie et toute la littérature ancienne et moderne lui ont passé par les mains : la Bible, Molière, Cervantes, Jean-Jacques Rousseau, Walter Scott, Lord Byron, Bernardin de Saint-Pierre, Goethe, Chateaubriand, Lamartine, Victor Hugo, il les a tous compris. - Ses dessins figurent dans ces volumes admirables, et nul ne les trouve déplacés. - À côté de ces pages sublimes, de ces vers harmonieux, ils sont un ornement et non une tache ; ce que tant de génies divers ont rêvé, il a pu le rendre et le transporter dans son art' (16 June 1845, <i>La Presse</i>)."
+    },
+    {
+      "from": "George Sand",
       "to": "Louis Viardot",
       "connection_level": "direct",
       "relationship type": "colleagues",
@@ -8996,12 +9095,13 @@
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "colleagues; friends", 
-      "know each other since": "at least 1829", 
+      "know each other since": "at least 1828", 
       "correspondence": "1835-V-11 Boulanger to Hugo (Maison Victor Hugo)",
       "collaborations": "Boulanger illustrates <i>Les orientales (1829)</i>: 'Les Fantômes'",
-      "mentions": "Hugo probably dedicated to him (and Sainte-Beuve) a poem from <i>Feuilles d'Automne</i> (1830), mentioning Goya.",
-      "they shared": "Boulanger was part of Hugo's 'Cénacle'",
-      "bibliography": "Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23"
+      "mentions": "in poem no.28 from <i>Feuilles d'Automne</i> (1830) mentioning Goya (<i>Buen viage! -GOYA-</i>), Hugo wrote the dedication 'À mes amis S.-B. et L.B', which probably are Charles-Augustin Sainte-Beuve and Louis Boulanger.",
+      "link to Goya's work": "Hugo might have discovered the <i>Caprichos</i> via Boulanger c.1828-1829 (Fayos Pérez 2024, p.126).",
+      "they shared": "Boulanger was part of Hugo's <i>Cénacle</i>",
+      "bibliography": "Fayos Pérez 2024; Ilse Hempel Lipschutz, 'Victor Hugo, Louis Boulanger, Francisco de Goya: Amitiés, Affinités, Influences', <i>Nineteenth-Century French Studies</i>, vol.4, no.1/2, 1975, pp.8-23"
     },
     {
       "from": "Charles-Augustin Sainte-Beuve",
@@ -9009,7 +9109,7 @@
       "connection_level": "direct",
       "relationship type": "friends", 
       "know each other since": "at least 1830", 
-      "mentions": "Hugo probably dedicated to him (and Boulanger) a poem from <i>Feuilles d'Automne</i> (1830), mentioning Goya."
+      "mentions": "in poem no.28 from <i>Feuilles d'Automne</i> (1830) mentioning Goya (<i>Buen viage! -GOYA-</i>), Hugo wrote the dedication 'À mes amis S.-B. et L.B', which probably are Charles-Augustin Sainte-Beuve and Louis Boulanger"
     },
     {
       "from": "Antoine Fontaney",
