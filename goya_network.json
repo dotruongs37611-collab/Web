@@ -1778,7 +1778,7 @@
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Johannot_Tony.jpg",
       "image source": "Gigoux lithograph (1830s?)",
       "added": "2025-09-10",
-      "last modified": "2025-09-10"
+      "last_modified": "2025-09-10"
     },
     {
       "id": "Charles Nodier",
@@ -6768,7 +6768,9 @@
       "connection_level": "direct", 
       "relationship type": "colleagues",
       "know each other since": "at least 1836",
-      "collaborations": "Johannot illustrated the 1836-37 edition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot"
+      "collaborations": "Johannot illustrated the 1836-37 edition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot",
+      "added": "2025-09-10",
+      "last_modified": "2025-09-10"
     },
     {
       "from": "Jules Jacquemart",
