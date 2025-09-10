@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             }
           } else {
             // resaltar edge si hay coincidencia
-            const match = edges.get().find(ed => ed.from === item.from && ed.to === item.to);
+            const match = window.edges.get().find(ed => ed.from === item.from && ed.to === item.to);
             if (match) {
               network.selectEdges([match.id]);
               network.emit('click', { edges: [match.id], nodes: [] });
