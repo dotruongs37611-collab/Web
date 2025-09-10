@@ -210,6 +210,89 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     document.getElementById("networkStats").innerHTML = `Nodes: ${data.nodes.length} | Connections: ${data.edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: ${formattedUpdate}</span>`;
 
+    
+    /* ---- NEW IN: funciones para la pestaña "New in" ---- */
+
+    function showNewInPanel(show = true) {
+      const panel = document.getElementById('newInPanel');
+      if (!panel) return;
+      panel.style.display = show ? 'block' : 'none';
+    }
+
+    // Construye la lista "New in" a partir de data.nodes y data.edges
+    function buildNewInList(data) {
+      const container = document.getElementById('newInList');
+      if (!container) return;
+
+      // Recolectar nodos/edges que tengan 'added' o 'last_modified'
+      const nodesWithDates = (data.nodes || []).filter(n => n.added || n.last_modified)
+        .map(n => ({ type: 'node', id: n.id, label: n.label || n.id, date: n.added || n.last_modified }));
+
+      const edgesWithDates = (data.edges || []).filter(e => e.last_modified)
+        .map(e => ({ type: 'edge', from: e.from, to: e.to, label: `${e.from} ↔ ${e.to}`, date: e.last_modified, edgeObj: e }));
+
+      const items = nodesWithDates.concat(edgesWithDates)
+        .sort((a,b) => new Date(b.date) - new Date(a.date));
+
+      if (!items.length) {
+        container.innerHTML = '<em>No hay marcas de fecha por nodo/edge. Añade "added" o "last_modified" en goya_network.json para activar esta lista.</em>';
+        return;
+      }
+
+      // Limitar (p. ej. 30 items) y renderizar
+      container.innerHTML = '';
+      items.slice(0, 30).forEach(item => {
+        const a = document.createElement('a');
+        a.href = '#';
+        a.className = 'newin-link';
+        const dateStr = new Date(item.date).toLocaleDateString('es-ES', { day:'2-digit', month:'short', year:'numeric' });
+        a.textContent = item.type === 'node' ? `${item.label} — ${dateStr}` : `${item.label} — ${dateStr} (edge)`;
+        a.onclick = (e) => {
+          e.preventDefault();
+          if (item.type === 'node') {
+            // usa la función existente para centrar el nodo
+            if (typeof focusNode === 'function') {
+              focusNode(item.id);
+            } else {
+              // alternativa: seleccionar por labelToId si existe
+              const id = (window.labelToId && labelToId[item.label]) ? labelToId[item.label] : item.id;
+              try { network.selectNodes([id]); network.emit('click', { nodes:[id] }); } catch(e){}
+            }
+          } else {
+            // resaltar edge si hay coincidencia
+            const match = edges.get().find(ed => ed.from === item.from && ed.to === item.to);
+            if (match) {
+              network.selectEdges([match.id]);
+              network.emit('click', { edges: [match.id], nodes: [] });
+            }
+          }
+          // cerrar panel
+          showNewInPanel(false);
+        };
+        container.appendChild(a);
+      });
+    }
+
+    // Conectar el botón (pon esto en el mismo scope que tu otro JS)
+    document.addEventListener('click', function (e) {
+      if (e.target && e.target.id === 'newInBtn') {
+        const panel = document.getElementById('newInPanel');
+        if (!panel) return;
+        showNewInPanel(panel.style.display === 'block' ? false : true);
+      }
+    });
+
+    // Llamada a buildNewInList(data) — inserta esto donde llamas a handleInitialHash() / loadFullImages()
+    // En tu archivo ya existe un setTimeout que hace handleInitialHash() y loadFullImages(); añade buildNewInList(data) allí.
+    // Ejemplo (edita la llamada existente para incluir buildNewInList):
+    /*
+    setTimeout(() => {
+      handleInitialHash();
+      loadFullImages();
+      buildNewInList(data); // <-- nueva llamada
+    }, 500);
+    */
+
 
     let lastHighlightedNode = null;
     let lastHighlightedNodes = [];
@@ -828,6 +911,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         // Defer these heavy operations
         handleInitialHash();
         loadFullImages();
+        buildNewInList(data);   // ← NUEVA LÍNEA
       }, 500);
 
       }, 2000);
