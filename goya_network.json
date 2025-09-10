@@ -350,7 +350,10 @@
         "Senator (1869)"
         ],
       "author of": "<i>Voyage pittoresque en Espagne, en Portugal et sur la côte d'Afrique, de Tanger a Tétuan</i> (1826); <i>Voyages pittoresques et romantiques dans l'ancienne France</i>, in collaboration with Charles Nodier and Alphonse de Cailleux (started in 1818; published 1820-1878)",
-      "founder of": "Societés des peintres et sculpteurs; des musiciens; des inventeurs industriels; des professeurs (Challamel 1885, p.336)",
+      "founder of": [
+        "1844 Association des artistes with Adrien Dauzats, now called [Fondation Taylor](https://www.taylor.fr/).",
+        "Societés des peintres et sculpteurs; des musiciens; des inventeurs industriels; des professeurs (Challamel 1885, p.336)."
+      ],
       "member of": "Académie Française, Académie des beaux-arts (1847); Société des gens de lettres; Fondation Taylor",
       "portrayed by": [
         "Federico de Madrazo: 1833, oil painting, Musée National du Château de Versailles",
@@ -362,6 +365,7 @@
       "parents": "Hélie Taylor (English born) and Marie-Jacqueline Walwein (Belgian)",
       "curiosities": "there is a Fondation Taylor, still running, created in 1844.",
       "bibliography": "Lanzarote Guiral 2016; Guinard 1967-A",
+      "websites": "[Fondation Taylor](https://www.taylor.fr/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Taylor.jpg",
       "image source": "Madrazo portrait, 1833, Versailles"
     },
@@ -370,14 +374,17 @@
       "label": "Dauzats",
       "life dates": "1804-1868",
       "born in": "Bordeaux",
+      "dies in": "Paris",
       "studies in": "École nationale supérieure d'Arts et Métiers (Angers 1819); Bordeaux École de Dessin",
-      "masters": "Michel-Julien Gué; Pierre Lacour (fils?) (see Tinterow 2003, p.75)",
+      "masters": "Michel-Julien Gué; Pierre Lacour (fils?) (see Tinterow 2003, p.75); he studies decorative painting with his father at the Grand-Théâtre de Bordeaux",
       "nationality": "French",
+      "lives in": "Bordeaux; Paris (from 1823)",
       "profession": "painter, engraver, illustrator, lithographer",
+      "trips": "Egypt, Syria, Mount Sinai and Palestine with Baron Taylor (1829); Egypt and Middle East with Alexandre Dumas père (1830); Spain (1833; 1835, 1837); Portugal; Algeria with the Duke of Orléans (1839); Tanger; Ottoman Empire.",
       "in Spain": [
-        "1832 (with Baron Taylor)",
-        "July 1833 (with Baron Taylor)",
-        "1835-1837 assists Baron Taylor in the acquisition of artworks for the Galerie espagnole. He meets Pharamond Blanchard, who introduces him to the Madrazo family. Meets prominent Spanish artists and develops an interest in Spanish art (see Tinterow 2003, p.180)"
+        "1832 with Baron Taylor",
+        "1833 June-July with Baron Taylor",
+        "1835 Oct-1837 Oct: assists Baron Taylor in the acquisition of artworks for the Galerie espagnole. He meets Pharamond Blanchard, who introduces him to the Madrazo family. Meets prominent Spanish artists and develops an interest in Spanish art (see Tinterow 2003, p.180)."
         ],
       "author of": [
         "1820-63 illustrations for Baron Taylor's <i>Voyages Pittoresques et Romantiques de l'ancienne France</i>",
@@ -390,12 +397,18 @@
         "1868 commissioned by Madame Aldema with four illustrations of characters from the Arabian folktale <i>One Thousand and One Nights</i>. He died before being able to finish and there was a lawsuit."
         ],
       "member of": "the Société archéologique du Midi de la France (from 1831)",
+      "founder of": "1844 Association des artistes with Baron Taylor, now called [Fondation Taylor](https://www.taylor.fr/); becomes its Vicepresident (1846) and President (1850)",
       "portrayed by": "Jean Pierre Dantan (Dantan Jeune), 1834, sculpture (<i>Portrait sérieux</i>), Musée Carnavalet S1194; Federico de Madrazo, 1837, Musée National du Château de Versailles; Carjat & Cie., 1868, photograph (Getty); Chenu, 1868, lithograph, <i>L'Illustration</i>; Loÿs Delteil (after Claude-Marie Dubufe), print, April 1896 (posthumous), <i>L'Artiste</i>, vol.XI",
       "decorations/awards": "Chevalier de la Légion d'honneur (1837); Orden de Carlos III (1856)",
-      "trips": "Spain; Portugal; Algeria (1839); Tanger; Ottoman Empire. In 1829, he accompanies Baron Taylor to Egypt, Syria, Mount Sinai and Palestine",
-      "exhibitions": "Paris Salon (from 1831)",
+      "exhibitions": [
+        "Paris Salon: from 1831.",
+        "1862 organises the participation of French artists at the Universal Exhibition in London."
+      ],
       "sales": "Hôtel Drouot, February 1869: sketchbooks, Spanish masterpieces and an extensive library (Tinterow 2003, p.395)",
-      "bibliography": "Tinterow 2003; Guinard 1967-B",
+      "correspondence": "Bibliothèque historique de la Ville de Paris, [4-MS-3047](https://bibliotheques-specialisees.paris.fr/ark:/73873/FRCGMNOV-751045102-FG02C/A2002740): 12 letters 1860-1862 and non-dated.",
+      "archives": "Bibliothèque historique de la Ville de Paris",
+      "bibliography": "Tinterow 2003; Ghislaine Plessier, <i>Adrien Dauzats ou la Tentation de l'Orient<i>, exh. cat., Bordeaux, 1990; <i>Adrien Dauzats et les Voyages pittoresques et romantiques dans l'ancienne France du baron Taylor</i>, Fondation Taylor, 1990; Guinard 1967-B",
+      "websites": "[Journaux d'Alexandre Dumas](https://alexandredumas.org/Corpus/Auteurs?ID=70)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg",
       "image source": "Madrazo portrait, 1837, Versailles"
     },
@@ -3279,7 +3292,11 @@
         "It was him who suggested that the identity of Goya's <i>Naked Maja</i> was Godoy's lover, Pepita Tudó (which is a baseless theory)."
         ],
       "bibliography": "Francisco Calvo Serraller, 'Pedro de Madrazo, historiador y crítico de arte', <i>Los Madrazo, una familia de artistas</i>, exh. cat., Madrid, Museo Municipal, 1985, pp.67-80; Enrique Pardo Canalís, 'Pedro de Madrazo', <i>Revista de Ideas Estéticas</i>, xxxiv, Madrid, 1951, p.175; Carlos Luis de Ribera 1872, <i>Cuadros selectos de la Real Academia de Nobles Artes de San Fernando</i> III.",
+      "correspondence": [
+        "1878-1880 from Baron Davillier (with Raimundo de Madrazo): proposition of Japanese armour suits for an exhibition. Bibliothèque historique de la Ville de Paris, [4-MS-3052](https://bibliotheques-specialisees.paris.fr/ark:/73873/FRCGMNOV-751045102-FG02C/A2003724?posInSet=2&queryId=fb3840a4-1c68-4d70-81f7-bc280791947b)"
+      ],
       "websites": "[Prado profile by Javier Portús](https://www.museodelprado.es/aprende/enciclopedia/voz/madrazo-pedro-de/0931bfd5-a04f-4b4c-b435-3dec628fa9bc)",
+      "archives": "Bibliothèque historique de la Ville de Paris",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg",
       "image source": "Federico de Madrazo portrait 1842, Hispanic Society"
     },
@@ -8094,11 +8111,11 @@
       "from": "Baron Taylor",
       "to": "Adrien Dauzats",
       "connection_level": "direct",
-      "know each other since": "at least 1832",
+      "know each other since": "1823",
       "relationship type": "close friends",
       "collaborations": [
-        "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole",
-        "Dauzats made lithographic illustrations for several books of Baron Taylor, including <i>Voyages pittoresques de l'ancienne France</i>"
+        "c.1823 Dauzats makes illustrations for Baron Taylor's <i>Voyages pittoresques et romantiques dans l'ancienne France</i>.",
+        "1835-37 travelled together to Spain to acquire artworks for the Galerie espagnole"
         ],
       "in Spain": "July 1833 (Guinard 1967-A, p.86); 1835-1837", 
       "correspondence": [
@@ -8106,7 +8123,8 @@
         "1837-VII-15, Taylor to Dauzats (Paris): about Dauzats's Spanish trip",
         "1842-II-27, Taylor to Dauzats (London): 'Je vous avais bien dit que Carderera deviendrait fou, quand il s'agirait des prix. Proposez lui 20 frs. par dessin et 5 francs pour chaque explication. Nous en prendrons pour la somme qui me conviendra' (BNF MS NA FR 23192, f.176; quoted in Luxenberg 2008, p.195, note p.162; Lanzarote Guiral 2016, p.XXXI)"
         ],
-      "bibliography": "Lanzarote Guiral 2016; Luxenberg 2008; Guinard 1967-A; Guinard 1967-B"
+      "bibliography": "Lanzarote Guiral 2016; Luxenberg 2008; Guinard 1967-A; Guinard 1967-B",
+      "websites": "[Journaux d'Alexandre Dumas](https://alexandredumas.org/Corpus/Auteurs?ID=70)"
     },
     {
       "from": "Baron Taylor",
@@ -8292,7 +8310,9 @@
       "from": "Adrien Dauzats",
       "to": "Charles Nodier",
       "connection_level": "direct",
-      "relationship type": "acquaintances"
+      "relationship type": "friends",
+      "know each other since": "1823",
+      "websites": "[Journaux d'Alexandre Dumas](https://alexandredumas.org/Corpus/Auteurs?ID=70)"
     },
     {
       "from": "Adrien Dauzats",
@@ -8321,14 +8341,16 @@
       "to": "Alexandre Dumas père",
       "connection_level": "direct",
       "relationship type": "friends",
-      "know each other since": "at least 1834",
+      "know each other since": "at least 1830",
+      "interactions": "1830 they travel together to Egypt and the Middle East",
       "correspondence": [
         "Long correspondence from 1834 to 1851",
         "1851 Nov, letter from Dumas to Dauzats: 'Mon cher Dauzats. Prêtez donc pour un jour ou deux votre costume de la femme espagnole à l'Ambigu—Je voudrais le faire faire au théâtre. Vous savez c'est la grand-mère de d'Ossun d'après Goya' (Dumas-Schopp 1993, p.169: Schopp identifies this work as María Josefa de la Soledad, Countess of Benavente, Duchess of Osuna, c.1785)."
         ],
       "mentions": "Dumas quotes Dauzats several times in his novels (<i>Le comte de Monte-Cristo</i>; <i<Le capitaine Pamphile</i>)",
       "collaborations": "they co-author <i>Quinze jours au Sinaï</i> (1838)",
-      "bibliography": "Dumas-Schopp 2014; Tinterow 2003; Schopp 1993."
+      "bibliography": "Dumas-Schopp 2014; Tinterow 2003; Schopp 1993.",
+      "websites": "[Journaux d'Alexandre Dumas](https://alexandredumas.org/Corpus/Auteurs?ID=70)"
       },
     {
       "from": "Pharamond Blanchard",
