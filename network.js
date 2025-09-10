@@ -242,34 +242,42 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Limitar (p. ej. 30 items) y renderizar
       container.innerHTML = '';
       items.slice(0, 30).forEach(item => {
+        const wrapper = document.createElement('div');
+        wrapper.style.marginBottom = '0.4rem';
+
+        // enlace (solo el label)
         const a = document.createElement('a');
         a.href = '#';
         a.className = 'newin-link';
+        a.style.color = '#66ccff';
+        a.textContent = item.type === 'node' ? item.label : `${item.label} (edge)`;
+
+        // fecha (texto normal)
+        const dateSpan = document.createElement('span');
         const dateStr = new Date(item.date).toLocaleDateString('es-ES', { day:'2-digit', month:'short', year:'numeric' });
-        a.textContent = item.type === 'node' ? `${item.label} — ${dateStr}` : `${item.label} — ${dateStr} (edge)`;
+        dateSpan.textContent = ` — ${dateStr}`;
+        dateSpan.style.color = '#bbb';
+
+        // click en el link
         a.onclick = (e) => {
           e.preventDefault();
           if (item.type === 'node') {
-            // usa la función existente para centrar el nodo
             if (typeof focusNode === 'function') {
               focusNode(item.id);
-            } else {
-              // alternativa: seleccionar por labelToId si existe
-              const id = (window.labelToId && labelToId[item.label]) ? labelToId[item.label] : item.id;
-              try { network.selectNodes([id]); network.emit('click', { nodes:[id] }); } catch(e){}
             }
           } else {
-            // resaltar edge si hay coincidencia
             const match = window.edges.get().find(ed => ed.from === item.from && ed.to === item.to);
             if (match) {
               network.selectEdges([match.id]);
               network.emit('click', { edges: [match.id], nodes: [] });
             }
           }
-          // cerrar panel
           showNewInPanel(false);
         };
-        container.appendChild(a);
+
+        wrapper.appendChild(a);
+        wrapper.appendChild(dateSpan);
+        container.appendChild(wrapper);
       });
     }
 
