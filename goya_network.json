@@ -1361,8 +1361,8 @@
       "author of": "<i>Ballades, mélodies et poésies diverse</i> (1829); <'Scènes de la vie castillane et andalouse' (article series in <i>Revue des Deux Mondes</i>)",
       "collector of Goya's works": "<i>Caprichos</i> (1830-1831)",
       "shows Goya": [
-        "8 Sept 1831: 'Evening at l'Arsenal; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31).",
-        "9 Nov 1831, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton-Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (p.71)."
+        "1831, 8 Sept: 'Evening at l'Arsenal [at the salon of Charles Nodier]; Mélanie, Louise [Soulié] were there. I showed them the Goya' (ed. Jasinski 1925, p.31; Fayos-Pérez 2024, p.41).",
+        "1831, 9 Nov, at Belloc's: 'I am going to Mmes Belloc [Louise Swanton Belloc], Mlle de Montgolfier [Adélaïde de Montgolfier]. (...) (Auguste) Blanqui the conspirator with a long white beard, (Jean-Alexandre) Plocque; (Auguste) Barthélémy;--a fat man who states in regard to Goya: It is not lacking in verve' (ibid., p.71; Fayos-Pérez 2024, p.41)."
       ],
       "partners/lovers": "Gabrielle Dorval (daughter of the actress Marie Dorval). They flee together to Spain and England (where he falls sick with phthisis)",
       "pseudonyms": "Lord Feeling (from the Scottish writer Henry Mackenzie)",
@@ -1370,7 +1370,7 @@
         "He was (unhappily) in love with Marie Nodier.",
         "After dying of phthisis, both Hugo and Sainte-Beuve forget their recent fallout and attend his funeral."
         ],
-      "bibliography": "Fontaney's journal: Fontaney-Jasinski 1925",
+      "bibliography": "Fayos-Pérez 2024; Fontaney's journal: Fontaney-Jasinski 1925",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fontaney.jpg"
     },
     {
@@ -1753,9 +1753,10 @@
       "writes in": "<i>La Quotidienne</i> (1821-1830): he presents the work of Walter Scott, Rabelais, Marot, Alphonse de Lamartine, Lord Byron and Victor Hugo; <i>Revue des Deux Mondes</i>; <i>Revue de Paris</i> (from 1829)",
       "political views": "favourable to the French Revolution (Société des amis de la Constitution; Club des Jacobins), but also Royalist. Essentially against despotic power.",
       "works as": "librarian of the comte d'Artois, future Charles X. He lives at the Arsenal (Bibliothèque de l'Arsenal), where he holds a literary salon known as a 'cénacle' (mentioned by Alexandre Dumas père as a place where all the big names of Romantic literature were present). Dismissed by Polignac in July 1830, then reinstated by Louis-Philippe when the Library passed to the state in August.",
-      "portrayed by": "Paulin Guérin; lithograph in Cénacle de la Muse française (1827)",
+      "portrayed by": "Jean-Baptiste Paulin Guérin, oil on canvas, 1844, Versailles MV 3018; lithograph in Cénacle de la Muse française (1827)",
       "author of": [
         "<i>Smarra ou les Démons de la nuit</i> (1821): of massive influence in the Romantic generation; <i>Infernalia</i> (1822); <i>Trillby ou le lutin d'Argail</i> (1822); <i>Examen critique des dictionnaires de la langue française</i> (1828); <i>Le Vieux Marinier</i> (1832).",
+        "1842 note in the Sampayo book sale, 3-16 Nov 1842, which included a set of the <i>Caprichos</i>, sold for 150 fr. This set is mentioned by Laurent Matheron (1858, p.118, note 6) and Eugène Piot (1842, p.356).",
         "Collective works: J. J. Grandville's 'Scènes de la vie privée et publique des animaux' (1842), alongside Honoré de Balzac and George Sand."
       ],
       "editor of": "<i>Adèle, Mélanges de littérature et de critique</i> and <i>Lord Ruthwen ou les Vampires</i> by Cyprien Bérard",
@@ -1766,11 +1767,13 @@
       "member of": "Académie française (1833-44); Académie des sciences, belles-lettres et arts de Besançon et de Franche-Comté; Société nationale des antiquaires de France",
       "masters": "Justin Girod de Chantrans (botanique, entomologie, minéralogie); Euloge Schneider (Greek); Joseph Droz",
       "decorations/awards": "Chevalier de la Légion d'honneur (1822)",
+      "link to Goya's work": "Antoine Fontaney showed a recently acquired set of the <i>Caprichos/i> in Nodier's salon at the Arsenal on 8 Sept 1831.",
       "address": "4, rue de Provence (from 1822)",
       "curiosities": "in 1797 he was member of a secret society called the Philadelphes. Later, he was a member of the 4th society of Caveau (1834-39) ('société bachique'), dedicated to drinking, singing and literature.",
+      "bibliography": "[<i>Cahiers d'études nodiéristes</i>](https://classiques-garnier.com/cahiers-d-etudes-nodieristes.html)",
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Charles_Nodier)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Nodier.jpg",
-      "image source": "portrait by Paulin Guérin"
+      "image source": "Guérin portrait 1844"
     },
     {
       "id": "Marquis de Custine",
@@ -8264,6 +8267,7 @@
       "connection_level": "direct",
       "relationship type": "friends; colleagues",
       "know each other since": "at least 1818",
+      "interactions": "Taylor dedicated to Nodier his <i>Voyage pittoresque en Espagne, en Portugal et sur la côte d'Afrique</i> (1826-32)",
       "collaborations": "they start the project for <i>Voyages pittoresques et romantiques dans l'ancienne France</i> in 1818 (published 1820-78); they co-authored an adaptation of Charles Maturin's <i>Bertram ou le pirate</i> (1821)"
     },
     {
@@ -9124,7 +9128,7 @@
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "know each other since": "at least 1831", 
-      "mentions": "Fontaney mentions Montgolfier in his journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier' when he shows the 'Goya' (<i>Caprichos</i>) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
+      "mentions": "Fontaney mentions Montgolfier in his journal, 9 Nov 1831: 'I am going to Mmes  [Louise Swanton Belloc], Mlle de Montgolfier' when he shows the 'Goya' (<i>Caprichos</i>) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
       "from": "Antoine Fontaney",
@@ -9132,7 +9136,7 @@
       "connection_level": "direct",
       "relationship type": "acquaintances",
       "know each other since": "at least 1831",
-      "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier (...)' when he shows the 'Goya' (<i>Caprichos</i>) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
+      "mentions": "Fontaney's journal, 9 Nov 1831: 'I am going to Mmes Belloc, Mlle de Montgolfier [Adélaïde de Montgolfier] (...)' when he shows the 'Goya' (<i>Caprichos</i>) (Fontaney's Journal, ed. Jasinski 1925, p.31)"
     },
     {
       "from": "Stendhal",
