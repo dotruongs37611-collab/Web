@@ -531,6 +531,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "websites", label: "Websites" },
           { type: "field", key: "podcasts", label: "Podcasts" },
           { type: "field", key: "image source", label: "Image source" },
+          { type: "field", key: "last modified", label: "Last modified" },
         ];
 
       const nodesMapByLabel = {};
@@ -681,7 +682,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "websites", label: "Websites" },
           { key: "podcasts", label: "Podcasts" },
           { key: "newspaper archive", label: "Newspaper archive" },
-          { key: "archives", label: "Archives" }
+          { key: "archives", label: "Archives" },
+          { type: "field", key: "last modified", label: "Last modified" }
         ];
 
         edgeFields.forEach(field => {
