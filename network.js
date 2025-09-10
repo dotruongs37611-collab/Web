@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     document.getElementById("networkStats").innerHTML = `Nodes: ${data.nodes.length} | Connections: ${data.edges.length}<br><span style="font-size: 0.8rem; color: #999;">Last update: ${formattedUpdate}</span>`;
 
-    
+
     /* ---- NEW IN: funciones para la pestaña "New in" ---- */
 
     function showNewInPanel(show = true) {
@@ -615,7 +615,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { type: "field", key: "podcasts", label: "Podcasts" },
           { type: "field", key: "image source", label: "Image source" },
           { type: "field", key: "added", label: "Added" },
-          { type: "field", key: "last modified", label: "Last modified" },
+          { type: "field", key: "last_modified", label: "Last modified" },
         ];
 
       const nodesMapByLabel = {};
@@ -768,7 +768,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           { key: "newspaper archive", label: "Newspaper archive" },
           { key: "archives", label: "Archives" },
           { key: "added", label: "Added" },
-          { key: "last modified", label: "Last modified" }
+          { key: "last_modified", label: "Last modified" }
         ];
 
         edgeFields.forEach(field => {
