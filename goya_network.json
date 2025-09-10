@@ -243,13 +243,14 @@
       "married to": "Luisa Garreta (1835)",
       "children": "Luisa de Madrazo, Raimundo de Madrazo, Cecilia de Madrazo, Ricardo de Madrazo, Isabel de Madrazo",
       "parents": "José de Madrazo and Isabel Kuntz y Valentini",
+      "siblings": "Pedro de Madrazo; Luis de Madrazo, Juan de Madrazo and Carlota de Madrazo (married to Eugenio Ochoa)",
       "exhibitions": [
         "Paris Salon: 1839 wins a medal (also Carlos Luis de Ribera)",
         "Recent years: 2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i> (cur. Javier Barón); 2004-05 Prado, <i>El retrato español. Del Greco a Picasso</i>."
       ],
       "collector of Goya's works": "Madrazo acquired a substantial group of Goya's prints and drawings, probably through Valentín Carderera. This includes [156 drawings](https://www.museodelprado.es/coleccion/obras-de-arte?searchObras=goya%20madrazo&cidoc:p14_carried_out_by@@@pm:author@@@ecidoc:p131_E82_p102_has_title=Goya%20y%20Lucientes,%20Francisco%20de@es&cidoc:p2_has_type@@@pm:objectTypeNode=http://museodelprado.es/items/objecttype_6) now at the Prado from the collection of 'Federico de Madrazo y/o Román Garreta, Madrid, c.1855-1860', such as <i>Buena muger, parece</i> (C.9) (1814-1823, [Prado D003913](https://www.museodelprado.es/coleccion/obra-de-arte/buena-muger-parece/4635b978-3c08-4895-9e0d-32c909f5aeb9))",
       "bibliography": "Gilarranz Ibáñez 2020; Martínez Plaza 2017; G. Navarro 2007 (in <i>El siglo XIX en el Prado</i>); Martí 2007; Romero Tobar 1997; González López 1994; Díez 1994; Harris 1964",
-      "websites": "[Prado website](https://www.museodelprado.es/coleccion/artista/madrazo-y-kuntz-federico-de/9bdb1678-fdd4-47bb-92e3-6833fadc8a50), Carlos G. Navarro",
+      "websites": "[Prado website](https://www.museodelprado.es/coleccion/artista/madrazo-y-kuntz-federico-de/9bdb1678-fdd4-47bb-92e3-6833fadc8a50), Carlos G. Navarro; [Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "conferences/seminars": "Javier Barón, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i>, 2015, Prado, [YouTube](https://www.youtube.com/watch?v=JY0qD-vB3hw)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Federico_Madrazo.jpg",
       "image source": "portrait by Raimundo de Madrazo, 1875, Museo de Bellas Artes de Bilbao"
@@ -325,6 +326,7 @@
       "children": "Federico de Madrazo, Pedro de Madrazo, Luis de Madrazo, Juan de Madrazo, Carlota Madrazo",
       "podcasts": "<i>Arte compacto</i> 27 April 2025, ['José de Madrazo'](https://creators.spotify.com/pod/profile/arte-compacto/episodes/85--Jos-de-Madrazo--apoltico-y-padrazo--con-Carlos-G--Navarro-e3227l8), ft. Carlos G. Navarro",
       "bibliography": "Sánchez 2024; González Navarro 2023; Guinard 1967-A, p.85",
+      "websites": "[Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jose_Madrazo.jpg"
     },
     {
@@ -3273,6 +3275,8 @@
       "dies in": "Madrid",
       "profession": "writer, translator, scholar, journalist, art critic, painter, art historian, politician", 
       "parents": "José de Madrazo and Isabel Kuntz y Valentini",
+      "siblings": "Federico de Madrazo; Luis de Madrazo, Juan de Madrazo and Carlota de Madrazo (married to Eugenio Ochoa)",
+      "friends": "Eugenio Ochoa; Valentín Carderera; Vicente Masarnau; Santiago Masarnau; Carlos Luis de Ribera",
       "married to": "Manuela Rosales y de la Sala",
       "children": "José, Emma, Sofía and Mercedes",
       "founder of": "<i>El Artista</i> in 1835 with his brother Federico de Madrazo and his brother-in-law Eugenio Ochoa",
@@ -3297,13 +3301,13 @@
       ],
       "curiosities": [
         "He was one of the first people to ever use the term 'patrimonio histórico-artístico'.",
-        "It was him who suggested that the identity of Goya's <i>Naked Maja</i> was Godoy's lover, Pepita Tudó (which is a baseless theory)."
+        "It was him who suggested that the identity of Goya's <i>Naked Maja</i> was Godoy's lover, Josefa Tudó (which is a baseless theory)."
         ],
       "bibliography": "Francisco Calvo Serraller, 'Pedro de Madrazo, historiador y crítico de arte', <i>Los Madrazo, una familia de artistas</i>, exh. cat., Madrid, Museo Municipal, 1985, pp.67-80; Enrique Pardo Canalís, 'Pedro de Madrazo', <i>Revista de Ideas Estéticas</i>, xxxiv, Madrid, 1951, p.175; Carlos Luis de Ribera 1872, <i>Cuadros selectos de la Real Academia de Nobles Artes de San Fernando</i> III.",
       "correspondence": [
         "1878-1880 from Baron Davillier (with Raimundo de Madrazo): proposition of Japanese armour suits for an exhibition. Bibliothèque historique de la Ville de Paris, [4-MS-3052](https://bibliotheques-specialisees.paris.fr/ark:/73873/FRCGMNOV-751045102-FG02C/A2003724?posInSet=2&queryId=fb3840a4-1c68-4d70-81f7-bc280791947b)"
       ],
-      "websites": "[Prado profile by Javier Portús](https://www.museodelprado.es/aprende/enciclopedia/voz/madrazo-pedro-de/0931bfd5-a04f-4b4c-b435-3dec628fa9bc); [RAH](https://historia-hispanica.rah.es/biografias/27500-pedro-de-madrazo-y-kuntz); [Colección Madrazo](https://ceres.mcu.es/pages/ResultSearch?txtSimpleSearch=Pedro%20de%20Madrazo&simpleSearch=0&hipertextSearch=1&search=simpleSelection&MuseumsSearch=CSGMM%7C&MuseumsRolSearch=1&listaMuseos=[Colecci%F3n%20Madrazo.%20Comunidad%20de%20Madrid])",
+      "websites": "[Prado profile by Javier Portús](https://www.museodelprado.es/aprende/enciclopedia/voz/madrazo-pedro-de/0931bfd5-a04f-4b4c-b435-3dec628fa9bc); [RAH](https://historia-hispanica.rah.es/biografias/27500-pedro-de-madrazo-y-kuntz); [Colección Madrazo](https://ceres.mcu.es/pages/ResultSearch?txtSimpleSearch=Pedro%20de%20Madrazo&simpleSearch=0&hipertextSearch=1&search=simpleSelection&MuseumsSearch=CSGMM%7C&MuseumsRolSearch=1&listaMuseos=[Colecci%F3n%20Madrazo.%20Comunidad%20de%20Madrid]); [Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "archives": "Bibliothèque historique de la Ville de Paris",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Pedro_Madrazo.jpg",
       "image source": "Federico de Madrazo portrait 1842, Hispanic Society"
@@ -3657,6 +3661,8 @@
       "follower of": "Eugène Viollet-le-Duc",
       "member of": "RABASF",
       "parents": "José de Madrazo and Isabel Kuntz y Valentini",
+      "siblings": "Federico de Madrazo; Luis de Madrazo, Pedro de Madrazo and Carlota de Madrazo (married to Eugenio Ochoa)",
+      "websites": "[Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Juan_Madrazo.jpg"
     },
     {
@@ -3667,8 +3673,10 @@
       "nationality": "Spanish",
       "profession": "painter", 
       "parents": "José de Madrazo and Isabel Kuntz y Valentini",
+      "siblings": "Federico de Madrazo; Pedro de Madrazo, Juan de Madrazo and Carlota de Madrazo (married to Eugenio Ochoa)",
       "in Paris": "lived there for a while. His work is recognised at the Exposition Universelle de Paris 1855",
       "author of": "<i>Entierro de Santa Cecilia en las catacumbas de Roma</i> (1852, Prado, deposit in Granada Museum)",
+      "websites": "[Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Madrazo.jpg"
     },
     {
@@ -3690,6 +3698,7 @@
       "parents": "Federico de Madrazo and Luisa Garreta",
       "siblings": "Cecilia de Madrazo, Isabel de Madrazo, Luisa de Madrazo and Ricardo de Madrazo",
       "bibliography": "Alzaga 2012",
+      "websites": "[Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Raimundo_Madrazo.jpg"
     },
     {
@@ -3708,6 +3717,7 @@
       "lives in": "Madrid, Paris, Granada, Rome and Venice",
       "exhibitions": "2017-18 <i>Cecilia de Madrazo. Luz y memoria de Mariano Fortuny</i>, Fundación Cristina Masaveu",
       "bibliography": "biography written by Ana Gutiérrez Márquez",
+      "websites": "[Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "newspaper archive": "Carlos Alberdi, 'Las Madrazo. Cecilia e Isabel Madrazo: dos destinos de mujer en un ambiente artístico dominado por los hombres', <i>CTXT</i>, 29 March 2018",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Cecilia_Madrazo.jpg",
       "image source": "F. Madrazo 1869 portrait"
@@ -3731,6 +3741,7 @@
       "children": "Mariano; María Luisa",
       "parents": "Federico de Madrazo and Luisa Garreta",
       "bibliography": "Fayos Pérez 2024",
+      "websites": "[Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny_Marsal.jpg",
       "image source": "portrait by Federico de Madrazo, 1867, MNAC"
     },
@@ -3756,7 +3767,7 @@
         "Recent years: 2019 Palazzo Fortuny, Venice, <i>Los Fortuny. Una historia familiar</i>"
       ],
       "influenced by": "Raimundo de Madrazo (his uncle)",
-      "websites": "[Prado](https://www.museodelprado.es/coleccion/artista/fortuny-y-madrazo-mariano/0faef3f6-0929-4971-8a3d-13f835d6721b); [Museo del Traje](https://museodeltrajevirtual.com/mariano-fortuny-y-madrazo/)",
+      "websites": "[Prado](https://www.museodelprado.es/coleccion/artista/fortuny-y-madrazo-mariano/0faef3f6-0929-4971-8a3d-13f835d6721b); [Museo del Traje](https://museodeltrajevirtual.com/mariano-fortuny-y-madrazo/); [Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny_Madrazo.jpg",
       "image source": "self-portrait 1947"
     },
@@ -6800,8 +6811,9 @@
     {
       "from": "Federico de Madrazo",
       "to": "Alexandre Dumas père",
-      "label": "direct?",
-      "relationship type": "acquaintances?"
+      "label": "direct",
+      "relationship type": "acquaintances",
+      "know each other since": "c.1837 in Paris (with Pedro de Madrazo?)"
     },
     {
       "from": "Federico de Madrazo",
@@ -6927,7 +6939,7 @@
       "to": "Victor Hugo",
       "connection_level": "direct",
       "relationship type": "acquaintances",
-      "know each other since": "c.1837?"
+      "know each other since": "c.1837-1840"
     },
     {
       "from": "Federico de Madrazo",
@@ -9295,7 +9307,7 @@
       "from": "Victor Hugo",
       "to": "Pedro de Madrazo",
       "connection_level": "direct",
-      "know each other since": "at least 1837", 
+      "know each other since": "1837", 
       "they met": "in 1837 in Paris (with Federico de Madrazo) [Wikipedia](https://es.wikipedia.org/wiki/Pedro_de_Madrazo_y_Kuntz)"
     },
     {
