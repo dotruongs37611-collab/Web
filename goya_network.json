@@ -409,7 +409,7 @@
       "sales": "Hôtel Drouot, February 1869: sketchbooks, Spanish masterpieces and an extensive library (Tinterow 2003, p.395)",
       "correspondence": "Bibliothèque historique de la Ville de Paris, [4-MS-3047](https://bibliotheques-specialisees.paris.fr/ark:/73873/FRCGMNOV-751045102-FG02C/A2002740): 12 letters 1860-1862 and non-dated.",
       "archives": "Bibliothèque historique de la Ville de Paris",
-      "bibliography": "Tinterow 2003; Ghislaine Plessier, <i>Adrien Dauzats ou la Tentation de l'Orient<i>, exh. cat., Bordeaux, 1990; <i>Adrien Dauzats et les Voyages pittoresques et romantiques dans l'ancienne France du baron Taylor</i>, Fondation Taylor, 1990; Guinard 1967-B",
+      "bibliography": "Tinterow 2003; Ghislaine Plessier, <i>Adrien Dauzats ou la Tentation de l'Orient</i>, exh. cat., Bordeaux, 1990; <i>Adrien Dauzats et les Voyages pittoresques et romantiques dans l'ancienne France du baron Taylor</i>, Fondation Taylor, 1990; Guinard 1967-B",
       "websites": "[Journaux d'Alexandre Dumas](https://alexandredumas.org/Corpus/Auteurs?ID=70)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dauzats.jpg",
       "image source": "Madrazo portrait, 1837, Versailles"
@@ -485,7 +485,8 @@
       "bibliography": "María del Carmen Simón Palmer, <i>Intelectuales y artistas en la Milica Nacional de Madrid</i>, 1974",
       "websites": "[BNE](https://datos.bne.es/persona/XX1059203.html); [Real Academia de la Historia](https://historia-hispanica.rah.es/biografias/29400-santiago-de-masarnau-fernandez)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Masarnau_Santiago.jpg",
-      "image source": "Madrazo portrait 1836"
+      "image source": "Madrazo portrait 1836",
+      "added": "2025-08-15"
     },
     {
       "id": "Vicente Masarnau",
@@ -512,7 +513,8 @@
       "bibliography": "María del Carmen Simón Palmer, <i>Intelectuales y artistas en la Milica Nacional de Madrid</i>, 1974",
       "websites": "[Real Academia de la Historia](https://historia-hispanica.rah.es/biografias/29402-vicente-santiago-masarnau-fernandez); [Prado](https://www.museodelprado.es/coleccion/obra-de-arte/vicente-masarnau/e528ccc5-5a14-48a5-be1f-e6f6ed1dfac8); [Wikipedia](https://es.wikipedia.org/wiki/Vicente_Santiago_Masarn%C3%A1u_Fern%C3%A1ndez)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Masarnau_Vicente.jpg",
-      "image source": "Madrazo portrait 1836"
+      "image source": "Madrazo portrait 1836",
+      "added": "2025-08-15"
     },
     {
       "id": "Prosper Mérimée",
@@ -619,7 +621,8 @@
       "bibliography": "Soledad Maura, <i>Os escribo a todos</i>, Esfera de los Libros, 2025; Charlez Dantzig, <i>Lettres de Prosper Mérimée à Madame de Montijo</i>, Paris, Mercure de France, 1995.",
       "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Mar%C3%ADa_Manuela_Kirkpatrick); [Real Academia de Historia](https://historia-hispanica.rah.es/biografias/24651-maria-manuela-kirkpatrick-de-closeburn-y-grevigne)]; [merimee.culture.fr](https://web.archive.org/web/20181214095917/http://www.merimee.culture.fr/fr/html/bio/entourage/femmes/montijo.html)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Kirkpatrick.jpg",
-      "image source": "Disdéri photograph"
+      "image source": "Disdéri photograph",
+      "added": "2025-08-04"
     },
     {
       "id": "Nadar",
@@ -686,7 +689,8 @@
       "bibliography": "Maite Díaz Francés, <i>J. Laurent 1816-1886: Un fotógrafo entre el negocio y el arte</i>, 2016; Carlos Teixidor, 'Fotografías de Laurent en la Quinta de Goya', <i>Descubrir el Arte</i>, no 154, Dec 2011, pp.48-54",
       "archives": "IPCE and INHA",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Laurent.jpg",
-      "image source": "1887 <i>La Ilustración Nacional</i>"
+      "image source": "1887 <i>La Ilustración Nacional</i>",
+      "added": "2025-08-04"
     },
     {
       "id": "Rosa Bonheur",
@@ -1062,7 +1066,8 @@
       "portrayed by": "José de Madrazo, c.1810-15; José de Madrazo, c.1812, Prado; José de Madrazo, 1813, RABASF",
       "bibliography": "Emilio La Parra López, 'Godoy en el París de Luis Felipe. La atracción de una imagen de prosperidad', <i>La imagen de Francia en España (1808-1850)</i>, pp.79-86",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Tudo.jpg",
-      "image source": "Madrazo portrait, c.1812, Prado"
+      "image source": "Madrazo portrait, c.1812, Prado",
+      "added": "2025-08-13"
     },
     {
       "id": "XV Countess of Chinchón",
@@ -1098,7 +1103,8 @@
       "aristocratic titles": "Dama de la Orden de las Damas Nobles de la reina María Luisa",
       "portrayed by": "Goya, 1783, Galleria degli Uffizi (equestrian portrait); Goya, 1783, bust portrait (profile), Pardo; Goya, 1783, Neue Pinakothek Munich; Goya, c.1783, private collection",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Vallabriga.jpg",
-      "image source": "Goya portrait, 1783, Neue Pinakothek Munich"
+      "image source": "Goya portrait, 1783, Neue Pinakothek Munich",
+      "added": "2025-08-13"
     },
     {
       "id": "Luis de Borbón",
@@ -1118,7 +1124,8 @@
       "portrayed by": "Van Loo, c.1737, Prado; Anton Raphael Mengs, 1767, San Diego Museum; Goya (attributed), 1783, private collection; Goya, 1784, <i>La familia del infante don Luis de Borbón</i>, Fondazione Magnani-Rocca",
       "exhibitions": "2012-13, <i>Goya y el Infante Don Luis: el exilio y el reino</i>, [Patrimonio Nacional](https://www.patrimonionacional.es/microsites/goya/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Luis_Borbon.jpg",
-      "image source": "Mengs, 1767, San Diego Museum"
+      "image source": "Mengs, 1767, San Diego Museum",
+      "added": "2025-08-13"
     },
     {
       "id": "Luis Paret",
@@ -1148,7 +1155,8 @@
       "newspaper archive": "Ángeles García, 'Luis Paret, el pintor que tuvo la mala suerte de coincidir con Goya', <i>El País</i>, [23 May 2022](https://elpais.com/cultura/2022-05-23/luis-paret-el-pintor-que-tuvo-la-mala-suerte-de-coincidir-con-goya.html)",
       "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/paret-y-alcazar-luis/9feac181-c1c4-4d8d-a91e-ab47d081213e), Xavier Bray; [Wikipedia](https://es.wikipedia.org/wiki/Luis_Paret_y_Alc%C3%A1zar)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Paret.jpg",
-      "image source": "self-portrait c.1779"
+      "image source": "self-portrait c.1779",
+      "added": "2025-08-13"
     },
     {
       "id": "Cyprien Gaulon",
@@ -1207,7 +1215,8 @@
       "bibliography": "Lanzarote Guiral 2016",
       "websites": "[RAH](https://historia-hispanica.rah.es/biografias/43327-alejandro-sureda-chappron), Nieves Panadero Peropadre; [Prado](https://www.museodelprado.es/museo/galeria-jonica), Galería Jónica",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Sureda_Alejandro.jpg",
-      "image source": "AI generated (DeepAI) because there is no known portrait"
+      "image source": "AI generated (DeepAI) because there is no known portrait",
+      "added": "2025-08-24"
     },
     {
       "id": "Laurent Matheron",
@@ -1406,7 +1415,7 @@
       "knows Goya's works": "the <i>Caprichos</i>, surely by 1830. He probably discovered this work via his friend Louis Boulanger c.1828-1829.",
       "link to Goya's work": [
         "1830 Hugo wrote <i>Buen viage! -GOYA-</i> on top of his poem no.28 from <i>Feuilles d'Automne</i>, which is a reference to <i>Capricho</i> 64, 'Buen viaje'. He dedicated it 'À mes amis S.-B. et L.B', which probably are Charles-Augustin Sainte-Beuve and Louis Boulanger.",
-        "1831 <i>Notre Dame de Paris</i>: 'C'était un de ces spectres mi-partis d'ombre et de lumière, comme on en voit dans les rêves et dans l'oeuvre extraordinaire de Goya, pâles, immobiles, sinistres, accroupis sur une tombe ou adossés à la grille d'un cachot' (1831, p.373). For Assante di Panzillo (2008, p.108), this description is evocative of <i>Capricho</i> 34, 'Les rinde el sueño'. Assante di Panzillo (2008, p.108) believes that this novel carries the indirect impact of Goya in the use of 'archetypes or <i>romantisme noir</i>'.",
+        "1831 <i>Notre Dame de Paris</i>: 'C'était un de ces spectres mi-partis d'ombre et de lumière, comme on en voit dans les rêves et dans l'œuvre extraordinaire de Goya, pâles, immobiles, sinistres, accroupis sur une tombe ou adossés à la grille d'un cachot' (1831, p.373). For Assante di Panzillo (2008, p.108), this description is evocative of <i>Capricho</i> 34, 'Les rinde el sueño'. Assante di Panzillo (2008, p.108) believes that this novel carries the indirect impact of Goya in the use of 'archetypes or <i>romantisme noir</i>'.",
         "1839 in <i>Rayons et les ombres</i>, Hugo compared Goya's gnomes to Rembrandt's witches and Callot's <i>Temptation of Saint Anthony</i> (1635) (Fayos Pérez 2024, p.126; Assante di Panzillo 2008, p.107); Adhémar 1935, p.xxvii; Hugo-Hetzel 1857, p.297).",
         "Some drawings by Hugo could be considered Goyaesque in an indirect way, such as <i>Ah ça! Décidément, que se passe-t-il après la mort?</i> (1869), showing a hybrid creature, half-donkey half-bird (BNF, NAF 13469, fol.33).",
         "Paul Guinard saw Hugo as Goya's 'spiritual heir' in his use of nightmarish visions and tragic imagery, as well as sensual and picaresque themes (Guinard 1957, p.102).",
@@ -1542,7 +1551,8 @@
       "portrayed by": "José María Esquivel, oil painting, 1842, Prado",
       "bibliography": "Lanzarote Guiral 2016",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Espronceda.jpg",
-      "image source": "Esquivel 1842"
+      "image source": "Esquivel 1842",
+      "added": "2025-08-23"
     },
     {
       "id": "Arsène Houssaye",
@@ -1561,7 +1571,8 @@
       "works as": "Administrateur général de la Comédie-Française (1849-56); inspecteur des musées de province (1857); inspecteur général des beaux-arts (1863); Président de la Société des gens de lettres (1884-85)",
       "portrayed by": "Gill, caricature, 28 June 1868; Étienne Carjat, photograph, c.1878",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Houssaye.jpg",
-      "image source": "Carjat c.1878"
+      "image source": "Carjat c.1878",
+      "added": "2025-08-23"
     },
     {
       "id": "Stéphane Mallarmé",
@@ -1587,7 +1598,8 @@
       "author of": "first poems published in 1862; a translation of Edgar A. Poe's 1845 <i>The Raven</i> (<i>Corbeau</i>) in 1875, illustrated by Édouard Manet; 1888 translation of Poe's poems",
       "archives": "Archives départementales des Yvelines (166J, Ms 11890-11891, 13238, 3s, 1890-1890); Bibliothèque littéraire Jacques-Doucet",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mallarme.jpg",
-      "image source": "Nadar c.1890"
+      "image source": "Nadar c.1890",
+      "added": "2025-08-23"
     },
     {
       "id": "Honoré de Balzac",
@@ -1697,7 +1709,8 @@
       "bibliography": "Fayos Pérez 2024; Valérie Sueur-Hermal, 'Gustave Doré et la gravure sur bois de teinte0, <i>Nouvelles de l'Estampe</i>, no.270, 2023; Alix Paré & Valérie Sueur-Hermel, <i>Fantastique Gustave Doré</i>, 2021; Philippe Kaenel, <i>Gustave Doré (1832-1883). L'imaginaire au pouvoir</i>, 2014; Auguste Lafront & Miguel Darrieumerlou, <i>La Tauromachie de Gustave Doré</i>, 1984.",
       "websites": "[AGORHA, INHA](https://agorha.inha.fr/ark:/54721/165e8172-e68a-447c-9573-aadf629454da); BnF, [<i>Les travaux d'Hercule</i>](https://essentiels.bnf.fr/fr/album/23a88d48-ecdd-45c9-9b72-04ea13ddff69-travaux-hercule)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dore.jpg",
-      "image source": "Nadar photograph, 1867"
+      "image source": "Nadar photograph, 1867",
+      "added": "2025-08-29"
     },
     {
       "id": "Francisco Martínez de la Rosa",
@@ -1981,7 +1994,8 @@
       "writes in": "<i>Journal pour tous</i>",
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Virginie_Ancelot)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ancelot.jpg",
-      "image source": "Gigoux portrait, 1839"
+      "image source": "Gigoux portrait, 1839",
+      "added": "2025-06-14"
     },
     {
       "id": "Marie Nodier",
@@ -2559,7 +2573,8 @@
       "bibliography": "Jesusa Vega, Museo del Prado, Catálogo de Estampas, 1992; <i>Journal de Rouen</i>, 27 March 1889, p.2.",
       "websites": "[Prado profile](https://www.museodelprado.es/coleccion/artista/asselineau-leon-auguste/f0b2a4b8-99f1-4edd-9467-77fe6f7abf83)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Asselineau_LeonAuguste.jpg",
-      "image source": "AI generated (DeepAI) because there is no known portrait"
+      "image source": "AI generated (DeepAI) because there is no known portrait",
+      "added": "2025-08-06"
     },
     {
       "id": "Jenaro Pérez Villaamil",
@@ -2588,6 +2603,7 @@
       "decorations/awards": "Caballero de la Orden de Isabel la Católica (1838); Encomienda de la Orden de Isabel la Católica (1840); Caballero de la Orden Nacional de la Legión de Honor (1844); Cruz de la Orden de Carlos III (1844); Caballero de La Orden de Leopoldo (1845)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Perez_Villaamil.jpg",
       "image source": "Ghémar portrait 1850",
+      "added": "2025-08-06",
       "last_modified": "2025-09-04"
     },
     {
@@ -2616,7 +2632,48 @@
         ],
       "portrayed by": "Self-portrait, c.1863, Clevelant Museum; Thomas Couture, c.1865, pierre noire et craie sur papier bleu; Michel Berthaud, c.1865, photograph; Nicolas Escalier; Carolus-Duran, <i>Henri Regnault mort au champ de bataille</i>, oil painting sketch (1871, Lille); Bocourt, 1874, drawing after a photograph (<i>Le Magasin pittoresque</i>); F. Levé, <i>Mort d'Henri Regnault</i> (Salon des artistes français de 1910). Bust of Henri Regnault at the Lycée Henri-IV",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Regnault.jpg",
-      "image source": "Couture, c.1865, drawing"
+      "image source": "Couture, c.1865, drawing",
+      "added": "2025-05-29"
+    },
+    {
+      "id": "Marcel Briguiboul",
+      "label": "Briguiboul",
+      "life dates": "1837-1892",
+      "nationality": "French",
+      "born in": "Sainte-Colombe-sur-l'Hers",
+      "dies in": "Nîmes",
+      "profession": "painter, sculptor, art collector", 
+      "married to": "Valentine Arban (a nurse who healed him when he was wounded at the 1870 war)",
+      "children": "Pierre Briguiboul",
+      "lives in": "Castres, Barcelona (1854-55), Madrid (1855-56), Paris",
+      "in Spain": "Barcelona (1854-55) and Madrid (1855-56)",
+      "in Madrid": "1855-56 (RABASF), June 1867, March 1881, Nov 1882",
+      "visits the Prado Museum": "c.1855-56: he makes copies after Velázquez, Titian and Rubens. Later on, he would also made copies after Francisco de Goya, in oil painting and watercolor (Musée Goya Castres).",
+      "interest in Spanish art": "he was a great admirer of Spanish painting and made copies after Velázquez and Goya at the Prado. According to Álvarez Lopera, the portrait of his son <i>Pierre Briguiboul</i> (c.1882-83) is clearly inspired by Velázquez. He also became a collector of Goya's work.",
+      "trips": "Algeria (1871); Italy",
+      "masters": "Ramón Martí Alsina (Barcelona 1854-55); Léon Patout (Paris); Léon Cogniet and Charles Gleyre (Paris 1859).,",
+      "studies in": [
+        "Escuela de La Lonja de Barcelona (1854-1855).",
+        "RABASF Madrid (1855-1856).",
+        "École des beaux-arts de Paris (1859): he meets Jean-Paul Laurens, Auguste Renoir and Claude Monet"
+      ],
+      "address": "Paris: 6, rue Furstemberg (atelier)",
+      "influenced by": "Auguste Renoir; Spanish art; Orientalism; Symbolism",
+      "exhibitions": [
+        "Paris Salon: from 1861; 1863 (3rd-class medal).",
+        "Recent years: Castres 1994, <i>Marcel Briguiboul. 1837-1892</i>, Musée Goya."
+      ],
+      "military activity": "1870 enlists in the Garde nationale (19th Batallion) during the Franco-Prussian War",
+      "decorations/awards": "Chevalier de la Légion d'honneur",
+      "author of": "<i>Autoportrait au chapeau</i>, [Musée Goya Castres 28-1-11](https://www.museegoya.fr/fr/notice/28-1-11-autoportrait-au-chapeau-0d98c42f-babb-485a-8823-4d5cbd9675e4); <i>Portrait de Pierre Briguiboul</i>, oil painting, c.1882-83, Musée Goya 28-1-17; <i>Narcisse</i>, sculpture, Musée Goya 28-1-217; <i>Portrait de Valentine Briguiboul en robe mauve avec son ombrelle</i>, oil painting, Musée Goya 28-1-20.",
+      "art collection": "his collection briefly became the musée Marcel Briguiboul (1929-1951)",
+      "collector of Goya's works": "in 1881 he acquired 3 paintings (and several prints): <i>La Junta de Filipinas</i> (L'Assemblée de la Compagnie Royale des Philippines) (1815), Goya's biggest painting (3.2 x 4.3 m), for which he got a loan of 35,000 reales, [894-5-4](https://www.museegoya.fr/fr/notice/894-5-4-l-assemblee-de-la-compagnie-royale-des-philippines-dite-la-junte-des-philippines-7dc13026-e99a-4d4d-a924-afa2204705e9); <i>Self-portrait with Glasses</i> and the <i>Portrait of Francisco del Mazo</i>. They were donated to the Musée Goya in Castres by his son Pierre Briguiboul in 1893.",
+      "portrayed by": "<i>Autoportrait au chapeau</i>, Musée Goya Castres",
+      "bibliography": "Jacqueline Brignon-Lavabre, 'La Villa Briguiboul', <i>Société culturelle du Pays castrais</i>, Castres, no.57, 2024; Jean-Louis Augé, 'La Junte des Philippines de Francisco Goya : le chef-d'œuvre révélé',<i>Technè</i>, no.53, 2022; Augé, <i>Velázquez et la France</i>, exh. cat., Castres, Musée Goya, 1999, pp.92-100; <i>Les peintres français et l'Espagne de Delacroix à Manet</i>, exh. cat., Castres, Musée Goya, 1997, pp.67-72; <i>Marcel Briguiboul. 1837-1892</i>, exh. cat., Castres, Musée Goya, 1994; Manuel Ossorio y Bernard, <i>Galería biográfica de artistas españoles del siglo XIX [1883-1884]</i>, Madrid, Giner, 1975, p.103.",
+      "websites": "[Prado, profile by José Álvarez Lopera](https://www.museodelprado.es/aprende/enciclopedia/voz/briguiboul-marcel/69a63096-f63f-4558-a6f6-e6fc4ccf8a03)",
+      "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Briguiboul.jpg",
+      "image source": "self-portrait, Musée Goya",
+      "added": "2025-09-11"
     },
     {
       "id": "Édouard Manet",
@@ -2793,7 +2850,8 @@
       "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Sueur-Hermel, 'Degas en noir et blanc, à la Bibliothèque nationale de France', <i>Nouvelles de l'estampe</i>, April 2023; Dumas et al. 1997; Gordon and Forge, <i>Degas</i>, 1988; Werner, <i>Degas Pastels</i>, 1969.",
       "archives": "Musée des beaux-arts du Canada",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Degas.jpg",
-      "image source": "self-portrait, photograph, 1895 (Harvard)"
+      "image source": "self-portrait, photograph, 1895 (Harvard)",
+      "added": "2025-08-01"
     },
     {
       "id": "Berthe Morisot",
@@ -2853,10 +2911,11 @@
       "trips": "1872 Spain; 1875 Isle of Wight; 1881 Italy; 1885 Belgium and Holland; 1886 Jersey",
       "mentions of Goya": "c.1872-73: 'We are going to Madrid, at least we think we are. I have written to Manet asking him for the address of Astruc who, I know, has been there for a fairly long time. He will be of great help to me, since he speaks Spanish aknows Madrid throughly, and he certainly will be able to point out to us the things worth seeing. He must feel about the Museum pretty much as I do. [...] We should give ourselves plenty of time to admire Velasquez and the Goyas. That is for me about the only interest in going...' [...] 'So far we have seen only the museum, which is magnificente, as you know. The city has no character [...] I have found the handsome Astruc; he has put himself entirely at our disposal for visiting the city, which he knows well. [...] I have no intention of exerting myself to see anything but paintings. Perhaps we'll go to Toledo, and come back here to see the bullfights, if we feel stouthearted enough' (Rouart 1959, pp.76-77).",
       "portrayed by": "Édouard Manet, <i>Berthe Morisot</i> (1872); <i>Berthe Morisot au chapeau noir</i> (1872, private coll.); anonymous, photograph, c.1877",
-      "bibliography": "Mathieu & Neveu 2012, <i>Berthe Morisot 1841-1895</i>; Pfeiffer & Hollein 2007-2008, <i>Women impressionists: Berthe Morisot, Mary Cassatt, Eva Gonzalès, Marie Bracquemond</i>; Anne Higonnet 1989 (translated into English 1995), <i>Berthe Morisot</i>; Clairet, Montlant & Rouart 1997, <i>Berthe Morisot, 1841-1895: Catalogue Raisonné de l'oeuvre peint</i>; Charles F. Stuckey, Suzanne G. Lindsay et al., <i>Berthe Morisot: rétrospective au Mount Holyoke College Art Museum et National Gallery of art Washington</i>, 1987; <i>The diary of Julie Manet</i> 1987/1990; Sophie Monneret, <i>L'Impressionnisme et son époque</i>, 1987; Jean Dominique Rey 1982, <i>Berthe Morisot</i>; Marie-Louise Bataille & Guy Wildenstein 1961, <i>Berthe Morisot, Catalogue des peintures, pastels et aquarelles</i>; Denis Rouart 1959, <i>The Correspondence of Berthe Morisot</i>.",
+      "bibliography": "Mathieu & Neveu 2012, <i>Berthe Morisot 1841-1895</i>; Pfeiffer & Hollein 2007-2008, <i>Women impressionists: Berthe Morisot, Mary Cassatt, Eva Gonzalès, Marie Bracquemond</i>; Anne Higonnet 1989 (translated into English 1995), <i>Berthe Morisot</i>; Clairet, Montlant & Rouart 1997, <i>Berthe Morisot, 1841-1895: Catalogue Raisonné de l'œuvre peint</i>; Charles F. Stuckey, Suzanne G. Lindsay et al., <i>Berthe Morisot: rétrospective au Mount Holyoke College Art Museum et National Gallery of art Washington</i>, 1987; <i>The diary of Julie Manet</i> 1987/1990; Sophie Monneret, <i>L'Impressionnisme et son époque</i>, 1987; Jean Dominique Rey 1982, <i>Berthe Morisot</i>; Marie-Louise Bataille & Guy Wildenstein 1961, <i>Berthe Morisot, Catalogue des peintures, pastels et aquarelles</i>; Denis Rouart 1959, <i>The Correspondence of Berthe Morisot</i>.",
       "websites": "[impressionism.nl](https://www.impressionism.nl/morisot-berthe/); [Giverny News] (https://givernews.com/2024/02/20/berthe-morisot-et-le-xviiie-siecle/); [Wikipedia](https://fr.wikipedia.org/wiki/Berthe_Morisot#)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Morisot.jpg",
-      "image source": "anonymous photograph, c.1877"
+      "image source": "anonymous photograph, c.1877",
+      "added": "2025-08-19"
     },
     {
       "id": "Émile Zola",
@@ -2878,7 +2937,8 @@
       "works as": "President of the Société des gens de lettres.",
       "curiosities": "he is the author of the famous article 'J'accuse...!' published in <i>L'Aurore</i> (13 Jan 1898) about the Dreyfus Affair, for which he was prosecuted for diffamation and sentenced to exile (London).",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Zola.jpg",
-      "image source": "self-portrait, 1902"
+      "image source": "self-portrait, 1902",
+      "added": "2025-08-19"
     },
     {
       "id": "Henri Fantin-Latour",
@@ -2916,7 +2976,8 @@
       "portrayed by": "self-portraits: 1859, Grenoble Museum; 1859, Lyon Museum; 1860, Fondation Bemberg, Toulouse; c.1860, drawing, Louvre; 1861, NGA; 1883 (Florence). Carolus-Duran, 1861, Met; Dornac, c.1890, photograph",
       "websites": "[Orsay, <i>La Nuit</i>](https://www.musee-orsay.fr/fr/oeuvres/la-nuit-216)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Fantin_Latour.jpg",
-      "image source": "1860 self-portrait, Toulouse"
+      "image source": "1860 self-portrait, Toulouse",
+      "added": "2025-08-19"
     },
     {
       "id": "Zacharie Astruc",
@@ -2968,7 +3029,8 @@
       "bibliography": "Hansen 2021; Maurer 2021 (in Hansen 2021); Mathilde Cantenot 2017, <i>Zacharie Astruc (1833-1907) et l'Espagne : à la rencontre d'un idéal, à l'épreuve du réel</i>, École du Louvre, thèse; Agnès Juvanon du Vachat, 'Les relations entre jardins et paysages, dans les récits des voyageurs français en Espagne', <i>Projets de Paysage</i>, 6, 2011.",
       "websites": "[AGORHA](https://agorha.inha.fr/detail/569); [impressionism.nl](https://www.impressionism.nl/astruc-zacharie/)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Astruc.jpg",
-      "image source": "Bracquemond etching c.1865"
+      "image source": "Bracquemond etching c.1865",
+      "added": "2025-08-21"
     },
     {
       "id": "Auguste Renoir",
@@ -3014,7 +3076,8 @@
       "curiosities": "he studies music with Charles Gounod c.1862",
       "archives": "Archives départementales des Yvelines (166J, Ms 9276, 13283-13289, 8s, 1897-1914)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Renoir.jpg",
-      "image source": "anonymous photograph, c.1875"
+      "image source": "anonymous photograph, c.1875",
+      "added": "2025-06-29"
     },
     {
       "id": "Alphonse de Lamartine",
@@ -3270,7 +3333,8 @@
       "married to": "Ángel María de Carvajal y Fernández de Córdoba y Gonzaga (1813), VIII Duke of Abrantes",
       "portrayed by": "Francisco de Goya, <i>La duquesa de Abrantes</i>, 1816, Prado [P007713](https://www.museodelprado.es/coleccion/obra-de-arte/la-duquesa-de-abrantes/3c02bff5-aa5e-40b8-919c-45ec87a9074e)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Abrantes_VIII.jpg",
-      "image source": "Goya portrait, 1816, Prado"
+      "image source": "Goya portrait, 1816, Prado",
+      "added": "2025-08-02"
     },
     {
       "id": "X Marchioness of Santa Cruz",
@@ -3290,7 +3354,8 @@
       "websites": "Prado, explanation by [Manuela Mena](https://www.youtube.com/watch?v=KbowsnUBey0); [Real Academia de la Historia](https://historia-hispanica.rah.es/biografias/43544-joaquina-tellez-giron-y-pimentel); [Wikipedia](https://es.wikipedia.org/wiki/Joaquina_T%C3%A9llez-Gir%C3%B3n_y_Pimentel)",
       "bibliography": "Joaquín Álvarez Barrientos, <i>Espacios de la comunicación literaria</i>, CSIC, 2002",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Santa_Cruz_X.jpg",
-      "image source": "Goya portrait, 1805, Prado"
+      "image source": "Goya portrait, 1805, Prado",
+      "added": "2025-08-02"
     },
     {
       "id": "X Duke of Osuna",
@@ -3478,7 +3543,8 @@
       "newspaper archive": "'¿Qué tesoros se llevó de España la reina María Cristina?', <i>La Vanguardia</i> (21 April 2022); 'De la corrupta María Cristina de Borbón al aún presunto Juan Carlos I', <i>elDiario.e</i> (7 Sept 2021); 'María Cristina de Borbón, la vergonzosa ambición económica de una reina impune', <i>El Confidencial</i> (14 Nov 2020); 'María Cristina de Borbón: la reina de la corrupción', <i>El Nacional.cat</i> (22 March 2020).",
       "websites": "<i>La esclavitud en España. El signo de la ignominia</i>, Ministerio de de Inclusión, Seguridad Social y Migraciones, [Ezequiel Paz](https://www.inclusion.gob.es/web/cartaespana/w/la-esclavitud-en-espana.-el-signo-de-la-ignominia)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Maria_Cristina.jpg",
-      "image source": "c.1870 photograph"
+      "image source": "c.1870 photograph",
+      "added": "2025-08-24"
     },
     {
       "id": "Joseph Bonaparte",
@@ -3565,7 +3631,8 @@
       "children": "9 children, including Francisco (1799-1816), María Teresa (1801-1866), Pedro de Alcántara (1803-1867) (future XIII Marquis of Villafranca), María Tomasa (1805-1870), and twins José (1812-1885) and Ignacio (1812-1878)",
       "married to": "María Tomasa Palafox, Marchioness of Villafranca",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Villafranca_XII.jpg",
-      "image source": "Goya portrait 1795, Prado"
+      "image source": "Goya portrait 1795, Prado",
+      "added": "2025-08-03"
     },
     {
       "id": "María Tomasa Palafox, Marchioness of Villafranca",
@@ -3602,7 +3669,8 @@
       "siblings": "María Tomasa Palafox, Marchioness of Villafranca; Eugenio Eulalio Palafox, VII Count of Montijo (XVII Count of Teba); Cipriano Palafox (VIII Count of Montijo).",
       "married to": "his cousin Luis Rebolledo de Palafox y Melzi, IV Marquis of Lazán (1797: at 14 years old)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Lazan.jpg",
-      "image source": "Goya portrait 1800-04, Palacio de Liria"
+      "image source": "Goya portrait 1800-04, Palacio de Liria",
+      "added": "2025-08-04"
     },
     {
       "id": "Eugenio Eulalio Palafox, VII Count of Montijo",
@@ -3632,7 +3700,8 @@
       "married to": "Ignacia Idiáquez; Magdalena Lázaro",
       "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Eugenio_Eulalio_Palafox_Portocarrero)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montijo_VII.jpg",
-      "image source": "Goya portrait c.1804, Frick"
+      "image source": "Goya portrait c.1804, Frick",
+      "added": "2025-08-04"
     },
     {
       "id": "Cipriano Portocarrero, VIII Count of Montijo",
@@ -3662,7 +3731,8 @@
       "children": "María Francisca de Sales Portocarrero Palafox y Kirkpatrick, IX Countess of Montijo, known as Paca Alba, (married to the Duke of Alba), and María Eugenia de Guzmán, known as Eugenia de Montijo, Countess of Teba, Empress of the French (married to Napoleon III)",
       "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Cipriano_Portocarrero)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montijo_VIII.jpg",
-      "image source": "Vicente López portrait c.1820"
+      "image source": "Vicente López portrait c.1820",
+      "added": "2025-08-04"
     },
     {
       "id": "María Francisca de Sales Portocarrero, VI Countess of Montijo",
@@ -3693,7 +3763,8 @@
       ],
       "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Mar%C3%ADa_Francisca_de_Sales_Portocarrero_(VI_condesa_de_Montijo)#cite_note-franco-1)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Montijo_VI.jpg",
-      "image source": "anonymous portrait c.1785"
+      "image source": "anonymous portrait c.1785",
+      "added": "2025-08-04"
     },
     {
       "id": "Juan de Madrazo",
@@ -3779,6 +3850,9 @@
       "author of": [
         "Painting: <i>La batalla de Tetuán</i> (1862-64); <i>Viejo desnudo al sol</i> (1863, Prado); <i>La vicaría</i> (1870).",
         "Drawing: <i>Standing male nude facing front, with left hand leaning on a stone block</i>, c.1861, Prado D006227."
+      ],
+      "exhibitions": [
+        "Recent years: Castres 1974, <i>Mariano Fortuny et ses amis français</i>, Musée Goya"
       ],
       "portrayed by": "Federico de Madrazo, 1867, Museo Nacional de Arte de Cataluña; Charles Albert Bertall, photograph, <i>Mariano Fortuny Marsal and Cecilia de Madrazo</i>, c.1870, Prado HF04363; Francisco Domingo Marqués, c.1874-84, M. Bilbao 69/76",
       "link to Goya's work": "1872 Fortuny is mentioned as a great admirer of Goya and Meissonier (<i>Dictionnaire de la conversation et de la lecture</i>, Paris, ed. William Duckett, p.732) (Fayos Pérez 2024, Appendix II).",
@@ -3906,7 +3980,8 @@
       "bibliography": "Joëlle Raineau-Lehuédé 2025; Fayos Pérez 2024; Griffits 2009; Los Llanos & Assante di Panzillo 2008",
       "websites": "(Petit Palais) [https://www.petitpalais.paris.fr/en/content/dutuit-bequest]",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dutuit_Auguste.jpg",
-      "image source": "Fosca 1884 sculpture"
+      "image source": "Fosca 1884 sculpture",
+      "added": "2025-07-20"
     },
     {
       "id": "Ernest Meissonier",
@@ -3938,7 +4013,8 @@
       ],
       "websites": "[Wikipedia](https://fr.wikipedia.org/wiki/Ernest_Meissonie)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Meissonier.jpg",
-      "image source": "Jefferson Bingham's portrait 1865"
+      "image source": "Jefferson Bingham's portrait 1865",
+      "added": "2025-08-09"
     },
     {
       "id": "Eduardo Zamacois",
@@ -3979,7 +4055,8 @@
       "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Eduardo_Zamacois_y_Zabala); [Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/zamacois-y-zabala-eduardo/49ca3919-7e82-4b6b-8b4e-771a7582a7f9); [Museo Thyssen Málaga](https://www.carmenthyssenmalaga.org/obra/regreso-al-convento)",
       "podcasts": "<i>Cualquier tiempo pasado fue anterior</i>, 'Anticlericalismo y pederastia' (29 Oct 2023).",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Zamacois.jpg",
-      "image source": "portrait by Raimundo de Madrazo, 1863, Prado"
+      "image source": "portrait by Raimundo de Madrazo, 1863, Prado",
+      "added": "2025-08-09"
     },
     {
       "id": "Eugène Dutuit",
@@ -4010,7 +4087,8 @@
       "archives": "Rouen Bibliothèques",
       "portrayed by": "Fix-Masseau, 1904, sculpture, Petit Palais (SDUT1340)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Dutuit_Eugene.jpg",
-      "image source": "Fix-Masseau sculpture"
+      "image source": "Fix-Masseau sculpture",
+      "added": "2025-07-20"
     },
     {
       "id": "Jacques Galos",
@@ -6268,6 +6346,20 @@
       "mentions": "Zola praises Renoir's <i>Lise à l'ombrelle</i> (1868)"
     },
     {
+      "from": "Marcel Briguiboul",
+      "to": "Auguste Renoir",
+      "connection_level": "direct", 
+      "relationship type": "colleagues",
+      "know each other since": "c.1859",
+      "interactions": "they met at the École des beaux-arts in Paris"
+    },
+    {
+      "from": "Marcel Briguiboul",
+      "to": "Francisco de Goya",
+      "connection_level": "secondary", 
+      "relationship type": "Briguiboul collected Goya's works: 3 paintings and prints (see Bruiguiboul's node)"
+    },
+    {
       "from": "Zacharie Astruc",
       "to": "Édouard Manet",
       "connection_level": "direct", 
@@ -6781,9 +6873,7 @@
       "connection_level": "direct", 
       "relationship type": "colleagues",
       "know each other since": "at least 1836",
-      "collaborations": "Johannot illustrated the 1836-37 edition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot",
-      "added": "2025-09-10",
-      "last_modified": "2025-09-10"
+      "collaborations": "Johannot illustrated the 1836-37 edition of Cervantes's <i>Don Quijote</i>, translated by Louis Viardot"
     },
     {
       "from": "Jules Jacquemart",
@@ -6808,8 +6898,7 @@
       "to": "Gustave Doré",
       "connection_level": "direct", 
       "relationship type": "acquaintances?",
-      "collaborations": "Doré illustrated Victor Hugo's <i>Les Travailleurs de la mer</i> (1867)",
-      "last_modified": "2025-08-29"
+      "collaborations": "Doré illustrated Victor Hugo's <i>Les Travailleurs de la mer</i> (1867)"
     },
     {
       "from": "Émile Zola",
@@ -7187,8 +7276,7 @@
         "Archivo familiar Carderera: at least two letters. No apparent mentions of Goya."
       ],
       "archives": "BNE; Archivo familiar Carderera (Madrid).",
-      "bibliography": "Fayos Pérez 2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016",
-      "last_modified": "2025-09-10"
+      "bibliography": "Fayos Pérez 2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
     },
     {
       "from": "Valentín Carderera",
@@ -7368,7 +7456,8 @@
       ],
       "exhibitions": "<i>Manet/Degas</i>, 2023, Metropolitan: [artworks](https://www.metmuseum.org/exhibitions/manet-degas/exhibition-objects)",
       "collection": "Degas acquired 3 artworks by Édouard Manet in 1884, as well as <i>Woman with a Cigarette</i> (c.1878-80) in 1896.",
-      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Reff 2020, <i>The Letters of Edgar Degas</i>; Patry 2019, <i>Berthe Morisot</i>; Rodary 2014, <i>Correspondance du Siège de Paris</i>; Gordon and Forge 1988; Rouart 1959, <i>The Correspondence of Berthe Morisot</i>; Rivière 1921, <i>Renoir et ses amis</i>; A. Proust 1913, <i>Edouard Manet. Souvenirs</i>; Moore 1911, <i>Hail and Farewell!</i>; Halévy 1960, <i>Degas parle</i>."
+      "bibliography": "Fayos Pérez 2024; Wolohojian & Dunn 2023; Reff 2020, <i>The Letters of Edgar Degas</i>; Patry 2019, <i>Berthe Morisot</i>; Rodary 2014, <i>Correspondance du Siège de Paris</i>; Gordon and Forge 1988; Rouart 1959, <i>The Correspondence of Berthe Morisot</i>; Rivière 1921, <i>Renoir et ses amis</i>; A. Proust 1913, <i>Edouard Manet. Souvenirs</i>; Moore 1911, <i>Hail and Farewell!</i>; Halévy 1960, <i>Degas parle</i>.",
+      "last_modified": "2025-08-19"
     },
     {
       "from": "Édouard Manet",
@@ -9299,8 +9388,7 @@
         "1872, 24 June, letter from Hugo to Jules Simon (Ministre de l'Instruction publique): 'Théophile Gautier est un des hommes qui honorent notre pays et notre temps ; il est au premier rang comme poète, comme critique, comme écrivain. Sa renommée fait partie de la gloire française. Eh bien, à cette heure, Théophile Gautier lutte à la fois contre la maladie et contre la détresse. (…) Je vous demande, au nom de l'honneur littéraire de notre pays, de lui venir en aide avec cette promptitude qui double le bien qu'on fait, et d'attribuer à Théophile Gautier la plus forte indemnité annuelle dont vous puissiez disposer'."
       ],
       "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; <i>Dessins de Victor Hugo gravés par Paul Chenay</i>, text by Théophile Gautier, Paris, L'Archange Minotaure, 2002; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; Théophile Gautier, <i>Victor Hugo</i>, selection of texts, F. Court-Pérez ed., 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1; Cécile Daubray, <i>Victor Hugo et ses correspondants</i>, 1947; <i>Victor Hugo par Théophile Gautier</i>, Paris, E. Fasquelle, 1902, [Gallica](http://gallica.bnf.fr/ark:/12148/bpt6k200915d.r=.langFR); .",
-      "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)",
-      "last_modified": "2025-09-05"
+      "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)"
     },
     {
       "from": "Victor Hugo",
@@ -10951,10 +11039,9 @@
         "1867, 14 Dec, 'Collection Khalil-Bey', <i>Le Moniteur Universel</i>.",
         "1872, 25 April, 'Notice sur la collection C***', <i>Gazette de Paris</i>."
       ],
-      "correspondence": "1841, 29 Nov, letter from Ingres to Gautier: 'Permettez-moi de vous offrir ce livre comme un témoignage de ma haute estime. J'ose espérer qu'il trouvera près de vous l'accueil bienveillant dont vous avez toujours honoré mes oeuvres' (Lacsote 1985, t.1, p.277).",
+      "correspondence": "1841, 29 Nov, letter from Ingres to Gautier: 'Permettez-moi de vous offrir ce livre comme un témoignage de ma haute estime. J'ose espérer qu'il trouvera près de vous l'accueil bienveillant dont vous avez toujours honoré mes œuvres' (Lacoste 1985, t.1, p.277).",
       "bibliography": "Lacoste, <i>Correspondance générale</i>, t.1 1985",
-      "websites": "Gautier-Ingres, [theophilegautier.fr](https://www.theophilegautier.fr/dossier-ingres/)",
-      "last_modified": "2025-09-05"
+      "websites": "Gautier-Ingres, [theophilegautier.fr](https://www.theophilegautier.fr/dossier-ingres/)"
     },
     {
       "from": "Achille Ricourt",
