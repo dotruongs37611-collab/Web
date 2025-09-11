@@ -1522,7 +1522,8 @@
       "bibliography": "Pilar Miguel Egea, <i>Carlos Luis de Ribera. Pintor romántico madrileño</i>, Fundación Vega-Inclán, 1983; Pedro de Madrazo 1880 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56.", 
       "websites": "[Prado](https://www.museodelprado.es/aprende/enciclopedia/voz/ribera-y-fieve-carlos-luis-de/87e76f5c-a7e6-4b47-99b6-0af56c0d73ea)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Ribera.jpg",
-      "image source": "Madrazo portrait 1838"
+      "image source": "Madrazo portrait 1838",
+      "added": "2025-09-06"
     },
     {
       "id": "José de Espronceda",
@@ -1636,7 +1637,8 @@
       "bibliography": "Anne-Marie Baron (dir.), 'Balzac, Hugo, Dumas, les chefs de file des Romantiques', <i>Le Courrier Balzacien</i>, no.69, 2025; Fayos Pérez 2024",
       "websites": "[Les Amis d'Honoré de Balzac](https://www.lesamisdebalzac.org/); [Wikipedia](https://fr.wikipedia.org/wiki/Honor%C3%A9_de_Balzac)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Balzac.jpg",
-      "image source": "daguerrotype by Bisson, 1842"
+      "image source": "daguerrotype by Bisson, 1842",
+      "last_modified": "2025-08-28"
     },
     {
       "id": "Gustave Doré",
@@ -1729,7 +1731,8 @@
       "portrayed by": "Federico de Madrazo, litograph, 1835 (<i>El Artista</i>); Antonio María Esquivel, <i>Los poetas contemporáneos</i>, 1846, Prado (collective portrait: includes José de Espronceda and Pedro de Madrazo); unknown, oil painting, 1850, Ateneo de Madrid; unkown, photograph, 1860; Gabriel Maureta, posthumous oil painting based on Madrazo's lithography, c.1881, Prado; Francisco Díaz Carreño, posthumous oil painting, c.1880, RAH",
       "bibliography": "Hugh Chisholm, 'Martínez de la Rosa, Francisco de Paula', in <i>Encylopaedia Britannica</i>, vol.17 (11th ed.), Cambridge UP, 1911",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Martinez_Rosa.jpg",
-      "image source": "1850 Ateneo de Madrid"
+      "image source": "1850 Ateneo de Madrid",
+      "added": "2025-09-04"
     },
     {
       "id": "Alexandre Dumas père",
@@ -2399,7 +2402,8 @@
       ],
       "bibliography": "Fayos Pérez 2020; Lanzarote Guiral 2016; B. Bouvier, <i>L'édition d'architecture à Paris au XIXe siècle: les maisons Bance et Morel et la presse architecturale</i>, 2004",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Carresse_AI.jpg",
-      "image source": "AI generated (DeepAI) because there is no known portrait"
+      "image source": "AI generated (DeepAI) because there is no known portrait",
+      "last_modified": "2025-09-04"
     },
     {
       "id": "Charles Yriarte",
@@ -2583,7 +2587,8 @@
       "bibliography": "Hopkins 2021;E. Arias Anglés, <i>El paisajista romántico Jenaro Pérez Villaamil</i>, 1986, CSIC; Xavier de Salas Bosch, 'Varias notas sobre Jenaro Pérez Villaamil', <i>Archivo Español de Arte</i>, vol.31, no.124, pp.273-98; Pérez Villaamil's diary, published by Méndez Casal in 1921, and Arias Anglés in 1986",
       "decorations/awards": "Caballero de la Orden de Isabel la Católica (1838); Encomienda de la Orden de Isabel la Católica (1840); Caballero de la Orden Nacional de la Legión de Honor (1844); Cruz de la Orden de Carlos III (1844); Caballero de La Orden de Leopoldo (1845)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Perez_Villaamil.jpg",
-      "image source": "Ghémar portrait 1850"
+      "image source": "Ghémar portrait 1850",
+      "last_modified": "2025-09-04"
     },
     {
       "id": "Henri Regnault",
@@ -3809,7 +3814,8 @@
       "influenced by": "Raimundo de Madrazo (his uncle)",
       "websites": "[Prado](https://www.museodelprado.es/coleccion/artista/fortuny-y-madrazo-mariano/0faef3f6-0929-4971-8a3d-13f835d6721b); [Museo del Traje](https://museodeltrajevirtual.com/mariano-fortuny-y-madrazo/); [Prado, Familia Madrazo-Fortuny](https://www.museodelprado.es/actualidad/multimedia/familia-madrazo-fortuny/dfadf9f4-8bfe-43a5-8a2d-3a2947faffe7)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Mariano_Fortuny_Madrazo.jpg",
-      "image source": "self-portrait 1947"
+      "image source": "self-portrait 1947",
+      "added": "2025-08-30"
     },
     {
       "id": "Louis Viardot",
@@ -3880,10 +3886,10 @@
       "portrayed by": [
         "Ary Scheffer, oil painting, 1840; George Sand, drawing, 1840-45; Maurice Sand, oil painting, 1844, Musée de la Vie romantique; unknown, print, c.1845; Ary Scheffer, 1851 (for a salon organ); Pierre Petit, photograph, 1860; Eugène Disdéri, photograph, 1861 (Pauline Viardot et Pierre-Jules Michot; Pierre Petit, photograph, 1860-90, Musée Carnavalet PH57485; Alexei Harlamov, oil painting, 1874; photograph, 1908.",
         "Birgit Stauch, bronze bust, 2004."
-    ],
+      ],
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Viardot_Pauline.jpg",
-      "image source": "Pierre Petit, photograph 1860-90"
-
+      "image source": "Pierre Petit, photograph 1860-90",
+      "added": "2025-08-31"
     },
     {
       "id": "Auguste Dutuit",
@@ -4228,7 +4234,8 @@
       "portrayed by": "Honoré Daumier, caricatural sculpture, 1832-35 (<i>Célébrités du Juste milieu</i>); Nadar, photograph, 1856-58; Ferdinand, lithography, before 1862 (<i>L'Artiste</i>).",
       "bibliography": "Pierrot & Yon 2011; Pierrot & Yon 2006; Antoinette Huon, 'Charles Philipon et la Maison Aubert', <i>Études de presse</i>, nouvelle série, 4e trimestre 1957", 
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Philipon.jpg",
-      "image source": "Nadar portrait 1856-58"
+      "image source": "Nadar portrait 1856-58",
+      "added": "2025-08-28"
     },
     {
       "id": "J. J. Grandville",
@@ -4334,7 +4341,8 @@
       "bibliography": "Fayos Pérez 2024",
       "websites": "[Agorha, INHA](https://agorha.inha.fr/detail/516)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Hirsch.jpg",
-      "image source": "Degas etching 1875"
+      "image source": "Degas etching 1875",
+      "added": "2025-08-26"
     },
     {
       "id": "Jules Jacquemart",
@@ -4372,7 +4380,8 @@
       "bibliography": "Fayos Pérez 2020; Brunet 1865",
       "websites": "[Agorha, INHA](https://agorha.inha.fr/ark:/54721/d6b76429-892e-4361-9800-5bbf93c4f107); [Orsay](https://www.musee-orsay.fr/fr/ressources/repertoire-artistes-personnalites/jules-jacquemart-15256)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Jacquemart.jpg",
-      "image source": "self-portrait, watercolor"
+      "image source": "self-portrait, watercolor",
+      "added": "2025-08-26"
     },
     {
       "id": "Edmond de Goncourt",
@@ -4395,7 +4404,8 @@
       "bibliography": "Fayos Pérez 2024; Pierre Ménard 2020, <i>Les infréquentables frères Goncourt</i>; Barbara Giraud 2009, <i>L'Héroïne goncourtienne: entre hystérie et dissidence</i>; Lethève 1968.",
       "websites": "[BNE](https://datos.bne.es/persona/XX1162461.html)",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goncourt_Edmond.jpg",
-      "image source": "Nadar photograph, unknown date"
+      "image source": "Nadar photograph, unknown date",
+      "added": "2025-08-27"
     },
     {
       "id": "Jules de Goncourt",
@@ -4417,7 +4427,8 @@
       "author of": "<i>Journal. Mémoires de la vie littéraire</i> (from 1851); <i>Renée Mauperin</i> (1864); <i>Germinie Lacerteux</i> (1865).",
       "bibliography": "Fayos Pérez 2024; Pierre Ménard 2020, <i>Les infréquentables frères Goncourt</i>; Barbara Giraud 2009, <i>L'Héroïne goncourtienne: entre hystérie et dissidence</i>; Lethève 1968.",
       "image": "https://raw.githubusercontent.com/PFayosP/GoyaNetworkWeb/main/images/Goncourt_Jules.jpg",
-      "image source": "Nadar photograph c.1877"
+      "image source": "Nadar photograph c.1877",
+      "added": "2025-08-27"
     }
   ],
   "edges": [
@@ -4757,7 +4768,8 @@
       "connection_level": "direct",
       "relationship type": "friends",
       "link to Goya's work": "in 1880, Pedro de Madrazo mentions Ribera's 1872 text discussing Goya's portrait of <i>La Tirana</i>.",
-      "bibliography": "Pedro de Madrazo 1880 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56; Carlos Luis de Ribera 1872, <i>Cuadros selectos de la Real Academia de Nobles Artes de San Fernando</i> III."
+      "bibliography": "Pedro de Madrazo 1880 'D. Francisco Goya y Lucientes', <i>Almanaque de la Ilustración</i> VII, pp.54-56; Carlos Luis de Ribera 1872, <i>Cuadros selectos de la Real Academia de Nobles Artes de San Fernando</i> III.",
+      "added": "2025-09-06"
     },
     {
       "from": "Federico de Madrazo",
@@ -5882,7 +5894,8 @@
       "to": "José de Madrazo",
       "connection_level": "direct",
       "relationship type": "acquaintances; colleague and rival of Ribera's father",
-      "interactions": "José surveyed the relationship of his son with Ribera during their stay in Paris 1837-39. He did not like Ribera's portrait of Federico (1839), considering it too dry and 'German'. He praised his son's portrait of Ribera as 'mucho mejor porque tiene más empaste, más brillantez y más jugo. El cabello está tocado divinamente y no puede mejorarse' (letter 24 Aug 1839), and later compared it to the portraits by Velázquez and Van Dyck (1 March 1841)."
+      "interactions": "José surveyed the relationship of his son with Ribera during their stay in Paris 1837-39. He did not like Ribera's portrait of Federico (1839), considering it too dry and 'German'. He praised his son's portrait of Ribera as 'mucho mejor porque tiene más empaste, más brillantez y más jugo. El cabello está tocado divinamente y no puede mejorarse' (letter 24 Aug 1839), and later compared it to the portraits by Velázquez and Van Dyck (1 March 1841).",
+      "added": "2025-09-06"
     },
     {
       "from": "Federico de Madrazo",
@@ -6795,7 +6808,8 @@
       "to": "Gustave Doré",
       "connection_level": "direct", 
       "relationship type": "acquaintances?",
-      "collaborations": "Doré illustrated Victor Hugo's <i>Les Travailleurs de la mer</i> (1867)"
+      "collaborations": "Doré illustrated Victor Hugo's <i>Les Travailleurs de la mer</i> (1867)",
+      "last_modified": "2025-08-29"
     },
     {
       "from": "Émile Zola",
@@ -7076,7 +7090,8 @@
       "relationship type": "master-student",
       "know each other since": "1836",
       "influence": "<i>Familia de Don Gregorio López de Mollinedo</i> (1854, private coll.): Delaroche's influence can be appreciated in the impressive tactile qualities, perfect draughtsmanship, the fusion of light and colour achieved with invaluable, millimetre-precise brushstrokes, and the quasi-photographic conception of the whole (Wikipedia).",
-      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Carlos_Luis_de_Ribera_y_Fieve)"
+      "websites": "[Wikipedia](https://es.wikipedia.org/wiki/Carlos_Luis_de_Ribera_y_Fieve)",
+      "added": "2025-09-06"
     },
     {
       "from": "Carlos Luis de Ribera",
@@ -7085,7 +7100,8 @@
       "relationship type": "friends",
       "know each other since": "at least 1841",
       "interactions": "they meet many times in Paris, from 1841, 6 May, to 1843, 4 Sept (Lanzarote Guiral 2016, pp.11, 221)",
-      "bibliography": "Lanzarote Guiral 2016"
+      "bibliography": "Lanzarote Guiral 2016",
+      "added": "2025-09-06"
     },
     {
       "from": "Carlos Luis de Ribera",
@@ -7093,7 +7109,8 @@
       "connection_level": "direct",
       "relationship type": "acquaintances; friends?",
       "know each other since": "at least 1837",
-      "mentions": "1837, 28 June, letter from Federico de Madrazo to Valentín Carderera, repeating what Dauzats said about Ribera: 'que Ribera trabaja mucho, que ha dejado un poco su timidez y que si tardo un poco en ir a París no le reconoceré, y además dice que me parecerá un hombre natural y que su padre bramaría si viese la influencia que ha ejercido París en él'."
+      "mentions": "1837, 28 June, letter from Federico de Madrazo to Valentín Carderera, repeating what Dauzats said about Ribera: 'que Ribera trabaja mucho, que ha dejado un poco su timidez y que si tardo un poco en ir a París no le reconoceré, y además dice que me parecerá un hombre natural y que su padre bramaría si viese la influencia que ha ejercido París en él'.",
+      "added": "2025-09-06"
     },
     {
       "from": "Federico de Madrazo",
@@ -7123,7 +7140,8 @@
         "Madrazo by Ribera: 1838-39 (finished 1 May 1839), oil painting, [Hispanic Society A1784](https://hispanicsociety.emuseum.com/objects/313/federico-de-madrazo-y-kuntz); 1848, drawing translated to woodcut, <i>Semanario Pintoresco Español</i> (in Ángel Fernández de los Ríos's <i>Álbum biográfico. Museo Universal de retratos</i>, 1849, pp.90-91)."
       ],
       "exhibitions": "2015-16 Prado, <i>Effigies Amicorum. Retratos de artistas por Federico de Madrazo (1815-1894)</i> (cur. Javier Barón); 2004-05 Prado, <i>El retrato español. Del Greco a Picasso</i>",
-      "websites": "[Prado, ficha del autor](https://www.museodelprado.es/coleccion/artista/ribera-y-fieve-carlos-luis-de/5e2996c9-53ec-4b75-ac76-eb4ead2cf6c0); <i>Effigies Amicorum</i>, [Prado](https://www.museodelprado.es/actualidad/exposicion/effigies-amicorum-retratos-de-artistas-por/92edd98f-04dc-4f84-99e6-2692f386604f); [almendron.com](https://www.almendron.com/blog/federico-de-madrazo-carlos-luis-de-ribera/)"
+      "websites": "[Prado, ficha del autor](https://www.museodelprado.es/coleccion/artista/ribera-y-fieve-carlos-luis-de/5e2996c9-53ec-4b75-ac76-eb4ead2cf6c0); <i>Effigies Amicorum</i>, [Prado](https://www.museodelprado.es/actualidad/exposicion/effigies-amicorum-retratos-de-artistas-por/92edd98f-04dc-4f84-99e6-2692f386604f); [almendron.com](https://www.almendron.com/blog/federico-de-madrazo-carlos-luis-de-ribera/)",
+      "added": "2025-09-06"
     },
     {
       "from": "Isabel II",
@@ -7131,21 +7149,25 @@
       "connection_level": "direct",
       "relationship type": "employer-employee",
       "know each other since": "at least 1846",
-      "employment/patronage": "Ribera was honorary chamber painter from 1846"
+      "employment/patronage": "Ribera was honorary chamber painter from 1846",
+      "portraits": "1835",
+      "added": "2025-09-06"
     },
     {
       "from": "María Luisa de Parma",
       "to": "Carlos Luis de Ribera",
       "connection_level": "direct",
       "relationship type": "acquaintances; godmother (<i>madrina de bautizo</i>)",
-      "interactions": "María Luisa acted as godmother in Ribera's baptism in Rome, during her exile"
+      "interactions": "María Luisa acted as godmother in Ribera's baptism in Rome, during her exile",
+      "added": "2025-09-06"
     },
     {
       "from": "Carlos IV",
       "to": "Carlos Luis de Ribera",
       "connection_level": "direct",
       "relationship type": "acquaintances; godfather (<i>padrino de bautizo</i>)",
-      "interactions": "Carlos IV acted as godfather in Ribera's baptism in Rome, during his exile"
+      "interactions": "Carlos IV acted as godfather in Ribera's baptism in Rome, during his exile",
+      "added": "2025-09-06"
     },
     {
       "from": "Valentín Carderera",
@@ -7165,7 +7187,8 @@
         "Archivo familiar Carderera: at least two letters. No apparent mentions of Goya."
       ],
       "archives": "BNE; Archivo familiar Carderera (Madrid).",
-      "bibliography": "Fayos Pérez 2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016"
+      "bibliography": "Fayos Pérez 2026 (upcoming); Fayos Pérez 2024; Lanzarote Guiral 2016",
+      "last_modified": "2025-09-10"
     },
     {
       "from": "Valentín Carderera",
@@ -9276,7 +9299,8 @@
         "1872, 24 June, letter from Hugo to Jules Simon (Ministre de l'Instruction publique): 'Théophile Gautier est un des hommes qui honorent notre pays et notre temps ; il est au premier rang comme poète, comme critique, comme écrivain. Sa renommée fait partie de la gloire française. Eh bien, à cette heure, Théophile Gautier lutte à la fois contre la maladie et contre la détresse. (…) Je vous demande, au nom de l'honneur littéraire de notre pays, de lui venir en aide avec cette promptitude qui double le bien qu'on fait, et d'attribuer à Théophile Gautier la plus forte indemnité annuelle dont vous puissiez disposer'."
       ],
       "bibliography": "'Gautier/Hugo: Mémoire(s) du romantisme', <i>Bulletin de la Société Théophile Gautier</i>, no.45, 2023; Lacoste-Veysseyre 2014; <i>Dessins de Victor Hugo gravés par Paul Chenay</i>, text by Théophile Gautier, Paris, L'Archange Minotaure, 2002; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.12, 2000; Théophile Gautier, <i>Victor Hugo</i>, selection of texts, F. Court-Pérez ed., 2000; 'Dossier Hugo-Gautier & Autour du <i>Capitaine Fracasse</i>', <i>Bulletin de la Société Théophile Gautier</i>, no.9, 1987; Lacoste-Veysseyre, <i>Correspondance générale</i>, t.1, 1985; Ulrich Guttinguer, <i>Correspondance générale</i>, tome 1; Cécile Daubray, <i>Victor Hugo et ses correspondants</i>, 1947; <i>Victor Hugo par Théophile Gautier</i>, Paris, E. Fasquelle, 1902, [Gallica](http://gallica.bnf.fr/ark:/12148/bpt6k200915d.r=.langFR); .",
-      "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)"
+      "websites": "Gautier-Hugo, [theophilegautier.fr](https://www.theophilegautier.fr/victor-hugo/)",
+      "last_modified": "2025-09-05"
     },
     {
       "from": "Victor Hugo",
@@ -10929,7 +10953,8 @@
       ],
       "correspondence": "1841, 29 Nov, letter from Ingres to Gautier: 'Permettez-moi de vous offrir ce livre comme un témoignage de ma haute estime. J'ose espérer qu'il trouvera près de vous l'accueil bienveillant dont vous avez toujours honoré mes oeuvres' (Lacsote 1985, t.1, p.277).",
       "bibliography": "Lacoste, <i>Correspondance générale</i>, t.1 1985",
-      "websites": "Gautier-Ingres, [theophilegautier.fr](https://www.theophilegautier.fr/dossier-ingres/)"
+      "websites": "Gautier-Ingres, [theophilegautier.fr](https://www.theophilegautier.fr/dossier-ingres/)",
+      "last_modified": "2025-09-05"
     },
     {
       "from": "Achille Ricourt",
